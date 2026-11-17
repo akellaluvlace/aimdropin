@@ -1,0 +1,62 @@
+{
+  "record": {
+    "slug": "jakarta-lte",
+    "title": "Jakarta LTE",
+    "description": "Tailwind CSS admin: analytics dashboard with ApexCharts, buttons, cards and forms.",
+    "repo": "undercode99/jakarta-lte",
+    "sha": "581d91fa7a6de3c9d4d1430be7927cb91658fd69",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENCE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/undercode99/jakarta-lte/blob/581d91fa7a6de3c9d4d1430be7927cb91658fd69/LICENCE"
+    },
+    "author": "Zero Black Coder",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "apexcharts"
+    ],
+    "demoUrl": "https://undercode99.github.io/jakarta-lte/",
+    "quality": 3,
+    "entry": "pages/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "pages/index.html",
+        "title": "Jakarta LTE - Free and Open Source Premium Admin Templates with rich UI Kit base on Tailwind CSS"
+      },
+      {
+        "path": "index.html",
+        "title": "Redirecting"
+      },
+      {
+        "path": "pages/button.html",
+        "title": "Jakarta LTE - Free and Open Source Premium Admin Templates with rich UI Kit base on Tailwind CSS"
+      },
+      {
+        "path": "pages/card.html",
+        "title": "Jakarta LTE - Free and Open Source Premium Admin Templates with rich UI Kit base on Tailwind CSS"
+      },
+      {
+        "path": "pages/form.html",
+        "title": "Jakarta LTE - Free and Open Source Premium Admin Templates with rich UI Kit base on Tailwind CSS"
+      }
+    ],
+    "storedBytes": 1664250,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:26.206Z"
+  },
+  "serve": {
+    "slug": "jakarta-lte",
+    "kind": "static",
+    "entry": "pages/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/undercode99/jakarta-lte@581d91fa7a6de3c9d4d1430be7927cb91658fd69/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

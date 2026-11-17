@@ -1,0 +1,135 @@
+{
+  "record": {
+    "slug": "sekul",
+    "title": "Sekul",
+    "description": "School-themed Bootstrap 5 admin: dashboard, UI components, form elements, tables and datatable.",
+    "repo": "zuramai/sekul",
+    "sha": "ebd2f86f4178aa93c41cfc9e18f2c70d64321920",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/zuramai/sekul/blob/ebd2f86f4178aa93c41cfc9e18f2c70d64321920/LICENSE"
+    },
+    "author": "zuramai",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "school",
+      "components"
+    ],
+    "demoUrl": null,
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-alert.html",
+        "title": "Alerts"
+      },
+      {
+        "path": "component-badge.html",
+        "title": "Badge"
+      },
+      {
+        "path": "component-breadcrumb.html",
+        "title": "Breadcrumb"
+      },
+      {
+        "path": "component-buttons.html",
+        "title": "Buttons"
+      },
+      {
+        "path": "component-card.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-carousel.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-dropdowns.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-extra-avatar.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-extra-divider.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-list-group.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-modal.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-navs.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-pagination.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "component-progress.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "form-element-checkbox.html",
+        "title": "Checkbox"
+      },
+      {
+        "path": "form-element-input-group.html",
+        "title": "Input Group"
+      },
+      {
+        "path": "form-element-input.html",
+        "title": "Input"
+      },
+      {
+        "path": "form-element-radio.html",
+        "title": "Radio"
+      },
+      {
+        "path": "form-element-select.html",
+        "title": "Select"
+      },
+      {
+        "path": "form-element-textarea.html",
+        "title": "Textarea"
+      },
+      {
+        "path": "table-datatable.html",
+        "title": "Sekul Dashboard"
+      },
+      {
+        "path": "table.html",
+        "title": "Table"
+      }
+    ],
+    "storedBytes": 1914451,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:24.792Z"
+  },
+  "serve": {
+    "slug": "sekul",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/zuramai/sekul@ebd2f86f4178aa93c41cfc9e18f2c70d64321920/",
+    "cdnRoot": "dist",
+    "cdnMap": null
+  }
+}

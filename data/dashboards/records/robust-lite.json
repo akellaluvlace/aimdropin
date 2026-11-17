@@ -1,0 +1,812 @@
+{
+  "record": {
+    "slug": "robust-lite",
+    "title": "Robust Lite",
+    "description": "Bootstrap 4 admin in LTR and RTL: dashboard, charts, cards, components, forms, tables, icons and auth pages.",
+    "repo": "bundanining/robust-free-bootstrap-admin-template",
+    "sha": "54f125bd54293c3d5d0240969e90d1fd6b1d0f66",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/bundanining/robust-free-bootstrap-admin-template/blob/54f125bd54293c3d5d0240969e90d1fd6b1d0f66/LICENSE"
+    },
+    "author": "PIXINVENT",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "rtl",
+      "charts",
+      "jquery"
+    ],
+    "demoUrl": null,
+    "quality": 3,
+    "entry": "html/ltr/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "html/ltr/index.html",
+        "title": "Project Dashboard - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/card-actions.html",
+        "title": "Card Actions - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/card-bootstrap.html",
+        "title": "Bootstrap Cards - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/card-charts.html",
+        "title": "Advance Chart Cards - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/card-statistics.html",
+        "title": "Advance Statistics Cards - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/changelog.html",
+        "title": "ChangeLog - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/chartjs-bar-charts.html",
+        "title": "Chartjs Bar Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/chartjs-line-charts.html",
+        "title": "Chartjs Line Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/chartjs-pie-doughnut-charts.html",
+        "title": "Chartjs Pie & Doughnut Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-amber.html",
+        "title": "Amber Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-blue-grey.html",
+        "title": "Blue Grey Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-blue.html",
+        "title": "Blue Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-brown.html",
+        "title": "Brown Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-cyan.html",
+        "title": "Cyan Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-danger.html",
+        "title": "Danger Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-deep-orange.html",
+        "title": "Deep Orange Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-deep-purple.html",
+        "title": "Deep Purple Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-green.html",
+        "title": "Green Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-grey.html",
+        "title": "Grey Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-indigo.html",
+        "title": "Indigo Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-info.html",
+        "title": "Info Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-light-blue.html",
+        "title": "Light Blue Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-light-green.html",
+        "title": "Light Green Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-lime.html",
+        "title": "Lime Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-orange.html",
+        "title": "Orange Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-pink.html",
+        "title": "Pink Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-primary.html",
+        "title": "Primary Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-purple.html",
+        "title": "Purple Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-red.html",
+        "title": "Red Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-success.html",
+        "title": "Success Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-teal.html",
+        "title": "Teal Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-warning.html",
+        "title": "Warning Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/color-palette-yellow.html",
+        "title": "Yellow Color - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/coming-soon-flat.html",
+        "title": "Coming Soon Flat - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-alerts.html",
+        "title": "Alerts - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-buttons-basic.html",
+        "title": "Buttons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-carousel.html",
+        "title": "Carousel - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-collapse.html",
+        "title": "Collapse - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-dropdowns.html",
+        "title": "Dropdowns - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-list-group.html",
+        "title": "List Group - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-media-objects.html",
+        "title": "Media Objects - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-modals.html",
+        "title": "Modal - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-navs-component.html",
+        "title": "Navs - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-pagination.html",
+        "title": "Pagination - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-pill-tags.html",
+        "title": "Pill Tags - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-pills-component.html",
+        "title": "Pills - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-popovers.html",
+        "title": "Popovers - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-progress.html",
+        "title": "Progress - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-tabs-component.html",
+        "title": "Tabs - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-tags.html",
+        "title": "Tags - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/component-tooltips.html",
+        "title": "Tooltip - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/content-grid.html",
+        "title": "Grid System - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/content-helper-classes.html",
+        "title": "Helper Classes - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/content-text-utilities.html",
+        "title": "Text Utilities - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/content-typography.html",
+        "title": "Typography - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/dashboard-2.html",
+        "title": "Dashboard 2 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/dashboard-lite.html",
+        "title": "Project Dashboard - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/error-400.html",
+        "title": "Error 400 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/error-401.html",
+        "title": "Error 401 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/error-403.html",
+        "title": "Error 403 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/error-404.html",
+        "title": "Error 404 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/error-500.html",
+        "title": "Error 500 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/flot-bar-charts.html",
+        "title": "Flot Bar Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/flot-line-charts.html",
+        "title": "Flot Line Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/flot-pie-charts.html",
+        "title": "Flot Pie Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/form-layout-basic.html",
+        "title": "Basic Forms - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/gallery-grid.html",
+        "title": "Gallery Media Grid - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/gmaps-basic-maps.html",
+        "title": "gmaps - Basic Maps - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/google-bar-charts.html",
+        "title": "google Bar Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/google-line-charts.html",
+        "title": "google Line Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/google-pie-charts.html",
+        "title": "google Pie Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/icons-evil.html",
+        "title": "Evil Icons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/icons-feather.html",
+        "title": "Feather Icons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/icons-font-awesome.html",
+        "title": "Font Awesome - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/icons-fps-line.html",
+        "title": "FPS Line Icons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/icons-ico-moon.html",
+        "title": "Ico Moon - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/icons-ionicons.html",
+        "title": "Ionicons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/icons-linecons.html",
+        "title": "Linecons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/icons-meteocons.html",
+        "title": "Meteocons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/invoice-template.html",
+        "title": "Invoice Template - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/layout-1-column.html",
+        "title": "1 Column - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/layout-2-columns.html",
+        "title": "2 Columns - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/layout-boxed.html",
+        "title": "Boxed Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/layout-dark.html",
+        "title": "Dark Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/layout-light.html",
+        "title": "Light Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/layout-semi-dark.html",
+        "title": "Semi Dark Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/layout-static.html",
+        "title": "Static Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/login-simple.html",
+        "title": "Login Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/recover-password.html",
+        "title": "Recover Password - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/register-simple.html",
+        "title": "Register Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/search-page.html",
+        "title": "Search Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/search-website.html",
+        "title": "Search Website - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/table-basic.html",
+        "title": "Basic Tables - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/under-maintenance.html",
+        "title": "Under Maintenance - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/unlock-user.html",
+        "title": "Unlock User - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/ltr/vector-maps-jvq.html",
+        "title": "jQuery Vector Maps - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/card-actions.html",
+        "title": "Card Actions - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/card-bootstrap.html",
+        "title": "Bootstrap Cards - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/card-charts.html",
+        "title": "Advance Chart Cards - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/card-statistics.html",
+        "title": "Advance Statistics Cards - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/changelog.html",
+        "title": "ChangeLog - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/chartjs-bar-charts.html",
+        "title": "Chartjs Bar Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/chartjs-line-charts.html",
+        "title": "Chartjs Line Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/chartjs-pie-doughnut-charts.html",
+        "title": "Chartjs Pie & Doughnut Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-amber.html",
+        "title": "Amber Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-blue-grey.html",
+        "title": "Blue Grey Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-blue.html",
+        "title": "Blue Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-brown.html",
+        "title": "Brown Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-cyan.html",
+        "title": "Cyan Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-danger.html",
+        "title": "Danger Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-deep-orange.html",
+        "title": "Deep Orange Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-deep-purple.html",
+        "title": "Deep Purple Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-green.html",
+        "title": "Green Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-grey.html",
+        "title": "Grey Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-indigo.html",
+        "title": "Indigo Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-info.html",
+        "title": "Info Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-light-blue.html",
+        "title": "Light Blue Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-light-green.html",
+        "title": "Light Green Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-lime.html",
+        "title": "Lime Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-orange.html",
+        "title": "Orange Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-pink.html",
+        "title": "Pink Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-primary.html",
+        "title": "Primary Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-purple.html",
+        "title": "Purple Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-red.html",
+        "title": "Red Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-success.html",
+        "title": "Success Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-teal.html",
+        "title": "Teal Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-warning.html",
+        "title": "Warning Color Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/color-palette-yellow.html",
+        "title": "Yellow Color - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/coming-soon-flat.html",
+        "title": "Coming Soon Flat - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-alerts.html",
+        "title": "Alerts - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-buttons-basic.html",
+        "title": "Buttons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-carousel.html",
+        "title": "Carousel - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-collapse.html",
+        "title": "Collapse - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-dropdowns.html",
+        "title": "Dropdowns - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-list-group.html",
+        "title": "List Group - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-media-objects.html",
+        "title": "Media Objects - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-modals.html",
+        "title": "Modal - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-navs-component.html",
+        "title": "Navs - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-pagination.html",
+        "title": "Pagination - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-pill-tags.html",
+        "title": "Pill Tags - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-pills-component.html",
+        "title": "Pills - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-popovers.html",
+        "title": "Popovers - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-progress.html",
+        "title": "Progress - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-tabs-component.html",
+        "title": "Tabs - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-tags.html",
+        "title": "Tags - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/component-tooltips.html",
+        "title": "Tooltip - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/content-grid.html",
+        "title": "Grid System - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/content-helper-classes.html",
+        "title": "Helper Classes - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/content-text-utilities.html",
+        "title": "Text Utilities - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/content-typography.html",
+        "title": "Typography - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/dashboard-2.html",
+        "title": "Dashboard 2 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/dashboard-lite.html",
+        "title": "Project Dashboard - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/error-400.html",
+        "title": "Error 400 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/error-401.html",
+        "title": "Error 401 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/error-403.html",
+        "title": "Error 403 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/error-404.html",
+        "title": "Error 404 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/error-500.html",
+        "title": "Error 500 - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/flot-bar-charts.html",
+        "title": "Flot Bar Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/flot-line-charts.html",
+        "title": "Flot Line Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/flot-pie-charts.html",
+        "title": "Flot Pie Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/form-layout-basic.html",
+        "title": "Basic Forms - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/gallery-grid.html",
+        "title": "Gallery Media Grid - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/gmaps-basic-maps.html",
+        "title": "gmaps - Basic Maps - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/google-bar-charts.html",
+        "title": "google Bar Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/google-line-charts.html",
+        "title": "google Line Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/google-pie-charts.html",
+        "title": "google Pie Chart - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/icons-evil.html",
+        "title": "Evil Icons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/icons-feather.html",
+        "title": "Feather Icons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/icons-font-awesome.html",
+        "title": "Font Awesome - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/icons-fps-line.html",
+        "title": "FPS Line Icons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/icons-ico-moon.html",
+        "title": "Ico Moon - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/icons-ionicons.html",
+        "title": "Ionicons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/icons-linecons.html",
+        "title": "Linecons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/icons-meteocons.html",
+        "title": "Meteocons - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/index.html",
+        "title": "Project Dashboard - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/invoice-template.html",
+        "title": "Invoice Template - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/layout-1-column.html",
+        "title": "1 Column - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/layout-2-columns.html",
+        "title": "2 Columns - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/layout-boxed.html",
+        "title": "Boxed Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/layout-dark.html",
+        "title": "Dark Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/layout-light.html",
+        "title": "Light Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/layout-semi-dark.html",
+        "title": "Semi Dark Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/layout-static.html",
+        "title": "Static Layout - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/login-simple.html",
+        "title": "Login Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/recover-password.html",
+        "title": "Recover Password - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/register-simple.html",
+        "title": "Register Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/search-page.html",
+        "title": "Search Page - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/search-website.html",
+        "title": "Search Website - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/table-basic.html",
+        "title": "Basic Tables - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/under-maintenance.html",
+        "title": "Under Maintenance - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/unlock-user.html",
+        "title": "Unlock User - Robust Free Bootstrap Admin Template"
+      },
+      {
+        "path": "html/rtl/vector-maps-jvq.html",
+        "title": "jQuery Vector Maps - Robust Free Bootstrap Admin Template"
+      }
+    ],
+    "storedBytes": 22260014,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:25.752Z"
+  },
+  "serve": {
+    "slug": "robust-lite",
+    "kind": "static",
+    "entry": "html/ltr/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/bundanining/robust-free-bootstrap-admin-template@54f125bd54293c3d5d0240969e90d1fd6b1d0f66/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

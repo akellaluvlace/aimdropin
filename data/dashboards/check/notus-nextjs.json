@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-10T19:01:55.135Z",
+  "pagesChecked": 12,
+  "pagesOk": 12,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "admin/dashboard/index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "404.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "404/index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "admin/maps/index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "admin/settings/index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "admin/tables/index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "auth/login/index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "auth/register/index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "landing/index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "profile/index.html",
+      "title": "Notus NextJS by Creative Tim"
+    },
+    {
+      "path": "",
+      "title": "Notus NextJS by Creative Tim"
+    }
+  ]
+}

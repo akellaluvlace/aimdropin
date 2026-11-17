@@ -1,0 +1,785 @@
+[
+  {
+    "slug": "coreui-angular",
+    "title": "CoreUI Free Angular Admin",
+    "description": "CoreUI admin template for Angular with dashboard, base and button components, forms, charts, icons, notifications, widgets and auth pages.",
+    "repo": "coreui/coreui-free-angular-admin-template",
+    "sha": "a514b2e9d6ecca9128a2eee3188f90c73350efe5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "creativeLabs Łukasz Holeczek",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "coreui",
+      "bootstrap",
+      "chartjs",
+      "dark-mode"
+    ],
+    "demoUrl": "https://coreui.io/angular/demo/5.x/free/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx ng build --base-href $DEMO_BASE",
+      "out": "dist/coreui-free-angular-admin-template/browser",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "coreui-angular.mjs"
+    }
+  },
+  {
+    "slug": "sakai-ng",
+    "title": "Sakai Angular",
+    "description": "PrimeNG admin template with dashboard, CRUD, every PrimeNG component demo, landing page, auth pages and timeline/empty pages.",
+    "repo": "primefaces/sakai-ng",
+    "sha": "c58210cdbdd8396df579d1f6974d9fc4ed60e1a2",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the last commit before src/assets became a git submodule (cetincakiroglu/sakai-assets, which has no license)."
+    },
+    "author": "PrimeTek",
+    "framework": "angular",
+    "ui": "primeng",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "primeng",
+      "tailwind",
+      "dark-mode",
+      "crud"
+    ],
+    "demoUrl": "https://sakai.primeng.org",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund",
+      "build": "npx ng build --base-href $DEMO_BASE",
+      "out": "dist/sakai-ng/browser",
+      "entry": "index.html",
+      "spa": true
+    }
+  },
+  {
+    "slug": "angular-tailwind",
+    "title": "Angular Tailwind",
+    "description": "Angular and Tailwind admin with an NFT-style dashboard, user table, auth pages (sign in/up, forgot password, 2FA) and error pages.",
+    "repo": "lannodev/angular-tailwind",
+    "sha": "590e1467e8664d56ad1d85765a618ef5a208ceae",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts 3.35.3 (MIT)."
+    },
+    "author": "Luciano Oliveira",
+    "framework": "angular",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "tailwind",
+      "apexcharts",
+      "dark-mode"
+    ],
+    "demoUrl": "https://lannodev.github.io/angular-tailwind/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx ng build --base-href $DEMO_BASE",
+      "out": "dist/angular-tailwind/browser",
+      "entry": "index.html",
+      "spa": true
+    }
+  },
+  {
+    "slug": "modernize-angular",
+    "title": "Modernize Angular Free",
+    "description": "Angular Material admin with an analytics dashboard, UI component pages (badges, chips, lists, menus, tooltips, forms, tables) and auth pages.",
+    "repo": "adminmart/modernize-angular-free",
+    "sha": "5645446705e334b3383a279c41884d9a62953665",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "notes": "Built from the main20 folder, which bundles ApexCharts 4.7.0 (MIT); the main folder uses ApexCharts 5.x."
+    },
+    "author": "AdminMart",
+    "framework": "angular",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "angular-material",
+      "apexcharts",
+      "tabler-icons"
+    ],
+    "demoUrl": "https://modernize-angular-main.netlify.app",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd main20 && npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx ng build --base-href $DEMO_BASE",
+      "out": "main20/dist/Modernize/browser",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "modernize-angular.mjs"
+    }
+  },
+  {
+    "slug": "airmill-dashboard",
+    "title": "Airmill Dashboard",
+    "description": "Windmill dashboard ported to SvelteKit and Tailwind: dashboard, forms, cards, charts, buttons, modals, tables, login and 404 pages.",
+    "repo": "sonyarianto/airmill-dashboard",
+    "sha": "9ad7490fa6c53b4a87fa42810664ff2d72b2b44d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Sony AK",
+    "framework": "sveltekit",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "sveltekit",
+      "svelte5",
+      "tailwind",
+      "chartjs",
+      "dark-mode"
+    ],
+    "demoUrl": "https://airmill-dashboard.vercel.app",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund && npm i --no-save --ignore-scripts --no-audit --no-fund @sveltejs/adapter-static@3",
+      "build": "npx vite build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "airmill-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "accessible-astro-dashboard",
+    "title": "Accessible Astro Dashboard",
+    "description": "Accessibility-focused Astro admin with dashboard, users, products, media, messages, settings and login pages.",
+    "repo": "incluud/accessible-astro-dashboard",
+    "sha": "3dcc29035a2fc648384336446248548565e63357",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Mark Teekman (Incluud)",
+    "framework": "astro",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "astro",
+      "accessibility",
+      "scss",
+      "dark-mode"
+    ],
+    "demoUrl": "https://accessible-astro-dashboard.netlify.app",
+    "quality": 2,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund",
+      "build": "npx astro build && node /patches/root-links-post.mjs dist",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "accessible-astro-dashboard.mjs"
+    },
+    "exclude": "Quality 2: builds and passes (21/21), but it's an empty starter; the dashboard is placeholder boxes and every list page says 'You haven't added any ... yet'."
+  },
+  {
+    "slug": "ng-devui-admin",
+    "title": "DevUI Admin",
+    "description": "Huawei DevUI admin for Angular (Chinese UI, English toggle): analysis/monitor/workspace dashboards, forms, lists, abnormal pages and user center.",
+    "repo": "DevCloudFE/ng-devui-admin",
+    "sha": "c05f8a0ca1e35ff9d1cdfc9a8a110c00b6184a42",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ECharts 5.2.1 (Apache-2.0)."
+    },
+    "author": "DevUI (Huawei Technologies)",
+    "framework": "angular",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "devui",
+      "echarts",
+      "i18n",
+      "dark-mode"
+    ],
+    "demoUrl": "https://devui.design/admin/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist/devui-admin",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "ng-devui-admin.mjs"
+    }
+  },
+  {
+    "slug": "material-dashboard-angular",
+    "title": "Material Dashboard Angular",
+    "description": "Creative Tim's Material Dashboard for Angular: dashboard, user profile, table list, typography, icons, maps, notifications and upgrade page.",
+    "repo": "creativetimofficial/material-dashboard-angular2",
+    "sha": "dcecb236dc78b3bab82372dea6405b3751719b12",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "bootstrap4",
+      "material-design",
+      "chartist"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/material-dashboard-angular2/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "material-dashboard-angular.mjs"
+    }
+  },
+  {
+    "slug": "argon-dashboard-angular",
+    "title": "Argon Dashboard Angular",
+    "description": "Creative Tim's Argon Dashboard for Angular: dashboard with Chart.js, icons, maps, user profile, tables, login and register pages.",
+    "repo": "creativetimofficial/argon-dashboard-angular",
+    "sha": "dfc9dc1d193cea51edc93092dd105eb9544e30d5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "bootstrap4",
+      "ng-bootstrap",
+      "chartjs"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/argon-dashboard-angular/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "argon-dashboard-angular.mjs"
+    }
+  },
+  {
+    "slug": "black-dashboard-angular",
+    "title": "Black Dashboard Angular",
+    "description": "Creative Tim's dark Black Dashboard for Angular: dashboard with Chart.js, icons, maps, notifications, user profile, tables, typography and RTL page.",
+    "repo": "creativetimofficial/black-dashboard-angular",
+    "sha": "ad40d9bfd6021c97bc63508c84aab658040b8924",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "bootstrap4",
+      "dark",
+      "chartjs",
+      "rtl"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/black-dashboard-angular/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "black-dashboard-angular.mjs"
+    }
+  },
+  {
+    "slug": "paper-dashboard-angular",
+    "title": "Paper Dashboard Angular",
+    "description": "Creative Tim's Paper Dashboard for Angular: dashboard with Chart.js, user profile, table list, typography, icons, maps, notifications and upgrade page.",
+    "repo": "creativetimofficial/paper-dashboard-angular",
+    "sha": "32c10b5215babfd3f12088af0164c942cb80e6c0",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "bootstrap4",
+      "ng-bootstrap",
+      "chartjs"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/paper-dashboard-angular/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "paper-dashboard-angular.mjs"
+    }
+  },
+  {
+    "slug": "light-bootstrap-dashboard-angular",
+    "title": "Light Bootstrap Dashboard Angular",
+    "description": "Creative Tim's Light Bootstrap Dashboard for Angular: dashboard with Chartist, user profile, table list, typography, icons, maps and notifications.",
+    "repo": "creativetimofficial/light-bootstrap-dashboard-angular2",
+    "sha": "4004b9c66b206560f9c713eab3e7f46d7be19fb6",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "bootstrap3",
+      "chartist"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/light-bootstrap-dashboard-angular/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "light-bootstrap-dashboard-angular.mjs"
+    }
+  },
+  {
+    "slug": "notus-angular",
+    "title": "Notus Angular",
+    "description": "Creative Tim's Notus for Angular and Tailwind: admin dashboard, settings, tables, maps, login/register, landing and profile pages.",
+    "repo": "creativetimofficial/notus-angular",
+    "sha": "d5eecfcab397f528a60fec61e38bfd7bab67ebc0",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "angular",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "tailwind",
+      "chartjs",
+      "landing-page"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-angular/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist/notus-angular",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "notus-angular.mjs"
+    }
+  },
+  {
+    "slug": "now-ui-dashboard-angular",
+    "title": "Now UI Dashboard Angular",
+    "description": "Creative Tim's Now UI Dashboard for Angular: dashboard with Chart.js, icons, maps, notifications, user profile, table list, typography and upgrade page.",
+    "repo": "creativetimofficial/now-ui-dashboard-angular",
+    "sha": "267e394311c33006317423a92e2ec935df506259",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "bootstrap4",
+      "ng-bootstrap",
+      "chartjs"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/now-ui-dashboard-angular/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "now-ui-dashboard-angular.mjs"
+    }
+  },
+  {
+    "slug": "ng-matero",
+    "title": "NG-Matero",
+    "description": "Angular Material admin with dashboard, Material component demos, forms, tables (incl. grid), media gallery, permissions, profile, auth and error pages.",
+    "repo": "ng-matero/ng-matero",
+    "sha": "fbe4e77b0bf7ea78b5c85b9fd306e9162a190d8d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the last commit (2025-09-23) before ApexCharts moved to 5.x; it bundles ApexCharts 4.5.0 (MIT)."
+    },
+    "author": "Zongbin",
+    "framework": "angular",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "angular-material",
+      "apexcharts",
+      "i18n",
+      "dark-mode",
+      "rtl"
+    ],
+    "demoUrl": "https://ng-matero.github.io/ng-matero/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "YARN_ENABLE_SCRIPTS=false yarn install --frozen-lockfile --ignore-scripts --network-timeout 600000",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist/ng-matero/browser",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "ng-matero.mjs"
+    }
+  },
+  {
+    "slug": "angular-material-admin",
+    "title": "Angular Material Admin",
+    "description": "Flatlogic's Angular Material admin: dashboard with ApexCharts and ECharts, typography, tables, notifications, UI icons/charts/maps pages and login.",
+    "repo": "flatlogic/angular-material-admin",
+    "sha": "8d743f3c2d5ec7a9bad4359cd612748428cbc550",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the 2024-03 commit (Angular 11, ApexCharts 3.26.2, MIT); the 2026-11 Angular 21 migration bundles ApexCharts 6.x."
+    },
+    "author": "Flatlogic",
+    "framework": "angular",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "angular-material",
+      "apexcharts",
+      "echarts"
+    ],
+    "demoUrl": "https://flatlogic.com/templates/angular-material-admin",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx ng build --configuration production --base-href $DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "angular-material-admin.mjs"
+    }
+  },
+  {
+    "slug": "ng-alain",
+    "title": "NG-ALAIN",
+    "description": "Enterprise Angular admin on ng-zorro-antd and @delon: analysis/monitor/workplace dashboards, forms, lists, profiles, results, exceptions and account pages.",
+    "repo": "ng-alain/ng-alain",
+    "sha": "9f84a4ea8bd0291683d4be3c66697f0346bc0dca",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ngx-tinymce is listed in package.json but not imported anywhere, so TinyMCE isn't bundled."
+    },
+    "author": "cipchk",
+    "framework": "angular",
+    "ui": "antd",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "ng-zorro",
+      "delon",
+      "i18n",
+      "mock-data"
+    ],
+    "demoUrl": "https://ng-alain.github.io/ng-alain/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --config.strict-dep-builds=false",
+      "build": "pnpm exec ng build --base-href $DEMO_BASE",
+      "out": "dist/ng-alain/browser",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "ng-alain.mjs"
+    }
+  },
+  {
+    "slug": "sb-admin-angular",
+    "title": "SB Admin Angular",
+    "description": "Start Bootstrap's SB Admin for Angular: dashboard with charts, tables, static navigation, light sidenav, auth and error pages.",
+    "repo": "StartBootstrap/sb-admin-angular",
+    "sha": "1761bb376f31d6f85d9ffeed67845dca973da9a4",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Start Bootstrap",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "bootstrap4",
+      "ng-bootstrap",
+      "chartjs",
+      "pug"
+    ],
+    "demoUrl": "https://sb-admin-angular.startbootstrap.com",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "node scripts/build-pug.js && npx ng build --prod --base-href $DEMO_BASE && node scripts/version.js",
+      "out": "dist/sb-admin-angular",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "sb-admin-angular.mjs"
+    }
+  },
+  {
+    "slug": "notus-svelte",
+    "title": "Notus Svelte",
+    "description": "Creative Tim's Notus for Svelte and Tailwind: admin dashboard, settings, tables, maps, login/register, landing, profile and UI-kit index pages.",
+    "repo": "creativetimofficial/notus-svelte",
+    "sha": "86099d1929551e25f25aea1c32c944e75bda0517",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "svelte",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "svelte",
+      "tailwind",
+      "chartjs",
+      "landing-page"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-svelte/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund",
+      "build": "npx rollup -c && npm run build:fontawesome",
+      "out": "public",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "notus-svelte.mjs"
+    }
+  },
+  {
+    "slug": "halolight-angular",
+    "title": "HaloLight Angular",
+    "description": "Chinese-language Angular 21 + Tailwind admin: draggable widget dashboard, analytics, users, roles, settings, profile and auth pages.",
+    "repo": "halolight/halolight-angular",
+    "sha": "62568798a56d7714d14c52a073ebaf58c695733c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ECharts 6 (Apache-2.0)."
+    },
+    "author": "h7ml",
+    "framework": "angular",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "tailwind4",
+      "signals",
+      "echarts",
+      "chinese"
+    ],
+    "demoUrl": "https://halolight-angular.h7ml.cn",
+    "quality": 2,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec ng build --base-href $DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "halolight-angular.mjs"
+    },
+    "exclude": "Quality 2: 0-star, AI-generated (CLAUDE.md-driven) Chinese-language admin; builds and passes 8/8, but the gridster dashboard renders clipped widgets with empty stat cards and only ~6 thin pages."
+  },
+  {
+    "slug": "material-angular-dashboard",
+    "title": "Material Angular Dashboard",
+    "description": "Dark Material Design Lite dashboard for Angular by CreativeIT: dashboard with NVD3 charts, UI components, forms, tables, maps, sign-in/up and 404 pages.",
+    "repo": "CreativeIT/material-angular-dashboard",
+    "sha": "0bbef05ef58a20733f7530962806332baacc9828",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "node-sass swapped for dart-sass at build time."
+    },
+    "author": "CreativeIT",
+    "framework": "angular",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "material-design-lite",
+      "nvd3",
+      "d3",
+      "dark"
+    ],
+    "demoUrl": "https://creativeit.github.io/material-angular-dashboard/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "YARN_ENABLE_SCRIPTS=false yarn install --ignore-scripts --network-timeout 600000",
+      "build": "npx ng build --prod --base-href $DEMO_BASE && node /patches/_root-urls-post.mjs dist",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "material-angular-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "ngx-admin",
+    "repo": "akveo/ngx-admin",
+    "exclude": "Bundles CKEditor 4.7.3 and TinyMCE 4.5.7 (GPL/LGPL-family licenses) through its editors page; every commit since 2017 includes them. Also needs node-sass 4."
+  },
+  {
+    "slug": "tailadmin-angular",
+    "repo": "TailAdmin/free-angular-tailwind-dashboard",
+    "exclude": "Bundles ApexCharts 5.x/7.x (non-MIT license) in every commit, including the first."
+  },
+  {
+    "slug": "adminlte-3-angular",
+    "repo": "erdkse/adminlte-3-angular",
+    "exclude": "Requires Firebase Auth for sign-in and routing (env generated at build from Firebase config); only dashboard/blank/profile pages behind it."
+  },
+  {
+    "slug": "salvia-angular-dashboards",
+    "repo": "salvia-kit/angular-dashboards",
+    "exclude": "Quality 2: layout shells only; every page renders the same placeholder content."
+  },
+  {
+    "slug": "salvia-svelte-dashboards",
+    "repo": "salvia-kit/svelte-dashboards",
+    "exclude": "Quality 2: layout shells only; every page renders the same placeholder content."
+  },
+  {
+    "slug": "salvia-solid-dashboards",
+    "repo": "salvia-kit/solid-dashboards",
+    "exclude": "Quality 2: layout shells only; every page renders the same placeholder content."
+  },
+  {
+    "slug": "halolight-svelte",
+    "repo": "halolight/halolight-svelte",
+    "exclude": "0-2 star AI-generated clone of HaloLight; its data layer is an MSW service-worker mock, which can't run in the demo sandbox."
+  },
+  {
+    "slug": "halolight-solid",
+    "repo": "halolight/halolight-solid",
+    "exclude": "0-star AI-generated clone of HaloLight built on SolidStart/vinxi SSR with server routes; no static build."
+  },
+  {
+    "slug": "halolight-astro",
+    "repo": "halolight/halolight-astro",
+    "exclude": "1-star AI-generated clone of HaloLight; built as an Astro SSR app (output: 'server', Vercel/Cloudflare adapter) with its auth flow on server API routes."
+  },
+  {
+    "slug": "halolight-qwik",
+    "repo": "halolight/halolight-qwik",
+    "exclude": "0-star AI-generated clone of HaloLight; Qwik City SSR with server API routes and Cloudflare adapter."
+  }
+]

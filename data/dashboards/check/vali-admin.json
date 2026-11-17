@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-11-10T18:07:38.549Z",
+  "pagesChecked": 16,
+  "pagesOk": 15,
+  "failures": [
+    {
+      "path": "table-data-table.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB https://cdn.jsdelivr.net/gh/pratikborsadiya/vali-admin@7130e93e650206d627cbe762ea0827cf592f3b83/docs/js/plugins/dataTables.bootstrap.min.js"
+    }
+  ],
+  "deadLinks": [
+    "page-error.html",
+    "read-mail.html"
+  ],
+  "pages": [
+    {
+      "path": "dashboard.html",
+      "title": "Vali Admin - Free Bootstrap 5 Admin Template"
+    },
+    {
+      "path": "blank-page.html",
+      "title": "Blank Page - Vali Admin"
+    },
+    {
+      "path": "bootstrap-components.html",
+      "title": "Bootstrap Elements - Vali Admin"
+    },
+    {
+      "path": "docs.html",
+      "title": "Documentation - Vali Admin"
+    },
+    {
+      "path": "form-components.html",
+      "title": "Form Components - Vali Admin"
+    },
+    {
+      "path": "form-samples.html",
+      "title": "Form Samples - Vali Admin"
+    },
+    {
+      "path": "index.html",
+      "title": "Vali Admin - Free Bootstrap 5 Dashboard Template"
+    },
+    {
+      "path": "page-invoice.html",
+      "title": "Invoice - Vali Admin"
+    },
+    {
+      "path": "page-lockscreen.html",
+      "title": "Lockscreen - Vali Admin"
+    },
+    {
+      "path": "page-login.html",
+      "title": "Login - Vali Admin"
+    },
+    {
+      "path": "page-mailbox.html",
+      "title": "Mailbox - Vali Admin"
+    },
+    {
+      "path": "page-user.html",
+      "title": "User Profile - Vali Admin"
+    },
+    {
+      "path": "table-basic.html",
+      "title": "Basic Tables - Vali Admin"
+    },
+    {
+      "path": "ui-cards.html",
+      "title": "Cards - Vali Admin"
+    },
+    {
+      "path": "widgets.html",
+      "title": "Widgets - Vali Admin"
+    }
+  ]
+}

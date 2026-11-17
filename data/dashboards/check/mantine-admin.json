@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-11-10T18:28:37.064Z",
+  "pagesChecked": 17,
+  "pagesOk": 17,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "dashboard/index.html",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "404.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "404/index.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "dashboard/chart/index.html",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "dashboard/form/index.html",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "dashboard/settings/index.html",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "dashboard/table/index.html",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "index.html",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "login/index.html",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "register/index.html",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "dashboard/",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "dashboard/table/",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "dashboard/form/",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "login/",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "register/",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "",
+      "title": "Mantine Admin"
+    },
+    {
+      "path": "login",
+      "title": "Mantine Admin"
+    }
+  ]
+}

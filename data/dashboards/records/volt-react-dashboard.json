@@ -1,0 +1,79 @@
+{
+  "record": {
+    "slug": "volt-react-dashboard",
+    "title": "Volt React Dashboard",
+    "description": "Bootstrap 5 admin: overview, transactions, settings, tables, auth/lock/error pages, 20 component pages and docs.",
+    "repo": "themesberg/volt-react-dashboard",
+    "sha": "419e51539b8a7a3878fa186b6912eafaf48d2d60",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/themesberg/volt-react-dashboard/blob/419e51539b8a7a3878fa186b6912eafaf48d2d60/LICENSE.md"
+    },
+    "author": "Themesberg",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "bootstrap-5",
+      "chartist",
+      "hash-router"
+    ],
+    "demoUrl": "https://demo.themesberg.com/volt-react-dashboard",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Volt React Dashboard"
+      }
+    ],
+    "storedBytes": 2565589,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.776Z"
+  },
+  "serve": {
+    "slug": "volt-react-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/themesberg/volt-react-dashboard@419e51539b8a7a3878fa186b6912eafaf48d2d60/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "android-chrome-192x192.png": "public/android-chrome-192x192.png",
+      "android-chrome-512x512.png": "public/android-chrome-512x512.png",
+      "apple-touch-icon.png": "public/apple-touch-icon.png",
+      "browserconfig.xml": "public/browserconfig.xml",
+      "favicon-16x16.png": "public/favicon-16x16.png",
+      "favicon-32x32.png": "public/favicon-32x32.png",
+      "favicon.ico": "public/favicon.ico",
+      "mstile-150x150.png": "public/mstile-150x150.png",
+      "robots.txt": "public/robots.txt",
+      "site.webmanifest": "public/site.webmanifest",
+      "static/media/404.9ba4b7cb.jpg": "src/assets/img/pages/404.jpg",
+      "static/media/500.192d8f70.jpg": "src/assets/img/pages/500.jpg",
+      "static/media/forgot-password.935e7046.jpg": "src/assets/img/pages/forgot-password.jpg",
+      "static/media/lock.69f2db42.jpg": "src/assets/img/pages/lock.jpg",
+      "static/media/mockup-calendar-presentation.b2d9831a.png": "src/assets/img/mockup-calendar-presentation.png",
+      "static/media/mockup-map-presentation.fc6d4c75.png": "src/assets/img/mockup-map-presentation.png",
+      "static/media/mockup-presentation.77a4c6a8.png": "src/assets/img/mockup-presentation.png",
+      "static/media/overview.00a52613.jpg": "src/assets/img/pages/overview.jpg",
+      "static/media/profile-cover.9992e0ee.jpg": "src/assets/img/profile-cover.jpg",
+      "static/media/profile-picture-1.4d26e151.jpg": "src/assets/img/team/profile-picture-1.jpg",
+      "static/media/profile-picture-2.487133c5.jpg": "src/assets/img/team/profile-picture-2.jpg",
+      "static/media/profile-picture-3.9a250e5c.jpg": "src/assets/img/team/profile-picture-3.jpg",
+      "static/media/profile-picture-4.ccd796b3.jpg": "src/assets/img/team/profile-picture-4.jpg",
+      "static/media/profile-picture-5.baf7bf75.jpg": "src/assets/img/team/profile-picture-5.jpg",
+      "static/media/react-mockup.99d034b6.png": "src/assets/img/react-mockup.png",
+      "static/media/reset-password.0a4cc9cd.jpg": "src/assets/img/pages/reset-password.jpg",
+      "static/media/settings.43fe4184.jpg": "src/assets/img/pages/settings.jpg",
+      "static/media/sign-in.ea051702.jpg": "src/assets/img/pages/sign-in.jpg",
+      "static/media/sign-up.6774df14.jpg": "src/assets/img/pages/sign-up.jpg",
+      "static/media/transactions.b98aee40.jpg": "src/assets/img/pages/transactions.jpg"
+    }
+  }
+}

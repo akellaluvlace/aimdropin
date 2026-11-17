@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-11-10T19:20:46.189Z",
+  "pagesChecked": 18,
+  "pagesOk": 18,
+  "failures": [],
+  "deadLinks": [
+    "app/404"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "Daisy UI Admin Dashboard Template - DashWind"
+    },
+    {
+      "path": "app/settings-profile",
+      "title": "App / Settings Profile"
+    },
+    {
+      "path": "app/settings-billing",
+      "title": "App / Settings Billing"
+    },
+    {
+      "path": "app/welcome",
+      "title": "App / Welcome"
+    },
+    {
+      "path": "app/dashboard",
+      "title": "App / Dashboard"
+    },
+    {
+      "path": "app/leads",
+      "title": "App / Leads"
+    },
+    {
+      "path": "app/transactions",
+      "title": "App / Transactions"
+    },
+    {
+      "path": "app/charts",
+      "title": "App / Charts"
+    },
+    {
+      "path": "app/integration",
+      "title": "App / Integration"
+    },
+    {
+      "path": "app/calendar",
+      "title": "App / Calendar"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "register",
+      "title": "Register"
+    },
+    {
+      "path": "forgot-password",
+      "title": "Forgot Password"
+    },
+    {
+      "path": "app/blank",
+      "title": "App / Blank"
+    },
+    {
+      "path": "app/settings-team",
+      "title": "App / Settings Team"
+    },
+    {
+      "path": "app/getting-started",
+      "title": "App / Getting Started"
+    },
+    {
+      "path": "app/features",
+      "title": "App / Features"
+    },
+    {
+      "path": "app/components",
+      "title": "App / Components"
+    }
+  ]
+}

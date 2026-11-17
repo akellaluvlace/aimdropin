@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-10T18:23:29.474Z",
+  "pagesChecked": 14,
+  "pagesOk": 14,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Angular Tailwind"
+    },
+    {
+      "path": "dashboard/nfts",
+      "title": "Dashboard / Nfts"
+    },
+    {
+      "path": "auth/sign-up",
+      "title": "Auth / Sign Up"
+    },
+    {
+      "path": "auth/sign-in",
+      "title": "Auth / Sign In"
+    },
+    {
+      "path": "auth/forgot-password",
+      "title": "Auth / Forgot Password"
+    },
+    {
+      "path": "auth/new-password",
+      "title": "Auth / New Password"
+    },
+    {
+      "path": "auth/two-steps",
+      "title": "Auth / Two Steps"
+    },
+    {
+      "path": "errors/404",
+      "title": "Errors / 404"
+    },
+    {
+      "path": "errors/500",
+      "title": "Errors / 500"
+    },
+    {
+      "path": "components/table",
+      "title": "Components / Table"
+    },
+    {
+      "path": "components/cards",
+      "title": "Components / Cards"
+    },
+    {
+      "path": "folders/current-files",
+      "title": "Folders / Current Files"
+    },
+    {
+      "path": "folders/download",
+      "title": "Folders / Download"
+    },
+    {
+      "path": "folders/trash",
+      "title": "Folders / Trash"
+    }
+  ]
+}

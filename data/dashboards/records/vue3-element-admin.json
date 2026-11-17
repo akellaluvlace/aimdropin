@@ -1,0 +1,71 @@
+{
+  "record": {
+    "slug": "vue3-element-admin",
+    "title": "Vue3 Element Admin",
+    "description": "Vue 3 + Element Plus admin: dashboard, users, roles, menus, departments, dictionaries, notices, logs, code generator and demos, with mock data.",
+    "repo": "youlaitech/vue3-element-admin",
+    "sha": "301f0ab983f8dda9d451c2c217b065ed613b9062",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/youlaitech/vue3-element-admin/blob/301f0ab983f8dda9d451c2c217b065ed613b9062/LICENSE"
+    },
+    "author": "youlaitech",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "element-plus",
+      "unocss",
+      "pinia",
+      "rbac"
+    ],
+    "demoUrl": "https://vue.youlai.tech",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue3 Element Admin"
+      }
+    ],
+    "storedBytes": 10472156,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:41.235Z"
+  },
+  "serve": {
+    "slug": "vue3-element-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/youlaitech/vue3-element-admin@301f0ab983f8dda9d451c2c217b065ed613b9062/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "fonts/DIN.SOoYeeXh.woff": "src/views/demo/data-screen/assets/fonts/DIN.woff",
+      "fonts/MetroDF.DkhDCifK.woff": "src/views/demo/data-screen/assets/fonts/MetroDF.woff",
+      "fonts/YouSheBiaoTiHei.BKmvYbVA.woff": "src/views/demo/data-screen/assets/fonts/YouSheBiaoTiHei.woff",
+      "images/preview/app-01.png": "public/images/preview/app-01.png",
+      "images/preview/app-02.png": "public/images/preview/app-02.png",
+      "images/preview/app-03.png": "public/images/preview/app-03.png",
+      "images/preview/app-04.png": "public/images/preview/app-04.png",
+      "images/preview/pc-01.png": "public/images/preview/pc-01.png",
+      "images/preview/pc-02.png": "public/images/preview/pc-02.png",
+      "images/preview/pc-03.png": "public/images/preview/pc-03.png",
+      "images/preview/pc-04.png": "public/images/preview/pc-04.png",
+      "images/preview/pc-05.png": "public/images/preview/pc-05.png",
+      "images/preview/pc-06.png": "public/images/preview/pc-06.png",
+      "images/qrcode/wechat-mp.jpg": "public/images/qrcode/wechat-mp.jpg",
+      "images/qrcode/wechat-official.jpg": "public/images/qrcode/wechat-official.jpg",
+      "images/qrcode/wechat-personal.png": "public/images/qrcode/wechat-personal.png",
+      "images/rainbow.png": "public/images/rainbow.png",
+      "img/bg.B_miWUDY.webp": "src/views/demo/data-screen/assets/images/bg.webp",
+      "img/header-bg.B79xnzCa.webp": "src/views/demo/data-screen/assets/images/header-bg.webp",
+      "img/ray.7cgsQ6d3.webp": "src/views/demo/data-screen/assets/images/ray.webp"
+    }
+  }
+}

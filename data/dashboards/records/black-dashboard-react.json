@@ -1,0 +1,59 @@
+{
+  "record": {
+    "slug": "black-dashboard-react",
+    "title": "Black Dashboard React",
+    "description": "Dark Bootstrap 4 admin with neon charts, icons, map, notifications, user profile, tables, typography and an RTL layout.",
+    "repo": "creativetimofficial/black-dashboard-react",
+    "sha": "26b59be1f1e5e3111f67461ebae393c31f95fa50",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/black-dashboard-react/blob/26b59be1f1e5e3111f67461ebae393c31f95fa50/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "reactstrap",
+      "dark-mode",
+      "rtl",
+      "chartjs"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/black-dashboard-react/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Black Dashboard React"
+      }
+    ],
+    "storedBytes": 2038681,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.187Z"
+  },
+  "serve": {
+    "slug": "black-dashboard-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/black-dashboard-react@26b59be1f1e5e3111f67461ebae393c31f95fa50/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-icon.png": "public/apple-icon.png",
+      "favicon.png": "public/favicon.png",
+      "static/media/anime3.4438e5067f2029f9e058.png": "src/assets/img/anime3.png",
+      "static/media/emilyz.105ff23d3d4b065ca850.jpg": "src/assets/img/emilyz.jpg",
+      "static/media/nucleo.35b08447277ca7bf9f09.ttf": "src/assets/fonts/nucleo.ttf",
+      "static/media/nucleo.5c65ef4d6434bb8062a3.woff": "src/assets/fonts/nucleo.woff",
+      "static/media/nucleo.6dfb4833e3a0132fd1fc.woff2": "src/assets/fonts/nucleo.woff2",
+      "static/media/nucleo.bd5cce8bf40be5947637.eot": "src/assets/fonts/nucleo.eot",
+      "static/media/react-logo.561f1671ed326d663356.png": "src/assets/img/react-logo.png"
+    }
+  }
+}

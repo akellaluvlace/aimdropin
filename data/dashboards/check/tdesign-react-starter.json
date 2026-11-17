@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-11-10T17:51:28.772Z",
+  "pagesChecked": 22,
+  "pagesOk": 20,
+  "failures": [
+    {
+      "path": "list/card",
+      "problem": "net::ERR_FAILED /demos/tdesign-react-starter/list/api/get-card-list"
+    },
+    {
+      "path": "detail/deploy",
+      "problem": "script error: AxiosError"
+    }
+  ],
+  "deadLinks": [
+    "result/404"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "TDesign Starter"
+    },
+    {
+      "path": "dashboard/base",
+      "title": "Dashboard / Base"
+    },
+    {
+      "path": "dashboard/detail",
+      "title": "Dashboard / Detail"
+    },
+    {
+      "path": "list/base",
+      "title": "List / Base"
+    },
+    {
+      "path": "list/select",
+      "title": "List / Select"
+    },
+    {
+      "path": "list/tree",
+      "title": "List / Tree"
+    },
+    {
+      "path": "form/base",
+      "title": "Form / Base"
+    },
+    {
+      "path": "form/step",
+      "title": "Form / Step"
+    },
+    {
+      "path": "detail/base",
+      "title": "Detail / Base"
+    },
+    {
+      "path": "detail/advanced",
+      "title": "Detail / Advanced"
+    },
+    {
+      "path": "detail/secondary",
+      "title": "Detail / Secondary"
+    },
+    {
+      "path": "result/success",
+      "title": "Result / Success"
+    },
+    {
+      "path": "result/fail",
+      "title": "Result / Fail"
+    },
+    {
+      "path": "result/network-error",
+      "title": "Result / Network Error"
+    },
+    {
+      "path": "result/403",
+      "title": "Result / 403"
+    },
+    {
+      "path": "result/500",
+      "title": "Result / 500"
+    },
+    {
+      "path": "result/browser-incompatible",
+      "title": "Result / Browser Incompatible"
+    },
+    {
+      "path": "result/maintenance",
+      "title": "Result / Maintenance"
+    },
+    {
+      "path": "user/index",
+      "title": "User / Index"
+    },
+    {
+      "path": "login/index",
+      "title": "Login / Index"
+    }
+  ]
+}

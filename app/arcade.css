@@ -1,0 +1,820 @@
+/* The landing page's wolf and its props (components/landing/Arcade.tsx).
+   Pixel-art sprite strips, played with steps(). Every scene plays once when
+   it scrolls into view and then holds still; under prefers-reduced-motion
+   nothing moves and each scene shows its resting pose. Nothing here takes
+   part in layout: all of it is absolutely placed. */
+
+/* ---------------------------------------------------------------------------
+   One sprite: a strip of --n frames, each --w by --h sprite pixels. A sprite
+   pixel is always 2 screen pixels, the site's border width.
+--------------------------------------------------------------------------- */
+.px {
+  --s: 2;
+  display: block;
+  flex: none;
+  width: calc(var(--w) * var(--s) * 1px);
+  height: calc(var(--h) * var(--s) * 1px);
+  background-image: var(--img);
+  background-repeat: no-repeat;
+  background-size: calc(var(--w) * var(--n, 1) * var(--s) * 1px) 100%;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+/* The sprites (sizes in sprite pixels; keep in step with public/sprites). */
+.px-wolf-run-sm { --img: url(/sprites/wolf-run-sm.png); --w: 45; --h: 40; --n: 8; }
+.px-wolf-sit-sm { --img: url(/sprites/wolf-sit-sm.png); --w: 43; --h: 42; --n: 8; }
+.px-wolf-jump-sm { --img: url(/sprites/wolf-jump-sm.png); --w: 44; --h: 42; --n: 8; }
+.px-wolf-roll-sm { --img: url(/sprites/wolf-roll-sm.png); --w: 42; --h: 40; --n: 8; }
+.px-wolf-sleep-sm { --img: url(/sprites/wolf-sleep-sm.png); --w: 41; --h: 30; --n: 6; }
+.px-wolf-bow-sm { --img: url(/sprites/wolf-bow-sm.png); --w: 42; --h: 37; --n: 8; }
+.px-wolf-look-sm { --img: url(/sprites/wolf-look-sm.png); --w: 40; --h: 44; --n: 8; }
+.px-wolf-wake-sm { --img: url(/sprites/wolf-wake-sm.png); --w: 43; --h: 42; --n: 8; }
+.px-wolf-sit-sm-gold { --img: url(/sprites/wolf-sit-sm-gold.png); --w: 43; --h: 42; --n: 8; }
+.px-wolf-sit-gold { --img: url(/sprites/wolf-sit-gold.png); --w: 86; --h: 85; --n: 8; }
+.px-wolf-jump-gold { --img: url(/sprites/wolf-jump-gold.png); --w: 89; --h: 84; --n: 8; }
+.px-wolf-howl-moon { --img: url(/sprites/wolf-howl-moon.png); --w: 80; --h: 85; --n: 8; }
+.px-moon { --img: url(/sprites/moon.png); --w: 48; --h: 50; }
+.px-disc { --img: url(/sprites/disc.png); --w: 21; --h: 11; --n: 5; }
+.px-star-big { --img: url(/sprites/star-big.png); --w: 13; --h: 13; }
+.px-star-small { --img: url(/sprites/star-small.png); --w: 7; --h: 7; }
+.px-art-pick { --img: url(/sprites/art-pick.png); --w: 40; --h: 36; --n: 16; }
+.px-art-preview { --img: url(/sprites/art-preview.png); --w: 40; --h: 36; --n: 17; }
+.px-art-remix { --img: url(/sprites/art-remix.png); --w: 40; --h: 36; --n: 17; }
+.px-art-ship { --img: url(/sprites/art-ship.png); --w: 40; --h: 36; --n: 18; }
+.px-art-licence { --img: url(/sprites/art-licence.png); --w: 44; --h: 36; --n: 17; }
+.px-art-checked { --img: url(/sprites/art-checked.png); --w: 44; --h: 36; --n: 18; }
+.px-art-trackers { --img: url(/sprites/art-trackers.png); --w: 44; --h: 36; --n: 18; }
+.px-art-source { --img: url(/sprites/art-source.png); --w: 52; --h: 36; --n: 19; }
+
+/* A sprite in a scene. The holder (.actor) is placed and timed; the sprite
+   inside it plays the frames. */
+.actor {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* ---------------------------------------------------------------------------
+   A yard: a strip where the wolf plays fetch (WolfPlay.tsx), in the hero and
+   in the footer. Its bottom edge is the ground. .yard-rest is the wolf of the
+   scene, .yard-wolf the one the script drives while a game is on, .yard-disc
+   the frisbee with room around it to grab. Without the script (or under
+   reduced motion) the frisbee just lies there.
+--------------------------------------------------------------------------- */
+.yard[data-live] .yard-rest {
+  visibility: hidden;
+}
+/* The wolf the script drives is one sprite per pose, one above the other, and
+   only the pose in use shows (.yard-on, while a game is on). They are hidden,
+   not removed, so every strip is on the page and loaded from the start, and
+   no sprite ever changes its image. (One sprite whose image was swapped had
+   to ask the server at each new pose: the first time for the file, later
+   whether it had changed. The wolf was not drawn until the answer came, so
+   on a real connection it blinked.) */
+.yard-wolf .px {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+}
+.yard[data-live] .yard-wolf .yard-on {
+  visibility: visible;
+}
+.yard-disc {
+  position: absolute;
+  bottom: 0;
+  width: 58px;
+  height: 44px;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* (Nothing may hang below the ground: in the footer that is the bottom of
+   the page, and anything below it gives the page a second scrollbar.) */
+.yard-disc .px {
+  position: absolute;
+  left: 8px;
+  bottom: 0;
+}
+.yard[data-ready] .yard-disc {
+  pointer-events: auto;
+  cursor: grab;
+  touch-action: none;
+}
+.yard[data-held] .yard-disc {
+  cursor: grabbing;
+}
+/* In the air, or in the wolf's mouth: not to be grabbed. */
+.yard[data-busy] .yard-disc {
+  pointer-events: none;
+}
+/* The frisbee's speech bubble: says how to play when the frisbee is pointed
+   at. It opens away from the wolf (--tip: 1 to the right, -1 to the left;
+   WolfPlay sets it after a game), with a stepped tail down to the frisbee. */
+.yard-tip {
+  --side: var(--tip, var(--face, 1));
+  position: absolute;
+  left: 50%;
+  bottom: 32px;
+  translate: calc(-50% + var(--side) * 34%) 0;
+  padding: 8px 10px 7px;
+  border: 2px solid #0f0f0f;
+  background: #fcfbf9;
+  box-shadow: 4px 4px 0 #0f0f0f;
+  color: #0f0f0f;
+  font-family: var(--font-jetbrains), Menlo, monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  pointer-events: none;
+  visibility: hidden;
+  transform-origin: calc(50% - var(--side) * 34%) 100%;
+}
+.yard-tip::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - var(--side) * 34% - 7px);
+  top: 100%;
+  width: 14px;
+  height: 8px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 8' shape-rendering='crispEdges'%3E%3Cpath fill='%23fcfbf9' d='M2 0h10v2H2zM4 2h6v2H4zM6 4h2v2H6z'/%3E%3Cpath fill='%230f0f0f' d='M0 0h2v2H0zM12 0h2v2h-2zM2 2h2v2H2zM10 2h2v2h-2zM4 4h2v2H4zM8 4h2v2H8zM6 6h2v2H6z'/%3E%3C/svg%3E") no-repeat;
+}
+.yard[data-ready]:not([data-live]) .yard-disc:hover .yard-tip {
+  visibility: visible;
+  animation: yard-tip-in 240ms steps(4, jump-none) both;
+}
+@keyframes yard-tip-in {
+  from {
+    transform: translateY(8px) scale(0.5);
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* All the frames, over and over (or a set number of times). */
+@keyframes px-loop {
+  to {
+    background-position-x: calc(var(--w) * var(--n) * var(--s) * -1px);
+  }
+}
+/* The same again under another name, so pointing at a sprite can restart it. */
+@keyframes px-again {
+  to {
+    background-position-x: calc(var(--w) * var(--n) * var(--s) * -1px);
+  }
+}
+/* All the frames once, ending on the last (use steps(n, jump-none)). */
+@keyframes px-once {
+  to {
+    background-position-x: calc(var(--w) * (var(--n) - 1) * var(--s) * -1px);
+  }
+}
+/* The jump's frames 5 to 8: in the air, coming down, landing, standing
+   (steps(4, jump-none)). */
+@keyframes px-land {
+  from {
+    background-position-x: calc(var(--w) * 4 * var(--s) * -1px);
+  }
+  to {
+    background-position-x: calc(var(--w) * 7 * var(--s) * -1px);
+  }
+}
+/* The jump's frames 4 to 8: the leap as well (steps(5, jump-none)). */
+@keyframes px-leap {
+  from {
+    background-position-x: calc(var(--w) * 3 * var(--s) * -1px);
+  }
+  to {
+    background-position-x: calc(var(--w) * 7 * var(--s) * -1px);
+  }
+}
+/* The lift that goes with a whole jump. */
+@keyframes px-hop {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  18% {
+    transform: translateY(2px);
+  }
+  55% {
+    transform: translateY(calc(var(--hop, 34px) * -1));
+  }
+}
+@keyframes px-show {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes px-hide {
+  to {
+    opacity: 0;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Hero. The wolf leaps in from beyond the left edge, runs along the
+   section's bottom rule, turns a somersault on the way and sits beside the
+   frisbee lying there. Pointing at it makes it somersault. The strip is a
+   yard: the frisbee can be picked up and thrown (WolfPlay.tsx).
+--------------------------------------------------------------------------- */
+.lvl-ground {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 96px;
+  pointer-events: none;
+  container-type: inline-size;
+  /* Where the wolf rests (its left edge) and which way it faces (1 right,
+     -1 left): WolfPlay moves both after a game. Where it lands when it
+     leaps in, how long it runs from there and how many strides that is. */
+  --rest: calc(100cqw - 176px);
+  --face: 1;
+  --land: 12px;
+  --run: 1400ms;
+  --strides: 4;
+}
+@media (min-width: 1024px) {
+  .lvl-ground {
+    --rest: 46cqw;
+    --land: 5cqw;
+    --run: 2000ms;
+    --strides: 5;
+  }
+}
+/* The entrance: one holder that moves, three poses inside it taking turns. */
+.lvl-enter,
+.lvl-pose,
+.lvl-trick {
+  opacity: 0;
+}
+.lvl-pose,
+.lvl-trick {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/* At rest (also: reduced motion): the wolf sits. The frisbee lies in front
+   of it, and is there from the start. */
+.lvl-sit {
+  left: var(--rest);
+  scale: var(--face) 1;
+  pointer-events: auto;
+}
+.lvl-disc {
+  left: calc(var(--rest) + 96px);
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* --t0 is when it starts: a moment after the hero's own entrance when the
+     ground is on screen from the start, at once when it scrolls into view
+     (where the ground is below the fold). Then: 720ms leap, --run of running
+     with the somersault from 36% to 68% of it, sit, two wags of the tail. */
+  .lvl-ground {
+    --t0: 1100ms;
+    --t1: calc(var(--t0) + 720ms);
+    --t2: calc(var(--t1) + var(--run));
+  }
+  .lvl-ground.rv-armed {
+    --t0: 150ms;
+  }
+  .lvl-enter {
+    animation:
+      lvl-in 720ms linear var(--t0) forwards,
+      lvl-arc 720ms linear var(--t0) forwards,
+      lvl-go var(--run) linear var(--t1) forwards,
+      px-hide 1ms linear var(--t2) forwards;
+  }
+  .lvl-leap {
+    animation:
+      px-leap 720ms steps(5, jump-none) var(--t0) both,
+      lvl-on 720ms linear var(--t0);
+  }
+  .lvl-run {
+    animation:
+      px-loop 400ms steps(8) var(--t1) var(--strides),
+      lvl-run-on var(--run) linear var(--t1);
+  }
+  .lvl-roll {
+    --hop: 40px;
+    animation:
+      px-once calc(var(--run) * 0.32) steps(8, jump-none) calc(var(--t1) + var(--run) * 0.36) both,
+      px-hop calc(var(--run) * 0.32) cubic-bezier(0.3, 0, 0.3, 1) calc(var(--t1) + var(--run) * 0.36) both,
+      lvl-on calc(var(--run) * 0.32) linear calc(var(--t1) + var(--run) * 0.36);
+  }
+  .lvl-sit {
+    opacity: 0;
+    animation: px-show 1ms linear var(--t2) forwards;
+  }
+  .lvl-still {
+    animation: px-loop 880ms steps(8) var(--t2) 2;
+  }
+  /* Below the fold and not reached yet: wait. */
+  .lvl-ground.rv-armed:not(.rv-in) :is(.lvl-enter, .lvl-pose, .lvl-sit, .lvl-still) {
+    animation: none;
+  }
+  /* After a game (WolfPlay): no entrance; the wolf sits where --rest says. */
+  .lvl-ground[data-played] .lvl-enter {
+    display: none;
+  }
+  .lvl-ground[data-played] :is(.lvl-sit, .lvl-still) {
+    opacity: 1;
+    animation: none;
+  }
+  /* Point at the frisbee: the wolf knows what is coming, and wags. */
+  .yard[data-ready]:has(.yard-disc:hover) .lvl-still {
+    animation: px-again 520ms steps(8) infinite;
+  }
+  /* Point at it (or tap it): a somersault. The sitting sprite steps aside
+     for the length of the trick, so it ends sitting again. */
+  .lvl-ground .lvl-sit.actor:hover .lvl-still {
+    animation: lvl-off 640ms linear;
+  }
+  .lvl-ground .lvl-sit.actor:hover .lvl-trick {
+    --hop: 46px;
+    animation:
+      px-once 640ms steps(8, jump-none),
+      px-hop 640ms cubic-bezier(0.3, 0, 0.3, 1),
+      lvl-on 640ms linear;
+  }
+}
+/* Shown, or not shown, for exactly the length of the animation. */
+@keyframes lvl-on {
+  from,
+  to {
+    opacity: 1;
+  }
+}
+@keyframes lvl-off {
+  from,
+  to {
+    opacity: 0;
+  }
+}
+/* The running pose steps aside for the somersault. */
+@keyframes lvl-run-on {
+  0%,
+  35.9% {
+    opacity: 1;
+  }
+  36%,
+  67.9% {
+    opacity: 0;
+  }
+  68%,
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lvl-in {
+  from {
+    opacity: 1;
+    translate: -140px 0;
+  }
+  to {
+    opacity: 1;
+    translate: var(--land) 0;
+  }
+}
+@keyframes lvl-arc {
+  0% {
+    transform: translateY(-26px);
+    animation-timing-function: cubic-bezier(0.2, 0.6, 0.4, 1);
+  }
+  38% {
+    transform: translateY(-84px);
+    animation-timing-function: cubic-bezier(0.6, 0, 0.9, 0.6);
+  }
+  88%,
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes lvl-go {
+  from {
+    opacity: 1;
+    translate: var(--land) 0;
+  }
+  to {
+    opacity: 1;
+    translate: var(--rest) 0;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Card drawings (the step cards and the fine-print cards): a strip of frames
+   that puts the picture together once and holds the finished frame. No
+   replays, on hover or otherwise. Without animation the finished frame
+   shows.
+--------------------------------------------------------------------------- */
+.art {
+  background-position-x: calc(var(--w) * (var(--n) - 1) * var(--s) * -1px);
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* Waiting below the fold: the first frame, which is empty. Then each one
+     plays as it arrives. */
+  .art.rv-armed {
+    background-position-x: 0;
+  }
+  .art.rv-in {
+    animation: px-once calc(var(--n) * 70ms) steps(var(--n), jump-none) calc(250ms + var(--i, 0) * var(--art-gap, 0ms)) both;
+  }
+  .print-art {
+    --art-gap: 140ms;
+  }
+}
+@media (prefers-reduced-motion: no-preference) and (min-width: 1024px) {
+  /* The four step cards in one row: each drawing starts as the wolf runs
+     past its card (the timing of .step-tile below). */
+  [data-reveal="stagger"].rv-armed .step-art {
+    background-position-x: 0;
+    animation: none;
+  }
+  [data-reveal="stagger"].rv-in .step-art {
+    animation: px-once calc(var(--n) * 70ms) steps(var(--n), jump-none) calc(1400ms + var(--i, 0) * 845ms) both;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   How it works (wide screens, where the four cards sit in one row): the wolf
+   hops up from behind the first card, runs along the tops of all four and
+   sits on the last. Each number jumps as it passes. It follows the list's
+   own reveal, so it never runs along cards that are not there yet.
+--------------------------------------------------------------------------- */
+.steps-run {
+  display: none;
+  position: absolute;
+  inset: auto 0 100% 0;
+  height: 150px;
+  pointer-events: none;
+  container-type: inline-size;
+  /* Cut off at the cards' top edge: what is below it is "behind" the card. */
+  clip-path: inset(-80px -80px 0 -80px);
+  --start: 12px;
+  --end: calc(100cqw - 98px);
+}
+@media (min-width: 1024px) {
+  .steps-run {
+    display: block;
+  }
+}
+.steps-up,
+.steps-dash {
+  opacity: 0;
+}
+.steps-up {
+  left: var(--start);
+}
+.steps-sit {
+  left: var(--end);
+  pointer-events: auto;
+}
+/* Pointed at, it jumps: a second sprite over the sitting one, hidden until
+   then, so that no sprite ever changes its image (see .yard-wolf). */
+.steps-jump {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  [data-reveal="stagger"].rv-armed ~ .steps-run .steps-sit {
+    opacity: 0;
+  }
+  /* 600ms: up from behind the first card. 1300ms: runs, 3s. 4300ms: sits. */
+  [data-reveal="stagger"].rv-in ~ .steps-run .steps-up {
+    animation:
+      steps-hop 700ms linear 600ms forwards,
+      px-hide 1ms linear 1300ms forwards;
+  }
+  [data-reveal="stagger"].rv-in ~ .steps-run .steps-up .px {
+    animation: px-leap 700ms steps(5, jump-none) 600ms both;
+  }
+  [data-reveal="stagger"].rv-in ~ .steps-run .steps-dash {
+    animation:
+      steps-go 3000ms linear 1300ms forwards,
+      px-hide 1ms linear 4300ms forwards;
+  }
+  [data-reveal="stagger"].rv-in ~ .steps-run .steps-dash .px {
+    animation: px-loop 400ms steps(8) 1300ms 8;
+  }
+  [data-reveal="stagger"].rv-in ~ .steps-run .steps-sit {
+    animation: px-show 1ms linear 4300ms forwards;
+  }
+  [data-reveal="stagger"].rv-in ~ .steps-run .steps-sit .steps-still {
+    animation: px-loop 880ms steps(8) 4300ms 2;
+  }
+  [data-reveal="stagger"].rv-in .step-tile {
+    animation: step-pop 420ms cubic-bezier(0.2, 1.6, 0.4, 1) calc(1320ms + var(--i, 0) * 845ms) both;
+  }
+  .steps-run .steps-sit.actor:hover .steps-still {
+    visibility: hidden;
+    animation: none;
+  }
+  .steps-run .steps-sit.actor:hover .steps-jump {
+    visibility: visible;
+    animation:
+      px-once 760ms steps(8, jump-none) both,
+      px-hop 760ms cubic-bezier(0.3, 0, 0.3, 1) both;
+  }
+}
+@keyframes steps-hop {
+  0% {
+    opacity: 1;
+    transform: translateY(86px);
+    animation-timing-function: cubic-bezier(0.2, 0.6, 0.4, 1);
+  }
+  48% {
+    transform: translateY(-22px);
+    animation-timing-function: cubic-bezier(0.6, 0, 0.9, 0.6);
+  }
+  82%,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes steps-go {
+  from {
+    opacity: 1;
+    translate: var(--start) 0;
+  }
+  to {
+    opacity: 1;
+    translate: var(--end) 0;
+  }
+}
+@keyframes step-pop {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   The fine print (dark): a moon, stars and the wolf, moonlit, howling.
+--------------------------------------------------------------------------- */
+.night {
+  position: relative;
+  height: 196px;
+  max-width: 26rem;
+  margin-top: 2.5rem;
+  pointer-events: none;
+}
+.night-wolf {
+  pointer-events: auto;
+}
+.night-moon {
+  position: absolute;
+  top: 0;
+  left: 232px;
+}
+.night-star {
+  position: absolute;
+}
+.night-star-a {
+  top: 128px;
+  left: 73%;
+}
+.night-star-b {
+  top: 24px;
+  left: 194px;
+}
+.night-star-c {
+  top: 152px;
+  left: 236px;
+}
+.night-star-d {
+  top: 78px;
+  left: calc(100% - 18px);
+}
+.night-star-e {
+  top: 12px;
+  left: calc(100% - 34px);
+}
+@media (max-width: 440px) {
+  .night-moon {
+    left: 196px;
+  }
+  .night-star-a {
+    left: 76%;
+  }
+  .night-star-b {
+    left: 168px;
+  }
+  .night-star-c {
+    left: 204px;
+  }
+  .night-star-d {
+    display: none;
+  }
+  .night-star-e {
+    left: calc(100% - 30px);
+  }
+}
+/* The narrowest phones: no room beside the moon. */
+@media (max-width: 359px) {
+  .night-star-e {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .night.rv-armed .night-moon {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+  .night.rv-armed .night-star {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  .night.rv-in .night-moon {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 500ms linear,
+      transform 1100ms var(--ease-expo);
+  }
+  .night.rv-in .night-star {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 200ms linear var(--d, 500ms),
+      transform 520ms cubic-bezier(0.2, 1.6, 0.4, 1) var(--d, 500ms);
+  }
+  .night-star-b {
+    --d: 650ms;
+  }
+  .night-star-c {
+    --d: 800ms;
+  }
+  .night-star-d {
+    --d: 950ms;
+  }
+  .night-star-e {
+    --d: 1100ms;
+  }
+  .night.rv-in .night-wolf .px {
+    animation: px-loop 1200ms steps(8) 900ms 2;
+  }
+  .night .night-wolf:hover .px {
+    animation: px-again 1200ms steps(8) 1;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Final banner. Wide screens: the wolf sits on the first button and jumps
+   when a button is pointed at. Narrow screens: the small wolf waits in the
+   corner, on the banner's bottom rule. It faces the headline.
+--------------------------------------------------------------------------- */
+.cta-wolf {
+  position: absolute;
+  pointer-events: none;
+  scale: -1 1;
+}
+.cta-wolf-big {
+  display: none;
+  right: 26px;
+  bottom: 100%;
+}
+.cta-wolf-small {
+  right: 16px;
+  bottom: 0;
+}
+@media (min-width: 1024px) {
+  .cta-wolf-big {
+    display: block;
+  }
+  .cta-wolf-small {
+    display: none;
+  }
+}
+/* The jump: a second sprite over the sitting one, hidden until a button is
+   pointed at. It is a little wider, and keeps the sitting wolf's place. Both
+   strips are on the page from the start: one sprite changing its image had
+   to wait for the file on the first jump, and the wolf vanished meanwhile. */
+.cta-jump {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .rv-in > .cta-wolf-big .cta-sit,
+  .cta-wolf-small.rv-in .px {
+    animation: px-loop 880ms steps(8) 700ms 3;
+  }
+  .cta-band:has(.btn:hover) .cta-wolf-big .cta-sit {
+    visibility: hidden;
+    animation: none;
+  }
+  .cta-band:has(.btn:hover) .cta-wolf-big .cta-jump {
+    visibility: visible;
+    --hop: 46px;
+    animation:
+      px-once 760ms steps(8, jump-none) both,
+      px-hop 760ms cubic-bezier(0.3, 0, 0.3, 1) both;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Footer: asleep, the frisbee beside it. The holder covers the footer so that
+   the reveal fires as soon as the footer comes into view; the wolf lies on
+   its bottom edge. It is a yard too: picking the frisbee up wakes the wolf
+   (WolfPlay.tsx), and after the game it comes back here and sleeps.
+--------------------------------------------------------------------------- */
+.sleeper {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+/* Narrow screens: in the corner, clear of the buttons above, the frisbee
+   behind it. */
+.sleeper-spot {
+  position: absolute;
+  right: 16px;
+  bottom: 0;
+}
+.sleeper-disc {
+  right: 104px;
+}
+@media (min-width: 768px) {
+  .sleeper-spot {
+    right: auto;
+    left: calc(50% - 62px);
+  }
+  .sleeper-disc {
+    right: auto;
+    left: calc(50% + 32px);
+  }
+}
+.sleeper-z {
+  position: absolute;
+  left: 54px;
+  top: -12px;
+  font-family: var(--font-jetbrains), Menlo, monospace;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0.6;
+}
+.sleeper-z-b {
+  left: 64px;
+  top: -27px;
+  font-size: 14px;
+}
+.sleeper-z-c {
+  left: 76px;
+  top: -46px;
+  font-size: 18px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .sleeper.rv-armed .sleeper-z {
+    opacity: 0;
+  }
+  .sleeper.rv-in .sleeper-spot .px {
+    animation: px-loop 1440ms steps(6) 300ms 3;
+  }
+  .sleeper.rv-in .sleeper-z {
+    animation: sleeper-z 1440ms ease-out calc(300ms + var(--d, 0ms)) 3 both;
+  }
+  .sleeper-z-b {
+    --d: 260ms;
+  }
+  .sleeper-z-c {
+    --d: 520ms;
+  }
+  /* Point at the frisbee: it stirs. */
+  .yard[data-ready]:has(.yard-disc:hover) .sleeper-spot .px {
+    animation: px-again 1100ms steps(6) infinite;
+  }
+}
+@keyframes sleeper-z {
+  0% {
+    opacity: 0;
+    transform: translate(-4px, 6px);
+  }
+  30% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.6;
+    transform: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Reduced motion: there is no game and nothing jumps, so the sprites that
+   only those use are left out altogether (and are not fetched).
+--------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .yard .yard-wolf,
+  .steps-sit .steps-jump,
+  .cta-wolf .cta-jump {
+    display: none;
+  }
+}

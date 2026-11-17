@@ -1,0 +1,57 @@
+{
+  "record": {
+    "slug": "modernize-nuxt",
+    "title": "Modernize Nuxt",
+    "description": "Nuxt 3 + Vuetify admin dashboard with revenue and sales charts, typography, shadows, icons, cards, sample page and auth pages.",
+    "repo": "adminmart/Modernize-nuxtjs-free",
+    "sha": "b68d3c44118e45e8d66febabe2d6b3fb155578d0",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/adminmart/Modernize-nuxtjs-free/blob/b68d3c44118e45e8d66febabe2d6b3fb155578d0/LICENSE.txt"
+    },
+    "author": "AdminMart",
+    "framework": "nuxt",
+    "ui": "vuetify",
+    "category": "Admin",
+    "tags": [
+      "nuxt",
+      "vuetify",
+      "apexcharts"
+    ],
+    "demoUrl": "https://modernize-nuxtjs-free.netlify.app/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Modernize Nuxt"
+      }
+    ],
+    "storedBytes": 9165741,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:42.103Z"
+  },
+  "serve": {
+    "slug": "modernize-nuxt",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/adminmart/Modernize-nuxtjs-free@b68d3c44118e45e8d66febabe2d6b3fb155578d0/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "package/public/favicon.ico",
+      "images/background/rocket.png": "package/public/images/background/rocket.png",
+      "images/blog/blog-img1.jpg": "package/public/images/blog/blog-img1.jpg",
+      "images/blog/blog-img4.jpg": "package/public/images/blog/blog-img4.jpg",
+      "images/products/s11.jpg": "package/public/images/products/s11.jpg",
+      "images/products/s4.jpg": "package/public/images/products/s4.jpg",
+      "images/products/s5.jpg": "package/public/images/products/s5.jpg",
+      "images/products/s7.jpg": "package/public/images/products/s7.jpg",
+      "images/users/avatar-1.jpg": "package/public/images/users/avatar-1.jpg"
+    }
+  }
+}

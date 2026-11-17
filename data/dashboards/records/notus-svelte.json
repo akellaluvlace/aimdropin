@@ -1,0 +1,89 @@
+{
+  "record": {
+    "slug": "notus-svelte",
+    "title": "Notus Svelte",
+    "description": "Creative Tim's Notus for Svelte and Tailwind: admin dashboard, settings, tables, maps, login/register, landing, profile and UI-kit index pages.",
+    "repo": "creativetimofficial/notus-svelte",
+    "sha": "86099d1929551e25f25aea1c32c944e75bda0517",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/notus-svelte/blob/86099d1929551e25f25aea1c32c944e75bda0517/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "svelte",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "svelte",
+      "tailwind",
+      "chartjs",
+      "landing-page"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-svelte/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Notus Svelte"
+      }
+    ],
+    "storedBytes": 2249471,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:27.224Z"
+  },
+  "serve": {
+    "slug": "notus-svelte",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/notus-svelte@86099d1929551e25f25aea1c32c944e75bda0517/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-icon.png": "public/apple-icon.png",
+      "assets/img/angular.jpg": "public/assets/img/angular.jpg",
+      "assets/img/bootstrap.jpg": "public/assets/img/bootstrap.jpg",
+      "assets/img/component-btn-pink.png": "public/assets/img/component-btn-pink.png",
+      "assets/img/component-btn.png": "public/assets/img/component-btn.png",
+      "assets/img/component-info-2.png": "public/assets/img/component-info-2.png",
+      "assets/img/component-info-card.png": "public/assets/img/component-info-card.png",
+      "assets/img/component-menu.png": "public/assets/img/component-menu.png",
+      "assets/img/component-profile-card.png": "public/assets/img/component-profile-card.png",
+      "assets/img/documentation.png": "public/assets/img/documentation.png",
+      "assets/img/ill_header.png": "public/assets/img/ill_header.png",
+      "assets/img/landing.jpg": "public/assets/img/landing.jpg",
+      "assets/img/login.jpg": "public/assets/img/login.jpg",
+      "assets/img/pattern_svelte.png": "public/assets/img/pattern_svelte.png",
+      "assets/img/profile.jpg": "public/assets/img/profile.jpg",
+      "assets/img/react.jpg": "public/assets/img/react.jpg",
+      "assets/img/register_bg_2.png": "public/assets/img/register_bg_2.png",
+      "assets/img/sketch.jpg": "public/assets/img/sketch.jpg",
+      "assets/img/team-1-800x800.jpg": "public/assets/img/team-1-800x800.jpg",
+      "assets/img/team-1-800x8000.jpg": "public/assets/img/team-1-800x800.jpg",
+      "assets/img/team-2-800x800.jpg": "public/assets/img/team-2-800x800.jpg",
+      "assets/img/team-3-800x800.jpg": "public/assets/img/team-3-800x800.jpg",
+      "assets/img/team-4-470x470.png": "public/assets/img/team-4-470x470.png",
+      "assets/img/vue.jpg": "public/assets/img/vue.jpg",
+      "assets/styles/index.css": "public/assets/styles/index.css",
+      "assets/styles/tailwind.css": "public/assets/styles/tailwind.css",
+      "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css": "public/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff",
+      "assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": "public/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

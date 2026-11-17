@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-10T19:06:22.714Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [
+    "admin",
+    "register"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "Vue Paper Dashboard"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "stats",
+      "title": "Stats"
+    },
+    {
+      "path": "table-list",
+      "title": "Table List"
+    },
+    {
+      "path": "typography",
+      "title": "Typography"
+    },
+    {
+      "path": "icons",
+      "title": "Icons"
+    },
+    {
+      "path": "maps",
+      "title": "Maps"
+    },
+    {
+      "path": "notifications",
+      "title": "Notifications"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+ "jobs": [
+  {
+   "name": "worn-cuff-steel-a",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "worn-cuff-ref.jpg",
+    "product-ref-steel.jpg"
+   ],
+   "input": {
+    "prompt": "The first image is an editorial lifestyle photograph of a wristwatch on a man's left wrist. Make one change to it: the watch is now worn on a stainless steel bracelet instead of the black leather strap. It is the watch in the second image, seen there from straight above: a brushed steel three-link bracelet, each row a wide centre link between two narrower outer links, with narrow polished bevels, and a solid end link that fits tight against the round case between the lugs; slim pointed blued steel hour and minute hands; a thin red seconds hand with a small round counterweight on its tail. The bracelet goes round the wrist where the leather strap did, following its curve, link by link, with soft natural reflections of the room in the steel. Keep everything else in the first image exactly as it is: the same framing and composition, the wrist and hand, the pale blue shirt cuff and the navy jumper, the oak desk, the window, the vase and the bowl, the soft overcast daylight, the colour grade and the film grain, and the watch's case, dial and markers at the same size and in the same place. No text, no logos, no watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "worn-cuff-steel",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "worn-cuff-steel-a-ref.jpg",
+    "hands-ref-steel.jpg"
+   ],
+   "input": {
+    "prompt": "The first image is an editorial lifestyle photograph of a steel wristwatch on a man's left wrist. Change only the watch's hands, to those shown close up in the second image, which is this same watch seen from straight above. The hour and minute hands are slim blued steel blades that taper to a sharp point, each with a fine ridge down its middle so that one half catches the light and the other is darker, and each with a short tapering tail behind the centre. The seconds hand is a thin red needle with a small round red counterweight on its short tail. At the centre, in place of the round steel cap, there is a small round blue boss with a smaller red one on top of it and a tiny polished steel dot in its middle. The hands point the same way and show the same time as they do now in the first image, and throw the same soft shadows on the dial. Keep everything else in the first image exactly as it is: the same framing and composition, the steel case and bracelet, the silver dial and its markers, the wrist and hand, the pale blue shirt cuff and the navy jumper, the oak desk, the window, the vase and the bowl, the soft overcast daylight, the colour grade and the film grain. No text, no logos, no watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "worn-bench-steel-a",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "worn-bench-ref.jpg",
+    "product-ref-steel.jpg"
+   ],
+   "input": {
+    "prompt": "The first image is an editorial still life of a wristwatch lying on a watchmaker's green bench mat. Make one change to it: the watch is now on a stainless steel bracelet instead of the black leather strap. It is the watch in the second image, seen there from straight above: a brushed steel three-link bracelet, each row a wide centre link between two narrower outer links, with narrow polished bevels, and a solid end link that fits tight against the round case between the lugs; slim pointed blued steel hour and minute hands; a thin red seconds hand with a small round counterweight on its tail. The bracelet lies flat on the mat and runs out of the frame at the top and at the bottom, where the leather strap did, link by link, with soft natural reflections in the steel. Keep everything else in the first image exactly as it is: the same framing and composition, the green mat on pale wood, the loupe, the brass tweezers, the two screwdrivers and the tray of screws, the soft window light and its shadows, the colour grade and the film grain, and the watch's case, dial and markers at the same size and in the same place. No text, no logos, no watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "worn-bench-steel",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "worn-bench-steel-a-ref.jpg",
+    "hands-ref-steel.jpg"
+   ],
+   "input": {
+    "prompt": "The first image is an editorial still life of a steel wristwatch lying on a watchmaker's green bench mat. Change only the watch's hands, to those shown close up in the second image, which is this same watch seen from straight above. The hour and minute hands are slim blued steel blades that taper to a sharp point, each with a fine ridge down its middle so that one half catches the light and the other is darker, and each with a short tapering tail behind the centre. The seconds hand is a thin red needle with a small round red counterweight on its short tail. At the centre, in place of the round steel cap, there is a small round blue boss with a smaller red one on top of it and a tiny polished steel dot in its middle. The hands point the same way and show the same time as they do now in the first image, and throw the same soft shadows on the dial. Keep everything else in the first image exactly as it is: the same framing and composition, the steel case and bracelet, the silver dial and its markers, the green mat on pale wood, the loupe, the brass tweezers, the two screwdrivers and the tray of screws, the soft window light, the colour grade and the film grain. No text, no logos, no watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "worn-rail-steel-a",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "worn-rail-ref.jpg",
+    "product-ref-steel.jpg"
+   ],
+   "input": {
+    "prompt": "The first image is an editorial lifestyle photograph of a wristwatch on a woman's left wrist, on a railway platform in early morning light. Make one change to it: the watch is now worn on a stainless steel bracelet instead of the dark leather strap. It is the watch in the second image, seen there from straight above: a brushed steel three-link bracelet, each row a wide centre link between two narrower outer links, with narrow polished bevels, and a solid end link that fits tight against the round case between the lugs; slim pointed blued steel hour and minute hands; a thin red seconds hand with a small round counterweight on its tail. The bracelet goes round the wrist where the leather strap did, following its curve, link by link, catching a little of the warm low sun. Keep everything else in the first image exactly as it is: the same framing and composition, the wrist and the hand holding the paper cup, the camel wool coat and the jumper, the platform, the bench and the canopy out of focus behind, the low sun, the colour grade and the film grain, and the watch's case, dial and markers at the same size and in the same place. No text, no logos, no watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "worn-rail-steel",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "worn-rail-steel-a-ref.jpg",
+    "hands-ref-steel.jpg"
+   ],
+   "input": {
+    "prompt": "The first image is an editorial lifestyle photograph of a steel wristwatch on a woman's left wrist, on a railway platform in early morning light. Change only the watch's hands, to those shown close up in the second image, which is this same watch seen from straight above. The hour and minute hands are slim blued steel blades that taper to a sharp point, each with a fine ridge down its middle so that one half catches the light and the other is darker, and each with a short tapering tail behind the centre. The seconds hand is a thin red needle with a small round red counterweight on its short tail. At the centre, in place of the round steel cap, there is a small round blue boss with a smaller red one on top of it and a tiny polished steel dot in its middle. The hands point the same way and show the same time as they do now in the first image, and throw the same soft shadows on the dial. Keep everything else in the first image exactly as it is: the same framing and composition, the steel case and bracelet, the silver dial and its markers, the wrist and the hand holding the paper cup, the camel wool coat and the jumper, the platform, the bench and the canopy out of focus behind, the low sun, the colour grade and the film grain. No text, no logos, no watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  }
+ ]
+}

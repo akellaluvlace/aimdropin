@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-11-10T18:06:03.238Z",
+  "pagesChecked": 7,
+  "pagesOk": 7,
+  "failures": [],
+  "deadLinks": [
+    "maps.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Light Blue Dashboard - Bootstrap Admin Template"
+    },
+    {
+      "path": "charts.html",
+      "title": "Light Blue Dashboard - Charts"
+    },
+    {
+      "path": "icons.html",
+      "title": "Light Blue Dashboard - Icons"
+    },
+    {
+      "path": "login.html",
+      "title": "Light Blue Dashboard - Bootstrap Admin Template"
+    },
+    {
+      "path": "notifications.html",
+      "title": "Light Blue Dashboard - Notifications"
+    },
+    {
+      "path": "tables.html",
+      "title": "Light Blue Dashboard - Tables"
+    },
+    {
+      "path": "typography.html",
+      "title": "Light Blue Dashboard - Typography"
+    }
+  ]
+}

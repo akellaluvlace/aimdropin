@@ -1,0 +1,115 @@
+{
+ "jobs": [
+  {
+   "name": "calibre-front",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "Macro product photograph of a complete automatic wristwatch movement taken out of its case, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion, the round movement shown whole as a full circle filling most of the frame. Dial side up, the side normally hidden under the dial: a rhodium-plated mainplate entirely covered in fine overlapping circular graining (perlage), the hour wheel and cannon pinion standing at the exact centre, the motion works wheels beside it, the keyless works with setting lever and yoke spring near the stem at 3 o'clock, a few red ruby jewels and heat-blued steel screws, two small dial feet holes near the edge. No engraved text or numbers anywhere. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "rotor-a",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "Macro product photograph of a single oscillating weight (the winding rotor of an automatic watch movement) on its own, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion. The rotor is an exact half disc: its outer edge is a perfect semicircular arc, and the small steel ball bearing it pivots on sits at the exact centre of that circle, which is also the exact centre of the image, on the middle of the straight side. The straight side runs horizontally through the centre of the image and the half disc hangs below it, with the heavy curved edge pointing straight down. A skeletonised rhodium-plated plate with radiating Geneva stripes and polished bevelled edges, a heavy outer rim segment in dark grey tungsten along the whole arc, and three heat-blued screws around the bearing. No engraved text. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 2
+   }
+  },
+  {
+   "name": "rotor-tpl",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "tpl-rotor.png"
+   ],
+   "input": {
+    "prompt": "Turn this flat grey diagram into a photorealistic macro product photograph of the oscillating weight (winding rotor) of an automatic watch movement, seen from directly above, orthographic. Keep exactly the same outline, size and position as the diagram: the outer edge follows the same semicircular arc, the straight side stays on the same horizontal line through the centre, and the ball bearing sits exactly where the small dark circle is, in the centre of the image. The light grey area becomes a skeletonised rhodium-plated plate with radiating Geneva stripes, polished bevelled edges and five openings between spokes; the dark band along the arc becomes a heavy rim of dark grey tungsten; the centre becomes a small steel ball bearing with three heat-blued screws around it. No engraved text. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "back-edit",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "head-ref.jpg"
+   ],
+   "input": {
+    "prompt": "This is the front of a watch head with no strap. Show the back of this exact same watch head, turned over left to right and photographed from directly above, perfectly face-on and centred, orthographic, at exactly the same size and position in the frame, with the same case outline and the same lugs and spring bars, now mirrored, so the crown is on the left side at 9 o'clock. The back is a flat exhibition caseback: a wide brushed steel ring held down by six small polished screws spaced evenly, with a round sapphire crystal window in the centre showing an automatic movement with rhodium bridges, Geneva stripes, a gilt balance wheel and a half-moon rotor. Engraved in small clean capital letters around the steel ring: SUM 39  -  NO. 001  -  147 PARTS  -  STAINLESS STEEL  -  10 ATM. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "back-a",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "High-end catalogue product photograph of the back of the head of a mechanical wristwatch with no strap attached, turned over and photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion. A 39 mm round case in finely brushed stainless steel, short straight lugs with a slim steel spring bar between each pair of lugs at the top and at the bottom, and a small fluted crown on the left side at 9 o'clock. A flat exhibition caseback: a wide brushed steel ring held down by six small polished screws spaced evenly, with a round sapphire crystal window in the centre showing an automatic movement with rhodium bridges, Geneva stripes, a gilt balance wheel and a half-moon rotor. Engraved in small clean capital letters around the steel ring: SUM 39  -  NO. 001  -  147 PARTS  -  STAINLESS STEEL  -  10 ATM. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "strap-short",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "Product photograph of one piece of a two-piece leather watch strap: the short buckle piece on its own, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion. Charcoal black full-grain calf leather with a fine natural grain, lightly padded, neat tonal stitching along both edges, 20 mm wide at the lug end tapering very slightly. The lug end is cut straight and square and is at the top edge of the frame; the piece lies perfectly straight and vertical, centred, filling the height of the frame. At its bottom end, a brushed stainless steel pin buckle and, just above it, two leather keeper loops. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 1536,
+     "height": 4608
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "strap-long",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "Product photograph of one piece of a two-piece leather watch strap: the long piece on its own, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion. Charcoal black full-grain calf leather with a fine natural grain, lightly padded, neat tonal stitching along both edges, 20 mm wide at the lug end tapering very slightly. The lug end is cut straight and square and is at the top edge of the frame; the piece lies perfectly straight and vertical, centred, filling the height of the frame. Seven evenly spaced punched holes run down its lower half and it ends at the bottom in a neatly pointed tail. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 1536,
+     "height": 4608
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  }
+ ]
+}

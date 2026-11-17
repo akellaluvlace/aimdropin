@@ -1,0 +1,267 @@
+/* Datum: a concept architecture practice. Everything is scoped to .root, and this
+   file, the folder it is in and /assets/gsap/datum are all the demo needs: it can be lifted out whole.
+
+   The page is one pinned sheet (.stage). Its height is written in px by the director and does not change
+   when a phone's toolbar moves; what stands on it is measured against it (container units), so nothing on
+   it moves then either. The scroller is an element, never the document.
+
+   The sheet has three rows, on wide stages and tall ones alike: a bar of bare paper, the plate (every
+   photograph, with the drawing over it), and the strip (what is said, and the drawing's title block).
+   Words and picture never share room. One thin red line, the datum, crosses the plate at the same height
+   from the first frame to the last, and every picture stands on it.
+
+   Colours: the white of drafting film, which is also the overcast sky the photographs were taken under,
+   so the sky runs out into the sheet; ink; and the red of the line. At dusk the sheet turns the blue of
+   the dusk sky (mount.ts writes the colours). One typeface, Jost: a geometric sans in the line of the
+   lettering architects have drawn with for a century. */
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/gsap/datum/fonts/jost-latin.woff2') format('woff2');
+}
+
+.root {
+  --paper: rgb(232 234 240);
+  --ink: rgb(21 23 28);
+  --soft: rgb(88 94 106);
+  --red: rgb(221 58 28);
+  --rule: rgb(21 23 28 / .16);
+  --font: 'Jost', 'Futura', 'Century Gothic', 'Helvetica Neue', Arial, sans-serif;
+  /* One stage is one screen of the scroller; the director writes it in px. */
+  --stage: 100cqh;
+  --gutter: clamp(16px, 2.6cqw, 44px);
+  --edge: calc(var(--gutter) * 1.4);
+  /* The sheet's rows: the bar, the strip under the plate, and how much of the plate lies below the datum. */
+  --bar: clamp(46px, 7cqh, 64px);
+  --strip: clamp(132px, 29cqh, 280px);
+  --below: clamp(34px, 10cqh, 96px);
+  /* The title block's width, and the room the rail and the step buttons keep at the foot of the strip. */
+  --block: clamp(280px, 24cqw, 360px);
+  --foot: calc(var(--gutter) * .7 + 44px);
+  /* The step buttons, and the room they and their margin take when something stands beside them. */
+  --pager: 32px;
+  --pager-gap: 8px;
+  --aside: calc(var(--pager) * 2 + var(--pager-gap) + var(--gutter));
+  --first: clamp(46px, min(11.2cqw, calc((100cqh - var(--strip) - var(--below) - var(--bar)) * .36)), 210px);
+  --display: clamp(23px, min(4.1cqw, calc((var(--strip) - 104px) / 2.2)), 66px);
+  /* (A heading is also never wider than its column: see .display.) */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  container-type: size;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* A phone: the same three rows, with more of the sheet given to the words. */
+.root[data-shape=tall] {
+  --edge: var(--gutter);
+  --bar: 52px;
+  --strip: clamp(306px, 38cqh, 410px);
+  --below: clamp(40px, 7.5cqh, 70px);
+  --foot: 60px;
+  --first: clamp(38px, min(17.4cqw, calc((100cqh - var(--strip) - var(--below) - var(--bar)) * .22)), 104px);
+  --display: clamp(25px, 8.2cqw, 46px);
+}
+.root *, .root *::before, .root *::after { box-sizing: border-box; }
+.root :where(h1, h2, h3, p, ol, ul, dl, dd, dt, figure) { margin: 0; padding: 0; font-weight: inherit; }
+.root :where(button) { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.root :where(a) { color: inherit; text-decoration: none; }
+.root :where(a, button):focus-visible { outline: 2px solid var(--red); outline-offset: 4px; }
+.root :where(i) { font-style: normal; }
+.root :where(b) { font-weight: inherit; }
+.srOnly { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.scroller { position: absolute; inset: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; outline: none; }
+.scroller::-webkit-scrollbar { display: none; }
+/* One screen of sheet, then a screen of scroll for every screen of the score. */
+.track { height: calc(var(--stage) * (var(--screens) + 1)); }
+/* The sheet: pinned for the whole page by native sticky, so nothing is repositioned by script. */
+.stage { position: sticky; top: 0; height: var(--stage); overflow: hidden; container-type: size; background: var(--paper); }
+
+/* ---------- The plate, the drawing over it, and the datum ---------- */
+.plate, .drawing { position: absolute; left: 0; top: var(--bar); width: 100%; height: calc(100cqh - var(--bar) - var(--strip)); display: block; }
+.plate { z-index: 1; }
+.poster { display: none; }
+.drawing { z-index: 2; overflow: hidden; pointer-events: none; fill: none; stroke-linecap: butt; stroke-linejoin: miter; }
+/* The setting out is in the red of the line; the house is in ink. Figures keep a little paper round them. */
+.drawing [data-set] { stroke: var(--red); stroke-width: 1px; }
+.drawing [data-elevation] { stroke: var(--ink); stroke-width: 1.1px; }
+.drawing text { font-family: var(--font); font-size: 11.5px; font-weight: 500; letter-spacing: .02em; font-variant-numeric: tabular-nums; fill: var(--red); stroke: var(--paper); stroke-width: 3.2px; stroke-linejoin: round; paint-order: stroke fill; }
+.drawing [data-pop=letter] { font-size: 10.5px; letter-spacing: 0; stroke-width: 0; }
+.drawing [data-draw=wall], .drawing [data-draw=roof] { stroke-width: 1.5px; }
+.drawing [data-draw=glass] { stroke-width: .75px; }
+.drawing [data-draw=course] { stroke-width: .6px; stroke-opacity: .5; }
+.drawing [data-draw=board], .drawing [data-draw=glint], .drawing [data-pop=latch] { stroke-width: .65px; stroke-opacity: .65; }
+.drawing[data-narrow] text { font-size: 9.5px; stroke-width: 2.6px; }
+.drawing[data-narrow] [data-pop=letter] { font-size: 8.5px; stroke-width: 0; }
+.drawing[data-narrow] [data-elevation] { stroke-width: .9px; }
+.drawing[data-narrow] [data-draw=wall], .drawing[data-narrow] [data-draw=roof] { stroke-width: 1.15px; }
+.drawing[data-narrow] [data-draw=glass], .drawing[data-narrow] [data-draw=course], .drawing[data-narrow] [data-draw=board] { stroke-width: .55px; }
+
+/* The datum: no height of its own, only the line. */
+.datum { position: absolute; left: 0; right: 0; top: calc(100cqh - var(--strip) - var(--below)); height: 0; z-index: 3; pointer-events: none; }
+.datum > i { position: absolute; left: 0; right: 0; top: -.5px; height: 1px; background: var(--red); will-change: transform; }
+@media (min-resolution: 1.5dppx) { .datum > i { top: -.75px; height: 1.5px; } }
+/* Its level, hanging from its east end, on a tag of the sheet's own paper so it reads over whatever the line crosses. */
+.level { position: absolute; right: var(--edge); top: 6px; display: inline-flex; align-items: center; gap: 6px; padding: 4px 7px 4px 6px; background: var(--paper); color: var(--ink); font-size: 12px; font-weight: 500; line-height: 1; letter-spacing: .02em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.level svg { display: block; width: 9px; height: 7px; fill: var(--red); }
+
+/* ---------- Type ---------- */
+/* A heading's longest line is a little over seven of its ems: on a wide sheet it is held to the column it has (a
+   little over half of the words' block, which is what a cqw is measured against inside it). */
+.display { font-weight: 300; font-size: min(var(--display), 7.3cqw); line-height: 1.02; letter-spacing: -.03em; white-space: nowrap; }
+.body { font-size: clamp(15px, 1.2cqw, 18px); line-height: 1.5; color: var(--soft); max-width: 40ch; }
+/* A line of type rises through a window. Room under the line, or the tails of g, p and y are cut. */
+.line { display: block; overflow: hidden; overflow: clip; padding: 0 .08em .2em; margin: 0 -.08em -.2em; }
+.line > span { display: block; will-change: transform; }
+
+/* The first words and the last: on the datum, their baseline on the line, as the house's ground line is.
+   They rise out of the line and sink back into it as one block, so the window they move in ends at the
+   line itself (--cut at 1); it opens below the line only while they stand, for the tail of a comma or a y
+   (--cut at 0). A line box of Jost at a line height of 1 has its baseline .1525em above its foot, and the
+   window keeps another .22em under that. */
+.onLine { position: absolute; z-index: 4; left: var(--edge); bottom: calc(var(--strip) + var(--below) - .3725em); padding: 0 .1em .22em; margin: 0 -.1em; overflow: hidden; overflow: clip; clip-path: inset(0 0 calc(var(--cut, 0) * .3725em) 0); font-weight: 300; font-size: var(--first); line-height: 1; letter-spacing: -.038em; white-space: nowrap; visibility: hidden; pointer-events: none; }
+.lift { display: flex; flex-direction: column; will-change: transform; }
+.lift > span { display: block; }
+/* On a wide stage the first words are one line. */
+.root[data-shape=wide] .onLine[data-first] .lift { flex-direction: row; gap: .25em; }
+.root[data-shape=wide] .onLine[data-last] { font-size: calc(var(--first) * .8); }
+/* On a tall one the last words are the longer: they are set a little smaller, to end short of the datum's level. */
+.root[data-shape=tall] .onLine[data-last] { font-size: calc(var(--first) * .84); }
+
+/* ---------- The strip: one block of words for each scene, all in the same place, and the title block ---------- */
+.strip { position: absolute; left: 0; right: 0; bottom: 0; height: var(--strip); z-index: 4; }
+.words { position: absolute; left: var(--edge); right: calc(var(--edge) + var(--block) + var(--gutter)); top: clamp(12px, 3cqh, 30px); display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); column-gap: var(--gutter); row-gap: 10px; align-items: start; container-type: inline-size; visibility: hidden; pointer-events: none; }
+/* The first block and the last have their heading on the line, not here: what they say, and beside it how to go on. */
+.words.plain { grid-template-columns: minmax(0, 1fr); }
+.plain .copy { grid-template-columns: minmax(0, 46ch) max-content; column-gap: var(--gutter); align-items: end; }
+.plain .body { max-width: 46ch; }
+.copy { display: grid; gap: clamp(10px, 1.6cqh, 16px); justify-items: start; }
+.cue { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 500; color: var(--soft); }
+.cue > i { display: grid; place-items: center; width: 22px; height: 22px; border: 1px solid var(--rule); border-radius: 50%; animation: datum-nod 2.2s cubic-bezier(.5, 0, .2, 1) infinite; }
+.cue svg { width: 9px; height: 9px; fill: none; stroke: currentColor; stroke-width: 1.3; }
+.cueMouse { display: none; }
+@media (hover: hover) and (pointer: fine) { .cueMouse { display: inline; } .cueTouch { display: none; } }
+@keyframes datum-nod { 0%, 100% { transform: translateY(-2px); } 50% { transform: translateY(3px); } }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; pointer-events: auto; }
+.primary, .ghost { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 22px; border-radius: 2px; font-size: 15px; font-weight: 500; white-space: nowrap; transition: background-color .2s, color .2s, border-color .2s; }
+.root .primary { background: var(--ink); color: var(--paper); }
+.root .ghost { border: 1px solid var(--rule); }
+@media (hover: hover) {
+  .root .primary:hover { background: var(--red); color: #fff; }
+  .root .ghost:hover { border-color: var(--ink); }
+}
+
+/* The title block: four cells, ruled, as on the corner of a drawing. An entry rolls to the next behind its window. */
+.block { position: absolute; right: var(--edge); top: clamp(12px, 3cqh, 30px); width: var(--block); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); column-gap: 18px; }
+.block > div { padding: 7px 0 9px; border-top: 1px solid var(--rule); min-width: 0; }
+.block dt { font-size: 11.5px; line-height: 1.3; color: var(--soft); }
+.block dd { font-size: 15px; line-height: 1.3; font-weight: 500; font-variant-numeric: tabular-nums; }
+.window { display: block; height: 1.3em; overflow: hidden; overflow: clip; white-space: nowrap; }
+.roll { display: flex; flex-direction: column; will-change: transform; }
+.roll > span, .window > span:not(.roll) { display: block; height: 1.3em; overflow: hidden; text-overflow: ellipsis; }
+
+/* ---------- Chrome: the bar, the rail, the step buttons ---------- */
+.bar { position: absolute; inset: 0 0 auto; height: var(--bar); z-index: 30; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 0 var(--edge); pointer-events: none; }
+.bar > * { pointer-events: auto; }
+.wordmark { flex: none; white-space: nowrap; font-weight: 500; font-size: 22px; line-height: 1; letter-spacing: -.01em; }
+.tools { flex: none; white-space: nowrap; display: flex; align-items: center; gap: 18px; font-size: 13px; font-weight: 500; }
+/* What this is. It stays in the bar at every width; where the bar is too narrow for everything, the word
+   beside the close button gives way to it (data-bar-tight, measured in mount.ts). */
+.concept { color: var(--soft); }
+.root[data-bar-tight] .exit > span { display: none; }
+.exit { display: inline-flex; align-items: center; gap: 9px; }
+.exit > i { display: block; width: 28px; height: 28px; border-radius: 50%; background: var(--ink); color: var(--paper); position: relative; transition: transform .35s cubic-bezier(.2, .8, .2, 1); }
+.exit > i::before, .exit > i::after { content: ''; position: absolute; left: 50%; top: 50%; width: 10px; height: 1px; background: currentColor; }
+.exit > i::before { transform: translate(-50%, -50%) rotate(45deg); }
+.exit > i::after { transform: translate(-50%, -50%) rotate(-45deg); }
+@media (hover: hover) { .exit:hover > i { transform: rotate(90deg); } }
+
+/* The chapters, at the foot of the strip. */
+.rail { position: absolute; left: var(--edge); bottom: calc(var(--gutter) * .7); width: min(48cqw, 640px); z-index: 30; display: flex; gap: 8px; pointer-events: none; font-size: 12px; font-weight: 500; }
+.railItem { flex: 1; min-width: 0; pointer-events: auto; text-align: left; padding: 12px 0 0; opacity: .5; transition: opacity .3s; }
+.railItem[aria-current=true] { opacity: 1; }
+@media (hover: hover) { .railItem:hover { opacity: 1; } }
+.railItem > i { display: block; height: 1px; background: var(--rule); margin-bottom: 8px; position: relative; overflow: hidden; }
+.railItem > i > b { position: absolute; inset: 0; background: currentColor; transform: scaleX(var(--fill, 0)); transform-origin: 0 50%; }
+.railItem > span { display: block; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* The step buttons: a tap goes on a rest, a hold plays. They stand on the strip's paper. */
+.pager { position: absolute; right: var(--edge); bottom: calc(var(--gutter) * .7 - 2px); z-index: 31; display: flex; gap: var(--pager-gap); -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+.pager > button { display: grid; place-items: center; width: var(--pager); height: var(--pager); border: 1px solid var(--rule); border-radius: 50%; touch-action: none; -webkit-tap-highlight-color: transparent; transition: border-color .25s, opacity .25s, background-color .25s; }
+.pager svg { width: 11px; height: 11px; fill: none; stroke: currentColor; stroke-width: 1.2; }
+.pager > button[data-down] { border-color: currentColor; background: var(--rule); }
+.pager[data-end=top] > button[data-step='-1'], .pager[data-end=bottom] > button[data-step='1'] { opacity: .32; }
+@media (hover: hover) and (pointer: fine) { .pager > button:hover { border-color: currentColor; } }
+@media (pointer: coarse) {
+  .root { --pager: 42px; --pager-gap: 10px; }
+  .pager { bottom: calc(var(--gutter) * .7 - 6px); }
+  .pager svg { width: 13px; height: 13px; }
+}
+
+/* Until the page has entered, the sheet is bare. */
+.veil { position: absolute; inset: 0; z-index: 50; background: var(--paper); }
+
+/* ---------- Tall stages (phones): the strip is one column, and the title block one row at its foot ---------- */
+.root[data-shape=tall] .words { right: var(--edge); top: 14px; grid-template-columns: minmax(0, 1fr); row-gap: 8px; }
+.root[data-shape=tall] .display { font-size: min(var(--display), 12.6cqw); }
+.root[data-shape=tall] .body { font-size: clamp(14.5px, 4cqw, 18px); line-height: 1.42; max-width: 46ch; }
+.root[data-shape=tall] .copy, .root[data-shape=tall] .plain .copy { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+.root[data-shape=tall] .actions { width: 100%; }
+.root[data-shape=tall] .actions > * { flex: 1; padding: 0 12px; min-height: 44px; }
+.root[data-shape=tall] .block { left: var(--edge); right: var(--edge); top: auto; bottom: var(--foot); width: auto; grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr) minmax(0, 1.15fr); column-gap: 12px; }
+.root[data-shape=tall] .block > div { padding: 6px 0 0; }
+.root[data-shape=tall] .block dt { font-size: 11px; }
+.root[data-shape=tall] .block dd { font-size: 13.5px; }
+.root[data-shape=tall] .cellProject { display: none; }
+.root[data-shape=tall] .railItem > span { display: none; }
+.root[data-shape=tall] .tools { gap: 12px; }
+.root[data-shape=tall] .rail { width: auto; right: calc(var(--edge) + 112px); bottom: calc(var(--gutter) * .7 + 9px); }
+/* With no names under it the rail is only its line: it takes no more room than that. */
+.root[data-shape=tall] .railItem { padding-top: 10px; }
+.root[data-shape=tall] .railItem > i { margin-bottom: 0; }
+.root[data-shape=tall] .level { right: 4px; top: 5px; gap: 3px; padding: 3px; font-size: 10.5px; letter-spacing: 0; }
+.root[data-shape=tall] .level svg { width: 7px; height: 6px; }
+
+/* ---------- What the strip gives up to keep its words whole ----------
+   The words come first. mount.ts measures the strip when the sheet is laid out (fitStrip) and writes on the
+   root, as data-give, what has had to give way. None of it is guessed from the window's size: thresholds on
+   the size of the window leave gaps between them, where something overflows.
+   On a wide stage, in the order it goes: the title block steps aside, from over the step buttons to beside
+   them (beside); a heading is set on one line, the body smaller, and the rail loses its names (close); the
+   title block goes (bare). On a tall one: the title block goes (bare), then the type is set closer (close). */
+.root[data-shape=wide][data-give~=beside] .block { right: calc(var(--edge) + var(--aside)); }
+.root[data-shape=wide][data-give~=beside] .words { right: calc(var(--edge) + var(--aside) + var(--block) + var(--gutter)); }
+.root[data-shape=wide][data-give~=close] .display { font-size: min(66px, 3.85cqw, calc((var(--strip) - 76px) / 1.25)); }
+.root[data-shape=wide][data-give~=close] .display .line { display: inline-block; vertical-align: top; }
+.root[data-shape=wide][data-give~=close] .body { font-size: 14px; line-height: 1.42; }
+.root[data-shape=wide][data-give~=close] .railItem > span { display: none; }
+.root[data-shape=wide][data-give~=close] .railItem { padding-top: 10px; }
+.root[data-shape=wide][data-give~=close] .railItem > i { margin-bottom: 0; }
+.root[data-shape=wide][data-give~=bare] .block { display: none; }
+.root[data-shape=wide][data-give~=bare] .words { right: calc(var(--edge) + var(--aside)); }
+.root[data-shape=wide][data-give~=bare] .words:not(.plain) { grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); }
+.root[data-shape=wide][data-give~=bare] .display { font-size: min(66px, 3.05cqw, calc((var(--strip) - 76px) / 1.25)); }
+.root[data-shape=wide][data-give~=bare] .body { font-size: 13px; line-height: 1.38; max-width: 62ch; }
+.root[data-shape=wide][data-give~=bare] .plain .copy { grid-template-columns: minmax(0, 62ch) max-content; }
+.root[data-shape=wide][data-give~=bare] .primary, .root[data-shape=wide][data-give~=bare] .ghost { min-height: 36px; padding: 0 16px; font-size: 14px; }
+.root[data-shape=tall][data-give~=bare] .block { display: none; }
+.root[data-shape=tall][data-give~=close] .words { top: 10px; row-gap: 6px; }
+.root[data-shape=tall][data-give~=close] .display { font-size: min(calc(var(--display) * .86), 11cqw); }
+.root[data-shape=tall][data-give~=close] .body { font-size: 14px; line-height: 1.36; }
+.root[data-shape=tall][data-give~=close] .copy { gap: 9px; }
+.root[data-shape=tall][data-give~=close] .actions > * { min-height: 40px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cue > i { animation: none; }
+}

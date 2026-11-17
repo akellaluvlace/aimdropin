@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-10T18:37:26.162Z",
+  "pagesChecked": 11,
+  "pagesOk": 11,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Modernize Angular Admin Template"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "ui-components/badge",
+      "title": "Ui Components / Badge"
+    },
+    {
+      "path": "ui-components/chips",
+      "title": "Ui Components / Chips"
+    },
+    {
+      "path": "ui-components/lists",
+      "title": "Ui Components / Lists"
+    },
+    {
+      "path": "ui-components/menu",
+      "title": "Ui Components / Menu"
+    },
+    {
+      "path": "ui-components/tooltips",
+      "title": "Ui Components / Tooltips"
+    },
+    {
+      "path": "ui-components/forms",
+      "title": "Ui Components / Forms"
+    },
+    {
+      "path": "ui-components/tables",
+      "title": "Ui Components / Tables"
+    },
+    {
+      "path": "extra/icons",
+      "title": "Extra / Icons"
+    },
+    {
+      "path": "extra/sample-page",
+      "title": "Extra / Sample Page"
+    }
+  ]
+}

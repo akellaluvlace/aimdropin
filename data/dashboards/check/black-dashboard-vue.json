@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T19:00:00.464Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Vue Black Dashboard Free"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "icons",
+      "title": "Icons"
+    },
+    {
+      "path": "maps",
+      "title": "Maps"
+    },
+    {
+      "path": "notifications",
+      "title": "Notifications"
+    },
+    {
+      "path": "profile",
+      "title": "Profile"
+    },
+    {
+      "path": "table-list",
+      "title": "Table List"
+    },
+    {
+      "path": "typography",
+      "title": "Typography"
+    },
+    {
+      "path": "dashboard?enableRTL=true",
+      "title": "Dashboard"
+    }
+  ]
+}

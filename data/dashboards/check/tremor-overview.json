@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-11-10T19:03:17.866Z",
+  "pagesChecked": 15,
+  "pagesOk": 15,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "support/index.html",
+      "title": "Overview"
+    },
+    {
+      "path": "404.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "404/index.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "agents/index.html",
+      "title": "Overview"
+    },
+    {
+      "path": "login/index.html",
+      "title": "Overview"
+    },
+    {
+      "path": "retention/index.html",
+      "title": "Overview"
+    },
+    {
+      "path": "workflow/index.html",
+      "title": "Overview"
+    },
+    {
+      "path": "support/",
+      "title": "Overview"
+    },
+    {
+      "path": "retention/",
+      "title": "Overview"
+    },
+    {
+      "path": "workflow/",
+      "title": "Overview"
+    },
+    {
+      "path": "agents/",
+      "title": "Overview"
+    },
+    {
+      "path": "support",
+      "title": "Overview"
+    },
+    {
+      "path": "retention",
+      "title": "Overview"
+    },
+    {
+      "path": "workflow",
+      "title": "Overview"
+    },
+    {
+      "path": "agents",
+      "title": "Overview"
+    }
+  ]
+}

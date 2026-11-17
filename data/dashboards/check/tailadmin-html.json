@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-11-10T17:47:47.175Z",
+  "pagesChecked": 17,
+  "pagesOk": 16,
+  "failures": [
+    {
+      "path": "videos.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read the 'caches' property from 'Window': Cache storage is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag. · script error: writeEmbed is not defined · script error: Uncaught undefined"
+    }
+  ],
+  "deadLinks": [
+    "messages.html",
+    "settings.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "404.html",
+      "title": "404 Error Page | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "alerts.html",
+      "title": "Alerts | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "avatars.html",
+      "title": "Avatars | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "badge.html",
+      "title": "Badge | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "bar-chart.html",
+      "title": "Bar Chart | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "basic-tables.html",
+      "title": "Basic Tables | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "blank.html",
+      "title": "Blank Page | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "buttons.html",
+      "title": "Buttons | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "calendar.html",
+      "title": "Calendar | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "form-elements.html",
+      "title": "Form Elements | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "images.html",
+      "title": "Images | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "line-chart.html",
+      "title": "Line Chart | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "profile.html",
+      "title": "Profile | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "signin.html",
+      "title": "Sign In| TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "signup.html",
+      "title": "Sign Up| TailAdmin - Tailwind CSS Admin Dashboard Template"
+    }
+  ]
+}

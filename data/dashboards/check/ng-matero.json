@@ -1,0 +1,269 @@
+{
+  "checkedAt": "2026-11-10T19:21:39.418Z",
+  "pagesChecked": 65,
+  "pagesOk": 65,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "NgMatero"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "design/colors",
+      "title": "Design / Colors"
+    },
+    {
+      "path": "design/icons",
+      "title": "Design / Icons"
+    },
+    {
+      "path": "material/autocomplete",
+      "title": "Material / Autocomplete"
+    },
+    {
+      "path": "material/checkbox",
+      "title": "Material / Checkbox"
+    },
+    {
+      "path": "material/datepicker",
+      "title": "Material / Datepicker"
+    },
+    {
+      "path": "material/form-field",
+      "title": "Material / Form Field"
+    },
+    {
+      "path": "material/input",
+      "title": "Material / Input"
+    },
+    {
+      "path": "material/radio",
+      "title": "Material / Radio"
+    },
+    {
+      "path": "material/select",
+      "title": "Material / Select"
+    },
+    {
+      "path": "material/slider",
+      "title": "Material / Slider"
+    },
+    {
+      "path": "material/slide-toggle",
+      "title": "Material / Slide Toggle"
+    },
+    {
+      "path": "material/menu",
+      "title": "Material / Menu"
+    },
+    {
+      "path": "material/sidenav",
+      "title": "Material / Sidenav"
+    },
+    {
+      "path": "material/toolbar",
+      "title": "Material / Toolbar"
+    },
+    {
+      "path": "material/card",
+      "title": "Material / Card"
+    },
+    {
+      "path": "material/divider",
+      "title": "Material / Divider"
+    },
+    {
+      "path": "material/expansion",
+      "title": "Material / Expansion"
+    },
+    {
+      "path": "material/grid-list",
+      "title": "Material / Grid List"
+    },
+    {
+      "path": "material/list",
+      "title": "Material / List"
+    },
+    {
+      "path": "material/stepper",
+      "title": "Material / Stepper"
+    },
+    {
+      "path": "material/tab",
+      "title": "Material / Tab"
+    },
+    {
+      "path": "material/tree",
+      "title": "Material / Tree"
+    },
+    {
+      "path": "material/button",
+      "title": "Material / Button"
+    },
+    {
+      "path": "material/button-toggle",
+      "title": "Material / Button Toggle"
+    },
+    {
+      "path": "material/badge",
+      "title": "Material / Badge"
+    },
+    {
+      "path": "material/chips",
+      "title": "Material / Chips"
+    },
+    {
+      "path": "material/icon",
+      "title": "Material / Icon"
+    },
+    {
+      "path": "material/progress-spinner",
+      "title": "Material / Progress Spinner"
+    },
+    {
+      "path": "material/progress-bar",
+      "title": "Material / Progress Bar"
+    },
+    {
+      "path": "material/ripple",
+      "title": "Material / Ripple"
+    },
+    {
+      "path": "material/bottom-sheet",
+      "title": "Material / Bottom Sheet"
+    },
+    {
+      "path": "material/dialog",
+      "title": "Material / Dialog"
+    },
+    {
+      "path": "material/snack-bar",
+      "title": "Material / Snack Bar"
+    },
+    {
+      "path": "material/tooltip",
+      "title": "Material / Tooltip"
+    },
+    {
+      "path": "material/data-table/paginator",
+      "title": "Material / Data Table / Paginator"
+    },
+    {
+      "path": "material/data-table/sort",
+      "title": "Material / Data Table / Sort"
+    },
+    {
+      "path": "material/data-table/table",
+      "title": "Material / Data Table / Table"
+    },
+    {
+      "path": "permissions/role-switching",
+      "title": "Permissions / Role Switching"
+    },
+    {
+      "path": "permissions/route-guard",
+      "title": "Permissions / Route Guard"
+    },
+    {
+      "path": "permissions/test",
+      "title": "Permissions / Test"
+    },
+    {
+      "path": "media/gallery",
+      "title": "Media / Gallery"
+    },
+    {
+      "path": "forms/elements",
+      "title": "Forms / Elements"
+    },
+    {
+      "path": "forms/dynamic",
+      "title": "Forms / Dynamic"
+    },
+    {
+      "path": "forms/select",
+      "title": "Forms / Select"
+    },
+    {
+      "path": "forms/datetime",
+      "title": "Forms / Datetime"
+    },
+    {
+      "path": "tables/kitchen-sink",
+      "title": "Tables / Kitchen Sink"
+    },
+    {
+      "path": "tables/remote-data",
+      "title": "Tables / Remote Data"
+    },
+    {
+      "path": "profile/overview",
+      "title": "Profile / Overview"
+    },
+    {
+      "path": "profile/settings",
+      "title": "Profile / Settings"
+    },
+    {
+      "path": "403",
+      "title": "403"
+    },
+    {
+      "path": "404",
+      "title": "404"
+    },
+    {
+      "path": "500",
+      "title": "500"
+    },
+    {
+      "path": "utilities/css-grid",
+      "title": "Utilities / Css Grid"
+    },
+    {
+      "path": "utilities/css-helpers",
+      "title": "Utilities / Css Helpers"
+    },
+    {
+      "path": "menu-level/level-1-1/level-2-1/level-3-1/level-4-1",
+      "title": "Menu Level / Level 1 1 / Level 2 1 / Level 3 1 / Level 4 1"
+    },
+    {
+      "path": "menu-level/level-1-1/level-2-2",
+      "title": "Menu Level / Level 1 1 / Level 2 2"
+    },
+    {
+      "path": "menu-level/level-1-2",
+      "title": "Menu Level / Level 1 2"
+    },
+    {
+      "path": "material/sidenav/basic",
+      "title": "Material / Sidenav / Basic"
+    },
+    {
+      "path": "material/sidenav/mobile",
+      "title": "Material / Sidenav / Mobile"
+    },
+    {
+      "path": "material/sidenav/dual",
+      "title": "Material / Sidenav / Dual"
+    },
+    {
+      "path": "material/tab/sunny-tab",
+      "title": "Material / Tab / Sunny Tab"
+    },
+    {
+      "path": "material/tab/rainy-tab",
+      "title": "Material / Tab / Rainy Tab"
+    },
+    {
+      "path": "material/tab/foggy-tab",
+      "title": "Material / Tab / Foggy Tab"
+    }
+  ]
+}

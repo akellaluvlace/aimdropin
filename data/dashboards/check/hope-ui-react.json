@@ -1,0 +1,217 @@
+{
+  "checkedAt": "2026-11-10T17:33:29.309Z",
+  "pagesChecked": 51,
+  "pagesOk": 48,
+  "failures": [
+    {
+      "path": "dashboard/special-pages/kanban",
+      "problem": "script error: Uncaught TypeError: Cannot read properties of null (reading 'classList')"
+    },
+    {
+      "path": "dashboard/app/user-profile",
+      "problem": "script error: Uncaught TypeError: Cannot read properties of null (reading 'classList')"
+    },
+    {
+      "path": "dashboard/map/google",
+      "problem": "script error: Uncaught SecurityError: Failed to read a named property 'addEventListener' from 'Window': Sandbox access violation: Blocked a frame at \"https://www.google.com\" from accessing a frame at \"null\".  Both "
+    }
+  ],
+  "deadLinks": [
+    "dashboard/extra/privacy-policy",
+    "dashboard/extra/terms-of-service"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "Hope UI | React App Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "horizontal",
+      "title": "Horizontal"
+    },
+    {
+      "path": "dual-horizontal",
+      "title": "Dual Horizontal"
+    },
+    {
+      "path": "dual-compact",
+      "title": "Dual Compact"
+    },
+    {
+      "path": "boxed",
+      "title": "Boxed"
+    },
+    {
+      "path": "boxedFancy",
+      "title": "BoxedFancy"
+    },
+    {
+      "path": "design-system",
+      "title": "Design System"
+    },
+    {
+      "path": "dashboard/special-pages/billing",
+      "title": "Dashboard / Special Pages / Billing"
+    },
+    {
+      "path": "dashboard/special-pages/calender",
+      "title": "Dashboard / Special Pages / Calender"
+    },
+    {
+      "path": "dashboard/special-pages/pricing",
+      "title": "Dashboard / Special Pages / Pricing"
+    },
+    {
+      "path": "dashboard/special-pages/rtl-support",
+      "title": "Dashboard / Special Pages / Rtl Support"
+    },
+    {
+      "path": "dashboard/special-pages/timeline",
+      "title": "Dashboard / Special Pages / Timeline"
+    },
+    {
+      "path": "auth/sign-in",
+      "title": "Auth / Sign In"
+    },
+    {
+      "path": "auth/sign-up",
+      "title": "Auth / Sign Up"
+    },
+    {
+      "path": "auth/confirm-mail",
+      "title": "Auth / Confirm Mail"
+    },
+    {
+      "path": "auth/lock-screen",
+      "title": "Auth / Lock Screen"
+    },
+    {
+      "path": "auth/recoverpw",
+      "title": "Auth / Recoverpw"
+    },
+    {
+      "path": "dashboard/app/user-add",
+      "title": "Dashboard / App / User Add"
+    },
+    {
+      "path": "dashboard/app/user-list",
+      "title": "Dashboard / App / User List"
+    },
+    {
+      "path": "errors/error404",
+      "title": "Errors / Error404"
+    },
+    {
+      "path": "errors/error500",
+      "title": "Errors / Error500"
+    },
+    {
+      "path": "errors/maintenance",
+      "title": "Errors / Maintenance"
+    },
+    {
+      "path": "dashboard/admin/admin",
+      "title": "Dashboard / Admin / Admin"
+    },
+    {
+      "path": "dashboard/widget/widgetbasic",
+      "title": "Dashboard / Widget / Widgetbasic"
+    },
+    {
+      "path": "dashboard/widget/widgetchart",
+      "title": "Dashboard / Widget / Widgetchart"
+    },
+    {
+      "path": "dashboard/widget/widgetcard",
+      "title": "Dashboard / Widget / Widgetcard"
+    },
+    {
+      "path": "dashboard/map/vector",
+      "title": "Dashboard / Map / Vector"
+    },
+    {
+      "path": "dashboard/form/form-element",
+      "title": "Dashboard / Form / Form Element"
+    },
+    {
+      "path": "dashboard/form/form-wizard",
+      "title": "Dashboard / Form / Form Wizard"
+    },
+    {
+      "path": "dashboard/form/form-validation",
+      "title": "Dashboard / Form / Form Validation"
+    },
+    {
+      "path": "dashboard/table/bootstrap-table",
+      "title": "Dashboard / Table / Bootstrap Table"
+    },
+    {
+      "path": "dashboard/table/table-data",
+      "title": "Dashboard / Table / Table Data"
+    },
+    {
+      "path": "dashboard/icon/solid",
+      "title": "Dashboard / Icon / Solid"
+    },
+    {
+      "path": "dashboard/icon/outline",
+      "title": "Dashboard / Icon / Outline"
+    },
+    {
+      "path": "dashboard/icon/dual-tone",
+      "title": "Dashboard / Icon / Dual Tone"
+    },
+    {
+      "path": "landing-modules/home",
+      "title": "Landing Modules / Home"
+    },
+    {
+      "path": "design-system#/action-1",
+      "title": "Design System"
+    },
+    {
+      "path": "design-system#/action-2",
+      "title": "Design System"
+    },
+    {
+      "path": "design-system#/action-3",
+      "title": "Design System"
+    },
+    {
+      "path": "landing-modules/software-landing-page",
+      "title": "Landing Modules / Software Landing Page"
+    },
+    {
+      "path": "landing-modules/about",
+      "title": "Landing Modules / About"
+    },
+    {
+      "path": "landing-modules/features",
+      "title": "Landing Modules / Features"
+    },
+    {
+      "path": "landing-modules/pricing",
+      "title": "Landing Modules / Pricing"
+    },
+    {
+      "path": "landing-modules/blog",
+      "title": "Landing Modules / Blog"
+    },
+    {
+      "path": "landing-modules/faq",
+      "title": "Landing Modules / Faq"
+    },
+    {
+      "path": "landing-modules/contact-us",
+      "title": "Landing Modules / Contact Us"
+    },
+    {
+      "path": "landing-modules/blog-detail",
+      "title": "Landing Modules / Blog Detail"
+    }
+  ]
+}

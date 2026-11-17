@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html class="light scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sundial - Daily Journaling App</title>
+    <meta name="description" content="A daily journaling experience that feels like a cinematic pause. Capture your thoughts, track your mood, and reflect on your journey."/>
+    
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Sundial - Daily Journaling App"/>
+    <meta property="og:description" content="Your reflections, turned into memories. Capture the sunset of your day."/>
+    <meta property="og:type" content="website"/>
+
+    <!-- Resource Hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <!-- Consolidated & Cleaned Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap" rel="stylesheet"/>
+    
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#ffc4a3",
+                        "on-secondary": "#ffffff",
+                        "outline-variant": "#d5c3ba",
+                        "surface-container-highest": "#e5e2e1",
+                        "on-tertiary-fixed": "#1e0e4e",
+                        "primary-fixed-dim": "#f4ba9a",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-on-surface": "#f3f0ef",
+                        "inverse-primary": "#f4ba9a",
+                        "background": "#fcf9f8",
+                        "tertiary-fixed": "#e7deff",
+                        "primary": "#80543a",
+                        "tertiary": "#625595",
+                        "outline": "#83746c",
+                        "surface-dim": "#dcd9d9",
+                        "surface-variant": "#e5e2e1",
+                        "surface-container": "#f0eded",
+                        "on-secondary-fixed-variant": "#613a58",
+                        "on-tertiary-container": "#5c4f8f",
+                        "surface-container-low": "#f6f3f2",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#80543a",
+                        "on-primary-container": "#7a4f35",
+                        "secondary-fixed": "#ffd7f2",
+                        "on-tertiary-fixed-variant": "#4a3d7c",
+                        "on-primary-fixed-variant": "#653d25",
+                        "secondary-fixed-dim": "#ebb7dc",
+                        "secondary-container": "#fdc7ed",
+                        "surface-bright": "#fcf9f8",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed": "#300e2b",
+                        "tertiary-fixed-dim": "#ccbeff",
+                        "on-primary": "#ffffff",
+                        "on-surface": "#1c1b1b",
+                        "secondary": "#7b5171",
+                        "surface-container-high": "#eae7e7",
+                        "tertiary-container": "#d5c9ff",
+                        "on-primary-fixed": "#311301",
+                        "on-tertiary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "inverse-surface": "#313030",
+                        "on-secondary-container": "#7a5070",
+                        "on-surface-variant": "#51443d",
+                        "surface": "#fcf9f8",
+                        "primary-fixed": "#ffdbc9",
+                        "on-background": "#1c1b1b"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter", "system-ui", "sans-serif"],
+                        "caption": ["Inter", "system-ui", "sans-serif"],
+                        "body-lg": ["Inter", "system-ui", "sans-serif"],
+                        "label-bold": ["Inter", "system-ui", "sans-serif"],
+                        "headline-xl": ["Space Grotesk", "system-ui", "sans-serif"],
+                        "headline-lg": ["Space Grotesk", "system-ui", "sans-serif"],
+                        "headline-md": ["Space Grotesk", "system-ui", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .sunset-bg {
+            background: linear-gradient(135deg, rgba(255,196,163,0.3) 0%, rgba(232,180,217,0.3) 50%, rgba(196,181,253,0.3) 100%);
+            background-color: var(--color-background, #fcf9f8);
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+        }
+        /* Custom scrollbar hiding for the carousel while keeping functionality */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        /* Full-bleed escape for the constrained <main> wrapper */
+        html, body { overflow-x: clip; }
+        .full-bleed {
+            width: 100vw;
+            margin-left: calc(50% - 50vw);
+            margin-right: calc(50% - 50vw);
+            max-width: none;
+        }
+
+        /* Auto-cycling vertical image cross-fade with blur (§M.2) */
+        @keyframes sundial-archive-fade {
+            0%, 4%   { opacity: 0; filter: blur(18px) saturate(0.85); transform: scale(1.04); }
+            8%, 22%  { opacity: 1; filter: blur(0)     saturate(1);    transform: scale(1); }
+            26%, 100%{ opacity: 0; filter: blur(18px) saturate(0.85); transform: scale(1.04); }
+        }
+        .sundial-cycle-img {
+            animation: sundial-archive-fade 16s linear infinite;
+            opacity: 0;
+            filter: blur(18px) saturate(0.85);
+            transform: scale(1.04);
+            will-change: opacity, filter, transform;
+        }
+        @keyframes sundial-scrub {
+            0%   { transform: scaleX(0); }
+            100% { transform: scaleX(1); }
+        }
+        .sundial-scrub {
+            animation: sundial-scrub 16s linear infinite;
+            transform-origin: left;
+        }
+
+        /* Pulsing live dot for the "current step" idiom */
+        @keyframes sundial-pulse {
+            0%, 100% { opacity: 0.7; box-shadow: 0 0 0 0 rgba(244,186,154,0.45); }
+            50%      { opacity: 1;   box-shadow: 0 0 0 10px rgba(244,186,154,0); }
+        }
+        .sundial-pulse {
+            animation: sundial-pulse 2.4s ease-in-out infinite;
+        }
+
+        /* FAQ accordion chevron rotation (§M.7) */
+        .sundial-faq summary::-webkit-details-marker { display: none; }
+        .sundial-faq summary { list-style: none; cursor: pointer; }
+        .sundial-faq summary .sundial-chevron { transition: transform 250ms ease; }
+        .sundial-faq[open] summary .sundial-chevron { transform: rotate(180deg); }
+
+        @media (prefers-reduced-motion: reduce) {
+            .sundial-cycle-img,
+            .sundial-scrub,
+            .sundial-pulse {
+                animation: none !important;
+            }
+            /* Keep first cycling image visible when motion is off */
+            .sundial-cycle-img:first-child {
+                opacity: 1 !important;
+                filter: none !important;
+                transform: none !important;
+            }
+            .sundial-faq summary .sundial-chevron { transition: none; }
+        }
+    </style>
+</head>
+<body class="sunset-bg text-on-surface font-body-md antialiased min-h-screen selection:bg-primary-container selection:text-on-primary-container relative flex flex-col cursor-default">
+    
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:p-4 focus:bg-white focus:text-primary focus:z-[100] focus:outline-none focus:ring-2 focus:ring-primary focus:rounded-lg shadow-lg font-label-bold">
+        Skip to main content
+    </a>
+
+    <!-- Background Ambient Gradients -->
+    <div class="fixed inset-0 pointer-events-none overflow-hidden -z-10" aria-hidden="true">
+        <div class="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-primary-container opacity-30 blur-[100px]"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[60vw] h-[60vw] rounded-full bg-tertiary-container opacity-30 blur-[120px]"></div>
+        <div class="absolute top-[40%] left-[60%] w-[40vw] h-[40vw] rounded-full bg-secondary-container opacity-30 blur-[80px]"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="fixed top-0 w-full z-50 bg-white/30 dark:bg-zinc-950/20 backdrop-blur-2xl border-b border-white/20 dark:border-white/5 shadow-[0_8px_32px_0_rgba(255,196,163,0.1)]">
+        <nav class="flex justify-between items-center px-4 py-4 max-w-7xl mx-auto gap-3 sm:px-8 sm:py-6 md:px-12 xl:px-0" aria-label="Main Navigation">
+            <a class="text-xl font-bold text-zinc-900 dark:text-zinc-100 font-headline-md tracking-tight sm:text-2xl focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-2 -mx-2 transition-colors" href="#">Sundial</a>
+            
+            <div class="hidden md:flex items-center space-x-8 font-['Space_Grotesk'] font-medium tracking-tight">
+                <a class="text-orange-500 dark:text-orange-400 border-b-2 border-orange-400 pb-1 motion-safe:transition-all motion-safe:duration-300 hover:text-zinc-900 dark:hover:text-zinc-100 active:scale-95 focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded" href="#">Reflection</a>
+                <a class="text-zinc-600 dark:text-zinc-400 motion-safe:transition-all motion-safe:duration-300 hover:text-zinc-900 dark:hover:text-zinc-100 active:scale-95 focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-2" href="#">Process</a>
+                <a class="text-zinc-600 dark:text-zinc-400 motion-safe:transition-all motion-safe:duration-300 hover:text-zinc-900 dark:hover:text-zinc-100 active:scale-95 focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-2" href="#">Community</a>
+                <a class="text-zinc-600 dark:text-zinc-400 motion-safe:transition-all motion-safe:duration-300 hover:text-zinc-900 dark:hover:text-zinc-100 active:scale-95 focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-2" href="#">Philosophy</a>
+            </div>
+            
+            <button type="button" class="bg-[#1A1A1A] text-white px-4 py-2 rounded-full font-label-bold text-xs motion-safe:transition-all hover:bg-zinc-800 hover:shadow-md active:scale-95 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background focus-visible:outline-none sm:px-6 sm:py-3 sm:text-sm cursor-pointer">
+                Get Started
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content Flow -->
+    <main id="main-content" class="flex-grow pt-28 pb-12 flex flex-col gap-16 md:pt-[160px] md:pb-24 md:gap-24 w-full">
+        
+        <!-- Hero Section -->
+        <section class="w-full max-w-7xl mx-auto px-4 sm:px-8 md:px-12 flex flex-col items-center text-center gap-6 mt-8 sm:mt-12">
+            <h1 class="font-headline-xl text-[clamp(2.5rem,5vw+1rem,4rem)] leading-[1.1] text-on-surface max-w-4xl text-balance">
+                Your reflections, turned into memories.
+            </h1>
+            <p class="font-body-lg text-[clamp(1rem,2vw+0.5rem,1.125rem)] text-on-surface-variant max-w-[65ch] text-pretty">
+                A daily journaling experience that feels like a cinematic pause. Whether you're tracking your mood, capturing life's little details, or finding peace in the chaos, Sundial adapts to your unique rhythm. Capture the sunset of your day.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 mt-4 z-10">
+                <button type="button" class="bg-[#1A1A1A] text-white px-8 py-4 rounded-full font-label-bold motion-safe:transition-all hover:bg-zinc-800 hover:shadow-lg active:scale-95 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background focus-visible:outline-none flex items-center justify-center gap-2 cursor-pointer">
+                    <span class="material-symbols-outlined text-[20px]" aria-hidden="true">ios</span> App Store
+                </button>
+                <button type="button" class="glass-panel text-on-surface px-8 py-4 rounded-full font-label-bold motion-safe:transition-all hover:bg-white/60 hover:shadow-lg active:scale-95 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background focus-visible:outline-none flex items-center justify-center gap-2 cursor-pointer">
+                    <span class="material-symbols-outlined text-[20px]" aria-hidden="true">play_arrow</span> Google Play
+                </button>
+            </div>
+            
+            <div class="flex items-center gap-2 mt-4 text-on-surface-variant font-caption tabular-nums">
+                <div class="flex text-orange-400" aria-hidden="true">
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star_half</span>
+                </div>
+                <span><span class="font-bold text-on-surface">4.9</span> stars, <span class="font-bold text-on-surface">12k</span> reviews</span>
+            </div>
+
+            <!-- Hero phone mockups - pure CSS UI replacing abstract photos. Phone 1 = morning journal entry, Phone 2 = mood slider. -->
+            <div class="flex justify-center items-end gap-6 sm:gap-10 md:gap-16 mt-16 w-full max-w-4xl mx-auto">
+
+                <!-- Phone 1 - Morning Journal Entry -->
+                <div class="w-[45%] max-w-[320px] aspect-[9/19.5] shrink-0 rounded-[2rem] sm:rounded-[3rem] border-[6px] sm:border-[8px] border-white shadow-[0_20px_50px_-10px_rgba(196,181,253,0.6)] relative overflow-hidden ring-1 ring-black/5 motion-safe:transition-transform motion-safe:duration-500 hover:-translate-y-4 hover:shadow-[0_30px_60px_-15px_rgba(196,181,253,0.8)] z-10" role="img" aria-label="Sundial app - morning journal entry screen">
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[35%] h-5 sm:h-6 bg-white rounded-b-xl sm:rounded-b-2xl z-20 shadow-sm"></div>
+                    <!-- Background gradient -->
+                    <div class="absolute inset-0 bg-gradient-to-b from-primary-container/50 via-background to-secondary-container/30"></div>
+                    <!-- Soft sun glow -->
+                    <div class="absolute top-12 -right-8 w-32 h-32 rounded-full bg-primary-container/60 blur-2xl"></div>
+                    <!-- UI -->
+                    <div class="absolute inset-0 z-10 flex flex-col px-3 pt-6 pb-3 text-on-surface">
+                        <!-- Status bar -->
+                        <div class="flex justify-between items-center text-[8px] sm:text-[9px] font-semibold tabular-nums">
+                            <span>9:41</span>
+                            <div class="flex gap-1 items-center">
+                                <span class="material-symbols-outlined text-[9px] sm:text-[11px]">network_wifi</span>
+                                <span class="material-symbols-outlined text-[9px] sm:text-[11px]">battery_full</span>
+                            </div>
+                        </div>
+                        <!-- Header -->
+                        <div class="mt-2 sm:mt-3 flex items-center justify-between">
+                            <div class="flex flex-col leading-tight">
+                                <span class="text-on-surface-variant text-[6px] sm:text-[7px] uppercase tracking-[0.25em]">Sunday</span>
+                                <span class="font-headline-md text-base sm:text-lg font-bold leading-none">12 May</span>
+                            </div>
+                            <span class="material-symbols-outlined text-on-surface text-[14px] sm:text-[16px]">menu</span>
+                        </div>
+                        <!-- Greeting + sun pill -->
+                        <div class="mt-2 flex items-center gap-1.5">
+                            <span class="material-symbols-outlined text-primary text-[12px]" style="font-variation-settings: 'FILL' 1;">wb_sunny</span>
+                            <span class="text-[8px] sm:text-[10px] font-medium leading-none">Good morning, Sarah.</span>
+                        </div>
+                        <!-- Note card -->
+                        <div class="mt-2 rounded-2xl bg-white/85 border border-white/60 p-2 shadow-inner">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-[6px] sm:text-[7px] uppercase tracking-[0.2em] text-on-surface-variant font-bold">Today's note</span>
+                                <span class="bg-primary-container text-primary text-[6px] sm:text-[7px] px-1.5 py-0.5 rounded-full font-bold tabular-nums">07:14</span>
+                            </div>
+                            <p class="text-[8px] sm:text-[9px] leading-snug">Walked to the lighthouse before the rain. Tea on the way back, watched the gulls.</p>
+                            <span class="inline-block w-[1px] h-2.5 bg-primary mt-0.5 align-middle motion-safe:animate-pulse"></span>
+                        </div>
+                        <!-- Mood chip -->
+                        <div class="mt-2 self-start flex items-center gap-1 bg-secondary-container/40 rounded-full px-2 py-0.5 border border-white/40">
+                            <span class="w-1 h-1 rounded-full bg-secondary"></span>
+                            <span class="text-[6px] sm:text-[7px] uppercase tracking-[0.2em] text-on-surface font-bold">Mood · Calm</span>
+                        </div>
+                        <!-- Photo attach hint -->
+                        <div class="mt-2 flex items-center gap-2 rounded-xl bg-white/60 border border-white/50 p-1.5">
+                            <span class="material-symbols-outlined text-tertiary text-[10px] sm:text-[12px]">photo_camera</span>
+                            <span class="text-[6px] sm:text-[8px] uppercase tracking-[0.18em] text-on-surface-variant">Attach a moment</span>
+                        </div>
+                        <!-- Spacer -->
+                        <div class="flex-1"></div>
+                        <!-- Tab bar -->
+                        <div class="flex justify-around items-center bg-white/85 backdrop-blur rounded-full px-2 py-1 sm:py-1.5 border border-white/60 shadow">
+                            <span class="material-symbols-outlined text-primary text-[12px] sm:text-[14px]" style="font-variation-settings: 'FILL' 1;">edit_note</span>
+                            <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px] sm:text-[14px]">mood</span>
+                            <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px] sm:text-[14px]">history</span>
+                            <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px] sm:text-[14px]">spa</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 2 - Mood Slider -->
+                <div class="w-[45%] max-w-[320px] aspect-[9/19.5] shrink-0 rounded-[2rem] sm:rounded-[3rem] border-[6px] sm:border-[8px] border-white shadow-[0_20px_50px_-10px_rgba(232,180,217,0.6)] relative overflow-hidden ring-1 ring-black/5 mt-16 sm:mt-24 motion-safe:transition-transform motion-safe:duration-500 hover:-translate-y-4 hover:shadow-[0_30px_60px_-15px_rgba(232,180,217,0.8)] z-10" role="img" aria-label="Sundial app - afternoon mood slider screen">
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[35%] h-5 sm:h-6 bg-white rounded-b-xl sm:rounded-b-2xl z-20 shadow-sm"></div>
+                    <!-- Sunset gradient bg -->
+                    <div class="absolute inset-0 bg-gradient-to-b from-primary-container via-secondary-container/70 to-tertiary-container/60"></div>
+                    <!-- Soft halo -->
+                    <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 rounded-full bg-primary-container/50 blur-3xl"></div>
+                    <!-- UI -->
+                    <div class="absolute inset-0 z-10 flex flex-col px-3 pt-6 pb-3 text-on-surface">
+                        <!-- Status bar -->
+                        <div class="flex justify-between items-center text-[8px] sm:text-[9px] font-semibold tabular-nums">
+                            <span>15:02</span>
+                            <div class="flex gap-1 items-center">
+                                <span class="material-symbols-outlined text-[9px] sm:text-[11px]">network_wifi</span>
+                                <span class="material-symbols-outlined text-[9px] sm:text-[11px]">battery_full</span>
+                            </div>
+                        </div>
+                        <!-- Top nav -->
+                        <div class="mt-2 sm:mt-3 flex items-center justify-between">
+                            <span class="material-symbols-outlined text-on-surface text-[14px] sm:text-[16px]">arrow_back</span>
+                            <span class="text-[6px] sm:text-[8px] uppercase tracking-[0.25em] text-on-surface-variant font-bold">Mood · Afternoon</span>
+                            <span class="material-symbols-outlined text-on-surface text-[14px] sm:text-[16px]">more_horiz</span>
+                        </div>
+                        <!-- Sun visual -->
+                        <div class="mt-3 sm:mt-4 flex items-center justify-center">
+                            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-primary-container via-primary-fixed-dim to-secondary-container border-2 border-white/80 shadow-[0_0_40px_-5px_rgba(244,186,154,0.7)]"></div>
+                        </div>
+                        <!-- Mood label -->
+                        <div class="mt-3 text-center">
+                            <p class="text-[6px] sm:text-[7px] uppercase tracking-[0.2em] text-on-surface-variant font-bold">How does today feel?</p>
+                            <p class="mt-0.5 font-headline-md text-base sm:text-lg font-bold leading-tight">Soft</p>
+                        </div>
+                        <!-- Slider -->
+                        <div class="mt-3 px-1">
+                            <div class="relative h-3 sm:h-4 rounded-full bg-gradient-to-r from-tertiary-fixed-dim via-primary-container to-secondary-container border border-white/60 shadow-inner flex items-center">
+                                <div class="absolute left-[55%] -translate-x-1/2 w-3 h-3 sm:w-4 sm:h-4 rounded-full bg-white border-2 border-primary shadow"></div>
+                            </div>
+                            <div class="flex justify-between text-[5px] sm:text-[7px] uppercase tracking-[0.18em] text-on-surface-variant mt-1.5 font-bold">
+                                <span>Tense</span>
+                                <span>Soft</span>
+                                <span>Bright</span>
+                            </div>
+                        </div>
+                        <!-- Trend mini-chart -->
+                        <div class="mt-3 rounded-xl bg-white/70 border border-white/60 p-2">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-[6px] sm:text-[7px] uppercase tracking-[0.2em] text-on-surface-variant font-bold">7-day arc</span>
+                                <span class="text-[6px] sm:text-[7px] tabular-nums text-primary font-bold">+12%</span>
+                            </div>
+                            <div class="flex items-end justify-between h-5 gap-0.5">
+                                <span class="flex-1 bg-tertiary-container rounded-sm" style="height: 30%"></span>
+                                <span class="flex-1 bg-secondary-container rounded-sm" style="height: 50%"></span>
+                                <span class="flex-1 bg-secondary-container rounded-sm" style="height: 45%"></span>
+                                <span class="flex-1 bg-primary-container rounded-sm" style="height: 65%"></span>
+                                <span class="flex-1 bg-primary-container rounded-sm" style="height: 70%"></span>
+                                <span class="flex-1 bg-primary rounded-sm" style="height: 85%"></span>
+                                <span class="flex-1 bg-primary rounded-sm" style="height: 90%"></span>
+                            </div>
+                        </div>
+                        <!-- Spacer -->
+                        <div class="flex-1"></div>
+                        <!-- Save button -->
+                        <button type="button" class="bg-on-surface text-on-primary rounded-full py-1.5 sm:py-2 font-label-bold text-[8px] sm:text-[10px] tracking-wide uppercase">Save mood</button>
+                        <!-- Tab bar -->
+                        <div class="mt-1.5 flex justify-around items-center bg-white/85 backdrop-blur rounded-full px-2 py-1 sm:py-1.5 border border-white/60 shadow">
+                            <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px] sm:text-[14px]">edit_note</span>
+                            <span class="material-symbols-outlined text-secondary text-[12px] sm:text-[14px]" style="font-variation-settings: 'FILL' 1;">mood</span>
+                            <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px] sm:text-[14px]">history</span>
+                            <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px] sm:text-[14px]">spa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Carousel -->
+        <section class="w-full overflow-hidden" aria-labelledby="carousel-heading">
+            <div class="w-full max-w-7xl mx-auto px-4 sm:px-8 md:px-12 mb-8 md:mb-12">
+                <h2 id="carousel-heading" class="font-headline-md text-[clamp(1.5rem,4vw,2.5rem)] text-center text-balance mb-2">Glimpse your journey</h2>
+                <p class="text-center font-body-md text-[clamp(1rem,1.5vw,1.125rem)] text-on-surface-variant max-w-[55ch] mx-auto text-pretty">
+                    Explore a beautifully minimal interface where every detail is designed to bring you peace. Swipe through your days like a curated gallery of your life.
+                </p>
+            </div>
+            
+            <!--
+                Symmetric padding on an overflow-x carousel: the standard "centered when it fits, scrolls when it doesn't" pattern.
+                Outer: flex scroll container, no horizontal padding. Inner: `w-max` sizes to its own content (cards + gaps + its own px-*), `m-auto` consumes the free space equally on both sides when the viewport has room. When the content overflows, auto margins collapse to 0 so the scroll still starts at the first card with no dead left space.
+            -->
+            <div class="flex overflow-x-auto pb-12 pt-4 snap-x snap-mandatory hide-scrollbar focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-4 focus-visible:ring-offset-background" tabindex="0" aria-label="App features gallery">
+                <!-- Inner track: w-max sizes to its content; m-auto centers when the viewport has room (equal padding both sides) and collapses to 0 when content overflows so the user can still scroll. px-* provides the minimum padding on narrow viewports before overflow kicks in. -->
+                <div class="m-auto flex w-max gap-6 sm:gap-8 px-4 sm:px-8 md:px-12">
+
+                    <!-- Card 1 - Write screen -->
+                    <article class="shrink-0 snap-start w-[240px] sm:w-[280px] aspect-[9/19.5] glass-card rounded-[2rem] p-3 flex flex-col relative overflow-hidden ring-1 ring-white/50 shadow-xl motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2" role="img" aria-label="Sundial Write screen mockup">
+                        <img width="800" height="1733" loading="lazy" decoding="async" class="absolute inset-3 w-[calc(100%-1.5rem)] h-[calc(100%-1.5rem)] object-cover rounded-[1.5rem] opacity-70" src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80" alt="Warm sunlit desk - backdrop for the Write screen"/>
+                        <div class="absolute inset-3 z-10 flex flex-col rounded-[1.5rem] p-2.5 text-on-surface bg-gradient-to-b from-white/40 to-white/70">
+                            <div class="flex justify-between items-center text-[8px] font-bold tabular-nums">
+                                <span>9:41</span>
+                                <span class="material-symbols-outlined text-[10px]">battery_full</span>
+                            </div>
+                            <span class="mt-2 self-start bg-primary-container/90 text-primary text-[7px] font-bold uppercase tracking-[0.18em] px-1.5 py-0.5 rounded-full">Write</span>
+                            <p class="mt-2 font-headline-md text-sm font-bold leading-tight">Today's note</p>
+                            <div class="mt-1.5 rounded-lg bg-white/85 border border-white/60 p-1.5 shadow-inner">
+                                <p class="text-[8px] leading-snug">The light went pink at twenty past seven.</p>
+                                <span class="inline-block w-[1px] h-2 bg-primary mt-0.5 motion-safe:animate-pulse"></span>
+                            </div>
+                            <div class="flex-1"></div>
+                            <div class="flex justify-around items-center bg-white/85 backdrop-blur rounded-full py-1 border border-white/60">
+                                <span class="material-symbols-outlined text-primary text-[12px]" style="font-variation-settings: 'FILL' 1;">edit_note</span>
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px]">mood</span>
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px]">history</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 2 - Calendar / mood map -->
+                    <article class="shrink-0 snap-start w-[240px] sm:w-[280px] aspect-[9/19.5] glass-card rounded-[2rem] p-3 flex flex-col relative overflow-hidden ring-1 ring-white/50 shadow-xl motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2" role="img" aria-label="Sundial Calendar screen mockup">
+                        <img width="800" height="1733" loading="lazy" decoding="async" class="absolute inset-3 w-[calc(100%-1.5rem)] h-[calc(100%-1.5rem)] object-cover rounded-[1.5rem] opacity-60" src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=800&q=80" alt="Calming landscape - backdrop for the Calendar screen"/>
+                        <div class="absolute inset-3 z-10 flex flex-col rounded-[1.5rem] p-2.5 text-on-surface bg-gradient-to-b from-white/50 to-white/75">
+                            <div class="flex justify-between items-center text-[8px] font-bold tabular-nums">
+                                <span>10:02</span>
+                                <span class="material-symbols-outlined text-[10px]">battery_full</span>
+                            </div>
+                            <span class="mt-2 self-start bg-secondary-container/90 text-secondary text-[7px] font-bold uppercase tracking-[0.18em] px-1.5 py-0.5 rounded-full">Calendar · May</span>
+                            <p class="mt-2 font-headline-md text-sm font-bold leading-tight">Your month, in mood</p>
+                            <!-- Mood-tinted day grid -->
+                            <div class="mt-2 grid grid-cols-7 gap-0.5">
+                                <span class="aspect-square rounded-sm bg-primary-container/60"></span>
+                                <span class="aspect-square rounded-sm bg-secondary-container/60"></span>
+                                <span class="aspect-square rounded-sm bg-tertiary-container/60"></span>
+                                <span class="aspect-square rounded-sm bg-primary-container/80"></span>
+                                <span class="aspect-square rounded-sm bg-primary"></span>
+                                <span class="aspect-square rounded-sm bg-secondary-container/70"></span>
+                                <span class="aspect-square rounded-sm bg-tertiary-container/40"></span>
+                                <span class="aspect-square rounded-sm bg-primary-container/40"></span>
+                                <span class="aspect-square rounded-sm bg-primary-container/70"></span>
+                                <span class="aspect-square rounded-sm bg-primary"></span>
+                                <span class="aspect-square rounded-sm bg-secondary"></span>
+                                <span class="aspect-square rounded-sm bg-secondary-container/80"></span>
+                                <span class="aspect-square rounded-sm bg-tertiary-container/70"></span>
+                                <span class="aspect-square rounded-sm bg-primary-container/50"></span>
+                                <span class="aspect-square rounded-sm bg-primary-container/85"></span>
+                                <span class="aspect-square rounded-sm bg-primary"></span>
+                                <span class="aspect-square rounded-sm bg-secondary"></span>
+                                <span class="aspect-square rounded-sm bg-tertiary"></span>
+                                <span class="aspect-square rounded-sm bg-secondary-container/65"></span>
+                                <span class="aspect-square rounded-sm bg-primary-container/65"></span>
+                                <span class="aspect-square rounded-sm bg-tertiary-container/55"></span>
+                            </div>
+                            <div class="flex-1"></div>
+                            <div class="flex justify-around items-center bg-white/85 backdrop-blur rounded-full py-1 border border-white/60">
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px]">edit_note</span>
+                                <span class="material-symbols-outlined text-secondary text-[12px]" style="font-variation-settings: 'FILL' 1;">mood</span>
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px]">history</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 3 - Insights / weekly arc chart -->
+                    <article class="shrink-0 snap-start w-[240px] sm:w-[280px] aspect-[9/19.5] glass-card rounded-[2rem] p-3 flex flex-col relative overflow-hidden ring-1 ring-white/50 shadow-xl motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2" role="img" aria-label="Sundial Insights screen mockup">
+                        <img width="800" height="1733" loading="lazy" decoding="async" class="absolute inset-3 w-[calc(100%-1.5rem)] h-[calc(100%-1.5rem)] object-cover rounded-[1.5rem] opacity-50" src="https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=800&q=80" alt="Abstract minimal curves - backdrop for the Insights screen"/>
+                        <div class="absolute inset-3 z-10 flex flex-col rounded-[1.5rem] p-2.5 text-on-surface bg-gradient-to-b from-white/55 to-white/80">
+                            <div class="flex justify-between items-center text-[8px] font-bold tabular-nums">
+                                <span>16:30</span>
+                                <span class="material-symbols-outlined text-[10px]">battery_full</span>
+                            </div>
+                            <span class="mt-2 self-start bg-tertiary-container/90 text-tertiary text-[7px] font-bold uppercase tracking-[0.18em] px-1.5 py-0.5 rounded-full">Insights · Week 18</span>
+                            <p class="mt-2 font-headline-md text-sm font-bold leading-tight">A softer arc this week.</p>
+                            <p class="text-[8px] text-on-surface-variant mt-0.5">Mood up 12%. Energy steadier.</p>
+                            <!-- Mini bar chart -->
+                            <div class="mt-2 flex items-end justify-between gap-0.5 h-12 px-0.5">
+                                <span class="flex-1 bg-tertiary-container/70 rounded-sm" style="height: 35%"></span>
+                                <span class="flex-1 bg-secondary-container/80 rounded-sm" style="height: 50%"></span>
+                                <span class="flex-1 bg-primary-container/80 rounded-sm" style="height: 60%"></span>
+                                <span class="flex-1 bg-primary-container rounded-sm" style="height: 65%"></span>
+                                <span class="flex-1 bg-primary rounded-sm" style="height: 78%"></span>
+                                <span class="flex-1 bg-primary rounded-sm" style="height: 88%"></span>
+                                <span class="flex-1 bg-primary-fixed-dim rounded-sm shadow-[0_0_8px_rgba(244,186,154,0.6)]" style="height: 95%"></span>
+                            </div>
+                            <div class="mt-1 flex justify-between text-[6px] uppercase tracking-[0.18em] text-on-surface-variant font-bold">
+                                <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+                            </div>
+                            <div class="flex-1"></div>
+                            <div class="flex justify-around items-center bg-white/85 backdrop-blur rounded-full py-1 border border-white/60">
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px]">edit_note</span>
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px]">mood</span>
+                                <span class="material-symbols-outlined text-tertiary text-[12px]" style="font-variation-settings: 'FILL' 1;">history</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 4 - Settings -->
+                    <article class="shrink-0 snap-start w-[240px] sm:w-[280px] aspect-[9/19.5] glass-card rounded-[2rem] p-3 flex flex-col relative overflow-hidden ring-1 ring-white/50 shadow-xl motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2" role="img" aria-label="Sundial Settings screen mockup">
+                        <img width="800" height="1733" loading="lazy" decoding="async" class="absolute inset-3 w-[calc(100%-1.5rem)] h-[calc(100%-1.5rem)] object-cover rounded-[1.5rem] opacity-55" src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="Soft pastel gradient - backdrop for the Settings screen"/>
+                        <div class="absolute inset-3 z-10 flex flex-col rounded-[1.5rem] p-2.5 text-on-surface bg-gradient-to-b from-white/55 to-white/80">
+                            <div class="flex justify-between items-center text-[8px] font-bold tabular-nums">
+                                <span>20:14</span>
+                                <span class="material-symbols-outlined text-[10px]">battery_full</span>
+                            </div>
+                            <span class="mt-2 self-start bg-primary-container/90 text-primary text-[7px] font-bold uppercase tracking-[0.18em] px-1.5 py-0.5 rounded-full">Settings</span>
+                            <p class="mt-2 font-headline-md text-sm font-bold leading-tight">Your rhythm</p>
+                            <!-- Toggle rows -->
+                            <ul class="mt-2 flex flex-col gap-1.5">
+                                <li class="flex items-center justify-between rounded-lg bg-white/80 border border-white/60 px-2 py-1">
+                                    <span class="text-[8px] font-medium">Sunset reminder</span>
+                                    <span class="w-6 h-3 rounded-full bg-primary relative"><span class="absolute right-0.5 top-0.5 w-2 h-2 rounded-full bg-white"></span></span>
+                                </li>
+                                <li class="flex items-center justify-between rounded-lg bg-white/80 border border-white/60 px-2 py-1">
+                                    <span class="text-[8px] font-medium">End-to-end private</span>
+                                    <span class="w-6 h-3 rounded-full bg-primary relative"><span class="absolute right-0.5 top-0.5 w-2 h-2 rounded-full bg-white"></span></span>
+                                </li>
+                                <li class="flex items-center justify-between rounded-lg bg-white/80 border border-white/60 px-2 py-1">
+                                    <span class="text-[8px] font-medium">Streaks</span>
+                                    <span class="w-6 h-3 rounded-full bg-on-surface-variant/30 relative"><span class="absolute left-0.5 top-0.5 w-2 h-2 rounded-full bg-white"></span></span>
+                                </li>
+                                <li class="flex items-center justify-between rounded-lg bg-white/80 border border-white/60 px-2 py-1">
+                                    <span class="text-[8px] font-medium">Mood palette</span>
+                                    <span class="text-[7px] text-on-surface-variant">Sunset →</span>
+                                </li>
+                            </ul>
+                            <div class="flex-1"></div>
+                            <div class="flex justify-around items-center bg-white/85 backdrop-blur rounded-full py-1 border border-white/60">
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px]">edit_note</span>
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[12px]">mood</span>
+                                <span class="material-symbols-outlined text-primary text-[12px]" style="font-variation-settings: 'FILL' 1;">spa</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 5 - Night mode / Bedtime ritual -->
+                    <article class="shrink-0 snap-start w-[240px] sm:w-[280px] aspect-[9/19.5] glass-card rounded-[2rem] p-3 flex flex-col relative overflow-hidden ring-1 ring-white/50 shadow-xl motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2" role="img" aria-label="Sundial Bedtime screen mockup">
+                        <img width="800" height="1733" loading="lazy" decoding="async" class="absolute inset-3 w-[calc(100%-1.5rem)] h-[calc(100%-1.5rem)] object-cover rounded-[1.5rem] opacity-80" src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80" alt="Sunset clouds - backdrop for the Bedtime screen"/>
+                        <div class="absolute inset-3 z-10 flex flex-col rounded-[1.5rem] p-2.5 text-white bg-gradient-to-b from-black/30 via-black/20 to-black/55">
+                            <div class="flex justify-between items-center text-[8px] font-bold tabular-nums drop-shadow-[0_1px_3px_rgba(0,0,0,0.6)]">
+                                <span>22:07</span>
+                                <span class="material-symbols-outlined text-[10px]">battery_full</span>
+                            </div>
+                            <span class="mt-2 self-start bg-white/15 backdrop-blur text-white text-[7px] font-bold uppercase tracking-[0.18em] px-1.5 py-0.5 rounded-full border border-white/30">Bedtime</span>
+                            <p class="mt-2 font-headline-md text-sm font-bold leading-tight drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)]">Wind down softly.</p>
+                            <p class="text-[8px] mt-1 opacity-80 drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)]">21 min until your sunset reminder.</p>
+                            <!-- Sun-set arc -->
+                            <div class="mt-3 mx-auto w-16 h-8 relative">
+                                <div class="absolute inset-x-0 bottom-0 h-px bg-white/40"></div>
+                                <div class="absolute left-1/2 -translate-x-1/2 bottom-0 w-12 h-12 rounded-full bg-gradient-to-t from-primary-container to-secondary-container/0 border-2 border-white/60 -translate-y-1/4 shadow-[0_0_24px_rgba(244,186,154,0.55)]"></div>
+                            </div>
+                            <div class="flex-1"></div>
+                            <button type="button" class="rounded-full bg-white/20 backdrop-blur border border-white/30 py-1.5 text-[8px] font-bold uppercase tracking-[0.2em]">Start ritual</button>
+                            <div class="mt-1.5 flex justify-around items-center bg-white/15 backdrop-blur rounded-full py-1 border border-white/30">
+                                <span class="material-symbols-outlined text-white/60 text-[12px]">edit_note</span>
+                                <span class="material-symbols-outlined text-white/60 text-[12px]">mood</span>
+                                <span class="material-symbols-outlined text-white text-[12px]" style="font-variation-settings: 'FILL' 1;">bedtime</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- How it Works Section -->
+        <section class="w-full max-w-7xl mx-auto px-4 sm:px-8 md:px-12" aria-labelledby="how-it-works-heading">
+            <h2 id="how-it-works-heading" class="sr-only">How it works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                
+                <!-- Step 1 -->
+                <article class="glass-card p-8 sm:p-10 rounded-[2rem] flex flex-col items-center text-center gap-4 motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2 shadow-lg ring-1 ring-white/40">
+                    <div class="w-20 h-20 rounded-full bg-primary-container/40 flex items-center justify-center mb-2 shadow-inner">
+                        <span class="material-symbols-outlined text-[40px] text-primary" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">edit_document</span>
+                    </div>
+                    <h3 class="font-headline-md text-xl">Capture</h3>
+                    <p class="font-body-md text-on-surface-variant max-w-[40ch] text-pretty">
+                        Jot down fleeting thoughts in a distraction-free space designed for focus. Our minimalist editor removes the noise, allowing your purest thoughts to flow directly onto the digital page without hesitation.
+                    </p>
+                </article>
+                
+                <!-- Step 2 -->
+                <article class="glass-card p-8 sm:p-10 rounded-[2rem] flex flex-col items-center text-center gap-4 motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2 shadow-lg ring-1 ring-white/40">
+                    <div class="w-20 h-20 rounded-full bg-secondary-container/40 flex items-center justify-center mb-2 shadow-inner">
+                        <span class="material-symbols-outlined text-[40px] text-secondary" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">psychology</span>
+                    </div>
+                    <h3 class="font-headline-md text-xl">Reflect</h3>
+                    <p class="font-body-md text-on-surface-variant max-w-[40ch] text-pretty">
+                        Pause and map your emotional state with our intuitive sun-slider mood tracker. Understand your daily patterns, recognize your emotional triggers, and find profound clarity in your journey over time.
+                    </p>
+                </article>
+                
+                <!-- Step 3 -->
+                <article class="glass-card p-8 sm:p-10 rounded-[2rem] flex flex-col items-center text-center gap-4 motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2 shadow-lg ring-1 ring-white/40">
+                    <div class="w-20 h-20 rounded-full bg-tertiary-container/40 flex items-center justify-center mb-2 shadow-inner">
+                        <span class="material-symbols-outlined text-[40px] text-tertiary" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">history</span>
+                    </div>
+                    <h3 class="font-headline-md text-xl">Relive</h3>
+                    <p class="font-body-md text-on-surface-variant max-w-[40ch] text-pretty">
+                        Look back on your journey through beautifully curated timelines of your past. Celebrate your unique growth, remember the small moments of joy, and witness the beautiful story of your life unfolding.
+                    </p>
+                </article>
+                
+            </div>
+        </section>
+
+        <!-- Screens - auto-cycling vertical image cross-fade (§M.2) -->
+        <section class="w-full max-w-7xl mx-auto px-4 sm:px-8 md:px-12" aria-labelledby="screens-heading">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+
+                <!-- Sticky text rail -->
+                <div class="lg:col-span-5 flex flex-col gap-6 lg:sticky lg:top-32 self-start">
+                    <span class="font-caption uppercase tracking-[0.3em] text-[11px] text-on-surface-variant">- II · The Screens</span>
+                    <h2 id="screens-heading" class="font-headline-lg text-[clamp(1.75rem,4vw,3rem)] leading-[1.05] text-balance text-on-surface">
+                        Four scenes from a quiet day.
+                    </h2>
+                    <p class="font-body-md text-[clamp(1rem,1.4vw,1.125rem)] text-on-surface-variant max-w-[42ch] text-pretty">
+                        Each frame is a moment Sundial holds for you - morning intention, an afternoon mood, the evening rewind, and the timeline that quietly stitches them together.
+                    </p>
+
+                    <!-- Indicator chips - always visible, accent rotates via the bar below -->
+                    <div class="flex flex-wrap items-center gap-x-5 gap-y-2 mt-4">
+                        <span class="inline-flex items-center gap-2 font-caption text-xs text-on-surface-variant">
+                            <span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Morning
+                        </span>
+                        <span class="inline-flex items-center gap-2 font-caption text-xs text-on-surface-variant">
+                            <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Mood
+                        </span>
+                        <span class="inline-flex items-center gap-2 font-caption text-xs text-on-surface-variant">
+                            <span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> Rewind
+                        </span>
+                        <span class="inline-flex items-center gap-2 font-caption text-xs text-on-surface-variant">
+                            <span class="w-1.5 h-1.5 rounded-full bg-primary-fixed-dim"></span> Timeline
+                        </span>
+                    </div>
+
+                    <!-- Synced scrubber bar -->
+                    <div class="h-px w-full bg-outline-variant/40 relative overflow-hidden mt-2" aria-hidden="true">
+                        <div class="sundial-scrub absolute inset-0 bg-gradient-to-r from-primary via-secondary to-tertiary"></div>
+                    </div>
+                </div>
+
+                <!-- Phone-shaped frame with 4 absolute-stacked cycling images + persistent UI chrome (status bar, tab bar) -->
+                <div class="lg:col-span-7 flex justify-center">
+                    <div class="w-full max-w-[360px] aspect-[9/19.5] bg-white rounded-[2.5rem] sm:rounded-[3rem] border-[8px] border-white shadow-[0_30px_60px_-15px_rgba(196,181,253,0.55)] relative overflow-hidden ring-1 ring-black/5">
+                        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[35%] h-6 bg-white rounded-b-2xl z-30 shadow-sm"></div>
+                        <img loading="lazy" decoding="async" class="sundial-cycle-img absolute inset-0 w-full h-full object-cover" style="animation-delay: 0s;" src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1080&q=80" alt="Morning intention screen - minimal text editor with warm lighting"/>
+                        <img loading="lazy" decoding="async" class="sundial-cycle-img absolute inset-0 w-full h-full object-cover" style="animation-delay: 4s;" src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1080&q=80" alt="Afternoon mood screen - emotional tracking against a calming landscape"/>
+                        <img loading="lazy" decoding="async" class="sundial-cycle-img absolute inset-0 w-full h-full object-cover" style="animation-delay: 8s;" src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1080&q=80" alt="Evening rewind screen - sunset clouds in muted tones for the day's recap"/>
+                        <img loading="lazy" decoding="async" class="sundial-cycle-img absolute inset-0 w-full h-full object-cover" style="animation-delay: 12s;" src="https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=1080&q=80" alt="Timeline screen - abstract minimal curves of weekly personal growth"/>
+
+                        <!-- Persistent status bar overlay (always visible - sells "this is an app screen") -->
+                        <div class="absolute top-2 inset-x-0 z-25 px-5 flex justify-between items-center text-white text-[10px] font-bold tabular-nums drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)]">
+                            <span>9:41</span>
+                            <div class="flex gap-1.5 items-center">
+                                <span class="material-symbols-outlined text-[12px]">network_wifi</span>
+                                <span class="material-symbols-outlined text-[12px]">battery_full</span>
+                            </div>
+                        </div>
+
+                        <!-- Cycling caption - all absolute so they stack at the same anchor -->
+                        <div class="absolute inset-x-0 bottom-14 h-24 z-20 bg-gradient-to-t from-black/65 to-transparent pointer-events-none"></div>
+                        <div class="absolute inset-x-0 bottom-16 p-5 z-20 text-white" style="min-height: 56px;">
+                            <span class="sundial-cycle-img font-caption uppercase tracking-[0.3em] text-[10px] absolute left-5 bottom-3 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]" style="animation-delay: 0s;">07:14 · Morning</span>
+                            <span class="sundial-cycle-img font-caption uppercase tracking-[0.3em] text-[10px] absolute left-5 bottom-3 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]" style="animation-delay: 4s;">15:02 · Mood Slider</span>
+                            <span class="sundial-cycle-img font-caption uppercase tracking-[0.3em] text-[10px] absolute left-5 bottom-3 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]" style="animation-delay: 8s;">21:48 · Evening Rewind</span>
+                            <span class="sundial-cycle-img font-caption uppercase tracking-[0.3em] text-[10px] absolute left-5 bottom-3 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]" style="animation-delay: 12s;">Sunday · Timeline</span>
+                        </div>
+
+                        <!-- Persistent bottom tab bar - Morning/Mood/Rewind/Timeline icons aligning with the cycle -->
+                        <div class="absolute bottom-3 inset-x-3 z-25 flex justify-around items-center bg-white/90 backdrop-blur-md rounded-full px-3 py-2 border border-white/60 shadow-lg">
+                            <span class="material-symbols-outlined text-primary text-[18px]" style="font-variation-settings: 'FILL' 1;">edit_note</span>
+                            <span class="material-symbols-outlined text-secondary text-[18px]">mood</span>
+                            <span class="material-symbols-outlined text-tertiary text-[18px]">history</span>
+                            <span class="material-symbols-outlined text-on-surface-variant/60 text-[18px]">spa</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- In Use - full-bleed cinematic lifestyle backdrop with phone overlay (§I.6 / §D.3) -->
+        <section class="full-bleed relative overflow-hidden" aria-labelledby="in-use-heading">
+            <!-- 1. Background photograph -->
+            <img loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2400&q=85" alt="Soft pastel coastal sunset evoking the cinematic pause Sundial captures"/>
+            <!-- 2. Vertical dark gradient -->
+            <div class="absolute inset-0 bg-gradient-to-b from-black/55 via-black/15 to-black/75 pointer-events-none"></div>
+            <!-- 3. Bottom-left radial vignette pulling focus -->
+            <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse 80% 70% at 25% 80%, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 70%);"></div>
+            <!-- 4. Warm accent tint at the opposite corner -->
+            <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse 60% 55% at 92% 8%, rgba(255,196,163,0.22) 0%, transparent 60%);"></div>
+            <!-- 5. Subtle scanline texture for cinematic feel -->
+            <div class="absolute inset-0 pointer-events-none mix-blend-overlay opacity-30" style="background-image: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 3px);"></div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-8 md:px-12 py-20 md:py-32 grid grid-cols-1 md:grid-cols-12 items-center gap-10 md:gap-16">
+                <!-- Caption rail -->
+                <div class="md:col-span-7 text-white flex flex-col gap-6">
+                    <span class="font-caption uppercase tracking-[0.3em] text-[11px] text-white/70 drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)]">- III · In Use</span>
+                    <h2 id="in-use-heading" class="font-headline-xl text-[clamp(2rem,5vw+0.5rem,3.75rem)] leading-[1.05] text-balance text-white drop-shadow-[0_4px_28px_rgba(0,0,0,0.85)] max-w-[18ch]">
+                        Designed for the slow part of your evening.
+                    </h2>
+                    <p class="font-body-lg text-[clamp(1rem,1.6vw,1.25rem)] text-white/90 max-w-[52ch] text-pretty drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
+                        Pour the tea. Watch the sky go soft. Sundial is the only screen that earns its place at the end of your day - opened by ritual, closed when the words feel finished.
+                    </p>
+                    <div class="flex flex-wrap items-center gap-x-8 gap-y-4 mt-2 text-white/85">
+                        <div class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-white/80 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]" aria-hidden="true">spa</span>
+                            <span class="font-caption text-sm tracking-wide">Calm by default</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-white/80 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]" aria-hidden="true">notifications_off</span>
+                            <span class="font-caption text-sm tracking-wide">No streaks. No nags.</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-white/80 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]" aria-hidden="true">lock</span>
+                            <span class="font-caption text-sm tracking-wide">End-to-end private</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tilted phone mockup overlay - photo as backdrop + Sundial UI chrome -->
+                <div class="md:col-span-5 flex justify-center md:justify-end">
+                    <div class="w-full max-w-[280px] aspect-[9/19.5] bg-white rounded-[2.5rem] sm:rounded-[3rem] border-[8px] border-white shadow-[0_40px_80px_-20px_rgba(0,0,0,0.6)] relative overflow-hidden ring-1 ring-black/10 motion-safe:transition-transform motion-safe:duration-700 hover:rotate-0 rotate-[6deg]" role="img" aria-label="Sundial app - evening rewind on the phone, sunset photo of the day">
+                        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[35%] h-6 bg-white rounded-b-2xl z-20 shadow-sm"></div>
+                        <img loading="lazy" decoding="async" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1080&q=80" alt="Sundial app open on a phone - sunset tones reflecting the moment captured"/>
+                        <!-- UI chrome -->
+                        <div class="absolute inset-0 z-10 flex flex-col px-3 pt-3 pb-3 text-white pointer-events-none">
+                            <!-- Status bar -->
+                            <div class="flex justify-between items-center text-[9px] font-bold tabular-nums drop-shadow-[0_1px_4px_rgba(0,0,0,0.7)]">
+                                <span>21:48</span>
+                                <div class="flex gap-1 items-center">
+                                    <span class="material-symbols-outlined text-[11px]">network_wifi</span>
+                                    <span class="material-symbols-outlined text-[11px]">battery_full</span>
+                                </div>
+                            </div>
+                            <!-- Header - Evening Rewind -->
+                            <div class="mt-3 flex items-center justify-between">
+                                <span class="material-symbols-outlined text-white text-[16px] drop-shadow-[0_1px_4px_rgba(0,0,0,0.7)]">arrow_back</span>
+                                <span class="text-[7px] uppercase tracking-[0.25em] font-bold drop-shadow-[0_1px_4px_rgba(0,0,0,0.7)]">- Evening · Rewind</span>
+                                <span class="material-symbols-outlined text-white text-[16px] drop-shadow-[0_1px_4px_rgba(0,0,0,0.7)]">share</span>
+                            </div>
+                            <!-- Spacer -->
+                            <div class="flex-1"></div>
+                            <!-- Day card -->
+                            <div class="rounded-2xl bg-white/15 backdrop-blur-md border border-white/30 p-2.5 shadow-lg">
+                                <div class="flex items-center justify-between mb-1.5">
+                                    <span class="text-[7px] uppercase tracking-[0.2em] font-bold opacity-90">Sunday · Recap</span>
+                                    <span class="bg-primary-container/90 text-primary text-[7px] px-1.5 py-0.5 rounded-full font-bold tabular-nums">3 notes</span>
+                                </div>
+                                <p class="text-[9px] leading-snug">Tea by the lighthouse. Light went pink at twenty past seven.</p>
+                                <!-- Mood pill row -->
+                                <div class="mt-2 flex items-center gap-1.5">
+                                    <span class="bg-secondary-container/70 text-on-surface text-[7px] px-1.5 py-0.5 rounded-full font-bold uppercase tracking-[0.15em]">Calm</span>
+                                    <span class="bg-primary-container/70 text-on-surface text-[7px] px-1.5 py-0.5 rounded-full font-bold uppercase tracking-[0.15em]">Bright</span>
+                                </div>
+                            </div>
+                            <!-- Tab bar -->
+                            <div class="mt-2 flex justify-around items-center bg-white/85 backdrop-blur rounded-full px-2 py-1.5 border border-white/60 shadow">
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[14px]">edit_note</span>
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[14px]">mood</span>
+                                <span class="material-symbols-outlined text-tertiary text-[14px]" style="font-variation-settings: 'FILL' 1;">history</span>
+                                <span class="material-symbols-outlined text-on-surface-variant/60 text-[14px]">spa</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trusted by - real brand logos via Simple Icons CDN (D.0.1) replacing the fake press names -->
+        <section class="w-full max-w-7xl mx-auto px-4 sm:px-8 md:px-12" aria-labelledby="trusted-heading">
+            <div class="flex flex-col items-center text-center gap-3 mb-8 md:mb-10">
+                <span class="font-caption uppercase tracking-[0.3em] text-[11px] text-on-surface-variant">- Trusted by</span>
+                <h2 id="trusted-heading" class="font-headline-md text-[clamp(1.25rem,2.5vw,1.75rem)] text-balance">Quietly used at studios you'll know.</h2>
+            </div>
+            <div class="glass-card rounded-[2rem] sm:rounded-[2.5rem] py-8 sm:py-10 px-6 sm:px-8 ring-1 ring-white/40 shadow-md">
+                <ul role="list" class="flex flex-wrap justify-center gap-x-8 gap-y-6 sm:gap-x-12 md:gap-x-14 items-center">
+                    <li><img src="https://cdn.simpleicons.org/apple/1A1A1A" alt="Apple" class="h-7 sm:h-8 w-auto opacity-75 hover:opacity-100 motion-safe:transition-opacity duration-300" loading="lazy" decoding="async"/></li>
+                    <li><img src="https://cdn.simpleicons.org/spotify/1DB954" alt="Spotify" class="h-7 sm:h-8 w-auto opacity-75 hover:opacity-100 motion-safe:transition-opacity duration-300" loading="lazy" decoding="async"/></li>
+                    <li><img src="https://cdn.simpleicons.org/notion/1A1A1A" alt="Notion" class="h-7 sm:h-8 w-auto opacity-75 hover:opacity-100 motion-safe:transition-opacity duration-300" loading="lazy" decoding="async"/></li>
+                    <li><img src="https://cdn.simpleicons.org/figma/F24E1E" alt="Figma" class="h-7 sm:h-8 w-auto opacity-75 hover:opacity-100 motion-safe:transition-opacity duration-300" loading="lazy" decoding="async"/></li>
+                    <li><img src="https://cdn.simpleicons.org/linear/5E6AD2" alt="Linear" class="h-7 sm:h-8 w-auto opacity-75 hover:opacity-100 motion-safe:transition-opacity duration-300" loading="lazy" decoding="async"/></li>
+                    <li><img src="https://cdn.simpleicons.org/airbnb/FF5A5F" alt="Airbnb" class="h-7 sm:h-8 w-auto opacity-75 hover:opacity-100 motion-safe:transition-opacity duration-300" loading="lazy" decoding="async"/></li>
+                    <li><img src="https://cdn.simpleicons.org/medium/1A1A1A" alt="Medium" class="h-7 sm:h-8 w-auto opacity-75 hover:opacity-100 motion-safe:transition-opacity duration-300" loading="lazy" decoding="async"/></li>
+                    <li><img src="https://cdn.simpleicons.org/buffer/231F20" alt="Buffer" class="h-7 sm:h-8 w-auto opacity-75 hover:opacity-100 motion-safe:transition-opacity duration-300" loading="lazy" decoding="async"/></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="w-full max-w-7xl mx-auto px-4 sm:px-8 md:px-12 flex justify-center">
+            <figure class="glass-card w-full max-w-4xl p-8 sm:p-12 md:p-16 rounded-[2.5rem] sm:rounded-[3rem] relative text-center shadow-xl ring-1 ring-white/50">
+                <span class="material-symbols-outlined absolute top-6 left-6 sm:top-10 sm:left-10 text-5xl sm:text-6xl text-primary-container/60 pointer-events-none" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+                
+                <blockquote class="font-headline-lg text-[clamp(1.25rem,3vw+0.5rem,2rem)] leading-snug text-on-surface mb-8 sm:mb-10 relative z-10 text-balance mx-auto max-w-[32ch]">
+                    "Sundial changed how I see my day. It's not just logging; it's a moment of peace. The beautifully crafted timeline makes reflecting a true joy rather than a chore."
+                </blockquote>
+                
+                <figcaption class="flex items-center justify-center gap-4">
+                    <img width="150" height="150" loading="lazy" decoding="async" class="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover shadow-md ring-2 ring-white" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80" alt="Close up portrait of Sarah Jenkins, a daily app user, smiling gently"/>
+                    <div class="text-left">
+                        <div class="font-label-bold text-on-surface text-sm sm:text-base">Sarah Jenkins</div>
+                        <div class="font-caption text-on-surface-variant">Daily User</div>
+                    </div>
+                </figcaption>
+            </figure>
+        </section>
+
+        <!-- Voices - testimonial trio with circular portraits -->
+        <section class="w-full max-w-7xl mx-auto px-4 sm:px-8 md:px-12" aria-labelledby="voices-heading">
+            <div class="flex flex-col items-center text-center gap-3 mb-10 md:mb-14">
+                <span class="font-caption uppercase tracking-[0.3em] text-[11px] text-on-surface-variant">- V · Voices</span>
+                <h2 id="voices-heading" class="font-headline-md text-[clamp(1.5rem,4vw,2.5rem)] text-balance">Heard at sunset.</h2>
+                <p class="font-body-md text-[clamp(1rem,1.5vw,1.125rem)] text-on-surface-variant max-w-[55ch] text-pretty">
+                    Three writers, three rituals. The same quiet pause at the end of each day.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                <!-- Voice 1 -->
+                <figure class="glass-card p-8 sm:p-10 rounded-[2rem] flex flex-col items-center text-center gap-5 motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2 shadow-lg ring-1 ring-white/40 relative">
+                    <span class="material-symbols-outlined absolute top-5 right-5 text-3xl text-primary-container/70 pointer-events-none" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+                    <img width="160" height="160" loading="lazy" decoding="async" class="w-20 h-20 rounded-full object-cover shadow-md ring-2 ring-white" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=160&q=80" alt="Portrait of Mira Calderón, novelist, smiling softly"/>
+                    <blockquote class="font-headline-md italic text-lg sm:text-xl leading-snug text-on-surface text-balance">
+                        "I write at first light. Sundial is the only tool that makes the page feel softer than the screen."
+                    </blockquote>
+                    <figcaption class="flex flex-col items-center gap-1 mt-auto">
+                        <div class="font-label-bold text-on-surface text-sm sm:text-base">Mira Calderón</div>
+                        <div class="font-caption text-on-surface-variant text-xs">Novelist · Lisbon</div>
+                    </figcaption>
+                </figure>
+
+                <!-- Voice 2 -->
+                <figure class="glass-card p-8 sm:p-10 rounded-[2rem] flex flex-col items-center text-center gap-5 motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2 shadow-lg ring-1 ring-white/40 relative">
+                    <span class="material-symbols-outlined absolute top-5 right-5 text-3xl text-secondary-container/80 pointer-events-none" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+                    <img width="160" height="160" loading="lazy" decoding="async" class="w-20 h-20 rounded-full object-cover shadow-md ring-2 ring-white" src="https://images.unsplash.com/photo-1767175620484-1ed37931a0d1?auto=format&fit=crop&w=160&q=80" alt="Portrait of Daniel Okafor, therapist, looking thoughtful"/>
+                    <blockquote class="font-headline-md italic text-lg sm:text-xl leading-snug text-on-surface text-balance">
+                        "I recommend it to clients before any clinical app. The mood slider feels like a hand on a shoulder, not a chart."
+                    </blockquote>
+                    <figcaption class="flex flex-col items-center gap-1 mt-auto">
+                        <div class="font-label-bold text-on-surface text-sm sm:text-base">Daniel Okafor</div>
+                        <div class="font-caption text-on-surface-variant text-xs">Therapist · Brooklyn</div>
+                    </figcaption>
+                </figure>
+
+                <!-- Voice 3 -->
+                <figure class="glass-card p-8 sm:p-10 rounded-[2rem] flex flex-col items-center text-center gap-5 motion-safe:transition-transform motion-safe:duration-300 hover:-translate-y-2 shadow-lg ring-1 ring-white/40 relative">
+                    <span class="material-symbols-outlined absolute top-5 right-5 text-3xl text-tertiary-container/80 pointer-events-none" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+                    <img width="160" height="160" loading="lazy" decoding="async" class="w-20 h-20 rounded-full object-cover shadow-md ring-2 ring-white" src="https://images.unsplash.com/photo-1776275758873-31603dd06112?auto=format&fit=crop&w=160&q=80" alt="Portrait of Hana Vesely, designer, looking calm and curious"/>
+                    <blockquote class="font-headline-md italic text-lg sm:text-xl leading-snug text-on-surface text-balance">
+                        "A year of entries reads back like a quiet film. I keep returning to spring - the colours, not the words."
+                    </blockquote>
+                    <figcaption class="flex flex-col items-center gap-1 mt-auto">
+                        <div class="font-label-bold text-on-surface text-sm sm:text-base">Hana Vesely</div>
+                        <div class="font-caption text-on-surface-variant text-xs">Designer · Prague</div>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Promise - full-bleed deep tertiary strip with 4 commitment columns (premium colour break against the pastel sunset page) -->
+        <section class="full-bleed relative overflow-hidden" aria-labelledby="promise-heading" style="background: linear-gradient(135deg, #1a1530 0%, #2a2050 50%, #1d1838 100%);">
+            <!-- Decorative blurs in the strip -->
+            <div class="absolute top-0 left-0 w-[40vw] h-[40vw] rounded-full bg-tertiary-container opacity-15 blur-[100px] pointer-events-none"></div>
+            <div class="absolute bottom-0 right-0 w-[35vw] h-[35vw] rounded-full bg-primary-container opacity-12 blur-[100px] pointer-events-none"></div>
+            <!-- Subtle scanline texture for cinematic depth -->
+            <div class="absolute inset-0 pointer-events-none opacity-30 mix-blend-overlay" style="background-image: repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px);"></div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-8 md:px-12 py-20 md:py-28">
+                <div class="flex flex-col items-center text-center gap-3 mb-12 md:mb-16">
+                    <span class="font-caption uppercase tracking-[0.3em] text-[11px] text-white/55">- IV · The Promise</span>
+                    <h2 id="promise-heading" class="font-headline-xl text-[clamp(1.75rem,4vw+0.5rem,3rem)] text-white text-balance leading-[1.05] max-w-3xl">Built for the slow part of your day.</h2>
+                    <p class="font-body-md text-[clamp(1rem,1.5vw,1.125rem)] text-white/70 max-w-[55ch] text-pretty mt-2">Four commitments we won't quietly rewrite over the years.</p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+                    <!-- Privacy -->
+                    <div class="flex flex-col gap-3 text-white">
+                        <div class="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur border border-white/20 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-tertiary-fixed-dim text-[24px]" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">lock</span>
+                        </div>
+                        <h3 class="font-headline-md text-base sm:text-lg leading-tight">End-to-end private</h3>
+                        <p class="font-body-md text-xs sm:text-sm text-white/65 leading-relaxed text-pretty">Encrypted on device. Synced through your iCloud or Google. We never see a word.</p>
+                    </div>
+                    <!-- No streaks -->
+                    <div class="flex flex-col gap-3 text-white">
+                        <div class="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur border border-white/20 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary-fixed-dim text-[24px]" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">notifications_off</span>
+                        </div>
+                        <h3 class="font-headline-md text-base sm:text-lg leading-tight">No streaks. No nags.</h3>
+                        <p class="font-body-md text-xs sm:text-sm text-white/65 leading-relaxed text-pretty">One optional sunset reminder, set to your evening. Skip a week - the rhythm holds.</p>
+                    </div>
+                    <!-- Cross-device -->
+                    <div class="flex flex-col gap-3 text-white">
+                        <div class="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur border border-white/20 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-secondary-fixed-dim text-[24px]" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">devices</span>
+                        </div>
+                        <h3 class="font-headline-md text-base sm:text-lg leading-tight">iPhone, iPad, web</h3>
+                        <p class="font-body-md text-xs sm:text-sm text-white/65 leading-relaxed text-pretty">Pick up the page where you left it - sleeper train, kitchen window, lunch break.</p>
+                    </div>
+                    <!-- Yours -->
+                    <div class="flex flex-col gap-3 text-white">
+                        <div class="w-12 h-12 rounded-2xl bg-white/10 backdrop-blur border border-white/20 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-tertiary-fixed-dim text-[24px]" aria-hidden="true" style="font-variation-settings: 'FILL' 1;">file_export</span>
+                        </div>
+                        <h3 class="font-headline-md text-base sm:text-lg leading-tight">Yours to take</h3>
+                        <p class="font-body-md text-xs sm:text-sm text-white/65 leading-relaxed text-pretty">Markdown, plain text, or a printable photobook with mood-tinted pages.</p>
+                    </div>
+                </div>
+
+                <!-- Bottom signature pill with pulsing dot -->
+                <div class="mt-12 md:mt-16 flex justify-center">
+                    <span class="inline-flex items-center gap-3 bg-white/5 backdrop-blur border border-white/10 rounded-full px-5 py-2 text-white/80">
+                        <span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim sundial-pulse"></span>
+                        <span class="font-caption text-[11px] uppercase tracking-[0.25em]">Sundial · Made for slow mornings</span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ - <details> accordion (§M.7) -->
+        <section class="w-full max-w-3xl mx-auto px-4 sm:px-8 md:px-12" aria-labelledby="faq-heading">
+            <div class="flex flex-col items-center text-center gap-3 mb-8 md:mb-12">
+                <span class="font-caption uppercase tracking-[0.3em] text-[11px] text-on-surface-variant">- VI · Questions</span>
+                <h2 id="faq-heading" class="font-headline-md text-[clamp(1.5rem,4vw,2.5rem)] text-balance">Asked at twilight.</h2>
+            </div>
+
+            <div class="glass-card rounded-[2rem] divide-y divide-outline-variant/30 ring-1 ring-white/40 shadow-lg overflow-hidden">
+                <details class="sundial-faq group p-6 sm:p-7">
+                    <summary class="flex items-center justify-between gap-4">
+                        <h3 class="font-headline-md text-lg sm:text-xl text-on-surface text-left">Is my journal private?</h3>
+                        <span class="sundial-chevron material-symbols-outlined text-primary shrink-0" aria-hidden="true">expand_more</span>
+                    </summary>
+                    <p class="font-body-md text-on-surface-variant text-pretty mt-4 max-w-[60ch]">
+                        Entries are end-to-end encrypted on device, then synced via your iCloud or Google account. We never see your text, and there's no analytics on the contents of your entries - only on whether the app launched.
+                    </p>
+                </details>
+
+                <details class="sundial-faq group p-6 sm:p-7">
+                    <summary class="flex items-center justify-between gap-4">
+                        <h3 class="font-headline-md text-lg sm:text-xl text-on-surface text-left">Will it nag me with streaks?</h3>
+                        <span class="sundial-chevron material-symbols-outlined text-primary shrink-0" aria-hidden="true">expand_more</span>
+                    </summary>
+                    <p class="font-body-md text-on-surface-variant text-pretty mt-4 max-w-[60ch]">
+                        No streaks, no badges, no red dots. The only nudge is a single optional sunset reminder that you choose the time of. Skipping a week is part of the rhythm too.
+                    </p>
+                </details>
+
+                <details class="sundial-faq group p-6 sm:p-7">
+                    <summary class="flex items-center justify-between gap-4">
+                        <h3 class="font-headline-md text-lg sm:text-xl text-on-surface text-left">Can I export my entries?</h3>
+                        <span class="sundial-chevron material-symbols-outlined text-primary shrink-0" aria-hidden="true">expand_more</span>
+                    </summary>
+                    <p class="font-body-md text-on-surface-variant text-pretty mt-4 max-w-[60ch]">
+                        Yes - Markdown, plain text, or a printable PDF photobook with mood colours preserved as page tints. Your archive belongs to you, on your terms.
+                    </p>
+                </details>
+
+                <details class="sundial-faq group p-6 sm:p-7">
+                    <summary class="flex items-center justify-between gap-4">
+                        <h3 class="font-headline-md text-lg sm:text-xl text-on-surface text-left">How much does Sundial cost?</h3>
+                        <span class="sundial-chevron material-symbols-outlined text-primary shrink-0" aria-hidden="true">expand_more</span>
+                    </summary>
+                    <p class="font-body-md text-on-surface-variant text-pretty mt-4 max-w-[60ch]">
+                        Free for one entry per day with the standard mood palette. Sundial Plus unlocks unlimited entries, the timeline view, and the sunset photobook export - $4 a month or $36 a year.
+                    </p>
+                </details>
+
+                <details class="sundial-faq group p-6 sm:p-7">
+                    <summary class="flex items-center justify-between gap-4">
+                        <h3 class="font-headline-md text-lg sm:text-xl text-on-surface text-left">Does it work offline?</h3>
+                        <span class="sundial-chevron material-symbols-outlined text-primary shrink-0" aria-hidden="true">expand_more</span>
+                    </summary>
+                    <p class="font-body-md text-on-surface-variant text-pretty mt-4 max-w-[60ch]">
+                        Completely. Write on a plane, in a tent, on a sleeper train. Entries sync the next time you reconnect. No connection required for the editor, the mood slider, or the timeline.
+                    </p>
+                </details>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div class="w-full px-4 sm:px-8 md:px-12 xl:px-[calc((100vw-80rem)/2)]">
+        <footer class="bg-surface/60 backdrop-blur-2xl rounded-t-[2.5rem] sm:rounded-t-[3rem] flex flex-col items-center px-6 py-10 w-full font-['Space_Grotesk'] text-sm tracking-wide gap-8 sm:py-12 md:px-12 md:flex-row md:justify-between md:gap-0 border-t border-white/40 shadow-[0_-10px_40px_rgba(0,0,0,0.02)] ring-1 ring-black/5 relative z-10">
+            <a href="#" class="text-xl font-bold text-on-surface motion-safe:transition-colors hover:text-primary focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-2 -mx-2">
+                Sundial
+            </a>
+            
+            <nav class="flex flex-wrap justify-center gap-x-6 gap-y-4 text-on-surface-variant font-medium" aria-label="Footer Navigation">
+                <a href="#" class="motion-safe:transition-colors hover:text-primary focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-1">Privacy</a>
+                <a href="#" class="motion-safe:transition-colors hover:text-primary focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-1">Terms</a>
+                <a href="#" class="motion-safe:transition-colors hover:text-primary focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-1">Support</a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="motion-safe:transition-colors hover:text-primary focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-1">Instagram</a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="motion-safe:transition-colors hover:text-primary focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none rounded px-1">Twitter</a>
+            </nav>
+            
+            <div class="text-on-surface-variant text-center md:text-right text-xs sm:text-sm">
+                &copy; 2024 Sundial. Find your pause.
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

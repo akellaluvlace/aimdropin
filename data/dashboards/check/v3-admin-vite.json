@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-11-10T19:08:29.820Z",
+  "pagesChecked": 19,
+  "pagesOk": 19,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "V3 Admin Vite | 首页"
+    },
+    {
+      "path": "dashboard",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo/unocss",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo/element-plus",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo/vxe-table",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo/level2/level3",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo/composable-demo/use-fetch-select",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo/composable-demo/use-fullscreen-loading",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo/composable-demo/use-watermark",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "permission/page-level",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "permission/button-level",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo/level2",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo/composable-demo",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "redirect",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "403",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "404",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "login",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "demo",
+      "title": "V3 Admin Vite"
+    },
+    {
+      "path": "permission",
+      "title": "V3 Admin Vite"
+    }
+  ]
+}

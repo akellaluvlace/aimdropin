@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-11-10T17:43:38.232Z",
+  "pagesChecked": 7,
+  "pagesOk": 7,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+    },
+    {
+      "path": "add-new-post.html",
+      "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+    },
+    {
+      "path": "components-blog-posts.html",
+      "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+    },
+    {
+      "path": "errors.html",
+      "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+    },
+    {
+      "path": "form-components.html",
+      "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+    },
+    {
+      "path": "tables.html",
+      "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+    },
+    {
+      "path": "user-profile-lite.html",
+      "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+    }
+  ]
+}

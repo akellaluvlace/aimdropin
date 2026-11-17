@@ -1,0 +1,47 @@
+{
+ "jobs": [
+  {
+   "name": "cmp-nanopro",
+   "endpoint": "fal-ai/nano-banana-pro",
+   "input": {
+    "prompt": "Macro product photograph of a complete automatic wristwatch movement taken out of its case, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion, the round movement shown whole as a full circle filling most of the frame. Bridge side up, with the automatic winding rotor removed so the whole movement can be seen: rhodium-plated bridges decorated with straight Geneva stripes and polished bevelled edges, circular graining (perlage) on the mainplate where it shows between the bridges, a large gilt balance wheel with a blued hairspring under a balance bridge at the lower right, gilt brass gear train wheels visible in the gaps between bridges, bright red ruby jewels set in polished countersinks, heat-blued steel screws, the mainspring barrel with its ratchet wheel and crown wheel near the top, and a small empty ball-bearing post at the exact centre where the rotor would mount. No engraved text or numbers anywhere. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. On a plain flat mid-grey seamless background (hex 8C8C8C), evenly lit, with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "aspect_ratio": "1:1",
+    "output_format": "png"
+   }
+  },
+  {
+   "name": "cmp-nano21",
+   "endpoint": "google/nano-banana-2.1",
+   "input": {
+    "prompt": "Macro product photograph of a complete automatic wristwatch movement taken out of its case, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion, the round movement shown whole as a full circle filling most of the frame. Bridge side up, with the automatic winding rotor removed so the whole movement can be seen: rhodium-plated bridges decorated with straight Geneva stripes and polished bevelled edges, circular graining (perlage) on the mainplate where it shows between the bridges, a large gilt balance wheel with a blued hairspring under a balance bridge at the lower right, gilt brass gear train wheels visible in the gaps between bridges, bright red ruby jewels set in polished countersinks, heat-blued steel screws, the mainspring barrel with its ratchet wheel and crown wheel near the top, and a small empty ball-bearing post at the exact centre where the rotor would mount. No engraved text or numbers anywhere. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. On a plain flat mid-grey seamless background (hex 8C8C8C), evenly lit, with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "aspect_ratio": "1:1",
+    "resolution": "4K",
+    "thinking_level": "high",
+    "output_format": "png"
+   }
+  },
+  {
+   "name": "cmp-flux3",
+   "endpoint": "blackforestlabs/flux-3/text-to-image",
+   "input": {
+    "prompt": "Macro product photograph of a complete automatic wristwatch movement taken out of its case, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion, the round movement shown whole as a full circle filling most of the frame. Bridge side up, with the automatic winding rotor removed so the whole movement can be seen: rhodium-plated bridges decorated with straight Geneva stripes and polished bevelled edges, circular graining (perlage) on the mainplate where it shows between the bridges, a large gilt balance wheel with a blued hairspring under a balance bridge at the lower right, gilt brass gear train wheels visible in the gaps between bridges, bright red ruby jewels set in polished countersinks, heat-blued steel screws, the mainspring barrel with its ratchet wheel and crown wheel near the top, and a small empty ball-bearing post at the exact centre where the rotor would mount. No engraved text or numbers anywhere. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. On a plain flat mid-grey seamless background (hex 8C8C8C), evenly lit, with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "aspect_ratio": "1:1",
+    "resolution": "4k",
+    "output_format": "png"
+   }
+  },
+  {
+   "name": "cmp-seedream55",
+   "endpoint": "bytedance/seedream/v5.5/text-to-image",
+   "input": {
+    "prompt": "Macro product photograph of a complete automatic wristwatch movement taken out of its case, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion, the round movement shown whole as a full circle filling most of the frame. Bridge side up, with the automatic winding rotor removed so the whole movement can be seen: rhodium-plated bridges decorated with straight Geneva stripes and polished bevelled edges, circular graining (perlage) on the mainplate where it shows between the bridges, a large gilt balance wheel with a blued hairspring under a balance bridge at the lower right, gilt brass gear train wheels visible in the gaps between bridges, bright red ruby jewels set in polished countersinks, heat-blued steel screws, the mainspring barrel with its ratchet wheel and crown wheel near the top, and a small empty ball-bearing post at the exact centre where the rotor would mount. No engraved text or numbers anywhere. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. On a plain flat mid-grey seamless background (hex 8C8C8C), evenly lit, with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 2144,
+     "height": 2144
+    },
+    "output_format": "png",
+    "background": "opaque"
+   }
+  }
+ ]
+}

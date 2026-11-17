@@ -1,0 +1,202 @@
+{
+  "checkedAt": "2026-11-10T19:04:45.827Z",
+  "pagesChecked": 48,
+  "pagesOk": 45,
+  "failures": [
+    {
+      "path": "frame",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "frame/docs",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "frame/naive",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag. · script error: SecurityError: Failed to read a named property 'document' from 'Window': Blocked a frame with origin \"null\" from accessing a cross-origin frame."
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Console"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "redirect",
+      "title": "Redirect"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "system",
+      "title": "Menu"
+    },
+    {
+      "path": "list",
+      "title": "Basic List"
+    },
+    {
+      "path": "exception",
+      "title": "403"
+    },
+    {
+      "path": "form",
+      "title": "Basic Form"
+    },
+    {
+      "path": "result",
+      "title": "Success"
+    },
+    {
+      "path": "setting",
+      "title": "Account Setting"
+    },
+    {
+      "path": "comp",
+      "title": "Basic Table"
+    },
+    {
+      "path": "directive",
+      "title": "AdminPro"
+    },
+    {
+      "path": "about",
+      "title": "AdminPro"
+    },
+    {
+      "path": "external",
+      "title": "Documentation"
+    },
+    {
+      "path": "newversion",
+      "title": "Commercial Edition"
+    },
+    {
+      "path": "dashboard/console",
+      "title": "Dashboard / Console"
+    },
+    {
+      "path": "dashboard/workplace",
+      "title": "Workplace"
+    },
+    {
+      "path": "system/menu",
+      "title": "Menu"
+    },
+    {
+      "path": "system/role",
+      "title": "Role"
+    },
+    {
+      "path": "list/basic-list",
+      "title": "Basic List"
+    },
+    {
+      "path": "exception/403",
+      "title": "403"
+    },
+    {
+      "path": "exception/404",
+      "title": "404"
+    },
+    {
+      "path": "exception/500",
+      "title": "500"
+    },
+    {
+      "path": "form/basic-form",
+      "title": "Basic Form"
+    },
+    {
+      "path": "form/step-form",
+      "title": "Step Form"
+    },
+    {
+      "path": "form/detail",
+      "title": "Form Detail"
+    },
+    {
+      "path": "result/success",
+      "title": "Success"
+    },
+    {
+      "path": "result/fail",
+      "title": "Failed"
+    },
+    {
+      "path": "result/info",
+      "title": "Info"
+    },
+    {
+      "path": "setting/account",
+      "title": "Account Setting"
+    },
+    {
+      "path": "setting/system",
+      "title": "System Setting"
+    },
+    {
+      "path": "comp/table",
+      "title": "Basic Table"
+    },
+    {
+      "path": "comp/form",
+      "title": "Basic Usage"
+    },
+    {
+      "path": "comp/upload",
+      "title": "Upload Image"
+    },
+    {
+      "path": "comp/modal",
+      "title": "Modal"
+    },
+    {
+      "path": "comp/richtext",
+      "title": "Rich Text"
+    },
+    {
+      "path": "comp/drag",
+      "title": "Drag"
+    },
+    {
+      "path": "frame/naive-admin",
+      "title": "NaiveAdmin"
+    },
+    {
+      "path": "directive/index",
+      "title": "Directives"
+    },
+    {
+      "path": "about/index",
+      "title": "About"
+    },
+    {
+      "path": "comp/table/basic",
+      "title": "Basic Table"
+    },
+    {
+      "path": "comp/table/editCell",
+      "title": "Editable Cell"
+    },
+    {
+      "path": "comp/table/editRow",
+      "title": "Editable Row"
+    },
+    {
+      "path": "comp/form/basic",
+      "title": "Basic Usage"
+    },
+    {
+      "path": "comp/form/useForm",
+      "title": "useForm"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-10T17:45:54.718Z",
+  "pagesChecked": 5,
+  "pagesOk": 5,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "React Tailwind CSS Dashboard - Flowbite"
+    },
+    {
+      "path": "e-commerce/products",
+      "title": "E Commerce / Products"
+    },
+    {
+      "path": "users/list",
+      "title": "Users / List"
+    },
+    {
+      "path": "authentication/sign-in",
+      "title": "Authentication / Sign In"
+    },
+    {
+      "path": "authentication/sign-up",
+      "title": "Authentication / Sign Up"
+    }
+  ]
+}

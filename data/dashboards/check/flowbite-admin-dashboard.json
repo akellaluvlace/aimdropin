@@ -1,0 +1,196 @@
+{
+  "checkedAt": "2026-11-10T18:12:54.826Z",
+  "pagesChecked": 46,
+  "pagesOk": 46,
+  "failures": [],
+  "deadLinks": [
+    "pages/404/index.html",
+    "pages/404/"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Tailwind CSS Admin Dashboard - Flowbite"
+    },
+    {
+      "path": "authentication/forgot-password/index.html",
+      "title": "Tailwind CSS Forgot Password Page - Flowbite"
+    },
+    {
+      "path": "authentication/profile-lock/index.html",
+      "title": "Tailwind CSS Profile Lock Page - Flowbite"
+    },
+    {
+      "path": "authentication/reset-password/index.html",
+      "title": "Tailwind CSS Reset Password Page - Flowbite"
+    },
+    {
+      "path": "authentication/sign-in/index.html",
+      "title": "Tailwind CSS Sign in/Login Page - Flowbite"
+    },
+    {
+      "path": "authentication/sign-up/index.html",
+      "title": "Tailwind CSS Sign Up/Register Page - Flowbite"
+    },
+    {
+      "path": "crud/products/index.html",
+      "title": "Tailwind CSS Products Page - Flowbite"
+    },
+    {
+      "path": "crud/users/index.html",
+      "title": "Tailwind CSS Users List Page - Flowbite"
+    },
+    {
+      "path": "layouts/sidebar/index.html",
+      "title": "Tailwind CSS Dashboard Stacked Layout - Flowbite"
+    },
+    {
+      "path": "layouts/stacked/index.html",
+      "title": "Tailwind CSS Dashboard Stacked Layout - Flowbite"
+    },
+    {
+      "path": "pages/500/index.html",
+      "title": "Tailwind CSS 500 Server Error Page - Flowbite"
+    },
+    {
+      "path": "pages/maintenance/index.html",
+      "title": "Tailwind CSS Maintenance Page - Flowbite"
+    },
+    {
+      "path": "pages/pricing/index.html",
+      "title": "Tailwind CSS Pricing Page - Flowbite"
+    },
+    {
+      "path": "playground/sidebar/index.html",
+      "title": "Tailwind CSS Sidebar Layout Playground - Flowbite"
+    },
+    {
+      "path": "playground/stacked/index.html",
+      "title": "Tailwind CSS Stacked Layout Playground - Flowbite"
+    },
+    {
+      "path": "settings/index.html",
+      "title": "Tailwind CSS User Settings Page - Flowbite"
+    },
+    {
+      "path": "",
+      "title": "Tailwind CSS Admin Dashboard - Flowbite"
+    },
+    {
+      "path": "layouts/stacked/",
+      "title": "Tailwind CSS Dashboard Stacked Layout - Flowbite"
+    },
+    {
+      "path": "layouts/sidebar/",
+      "title": "Tailwind CSS Dashboard Stacked Layout - Flowbite"
+    },
+    {
+      "path": "crud/products/",
+      "title": "Tailwind CSS Products Page - Flowbite"
+    },
+    {
+      "path": "crud/users/",
+      "title": "Tailwind CSS Users List Page - Flowbite"
+    },
+    {
+      "path": "settings/",
+      "title": "Tailwind CSS User Settings Page - Flowbite"
+    },
+    {
+      "path": "pages/pricing/",
+      "title": "Tailwind CSS Pricing Page - Flowbite"
+    },
+    {
+      "path": "pages/maintenance/",
+      "title": "Tailwind CSS Maintenance Page - Flowbite"
+    },
+    {
+      "path": "pages/500/",
+      "title": "Tailwind CSS 500 Server Error Page - Flowbite"
+    },
+    {
+      "path": "authentication/sign-in/",
+      "title": "Tailwind CSS Sign in/Login Page - Flowbite"
+    },
+    {
+      "path": "authentication/sign-up/",
+      "title": "Tailwind CSS Sign Up/Register Page - Flowbite"
+    },
+    {
+      "path": "authentication/forgot-password/",
+      "title": "Tailwind CSS Forgot Password Page - Flowbite"
+    },
+    {
+      "path": "authentication/reset-password/",
+      "title": "Tailwind CSS Reset Password Page - Flowbite"
+    },
+    {
+      "path": "authentication/profile-lock/",
+      "title": "Tailwind CSS Profile Lock Page - Flowbite"
+    },
+    {
+      "path": "playground/stacked/",
+      "title": "Tailwind CSS Stacked Layout Playground - Flowbite"
+    },
+    {
+      "path": "playground/sidebar/",
+      "title": "Tailwind CSS Sidebar Layout Playground - Flowbite"
+    },
+    {
+      "path": "layouts/stacked",
+      "title": "Tailwind CSS Dashboard Stacked Layout - Flowbite"
+    },
+    {
+      "path": "layouts/sidebar",
+      "title": "Tailwind CSS Dashboard Stacked Layout - Flowbite"
+    },
+    {
+      "path": "crud/products",
+      "title": "Tailwind CSS Products Page - Flowbite"
+    },
+    {
+      "path": "crud/users",
+      "title": "Tailwind CSS Users List Page - Flowbite"
+    },
+    {
+      "path": "settings",
+      "title": "Tailwind CSS User Settings Page - Flowbite"
+    },
+    {
+      "path": "pages/pricing",
+      "title": "Tailwind CSS Pricing Page - Flowbite"
+    },
+    {
+      "path": "pages/maintenance",
+      "title": "Tailwind CSS Maintenance Page - Flowbite"
+    },
+    {
+      "path": "authentication/sign-in",
+      "title": "Tailwind CSS Sign in/Login Page - Flowbite"
+    },
+    {
+      "path": "authentication/sign-up",
+      "title": "Tailwind CSS Sign Up/Register Page - Flowbite"
+    },
+    {
+      "path": "authentication/forgot-password",
+      "title": "Tailwind CSS Forgot Password Page - Flowbite"
+    },
+    {
+      "path": "authentication/reset-password",
+      "title": "Tailwind CSS Reset Password Page - Flowbite"
+    },
+    {
+      "path": "authentication/profile-lock",
+      "title": "Tailwind CSS Profile Lock Page - Flowbite"
+    },
+    {
+      "path": "playground/stacked",
+      "title": "Tailwind CSS Stacked Layout Playground - Flowbite"
+    },
+    {
+      "path": "playground/sidebar",
+      "title": "Tailwind CSS Sidebar Layout Playground - Flowbite"
+    }
+  ]
+}

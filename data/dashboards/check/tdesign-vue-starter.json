@@ -1,0 +1,153 @@
+{
+  "checkedAt": "2026-11-10T19:08:05.901Z",
+  "pagesChecked": 36,
+  "pagesOk": 36,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "TDesign Vue Next Starter"
+    },
+    {
+      "path": "dashboard/dashboard/detail",
+      "title": "Dashboard / Dashboard / Detail"
+    },
+    {
+      "path": "dashboard/base",
+      "title": "Dashboard / Base"
+    },
+    {
+      "path": "dashboard/dashboard",
+      "title": "Dashboard / Dashboard"
+    },
+    {
+      "path": "result/success",
+      "title": "Result / Success"
+    },
+    {
+      "path": "result/fail",
+      "title": "Result / Fail"
+    },
+    {
+      "path": "result/network-error",
+      "title": "Result / Network Error"
+    },
+    {
+      "path": "result/403",
+      "title": "Result / 403"
+    },
+    {
+      "path": "result/404",
+      "title": "Result / 404"
+    },
+    {
+      "path": "result/500",
+      "title": "Result / 500"
+    },
+    {
+      "path": "result/browser-incompatible",
+      "title": "Result / Browser Incompatible"
+    },
+    {
+      "path": "result/maintenance",
+      "title": "Result / Maintenance"
+    },
+    {
+      "path": "user/index",
+      "title": "User / Index"
+    },
+    {
+      "path": "loginRedirect/index",
+      "title": "LoginRedirect / Index"
+    },
+    {
+      "path": "list/base",
+      "title": "List / Base"
+    },
+    {
+      "path": "list/card",
+      "title": "List / Card"
+    },
+    {
+      "path": "list/filter",
+      "title": "List / Filter"
+    },
+    {
+      "path": "list/tree",
+      "title": "List / Tree"
+    },
+    {
+      "path": "form/base",
+      "title": "Form / Base"
+    },
+    {
+      "path": "form/step",
+      "title": "Form / Step"
+    },
+    {
+      "path": "detail/base",
+      "title": "Detail / Base"
+    },
+    {
+      "path": "detail/advanced",
+      "title": "Detail / Advanced"
+    },
+    {
+      "path": "detail/deploy",
+      "title": "Detail / Deploy"
+    },
+    {
+      "path": "detail/secondary",
+      "title": "Detail / Secondary"
+    },
+    {
+      "path": "frame/doc",
+      "title": "Frame / Doc"
+    },
+    {
+      "path": "frame/TDesign",
+      "title": "Frame / TDesign"
+    },
+    {
+      "path": "frame/TDesign2",
+      "title": "Frame / TDesign2"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "result",
+      "title": "Result"
+    },
+    {
+      "path": "user",
+      "title": "User"
+    },
+    {
+      "path": "loginRedirect",
+      "title": "LoginRedirect"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "list",
+      "title": "List"
+    },
+    {
+      "path": "form",
+      "title": "Form"
+    },
+    {
+      "path": "detail",
+      "title": "Detail"
+    },
+    {
+      "path": "frame",
+      "title": "Frame"
+    }
+  ]
+}

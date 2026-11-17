@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-11-10T18:08:00.572Z",
+  "pagesChecked": 17,
+  "pagesOk": 16,
+  "failures": [
+    {
+      "path": "pages/blank.html",
+      "problem": "script error: Uncaught TypeError: Cannot read properties of null (reading 'getContext')"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "ZedAdmin - Admin Panel template with TailwindCSS"
+    },
+    {
+      "path": "components/alert.html",
+      "title": "ZedAdmin - Alert Component for TailwindCSS"
+    },
+    {
+      "path": "components/badge.html",
+      "title": "ZedAdmin - Badge Component for TailwindCSS"
+    },
+    {
+      "path": "components/breadcrumb.html",
+      "title": "ZedAdmin - breadcrumb Component for TailwindCSS"
+    },
+    {
+      "path": "components/button.html",
+      "title": "ZedAdmin - button Component for TailwindCSS"
+    },
+    {
+      "path": "components/dropdown.html",
+      "title": "ZedAdmin - Dropdown Component for TailwindCSS"
+    },
+    {
+      "path": "components/input.html",
+      "title": "ZedAdmin - input Components for TailwindCSS"
+    },
+    {
+      "path": "components/modal.html",
+      "title": "ZedAdmin - Modal component for TailwindCSS"
+    },
+    {
+      "path": "components/pagination.html",
+      "title": "ZedAdmin - Admin Panel template with TailwindCSS"
+    },
+    {
+      "path": "components/progress.html",
+      "title": "ZedAdmin - Progress Component for TailwindCSS"
+    },
+    {
+      "path": "components/tables.html",
+      "title": "ZedAdmin - Alert Component for TailwindCSS"
+    },
+    {
+      "path": "components/tabs.html",
+      "title": "ZedAdmin - tabs Component for TailwindCSS"
+    },
+    {
+      "path": "index-rtl.html",
+      "title": "زد ادمین - قالب مدیریت با TailwindCSS"
+    },
+    {
+      "path": "pages/forgot-password.html",
+      "title": "ZedAdmin - Login to account"
+    },
+    {
+      "path": "pages/login.html",
+      "title": "ZedAdmin - Login to account"
+    },
+    {
+      "path": "pages/register.html",
+      "title": "ZedAdmin - Register new account"
+    }
+  ]
+}

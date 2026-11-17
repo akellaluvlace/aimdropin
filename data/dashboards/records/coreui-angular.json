@@ -1,0 +1,67 @@
+{
+  "record": {
+    "slug": "coreui-angular",
+    "title": "CoreUI Free Angular Admin",
+    "description": "CoreUI admin template for Angular with dashboard, base and button components, forms, charts, icons, notifications, widgets and auth pages.",
+    "repo": "coreui/coreui-free-angular-admin-template",
+    "sha": "a514b2e9d6ecca9128a2eee3188f90c73350efe5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/coreui/coreui-free-angular-admin-template/blob/a514b2e9d6ecca9128a2eee3188f90c73350efe5/LICENSE"
+    },
+    "author": "creativeLabs Łukasz Holeczek",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "coreui",
+      "bootstrap",
+      "chartjs",
+      "dark-mode"
+    ],
+    "demoUrl": "https://coreui.io/angular/demo/5.x/free/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "CoreUI Free Angular Admin"
+      }
+    ],
+    "storedBytes": 6754854,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:19.503Z"
+  },
+  "serve": {
+    "slug": "coreui-angular",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/coreui/coreui-free-angular-admin-template@a514b2e9d6ecca9128a2eee3188f90c73350efe5/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/angular.ico": "src/assets/angular.ico",
+      "assets/favicon.ico": "src/assets/favicon.ico",
+      "assets/images/angular.jpg": "src/assets/images/angular.jpg",
+      "assets/images/avatars/1.jpg": "src/assets/images/avatars/1.jpg",
+      "assets/images/avatars/2.jpg": "src/assets/images/avatars/2.jpg",
+      "assets/images/avatars/3.jpg": "src/assets/images/avatars/3.jpg",
+      "assets/images/avatars/4.jpg": "src/assets/images/avatars/4.jpg",
+      "assets/images/avatars/5.jpg": "src/assets/images/avatars/5.jpg",
+      "assets/images/avatars/6.jpg": "src/assets/images/avatars/6.jpg",
+      "assets/images/avatars/7.jpg": "src/assets/images/avatars/7.jpg",
+      "assets/images/avatars/8.jpg": "src/assets/images/avatars/8.jpg",
+      "assets/images/avatars/9.jpg": "src/assets/images/avatars/9.jpg",
+      "assets/images/components.webp": "src/assets/images/components.webp",
+      "assets/images/icons.webp": "src/assets/images/icons.webp",
+      "assets/images/react.jpg": "src/assets/images/react.jpg",
+      "assets/images/vue.jpg": "src/assets/images/vue.jpg",
+      "favicon.ico": "src/assets/favicon.ico"
+    }
+  }
+}

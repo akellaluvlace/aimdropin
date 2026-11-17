@@ -1,0 +1,169 @@
+{
+  "record": {
+    "slug": "metis-admin",
+    "title": "Metis",
+    "description": "Bootstrap 5.3 and Alpine.js dashboard with analytics, users, orders, products, reports, settings and auth pages.",
+    "repo": "puikinsh/Bootstrap-Admin-Template",
+    "sha": "3ee469460fbafe29762dad1a7daecb8df4be0eb0",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/puikinsh/Bootstrap-Admin-Template/blob/3ee469460fbafe29762dad1a7daecb8df4be0eb0/LICENSE.md"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "alpinejs",
+      "chartjs",
+      "vite"
+    ],
+    "demoUrl": "https://preview.colorlib.com/theme/metis/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard - Modern Bootstrap Admin"
+      },
+      {
+        "path": "404.html",
+        "title": "Page not found &middot; Metis"
+      },
+      {
+        "path": "500.html",
+        "title": "Server error &middot; Metis"
+      },
+      {
+        "path": "analytics.html",
+        "title": "Analytics Dashboard - Modern Bootstrap Admin"
+      },
+      {
+        "path": "calendar.html",
+        "title": "Calendar & Events - Modern Bootstrap Admin"
+      },
+      {
+        "path": "elements-alerts.html",
+        "title": "Alerts - Bootstrap 5 Elements"
+      },
+      {
+        "path": "elements-badges.html",
+        "title": "Badges - Bootstrap 5 Elements"
+      },
+      {
+        "path": "elements-buttons.html",
+        "title": "Buttons - Bootstrap 5 Elements"
+      },
+      {
+        "path": "elements-cards.html",
+        "title": "Cards - Bootstrap 5 Elements"
+      },
+      {
+        "path": "elements-forms.html",
+        "title": "Forms - Bootstrap 5 Elements"
+      },
+      {
+        "path": "elements-modals.html",
+        "title": "Modals - Bootstrap 5 Elements"
+      },
+      {
+        "path": "elements-tables.html",
+        "title": "Tables - Bootstrap 5 Elements"
+      },
+      {
+        "path": "elements.html",
+        "title": "Bootstrap 5 Elements - Modern Bootstrap Admin"
+      },
+      {
+        "path": "files.html",
+        "title": "File Manager - Modern Bootstrap Admin"
+      },
+      {
+        "path": "forgot-password.html",
+        "title": "Reset password &middot; Metis"
+      },
+      {
+        "path": "forms.html",
+        "title": "Advanced Forms - Modern Bootstrap Admin"
+      },
+      {
+        "path": "help.html",
+        "title": "Help & Support - Modern Bootstrap Admin"
+      },
+      {
+        "path": "lock-screen.html",
+        "title": "Locked &middot; Metis"
+      },
+      {
+        "path": "login.html",
+        "title": "Sign in &middot; Metis"
+      },
+      {
+        "path": "maintenance.html",
+        "title": "Scheduled maintenance &middot; Metis"
+      },
+      {
+        "path": "messages.html",
+        "title": "Messages & Communication - Modern Bootstrap Admin"
+      },
+      {
+        "path": "orders.html",
+        "title": "Order Management - Modern Bootstrap Admin"
+      },
+      {
+        "path": "products.html",
+        "title": "Product Management - Modern Bootstrap Admin"
+      },
+      {
+        "path": "register.html",
+        "title": "Create account &middot; Metis"
+      },
+      {
+        "path": "reports.html",
+        "title": "Reports & Analytics - Modern Bootstrap Admin"
+      },
+      {
+        "path": "reset-password.html",
+        "title": "New password &middot; Metis"
+      },
+      {
+        "path": "security.html",
+        "title": "Security & Authentication - Modern Bootstrap Admin"
+      },
+      {
+        "path": "settings.html",
+        "title": "Settings & Preferences - Modern Bootstrap Admin"
+      },
+      {
+        "path": "two-factor.html",
+        "title": "Two-step verification &middot; Metis"
+      },
+      {
+        "path": "users.html",
+        "title": "User Management - Modern Bootstrap Admin"
+      }
+    ],
+    "storedBytes": 2778132,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:28.287Z"
+  },
+  "serve": {
+    "slug": "metis-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/puikinsh/Bootstrap-Admin-Template@3ee469460fbafe29762dad1a7daecb8df4be0eb0/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/favicon-DiW6HRCs.png": "public-assets/assets/icons/favicon.png",
+      "assets/icons/favicon.png": "public-assets/assets/icons/favicon.png",
+      "assets/icons/icon-192.png": "public-assets/assets/icons/icon-192.png",
+      "assets/icons/icon-512.png": "public-assets/assets/icons/icon-512.png"
+    }
+  }
+}

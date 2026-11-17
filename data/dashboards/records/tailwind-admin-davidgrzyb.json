@@ -1,0 +1,67 @@
+{
+  "record": {
+    "slug": "tailwind-admin-davidgrzyb",
+    "title": "Tailwind Admin Template",
+    "description": "Tailwind + Alpine.js admin: dashboard, blank page, tables, forms, tabs and calendar.",
+    "repo": "davidgrzyb/tailwind-admin-template",
+    "sha": "37c4c6106c772260861da5386923abce4b492fb6",
+    "license": {
+      "spdx": "Apache-2.0",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/davidgrzyb/tailwind-admin-template/blob/37c4c6106c772260861da5386923abce4b492fb6/LICENSE"
+    },
+    "author": "David Grzyb",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "alpinejs",
+      "charts"
+    ],
+    "demoUrl": "https://davidgrzyb.github.io/tailwind-admin-template/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Tailwind Admin Template"
+      },
+      {
+        "path": "blank.html",
+        "title": "Tailwind Admin Template"
+      },
+      {
+        "path": "calendar.html",
+        "title": "Tailwind Admin Template"
+      },
+      {
+        "path": "forms.html",
+        "title": "Tailwind Admin Template"
+      },
+      {
+        "path": "tables.html",
+        "title": "Tailwind Admin Template"
+      },
+      {
+        "path": "tabs.html",
+        "title": "Tailwind Admin Template"
+      }
+    ],
+    "storedBytes": 104527,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:25.307Z"
+  },
+  "serve": {
+    "slug": "tailwind-admin-davidgrzyb",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/davidgrzyb/tailwind-admin-template@37c4c6106c772260861da5386923abce4b492fb6/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

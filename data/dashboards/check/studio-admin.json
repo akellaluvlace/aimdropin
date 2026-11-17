@@ -1,0 +1,315 @@
+{
+  "checkedAt": "2026-11-10T18:58:51.813Z",
+  "pagesChecked": 75,
+  "pagesOk": 75,
+  "failures": [],
+  "deadLinks": [
+    "auth/v1/login/register",
+    "auth/v1/register/login",
+    "auth/v2/login/register",
+    "auth/v2/register/login",
+    "unauthorized/dashboard"
+  ],
+  "pages": [
+    {
+      "path": "dashboard/default/index.html",
+      "title": "Open Source Business Dashboard with shadcn/ui"
+    },
+    {
+      "path": "_not-found/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "404.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "404/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "auth/v1/login/index.html",
+      "title": "Open Source Split Screen Login Page with shadcn/ui"
+    },
+    {
+      "path": "auth/v1/register/index.html",
+      "title": "Open Source Split Screen Registration Page with shadcn/ui"
+    },
+    {
+      "path": "auth/v2/login/index.html",
+      "title": "Open Source Branded Login Page with shadcn/ui"
+    },
+    {
+      "path": "auth/v2/register/index.html",
+      "title": "Open Source Branded Registration Page with shadcn/ui"
+    },
+    {
+      "path": "chat/index.html",
+      "title": "Open Source Chat Interface with shadcn/ui"
+    },
+    {
+      "path": "dashboard/academy/index.html",
+      "title": "Open Source Education Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/analytics-v1/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/analytics/index.html",
+      "title": "Open Source Analytics Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/calendar/index.html",
+      "title": "Open Source Calendar with shadcn/ui"
+    },
+    {
+      "path": "dashboard/chat/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/coming-soon/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/crm-v1/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/crm/index.html",
+      "title": "Open Source CRM Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/default-v1/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/ecommerce/index.html",
+      "title": "Open Source E-commerce Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/file-manager/index.html",
+      "title": "Open Source File Manager with shadcn/ui"
+    },
+    {
+      "path": "dashboard/finance-v1/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/finance/index.html",
+      "title": "Open Source Finance Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/index.html",
+      "title": "Open Source Business Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/infrastructure/index.html",
+      "title": "Open Source Infrastructure Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/invoice/index.html",
+      "title": "Open Source Invoice Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/kanban/index.html",
+      "title": "Open Source Kanban Board with shadcn/ui"
+    },
+    {
+      "path": "dashboard/logistics/index.html",
+      "title": "Open Source Logistics Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/mail/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/patient-monitoring/index.html",
+      "title": "Open Source Patient Monitoring Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/productivity/index.html",
+      "title": "Open Source Productivity Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/products/index.html",
+      "title": "Open Source Product Management Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/profile/index.html",
+      "title": "Open Source Employee Profile Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/roles/index.html",
+      "title": "Open Source Roles and Permissions UI with shadcn/ui"
+    },
+    {
+      "path": "dashboard/tasks/index.html",
+      "title": "Open Source Task Manager with shadcn/ui"
+    },
+    {
+      "path": "dashboard/users/index.html",
+      "title": "Open Source User Management Dashboard with shadcn/ui"
+    },
+    {
+      "path": "index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "mail/index.html",
+      "title": "Open Source Email Client with shadcn/ui"
+    },
+    {
+      "path": "unauthorized/index.html",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/default/",
+      "title": "Open Source Business Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/crm/",
+      "title": "Open Source CRM Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/finance/",
+      "title": "Open Source Finance Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/analytics/",
+      "title": "Open Source Analytics Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/productivity/",
+      "title": "Open Source Productivity Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/ecommerce/",
+      "title": "Open Source E-commerce Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/academy/",
+      "title": "Open Source Education Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/logistics/",
+      "title": "Open Source Logistics Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/infrastructure/",
+      "title": "Open Source Infrastructure Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/file-manager/",
+      "title": "Open Source File Manager with shadcn/ui"
+    },
+    {
+      "path": "dashboard/patient-monitoring/",
+      "title": "Open Source Patient Monitoring Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/coming-soon/",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/products/",
+      "title": "Open Source Product Management Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/mail/",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/chat/",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/calendar/",
+      "title": "Open Source Calendar with shadcn/ui"
+    },
+    {
+      "path": "dashboard/kanban/",
+      "title": "Open Source Kanban Board with shadcn/ui"
+    },
+    {
+      "path": "dashboard/tasks/",
+      "title": "Open Source Task Manager with shadcn/ui"
+    },
+    {
+      "path": "dashboard/invoice/",
+      "title": "Open Source Invoice Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/profile/",
+      "title": "Open Source Employee Profile Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/users/",
+      "title": "Open Source User Management Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/roles/",
+      "title": "Open Source Roles and Permissions UI with shadcn/ui"
+    },
+    {
+      "path": "auth/v1/login/",
+      "title": "Open Source Split Screen Login Page with shadcn/ui"
+    },
+    {
+      "path": "auth/v2/login/",
+      "title": "Open Source Branded Login Page with shadcn/ui"
+    },
+    {
+      "path": "auth/v1/register/",
+      "title": "Open Source Split Screen Registration Page with shadcn/ui"
+    },
+    {
+      "path": "auth/v2/register/",
+      "title": "Open Source Branded Registration Page with shadcn/ui"
+    },
+    {
+      "path": "dashboard/default-v1/",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/crm-v1/",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/finance-v1/",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "dashboard/analytics-v1/",
+      "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+    },
+    {
+      "path": "chat/",
+      "title": "Open Source Chat Interface with shadcn/ui"
+    },
+    {
+      "path": "dashboard/file-manager/index.html?view=grid",
+      "title": "Open Source File Manager with shadcn/ui"
+    },
+    {
+      "path": "dashboard/file-manager/index.html?view=list",
+      "title": "Open Source File Manager with shadcn/ui"
+    },
+    {
+      "path": "mail/",
+      "title": "Open Source Email Client with shadcn/ui"
+    },
+    {
+      "path": "",
+      "title": "Open Source Business Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/crm",
+      "title": "Open Source CRM Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/ecommerce",
+      "title": "Open Source E-commerce Dashboard with shadcn/ui"
+    }
+  ]
+}

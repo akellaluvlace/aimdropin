@@ -1,0 +1,56 @@
+{
+  "record": {
+    "slug": "white-dashboard-vue",
+    "title": "Vue White Dashboard",
+    "description": "Light Bootstrap 4 Vue 2 admin with dashboard charts, icons, maps, notifications, user profile, tables, typography and RTL page.",
+    "repo": "creativetimofficial/vue-white-dashboard",
+    "sha": "d1f911b88ad912d6b415939bac5e86e85fd30ea1",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/vue-white-dashboard/blob/d1f911b88ad912d6b415939bac5e86e85fd30ea1/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "vue",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "bootstrap",
+      "chartjs"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/vue-white-dashboard",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue White Dashboard"
+      }
+    ],
+    "storedBytes": 1137806,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:39.430Z"
+  },
+  "serve": {
+    "slug": "white-dashboard-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/vue-white-dashboard@d1f911b88ad912d6b415939bac5e86e85fd30ea1/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "fonts/nucleo.03ef1918.eot": "src/assets/fonts/nucleo.eot",
+      "fonts/nucleo.5987dd12.woff2": "src/assets/fonts/nucleo.woff2",
+      "fonts/nucleo.b17a118e.ttf": "src/assets/fonts/nucleo.ttf",
+      "fonts/nucleo.f0b489a5.woff": "src/assets/fonts/nucleo.woff",
+      "img/anime3.bd6820f1.png": "src/assets/img/anime3.png",
+      "img/anime6.2a5a031c.png": "src/assets/img/anime6.png"
+    }
+  }
+}

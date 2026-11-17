@@ -1,0 +1,54 @@
+{
+  "record": {
+    "slug": "naive-ui-admin",
+    "title": "Naive UI Admin",
+    "description": "Vue 3 + Naive UI admin: console and workplace dashboards, basic and pro tables, forms, system and permission pages, with in-browser mocks.",
+    "repo": "jekip/naive-ui-admin",
+    "sha": "c9db4cde447240eaa17fbe439f507680819add3d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/jekip/naive-ui-admin/blob/c9db4cde447240eaa17fbe439f507680819add3d/LICENSE"
+    },
+    "author": "jekip",
+    "framework": "vue",
+    "ui": "naive",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "naive-ui",
+      "tailwind",
+      "pinia",
+      "alova"
+    ],
+    "demoUrl": "https://gratis.naiveadmin.com",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Naive UI Admin"
+      }
+    ],
+    "storedBytes": 3546613,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:41.351Z"
+  },
+  "serve": {
+    "slug": "naive-ui-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/jekip/naive-ui-admin@c9db4cde447240eaa17fbe439f507680819add3d/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/account-logo-D9-eMHsk.png": "src/assets/images/account-logo.png",
+      "assets/logo-Co29R00y.png": "src/assets/images/logo.png",
+      "assets/schoolboy-DI-wamsb.png": "src/assets/images/schoolboy.png",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "record": {
+    "slug": "windmill-dashboard-react",
+    "title": "Windmill Dashboard React",
+    "description": "Accessible Tailwind admin with dark mode: dashboard, forms, cards, charts, buttons, modals, tables and auth pages.",
+    "repo": "estevanmaito/windmill-dashboard-react",
+    "sha": "da542836f945d08639fc34a3b6f91315965dc030",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/estevanmaito/windmill-dashboard-react/blob/da542836f945d08639fc34a3b6f91315965dc030/LICENSE"
+    },
+    "author": "Estevan Maito",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "windmill-ui",
+      "dark-mode",
+      "accessibility"
+    ],
+    "demoUrl": "https://windmillui.com/dashboard-react",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Windmill Dashboard React"
+      }
+    ],
+    "storedBytes": 659413,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.597Z"
+  },
+  "serve": {
+    "slug": "windmill-dashboard-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/estevanmaito/windmill-dashboard-react@da542836f945d08639fc34a3b6f91315965dc030/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "logo192.png": "public/logo192.png",
+      "logo512.png": "public/logo512.png",
+      "robots.txt": "public/robots.txt",
+      "static/media/create-account-office-dark.d34c7b50.jpeg": "src/assets/img/create-account-office-dark.jpeg",
+      "static/media/create-account-office.41b2c6a1.jpeg": "src/assets/img/create-account-office.jpeg",
+      "static/media/forgot-password-office-dark.6db046dc.jpeg": "src/assets/img/forgot-password-office-dark.jpeg",
+      "static/media/forgot-password-office.ac5c499b.jpeg": "src/assets/img/forgot-password-office.jpeg",
+      "static/media/login-office-dark.cb4a995f.jpeg": "src/assets/img/login-office-dark.jpeg",
+      "static/media/login-office.72742c2e.jpeg": "src/assets/img/login-office.jpeg"
+    }
+  }
+}

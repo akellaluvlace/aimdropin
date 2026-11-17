@@ -1,0 +1,62 @@
+{
+  "record": {
+    "slug": "light-bootstrap-dashboard-react",
+    "title": "Light Bootstrap Dashboard React",
+    "description": "React Bootstrap admin with dashboard charts, user profile, tables, typography, icons, map and notifications.",
+    "repo": "creativetimofficial/light-bootstrap-dashboard-react",
+    "sha": "bf02acc5b3be7abff1bbe52fcfbbb516364780c5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/light-bootstrap-dashboard-react/blob/bf02acc5b3be7abff1bbe52fcfbbb516364780c5/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "react-bootstrap",
+      "chartist",
+      "react-router"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/light-bootstrap-dashboard-react/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Light Bootstrap Dashboard React"
+      }
+    ],
+    "storedBytes": 3962789,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.428Z"
+  },
+  "serve": {
+    "slug": "light-bootstrap-dashboard-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/light-bootstrap-dashboard-react@bf02acc5b3be7abff1bbe52fcfbbb516364780c5/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-icon.png": "Documentation/img/apple-icon.png",
+      "favicon.ico": "public/favicon.ico",
+      "static/media/face-3.62232de2613c3869ca4c.jpg": "src/assets/img/faces/face-3.jpg",
+      "static/media/nucleo-icons.141e0c4652975b501bab.woff": "src/assets/fonts/nucleo-icons.woff",
+      "static/media/nucleo-icons.541f8898b990ff017268.eot": "src/assets/fonts/nucleo-icons.eot",
+      "static/media/nucleo-icons.69d4ebfdc94eab6fdb6e.woff2": "src/assets/fonts/nucleo-icons.woff2",
+      "static/media/nucleo-icons.a30d0b0201482fcfffd3.ttf": "src/assets/fonts/nucleo-icons.ttf",
+      "static/media/photo-1431578500526-4d9613015464.0c528dc7193509e0eef6.jpeg": "src/assets/img/photo-1431578500526-4d9613015464.jpeg",
+      "static/media/reactlogo.55f6660be18505517e2e.png": "src/assets/img/reactlogo.png",
+      "static/media/sidebar-1.2ea74e53b4baa6bbae05.jpg": "src/assets/img/sidebar-1.jpg",
+      "static/media/sidebar-2.00b17713383fae1acce2.jpg": "src/assets/img/sidebar-2.jpg",
+      "static/media/sidebar-3.9992d0cef1150fe9146f.jpg": "src/assets/img/sidebar-3.jpg",
+      "static/media/sidebar-4.b7eb4d1bec304bbb3795.jpg": "src/assets/img/sidebar-4.jpg"
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "record": {
+    "slug": "studio-admin-baseui",
+    "title": "Studio Admin (Base UI)",
+    "description": "Studio Admin built on shadcn/ui's Base UI primitives: many dashboards (CRM, finance, analytics...), mail, chat, kanban and auth pages.",
+    "repo": "arhamkhnz/next-shadcn-admin-dashboard-baseui",
+    "sha": "c63b8ff4232d94720b02585c863d7dd9d7ec6bc5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/arhamkhnz/next-shadcn-admin-dashboard-baseui/blob/c63b8ff4232d94720b02585c863d7dd9d7ec6bc5/LICENSE"
+    },
+    "author": "Mohammed Arham Khan",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "shadcn",
+      "base-ui",
+      "app-router",
+      "tailwind-4",
+      "dark-mode"
+    ],
+    "demoUrl": "https://studio-admin.arhamkhnz.com",
+    "quality": 4,
+    "entry": "dashboard/default/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard/default/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "_not-found/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "404.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "auth/v1/login/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "auth/v1/register/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "auth/v2/login/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "auth/v2/register/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "chat/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/academy/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/analytics-v1/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/analytics/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/calendar/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/chat/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/coming-soon/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/crm-v1/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/crm/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/default-v1/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/ecommerce/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/file-manager/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/finance-v1/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/finance/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/infrastructure/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/invoice/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/kanban/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/logistics/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/mail/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/patient-monitoring/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/productivity/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/products/index.html",
+        "title": "Open Source Product Management Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/profile/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/roles/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/tasks/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "dashboard/users/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "mail/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      },
+      {
+        "path": "unauthorized/index.html",
+        "title": "Studio Admin - Modern Next.js Dashboard Starter Template"
+      }
+    ],
+    "storedBytes": 16985865,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:50:17.261Z"
+  },
+  "serve": {
+    "slug": "studio-admin-baseui",
+    "kind": "build",
+    "entry": "dashboard/default/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/arhamkhnz/next-shadcn-admin-dashboard-baseui@c63b8ff4232d94720b02585c863d7dd9d7ec6bc5/",
+    "cdnRoot": null,
+    "cdnMap": null
+  }
+}

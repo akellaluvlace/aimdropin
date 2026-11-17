@@ -1,0 +1,170 @@
+{
+  "record": {
+    "slug": "concept-admin",
+    "title": "Concept",
+    "description": "Bootstrap 5.3 admin with finance, sales and influencer dashboards, e-commerce, email, calendar, tables and UI elements.",
+    "repo": "puikinsh/concept",
+    "sha": "95446d87877501a3a84065d0f8de188e13f6f311",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/puikinsh/concept/blob/95446d87877501a3a84065d0f8de188e13f6f311/LICENSE"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "chartjs",
+      "datatables",
+      "vite"
+    ],
+    "demoUrl": "https://colorlib.com/polygon/concept/index.html",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "E-commerce Dashboard - Concept Dashboard"
+      },
+      {
+        "path": "pages/apps/influencer-finder.html",
+        "title": "Influencer Finder"
+      },
+      {
+        "path": "pages/apps/influencer-profile.html",
+        "title": "Influencer Profile"
+      },
+      {
+        "path": "pages/auth/forgot-password.html",
+        "title": "Forgot Password - Concept Dashboard"
+      },
+      {
+        "path": "pages/auth/login.html",
+        "title": "Login - Concept Dashboard"
+      },
+      {
+        "path": "pages/auth/signup.html",
+        "title": "Sign Up - Concept Dashboard"
+      },
+      {
+        "path": "pages/calendar.html",
+        "title": "Calendar - Concept Dashboard"
+      },
+      {
+        "path": "pages/charts/index.html",
+        "title": "Charts - Concept Dashboard"
+      },
+      {
+        "path": "pages/chat.html",
+        "title": "Chat - Concept Dashboard"
+      },
+      {
+        "path": "pages/dashboards/finance.html",
+        "title": "Finance Dashboard - Concept Dashboard"
+      },
+      {
+        "path": "pages/dashboards/influencer.html",
+        "title": "Influencer Dashboard - Concept Dashboard"
+      },
+      {
+        "path": "pages/dashboards/sales.html",
+        "title": "Sales Dashboard - Concept Dashboard"
+      },
+      {
+        "path": "pages/ecommerce/checkout.html",
+        "title": "Checkout"
+      },
+      {
+        "path": "pages/ecommerce/product-single.html",
+        "title": "Product Details"
+      },
+      {
+        "path": "pages/ecommerce/products.html",
+        "title": "Products"
+      },
+      {
+        "path": "pages/email/compose.html",
+        "title": "Compose Email"
+      },
+      {
+        "path": "pages/email/details.html",
+        "title": "Email Details"
+      },
+      {
+        "path": "pages/email/inbox.html",
+        "title": "Inbox"
+      },
+      {
+        "path": "pages/form-elements.html",
+        "title": "Form Elements - Concept Dashboard"
+      },
+      {
+        "path": "pages/form-validation.html",
+        "title": "Form Validation - Concept Dashboard"
+      },
+      {
+        "path": "pages/misc/404.html",
+        "title": "404 - Page Not Found - Concept Dashboard"
+      },
+      {
+        "path": "pages/misc/blank-page.html",
+        "title": "Blank Page - Concept Dashboard"
+      },
+      {
+        "path": "pages/multiselect.html",
+        "title": "Multiselect - Concept Dashboard"
+      },
+      {
+        "path": "pages/settings.html",
+        "title": "Settings - Concept Dashboard"
+      },
+      {
+        "path": "pages/tables/data-tables.html",
+        "title": "Data Tables - Concept Dashboard"
+      },
+      {
+        "path": "pages/tables/general-tables.html",
+        "title": "General Tables - Concept Dashboard"
+      },
+      {
+        "path": "pages/timeline.html",
+        "title": "Timeline - Concept Dashboard"
+      },
+      {
+        "path": "pages/ui-elements/cards.html",
+        "title": "Card Components - Concept Dashboard"
+      },
+      {
+        "path": "pages/ui-elements/general.html",
+        "title": "UI General Elements - Concept Dashboard"
+      },
+      {
+        "path": "pages/ui-elements/typography.html",
+        "title": "Typography - Concept Dashboard"
+      },
+      {
+        "path": "pages/users.html",
+        "title": "User Management - Concept Dashboard"
+      }
+    ],
+    "storedBytes": 3561181,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:28.237Z"
+  },
+  "serve": {
+    "slug": "concept-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/puikinsh/concept@95446d87877501a3a84065d0f8de188e13f6f311/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "_redirects": "public/_redirects"
+    }
+  }
+}

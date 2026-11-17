@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-11-10T19:06:08.019Z",
+  "pagesChecked": 16,
+  "pagesOk": 16,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "200.html",
+      "title": "Page not found"
+    },
+    {
+      "path": "404.html",
+      "title": "Page not found"
+    },
+    {
+      "path": "customers/index.html",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "inbox/index.html",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "settings/index.html",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "settings/members/index.html",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "settings/notifications/index.html",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "settings/security/index.html",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "inbox",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "customers",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "settings",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "settings/members",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "settings/notifications",
+      "title": "Nuxt Dashboard Template"
+    },
+    {
+      "path": "settings/security",
+      "title": "Nuxt Dashboard Template"
+    }
+  ]
+}

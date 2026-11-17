@@ -1,0 +1,34 @@
+{
+ "jobs": [
+  {
+   "name": "head-4k",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "High-end catalogue product photograph of the head of a mechanical wristwatch with no strap attached, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion, 12 o'clock at the top. A 39 mm round case in finely brushed stainless steel with a thin polished bezel, short straight lugs with a slim steel spring bar visible between each pair of lugs, and a small fluted crown at 3 o'clock. Dial: clean silver-white with a fine sunray finish, twelve slim polished applied baton hour markers (a double baton at 12), a delicate printed minute track at the very edge, no numerals, no date window, no text and no logo anywhere on the dial. The watch has no hands: the hour, minute and seconds hands have been removed, leaving only a small polished centre post in the exact middle of the dial. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the steel, a clear sapphire crystal with no glare and no reflections of the room. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail. No text, no watermark, no border.",
+    "image_size": {
+     "width": 4096,
+     "height": 4096
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "calibre-back-4k",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "Macro product photograph of a complete automatic wristwatch movement taken out of its case, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion, the round movement shown whole as a full circle filling most of the frame. Bridge side up, with the automatic winding rotor removed so the whole movement can be seen: rhodium-plated bridges decorated with straight Geneva stripes and polished bevelled edges, circular graining (perlage) on the mainplate where it shows between the bridges, a large gilt balance wheel with a blued hairspring under a balance bridge at the lower right, gilt brass gear train wheels visible in the gaps between bridges, bright red ruby jewels set in polished countersinks, heat-blued steel screws, the mainspring barrel with its ratchet wheel and crown wheel near the top, and a small empty ball-bearing post at the exact centre where the rotor would mount. No engraved text or numbers anywhere. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 4096,
+     "height": 4096
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  }
+ ]
+}

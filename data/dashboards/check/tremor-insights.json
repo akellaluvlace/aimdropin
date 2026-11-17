@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-11-10T19:21:50.123Z",
+  "pagesChecked": 20,
+  "pagesOk": 20,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "reports/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "404.html",
+      "title": "Insights"
+    },
+    {
+      "path": "404/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "login/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "onboarding/employees/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "onboarding/infrastructure/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "onboarding/products/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "settings/audit/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "settings/billing/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "settings/users/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "transactions/index.html",
+      "title": "Insights"
+    },
+    {
+      "path": "reports/",
+      "title": "Insights"
+    },
+    {
+      "path": "transactions/",
+      "title": "Insights"
+    },
+    {
+      "path": "settings/audit/",
+      "title": "Insights"
+    },
+    {
+      "path": "onboarding/products/",
+      "title": "Insights"
+    },
+    {
+      "path": "onboarding/employees/",
+      "title": "Insights"
+    },
+    {
+      "path": "settings/billing/",
+      "title": "Insights"
+    },
+    {
+      "path": "settings/users/",
+      "title": "Insights"
+    },
+    {
+      "path": "settings/audit",
+      "title": "Insights"
+    },
+    {
+      "path": "settings/billing",
+      "title": "Insights"
+    }
+  ]
+}

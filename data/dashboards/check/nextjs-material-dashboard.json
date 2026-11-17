@@ -1,0 +1,129 @@
+{
+  "checkedAt": "2026-11-10T18:37:11.626Z",
+  "pagesChecked": 30,
+  "pagesOk": 30,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "admin/dashboard/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "404.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "404/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/icons/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/maps/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/notifications/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/table-list/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/typography/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/upgrade-to-pro/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/user-profile/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "rtl/rtl-page/index.html",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/dashboard/",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/user-profile/",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/table-list/",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/typography/",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/icons/",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/maps/",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/notifications/",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "rtl/rtl-page/",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/upgrade-to-pro/",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/dashboard",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/user-profile",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/table-list",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/typography",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/icons",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/maps",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/notifications",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "rtl/rtl-page",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/upgrade-to-pro",
+      "title": "NextJS Material Dashboard by Creative Tim"
+    }
+  ]
+}

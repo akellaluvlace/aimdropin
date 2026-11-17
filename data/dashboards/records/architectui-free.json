@@ -1,0 +1,149 @@
+{
+  "record": {
+    "slug": "architectui-free",
+    "title": "ArchitectUI",
+    "description": "Bootstrap 5 admin dashboard with 26 pages: dashboard widgets, UI elements, components, forms, tables, Chart.js charts and a calendar.",
+    "repo": "DashboardPack/architectui-html-theme-free",
+    "sha": "fcec72bb8a512b9d5b992296388687782264261a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the gh-pages branch (built site), which has no LICENSE file; MIT read from LICENSE on master at 1eee00e46b46 (2026-10-08, same release).",
+      "url": "https://github.com/DashboardPack/architectui-html-theme-free/blob/fcec72bb8a512b9d5b992296388687782264261a/LICENSE"
+    },
+    "author": "DashboardPack",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "jquery",
+      "chartjs",
+      "fullcalendar"
+    ],
+    "demoUrl": "https://dashboardpack.com/theme-details/architectui-html-dashboard-free/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Analytics Dashboard - This is an example dashboard created using build-in elements and components."
+      },
+      {
+        "path": "charts-chartjs.html",
+        "title": "ChartJS - Huge selection of charts created with the React ChartJS Plugin"
+      },
+      {
+        "path": "components-accordions.html",
+        "title": "Accordions - Accordions represent collapsable component with extended functionality."
+      },
+      {
+        "path": "components-calendar.html",
+        "title": "Calendar - Calendars are used in a lot of apps. We thought to include one for React."
+      },
+      {
+        "path": "components-carousel.html",
+        "title": "Carousels & Slideshows - Create easy and beautiful slideshows with these React components."
+      },
+      {
+        "path": "components-maps.html",
+        "title": "Maps - Implement in your applications Google or vector maps."
+      },
+      {
+        "path": "components-modals.html",
+        "title": "Modals - Wide selection of modal dialogs styles and animations available."
+      },
+      {
+        "path": "components-notifications.html",
+        "title": "Notifications - Notifications represent one of the best ways to give feedback for various users actions."
+      },
+      {
+        "path": "components-pagination.html",
+        "title": "Pagination - Basic and dynamic pagination for use in your next awesome application."
+      },
+      {
+        "path": "components-progress-bar.html",
+        "title": "Progress Bar - You can use the progress bars on their own or in combination with other widgets."
+      },
+      {
+        "path": "components-scrollable-elements.html",
+        "title": "Scrollable Elements - Add scrolling areas to any elements with custom scrollbars or default browser ones."
+      },
+      {
+        "path": "components-tabs.html",
+        "title": "Tabs - Tabs are used to split content between multiple sections. Wide variety available."
+      },
+      {
+        "path": "components-tooltips-popovers.html",
+        "title": "Tooltips & Popovers - These React components are used to add interaction or extra information for your app&#x27;s conten"
+      },
+      {
+        "path": "dashboard-boxes.html",
+        "title": "Dashboard Boxes - Highly configurable boxes best used for showing numbers in an user friendly way."
+      },
+      {
+        "path": "elements-badges-labels.html",
+        "title": "Badges & Labels - Badges and labels are used to offer extra small pieces of info for your content."
+      },
+      {
+        "path": "elements-buttons-standard.html",
+        "title": "Standard Buttons - Wide selection of buttons that feature different styles for backgrounds, borders and hover options!"
+      },
+      {
+        "path": "elements-cards.html",
+        "title": "Cards - Wide selection of cards with multiple styles, borders, actions and hover effects."
+      },
+      {
+        "path": "elements-dropdowns.html",
+        "title": "Dropdowns - Multiple styles, actions and effects are available for the Archited Framework dropdown buttons."
+      },
+      {
+        "path": "elements-icons.html",
+        "title": "Icons - Wide icons selection including from flag icons to FontAwesome and other icons libraries."
+      },
+      {
+        "path": "elements-list-group.html",
+        "title": "List Groups - These can be used with other components and elements to create stunning and unique new elements for your U"
+      },
+      {
+        "path": "elements-navigation.html",
+        "title": "Navigation Menus - Navigation menus are one of the basic building blocks for any web or mobile app."
+      },
+      {
+        "path": "elements-utilities.html",
+        "title": "Utilities - These are helpers that speed up the dev time for various components and effects."
+      },
+      {
+        "path": "forms-controls.html",
+        "title": "Form Controls - Wide selection of forms controls, using the Bootstrap 5 code base, but built with React."
+      },
+      {
+        "path": "forms-layouts.html",
+        "title": "Form Layouts - Build whatever layout you need with our Architect framework."
+      },
+      {
+        "path": "forms-validation.html",
+        "title": "Form Validation - Inline validation is very easy to implement using the Architect Framework."
+      },
+      {
+        "path": "tables-regular.html",
+        "title": "Regular Tables - Tables are the backbone of almost all web applications."
+      }
+    ],
+    "storedBytes": 2329326,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:19.055Z"
+  },
+  "serve": {
+    "slug": "architectui-free",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/DashboardPack/architectui-html-theme-free@fcec72bb8a512b9d5b992296388687782264261a/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

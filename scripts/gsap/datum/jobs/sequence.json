@@ -1,0 +1,56 @@
+{
+ "defaults": {
+  "openai/gpt-image-2.6/sunburst/edit": {
+   "image_size": {
+    "width": 2880,
+    "height": 1920
+   },
+   "quality": "max",
+   "output_format": "png",
+   "background": "opaque",
+   "num_images": 1
+  }
+ },
+ "jobs": [
+  {
+   "name": "site",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "house-ref.jpg"
+   ],
+   "input": {
+    "prompt": "Remove the building from this photograph and show the same place before anything was built there. The level mown meadow continues across the middle of the picture where the house stood, and behind it the far low hills, small fields and hedgerows continue along the horizon, joining naturally with the hills that are visible at the right edge of the photograph and the distant hills at the left. Keep everything else exactly as it is, at exactly the same size and in exactly the same position in the frame: the wind-bent hawthorn trees and the low stone wall on the left, the longer grass and seed heads in the foreground, the mown grass, the pale overcast sky, the soft even light, the colour, and the camera position. The horizon stays level, at the same height as in the photograph. No building, no people, no animals, no vehicles, no fences, no text."
+   }
+  },
+  {
+   "name": "build-a",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "house-ref.jpg"
+   ],
+   "input": {
+    "prompt": "Show this same building, at exactly the same size and in exactly the same position in the frame, half way through its construction, photographed from exactly the same position in the same soft overcast daylight. The walls are bare grey concrete blockwork with neat mortar joints, not yet rendered. Every window and door opening is in exactly the same place and is exactly the same size as in the photograph, but each is a plain dark empty opening with a concrete lintel over it: no oak linings, no glass, no door yet. The roof has exactly the same outline, with its ridge and its eaves at the same heights, but shows its structure: new pale timber rafters and horizontal battens over a blue-grey roofing membrane, with natural slate already laid on the left third of the roof only. One level of slender galvanised steel scaffolding with timber boards and a single ladder stands along the front of the building at first floor height. On the grass in front there are two pallets of concrete blocks, a small heap of sand and a small cement mixer. The line where the wall meets the ground stays exactly where it is, level and straight. Keep everything else exactly as it is: the hawthorn trees on the left, the hills behind, the sky, the mown meadow and the long grass in the foreground, and the camera position, with every vertical perfectly vertical and every horizontal perfectly horizontal. No people, no vehicles, no signs, no text, no logos."
+   }
+  },
+  {
+   "name": "build-b",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "house-ref.jpg"
+   ],
+   "input": {
+    "prompt": "Show this same building, at exactly the same size and in exactly the same position in the frame, half way through its construction, photographed from exactly the same position in the same soft overcast daylight. The walls are bare grey concrete blockwork with neat mortar joints, not yet rendered. Every window and door opening is in exactly the same place and is exactly the same size as in the photograph, but each is a plain dark empty opening with a concrete lintel over it: no oak linings, no glass, no door yet. The roof has exactly the same outline, with its ridge and its eaves at the same heights, but it is not yet covered: it is an open frame of new pale timber rafters at regular centres with a ridge board, the pale sky showing between the rafters, and horizontal battens started along the bottom edge only. There is no scaffolding: the whole front of the building is clear to see. On the grass to the right of the door there are two pallets of concrete blocks and a small heap of sand, and a single timber ladder leans against the wall at the far right. The line where the wall meets the ground stays exactly where it is, level and straight. Keep everything else exactly as it is: the hawthorn trees on the left, the hills behind, the sky, the mown meadow and the long grass in the foreground, and the camera position, with every vertical perfectly vertical and every horizontal perfectly horizontal. No people, no vehicles, no signs, no text, no logos."
+   }
+  },
+  {
+   "name": "dusk",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "house-ref.jpg"
+   ],
+   "input": {
+    "prompt": "Show exactly the same view at dusk, about half an hour after sunset, in the blue hour. Keep the building, every window, the tall glazed opening, the door, the roof, the trees, the hills, the meadow and the long grass exactly as they are, at exactly the same size and in exactly the same position in the frame: change only the light. The sky is a deep, clear, cool blue, a little lighter and faintly warm low down near the horizon behind the hills. The land, the roof and the white wall are in soft cool blue twilight, with the wall still reading as white. Warm electric light is on inside the house: every window and the tall glazed opening glow with warm golden light, the rooms inside visible, and that warm light spills softly from the openings onto the grass immediately in front of the house. No lights outside the house, no stars, no moon, no people, no animals, no vehicles, no text."
+   }
+  }
+ ]
+}

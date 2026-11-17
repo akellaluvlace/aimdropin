@@ -1,0 +1,49 @@
+{
+  "record": {
+    "slug": "halolight-vue",
+    "title": "HaloLight Vue",
+    "description": "Vue 3 + shadcn-vue admin: customizable dashboard widgets, users, documents, files, messages, calendar, notifications and settings, with MockJS data.",
+    "repo": "halolight/halolight-vue",
+    "sha": "ee73993426d428662e14f0c9430eefdbb5185d63",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/halolight/halolight-vue/blob/ee73993426d428662e14f0c9430eefdbb5185d63/LICENSE"
+    },
+    "author": "h7ml",
+    "framework": "vue",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "shadcn-vue",
+      "tailwind",
+      "pinia",
+      "mockjs"
+    ],
+    "demoUrl": "https://halolight-vue.h7ml.cn",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "HaloLight Vue"
+      }
+    ],
+    "storedBytes": 1820190,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:42.036Z"
+  },
+  "serve": {
+    "slug": "halolight-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/halolight/halolight-vue@ee73993426d428662e14f0c9430eefdbb5185d63/",
+    "cdnRoot": null,
+    "cdnMap": null
+  }
+}

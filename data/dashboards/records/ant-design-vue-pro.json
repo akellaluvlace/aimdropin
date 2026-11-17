@@ -1,0 +1,52 @@
+{
+  "record": {
+    "slug": "ant-design-vue-pro",
+    "title": "Ant Design Vue Pro",
+    "description": "Vue 2 port of Ant Design Pro: analysis and workplace dashboards, forms, lists, profiles, results, exceptions and account settings with mock data.",
+    "repo": "vueComponent/ant-design-vue-pro",
+    "sha": "616df9e063a42661144614a69aa059e140c367d6",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/vueComponent/ant-design-vue-pro/blob/616df9e063a42661144614a69aa059e140c367d6/LICENSE"
+    },
+    "author": "Anan Yang",
+    "framework": "vue",
+    "ui": "ant-design-vue",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "ant-design-vue",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://preview.pro.antdv.com",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Ant Design Vue Pro"
+      }
+    ],
+    "storedBytes": 4831858,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:40.110Z"
+  },
+  "serve": {
+    "slug": "ant-design-vue-pro",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/vueComponent/ant-design-vue-pro@616df9e063a42661144614a69aa059e140c367d6/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "avatar2.jpg": "public/avatar2.jpg",
+      "logo.png": "public/logo.png"
+    }
+  }
+}

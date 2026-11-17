@@ -1,0 +1,150 @@
+{
+  "record": {
+    "slug": "tailadmin-html",
+    "title": "TailAdmin",
+    "description": "Tailwind CSS 4 and Alpine.js admin: e-commerce dashboard, calendar, profile, forms, tables, charts, UI elements and auth pages.",
+    "repo": "TailAdmin/tailadmin-free-tailwind-dashboard-template",
+    "sha": "0cd65f1a8cdd201377976b1c8de0af76178e9d0e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to 0cd65f1a (2026-09-07), the last commit before the move to ApexCharts 7 (not MIT); its lockfile resolves ApexCharts 3.54.1 (MIT).",
+      "url": "https://github.com/TailAdmin/tailadmin-free-tailwind-dashboard-template/blob/0cd65f1a8cdd201377976b1c8de0af76178e9d0e/LICENSE"
+    },
+    "author": "TailAdmin",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind4",
+      "alpinejs",
+      "apexcharts",
+      "dark-mode",
+      "webpack"
+    ],
+    "demoUrl": "https://free-demo.tailadmin.com/",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "404.html",
+        "title": "404 Error Page | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "alerts.html",
+        "title": "Alerts | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "avatars.html",
+        "title": "Avatars | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "badge.html",
+        "title": "Badge | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "bar-chart.html",
+        "title": "Bar Chart | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "basic-tables.html",
+        "title": "Basic Tables | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "blank.html",
+        "title": "Blank Page | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "buttons.html",
+        "title": "Buttons | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "calendar.html",
+        "title": "Calendar | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "form-elements.html",
+        "title": "Form Elements | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "images.html",
+        "title": "Images | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "line-chart.html",
+        "title": "Line Chart | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "profile.html",
+        "title": "Profile | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "signin.html",
+        "title": "Sign In| TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "signup.html",
+        "title": "Sign Up| TailAdmin - Tailwind CSS Admin Dashboard Template"
+      },
+      {
+        "path": "videos.html",
+        "title": "Videos | TailAdmin - Tailwind CSS Admin Dashboard Template"
+      }
+    ],
+    "storedBytes": 3551905,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:32.804Z"
+  },
+  "serve": {
+    "slug": "tailadmin-html",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/TailAdmin/tailadmin-free-tailwind-dashboard-template@0cd65f1a8cdd201377976b1c8de0af76178e9d0e/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "src/images/favicon.ico",
+      "src/images/grid-image/image-01.png": "src/images/grid-image/image-01.png",
+      "src/images/grid-image/image-02.png": "src/images/grid-image/image-02.png",
+      "src/images/grid-image/image-03.png": "src/images/grid-image/image-03.png",
+      "src/images/grid-image/image-04.png": "src/images/grid-image/image-04.png",
+      "src/images/grid-image/image-05.png": "src/images/grid-image/image-05.png",
+      "src/images/grid-image/image-06.png": "src/images/grid-image/image-06.png",
+      "src/images/product/product-01.jpg": "src/images/product/product-01.jpg",
+      "src/images/product/product-02.jpg": "src/images/product/product-02.jpg",
+      "src/images/product/product-03.jpg": "src/images/product/product-03.jpg",
+      "src/images/product/product-04.jpg": "src/images/product/product-04.jpg",
+      "src/images/product/product-05.jpg": "src/images/product/product-05.jpg",
+      "src/images/user/owner.jpg": "src/images/user/owner.jpg",
+      "src/images/user/user-01.jpg": "src/images/user/user-01.jpg",
+      "src/images/user/user-02.jpg": "src/images/user/user-02.jpg",
+      "src/images/user/user-03.jpg": "src/images/user/user-03.jpg",
+      "src/images/user/user-04.jpg": "src/images/user/user-04.jpg",
+      "src/images/user/user-05.jpg": "src/images/user/user-05.jpg",
+      "src/images/user/user-17.jpg": "src/images/user/user-17.jpg",
+      "src/images/user/user-18.jpg": "src/images/user/user-18.jpg",
+      "src/images/user/user-19.jpg": "src/images/user/user-19.jpg",
+      "src/images/user/user-20.jpg": "src/images/user/user-20.jpg",
+      "src/images/user/user-21.jpg": "src/images/user/user-21.jpg",
+      "src/images/user/user-22.jpg": "src/images/user/user-22.jpg",
+      "src/images/user/user-23.jpg": "src/images/user/user-23.jpg",
+      "src/images/user/user-24.jpg": "src/images/user/user-24.jpg",
+      "src/images/user/user-25.jpg": "src/images/user/user-25.jpg",
+      "src/images/user/user-26.jpg": "src/images/user/user-26.jpg",
+      "src/images/user/user-27.jpg": "src/images/user/user-27.jpg",
+      "src/images/user/user-28.jpg": "src/images/user/user-28.jpg",
+      "src/images/user/user-29.jpg": "src/images/user/user-29.jpg",
+      "src/images/user/user-30.jpg": "src/images/user/user-30.jpg",
+      "src/images/user/user-31.jpg": "src/images/user/user-31.jpg",
+      "src/images/user/user-32.jpg": "src/images/user/user-32.jpg",
+      "src/images/user/user-33.jpg": "src/images/user/user-33.jpg"
+    }
+  }
+}

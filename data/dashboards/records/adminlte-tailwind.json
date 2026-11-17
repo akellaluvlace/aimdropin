@@ -1,0 +1,209 @@
+{
+  "record": {
+    "slug": "adminlte-tailwind",
+    "title": "AdminLTE Tailwind",
+    "description": "AdminLTE rebuilt on Tailwind CSS 4: dashboards, widgets, forms, tables, charts, mailbox, auth and error pages.",
+    "repo": "puikinsh/adminlte-tailwind",
+    "sha": "995434edfabf1c7f33c6a74a5b55562b96e1d542",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles simple-datatables (LGPL-3.0); photos under the Unsplash License (see CREDITS.md).",
+      "url": "https://github.com/puikinsh/adminlte-tailwind/blob/995434edfabf1c7f33c6a74a5b55562b96e1d542/LICENSE"
+    },
+    "author": "AdminLTE.io",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind4",
+      "typescript",
+      "vite",
+      "dark-mode"
+    ],
+    "demoUrl": "https://adminlte.io/themes/tailwind/",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard v1 | AdminLTE Tailwind"
+      },
+      {
+        "path": "examples/lockscreen.html",
+        "title": "Lockscreen | AdminLTE Tailwind"
+      },
+      {
+        "path": "examples/login.html",
+        "title": "Login | AdminLTE Tailwind"
+      },
+      {
+        "path": "examples/register.html",
+        "title": "Register | AdminLTE Tailwind"
+      },
+      {
+        "path": "forms/elements.html",
+        "title": "Form Elements | AdminLTE Tailwind"
+      },
+      {
+        "path": "index2.html",
+        "title": "Dashboard v2 | AdminLTE Tailwind"
+      },
+      {
+        "path": "index3.html",
+        "title": "Dashboard v3 | AdminLTE Tailwind"
+      },
+      {
+        "path": "mailbox/compose.html",
+        "title": "Compose | AdminLTE Tailwind"
+      },
+      {
+        "path": "mailbox/inbox.html",
+        "title": "Inbox | AdminLTE Tailwind"
+      },
+      {
+        "path": "mailbox/read.html",
+        "title": "Read Mail | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/404.html",
+        "title": "404 - Page Not Found | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/500.html",
+        "title": "500 - Server Error | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/blank.html",
+        "title": "Blank Page | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/calendar.html",
+        "title": "Calendar | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/chat.html",
+        "title": "Chat | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/contacts.html",
+        "title": "Contacts | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/faq.html",
+        "title": "FAQ | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/file-manager.html",
+        "title": "File Manager | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/gallery.html",
+        "title": "Gallery | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/invoice.html",
+        "title": "Invoice | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/kanban.html",
+        "title": "Kanban Board | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/maintenance.html",
+        "title": "Maintenance | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/pricing.html",
+        "title": "Pricing | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/profile.html",
+        "title": "User Profile | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/projects.html",
+        "title": "Projects | AdminLTE Tailwind"
+      },
+      {
+        "path": "pages/settings.html",
+        "title": "Settings | AdminLTE Tailwind"
+      },
+      {
+        "path": "tables/simple.html",
+        "title": "Tables | AdminLTE Tailwind"
+      },
+      {
+        "path": "UI/buttons.html",
+        "title": "Buttons | AdminLTE Tailwind"
+      },
+      {
+        "path": "UI/general.html",
+        "title": "General UI Elements | AdminLTE Tailwind"
+      },
+      {
+        "path": "UI/icons.html",
+        "title": "Icons | AdminLTE Tailwind"
+      },
+      {
+        "path": "UI/modals.html",
+        "title": "Modals | AdminLTE Tailwind"
+      },
+      {
+        "path": "UI/timeline.html",
+        "title": "Timeline | AdminLTE Tailwind"
+      },
+      {
+        "path": "widgets/cards.html",
+        "title": "Card Widgets | AdminLTE Tailwind"
+      },
+      {
+        "path": "widgets/info-box.html",
+        "title": "Info Box Widgets | AdminLTE Tailwind"
+      },
+      {
+        "path": "widgets/small-box.html",
+        "title": "Small Box Widgets | AdminLTE Tailwind"
+      }
+    ],
+    "storedBytes": 2720810,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:27.994Z"
+  },
+  "serve": {
+    "slug": "adminlte-tailwind",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/puikinsh/adminlte-tailwind@995434edfabf1c7f33c6a74a5b55562b96e1d542/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-touch-icon.png": "public/apple-touch-icon.png",
+      "assets/img/AdminLTEFullLogo.png": "public/assets/img/AdminLTEFullLogo.png",
+      "assets/img/AdminLTELogo.png": "public/assets/img/AdminLTELogo.png",
+      "assets/img/gallery/city-skyline.avif": "public/assets/img/gallery/city-skyline.avif",
+      "assets/img/gallery/city-skyline.jpg": "public/assets/img/gallery/city-skyline.jpg",
+      "assets/img/gallery/city-street.avif": "public/assets/img/gallery/city-street.avif",
+      "assets/img/gallery/city-street.jpg": "public/assets/img/gallery/city-street.jpg",
+      "assets/img/gallery/dashboard-preview.avif": "public/assets/img/gallery/dashboard-preview.avif",
+      "assets/img/gallery/dashboard-preview.jpg": "public/assets/img/gallery/dashboard-preview.jpg",
+      "assets/img/gallery/forest.avif": "public/assets/img/gallery/forest.avif",
+      "assets/img/gallery/forest.jpg": "public/assets/img/gallery/forest.jpg",
+      "assets/img/gallery/laptop-coding.avif": "public/assets/img/gallery/laptop-coding.avif",
+      "assets/img/gallery/laptop-coding.jpg": "public/assets/img/gallery/laptop-coding.jpg",
+      "assets/img/gallery/mountain.avif": "public/assets/img/gallery/mountain.avif",
+      "assets/img/gallery/mountain.jpg": "public/assets/img/gallery/mountain.jpg",
+      "assets/img/gallery/portrait-man.avif": "public/assets/img/gallery/portrait-man.avif",
+      "assets/img/gallery/portrait-man.jpg": "public/assets/img/gallery/portrait-man.jpg",
+      "assets/img/gallery/portrait-woman.avif": "public/assets/img/gallery/portrait-woman.avif",
+      "assets/img/gallery/portrait-woman.jpg": "public/assets/img/gallery/portrait-woman.jpg",
+      "assets/img/gallery/tech-setup.avif": "public/assets/img/gallery/tech-setup.avif",
+      "assets/img/gallery/tech-setup.jpg": "public/assets/img/gallery/tech-setup.jpg",
+      "og-image.png": "public/og-image.png",
+      "site.webmanifest": "public/site.webmanifest"
+    }
+  }
+}

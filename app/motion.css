@@ -1,0 +1,371 @@
+/* Motion: scroll reveals, staggers and set pieces shared by the landing page
+   and the app. Content is visible by default; JS opts elements into the
+   hidden start state only when motion is allowed (see
+   components/motion/RevealObserver.tsx).
+
+   Rules: one curve for UI feedback (snap), expo for reveals, exits faster
+   than entrances, nothing bounces, every loop can be paused and stops when
+   it is offscreen, and prefers-reduced-motion turns all of it off. */
+
+:root {
+  --ease-snap: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-exit: cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+/* ---------------------------------------------------------------------------
+   Masked lines: each line of a big heading clips its own text, so the words
+   can rise from behind an invisible edge. Padding keeps descenders (g, y)
+   from being clipped; the negative margin cancels it out of the layout.
+--------------------------------------------------------------------------- */
+.rv-line {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.14em;
+  margin-bottom: -0.14em;
+}
+.rv-line > span {
+  display: inline-block;
+}
+
+/* ---------------------------------------------------------------------------
+   Hero entrance: CSS only, on first paint, done in about a second.
+   --d is the per-element delay set inline.
+--------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-rise {
+    animation: lp-rise 800ms var(--ease-expo) both;
+    animation-delay: var(--d, 0ms);
+  }
+  .hero-line > span {
+    animation: lp-line 950ms var(--ease-expo) both;
+    animation-delay: var(--d, 0ms);
+  }
+  .hero-pop {
+    animation: lp-pop 650ms var(--ease-expo) both;
+    animation-delay: var(--d, 0ms);
+  }
+  .hero-card {
+    animation: lp-card 1000ms var(--ease-expo) both;
+    animation-delay: var(--d, 0ms);
+  }
+}
+
+/* Starts at 0.01, not 0: it looks the same, but Chrome doesn't count a fully
+   transparent element as painted, so the hero text (the largest paint on a
+   phone) was only recorded once React had loaded, seconds after it was
+   actually on screen. */
+@keyframes lp-rise {
+  from {
+    opacity: 0.01;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes lp-line {
+  from {
+    transform: translateY(112%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes lp-pop {
+  from {
+    opacity: 0;
+    transform: rotate(var(--rot, 0deg)) scale(1.4);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(var(--rot, 0deg)) scale(1);
+  }
+}
+@keyframes lp-card {
+  from {
+    opacity: 0;
+    transform: translate(var(--fx, 0px), var(--fy, 56px)) rotate(var(--rot, 0deg));
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0) rotate(var(--rot, 0deg));
+  }
+}
+
+/* Static tilt for cards that are rotated at rest (the hero's back cards,
+   stickers). The entrance keyframes end on the same transform. */
+.lp-tilt {
+  transform: rotate(var(--rot, 0deg));
+}
+
+/* ---------------------------------------------------------------------------
+   Scroll reveals. RevealObserver adds .rv-armed to elements that start
+   below the fold and .rv-in once they scroll into view. Put reveals on
+   wrappers, and hover transforms on the elements inside them, so the two
+   transforms never fight.
+--------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .rv-armed[data-reveal="rise"] {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  .rv-armed[data-reveal="fade"] {
+    opacity: 0;
+  }
+  .rv-armed[data-reveal="stagger"] > * {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  .rv-armed[data-reveal="lines"] .rv-line > span {
+    transform: translateY(112%);
+  }
+  .rv-armed[data-reveal="draw"] {
+    transform: scaleX(0);
+    transform-origin: left center;
+  }
+  .rv-armed[data-reveal="stamp"] {
+    opacity: 0;
+    transform: rotate(var(--rot, 0deg)) scale(1.4);
+  }
+
+  .rv-armed.rv-in[data-reveal="rise"] {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 650ms var(--ease-expo) var(--d, 0ms),
+      transform 950ms var(--ease-expo) var(--d, 0ms);
+  }
+  .rv-armed.rv-in[data-reveal="fade"] {
+    opacity: 1;
+    transition: opacity 900ms var(--ease-expo) var(--d, 0ms);
+  }
+  .rv-armed.rv-in[data-reveal="stagger"] > * {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 650ms var(--ease-expo),
+      transform 950ms var(--ease-expo);
+    /* 70ms per item, capped at six steps so long lists don't drag. */
+    transition-delay: calc(min(var(--i, 0), 6) * 70ms + var(--d, 0ms));
+  }
+  .rv-armed.rv-in[data-reveal="lines"] .rv-line > span {
+    transform: none;
+    transition: transform 1000ms var(--ease-expo);
+  }
+  .rv-armed.rv-in[data-reveal="lines"] .rv-line:nth-child(2) > span {
+    transition-delay: 90ms;
+  }
+  .rv-armed.rv-in[data-reveal="lines"] .rv-line:nth-child(3) > span {
+    transition-delay: 180ms;
+  }
+  .rv-armed.rv-in[data-reveal="draw"] {
+    transform: scaleX(1);
+    transition: transform 1100ms var(--ease-expo) var(--d, 0ms);
+  }
+  .rv-armed.rv-in[data-reveal="stamp"] {
+    opacity: 1;
+    transform: rotate(var(--rot, 0deg)) scale(1);
+    transition:
+      opacity 180ms linear var(--d, 0ms),
+      transform 520ms var(--ease-expo) var(--d, 0ms);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Hover: brutalist lift (the card moves toward the pointer and its hard
+   shadow grows), the arrow nudge, and the landing-page fan. Only for real
+   pointers, so a tap never leaves a card stuck lifted.
+--------------------------------------------------------------------------- */
+.lp-arrow {
+  display: inline-block;
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .lp-lift {
+    transition:
+      transform 300ms var(--ease-snap),
+      box-shadow 300ms var(--ease-snap),
+      background-color 150ms,
+      border-color 150ms;
+  }
+  .lp-lift:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 8px 8px 0 0 #0f0f0f;
+  }
+  .lp-lift.lp-lift-coral:hover {
+    box-shadow: 8px 8px 0 0 #ff4d2e;
+  }
+  .lp-lift.lp-lift-sun:hover {
+    box-shadow: 8px 8px 0 0 #ffd23f;
+  }
+  .lp-lift:active {
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px 0 0 #0f0f0f;
+  }
+  .lp-arrow {
+    transition: transform 250ms var(--ease-snap);
+  }
+  .lp-lift:hover .lp-arrow,
+  .lp-arrow-host:hover .lp-arrow,
+  .btn:hover .lp-arrow {
+    transform: translate(3px, -3px);
+  }
+  .lp-zoom img {
+    transition: transform 600ms var(--ease-snap);
+  }
+  .lp-lift:hover .lp-zoom img {
+    transform: scale(1.04);
+  }
+
+  .lp-fan-card {
+    transition: transform 450ms var(--ease-snap);
+  }
+  .lp-fan:hover .lp-fan-card:nth-child(1) {
+    transform: translate(-30px, 8px) rotate(-10deg);
+  }
+  .lp-fan:hover .lp-fan-card:nth-child(2) {
+    transform: translateY(-12px);
+  }
+  .lp-fan:hover .lp-fan-card:nth-child(3) {
+    transform: translate(30px, 8px) rotate(10deg);
+  }
+
+  /* Rating stars fill one after another when their card is hovered. */
+  .lp-stars span {
+    transition: color 200ms var(--ease-snap);
+  }
+  .lp-lift:hover .lp-stars span {
+    color: #ff4d2e;
+  }
+  .lp-lift:hover .lp-stars span:nth-child(2) {
+    transition-delay: 60ms;
+  }
+  .lp-lift:hover .lp-stars span:nth-child(3) {
+    transition-delay: 120ms;
+  }
+  .lp-lift:hover .lp-stars span:nth-child(4) {
+    transition-delay: 180ms;
+  }
+  .lp-lift:hover .lp-stars span:nth-child(5) {
+    transition-delay: 240ms;
+  }
+}
+
+/* Landing-page fan: three tilted thumbnails at rest, peeking out of the
+   panel's top area. */
+.lp-fan-card {
+  bottom: -24px;
+  width: 58%;
+}
+.lp-fan-card:nth-child(1) {
+  left: -4%;
+  transform: translate(-14px, 6px) rotate(-6deg);
+}
+.lp-fan-card:nth-child(2) {
+  left: 21%;
+  z-index: 2;
+}
+.lp-fan-card:nth-child(3) {
+  left: 46%;
+  transform: translate(14px, 6px) rotate(6deg);
+}
+@media (min-width: 640px) {
+  .lp-fan-card {
+    bottom: -28px;
+    width: 48%;
+  }
+  .lp-fan-card:nth-child(1) {
+    left: 3%;
+  }
+  .lp-fan-card:nth-child(2) {
+    left: 26%;
+  }
+  .lp-fan-card:nth-child(3) {
+    left: 49%;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Loops: the ticker band, the gallery lanes and the hero slideshow. A
+   MotionGroup sets data-paused when the visitor presses Pause or the group
+   scrolls offscreen.
+--------------------------------------------------------------------------- */
+.lp-ticker-track {
+  display: flex;
+  width: max-content;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .lp-ticker-track {
+    animation: lp-ticker var(--dur, 60s) linear infinite;
+  }
+}
+@keyframes lp-ticker {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+[data-paused="true"] .lp-ticker-track,
+[data-paused="true"] .dropin-marquee {
+  animation-play-state: paused !important;
+}
+
+/* Hero slideshow: a coral progress bar times each slide; when it finishes,
+   the next dashboard comes in. Paused bar = paused slideshow. */
+.lp-stage-progress {
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .lp-stage-progress {
+    animation: lp-progress var(--dur, 4200ms) linear forwards;
+  }
+  [data-paused="true"] .lp-stage-progress {
+    animation-play-state: paused;
+  }
+}
+@keyframes lp-progress {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.lp-slide {
+  opacity: 0;
+}
+.lp-slide[data-active="true"] {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .lp-slide {
+    transition: opacity 320ms var(--ease-exit);
+  }
+  .lp-slide[data-active="true"] {
+    transition: opacity 700ms var(--ease-expo);
+  }
+  .lp-slide[data-active="true"] img {
+    animation: lp-settle 1400ms var(--ease-expo) both;
+  }
+  .lp-swap {
+    animation: lp-rise 500ms var(--ease-expo) both;
+  }
+}
+@keyframes lp-settle {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* Reduced motion: no loops, so the controls have nothing to do, and the
+   gallery lanes become plain scrollable rows. */
+@media (prefers-reduced-motion: reduce) {
+  .lp-motion-control {
+    display: none !important;
+  }
+  .lp-marquee .dropin-marquee-viewport {
+    overflow-x: auto;
+  }
+}

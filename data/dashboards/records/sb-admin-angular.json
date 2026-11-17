@@ -1,0 +1,52 @@
+{
+  "record": {
+    "slug": "sb-admin-angular",
+    "title": "SB Admin Angular",
+    "description": "Start Bootstrap's SB Admin for Angular: dashboard with charts, tables, static navigation, light sidenav, auth and error pages.",
+    "repo": "StartBootstrap/sb-admin-angular",
+    "sha": "1761bb376f31d6f85d9ffeed67845dca973da9a4",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/StartBootstrap/sb-admin-angular/blob/1761bb376f31d6f85d9ffeed67845dca973da9a4/LICENSE"
+    },
+    "author": "Start Bootstrap",
+    "framework": "angular",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "bootstrap4",
+      "ng-bootstrap",
+      "chartjs",
+      "pug"
+    ],
+    "demoUrl": "https://sb-admin-angular.startbootstrap.com",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "SB Admin Angular"
+      }
+    ],
+    "storedBytes": 2669023,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:26.828Z"
+  },
+  "serve": {
+    "slug": "sb-admin-angular",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/StartBootstrap/sb-admin-angular@1761bb376f31d6f85d9ffeed67845dca973da9a4/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/version": "version",
+      "favicon.png": "src/favicon.png"
+    }
+  }
+}

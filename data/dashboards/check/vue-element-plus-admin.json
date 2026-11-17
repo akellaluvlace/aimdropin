@@ -1,0 +1,310 @@
+{
+  "checkedAt": "2026-11-10T19:11:35.163Z",
+  "pagesChecked": 75,
+  "pagesOk": 73,
+  "failures": [
+    {
+      "path": "example/example-edit",
+      "problem": "script error: Cannot read properties of undefined (reading 'code')\ndefaultResponseInterceptors (http://localhost:3000/demos/vue-element-plus-admin/assets/index-DAKdjOwl.js:23:37559)\nAxios.<anonymous> (http://localh"
+    },
+    {
+      "path": "example/example-detail",
+      "problem": "script error: Cannot read properties of undefined (reading 'code')\ndefaultResponseInterceptors (http://localhost:3000/demos/vue-element-plus-admin/assets/index-DAKdjOwl.js:23:37559)\nAxios.<anonymous> (http://localh"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "ElementAdmin - Analysis"
+    },
+    {
+      "path": "redirect",
+      "title": "ElementAdmin"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "personal",
+      "title": "ElementAdmin - Personal center"
+    },
+    {
+      "path": "404",
+      "title": "ElementAdmin - 404"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "external-link",
+      "title": "ElementAdmin"
+    },
+    {
+      "path": "guide",
+      "title": "ElementAdmin"
+    },
+    {
+      "path": "components",
+      "title": "ElementAdmin - Component"
+    },
+    {
+      "path": "function",
+      "title": "ElementAdmin - 404"
+    },
+    {
+      "path": "hooks",
+      "title": "ElementAdmin - useWatermark"
+    },
+    {
+      "path": "level",
+      "title": "ElementAdmin - Menu1-1-1"
+    },
+    {
+      "path": "example",
+      "title": "ElementAdmin - Example dialog"
+    },
+    {
+      "path": "error",
+      "title": "ElementAdmin - 404"
+    },
+    {
+      "path": "authorization",
+      "title": "ElementAdmin - User management"
+    },
+    {
+      "path": "personal/personal-center",
+      "title": "ElementAdmin - Personal center"
+    },
+    {
+      "path": "dashboard/analysis",
+      "title": "Dashboard / Analysis"
+    },
+    {
+      "path": "dashboard/workplace",
+      "title": "ElementAdmin - Workplace"
+    },
+    {
+      "path": "guide/index",
+      "title": "ElementAdmin - Guide"
+    },
+    {
+      "path": "components/form",
+      "title": "ElementAdmin - All examples"
+    },
+    {
+      "path": "components/table",
+      "title": "ElementAdmin - Basic example"
+    },
+    {
+      "path": "components/editor-demo",
+      "title": "ElementAdmin - Rich text"
+    },
+    {
+      "path": "components/search",
+      "title": "ElementAdmin - Search"
+    },
+    {
+      "path": "components/descriptions",
+      "title": "ElementAdmin - Descriptions"
+    },
+    {
+      "path": "components/image-viewer",
+      "title": "ElementAdmin - Image viewer"
+    },
+    {
+      "path": "components/dialog",
+      "title": "ElementAdmin - Dialog"
+    },
+    {
+      "path": "components/icon",
+      "title": "ElementAdmin - Icon"
+    },
+    {
+      "path": "components/icon-picker",
+      "title": "ElementAdmin - Icon picker"
+    },
+    {
+      "path": "components/echart",
+      "title": "ElementAdmin - Echart"
+    },
+    {
+      "path": "components/count-to",
+      "title": "ElementAdmin - Count to"
+    },
+    {
+      "path": "components/qrcode",
+      "title": "ElementAdmin - Qrcode"
+    },
+    {
+      "path": "components/highlight",
+      "title": "ElementAdmin - Highlight"
+    },
+    {
+      "path": "components/infotip",
+      "title": "ElementAdmin - Infotip"
+    },
+    {
+      "path": "components/input-password",
+      "title": "ElementAdmin - InputPassword"
+    },
+    {
+      "path": "components/waterfall",
+      "title": "ElementAdmin - Waterfall"
+    },
+    {
+      "path": "components/image-cropping",
+      "title": "ElementAdmin - Image cropping"
+    },
+    {
+      "path": "components/video-player",
+      "title": "ElementAdmin - Video player"
+    },
+    {
+      "path": "components/avatars",
+      "title": "ElementAdmin - Avatars"
+    },
+    {
+      "path": "components/i-agree",
+      "title": "ElementAdmin - I agree"
+    },
+    {
+      "path": "function/multiple-tabs",
+      "title": "ElementAdmin - Multiple tabs"
+    },
+    {
+      "path": "function/request",
+      "title": "ElementAdmin - Request"
+    },
+    {
+      "path": "function/test",
+      "title": "ElementAdmin - Permission test page"
+    },
+    {
+      "path": "hooks/useWatermark",
+      "title": "ElementAdmin - useWatermark"
+    },
+    {
+      "path": "hooks/useTagsView",
+      "title": "ElementAdmin - useTagsView"
+    },
+    {
+      "path": "hooks/useValidator",
+      "title": "ElementAdmin - useValidator"
+    },
+    {
+      "path": "hooks/useCrudSchemas",
+      "title": "ElementAdmin - useCrudSchemas"
+    },
+    {
+      "path": "hooks/useClipboard",
+      "title": "ElementAdmin - useClipboard"
+    },
+    {
+      "path": "hooks/useNetwork",
+      "title": "ElementAdmin - useNetwork"
+    },
+    {
+      "path": "level/menu1",
+      "title": "ElementAdmin - Menu1-1-1"
+    },
+    {
+      "path": "level/menu2",
+      "title": "ElementAdmin - Menu2"
+    },
+    {
+      "path": "example/example-dialog",
+      "title": "ElementAdmin - Example dialog"
+    },
+    {
+      "path": "example/example-page",
+      "title": "ElementAdmin - Example page"
+    },
+    {
+      "path": "example/example-add",
+      "title": "ElementAdmin - Example page - add"
+    },
+    {
+      "path": "error/404-demo",
+      "title": "ElementAdmin - 404"
+    },
+    {
+      "path": "error/403-demo",
+      "title": "ElementAdmin - 403"
+    },
+    {
+      "path": "error/500-demo",
+      "title": "ElementAdmin - 500"
+    },
+    {
+      "path": "authorization/department",
+      "title": "ElementAdmin - Department management"
+    },
+    {
+      "path": "authorization/user",
+      "title": "ElementAdmin - User management"
+    },
+    {
+      "path": "authorization/menu",
+      "title": "ElementAdmin - Menu management"
+    },
+    {
+      "path": "authorization/role",
+      "title": "ElementAdmin - Role management"
+    },
+    {
+      "path": "components/form/default-form",
+      "title": "ElementAdmin - All examples"
+    },
+    {
+      "path": "components/form/use-form",
+      "title": "ElementAdmin - UseForm"
+    },
+    {
+      "path": "components/table/default-table",
+      "title": "ElementAdmin - Basic example"
+    },
+    {
+      "path": "components/table/use-table",
+      "title": "ElementAdmin - UseTable"
+    },
+    {
+      "path": "components/table/tree-table",
+      "title": "ElementAdmin - Tree table"
+    },
+    {
+      "path": "components/table/table-image-preview",
+      "title": "ElementAdmin - Table Image Preview"
+    },
+    {
+      "path": "components/table/table-video-preview",
+      "title": "ElementAdmin - Table video preview"
+    },
+    {
+      "path": "components/table/card-table",
+      "title": "ElementAdmin - Card table"
+    },
+    {
+      "path": "components/editor-demo/editor",
+      "title": "ElementAdmin - Rich text"
+    },
+    {
+      "path": "components/editor-demo/json-editor",
+      "title": "ElementAdmin - JSON Editor"
+    },
+    {
+      "path": "level/menu1/menu1-1",
+      "title": "ElementAdmin - Menu1-1-1"
+    },
+    {
+      "path": "level/menu1/menu1-2",
+      "title": "ElementAdmin - Menu1-2"
+    },
+    {
+      "path": "level/menu1/menu1-1/menu1-1-1",
+      "title": "ElementAdmin - Menu1-1-1"
+    }
+  ]
+}

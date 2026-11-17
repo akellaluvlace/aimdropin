@@ -1,0 +1,330 @@
+{
+  "checkedAt": "2026-11-10T19:22:42.806Z",
+  "pagesChecked": 80,
+  "pagesOk": 77,
+  "failures": [
+    {
+      "path": "inline-player.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read the 'caches' property from 'Window': Cache storage is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag. · script error: writeEmbed is not defined · script error: Uncaught undefined"
+    },
+    {
+      "path": "map-fullsize.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read a named property 'addEventListener' from 'Window': Sandbox access violation: Blocked a frame at \"http://localhost:3000\" from accessing a frame at \"null\".  Both f"
+    },
+    {
+      "path": "maps.html",
+      "problem": "script error: Uncaught Error: Failed to initialize WebGL."
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "2-step-verification-code.html",
+      "title": "2-Step Verification - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "2-step-verification.html",
+      "title": "2-Step Verification - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "accordion.html",
+      "title": "Accordion - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "activity.html",
+      "title": "Activity - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "alerts.html",
+      "title": "Alerts - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "auth-lock.html",
+      "title": "Forgot password - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "badges.html",
+      "title": "Badges - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "blank.html",
+      "title": "Blank page - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "buttons.html",
+      "title": "Buttons - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "card-actions.html",
+      "title": "Card actions - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "cards-masonry.html",
+      "title": "Cards Masonry - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "cards.html",
+      "title": "Cards - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "carousel.html",
+      "title": "Carousel - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "changelog.html",
+      "title": "Changelog - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "charts.html",
+      "title": "Charts - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "chat.html",
+      "title": "Playground - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "colorpicker.html",
+      "title": "Color picker - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "colors.html",
+      "title": "Colors - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "cookie-banner.html",
+      "title": "Cookie banner - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "datagrid.html",
+      "title": "Data grid - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "datatables.html",
+      "title": "Datatables - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "docs/index.html",
+      "title": "Welcome to Tabler Documentation | Tabler Documentation"
+    },
+    {
+      "path": "dropdowns.html",
+      "title": "Dropdowns - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "dropzone.html",
+      "title": "Dropzone - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "emails.html",
+      "title": "Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "empty.html",
+      "title": "Empty page - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "error-404.html",
+      "title": "Page 404 - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "error-500.html",
+      "title": "Page 500 - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "error-maintenance.html",
+      "title": "Maintenance mode - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "faq.html",
+      "title": "Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "flags.html",
+      "title": "Flags - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "forgot-password.html",
+      "title": "Forgot password - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "form-elements.html",
+      "title": "Form elements - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "gallery.html",
+      "title": "Gallery - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "icons.html",
+      "title": "Icons - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "invoice.html",
+      "title": "Invoice - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "job-listing.html",
+      "title": "Search for Jobs - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-boxed.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-combo.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-condensed.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-fluid-vertical.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-fluid.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-horizontal.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-navbar-dark.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-navbar-overlap.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-navbar-sticky.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-rtl.html",
+      "title": "RTL mode - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-vertical-right.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-vertical-transparent.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "layout-vertical.html",
+      "title": "Dashboard - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "license.html",
+      "title": "License - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "lightbox.html",
+      "title": "Lightbox - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "lists.html",
+      "title": "Lists - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "logs.html",
+      "title": "Logs - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "maps-vector.html",
+      "title": "Vector Maps - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "markdown.html",
+      "title": "Markdown - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "modals.html",
+      "title": "Modals - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "music.html",
+      "title": "Music components - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "navigation.html",
+      "title": "Navigation - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "offcanvas.html",
+      "title": "Offcanvas - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "page-loader.html",
+      "title": "Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "pagination.html",
+      "title": "Pagination - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "photogrid.html",
+      "title": "Photogrid - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "placeholder.html",
+      "title": "Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "pricing-table.html",
+      "title": "Pricing table - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "pricing.html",
+      "title": "Pricing cards - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "profile.html",
+      "title": "Profile - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "search-results.html",
+      "title": "Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "settings-plan.html",
+      "title": "Settings - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "settings.html",
+      "title": "Settings - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "sign-in-cover.html",
+      "title": "Sign in with cover - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "sign-in-illustration.html",
+      "title": "Sign in with illustration - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "sign-in-link.html",
+      "title": "Sign in link - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "sign-in.html",
+      "title": "Sign in - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "sign-up.html",
+      "title": "Sign up - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    },
+    {
+      "path": "stars-rating.html",
+      "title": "Star Ratings - Tabler - Premium and Open Source dashboard template with responsive and high quality UI."
+    }
+  ]
+}

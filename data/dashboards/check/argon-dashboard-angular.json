@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-10T18:35:21.254Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Argon Dashboard Angular - Free Dashboard for Bootstrap 4"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "user-profile",
+      "title": "User Profile"
+    },
+    {
+      "path": "icons",
+      "title": "Icons"
+    },
+    {
+      "path": "maps",
+      "title": "Maps"
+    },
+    {
+      "path": "tables",
+      "title": "Tables"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "register",
+      "title": "Register"
+    }
+  ]
+}

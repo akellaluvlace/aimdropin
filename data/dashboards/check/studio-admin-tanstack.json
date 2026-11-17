@@ -1,0 +1,149 @@
+{
+  "checkedAt": "2026-11-10T17:46:38.114Z",
+  "pagesChecked": 35,
+  "pagesOk": 35,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Studio Admin - Modern TanStack Start Dashboard Starter Template"
+    },
+    {
+      "path": "dashboard/default",
+      "title": "Dashboard / Default"
+    },
+    {
+      "path": "dashboard/crm",
+      "title": "Dashboard / Crm"
+    },
+    {
+      "path": "dashboard/finance",
+      "title": "Dashboard / Finance"
+    },
+    {
+      "path": "dashboard/analytics",
+      "title": "Dashboard / Analytics"
+    },
+    {
+      "path": "dashboard/productivity",
+      "title": "Dashboard / Productivity"
+    },
+    {
+      "path": "dashboard/ecommerce",
+      "title": "Dashboard / Ecommerce"
+    },
+    {
+      "path": "dashboard/academy",
+      "title": "Dashboard / Academy"
+    },
+    {
+      "path": "dashboard/logistics",
+      "title": "Dashboard / Logistics"
+    },
+    {
+      "path": "dashboard/infrastructure",
+      "title": "Dashboard / Infrastructure"
+    },
+    {
+      "path": "dashboard/file-manager",
+      "title": "Dashboard / File Manager"
+    },
+    {
+      "path": "dashboard/patient-monitoring",
+      "title": "Dashboard / Patient Monitoring"
+    },
+    {
+      "path": "dashboard/products",
+      "title": "Open Source Product Management Dashboard with shadcn/ui"
+    },
+    {
+      "path": "dashboard/mail",
+      "title": "Dashboard / Mail"
+    },
+    {
+      "path": "dashboard/chat",
+      "title": "Dashboard / Chat"
+    },
+    {
+      "path": "dashboard/calendar",
+      "title": "Dashboard / Calendar"
+    },
+    {
+      "path": "dashboard/kanban",
+      "title": "Dashboard / Kanban"
+    },
+    {
+      "path": "dashboard/tasks",
+      "title": "Dashboard / Tasks"
+    },
+    {
+      "path": "dashboard/invoice",
+      "title": "Dashboard / Invoice"
+    },
+    {
+      "path": "dashboard/profile",
+      "title": "Dashboard / Profile"
+    },
+    {
+      "path": "dashboard/users",
+      "title": "Dashboard / Users"
+    },
+    {
+      "path": "dashboard/roles",
+      "title": "Dashboard / Roles"
+    },
+    {
+      "path": "auth/v1/login",
+      "title": "Auth / V1 / Login"
+    },
+    {
+      "path": "auth/v2/login",
+      "title": "Auth / V2 / Login"
+    },
+    {
+      "path": "auth/v1/register",
+      "title": "Auth / V1 / Register"
+    },
+    {
+      "path": "auth/v2/register",
+      "title": "Auth / V2 / Register"
+    },
+    {
+      "path": "dashboard/default-v1",
+      "title": "Dashboard / Default V1"
+    },
+    {
+      "path": "dashboard/crm-v1",
+      "title": "Dashboard / Crm V1"
+    },
+    {
+      "path": "dashboard/finance-v1",
+      "title": "Dashboard / Finance V1"
+    },
+    {
+      "path": "dashboard/analytics-v1",
+      "title": "Dashboard / Analytics V1"
+    },
+    {
+      "path": "dashboard/coming-soon",
+      "title": "Dashboard / Coming Soon"
+    },
+    {
+      "path": "dashboard/file-manager?view=grid",
+      "title": "Dashboard / File Manager"
+    },
+    {
+      "path": "dashboard/file-manager?view=list",
+      "title": "Dashboard / File Manager"
+    },
+    {
+      "path": "mail",
+      "title": "Mail"
+    },
+    {
+      "path": "chat",
+      "title": "Chat"
+    }
+  ]
+}

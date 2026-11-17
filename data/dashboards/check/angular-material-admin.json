@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-10T19:03:26.053Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Angular Material Admin - Free Angular Material Template with tens of components."
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "typography",
+      "title": "Typography"
+    },
+    {
+      "path": "tables",
+      "title": "Tables"
+    },
+    {
+      "path": "notification",
+      "title": "Notification"
+    },
+    {
+      "path": "ui/icons",
+      "title": "Ui / Icons"
+    },
+    {
+      "path": "ui/charts",
+      "title": "Ui / Charts"
+    },
+    {
+      "path": "ui/map",
+      "title": "Ui / Map"
+    }
+  ]
+}

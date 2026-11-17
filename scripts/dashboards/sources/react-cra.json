@@ -1,0 +1,611 @@
+[
+  {
+    "slug": "argon-dashboard-react",
+    "title": "Argon Dashboard React",
+    "description": "Bootstrap 4 + reactstrap admin with dashboard charts, icons, Google map, user profile, tables and login/register pages.",
+    "repo": "creativetimofficial/argon-dashboard-react",
+    "sha": "04b58c36799220d0af4bb8f6e4b1f4a563f17994",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "reactstrap",
+      "chartjs",
+      "react-router"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/argon-dashboard-react/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "argon-dashboard-react.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "black-dashboard-react",
+    "title": "Black Dashboard React",
+    "description": "Dark Bootstrap 4 admin with neon charts, icons, map, notifications, user profile, tables, typography and an RTL layout.",
+    "repo": "creativetimofficial/black-dashboard-react",
+    "sha": "26b59be1f1e5e3111f67461ebae393c31f95fa50",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "reactstrap",
+      "dark-mode",
+      "rtl",
+      "chartjs"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/black-dashboard-react/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "black-dashboard-react.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "paper-dashboard-react",
+    "title": "Paper Dashboard React",
+    "description": "Light paper-style Bootstrap 4 admin with dashboard charts, icons, map, notifications, user profile, tables and typography.",
+    "repo": "creativetimofficial/paper-dashboard-react",
+    "sha": "c2ecf79745fde8ad3270482d371ea12106c0832a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "reactstrap",
+      "chartjs",
+      "react-router"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/paper-dashboard-react/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "paper-dashboard-react.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "now-ui-dashboard-react",
+    "title": "Now UI Dashboard React",
+    "description": "Colorful Bootstrap 4 admin with dashboard charts, icons, map, notifications, user profile, tables, typography and upgrade page.",
+    "repo": "creativetimofficial/now-ui-dashboard-react",
+    "sha": "882f872ad8745333cfa721798c48edd9cd834150",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "reactstrap",
+      "chartjs",
+      "react-router"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/now-ui-dashboard-react/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "now-ui-dashboard-react.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "light-bootstrap-dashboard-react",
+    "title": "Light Bootstrap Dashboard React",
+    "description": "React Bootstrap admin with dashboard charts, user profile, tables, typography, icons, map and notifications.",
+    "repo": "creativetimofficial/light-bootstrap-dashboard-react",
+    "sha": "bf02acc5b3be7abff1bbe52fcfbbb516364780c5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "react-bootstrap",
+      "chartist",
+      "react-router"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/light-bootstrap-dashboard-react/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "light-bootstrap-dashboard-react.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "notus-react",
+    "title": "Notus React",
+    "description": "Tailwind CSS UI kit and admin: dashboard, settings, tables, map, login/register, landing and profile pages.",
+    "repo": "creativetimofficial/notus-react",
+    "sha": "e5a3728ab2fdf93677ba717f00bbb8413bfafb39",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "tailwind",
+      "chartjs",
+      "landing-page"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-react/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "notus-react.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "windmill-dashboard-react",
+    "title": "Windmill Dashboard React",
+    "description": "Accessible Tailwind admin with dark mode: dashboard, forms, cards, charts, buttons, modals, tables and auth pages.",
+    "repo": "estevanmaito/windmill-dashboard-react",
+    "sha": "da542836f945d08639fc34a3b6f91315965dc030",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Estevan Maito",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "windmill-ui",
+      "dark-mode",
+      "accessibility"
+    ],
+    "demoUrl": "https://windmillui.com/dashboard-react",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npm run build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "windmill-dashboard-react.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "volt-react-dashboard",
+    "title": "Volt React Dashboard",
+    "description": "Bootstrap 5 admin: overview, transactions, settings, tables, auth/lock/error pages, 20 component pages and docs.",
+    "repo": "themesberg/volt-react-dashboard",
+    "sha": "419e51539b8a7a3878fa186b6912eafaf48d2d60",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Themesberg",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "bootstrap-5",
+      "chartist",
+      "hash-router"
+    ],
+    "demoUrl": "https://demo.themesberg.com/volt-react-dashboard",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "volt-react-dashboard.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "dashwind",
+    "title": "DashWind",
+    "description": "daisyUI + Redux admin: dashboard, leads, transactions, calendar, team/billing/profile settings, charts, integrations and docs.",
+    "repo": "robbins23/daisyui-admin-dashboard-template",
+    "sha": "0d119454b92b3a5210970b2c0b7d3d8e22e3e71a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "robbins23",
+    "framework": "react",
+    "ui": "daisyui",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "daisyui",
+      "redux-toolkit",
+      "themes"
+    ],
+    "demoUrl": "https://tailwind-dashboard-template-dashwind.vercel.app/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "dashwind.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "material-dashboard-react",
+    "repo": "creativetimofficial/material-dashboard-react",
+    "sha": "a4db3e60d3b9e152c1db4aaa93b311aa164ad68b",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "soft-ui-dashboard-react",
+    "repo": "creativetimofficial/soft-ui-dashboard-react",
+    "sha": "e282bac09a784b2bab0371e18fd5fd024e798d9e",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "muse-ant-design-dashboard",
+    "repo": "creativetimofficial/muse-ant-design-dashboard",
+    "sha": "398402ba8e1f736b9203db6ddef03839c64d53ac",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "purity-ui-dashboard",
+    "repo": "creativetimofficial/purity-ui-dashboard",
+    "sha": "0cdbec0b17661abd280d3e38fafee8b8a3d81d97",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "vision-ui-dashboard-react",
+    "repo": "creativetimofficial/vision-ui-dashboard-react",
+    "sha": "78762699ec3de2882dda9ee9ea3bec164fc94f88",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "vision-ui-dashboard-chakra",
+    "repo": "creativetimofficial/vision-ui-dashboard-chakra",
+    "sha": "1a8f8ae5f5aef2b150102a50e0afdec0bdb23526",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "argon-dashboard-chakra",
+    "repo": "creativetimofficial/argon-dashboard-chakra",
+    "sha": "d35ca6133a64803ebf4bd0591acbbf83f62f3ea7",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "horizon-tailwind-react",
+    "repo": "horizon-ui/horizon-tailwind-react",
+    "sha": "8f17779f2b45419112f32541bb555817dabc5b7c",
+    "exclude": "README licence section points to the Simmmple 'Horizon UI License' page (simmmple.com/licenses) instead of MIT; the page is offline and its terms can't be verified"
+  },
+  {
+    "slug": "horizon-ui-chakra",
+    "repo": "horizon-ui/horizon-ui-chakra",
+    "sha": "27a99f9fb391e9da126e91cf109b3afd953fb58b",
+    "exclude": "README licence section points to the Simmmple 'Horizon UI License' page (simmmple.com/licenses) instead of MIT; the page is offline and its terms can't be verified"
+  },
+  {
+    "slug": "horizon-ui-chakra-ts",
+    "repo": "horizon-ui/horizon-ui-chakra-ts",
+    "sha": "6ff149916977f7c2341b191d56c8242bb2a0d631",
+    "exclude": "README licence section points to the Simmmple 'Horizon UI License' page (simmmple.com/licenses) instead of MIT; the page is offline and its terms can't be verified (also a TypeScript duplicate of horizon-ui-chakra)"
+  },
+  {
+    "slug": "hope-ui-react",
+    "title": "Hope UI React",
+    "description": "Bootstrap 5 admin: dashboard in five layouts, users, widgets, maps, forms, tables, icons, kanban, pricing, timeline, calendar and auth.",
+    "repo": "iqonicdesignofficial/hope-ui-react-dashboard",
+    "sha": "cf55f656fb23308637cadf70559e148a97a49888",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Iqonic Design",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "react-bootstrap",
+      "apexcharts",
+      "redux",
+      "rtl"
+    ],
+    "demoUrl": "https://templates.iqonic.design/hope-ui/react/build/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "hope-ui-react.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "uko-react-lite",
+    "title": "Uko React Lite",
+    "description": "MUI 5 SaaS dashboard in TypeScript with user list, user grid, add-user form, user profile, login/register and 404 pages.",
+    "repo": "uilibrary/uko-react",
+    "sha": "cf7c6352b3983c4e110d34320cf02cbdeb88d246",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "UI Lib",
+    "framework": "react",
+    "ui": "mui",
+    "category": "SaaS",
+    "tags": [
+      "create-react-app",
+      "typescript",
+      "material-ui",
+      "apexcharts"
+    ],
+    "demoUrl": "https://uko-react-free.netlify.app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "uko-react-lite.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false",
+        "TSC_COMPILE_ON_ERROR": "true"
+      }
+    }
+  },
+  {
+    "slug": "react-antd-admin-template",
+    "title": "React Antd Admin Template",
+    "description": "Ant Design 3 admin (Chinese UI): dashboard, permissions, rich text and markdown editors, drag lists, charts, tables, Excel and zip export.",
+    "repo": "NLRX-WJC/react-antd-admin-template",
+    "sha": "2bf6517630daa7d68aeb7a71b4c86f99f48160ac",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "NLRX-WJC",
+    "framework": "react",
+    "ui": "antd",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "ant-design",
+      "redux",
+      "echarts",
+      "mockjs"
+    ],
+    "demoUrl": "https://nlrx-wjc.github.io/react-antd-admin-template/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npm run build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "react-antd-admin-template.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  },
+  {
+    "slug": "lightence-antd",
+    "title": "Lightence Ant Design React",
+    "description": "Ant Design 4 admin in TypeScript: NFT and medical dashboards, feed, forms, data tables, charts, four map libraries, profile and auth.",
+    "repo": "altence/lightence-ant-design-react-template",
+    "sha": "e4b9416fd2e58298428a8caad13e181fbfabbddd",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Altence",
+    "framework": "react",
+    "ui": "antd",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "typescript",
+      "ant-design",
+      "echarts",
+      "styled-components"
+    ],
+    "demoUrl": "https://altence.com/lightence-landing",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "yarn install",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH yarn build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "lightence-antd.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false",
+        "YARN_ENABLE_SCRIPTS": "false",
+        "YARN_ENABLE_IMMUTABLE_INSTALLS": "false",
+        "YARN_ENABLE_TELEMETRY": "0",
+        "YARN_ENABLE_PROGRESS_BARS": "false",
+        "DISABLE_ESLINT_PLUGIN": "true"
+      }
+    }
+  },
+  {
+    "slug": "react-saas-template",
+    "title": "React SaaS Template",
+    "description": "MUI SaaS starter: landing page with blog and pricing, plus a logged-in area with dashboard charts, posts, subscription and settings.",
+    "repo": "dunky11/react-saas-template",
+    "sha": "3fff0ba1ebd1a05b75a6484eea92fdad93b06e6d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tim von K\u00e4nel",
+    "framework": "react",
+    "ui": "mui",
+    "category": "SaaS",
+    "tags": [
+      "create-react-app",
+      "material-ui",
+      "recharts",
+      "landing-page"
+    ],
+    "demoUrl": "https://reactsaastemplate.com",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "PUBLIC_URL=$DEMO_BASE_NOSLASH npx react-scripts build",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "react-saas-template.mjs",
+      "env": {
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false",
+        "SKIP_PREFLIGHT_CHECK": "true"
+      }
+    }
+  },
+  {
+    "slug": "ecommerce-dashboard-trananhtuat",
+    "repo": "trananhtuat/ecommerce-dashboard",
+    "sha": "81e0efb75be26d65037e36e42739f32512dde860",
+    "exclude": "Quality 2: two-page YouTube tutorial project, not a complete dashboard"
+  }
+]

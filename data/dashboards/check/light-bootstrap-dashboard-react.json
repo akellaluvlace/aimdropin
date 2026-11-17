@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T17:38:28.307Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Light Bootstrap Dashboard - React"
+    },
+    {
+      "path": "admin/upgrade",
+      "title": "Admin / Upgrade"
+    },
+    {
+      "path": "admin/dashboard",
+      "title": "Admin / Dashboard"
+    },
+    {
+      "path": "admin/user",
+      "title": "Admin / User"
+    },
+    {
+      "path": "admin/table",
+      "title": "Admin / Table"
+    },
+    {
+      "path": "admin/typography",
+      "title": "Admin / Typography"
+    },
+    {
+      "path": "admin/icons",
+      "title": "Admin / Icons"
+    },
+    {
+      "path": "admin/maps",
+      "title": "Admin / Maps"
+    },
+    {
+      "path": "admin/notifications",
+      "title": "Admin / Notifications"
+    }
+  ]
+}

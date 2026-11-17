@@ -1,0 +1,316 @@
+{
+  "checkedAt": "2026-11-10T18:42:32.381Z",
+  "pagesChecked": 76,
+  "pagesOk": 72,
+  "failures": [
+    {
+      "path": "application-email.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB /demos/mazer/assets/static/images/faces/19.jpg"
+    },
+    {
+      "path": "component-card.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read the 'caches' property from 'Window': Cache storage is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag. · script error: writeEmbed is not defined"
+    },
+    {
+      "path": "form-editor-tinymce.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read a named property 'document' from 'Window': Sandbox access violation: Blocked a frame at \"http://localhost:3000\" from accessing a frame at \"null\".  Both frames ar"
+    },
+    {
+      "path": "ui-map-google-map.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read a named property 'addEventListener' from 'Window': Sandbox access violation: Blocked a frame at \"https://www.google.com\" from accessing a frame at \"null\".  Both "
+    }
+  ],
+  "deadLinks": [
+    "form-editor-ckeditor.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard - Mazer Admin Dashboard"
+    },
+    {
+      "path": "account-profile.html",
+      "title": "Account Profile - Mazer Admin Dashboard"
+    },
+    {
+      "path": "account-security.html",
+      "title": "Account Security - Mazer Admin Dashboard"
+    },
+    {
+      "path": "application-chat.html",
+      "title": "Chat Application - Mazer Admin Dashboard"
+    },
+    {
+      "path": "application-checkout.html",
+      "title": "Checkout Page - Mazer Admin Dashboard"
+    },
+    {
+      "path": "application-gallery.html",
+      "title": "Photo Gallery - Mazer Admin Dashboard"
+    },
+    {
+      "path": "assets/extensions/rater-js/example/index.html",
+      "title": "Rater Js Example"
+    },
+    {
+      "path": "assets/extensions/toastify-js/index.html",
+      "title": "Toastify JS - Pure JavaScript Toast Notificaton Library"
+    },
+    {
+      "path": "auth-forgot-password.html",
+      "title": "Forgot Password - Mazer Admin Dashboard"
+    },
+    {
+      "path": "auth-login.html",
+      "title": "Login - Mazer Admin Dashboard"
+    },
+    {
+      "path": "auth-register.html",
+      "title": "Register - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-accordion.html",
+      "title": "Accordion - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-alert.html",
+      "title": "Alert - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-badge.html",
+      "title": "Badge - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-breadcrumb.html",
+      "title": "Breadcrumb - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-button.html",
+      "title": "Button - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-carousel.html",
+      "title": "Carousel - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-collapse.html",
+      "title": "Collapse - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-dropdown.html",
+      "title": "Dropdown - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-list-group.html",
+      "title": "List Group - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-modal.html",
+      "title": "Modal - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-navs.html",
+      "title": "Navs - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-pagination.html",
+      "title": "Pagination - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-placeholder.html",
+      "title": "Placeholder - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-progress.html",
+      "title": "Progress - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-spinner.html",
+      "title": "Spinner - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-toasts.html",
+      "title": "Toast - Mazer Admin Dashboard"
+    },
+    {
+      "path": "component-tooltip.html",
+      "title": "Tooltip - Mazer Admin Dashboard"
+    },
+    {
+      "path": "error-403.html",
+      "title": "403 - Mazer Admin Dashboard"
+    },
+    {
+      "path": "error-404.html",
+      "title": "404 - Mazer Admin Dashboard"
+    },
+    {
+      "path": "error-500.html",
+      "title": "500 - Mazer Admin Dashboard"
+    },
+    {
+      "path": "extra-component-avatar.html",
+      "title": "Avatar - Mazer Admin Dashboard"
+    },
+    {
+      "path": "extra-component-comment.html",
+      "title": "Comment - Mazer Admin Dashboard"
+    },
+    {
+      "path": "extra-component-date-picker.html",
+      "title": "Date Picker - Mazer Admin Dashboard"
+    },
+    {
+      "path": "extra-component-divider.html",
+      "title": "Divider - Mazer Admin Dashboard"
+    },
+    {
+      "path": "extra-component-flag.html",
+      "title": "Flag - Mazer Admin Dashboard"
+    },
+    {
+      "path": "extra-component-glightbox.html",
+      "title": "GLightbox - Mazer Admin Dashboard"
+    },
+    {
+      "path": "extra-component-rating.html",
+      "title": "Rating - Mazer Admin Dashboard"
+    },
+    {
+      "path": "extra-component-sweetalert.html",
+      "title": "Sweet Alert - Mazer Admin Dashboard"
+    },
+    {
+      "path": "extra-component-toastify.html",
+      "title": "Toastify - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-editor-quill.html",
+      "title": "Form Editor - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-editor-summernote.html",
+      "title": "Summernote - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-element-checkbox.html",
+      "title": "Checkbox - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-element-input-group.html",
+      "title": "Input Group - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-element-input.html",
+      "title": "Input - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-element-radio.html",
+      "title": "Radio - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-element-select.html",
+      "title": "Select - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-element-textarea.html",
+      "title": "Textarea - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-layout.html",
+      "title": "Form Layout - Mazer Admin Dashboard"
+    },
+    {
+      "path": "form-validation-parsley.html",
+      "title": "Form Validation - Mazer Admin Dashboard"
+    },
+    {
+      "path": "layout-default.html",
+      "title": "Layout Default - Mazer Admin Dashboard"
+    },
+    {
+      "path": "layout-horizontal.html",
+      "title": "Layout Horizontal - Mazer Admin Dashboard"
+    },
+    {
+      "path": "layout-rtl-backup.html",
+      "title": "RTL Layout - Mazer Admin Dashboard"
+    },
+    {
+      "path": "layout-rtl.html",
+      "title": "RTL Dashboard - Mazer Admin Dashboard"
+    },
+    {
+      "path": "layout-vertical-1-column.html",
+      "title": "Layout Vertical 1 Column - Mazer"
+    },
+    {
+      "path": "layout-vertical-navbar.html",
+      "title": "Vertical Navbar - Mazer Admin Dashboard"
+    },
+    {
+      "path": "table-datatable-jquery.html",
+      "title": "Table Datatable jQuery - Mazer Admin Dashboard"
+    },
+    {
+      "path": "table-datatable.html",
+      "title": "DataTable - Mazer Admin Dashboard"
+    },
+    {
+      "path": "table.html",
+      "title": "Table - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-chart-apexcharts.html",
+      "title": "Apexcharts - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-chart-chartjs.html",
+      "title": "ChartJS - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-file-uploader.html",
+      "title": "File Uploader - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-icons-bootstrap-icons.html",
+      "title": "Bootstrap Icons - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-icons-dripicons.html",
+      "title": "Dripicons - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-icons-fontawesome.html",
+      "title": "Fontawesome - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-map-jsvectormap.html",
+      "title": "JS Vector Map - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-map-leaflet.html",
+      "title": "Leaflet Map - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-map-openlayers.html",
+      "title": "OpenLayers Map - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-multi-level-menu.html",
+      "title": "Multi-level Menu - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-widgets-chatbox.html",
+      "title": "Chatbox - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-widgets-pricing.html",
+      "title": "Pricing - Mazer Admin Dashboard"
+    },
+    {
+      "path": "ui-widgets-todolist.html",
+      "title": "Todo List - Mazer Admin Dashboard"
+    }
+  ]
+}

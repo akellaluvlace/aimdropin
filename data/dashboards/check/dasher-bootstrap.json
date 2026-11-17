@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-10T17:47:00.021Z",
+  "pagesChecked": 10,
+  "pagesOk": 10,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Ecommerce | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "assets/libs/@tabler/icons-webfont/tabler-icons.html",
+      "title": "Tabler Icons - version 2.47.0"
+    },
+    {
+      "path": "pages/authentication/forget-password.html",
+      "title": "Forget Password | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "pages/authentication/otp-varification.html",
+      "title": "Otp varification | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "pages/authentication/reset-password.html",
+      "title": "Otp varification | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "pages/authentication/sign-in.html",
+      "title": "Sign In | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "pages/authentication/sign-up.html",
+      "title": "Sign Up | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "pages/blank.html",
+      "title": "Blank | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "pages/error/404-error.html",
+      "title": "404 error | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "pages/error/maintenance.html",
+      "title": "Maintenance | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+    }
+  ]
+}

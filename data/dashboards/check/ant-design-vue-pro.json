@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-10T18:58:12.850Z",
+  "pagesChecked": 4,
+  "pagesOk": 4,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Workplace - Ant Design Pro"
+    },
+    {
+      "path": "dashboard/analysis",
+      "title": "Analysis - Ant Design Pro"
+    },
+    {
+      "path": "dashboard/workplace",
+      "title": "Dashboard / Workplace"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+/* Sum: a concept shop for one watch. Everything is scoped to .root, and this file,
+   the folder it is in and /assets/gsap/sum are all the demo needs: it can be lifted out whole.
+
+   The page is one pinned stage (.stage). Its height is written in px by the director and does not change
+   when a phone's toolbar moves; what stands on it is measured against it (container units), so nothing on
+   it moves then either. The scroller is an element, never the document.
+
+   Words and picture never share room. On a wide stage the words keep a column on the left and the watch
+   the right. On a tall one (a phone) the picture is the top of the stage and the words stand under it
+   (--sheet is the height they have). So nothing has to be read over a strap or a movement.
+
+   Colours are the watch's own: rhodium white, blued steel, a ruby, brass. One typeface, Archivo, used
+   across its widths: wide for headings, narrow for figures. */
+
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+  src: url('/assets/gsap/sum/fonts/archivo-latin.woff2') format('woff2');
+}
+
+.root {
+  --paper: #e8ebee;
+  --paper-lit: #f4f6f8;
+  --ink: #0e1226;
+  --steel: #5d6475;
+  --blue: #1d2f8f;
+  --ruby: #cf1f49;
+  --brass: #b3975a;
+  --rule: rgb(14 18 38 / .16);
+  --font: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  /* One stage is one screen of the scroller; the director writes it in px. */
+  --stage: 100cqh;
+  --gutter: clamp(16px, 2.6cqw, 44px);
+  --edge: calc(var(--gutter) * 1.5);
+  /* The words' column on a wide stage. */
+  --col: 44cqw;
+  --sheet: 0px;
+  --display: clamp(34px, min(6.3cqw, 11.4cqh), 150px);
+  /* What stands bare on the stage (the wordmark, the rail): ink, and white over the photographs. */
+  --chrome: var(--ink);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  container-type: size;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.45;
+  font-stretch: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* A phone: the picture above, the words below it. */
+.root[data-shape=tall] { --edge: var(--gutter); --sheet: clamp(292px, 36cqh, 460px); --display: clamp(30px, min(10.6cqw, 6cqh), 76px); }
+.root *, .root *::before, .root *::after { box-sizing: border-box; }
+.root :where(h1, h2, h3, p, ol, ul, dl, dd, figure) { margin: 0; padding: 0; }
+.root :where(ol, ul) { list-style: none; }
+.root :where(button) { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.root :where(a) { color: inherit; text-decoration: none; }
+.root :where(a, button):focus-visible { outline: 2px solid var(--ruby); outline-offset: 4px; }
+.root :where(i) { font-style: normal; }
+.root :where(b) { font-weight: inherit; }
+.srOnly { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.scroller { position: absolute; inset: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; outline: none; }
+.scroller::-webkit-scrollbar { display: none; }
+/* One screen of stage, then a screen of scroll for every screen of the score. */
+.track { height: calc(var(--stage) * (var(--screens) + 1)); }
+/* The stage: pinned for the whole page by native sticky, so nothing is repositioned by script.
+   A soft pool of light where the watch lies, as a studio sweep has. */
+.stage { position: sticky; top: 0; height: var(--stage); overflow: hidden; container-type: size; background: radial-gradient(120% 90% at 66% 46%, var(--paper-lit) 0%, var(--paper) 62%); }
+.root[data-shape=tall] .stage { background: radial-gradient(130% 62% at 50% 27%, var(--paper-lit) 0%, var(--paper) 64%); }
+/* The picture: the whole stage when it is wide, the top of it when it is tall. */
+.watch { position: absolute; left: 0; top: 0; width: 100%; height: calc(100% - var(--sheet)); display: block; z-index: 2; }
+.poster { position: absolute; left: 67%; top: 50%; height: 84cqh; width: auto; transform: translate(-50%, -50%); opacity: 0; visibility: hidden; z-index: 1; }
+.root[data-shape=tall] .poster { left: 50%; top: calc((100% - var(--sheet)) / 2); height: calc(100% - var(--sheet)); }
+.root[data-webgl=false] .poster { opacity: 1; visibility: visible; }
+.root[data-webgl=false] .watch { display: none; }
+
+/* ---------- Type ---------- */
+.display { font-weight: 620; font-stretch: 112%; font-size: var(--display); line-height: .98; letter-spacing: -.028em; }
+/* A heading can come apart and close up with the watch: its width follows --wdth (see timeline.ts). */
+.display[data-stretch] { font-variation-settings: 'wdth' var(--wdth, 112); }
+.body { font-size: clamp(15px, 1.22cqw, 19px); line-height: 1.5; color: var(--steel); max-width: 36ch; }
+.small { font-size: clamp(13px, 1cqw, 15px); line-height: 1.4; color: var(--steel); font-weight: 500; }
+/* A line of type rises through a window. Room under the line, or the tails of g, p and y are cut. */
+.line { display: block; overflow: hidden; overflow: clip; padding: 0 .06em .16em; margin: 0 -.06em -.16em; }
+.line > span { display: block; will-change: transform; }
+.line > span:empty { display: none; }
+
+/* ---------- Words: one block for each moment, all in the same place ---------- */
+.words { position: absolute; z-index: 4; left: var(--edge); top: 31cqh; width: var(--col); pointer-events: none; visibility: hidden; }
+.words > * + * { margin-top: clamp(12px, 1.5cqw, 22px); }
+.now { top: 47cqh; transform: translateY(-50%); }
+.now .line > span { white-space: nowrap; }
+/* Over the line of parts, which has the stage's whole width. */
+.apart { top: max(12.5cqh, 72px); width: min(76cqw, 1100px); }
+.apart .line > span { white-space: nowrap; }
+.whole, .back, .faces { top: 33cqh; }
+.plus { display: flex; align-items: baseline; gap: 14px; font-size: clamp(13px, 1cqw, 15px); color: var(--steel); font-weight: 500; }
+.plus > b { font-stretch: 75%; font-weight: 640; font-size: clamp(26px, 2.6cqw, 40px); line-height: 1; color: var(--ruby); letter-spacing: -.01em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+/* The calibre has two sentences, one for each side: the second takes the first one's place. */
+.copy { position: relative; }
+.copy > [data-turned] { position: absolute; left: 0; top: 0; }
+.faceNames { position: relative; height: calc(var(--display) * 1.1); }
+.faceNames > .display { position: absolute; left: 0; top: 0; }
+.faceNotes { position: relative; height: 3em; }
+.faceNotes > p { position: absolute; left: 0; top: 0; visibility: hidden; }
+
+/* Above the rail: how to go on, at the start; then the sum. */
+.cue, .equation { position: absolute; z-index: 4; left: var(--edge); bottom: calc(var(--gutter) * .7 + 54px); visibility: hidden; }
+.cue { display: flex; align-items: center; gap: 9px; width: fit-content; font-size: 13px; font-weight: 500; color: var(--steel); }
+/* Under a picture the same line follows the words it belongs to, so a long time of day cannot run into it. */
+.cue.cueFlow { position: static; display: none; }
+.root[data-shape=tall] .cue:not(.cueFlow) { display: none; }
+.root[data-shape=tall] .cue.cueFlow { display: flex; }
+/* On the narrowest phones it stands beside the step buttons, and says only what it must. */
+@container (max-width: 359px) { .root[data-shape=tall] .cue > span:last-child { display: none; } }
+.cue > i { display: grid; place-items: center; width: 22px; height: 22px; border: 1px solid var(--rule); border-radius: 50%; animation: sum-nod 2.2s cubic-bezier(.5, 0, .2, 1) infinite; }
+.cue svg { width: 9px; height: 9px; fill: none; stroke: currentColor; stroke-width: 1.3; }
+.cueMouse { display: none; }
+@media (hover: hover) and (pointer: fine) { .cueMouse { display: inline; } .cueTouch { display: none; } }
+@keyframes sum-nod { 0%, 100% { transform: translateY(-2px); } 50% { transform: translateY(3px); } }
+/* The sum: a term for each part, in the order the tour meets them. A term is lit once its part has been
+   counted, the newest in red, and the total keeps up. */
+.equation { display: flex; align-items: baseline; gap: .42em; font-stretch: 68%; font-weight: 560; font-size: clamp(15px, 1.45cqw, 22px); line-height: 1; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.equation > span { opacity: .26; transition: opacity .3s, color .3s; }
+.equation > span[data-on] { opacity: 1; }
+.equation > span[data-now] { color: var(--ruby); }
+.equation > i { opacity: .38; font-weight: 400; }
+.equation > b { font-size: 1.8em; font-weight: 680; letter-spacing: -.01em; margin-left: .08em; }
+
+/* Names under the parts while they are all in view: in a row under a line of parts, in a column beside a stack. */
+.labels { position: absolute; left: 0; top: 0; width: 100%; height: calc(100% - var(--sheet)); z-index: 3; pointer-events: none; }
+.label { position: absolute; left: 0; top: 0; display: flex; flex-direction: column; align-items: center; gap: 7px; font-size: 12px; font-weight: 560; line-height: 1; color: var(--ink); white-space: nowrap; visibility: hidden; will-change: transform; }
+.label > i { display: block; width: 1px; height: 14px; background: var(--ruby); }
+.root[data-shape=tall] .label { flex-direction: row; font-size: 11px; }
+.root[data-shape=tall] .label > i { width: 12px; height: 1px; }
+
+/* ---------- Yours ---------- */
+.buy { top: 47cqh; transform: translateY(-50%); pointer-events: auto; }
+.buy > * + * { margin-top: clamp(12px, 1.4cqw, 20px); }
+.buyHead > * + * { margin-top: clamp(10px, 1.2cqw, 16px); }
+.price { display: flex; align-items: baseline; gap: 14px; color: var(--steel); font-size: 14px; }
+.price > b { font-stretch: 78%; font-weight: 640; font-size: clamp(28px, 3cqw, 46px); line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; }
+.pick { display: flex; gap: 8px; flex-wrap: wrap; }
+.pick > button { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 14px 0 10px; border: 1px solid var(--rule); border-radius: 999px; font-size: 14px; font-weight: 500; transition: border-color .2s, background-color .2s; }
+.pick > button[aria-pressed=true] { border-color: var(--ink); background: #fff; }
+.pick i { display: block; width: 18px; height: 18px; border-radius: 50%; border: 1px solid rgb(14 18 38 / .25); background: #dfe2e6; }
+.pick i[data-swatch=dial-salmon] { background: #e2a68c; }
+.pick i[data-swatch=dial-ink] { background: #14161f; }
+.specs { max-width: 470px; border-top: 1px solid var(--rule); font-size: 14px; }
+.specs > div { display: flex; justify-content: space-between; gap: 16px; padding: 7px 0; border-bottom: 1px solid var(--rule); }
+.specs dt { color: var(--steel); }
+.specs dd { text-align: right; font-weight: 500; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.primary, .ghost { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 24px; border-radius: 999px; font-size: 15px; font-weight: 600; white-space: nowrap; transition: background-color .2s, color .2s, border-color .2s, transform .2s; }
+.root .primary { background: var(--ink); color: #fff; }
+.root .ghost { border: 1px solid var(--rule); }
+.root .primary:active { transform: scale(.97); }
+@media (hover: hover) {
+  .root .primary:hover { background: var(--blue); }
+  .root .ghost:hover { border-color: var(--ink); }
+  .pick > button:hover { border-color: var(--ink); }
+}
+
+/* ---------- Worn: photographs that arrive in slices, over the whole stage ---------- */
+.photos { position: absolute; inset: 0; z-index: 6; pointer-events: none; visibility: hidden; }
+.photo { position: absolute; inset: 0; container-type: size; }
+.strip { position: absolute; top: 0; height: 100%; left: calc(100% * var(--i) / var(--n)); width: calc(100% / var(--n) + .6px); overflow: hidden; will-change: transform; }
+.strip img { display: block; width: 100cqw; height: 100cqh; max-width: none; object-fit: cover; margin-left: calc(-100cqw * var(--i) / var(--n)); }
+/* Each slice brings its own dusk at the top and the bottom, for what is written over it. */
+.strip::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgb(8 10 20 / .36) 0%, rgb(8 10 20 / 0) 20%, rgb(8 10 20 / 0) 50%, rgb(8 10 20 / .66) 100%); }
+.caption { position: absolute; z-index: 2; left: var(--edge); bottom: calc(var(--gutter) * .7 + 58px); width: min(84cqw, 980px); display: grid; gap: 10px; color: #fff; visibility: hidden; }
+.caption .body { color: rgb(255 255 255 / .88); }
+
+/* ---------- Chrome: wordmark, tools, rail, step buttons ---------- */
+.bar { position: absolute; inset: 0 0 auto; z-index: 30; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: calc(var(--gutter) * .8) var(--edge); pointer-events: none; }
+.bar > * { pointer-events: auto; }
+.wordmark { color: var(--chrome); font-weight: 720; font-stretch: 122%; font-size: 24px; line-height: 1; letter-spacing: -.03em; }
+/* The bag and the way out, on a surface of their own: they read over steel, leather and photographs alike. */
+.tools { display: flex; align-items: center; gap: 16px; padding: 6px 7px 6px 16px; border-radius: 999px; background: rgb(255 255 255 / .92); box-shadow: 0 0 0 1px rgb(14 18 38 / .07), 0 6px 18px -12px rgb(14 18 38 / .5); color: var(--ink); font-size: 13px; font-weight: 500; }
+.concept { color: var(--steel); }
+.bagButton { display: inline-flex; align-items: center; gap: 7px; min-height: 28px; }
+.bagButton > b { display: grid; place-items: center; min-width: 22px; height: 22px; padding: 0 6px; border-radius: 999px; background: var(--paper); font-size: 12px; font-weight: 640; font-variant-numeric: tabular-nums; }
+.bagButton > b[data-full] { background: var(--ruby); color: #fff; }
+.exit { display: inline-flex; align-items: center; gap: 9px; }
+.exit > i { display: block; width: 28px; height: 28px; border-radius: 50%; background: var(--ink); color: #fff; position: relative; transition: transform .35s cubic-bezier(.2, .8, .2, 1); }
+.exit > i::before, .exit > i::after, .bagHead i::before, .bagHead i::after { content: ''; position: absolute; left: 50%; top: 50%; width: 10px; height: 1px; background: currentColor; }
+.exit > i::before, .bagHead i::before { transform: translate(-50%, -50%) rotate(45deg); }
+.exit > i::after, .bagHead i::after { transform: translate(-50%, -50%) rotate(-45deg); }
+@media (hover: hover) { .exit:hover > i { transform: rotate(90deg); } }
+
+/* The chapters, under the words. */
+.rail { position: absolute; left: var(--edge); bottom: calc(var(--gutter) * .7); width: var(--col); z-index: 30; display: flex; gap: 8px; pointer-events: none; color: var(--chrome); font-size: 12px; font-weight: 500; }
+.railItem { flex: 1; min-width: 0; pointer-events: auto; text-align: left; padding: 12px 0 0; opacity: .5; transition: opacity .3s; }
+.railItem[aria-current=true] { opacity: 1; }
+@media (hover: hover) { .railItem:hover { opacity: 1; } }
+.railItem > i { display: block; height: 1px; background: rgb(128 132 146 / .5); margin-bottom: 8px; position: relative; overflow: hidden; }
+.railItem > i > b { position: absolute; inset: 0; background: currentColor; transform: scaleX(var(--fill, 0)); transform-origin: 0 50%; }
+.railItem > span { display: block; line-height: 1.2; }
+
+/* The step buttons stand on discs of their own, the opposite of the chrome colour, so they read on a
+   pale stage and on a photograph alike. */
+.pager { --pager: 30px; position: absolute; right: var(--edge); bottom: calc(var(--gutter) * .7 - 3px); z-index: 31; display: flex; gap: 8px; color: var(--chrome); -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+.pager > button { position: relative; isolation: isolate; display: grid; place-items: center; width: var(--pager); height: var(--pager); border: 1px solid rgb(128 132 146 / .6); border-radius: 50%; touch-action: none; -webkit-tap-highlight-color: transparent; transition: border-color .25s, opacity .25s, transform .25s cubic-bezier(.2, .8, .2, 1); }
+.pager > button::before { content: ''; position: absolute; inset: 0; z-index: -1; border-radius: 50%; background: currentColor; filter: invert(1); opacity: .82; transition: opacity .25s; }
+.pager svg { width: 11px; height: 11px; fill: none; stroke: currentColor; stroke-width: 1.2; }
+.pager > button[data-down] { border-color: currentColor; transform: scale(.94); }
+.pager > button[data-down]::before { opacity: .96; }
+.pager[data-end=top] > button[data-step='-1'], .pager[data-end=bottom] > button[data-step='1'] { opacity: .32; }
+@media (hover: hover) and (pointer: fine) { .pager > button:hover { border-color: currentColor; } }
+@media (pointer: coarse) {
+  .pager { --pager: 42px; gap: 10px; bottom: calc(var(--gutter) * .7 - 6px); }
+  .pager svg { width: 13px; height: 13px; }
+}
+
+/* ---------- The bag ---------- */
+.bag { position: absolute; z-index: 40; top: 0; right: 0; bottom: 0; width: min(420px, 100%); display: flex; flex-direction: column; gap: 18px; padding: calc(var(--gutter) * .8) max(var(--gutter), 20px) var(--gutter); background: #fff; color: var(--ink); box-shadow: -30px 0 60px -40px rgb(14 18 38 / .5); transform: translateX(104%); visibility: hidden; transition: transform .5s cubic-bezier(.2, .8, .2, 1), visibility 0s .5s; overflow-y: auto; overscroll-behavior: contain; }
+.root[data-bag=open] .bag { transform: none; visibility: visible; transition: transform .5s cubic-bezier(.2, .8, .2, 1); }
+.bagHead { display: flex; align-items: center; justify-content: space-between; }
+.bagHead h2 { font-size: 22px; font-weight: 640; font-stretch: 110%; letter-spacing: -.02em; }
+.bagHead button { width: 40px; height: 40px; border: 1px solid var(--rule); border-radius: 50%; position: relative; }
+.bagHead i { position: absolute; inset: 0; }
+.bagEmpty { color: var(--steel); }
+.bagEmpty[hidden] { display: none; }
+.bagItem { display: grid; grid-template-columns: 64px 1fr auto; align-items: center; gap: 14px; padding: 12px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.bagItem[hidden] { display: none; }
+.bagItem img { width: 64px; height: 64px; object-fit: contain; background: var(--paper); border-radius: 10px; }
+.bagItem p { display: grid; }
+.bagItem p > span { color: var(--steel); font-size: 14px; }
+.bagItem b { font-weight: 600; }
+.bagNote { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 14px 16px; background: var(--paper); border-radius: 12px; }
+.bagActions { display: grid; gap: 10px; }
+.bagFoot { margin-top: auto; font-size: 12px; color: var(--steel); }
+
+/* ---------- Entrance: the parts are counted in, then the veil lifts ---------- */
+.veil { position: absolute; inset: 0; z-index: 50; display: grid; place-items: center; background: var(--paper); color: var(--ink); }
+.loading { display: grid; justify-items: center; gap: 4px; }
+.loading > b { font-stretch: 66%; font-weight: 680; font-size: clamp(96px, 22cqw, 220px); line-height: .9; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.loading > span { font-size: 14px; font-weight: 500; color: var(--steel); }
+.loading > i { display: block; width: min(220px, 44cqw); height: 1px; margin-top: 18px; background: var(--ink); transform: scaleX(var(--fill, 0)); transform-origin: 0 50%; }
+.loadingFoot { position: absolute; left: var(--edge); right: var(--edge); bottom: var(--gutter); display: flex; justify-content: space-between; font-size: 13px; font-weight: 500; }
+.loadingFoot > span:first-child { font-weight: 720; font-stretch: 122%; letter-spacing: -.03em; font-size: 18px; }
+
+/* ---------- Tall stages (phones): the words stand under the picture ---------- */
+.root[data-shape=tall] .words { right: var(--edge); top: calc(100% - var(--sheet) + 14px); width: auto; transform: none; }
+.root[data-shape=tall] .words > * + * { margin-top: 10px; }
+.root[data-shape=tall] .display { line-height: .96; }
+.root[data-shape=tall] .body { font-size: clamp(15px, 2.1cqw, 19px); line-height: 1.45; max-width: 40ch; }
+.root[data-shape=tall] .now .small { display: none; }
+.root[data-shape=tall] .apart .line > span { white-space: normal; }
+.root[data-shape=tall] .plus > b { font-size: 24px; }
+.root[data-shape=tall] .equation { bottom: calc(var(--gutter) * .7 + 50px); font-size: clamp(15px, 2.2cqw, 20px); }
+.root[data-shape=tall] .equation > b { font-size: 1.6em; }
+.root[data-shape=tall] .buy > .small, .root[data-shape=tall] .specs { display: none; }
+.root[data-shape=tall] .buyHead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.root[data-shape=tall] .buyHead > * + * { margin-top: 0; }
+.root[data-shape=tall] .price { flex-direction: column; align-items: flex-end; gap: 2px; font-size: 12px; white-space: nowrap; }
+.root[data-shape=tall] .price > b { font-size: 28px; }
+.root[data-shape=tall] .actions > * { flex: 1; padding: 0 14px; }
+.root[data-shape=tall] .caption { bottom: calc(var(--gutter) * .7 + 62px); width: auto; right: var(--edge); }
+.root[data-shape=tall] .concept, .root[data-shape=tall] .railItem > span { display: none; }
+.root[data-shape=tall] .tools { gap: 12px; padding-left: 13px; }
+.root[data-shape=tall] .rail { width: auto; right: calc(var(--edge) + 112px); }
+/* With no names under it the rail is only its line: it takes no more room than that. */
+.root[data-shape=tall] .railItem { padding-top: 10px; }
+.root[data-shape=tall] .railItem > i { margin-bottom: 0; }
+
+/* The last screen has the most on it: on a stage that is not tall it is set closer. */
+@container (max-height: 780px) {
+  .root[data-shape=wide] .buy > .small { display: none; }
+  .root[data-shape=wide] .buy > * + * { margin-top: 12px; }
+  .root[data-shape=wide] .specs { font-size: 13px; }
+  .root[data-shape=wide] .specs > div { padding: 4px 0; }
+}
+/* Low stages (a phone on its side, a short window): less between the lines, so the watch keeps its room. */
+@container (max-height: 640px) {
+  .root[data-shape=wide] .words > * + * { margin-top: 9px; }
+  .root[data-shape=wide] .now .small { display: none; }
+  .root[data-shape=wide] .specs { display: none; }
+  .root[data-shape=wide] .primary, .root[data-shape=wide] .ghost { min-height: 40px; }
+  .root[data-shape=wide] .label > i { display: none; }
+}
+/* Lower still (a phone on its side): the words start higher, and the table of figures is left out. */
+@container (max-height: 500px) {
+  .root[data-shape=wide] .words { top: 23cqh; }
+  .root[data-shape=wide] .now, .root[data-shape=wide] .buy { top: 50cqh; }
+  .root[data-shape=wide] .apart { top: 70px; }
+  .root[data-shape=wide] .apart .body { display: none; }
+  .root[data-shape=wide] .specs { display: none; }
+  .root[data-shape=wide] .cue, .root[data-shape=wide] .equation { bottom: calc(var(--gutter) * .7 + 40px); }
+  .root[data-shape=wide] .railItem > span { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cue > i { animation: none; }
+  .bag { transition: none; }
+}

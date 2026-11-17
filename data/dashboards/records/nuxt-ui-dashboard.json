@@ -1,0 +1,82 @@
+{
+  "record": {
+    "slug": "nuxt-ui-dashboard",
+    "title": "Nuxt UI Dashboard",
+    "description": "Official Nuxt UI dashboard template: home stats and charts, inbox, customers table, notifications and settings pages.",
+    "repo": "nuxt-ui-templates/dashboard",
+    "sha": "5fe43b8cc033a35a79e2c8432c64f70ab7ab1ef9",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/nuxt-ui-templates/dashboard/blob/5fe43b8cc033a35a79e2c8432c64f70ab7ab1ef9/LICENSE"
+    },
+    "author": "Nuxt UI Templates",
+    "framework": "nuxt",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "nuxt",
+      "nuxt-ui",
+      "tailwind",
+      "dark-mode"
+    ],
+    "demoUrl": "https://dashboard-template.nuxt.dev",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Nuxt Dashboard Template"
+      },
+      {
+        "path": "200.html",
+        "title": "200"
+      },
+      {
+        "path": "404.html",
+        "title": "404"
+      },
+      {
+        "path": "customers/index.html",
+        "title": "Nuxt Dashboard Template"
+      },
+      {
+        "path": "inbox/index.html",
+        "title": "Nuxt Dashboard Template"
+      },
+      {
+        "path": "settings/index.html",
+        "title": "Nuxt Dashboard Template"
+      },
+      {
+        "path": "settings/members/index.html",
+        "title": "Nuxt Dashboard Template"
+      },
+      {
+        "path": "settings/notifications/index.html",
+        "title": "Nuxt Dashboard Template"
+      },
+      {
+        "path": "settings/security/index.html",
+        "title": "Nuxt Dashboard Template"
+      }
+    ],
+    "storedBytes": 2404197,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:39.885Z"
+  },
+  "serve": {
+    "slug": "nuxt-ui-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/nuxt-ui-templates/dashboard@5fe43b8cc033a35a79e2c8432c64f70ab7ab1ef9/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "record": {
+    "slug": "dashui-tailwind",
+    "title": "Dash UI Tailwind",
+    "description": "Tailwind CSS port of Dash UI: projects dashboard, profile, settings, billing, pricing, auth and component pages.",
+    "repo": "codescandy/dashui-tailwindcss",
+    "sha": "eab6e57438d4da5f1f4c543dce4ac082609eb51f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.44 (MIT).",
+      "url": "https://github.com/codescandy/dashui-tailwindcss/blob/eab6e57438d4da5f1f4c543dce4ac082609eb51f/LICENSE"
+    },
+    "author": "Codescandy",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "apexcharts",
+      "gulp"
+    ],
+    "demoUrl": "https://dashui.codescandy.com/tailwindcss/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dash UI - TailwindCSS HTML Admin Template Free"
+      },
+      {
+        "path": "404-error.html",
+        "title": "404 Error - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "billing.html",
+        "title": "Billing - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "changelog.html",
+        "title": "Changelog - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/accordions.html",
+        "title": "Accordions - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/alerts.html",
+        "title": "Alerts - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/avatar.html",
+        "title": "Avatar - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/badge.html",
+        "title": "Badge - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/blockquote.html",
+        "title": "Blockquote - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/breadcrumb.html",
+        "title": "Breadcrumb - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/button-group.html",
+        "title": "Button Group - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/buttons.html",
+        "title": "Buttons - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/card.html",
+        "title": "Cards - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/collapse.html",
+        "title": "Collapse - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/dropdown.html",
+        "title": "Dropdown - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/forms.html",
+        "title": "Forms - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/lists.html",
+        "title": "Lists - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/navbar.html",
+        "title": "Navbar - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/navs-tabs.html",
+        "title": "Navs-Tabs - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/offcanvas.html",
+        "title": "Offcanvas - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/pagination.html",
+        "title": "Pagination - Dash UI - TailwindCSS HTML Admin Template Free"
+      },
+      {
+        "path": "components/progress.html",
+        "title": "Progressbar - Dash UI - TailwindCSS HTML Admin Template Free"
+      },
+      {
+        "path": "components/spinners.html",
+        "title": "Spinners - Dash UI - TailwindCSS HTML Admin Template Free"
+      },
+      {
+        "path": "components/tables.html",
+        "title": "Tables - Dash UI - TailwindCSS HTML Admin Template Free"
+      },
+      {
+        "path": "components/toast.html",
+        "title": "Toast - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "components/tooltips.html",
+        "title": "Tooltips - Dash UI - TailwindCSS HTML Admin Template Free"
+      },
+      {
+        "path": "docs.html",
+        "title": "Documentation - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "forget-password.html",
+        "title": "Forget - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "layout.html",
+        "title": "Layouts - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "pricing.html",
+        "title": "Pricing - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "profile.html",
+        "title": "Profile - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "settings.html",
+        "title": "Settings - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "sign-in.html",
+        "title": "Sign In - TailwindCSS HTML Admin Template Free - Dash UI"
+      },
+      {
+        "path": "sign-up.html",
+        "title": "Sign Up - TailwindCSS HTML Admin Template Free - Dash UI"
+      }
+    ],
+    "storedBytes": 11810993,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:32.478Z"
+  },
+  "serve": {
+    "slug": "dashui-tailwind",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/codescandy/dashui-tailwindcss@eab6e57438d4da5f1f4c543dce4ac082609eb51f/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/images/avatar/avatar-1.jpg": "src/assets/images/avatar/avatar-1.jpg",
+      "assets/images/avatar/avatar-10.jpg": "src/assets/images/avatar/avatar-10.jpg",
+      "assets/images/avatar/avatar-11.jpg": "src/assets/images/avatar/avatar-11.jpg",
+      "assets/images/avatar/avatar-12.jpg": "src/assets/images/avatar/avatar-12.jpg",
+      "assets/images/avatar/avatar-13.jpg": "src/assets/images/avatar/avatar-13.jpg",
+      "assets/images/avatar/avatar-14.jpg": "src/assets/images/avatar/avatar-14.jpg",
+      "assets/images/avatar/avatar-15.jpg": "src/assets/images/avatar/avatar-15.jpg",
+      "assets/images/avatar/avatar-16.jpg": "src/assets/images/avatar/avatar-16.jpg",
+      "assets/images/avatar/avatar-17.jpg": "src/assets/images/avatar/avatar-17.jpg",
+      "assets/images/avatar/avatar-18.jpg": "src/assets/images/avatar/avatar-18.jpg",
+      "assets/images/avatar/avatar-19.jpg": "src/assets/images/avatar/avatar-19.jpg",
+      "assets/images/avatar/avatar-2.jpg": "src/assets/images/avatar/avatar-2.jpg",
+      "assets/images/avatar/avatar-20.jpg": "src/assets/images/avatar/avatar-20.jpg",
+      "assets/images/avatar/avatar-21.jpg": "src/assets/images/avatar/avatar-21.jpg",
+      "assets/images/avatar/avatar-3.jpg": "src/assets/images/avatar/avatar-3.jpg",
+      "assets/images/avatar/avatar-4.jpg": "src/assets/images/avatar/avatar-4.jpg",
+      "assets/images/avatar/avatar-5.jpg": "src/assets/images/avatar/avatar-5.jpg",
+      "assets/images/avatar/avatar-6.jpg": "src/assets/images/avatar/avatar-6.jpg",
+      "assets/images/avatar/avatar-7.jpg": "src/assets/images/avatar/avatar-7.jpg",
+      "assets/images/avatar/avatar-8.jpg": "src/assets/images/avatar/avatar-8.jpg",
+      "assets/images/avatar/avatar-9.jpg": "src/assets/images/avatar/avatar-9.jpg",
+      "assets/images/avatar/avatar.jpg": "src/assets/images/avatar/avatar.jpg",
+      "assets/images/background/profile-cover.jpg": "src/assets/images/background/profile-cover.jpg",
+      "assets/images/blog/blog-img-1.jpg": "src/assets/images/blog/blog-img-1.jpg",
+      "assets/images/brand/logo/brand-logo.png": "src/assets/images/brand/logo/brand-logo.png",
+      "assets/images/error/404-error-img.png": "src/assets/images/error/404-error-img.png",
+      "assets/images/favicon.ico": "src/assets/images/favicon.ico",
+      "assets/images/favicon/favicon.ico": "src/assets/images/favicon/favicon.ico",
+      "assets/images/marketing/chrome.png": "src/assets/images/marketing/chrome.png",
+      "assets/images/marketing/edge.png": "src/assets/images/marketing/edge.png",
+      "assets/images/marketing/firefox.png": "src/assets/images/marketing/firefox.png",
+      "assets/images/marketing/hero-img.jpg": "src/assets/images/marketing/hero-img.jpg",
+      "assets/images/marketing/opera.png": "src/assets/images/marketing/opera.png",
+      "assets/images/marketing/safari.png": "src/assets/images/marketing/safari.png",
+      "assets/images/placeholder/4by3.jpg": "src/assets/images/placeholder/4by3.jpg",
+      "assets/images/placeholder/placeholder-img.jpg": "src/assets/images/placeholder/placeholder-img.jpg",
+      "assets/images/slide-img/slider-img-1.jpg": "src/assets/images/slide-img/slider-img-1.jpg",
+      "assets/images/slide-img/slider-img-2.jpg": "src/assets/images/slide-img/slider-img-2.jpg",
+      "assets/images/slide-img/slider-img-3.jpg": "src/assets/images/slide-img/slider-img-3.jpg"
+    }
+  }
+}

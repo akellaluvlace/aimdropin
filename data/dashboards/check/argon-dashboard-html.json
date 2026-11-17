@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-10T17:34:17.289Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "pages/dashboard.html",
+      "title": "Argon Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/billing.html",
+      "title": "Argon Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/profile.html",
+      "title": "Argon Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/rtl.html",
+      "title": "Argon Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/sign-in.html",
+      "title": "Argon Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/sign-up.html",
+      "title": "Argon Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/tables.html",
+      "title": "Argon Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/virtual-reality.html",
+      "title": "Argon Dashboard 3 by Creative Tim"
+    }
+  ]
+}

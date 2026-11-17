@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-10T19:07:30.757Z",
+  "pagesChecked": 12,
+  "pagesOk": 12,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Vue.js eCommerce Dashboard | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "calendar",
+      "title": "Vue.js Calendar | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "profile",
+      "title": "Vue.js Profile | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "forms/form-elements",
+      "title": "Vue.js Form Elements | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "forms/form-layout",
+      "title": "Vue.js Form Layout | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "tables",
+      "title": "Vue.js Tables | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "pages/settings",
+      "title": "Vue.js Settings | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "charts/basic-chart",
+      "title": "Vue.js Basic Chart | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "ui-elements/alerts",
+      "title": "Vue.js Alerts | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "ui-elements/buttons",
+      "title": "Vue.js Buttons | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "auth/signin",
+      "title": "Vue.js Signin | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    },
+    {
+      "path": "auth/signup",
+      "title": "Vue.js Signup | TailAdmin - Vue.js Tailwind CSS Dashboard Template"
+    }
+  ]
+}

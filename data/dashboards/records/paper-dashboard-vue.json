@@ -1,0 +1,57 @@
+{
+  "record": {
+    "slug": "paper-dashboard-vue",
+    "title": "Vue Paper Dashboard",
+    "description": "Bootstrap Vue 2 admin with dashboard stats and charts, user profile, table list, typography, icons, maps and notifications.",
+    "repo": "creativetimofficial/vue-paper-dashboard",
+    "sha": "6858e61b0f523d71e23407b6bc7ac47d0e22367e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/vue-paper-dashboard/blob/6858e61b0f523d71e23407b6bc7ac47d0e22367e/LICENSE.md"
+    },
+    "author": "Cristi Jora & Creative Tim",
+    "framework": "vue",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "bootstrap",
+      "chartist"
+    ],
+    "demoUrl": "https://cristijora.github.io/vue-paper-dashboard/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue Paper Dashboard"
+      }
+    ],
+    "storedBytes": 1089293,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:39.366Z"
+  },
+  "serve": {
+    "slug": "paper-dashboard-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/vue-paper-dashboard@6858e61b0f523d71e23407b6bc7ac47d0e22367e/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.png": "public/favicon.png",
+      "fonts/themify.05048044.eot": "src/assets/fonts/themify.eot",
+      "fonts/themify.58ecddba.woff": "src/assets/fonts/themify.woff",
+      "fonts/themify.6cb5a30a.ttf": "src/assets/fonts/themify.ttf",
+      "img/background.a05172f2.jpg": "src/assets/img/background.jpg",
+      "img/face-0.fcfff758.jpg": "src/assets/img/faces/face-0.jpg",
+      "img/face-1.c61cb989.jpg": "src/assets/img/faces/face-1.jpg",
+      "img/face-2.723e9d87.jpg": "src/assets/img/faces/face-2.jpg"
+    }
+  }
+}

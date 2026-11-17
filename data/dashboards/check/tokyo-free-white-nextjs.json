@@ -1,0 +1,163 @@
+{
+  "checkedAt": "2026-11-10T18:30:09.632Z",
+  "pagesChecked": 37,
+  "pagesOk": 35,
+  "failures": [
+    {
+      "path": "management/profile/index.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB /demos/tokyo-free-white-nextjs/static/images/avatars/6.jpg"
+    },
+    {
+      "path": "management/profile/",
+      "problem": "net::ERR_BLOCKED_BY_ORB /demos/tokyo-free-white-nextjs/static/images/avatars/6.jpg"
+    }
+  ],
+  "deadLinks": [
+    "404/index.html",
+    "status/404/",
+    "management/profile/settings/@/content/Management/Users/settings/ActivityTab",
+    "management/profile/@/content/Management/Users/settings/ActivityTab"
+  ],
+  "pages": [
+    {
+      "path": "dashboards/crypto/index.html",
+      "title": "Crypto Dashboard"
+    },
+    {
+      "path": "applications/messenger/index.html",
+      "title": "Messenger - Applications"
+    },
+    {
+      "path": "components/accordions/index.html",
+      "title": "Accordions - Components"
+    },
+    {
+      "path": "components/avatars/index.html",
+      "title": "Avatars - Components"
+    },
+    {
+      "path": "components/badges/index.html",
+      "title": "Badges - Components"
+    },
+    {
+      "path": "components/buttons/index.html",
+      "title": "Buttons - Components"
+    },
+    {
+      "path": "components/cards/index.html",
+      "title": "Cards - Components"
+    },
+    {
+      "path": "components/forms/index.html",
+      "title": "Forms - Components"
+    },
+    {
+      "path": "components/modals/index.html",
+      "title": "Modals - Components"
+    },
+    {
+      "path": "components/tabs/index.html",
+      "title": "Tabs - Components"
+    },
+    {
+      "path": "components/tooltips/index.html",
+      "title": "Tooltips - Components"
+    },
+    {
+      "path": "index.html",
+      "title": "Tokyo Free White NextJS Typescript Admin Dashboard"
+    },
+    {
+      "path": "management/profile/settings/index.html",
+      "title": "User Settings - Applications"
+    },
+    {
+      "path": "management/transactions/index.html",
+      "title": "Transactions - Applications"
+    },
+    {
+      "path": "status/500/index.html",
+      "title": "Status - 500"
+    },
+    {
+      "path": "status/coming-soon/index.html",
+      "title": "Status - Coming Soon"
+    },
+    {
+      "path": "status/maintenance/index.html",
+      "title": "Status - Maintenance"
+    },
+    {
+      "path": "components/buttons/",
+      "title": "Buttons - Components"
+    },
+    {
+      "path": "components/forms/",
+      "title": "Forms - Components"
+    },
+    {
+      "path": "",
+      "title": "Crypto Dashboard"
+    },
+    {
+      "path": "dashboards/crypto/",
+      "title": "Crypto Dashboard"
+    },
+    {
+      "path": "applications/messenger/",
+      "title": "Messenger - Applications"
+    },
+    {
+      "path": "management/transactions/",
+      "title": "Transactions - Applications"
+    },
+    {
+      "path": "management/profile/settings/",
+      "title": "User Settings - Applications"
+    },
+    {
+      "path": "components/modals/",
+      "title": "Modals - Components"
+    },
+    {
+      "path": "components/accordions/",
+      "title": "Accordions - Components"
+    },
+    {
+      "path": "components/tabs/",
+      "title": "Tabs - Components"
+    },
+    {
+      "path": "components/badges/",
+      "title": "Badges - Components"
+    },
+    {
+      "path": "components/tooltips/",
+      "title": "Tooltips - Components"
+    },
+    {
+      "path": "components/avatars/",
+      "title": "Avatars - Components"
+    },
+    {
+      "path": "components/cards/",
+      "title": "Cards - Components"
+    },
+    {
+      "path": "status/500/",
+      "title": "Status - 500"
+    },
+    {
+      "path": "status/coming-soon/",
+      "title": "Status - Coming Soon"
+    },
+    {
+      "path": "status/maintenance/",
+      "title": "Status - Maintenance"
+    },
+    {
+      "path": "components/buttons",
+      "title": "Buttons - Components"
+    }
+  ]
+}

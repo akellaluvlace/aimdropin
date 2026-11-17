@@ -1,0 +1,49 @@
+{
+  "record": {
+    "slug": "hope-ui-react",
+    "title": "Hope UI React",
+    "description": "Bootstrap 5 admin: dashboard in five layouts, users, widgets, maps, forms, tables, icons, kanban, pricing, timeline, calendar and auth.",
+    "repo": "iqonicdesignofficial/hope-ui-react-dashboard",
+    "sha": "cf55f656fb23308637cadf70559e148a97a49888",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/iqonicdesignofficial/hope-ui-react-dashboard/blob/cf55f656fb23308637cadf70559e148a97a49888/LICENSE"
+    },
+    "author": "Iqonic Design",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "react-bootstrap",
+      "apexcharts",
+      "redux",
+      "rtl"
+    ],
+    "demoUrl": "https://templates.iqonic.design/hope-ui/react/build/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Hope UI React"
+      }
+    ],
+    "storedBytes": 32392862,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.953Z"
+  },
+  "serve": {
+    "slug": "hope-ui-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": null,
+    "cdnRoot": null,
+    "cdnMap": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-10T18:58:02.764Z",
+  "pagesChecked": 10,
+  "pagesOk": 10,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Dashboard — Admin One Vue 3 Tailwind"
+    },
+    {
+      "path": "profile",
+      "title": "Profile — Admin One Vue 3 Tailwind"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "tables",
+      "title": "Tables — Admin One Vue 3 Tailwind"
+    },
+    {
+      "path": "forms",
+      "title": "Forms — Admin One Vue 3 Tailwind"
+    },
+    {
+      "path": "ui",
+      "title": "Ui — Admin One Vue 3 Tailwind"
+    },
+    {
+      "path": "responsive",
+      "title": "Responsive layout — Admin One Vue 3 Tailwind"
+    },
+    {
+      "path": "login",
+      "title": "Login — Admin One Vue 3 Tailwind"
+    },
+    {
+      "path": "error",
+      "title": "Error — Admin One Vue 3 Tailwind"
+    },
+    {
+      "path": "style",
+      "title": "Select style — Admin One Vue 3 Tailwind"
+    }
+  ]
+}

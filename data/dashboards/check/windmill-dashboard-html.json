@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-10T18:07:47.779Z",
+  "pagesChecked": 12,
+  "pagesOk": 12,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Windmill Dashboard"
+    },
+    {
+      "path": "buttons.html",
+      "title": "Buttons - Windmill Dashboard"
+    },
+    {
+      "path": "cards.html",
+      "title": "Cards - Windmill Dashboard"
+    },
+    {
+      "path": "charts.html",
+      "title": "Charts - Windmill Dashboard"
+    },
+    {
+      "path": "forms.html",
+      "title": "Windmill Dashboard - Forms"
+    },
+    {
+      "path": "modals.html",
+      "title": "Modals - Windmill Dashboard"
+    },
+    {
+      "path": "pages/404.html",
+      "title": "404 - Windmill Dashboard"
+    },
+    {
+      "path": "pages/blank.html",
+      "title": "Blank - Windmill Dashboard"
+    },
+    {
+      "path": "pages/create-account.html",
+      "title": "Create account - Windmill Dashboard"
+    },
+    {
+      "path": "pages/forgot-password.html",
+      "title": "Forgot password - Windmill Dashboard"
+    },
+    {
+      "path": "pages/login.html",
+      "title": "Login - Windmill Dashboard"
+    },
+    {
+      "path": "tables.html",
+      "title": "Tables - Windmill Dashboard"
+    }
+  ]
+}

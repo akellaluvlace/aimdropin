@@ -1,0 +1,251 @@
+{
+  "checkedAt": "2026-11-10T17:39:45.231Z",
+  "pagesChecked": 60,
+  "pagesOk": 60,
+  "failures": [],
+  "deadLinks": [
+    "production/page_404.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/calendar.html",
+      "title": "Calendar | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/chartjs.html",
+      "title": "Charts | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/chat.html",
+      "title": "Chat | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/coming_soon.html",
+      "title": "Coming soon | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/contacts.html",
+      "title": "Users | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/e_commerce.html",
+      "title": "Products | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/echarts.html",
+      "title": "ECharts | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/faq.html",
+      "title": "Help center | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/file_manager.html",
+      "title": "Files | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/fixed_footer.html",
+      "title": "Fixed footer | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/fixed_sidebar.html",
+      "title": "Fixed sidebar | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/forgot_password.html",
+      "title": "Forgot password | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/form_advanced.html",
+      "title": "Advanced form | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/form_buttons.html",
+      "title": "Buttons | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/form_upload.html",
+      "title": "Upload | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/form_validation.html",
+      "title": "Form validation | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/form_wizards.html",
+      "title": "Form wizard | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/form.html",
+      "title": "Forms | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/general_elements.html",
+      "title": "UI Elements | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/icons.html",
+      "title": "Icons | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/inbox.html",
+      "title": "Inbox | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/index.html",
+      "title": "Dashboard | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/index2.html",
+      "title": "Analytics dashboard | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/index3.html",
+      "title": "Sales dashboard | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/index4.html",
+      "title": "Operations dashboard | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/invoice.html",
+      "title": "Invoice | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/kanban.html",
+      "title": "Kanban | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/landing.html",
+      "title": "Gentelella 2026 — Free admin template"
+    },
+    {
+      "path": "production/level2.html",
+      "title": "Sub-page | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/lock_screen.html",
+      "title": "Locked | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/login.html",
+      "title": "Sign in | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/maintenance.html",
+      "title": "Under maintenance | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/map.html",
+      "title": "Map | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/media_gallery.html",
+      "title": "Media | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/notifications.html",
+      "title": "Notifications | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/offline.html",
+      "title": "Offline | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/order_detail.html",
+      "title": "Order #7841 | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/orders.html",
+      "title": "Orders | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/other_charts.html",
+      "title": "Other charts | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/page_403.html",
+      "title": "Forbidden | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/page_500.html",
+      "title": "Server error | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/plain_page.html",
+      "title": "Blank page | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/playground.html",
+      "title": "Playground | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/pricing_tables.html",
+      "title": "Pricing | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/product_detail.html",
+      "title": "AdminLTE Pro · Product | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/profile.html",
+      "title": "Profile | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/project_detail.html",
+      "title": "Project — Acme Website Redesign | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/projects.html",
+      "title": "Projects | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/register.html",
+      "title": "Sign up | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/settings.html",
+      "title": "Settings | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/tables_dynamic.html",
+      "title": "Dynamic tables | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/tables.html",
+      "title": "Tables | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/theme.html",
+      "title": "Theme generator | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/typography.html",
+      "title": "Typography | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/user_management.html",
+      "title": "User management | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/verify_2fa.html",
+      "title": "Two-factor verification | Gentelella 2026 v4"
+    },
+    {
+      "path": "production/widgets.html",
+      "title": "Widgets | Gentelella 2026 v4"
+    },
+    {
+      "path": "stats.html",
+      "title": "Rollup Visualizer"
+    },
+    {
+      "path": "production/orders.html?api=1",
+      "title": "Orders | Gentelella 2026 v4"
+    }
+  ]
+}

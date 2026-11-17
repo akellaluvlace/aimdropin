@@ -1,0 +1,87 @@
+{
+  "record": {
+    "slug": "coreui-vue",
+    "title": "CoreUI Free Vue Admin",
+    "description": "Bootstrap-based Vue 3 admin with dashboard, widgets, charts, base and form components, buttons, icons, notifications and auth pages.",
+    "repo": "coreui/coreui-free-vue-admin-template",
+    "sha": "81cc2aef4f2c6a195558fcc414820f2f4fef359f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/coreui/coreui-free-vue-admin-template/blob/81cc2aef4f2c6a195558fcc414820f2f4fef359f/LICENSE"
+    },
+    "author": "creativeLabs Łukasz Holeczek",
+    "framework": "vue",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "coreui",
+      "chartjs",
+      "vue-router"
+    ],
+    "demoUrl": "https://coreui.io/demos/vue/latest/free/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "CoreUI Free Vue Admin"
+      }
+    ],
+    "storedBytes": 5859798,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:38.953Z"
+  },
+  "serve": {
+    "slug": "coreui-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/coreui/coreui-free-vue-admin-template@81cc2aef4f2c6a195558fcc414820f2f4fef359f/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "android-icon-144x144.png": "public/android-icon-144x144.png",
+      "android-icon-192x192.png": "public/android-icon-192x192.png",
+      "android-icon-36x36.png": "public/android-icon-36x36.png",
+      "android-icon-48x48.png": "public/android-icon-48x48.png",
+      "android-icon-72x72.png": "public/android-icon-72x72.png",
+      "android-icon-96x96.png": "public/android-icon-96x96.png",
+      "apple-icon-114x114.png": "public/apple-icon-114x114.png",
+      "apple-icon-120x120.png": "public/apple-icon-120x120.png",
+      "apple-icon-144x144.png": "public/android-icon-144x144.png",
+      "apple-icon-152x152.png": "public/apple-icon-152x152.png",
+      "apple-icon-180x180.png": "public/apple-icon-180x180.png",
+      "apple-icon-57x57.png": "public/apple-icon-57x57.png",
+      "apple-icon-60x60.png": "public/apple-icon-60x60.png",
+      "apple-icon-72x72.png": "public/android-icon-72x72.png",
+      "apple-icon-76x76.png": "public/apple-icon-76x76.png",
+      "apple-icon-precomposed.png": "public/apple-icon.png",
+      "apple-icon.png": "public/apple-icon.png",
+      "assets/1-Bxx5tbqp.jpg": "src/assets/images/avatars/1.jpg",
+      "assets/2-DU4eQes8.jpg": "src/assets/images/avatars/2.jpg",
+      "assets/3-D73ZQ4h9.jpg": "src/assets/images/avatars/3.jpg",
+      "assets/4-TDOHctEN.jpg": "src/assets/images/avatars/4.jpg",
+      "assets/5-C7PguISa.jpg": "src/assets/images/avatars/5.jpg",
+      "assets/6-DAej8nlJ.jpg": "src/assets/images/avatars/6.jpg",
+      "assets/8-CQnrj2m9.jpg": "src/assets/images/avatars/8.jpg",
+      "assets/angular-DbhKAn4Z.jpg": "src/assets/images/angular.jpg",
+      "assets/components-rl0RgVTV.webp": "src/assets/images/components.webp",
+      "assets/icons-C5EGodH8.webp": "src/assets/images/icons.webp",
+      "assets/react-DmxSGVXA.jpg": "src/assets/images/react.jpg",
+      "assets/vue-Ces23Jk5.jpg": "src/assets/images/vue.jpg",
+      "browserconfig.xml": "public/browserconfig.xml",
+      "favicon-16x16.png": "public/favicon-16x16.png",
+      "favicon-32x32.png": "public/favicon-32x32.png",
+      "favicon-96x96.png": "public/android-icon-96x96.png",
+      "favicon.ico": "public/favicon.ico",
+      "ms-icon-144x144.png": "public/android-icon-144x144.png",
+      "ms-icon-150x150.png": "public/ms-icon-150x150.png",
+      "ms-icon-310x310.png": "public/ms-icon-310x310.png",
+      "ms-icon-70x70.png": "public/ms-icon-70x70.png"
+    }
+  }
+}

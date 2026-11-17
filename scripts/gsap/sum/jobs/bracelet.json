@@ -1,0 +1,34 @@
+{
+ "jobs": [
+  {
+   "name": "bracelet-clasp",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "Product photograph of one half of a stainless steel watch bracelet on its own, detached from the watch, laid flat and photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion. A three-link bracelet in solid stainless steel: every row is a wide centre link between two narrower outer links, with the rows staggered like brickwork, the links short, flat and finely brushed along the length of the bracelet, each with a narrow mirror-polished bevel along its edges, and tight, perfectly regular joints. The half lies perfectly straight and vertical, centred, filling the height of the frame. It is 20 mm wide at the top and tapers very slightly and evenly towards the bottom. At the very top is the solid end link that meets the watch case: a single block of brushed steel as wide as the bracelet, whose top edge is cut in a smooth concave arc to fit against a round watch case. At the bottom end is a closed folding clasp: a plain, flat, rectangular brushed steel cover as wide as the bracelet, with a narrow polished bevel round its edge. No logo, no engraving, no text and no markings anywhere. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 1536,
+     "height": 4608
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "bracelet-plain",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "Product photograph of one half of a stainless steel watch bracelet on its own, detached from the watch, laid flat and photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion. A three-link bracelet in solid stainless steel: every row is a wide centre link between two narrower outer links, with the rows staggered like brickwork, the links short, flat and finely brushed along the length of the bracelet, each with a narrow mirror-polished bevel along its edges, and tight, perfectly regular joints. The half lies perfectly straight and vertical, centred, filling the height of the frame. It is 20 mm wide at the top and tapers very slightly and evenly towards the bottom. At the very top is the solid end link that meets the watch case: a single block of brushed steel as wide as the bracelet, whose top edge is cut in a smooth concave arc to fit against a round watch case. At the bottom end the bracelet simply finishes in a last row of links with a small steel tube across its end, where it would join the clasp. There is no clasp and no buckle on this half. No logo, no engraving, no text and no markings anywhere. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the metal. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail, high-end watchmaking catalogue photography. No watermark, no border.",
+    "image_size": {
+     "width": 1536,
+     "height": 4608
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  }
+ ]
+}

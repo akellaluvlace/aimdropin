@@ -1,0 +1,64 @@
+{
+  "record": {
+    "slug": "slash-admin",
+    "title": "Slash Admin",
+    "description": "Ant Design and shadcn admin: workbench and analysis dashboards, users/roles/permissions, components, charts, kanban, calendar, i18n and error pages.",
+    "repo": "dingyi214/slash-admin",
+    "sha": "63e113c241b2a87f823b14cee2ec2961a8356dbc",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/dingyi214/slash-admin/blob/63e113c241b2a87f823b14cee2ec2961a8356dbc/LICENSE"
+    },
+    "author": "d3george",
+    "framework": "react",
+    "ui": "antd",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "ant-design",
+      "msw",
+      "tailwind",
+      "i18n"
+    ],
+    "demoUrl": "https://admin.slashspaces.com/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Slash Admin"
+      }
+    ],
+    "storedBytes": 13095675,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:37.969Z"
+  },
+  "serve": {
+    "slug": "slash-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/dingyi214/slash-admin@63e113c241b2a87f823b14cee2ec2961a8356dbc/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/avatar-1-fygQQA67.png": "src/assets/images/avatars/avatar-1.png",
+      "assets/avatar-2-Cb0nyZDD.png": "src/assets/images/avatars/avatar-2.png",
+      "assets/avatar-3-Bxvq8E7g.png": "src/assets/images/avatars/avatar-3.png",
+      "assets/avatar-4-Ci6qN_zn.png": "src/assets/images/avatars/avatar-4.png",
+      "assets/avatar-5-DOmzapzt.png": "src/assets/images/avatars/avatar-5.png",
+      "assets/banner-1-DRjgbBhx.png": "src/assets/images/background/banner-1.png",
+      "assets/character_1-0fQISY_w.png": "src/assets/images/characters/character_1.png",
+      "assets/character_2-CI-VpeLh.png": "src/assets/images/characters/character_2.png",
+      "assets/character_3-WbStpf3y.png": "src/assets/images/characters/character_3.png",
+      "assets/character_6-CSvYjFeV.png": "src/assets/images/characters/character_6.png",
+      "assets/cover_3-D3bmhT1x.jpg": "src/assets/images/cover/cover_3.jpg",
+      "assets/cyan-blur-B8-Jipui.png": "src/assets/images/background/cyan-blur.png",
+      "assets/red-blur-DWnvL7od.png": "src/assets/images/background/red-blur.png",
+      "mockServiceWorker.js": "public/mockServiceWorker.js"
+    }
+  }
+}

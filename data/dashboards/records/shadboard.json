@@ -1,0 +1,2559 @@
+{
+  "record": {
+    "slug": "shadboard",
+    "title": "Shadboard",
+    "description": "Big shadcn/ui kit on Next.js 15: analytics, CRM and e-commerce dashboards, email, chat, calendar, kanban, settings, pricing and a design system.",
+    "repo": "Qualiora/shadboard",
+    "sha": "d56d92e391c7e955ac371c7e0db4941be02a354f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/Qualiora/shadboard/blob/d56d92e391c7e955ac371c7e0db4941be02a354f/LICENSE"
+    },
+    "author": "Qualiora",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "shadcn",
+      "app-router",
+      "i18n",
+      "rtl",
+      "kanban"
+    ],
+    "demoUrl": "https://shadboard.vercel.app",
+    "quality": 5,
+    "entry": "en/dashboards/analytics/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "en/dashboards/analytics/index.html",
+        "title": "Analytics | Shadboard"
+      },
+      {
+        "path": "404.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "404/index.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "ar/apps/calendar/index.html",
+        "title": "Calendar | Shadboard"
+      },
+      {
+        "path": "ar/apps/chat/chat_1/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/apps/chat/chat_2/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/apps/chat/chat_3/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/apps/chat/chat_4/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/apps/chat/chat_5/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/apps/chat/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/apps/email/compose/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/draft/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/important/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/inbox/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/personal/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/sent/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/spam/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/starred/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/trash/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/email/work/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "ar/apps/kanban/index.html",
+        "title": "Kanban | Shadboard"
+      },
+      {
+        "path": "ar/cards/advanced/index.html",
+        "title": "Advanced Cards | Shadboard"
+      },
+      {
+        "path": "ar/cards/analytics/index.html",
+        "title": "Analytics Cards | Shadboard"
+      },
+      {
+        "path": "ar/cards/basic/index.html",
+        "title": "Basic Cards | Shadboard"
+      },
+      {
+        "path": "ar/cards/statistics/index.html",
+        "title": "Statistics Cards | Shadboard"
+      },
+      {
+        "path": "ar/charts/area-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/charts/bar-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/charts/composed-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/charts/line-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/charts/pie-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/charts/radar-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/charts/radial-bar-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/charts/scatter-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/charts/treemap-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/colors/index.html",
+        "title": "Colors | Shadboard"
+      },
+      {
+        "path": "ar/dashboards/analytics/index.html",
+        "title": "Analytics | Shadboard"
+      },
+      {
+        "path": "ar/dashboards/crm/index.html",
+        "title": "CRM | Shadboard"
+      },
+      {
+        "path": "ar/dashboards/ecommerce/index.html",
+        "title": "Ecommerce | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/avatar-stack/index.html",
+        "title": "Avatar Stack | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/bento-grid/index.html",
+        "title": "Bento Grid | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/editor/index.html",
+        "title": "Editor | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/emoji-picker/index.html",
+        "title": "Emoji Picker | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/file-dropzone/index.html",
+        "title": "File Dropzone | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/input-file/index.html",
+        "title": "Input File | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/input-group/index.html",
+        "title": "Input Group | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/input-phone/index.html",
+        "title": "Input Phone | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/input-spin/index.html",
+        "title": "Input Spin | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/input-tags/index.html",
+        "title": "Input Tags | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/keyboard/index.html",
+        "title": "Keyboard | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/media-grid/index.html",
+        "title": "Media Grid | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/mockups/index.html",
+        "title": "Mockups | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/rating/index.html",
+        "title": "Rating | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/separator-with-text/index.html",
+        "title": "Separator with Text | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/show-more-text/index.html",
+        "title": "Show More Text | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/sticky-layout/index.html",
+        "title": "Sticky Layout | Shadboard"
+      },
+      {
+        "path": "ar/extended-ui/timeline/index.html",
+        "title": "Timeline | Shadboard"
+      },
+      {
+        "path": "ar/forgot-password/index.html",
+        "title": "Forgot Password | Shadboard"
+      },
+      {
+        "path": "ar/forms/basic-inputs/index.html",
+        "title": "Basic Inputs | Shadboard"
+      },
+      {
+        "path": "ar/forms/file-dropzones/index.html",
+        "title": "File Dropzones | Shadboard"
+      },
+      {
+        "path": "ar/forms/form-layouts/index.html",
+        "title": "Form Layouts | Shadboard"
+      },
+      {
+        "path": "ar/forms/pickers/index.html",
+        "title": "Pickers | Shadboard"
+      },
+      {
+        "path": "ar/forms/select-and-tags/index.html",
+        "title": "Select and Tags | Shadboard"
+      },
+      {
+        "path": "ar/icons/lucide/index.html",
+        "title": "Lucide Icons | Shadboard"
+      },
+      {
+        "path": "ar/icons/react-icons/index.html",
+        "title": "React Icons | Shadboard"
+      },
+      {
+        "path": "ar/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/new-password/index.html",
+        "title": "New Password | Shadboard"
+      },
+      {
+        "path": "ar/pages/account/profile/index.html",
+        "title": "Profile | Shadboard"
+      },
+      {
+        "path": "ar/pages/account/settings/index.html",
+        "title": "Profile Information Settings | Shadboard"
+      },
+      {
+        "path": "ar/pages/account/settings/notifications/index.html",
+        "title": "Notification Settings | Shadboard"
+      },
+      {
+        "path": "ar/pages/account/settings/plan-and-billing/index.html",
+        "title": "Plan and Billing Settings | Shadboard"
+      },
+      {
+        "path": "ar/pages/account/settings/security/index.html",
+        "title": "Security Settings | Shadboard"
+      },
+      {
+        "path": "ar/pages/coming-soon/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/pages/landing/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/pages/maintenance/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/pages/not-found-404/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/pages/payment/index.html",
+        "title": "Payment | Shadboard"
+      },
+      {
+        "path": "ar/pages/pricing/index.html",
+        "title": "Pricing | Shadboard"
+      },
+      {
+        "path": "ar/pages/unauthorized-401/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "ar/register/index.html",
+        "title": "Register | Shadboard"
+      },
+      {
+        "path": "ar/sign-in/index.html",
+        "title": "Sign In | Shadboard"
+      },
+      {
+        "path": "ar/tables/index.html",
+        "title": "Tables | Shadboard"
+      },
+      {
+        "path": "ar/typography/index.html",
+        "title": "Typography | Shadboard"
+      },
+      {
+        "path": "ar/ui/accordion/index.html",
+        "title": "Accordion | Shadboard"
+      },
+      {
+        "path": "ar/ui/alert-dialog/index.html",
+        "title": "Alert Dialog | Shadboard"
+      },
+      {
+        "path": "ar/ui/alert/index.html",
+        "title": "Alert | Shadboard"
+      },
+      {
+        "path": "ar/ui/aspect-ratio/index.html",
+        "title": "Aspect Ratio | Shadboard"
+      },
+      {
+        "path": "ar/ui/avatar/index.html",
+        "title": "Avatar | Shadboard"
+      },
+      {
+        "path": "ar/ui/badge/index.html",
+        "title": "Badge | Shadboard"
+      },
+      {
+        "path": "ar/ui/breadcrumb/index.html",
+        "title": "Breadcrumb | Shadboard"
+      },
+      {
+        "path": "ar/ui/button/index.html",
+        "title": "Button | Shadboard"
+      },
+      {
+        "path": "ar/ui/calendar/index.html",
+        "title": "Calendar | Shadboard"
+      },
+      {
+        "path": "ar/ui/card/index.html",
+        "title": "Card | Shadboard"
+      },
+      {
+        "path": "ar/ui/carousel/index.html",
+        "title": "Carousel | Shadboard"
+      },
+      {
+        "path": "ar/ui/checkbox/index.html",
+        "title": "Checkbox | Shadboard"
+      },
+      {
+        "path": "ar/ui/collapsible/index.html",
+        "title": "Collapsible | Shadboard"
+      },
+      {
+        "path": "ar/ui/combobox/index.html",
+        "title": "Combobox | Shadboard"
+      },
+      {
+        "path": "ar/ui/command/index.html",
+        "title": "Command | Shadboard"
+      },
+      {
+        "path": "ar/ui/context-menu/index.html",
+        "title": "Context Menu | Shadboard"
+      },
+      {
+        "path": "ar/ui/dialog/index.html",
+        "title": "Dialog | Shadboard"
+      },
+      {
+        "path": "ar/ui/drawer/index.html",
+        "title": "Drawer | Shadboard"
+      },
+      {
+        "path": "ar/ui/dropdown-menu/index.html",
+        "title": "Dropdown Menu | Shadboard"
+      },
+      {
+        "path": "ar/ui/form/index.html",
+        "title": "Form | Shadboard"
+      },
+      {
+        "path": "ar/ui/hover-card/index.html",
+        "title": "Hover Card | Shadboard"
+      },
+      {
+        "path": "ar/ui/input-otp/index.html",
+        "title": "Input OTP | Shadboard"
+      },
+      {
+        "path": "ar/ui/input/index.html",
+        "title": "Input | Shadboard"
+      },
+      {
+        "path": "ar/ui/label/index.html",
+        "title": "Label | Shadboard"
+      },
+      {
+        "path": "ar/ui/menubar/index.html",
+        "title": "Menubar | Shadboard"
+      },
+      {
+        "path": "ar/ui/navigation-menu/index.html",
+        "title": "Navigation Menu | Shadboard"
+      },
+      {
+        "path": "ar/ui/pagination/index.html",
+        "title": "Pagination | Shadboard"
+      },
+      {
+        "path": "ar/ui/popover/index.html",
+        "title": "Popover | Shadboard"
+      },
+      {
+        "path": "ar/ui/progress/index.html",
+        "title": "Progress | Shadboard"
+      },
+      {
+        "path": "ar/ui/radio-group/index.html",
+        "title": "Radio Group | Shadboard"
+      },
+      {
+        "path": "ar/ui/resizable/index.html",
+        "title": "Resizable | Shadboard"
+      },
+      {
+        "path": "ar/ui/scroll-area/index.html",
+        "title": "ScrollArea | Shadboard"
+      },
+      {
+        "path": "ar/ui/select/index.html",
+        "title": "Select | Shadboard"
+      },
+      {
+        "path": "ar/ui/separator/index.html",
+        "title": "Separator | Shadboard"
+      },
+      {
+        "path": "ar/ui/sheet/index.html",
+        "title": "Sheet | Shadboard"
+      },
+      {
+        "path": "ar/ui/skeleton/index.html",
+        "title": "Skeleton | Shadboard"
+      },
+      {
+        "path": "ar/ui/slider/index.html",
+        "title": "Slider | Shadboard"
+      },
+      {
+        "path": "ar/ui/sonner/index.html",
+        "title": "Sonner | Shadboard"
+      },
+      {
+        "path": "ar/ui/switch/index.html",
+        "title": "Switch | Shadboard"
+      },
+      {
+        "path": "ar/ui/table/index.html",
+        "title": "Table | Shadboard"
+      },
+      {
+        "path": "ar/ui/tabs/index.html",
+        "title": "Tabs | Shadboard"
+      },
+      {
+        "path": "ar/ui/textarea/index.html",
+        "title": "Textarea | Shadboard"
+      },
+      {
+        "path": "ar/ui/toast/index.html",
+        "title": "Toast | Shadboard"
+      },
+      {
+        "path": "ar/ui/toggle-group/index.html",
+        "title": "Toggle Group | Shadboard"
+      },
+      {
+        "path": "ar/ui/toggle/index.html",
+        "title": "Toggle | Shadboard"
+      },
+      {
+        "path": "ar/ui/tooltip/index.html",
+        "title": "Tooltip | Shadboard"
+      },
+      {
+        "path": "ar/verify-email/index.html",
+        "title": "Verify Email | Shadboard"
+      },
+      {
+        "path": "docs/development/authentication/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "docs/development/i18n/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "docs/development/navigation/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "docs/development/theme-color/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "docs/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "docs/miscellaneous/sources-and-credits/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "docs/overview/deployment/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "docs/overview/installation/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "docs/overview/introduction/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "docs/overview/kits/index.html",
+        "title": "Documentation | Shadboard"
+      },
+      {
+        "path": "en/apps/calendar/index.html",
+        "title": "Calendar | Shadboard"
+      },
+      {
+        "path": "en/apps/chat/chat_1/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/apps/chat/chat_2/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/apps/chat/chat_3/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/apps/chat/chat_4/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/apps/chat/chat_5/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/apps/chat/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/apps/email/compose/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/draft/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/important/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/inbox/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/personal/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/sent/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/spam/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/starred/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/trash/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/1/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/11/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/12/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/13/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/14/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/15/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/2/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/21/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/22/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/23/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/24/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/25/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/26/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/27/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/28/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/29/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/3/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/30/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/4/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/5/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/email/work/index.html",
+        "title": "Email | Shadboard"
+      },
+      {
+        "path": "en/apps/kanban/index.html",
+        "title": "Kanban | Shadboard"
+      },
+      {
+        "path": "en/cards/advanced/index.html",
+        "title": "Advanced Cards | Shadboard"
+      },
+      {
+        "path": "en/cards/analytics/index.html",
+        "title": "Analytics Cards | Shadboard"
+      },
+      {
+        "path": "en/cards/basic/index.html",
+        "title": "Basic Cards | Shadboard"
+      },
+      {
+        "path": "en/cards/statistics/index.html",
+        "title": "Statistics Cards | Shadboard"
+      },
+      {
+        "path": "en/charts/area-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/charts/bar-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/charts/composed-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/charts/line-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/charts/pie-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/charts/radar-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/charts/radial-bar-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/charts/scatter-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/charts/treemap-charts/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/colors/index.html",
+        "title": "Colors | Shadboard"
+      },
+      {
+        "path": "en/dashboards/crm/index.html",
+        "title": "CRM | Shadboard"
+      },
+      {
+        "path": "en/dashboards/ecommerce/index.html",
+        "title": "Ecommerce | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/avatar-stack/index.html",
+        "title": "Avatar Stack | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/bento-grid/index.html",
+        "title": "Bento Grid | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/editor/index.html",
+        "title": "Editor | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/emoji-picker/index.html",
+        "title": "Emoji Picker | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/file-dropzone/index.html",
+        "title": "File Dropzone | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/input-file/index.html",
+        "title": "Input File | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/input-group/index.html",
+        "title": "Input Group | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/input-phone/index.html",
+        "title": "Input Phone | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/input-spin/index.html",
+        "title": "Input Spin | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/input-tags/index.html",
+        "title": "Input Tags | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/keyboard/index.html",
+        "title": "Keyboard | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/media-grid/index.html",
+        "title": "Media Grid | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/mockups/index.html",
+        "title": "Mockups | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/rating/index.html",
+        "title": "Rating | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/separator-with-text/index.html",
+        "title": "Separator with Text | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/show-more-text/index.html",
+        "title": "Show More Text | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/sticky-layout/index.html",
+        "title": "Sticky Layout | Shadboard"
+      },
+      {
+        "path": "en/extended-ui/timeline/index.html",
+        "title": "Timeline | Shadboard"
+      },
+      {
+        "path": "en/forgot-password/index.html",
+        "title": "Forgot Password | Shadboard"
+      },
+      {
+        "path": "en/forms/basic-inputs/index.html",
+        "title": "Basic Inputs | Shadboard"
+      },
+      {
+        "path": "en/forms/file-dropzones/index.html",
+        "title": "File Dropzones | Shadboard"
+      },
+      {
+        "path": "en/forms/form-layouts/index.html",
+        "title": "Form Layouts | Shadboard"
+      },
+      {
+        "path": "en/forms/pickers/index.html",
+        "title": "Pickers | Shadboard"
+      },
+      {
+        "path": "en/forms/select-and-tags/index.html",
+        "title": "Select and Tags | Shadboard"
+      },
+      {
+        "path": "en/icons/lucide/index.html",
+        "title": "Lucide Icons | Shadboard"
+      },
+      {
+        "path": "en/icons/react-icons/index.html",
+        "title": "React Icons | Shadboard"
+      },
+      {
+        "path": "en/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/new-password/index.html",
+        "title": "New Password | Shadboard"
+      },
+      {
+        "path": "en/pages/account/profile/index.html",
+        "title": "Profile | Shadboard"
+      },
+      {
+        "path": "en/pages/account/settings/index.html",
+        "title": "Profile Information Settings | Shadboard"
+      },
+      {
+        "path": "en/pages/account/settings/notifications/index.html",
+        "title": "Notification Settings | Shadboard"
+      },
+      {
+        "path": "en/pages/account/settings/plan-and-billing/index.html",
+        "title": "Plan and Billing Settings | Shadboard"
+      },
+      {
+        "path": "en/pages/account/settings/security/index.html",
+        "title": "Security Settings | Shadboard"
+      },
+      {
+        "path": "en/pages/coming-soon/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/pages/landing/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/pages/maintenance/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/pages/not-found-404/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/pages/payment/index.html",
+        "title": "Payment | Shadboard"
+      },
+      {
+        "path": "en/pages/pricing/index.html",
+        "title": "Pricing | Shadboard"
+      },
+      {
+        "path": "en/pages/unauthorized-401/index.html",
+        "title": "Shadboard"
+      },
+      {
+        "path": "en/register/index.html",
+        "title": "Register | Shadboard"
+      },
+      {
+        "path": "en/sign-in/index.html",
+        "title": "Sign In | Shadboard"
+      },
+      {
+        "path": "en/tables/index.html",
+        "title": "Tables | Shadboard"
+      },
+      {
+        "path": "en/typography/index.html",
+        "title": "Typography | Shadboard"
+      },
+      {
+        "path": "en/ui/accordion/index.html",
+        "title": "Accordion | Shadboard"
+      },
+      {
+        "path": "en/ui/alert-dialog/index.html",
+        "title": "Alert Dialog | Shadboard"
+      },
+      {
+        "path": "en/ui/alert/index.html",
+        "title": "Alert | Shadboard"
+      },
+      {
+        "path": "en/ui/aspect-ratio/index.html",
+        "title": "Aspect Ratio | Shadboard"
+      },
+      {
+        "path": "en/ui/avatar/index.html",
+        "title": "Avatar | Shadboard"
+      },
+      {
+        "path": "en/ui/badge/index.html",
+        "title": "Badge | Shadboard"
+      },
+      {
+        "path": "en/ui/breadcrumb/index.html",
+        "title": "Breadcrumb | Shadboard"
+      },
+      {
+        "path": "en/ui/button/index.html",
+        "title": "Button | Shadboard"
+      },
+      {
+        "path": "en/ui/calendar/index.html",
+        "title": "Calendar | Shadboard"
+      },
+      {
+        "path": "en/ui/card/index.html",
+        "title": "Card | Shadboard"
+      },
+      {
+        "path": "en/ui/carousel/index.html",
+        "title": "Carousel | Shadboard"
+      },
+      {
+        "path": "en/ui/checkbox/index.html",
+        "title": "Checkbox | Shadboard"
+      },
+      {
+        "path": "en/ui/collapsible/index.html",
+        "title": "Collapsible | Shadboard"
+      },
+      {
+        "path": "en/ui/combobox/index.html",
+        "title": "Combobox | Shadboard"
+      },
+      {
+        "path": "en/ui/command/index.html",
+        "title": "Command | Shadboard"
+      },
+      {
+        "path": "en/ui/context-menu/index.html",
+        "title": "Context Menu | Shadboard"
+      },
+      {
+        "path": "en/ui/dialog/index.html",
+        "title": "Dialog | Shadboard"
+      },
+      {
+        "path": "en/ui/drawer/index.html",
+        "title": "Drawer | Shadboard"
+      },
+      {
+        "path": "en/ui/dropdown-menu/index.html",
+        "title": "Dropdown Menu | Shadboard"
+      },
+      {
+        "path": "en/ui/form/index.html",
+        "title": "Form | Shadboard"
+      },
+      {
+        "path": "en/ui/hover-card/index.html",
+        "title": "Hover Card | Shadboard"
+      },
+      {
+        "path": "en/ui/input-otp/index.html",
+        "title": "Input OTP | Shadboard"
+      },
+      {
+        "path": "en/ui/input/index.html",
+        "title": "Input | Shadboard"
+      },
+      {
+        "path": "en/ui/label/index.html",
+        "title": "Label | Shadboard"
+      },
+      {
+        "path": "en/ui/menubar/index.html",
+        "title": "Menubar | Shadboard"
+      },
+      {
+        "path": "en/ui/navigation-menu/index.html",
+        "title": "Navigation Menu | Shadboard"
+      },
+      {
+        "path": "en/ui/pagination/index.html",
+        "title": "Pagination | Shadboard"
+      },
+      {
+        "path": "en/ui/popover/index.html",
+        "title": "Popover | Shadboard"
+      },
+      {
+        "path": "en/ui/progress/index.html",
+        "title": "Progress | Shadboard"
+      },
+      {
+        "path": "en/ui/radio-group/index.html",
+        "title": "Radio Group | Shadboard"
+      },
+      {
+        "path": "en/ui/resizable/index.html",
+        "title": "Resizable | Shadboard"
+      },
+      {
+        "path": "en/ui/scroll-area/index.html",
+        "title": "ScrollArea | Shadboard"
+      },
+      {
+        "path": "en/ui/select/index.html",
+        "title": "Select | Shadboard"
+      },
+      {
+        "path": "en/ui/separator/index.html",
+        "title": "Separator | Shadboard"
+      },
+      {
+        "path": "en/ui/sheet/index.html",
+        "title": "Sheet | Shadboard"
+      },
+      {
+        "path": "en/ui/skeleton/index.html",
+        "title": "Skeleton | Shadboard"
+      },
+      {
+        "path": "en/ui/slider/index.html",
+        "title": "Slider | Shadboard"
+      },
+      {
+        "path": "en/ui/sonner/index.html",
+        "title": "Sonner | Shadboard"
+      },
+      {
+        "path": "en/ui/switch/index.html",
+        "title": "Switch | Shadboard"
+      },
+      {
+        "path": "en/ui/table/index.html",
+        "title": "Table | Shadboard"
+      },
+      {
+        "path": "en/ui/tabs/index.html",
+        "title": "Tabs | Shadboard"
+      },
+      {
+        "path": "en/ui/textarea/index.html",
+        "title": "Textarea | Shadboard"
+      },
+      {
+        "path": "en/ui/toast/index.html",
+        "title": "Toast | Shadboard"
+      },
+      {
+        "path": "en/ui/toggle-group/index.html",
+        "title": "Toggle Group | Shadboard"
+      },
+      {
+        "path": "en/ui/toggle/index.html",
+        "title": "Toggle | Shadboard"
+      },
+      {
+        "path": "en/ui/tooltip/index.html",
+        "title": "Tooltip | Shadboard"
+      },
+      {
+        "path": "en/verify-email/index.html",
+        "title": "Verify Email | Shadboard"
+      }
+    ],
+    "storedBytes": 55347613,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:11:33.044Z"
+  },
+  "serve": {
+    "slug": "shadboard",
+    "kind": "build",
+    "entry": "en/dashboards/analytics/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Qualiora/shadboard@d56d92e391c7e955ac371c7e0db4941be02a354f/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "full-kit/src/app/favicon.ico",
+      "images/misc/hero-dark.png": "full-kit/public/images/misc/hero-dark.png",
+      "images/misc/hero.png": "full-kit/public/images/misc/hero.png",
+      "images/misc/mobile-dark.jpg": "full-kit/public/images/misc/mobile-dark.jpg",
+      "images/misc/mobile.jpg": "full-kit/public/images/misc/mobile.jpg",
+      "images/misc/product-01.jpg": "full-kit/public/images/misc/product-01.jpg",
+      "images/misc/product-02.jpg": "full-kit/public/images/misc/product-02.jpg",
+      "images/misc/product-03.jpg": "full-kit/public/images/misc/product-03.jpg",
+      "images/misc/product-04.jpg": "full-kit/public/images/misc/product-04.jpg"
+    }
+  }
+}

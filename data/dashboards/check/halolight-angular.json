@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-10T18:35:47.351Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Halolight Angular"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "analytics",
+      "title": "Analytics"
+    },
+    {
+      "path": "users",
+      "title": "Users"
+    },
+    {
+      "path": "roles",
+      "title": "Roles"
+    },
+    {
+      "path": "settings",
+      "title": "Settings"
+    },
+    {
+      "path": "privacy",
+      "title": "隐私政策 | HaloLight"
+    },
+    {
+      "path": "terms",
+      "title": "服务条款 | HaloLight"
+    }
+  ]
+}

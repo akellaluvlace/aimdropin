@@ -1,0 +1,123 @@
+{
+  "record": {
+    "slug": "devias-material-kit-react",
+    "title": "Devias Material Kit React",
+    "description": "MUI admin on the Next.js App Router: overview charts, customers table, integrations, settings, account and auth pages.",
+    "repo": "devias-io/material-kit-react",
+    "sha": "6423e1a2f092c50d7e1e22f3e43344df02af41de",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/devias-io/material-kit-react/blob/6423e1a2f092c50d7e1e22f3e43344df02af41de/LICENSE.md"
+    },
+    "author": "Devias",
+    "framework": "next",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "material-ui",
+      "app-router",
+      "apexcharts",
+      "auth-pages"
+    ],
+    "demoUrl": "https://material-kit-react.devias.io",
+    "quality": 4,
+    "entry": "dashboard/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard/index.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "404.html",
+        "title": "Not found | Devias Kit"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Not found | Devias Kit"
+      },
+      {
+        "path": "auth/reset-password/index.html",
+        "title": "Reset password | Auth | Devias Kit"
+      },
+      {
+        "path": "auth/sign-in/index.html",
+        "title": "Sign in | Auth | Devias Kit"
+      },
+      {
+        "path": "auth/sign-up/index.html",
+        "title": "Sign up | Auth | Devias Kit"
+      },
+      {
+        "path": "dashboard/account/index.html",
+        "title": "Account"
+      },
+      {
+        "path": "dashboard/customers/index.html",
+        "title": "Customers"
+      },
+      {
+        "path": "dashboard/integrations/index.html",
+        "title": "Integrations"
+      },
+      {
+        "path": "dashboard/settings/index.html",
+        "title": "Settings"
+      },
+      {
+        "path": "errors/not-found/index.html",
+        "title": "Not found | Errors | Devias Kit"
+      },
+      {
+        "path": "index.html",
+        "title": "Index"
+      }
+    ],
+    "storedBytes": 5183034,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:14:45.388Z"
+  },
+  "serve": {
+    "slug": "devias-material-kit-react",
+    "kind": "build",
+    "entry": "dashboard/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/devias-io/material-kit-react@6423e1a2f092c50d7e1e22f3e43344df02af41de/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/auth-widgets.png": "public/assets/auth-widgets.png",
+      "assets/avatar-1.png": "public/assets/avatar-1.png",
+      "assets/avatar-10.png": "public/assets/avatar-10.png",
+      "assets/avatar-11.png": "public/assets/avatar-11.png",
+      "assets/avatar-2.png": "public/assets/avatar-2.png",
+      "assets/avatar-3.png": "public/assets/avatar-3.png",
+      "assets/avatar-4.png": "public/assets/avatar-4.png",
+      "assets/avatar-5.png": "public/assets/avatar-5.png",
+      "assets/avatar-6.png": "public/assets/avatar-6.png",
+      "assets/avatar-7.png": "public/assets/avatar-7.png",
+      "assets/avatar-8.png": "public/assets/avatar-8.png",
+      "assets/avatar-9.png": "public/assets/avatar-9.png",
+      "assets/avatar.png": "public/assets/avatar.png",
+      "assets/devias-kit-pro.png": "public/assets/devias-kit-pro.png",
+      "assets/error-401.png": "public/assets/error-401.png",
+      "assets/error-404.png": "public/assets/error-404.png",
+      "assets/error-500.png": "public/assets/error-500.png",
+      "assets/logo-dropbox.png": "public/assets/logo-dropbox.png",
+      "assets/logo-github.png": "public/assets/logo-github.png",
+      "assets/logo-lyft.png": "public/assets/logo-lyft.png",
+      "assets/logo-medium.png": "public/assets/logo-medium.png",
+      "assets/logo-slack.png": "public/assets/logo-slack.png",
+      "assets/logo-squarespace.png": "public/assets/logo-squarespace.png",
+      "assets/product-1.png": "public/assets/product-1.png",
+      "assets/product-2.png": "public/assets/product-2.png",
+      "assets/product-3.png": "public/assets/product-3.png",
+      "assets/product-4.png": "public/assets/product-4.png",
+      "assets/product-5.png": "public/assets/product-5.png",
+      "assets/thumbnail.png": "public/assets/thumbnail.png",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

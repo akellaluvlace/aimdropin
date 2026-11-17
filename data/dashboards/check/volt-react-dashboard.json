@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-11-10T17:54:32.800Z",
+  "pagesChecked": 45,
+  "pagesOk": 45,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Volt React Dashboard"
+    },
+    {
+      "path": "#/dashboard/overview",
+      "title": "Home"
+    },
+    {
+      "path": "#/examples/sign-in",
+      "title": "Home"
+    },
+    {
+      "path": "#/presentation",
+      "title": "Home"
+    },
+    {
+      "path": "#/transactions",
+      "title": "Home"
+    },
+    {
+      "path": "#/settings",
+      "title": "Home"
+    },
+    {
+      "path": "#/tables/bootstrap-tables",
+      "title": "Home"
+    },
+    {
+      "path": "#/examples/sign-up",
+      "title": "Home"
+    },
+    {
+      "path": "#/examples/forgot-password",
+      "title": "Home"
+    },
+    {
+      "path": "#/examples/reset-password",
+      "title": "Home"
+    },
+    {
+      "path": "#/examples/lock",
+      "title": "Home"
+    },
+    {
+      "path": "#/examples/404",
+      "title": "Home"
+    },
+    {
+      "path": "#/examples/500",
+      "title": "Home"
+    },
+    {
+      "path": "#/documentation/overview",
+      "title": "Home"
+    },
+    {
+      "path": "#/documentation/download",
+      "title": "Home"
+    },
+    {
+      "path": "#/documentation/quick-start",
+      "title": "Home"
+    },
+    {
+      "path": "#/documentation/license",
+      "title": "Home"
+    },
+    {
+      "path": "#/documentation/folder-structure",
+      "title": "Home"
+    },
+    {
+      "path": "#/documentation/build-tools",
+      "title": "Home"
+    },
+    {
+      "path": "#/documentation/changelog",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/accordions",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/alerts",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/badges",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/breadcrumbs",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/buttons",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/forms",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/modals",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/navbars",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/navs",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/pagination",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/popovers",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/progress",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/tables",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/tabs",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/toasts",
+      "title": "Home"
+    },
+    {
+      "path": "#/components/tooltips",
+      "title": "Home"
+    },
+    {
+      "path": "#/upgrade",
+      "title": "Home"
+    },
+    {
+      "path": "#/presentation#home",
+      "title": "Home"
+    },
+    {
+      "path": "#/presentation#features",
+      "title": "Home"
+    },
+    {
+      "path": "#/presentation#pages",
+      "title": "Home"
+    },
+    {
+      "path": "#/presentation#folder",
+      "title": "Home"
+    },
+    {
+      "path": "#/presentation#getting-started",
+      "title": "Home"
+    },
+    {
+      "path": "#/presentation#download",
+      "title": "Home"
+    },
+    {
+      "path": "#/",
+      "title": "Home"
+    },
+    {
+      "path": "#/examples/invoice",
+      "title": "Home"
+    }
+  ]
+}

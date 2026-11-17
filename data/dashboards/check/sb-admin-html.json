@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-10T17:43:01.821Z",
+  "pagesChecked": 11,
+  "pagesOk": 11,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard - SB Admin"
+    },
+    {
+      "path": "401.html",
+      "title": "404 Error - SB Admin"
+    },
+    {
+      "path": "404.html",
+      "title": "404 Error - SB Admin"
+    },
+    {
+      "path": "500.html",
+      "title": "404 Error - SB Admin"
+    },
+    {
+      "path": "charts.html",
+      "title": "Charts - SB Admin"
+    },
+    {
+      "path": "layout-sidenav-light.html",
+      "title": "Sidenav Light - SB Admin"
+    },
+    {
+      "path": "layout-static.html",
+      "title": "Static Navigation - SB Admin"
+    },
+    {
+      "path": "login.html",
+      "title": "Login - SB Admin"
+    },
+    {
+      "path": "password.html",
+      "title": "Password Reset - SB Admin"
+    },
+    {
+      "path": "register.html",
+      "title": "Register - SB Admin"
+    },
+    {
+      "path": "tables.html",
+      "title": "Tables - SB Admin"
+    }
+  ]
+}

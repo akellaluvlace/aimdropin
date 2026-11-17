@@ -1,0 +1,119 @@
+{
+  "record": {
+    "slug": "stream-dashboard-ui-kit",
+    "title": "Stream Dashboard UI Kit",
+    "description": "Bootstrap 4 dashboard kit: dashboard, UI components, forms, tables, sign-in/up, profile, password recovery and error pages.",
+    "repo": "htmlstreamofficial/stream-dashboard-ui-kit",
+    "sha": "55e41bd37324ab97e03b8719bc3a4a68fa1f8d33",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/htmlstreamofficial/stream-dashboard-ui-kit/blob/55e41bd37324ab97e03b8719bc3a4a68fa1f8d33/LICENSE"
+    },
+    "author": "Htmlstream",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "charts",
+      "ui-kit"
+    ],
+    "demoUrl": "https://htmlstream.com/preview/stream-dashboard-ui-kit/index.html",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "404.html",
+        "title": "404 - Page Not Found | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "500.html",
+        "title": "500 - Internal Server Error | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "account-password-recover.html",
+        "title": "Recover Password | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "account-profile.html",
+        "title": "Profile | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "account-sign-in.html",
+        "title": "Sign In | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "account-sign-up.html",
+        "title": "Create Account | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "blank.html",
+        "title": "Blank Page | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "docs.html",
+        "title": "Blank Page | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "forms.html",
+        "title": "Forms | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "tables.html",
+        "title": "Tables | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "ui-alerts.html",
+        "title": "Alerts | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "ui-buttons.html",
+        "title": "Buttons | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "ui-cards.html",
+        "title": "Cards | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "ui-colors.html",
+        "title": "Colors | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "ui-modals.html",
+        "title": "Modals | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "ui-others.html",
+        "title": "Other Components | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "ui-tooltips-and-popovers.html",
+        "title": "Tooltips & Popovers | Stream - Dashboard UI Kit"
+      },
+      {
+        "path": "ui-typography.html",
+        "title": "Typography | Stream - Dashboard UI Kit"
+      }
+    ],
+    "storedBytes": 2117440,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:26.153Z"
+  },
+  "serve": {
+    "slug": "stream-dashboard-ui-kit",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/htmlstreamofficial/stream-dashboard-ui-kit@55e41bd37324ab97e03b8719bc3a4a68fa1f8d33/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

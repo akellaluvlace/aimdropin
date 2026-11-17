@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-10T18:31:15.156Z",
+  "pagesChecked": 4,
+  "pagesOk": 4,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Dashboard - SB Admin Angular"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "charts",
+      "title": "Charts - SB Admin Angular"
+    },
+    {
+      "path": "tables",
+      "title": "Tables - SB Admin Angular"
+    }
+  ]
+}

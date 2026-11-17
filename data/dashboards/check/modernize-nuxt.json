@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-11-10T19:03:46.859Z",
+  "pagesChecked": 21,
+  "pagesOk": 21,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Modernize - Nuxt3 Typescript based Free Admin Dashboard Template"
+    },
+    {
+      "path": "ui/typography",
+      "title": "Ui / Typography"
+    },
+    {
+      "path": "ui/shadow",
+      "title": "Ui / Shadow"
+    },
+    {
+      "path": "sample-page",
+      "title": "Sample Page"
+    },
+    {
+      "path": "ui-components/alerts",
+      "title": "Ui Components / Alerts"
+    },
+    {
+      "path": "ui-components/buttons",
+      "title": "Ui Components / Buttons"
+    },
+    {
+      "path": "ui-components/cards",
+      "title": "Ui Components / Cards"
+    },
+    {
+      "path": "ui-components/tables",
+      "title": "Ui Components / Tables"
+    },
+    {
+      "path": "auth/login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/register",
+      "title": "Auth / Register"
+    },
+    {
+      "path": "icons",
+      "title": "Icons"
+    },
+    {
+      "path": "ui/Shadow",
+      "title": "Ui / Shadow"
+    },
+    {
+      "path": "auth/Login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/Register",
+      "title": "Auth / Register"
+    },
+    {
+      "path": "ui/Typography",
+      "title": "Ui / Typography"
+    },
+    {
+      "path": "ui-components/Cards",
+      "title": "Ui Components / Cards"
+    },
+    {
+      "path": "ui-components/Alerts",
+      "title": "Ui Components / Alerts"
+    },
+    {
+      "path": "ui-components/Tables",
+      "title": "Ui Components / Tables"
+    },
+    {
+      "path": "ui-components/Buttons",
+      "title": "Ui Components / Buttons"
+    },
+    {
+      "path": "Icons",
+      "title": "Icons"
+    },
+    {
+      "path": "Sample-Page",
+      "title": "Sample Page"
+    }
+  ]
+}

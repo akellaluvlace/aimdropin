@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-11-10T19:02:56.317Z",
+  "pagesChecked": 13,
+  "pagesOk": 12,
+  "failures": [
+    {
+      "path": "index.html",
+      "problem": "HTTP 405 /demos/tremor-dashboard-oss/overview/index.txt?_rsc=br42z · net::ERR_FAILED /demos/tremor-dashboard-oss/overview/index.txt?_rsc=br42z"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "overview/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "404.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "404/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "details/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "overview/",
+      "title": "Dashboard"
+    },
+    {
+      "path": "details/",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/",
+      "title": "Dashboard"
+    },
+    {
+      "path": "",
+      "title": "Dashboard"
+    },
+    {
+      "path": "overview",
+      "title": "Dashboard"
+    },
+    {
+      "path": "details",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings",
+      "title": "Dashboard"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "record": {
+    "slug": "shadcn-admin-kit-demo",
+    "title": "Shadcn Admin Kit Demo",
+    "description": "E-commerce admin on shadcn/ui and react-admin: dashboard, orders, products, categories, customers and reviews with full CRUD on fake data.",
+    "repo": "marmelab/shadcn-admin-kit",
+    "sha": "93fbc910b20f473eba78094dd247e2abd0e4fdc7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/marmelab/shadcn-admin-kit/blob/93fbc910b20f473eba78094dd247e2abd0e4fdc7/LICENSE"
+    },
+    "author": "Marmelab",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "E-commerce",
+    "tags": [
+      "vite",
+      "react-admin",
+      "fakerest",
+      "tailwind",
+      "crud"
+    ],
+    "demoUrl": "https://marmelab.com/shadcn-admin-kit/demo",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Shadcn Admin Kit Demo"
+      }
+    ],
+    "storedBytes": 3152373,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:36.938Z"
+  },
+  "serve": {
+    "slug": "shadcn-admin-kit-demo",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/marmelab/shadcn-admin-kit@93fbc910b20f473eba78094dd247e2abd0e4fdc7/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "shadcn-admin-kit.webp": "public/shadcn-admin-kit.webp"
+    }
+  }
+}

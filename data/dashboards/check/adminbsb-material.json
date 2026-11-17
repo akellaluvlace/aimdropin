@@ -1,0 +1,325 @@
+{
+  "checkedAt": "2026-11-10T17:48:56.304Z",
+  "pagesChecked": 78,
+  "pagesOk": 75,
+  "failures": [
+    {
+      "path": "pages/charts/chartjs.html",
+      "problem": "script error: Uncaught SecurityError: Failed to set a named property 'onresize' on 'Window': Sandbox access violation: Blocked a frame at \"http://localhost:3000\" from accessing a frame at \"null\".  Both frames are s"
+    },
+    {
+      "path": "pages/forms/editors.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read a named property 'document' from 'Window': Sandbox access violation: Blocked a frame at \"http://localhost:3000\" from accessing a frame at \"null\".  Both frames ar"
+    },
+    {
+      "path": "pages/maps/yandex.html",
+      "problem": "script error: SecurityError: Failed to read the 'cookie' property from 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    }
+  ],
+  "deadLinks": [
+    "pages/examples/blank.html",
+    "pages/examples/profile.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Welcome To | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/changelogs.html",
+      "title": "Changelogs | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/charts/flot.html",
+      "title": "Flot | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/charts/jquery-knob.html",
+      "title": "Jquery Knob | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/charts/morris.html",
+      "title": "Morris | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/charts/sparkline.html",
+      "title": "Sparkline | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/examples/404.html",
+      "title": "404 | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/examples/500.html",
+      "title": "500 | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/examples/forgot-password.html",
+      "title": "Forgot Password | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/examples/sign-in.html",
+      "title": "Sign In | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/examples/sign-up.html",
+      "title": "Sign Up | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/forms/advanced-form-elements.html",
+      "title": "Advanced Form Elements | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/forms/basic-form-elements.html",
+      "title": "Basic Form Elements | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/forms/form-examples.html",
+      "title": "Form Examples | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/forms/form-validation.html",
+      "title": "Form Validation | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/forms/form-wizard.html",
+      "title": "Form Wizard | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/helper-classes.html",
+      "title": "Helper Classes | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/maps/jvectormap.html",
+      "title": "JVECTORMAP | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/medias/carousel.html",
+      "title": "Carousel | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/medias/image-gallery.html",
+      "title": "Image Gallery | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/tables/editable-table.html",
+      "title": "Editable Table | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/tables/jquery-datatable.html",
+      "title": "Jquery DataTable | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/tables/normal-tables.html",
+      "title": "Normal Tables | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/typography.html",
+      "title": "Typography | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/alerts.html",
+      "title": "Alerts | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/animations.html",
+      "title": "Animations | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/badges.html",
+      "title": "Badges | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/breadcrumbs.html",
+      "title": "Breadcrumbs | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/buttons.html",
+      "title": "Buttons | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/collapse.html",
+      "title": "Collapse | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/colors.html",
+      "title": "Colors | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/dialogs.html",
+      "title": "Dialogs | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/icons.html",
+      "title": "Icons | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/labels.html",
+      "title": "Labels | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/list-group.html",
+      "title": "List Group | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/media-object.html",
+      "title": "Media Object | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/modals.html",
+      "title": "Modals | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/notifications.html",
+      "title": "Notifications | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/pagination.html",
+      "title": "Pagination | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/preloaders.html",
+      "title": "Preloaders | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/progressbars.html",
+      "title": "Progress Bars | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/range-sliders.html",
+      "title": "Range Sliders | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/sortable-nestable.html",
+      "title": "Sortable & Nestable | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/tabs.html",
+      "title": "Tabs | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/thumbnails.html",
+      "title": "Thumbnails | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/tooltips-popovers.html",
+      "title": "Tooltips & Popovers | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/ui/waves.html",
+      "title": "Waves | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/widgets/cards/basic.html",
+      "title": "Basic Card | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/widgets/cards/colored.html",
+      "title": "Colored Card | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/widgets/cards/no-header.html",
+      "title": "No Header Card | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/widgets/infobox/infobox-1.html",
+      "title": "Infobox - 1 | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/widgets/infobox/infobox-2.html",
+      "title": "Infobox - 2 | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/widgets/infobox/infobox-3.html",
+      "title": "Infobox - 3 | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/widgets/infobox/infobox-4.html",
+      "title": "Infobox - 4 | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "pages/widgets/infobox/infobox-5.html",
+      "title": "Infobox - 5 | Bootstrap Based Admin Template - Material Design"
+    },
+    {
+      "path": "plugins/morrisjs/examples/_template.html",
+      "title": "Plugins / Morrisjs / Examples /  Template"
+    },
+    {
+      "path": "plugins/morrisjs/examples/area-as-line.html",
+      "title": "Plugins / Morrisjs / Examples / Area As Line"
+    },
+    {
+      "path": "plugins/morrisjs/examples/area.html",
+      "title": "Plugins / Morrisjs / Examples / Area"
+    },
+    {
+      "path": "plugins/morrisjs/examples/bar-colors.html",
+      "title": "Plugins / Morrisjs / Examples / Bar Colors"
+    },
+    {
+      "path": "plugins/morrisjs/examples/bar-no-axes.html",
+      "title": "Plugins / Morrisjs / Examples / Bar No Axes"
+    },
+    {
+      "path": "plugins/morrisjs/examples/bar.html",
+      "title": "Plugins / Morrisjs / Examples / Bar"
+    },
+    {
+      "path": "plugins/morrisjs/examples/days.html",
+      "title": "Plugins / Morrisjs / Examples / Days"
+    },
+    {
+      "path": "plugins/morrisjs/examples/decimal-custom-hover.html",
+      "title": "Plugins / Morrisjs / Examples / Decimal Custom Hover"
+    },
+    {
+      "path": "plugins/morrisjs/examples/diagonal-xlabels-bar.html",
+      "title": "Plugins / Morrisjs / Examples / Diagonal Xlabels Bar"
+    },
+    {
+      "path": "plugins/morrisjs/examples/diagonal-xlabels.html",
+      "title": "Plugins / Morrisjs / Examples / Diagonal Xlabels"
+    },
+    {
+      "path": "plugins/morrisjs/examples/donut-colors.html",
+      "title": "Plugins / Morrisjs / Examples / Donut Colors"
+    },
+    {
+      "path": "plugins/morrisjs/examples/donut-formatter.html",
+      "title": "Plugins / Morrisjs / Examples / Donut Formatter"
+    },
+    {
+      "path": "plugins/morrisjs/examples/donut.html",
+      "title": "Plugins / Morrisjs / Examples / Donut"
+    },
+    {
+      "path": "plugins/morrisjs/examples/dst.html",
+      "title": "Plugins / Morrisjs / Examples / Dst"
+    },
+    {
+      "path": "plugins/morrisjs/examples/events.html",
+      "title": "Plugins / Morrisjs / Examples / Events"
+    },
+    {
+      "path": "plugins/morrisjs/examples/goals.html",
+      "title": "Plugins / Morrisjs / Examples / Goals"
+    },
+    {
+      "path": "plugins/morrisjs/examples/months-no-smooth.html",
+      "title": "Plugins / Morrisjs / Examples / Months No Smooth"
+    },
+    {
+      "path": "plugins/morrisjs/examples/negative.html",
+      "title": "Plugins / Morrisjs / Examples / Negative"
+    },
+    {
+      "path": "plugins/morrisjs/examples/no-grid.html",
+      "title": "Plugins / Morrisjs / Examples / No Grid"
+    },
+    {
+      "path": "plugins/morrisjs/examples/non-continuous.html",
+      "title": "Plugins / Morrisjs / Examples / Non Continuous"
+    }
+  ]
+}

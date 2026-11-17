@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-11-10T19:14:46.175Z",
+  "pagesChecked": 17,
+  "pagesOk": 17,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Vuestic Admin"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "users",
+      "title": "Users"
+    },
+    {
+      "path": "projects",
+      "title": "Projects"
+    },
+    {
+      "path": "faq",
+      "title": "Faq"
+    },
+    {
+      "path": "404",
+      "title": "404"
+    },
+    {
+      "path": "preferences",
+      "title": "Preferences"
+    },
+    {
+      "path": "settings",
+      "title": "Settings"
+    },
+    {
+      "path": "payments/payment-methods",
+      "title": "Payments / Payment Methods"
+    },
+    {
+      "path": "payments/billing",
+      "title": "Payments / Billing"
+    },
+    {
+      "path": "payments/pricing-plans",
+      "title": "Payments / Pricing Plans"
+    },
+    {
+      "path": "auth/login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/signup",
+      "title": "Auth / Signup"
+    },
+    {
+      "path": "auth/recover-password",
+      "title": "Auth / Recover Password"
+    },
+    {
+      "path": "auth/recover-password-email",
+      "title": "Auth / Recover Password Email"
+    },
+    {
+      "path": "payments",
+      "title": "Payments"
+    },
+    {
+      "path": "auth",
+      "title": "Auth"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "record": {
+    "slug": "spur",
+    "title": "Spur",
+    "description": "Bootstrap 4 admin: dashboards, charts, cards, forms, tables, components and auth pages.",
+    "repo": "HackerThemes/spur-template",
+    "sha": "7ea0c1586828b65afd53f88703d93c9c352e60bb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/HackerThemes/spur-template/blob/7ea0c1586828b65afd53f88703d93c9c352e60bb/LICENSE"
+    },
+    "author": "HackerThemes",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "charts",
+      "cards"
+    ],
+    "demoUrl": "https://hackerthemes.com/spur/demo/html/",
+    "quality": 3,
+    "entry": "html/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "html/index.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/blank.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/cards.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/chartjs.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/content.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/forms.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/icons.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/login.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/signup.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/stats.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/tables.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/typography.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      },
+      {
+        "path": "html/userinterface.html",
+        "title": "Spur - A Bootstrap Admin Template"
+      }
+    ],
+    "storedBytes": 497815,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:24.477Z"
+  },
+  "serve": {
+    "slug": "spur",
+    "kind": "static",
+    "entry": "html/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/HackerThemes/spur-template@7ea0c1586828b65afd53f88703d93c9c352e60bb/",
+    "cdnRoot": "dist",
+    "cdnMap": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-11-10T18:29:41.720Z",
+  "pagesChecked": 21,
+  "pagesOk": 21,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard - Accessible Astro Dashboard"
+    },
+    {
+      "path": "404.html",
+      "title": "404 - Accessible Astro Dashboard"
+    },
+    {
+      "path": "login/index.html",
+      "title": "Login - Accessible Astro Dashboard"
+    },
+    {
+      "path": "media/index.html",
+      "title": "Media - Accessible Astro Dashboard"
+    },
+    {
+      "path": "messages/index.html",
+      "title": "Messages - Accessible Astro Dashboard"
+    },
+    {
+      "path": "products/index.html",
+      "title": "Products - Accessible Astro Dashboard"
+    },
+    {
+      "path": "settings/index.html",
+      "title": "Settings - Accessible Astro Dashboard"
+    },
+    {
+      "path": "users/index.html",
+      "title": "Users - Accessible Astro Dashboard"
+    },
+    {
+      "path": "",
+      "title": "Dashboard - Accessible Astro Dashboard"
+    },
+    {
+      "path": "products/",
+      "title": "Products - Accessible Astro Dashboard"
+    },
+    {
+      "path": "users/",
+      "title": "Users - Accessible Astro Dashboard"
+    },
+    {
+      "path": "messages/",
+      "title": "Messages - Accessible Astro Dashboard"
+    },
+    {
+      "path": "media/",
+      "title": "Media - Accessible Astro Dashboard"
+    },
+    {
+      "path": "login/",
+      "title": "Login - Accessible Astro Dashboard"
+    },
+    {
+      "path": "settings/",
+      "title": "Settings - Accessible Astro Dashboard"
+    },
+    {
+      "path": "login",
+      "title": "Login - Accessible Astro Dashboard"
+    },
+    {
+      "path": "settings",
+      "title": "Settings - Accessible Astro Dashboard"
+    },
+    {
+      "path": "products",
+      "title": "Products - Accessible Astro Dashboard"
+    },
+    {
+      "path": "users",
+      "title": "Users - Accessible Astro Dashboard"
+    },
+    {
+      "path": "messages",
+      "title": "Messages - Accessible Astro Dashboard"
+    },
+    {
+      "path": "media",
+      "title": "Media - Accessible Astro Dashboard"
+    }
+  ]
+}

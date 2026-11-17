@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-10T18:28:47.250Z",
+  "pagesChecked": 11,
+  "pagesOk": 11,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "admin/dashboard/index.html",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "404/index.html",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/icons/index.html",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/maps/index.html",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/profile/index.html",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/tables/index.html",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "auth/login/index.html",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "auth/register/index.html",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "index.html",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/dashboard/",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    },
+    {
+      "path": "admin/dashboard",
+      "title": "NextJS Argon Dashboard by Creative Tim"
+    }
+  ]
+}

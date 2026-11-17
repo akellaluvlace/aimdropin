@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-11-10T19:22:01.625Z",
+  "pagesChecked": 25,
+  "pagesOk": 25,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Shadcn Admin"
+    },
+    {
+      "path": "tasks",
+      "title": "Tasks"
+    },
+    {
+      "path": "apps",
+      "title": "Apps"
+    },
+    {
+      "path": "chats",
+      "title": "Chats"
+    },
+    {
+      "path": "users",
+      "title": "Users"
+    },
+    {
+      "path": "clerk/sign-in",
+      "title": "Clerk / Sign In"
+    },
+    {
+      "path": "clerk/sign-up",
+      "title": "Clerk / Sign Up"
+    },
+    {
+      "path": "clerk/user-management",
+      "title": "Clerk / User Management"
+    },
+    {
+      "path": "sign-in",
+      "title": "Sign In"
+    },
+    {
+      "path": "sign-in-2",
+      "title": "Sign In 2"
+    },
+    {
+      "path": "sign-up",
+      "title": "Sign Up"
+    },
+    {
+      "path": "forgot-password",
+      "title": "Forgot Password"
+    },
+    {
+      "path": "otp",
+      "title": "Otp"
+    },
+    {
+      "path": "errors/unauthorized",
+      "title": "Errors / Unauthorized"
+    },
+    {
+      "path": "errors/forbidden",
+      "title": "Errors / Forbidden"
+    },
+    {
+      "path": "errors/not-found",
+      "title": "Errors / Not Found"
+    },
+    {
+      "path": "errors/internal-server-error",
+      "title": "Errors / Internal Server Error"
+    },
+    {
+      "path": "errors/maintenance-error",
+      "title": "Errors / Maintenance Error"
+    },
+    {
+      "path": "settings",
+      "title": "Settings"
+    },
+    {
+      "path": "settings/account",
+      "title": "Settings / Account"
+    },
+    {
+      "path": "settings/appearance",
+      "title": "Settings / Appearance"
+    },
+    {
+      "path": "settings/notifications",
+      "title": "Settings / Notifications"
+    },
+    {
+      "path": "settings/display",
+      "title": "Settings / Display"
+    },
+    {
+      "path": "help-center",
+      "title": "Help Center"
+    },
+    {
+      "path": "dashboard/overview",
+      "title": "Dashboard / Overview"
+    }
+  ]
+}

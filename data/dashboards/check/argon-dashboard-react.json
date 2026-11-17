@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-10T17:32:35.656Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Argon Dashboard React by Creative Tim"
+    },
+    {
+      "path": "admin/index",
+      "title": "Admin / Index"
+    },
+    {
+      "path": "admin/user-profile",
+      "title": "Admin / User Profile"
+    },
+    {
+      "path": "admin/icons",
+      "title": "Admin / Icons"
+    },
+    {
+      "path": "admin/maps",
+      "title": "Admin / Maps"
+    },
+    {
+      "path": "admin/tables",
+      "title": "Admin / Tables"
+    },
+    {
+      "path": "auth/login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/register",
+      "title": "Auth / Register"
+    }
+  ]
+}

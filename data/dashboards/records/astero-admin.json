@@ -1,0 +1,607 @@
+{
+  "record": {
+    "slug": "astero-admin",
+    "title": "Astero Admin",
+    "description": "Bootstrap 5.3 admin generated with Astro: dashboards, apps, users, roles and permissions, forms, tables, components and auth pages.",
+    "repo": "asterodigital/bootstrap-admin-template",
+    "sha": "74a628874af7fb322f355ecffbd792bb249cea7a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/asterodigital/bootstrap-admin-template/blob/74a628874af7fb322f355ecffbd792bb249cea7a/LICENSE"
+    },
+    "author": "Astero Digital",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "astro",
+      "dark-mode",
+      "rtl"
+    ],
+    "demoUrl": "https://asterodigital.com/astero-admin/",
+    "quality": 4,
+    "entry": "pages/dashboard.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "pages/dashboard.html",
+        "title": "Dashboard | Astero Admin"
+      },
+      {
+        "path": "index.html",
+        "title": "AsteroAdmin"
+      },
+      {
+        "path": "pages/analytics.html",
+        "title": "Analytics Dashboard | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/2-step-verification-code.html",
+        "title": "2-Step Verification Code | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/2-step-verification.html",
+        "title": "2-Step Verification | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/forgot-password.html",
+        "title": "Forgot Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/link-sent.html",
+        "title": "Recovery Link Sent | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/lock-screen.html",
+        "title": "Lock Screen | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/login.html",
+        "title": "Login | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/new-password.html",
+        "title": "New Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/register.html",
+        "title": "Register | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/reset-successfully.html",
+        "title": "Password Reset Successfully | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/basic/verify-email.html",
+        "title": "Verify Email | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/2-step-verification-code.html",
+        "title": "2-Step Verification Code | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/2-step-verification.html",
+        "title": "2-Step Verification | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/forgot-password.html",
+        "title": "Forgot Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/link-sent.html",
+        "title": "Recovery Link Sent | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/lock-screen.html",
+        "title": "Lock Screen | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/login.html",
+        "title": "Login | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/new-password.html",
+        "title": "New Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/register.html",
+        "title": "Register | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/reset-successfully.html",
+        "title": "Password Reset Successfully | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/compact-split/verify-email.html",
+        "title": "Verify Email | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/2-step-verification-code.html",
+        "title": "2-Step Verification Code | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/2-step-verification.html",
+        "title": "2-Step Verification | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/forgot-password.html",
+        "title": "Forgot Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/link-sent.html",
+        "title": "Recovery Link Sent | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/lock-screen.html",
+        "title": "Lock Screen | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/login.html",
+        "title": "Login | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/new-password.html",
+        "title": "New Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/register.html",
+        "title": "Register | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/reset-successfully.html",
+        "title": "Password Reset Successfully | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/modern/verify-email.html",
+        "title": "Verify Email | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/2-step-verification-code.html",
+        "title": "2-Step Verification Code | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/2-step-verification.html",
+        "title": "2-Step Verification | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/forgot-password.html",
+        "title": "Forgot Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/link-sent.html",
+        "title": "Recovery Link Sent | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/lock-screen.html",
+        "title": "Lock Screen | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/login.html",
+        "title": "Login | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/new-password.html",
+        "title": "New Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/register.html",
+        "title": "Register | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/reset-successfully.html",
+        "title": "Password Reset Successfully | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/social/verify-email.html",
+        "title": "Verify Email | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/2-step-verification-code.html",
+        "title": "2-Step Verification Code | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/2-step-verification.html",
+        "title": "2-Step Verification | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/forgot-password.html",
+        "title": "Forgot Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/link-sent.html",
+        "title": "Recovery Link Sent | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/lock-screen.html",
+        "title": "Lock Screen | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/login.html",
+        "title": "Login | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/new-password.html",
+        "title": "New Password | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/register.html",
+        "title": "Register | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/reset-successfully.html",
+        "title": "Password Reset Successfully | Astero Admin"
+      },
+      {
+        "path": "pages/authentication/split/verify-email.html",
+        "title": "Verify Email | Astero Admin"
+      },
+      {
+        "path": "pages/forms/form-controls.html",
+        "title": "Form Controls | Astero Admin"
+      },
+      {
+        "path": "pages/forms/horizontal.html",
+        "title": "Horizontal Form Layouts | Astero Admin"
+      },
+      {
+        "path": "pages/forms/radio-checkbox.html",
+        "title": "Radio & Checkbox | Astero Admin"
+      },
+      {
+        "path": "pages/forms/select.html",
+        "title": "Form Select Elements | Astero Admin"
+      },
+      {
+        "path": "pages/forms/switches.html",
+        "title": "Switches | Astero Admin"
+      },
+      {
+        "path": "pages/forms/validation.html",
+        "title": "Form Validation | Astero Admin"
+      },
+      {
+        "path": "pages/forms/vertical.html",
+        "title": "Vertical Form Layouts | Astero Admin"
+      },
+      {
+        "path": "pages/index.html",
+        "title": "Welcome to Astero Admin Dashboard"
+      },
+      {
+        "path": "pages/interface.html",
+        "title": "UI Components | Astero Admin"
+      },
+      {
+        "path": "pages/interface/accordion.html",
+        "title": "Accordion | Astero Admin"
+      },
+      {
+        "path": "pages/interface/alerts.html",
+        "title": "Alerts | Astero Admin"
+      },
+      {
+        "path": "pages/interface/badges.html",
+        "title": "Badges | Astero Admin"
+      },
+      {
+        "path": "pages/interface/breadcrumb.html",
+        "title": "Breadcrumb | Astero Admin"
+      },
+      {
+        "path": "pages/interface/button-group.html",
+        "title": "Button Group | Astero Admin"
+      },
+      {
+        "path": "pages/interface/buttons.html",
+        "title": "Buttons | Astero Admin"
+      },
+      {
+        "path": "pages/interface/cards.html",
+        "title": "Cards | Astero Admin"
+      },
+      {
+        "path": "pages/interface/carousel.html",
+        "title": "Carousel | Astero Admin"
+      },
+      {
+        "path": "pages/interface/close-button.html",
+        "title": "Close Button | Astero Admin"
+      },
+      {
+        "path": "pages/interface/collapse.html",
+        "title": "Collapse | Astero Admin"
+      },
+      {
+        "path": "pages/interface/colors.html",
+        "title": "Colors | Astero Admin"
+      },
+      {
+        "path": "pages/interface/dropdowns.html",
+        "title": "Dropdowns | Astero Admin"
+      },
+      {
+        "path": "pages/interface/info-box.html",
+        "title": "Info Box Components | Astero Admin"
+      },
+      {
+        "path": "pages/interface/list-group.html",
+        "title": "List Group Components | Astero Admin"
+      },
+      {
+        "path": "pages/interface/modal.html",
+        "title": "Modal | Astero Admin"
+      },
+      {
+        "path": "pages/interface/navbar.html",
+        "title": "Navbar | Astero Admin"
+      },
+      {
+        "path": "pages/interface/navs-and-tabs.html",
+        "title": "Navs and Tabs | Astero Admin"
+      },
+      {
+        "path": "pages/interface/offcanvas.html",
+        "title": "Offcanvas | Astero Admin"
+      },
+      {
+        "path": "pages/interface/pagination.html",
+        "title": "Pagination | Astero Admin"
+      },
+      {
+        "path": "pages/interface/placeholders.html",
+        "title": "Placeholders | Astero Admin"
+      },
+      {
+        "path": "pages/interface/popovers.html",
+        "title": "Popovers | Astero Admin"
+      },
+      {
+        "path": "pages/interface/progress.html",
+        "title": "Progress | Astero Admin"
+      },
+      {
+        "path": "pages/interface/scrollspy.html",
+        "title": "Scrollspy | Astero Admin"
+      },
+      {
+        "path": "pages/interface/small-box.html",
+        "title": "Small Box | Astero Admin"
+      },
+      {
+        "path": "pages/interface/spinners.html",
+        "title": "Spinners | Astero Admin"
+      },
+      {
+        "path": "pages/interface/text-animations.html",
+        "title": "Text Animations | Astero Admin"
+      },
+      {
+        "path": "pages/interface/toasts.html",
+        "title": "Toasts | Astero Admin"
+      },
+      {
+        "path": "pages/interface/tooltips.html",
+        "title": "Tooltips | Astero Admin"
+      },
+      {
+        "path": "pages/interface/typography.html",
+        "title": "Typography | Astero Admin"
+      },
+      {
+        "path": "pages/others/401.html",
+        "title": "401 - Unauthorized | Astero Admin"
+      },
+      {
+        "path": "pages/others/500.html",
+        "title": "500 - Server Error | Astero Admin"
+      },
+      {
+        "path": "pages/others/coming-soon.html",
+        "title": "Coming Soon | Astero Admin"
+      },
+      {
+        "path": "pages/others/error.html",
+        "title": "404 - Page Not Found | Astero Admin"
+      },
+      {
+        "path": "pages/others/maintenance.html",
+        "title": "Maintenance Mode | Astero Admin"
+      },
+      {
+        "path": "pages/others/password-protected.html",
+        "title": "Password Protected | Astero Admin"
+      },
+      {
+        "path": "pages/others/rtl-demo.html",
+        "title": "عرض دعم RTL | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/groups/add.html",
+        "title": "Add Group | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/groups/edit.html",
+        "title": "Edit Group | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/groups/list.html",
+        "title": "Groups | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/permissions/access.html",
+        "title": "Access | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/permissions/add.html",
+        "title": "Add Permission | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/permissions/edit.html",
+        "title": "Edit Permission | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/permissions/list.html",
+        "title": "Permissions | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/roles/add.html",
+        "title": "Add Role | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/roles/edit.html",
+        "title": "Edit Role | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/roles/list.html",
+        "title": "Roles | Astero Admin"
+      },
+      {
+        "path": "pages/roles-permissions/roles/view.html",
+        "title": "View Role | Astero Admin"
+      },
+      {
+        "path": "pages/settings.html",
+        "title": "System Settings | Astero Admin"
+      },
+      {
+        "path": "pages/settings/system/logs/activity.html",
+        "title": "Activity Logs | Astero Admin"
+      },
+      {
+        "path": "pages/tables/advanced.html",
+        "title": "Advanced Tables | Astero Admin"
+      },
+      {
+        "path": "pages/tables/basic.html",
+        "title": "Basic Tables | Astero Admin"
+      },
+      {
+        "path": "pages/tables/datatable.html",
+        "title": "DataTables | Astero Admin"
+      },
+      {
+        "path": "pages/tables/datatable/products.html",
+        "title": "Products"
+      },
+      {
+        "path": "pages/tables/enhanced.html",
+        "title": "Enhanced Tables | Astero Admin"
+      },
+      {
+        "path": "pages/users/add.html",
+        "title": "Create User | Astero Admin"
+      },
+      {
+        "path": "pages/users/billing.html",
+        "title": "Billing & Subscription | Astero Admin"
+      },
+      {
+        "path": "pages/users/edit.html",
+        "title": "Edit User Account | Astero Admin"
+      },
+      {
+        "path": "pages/users/list.html",
+        "title": "User Management | Astero Admin"
+      },
+      {
+        "path": "pages/users/notifications.html",
+        "title": "Notification Preferences | Astero Admin"
+      },
+      {
+        "path": "pages/users/profile.html",
+        "title": "User Profile | Astero Admin"
+      },
+      {
+        "path": "pages/users/security.html",
+        "title": "Account Security | Astero Admin"
+      },
+      {
+        "path": "pages/users/team.html",
+        "title": "Team Management | Astero Admin"
+      }
+    ],
+    "storedBytes": 22943913,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:33.602Z"
+  },
+  "serve": {
+    "slug": "astero-admin",
+    "kind": "build",
+    "entry": "pages/dashboard.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/asterodigital/bootstrap-admin-template@74a628874af7fb322f355ecffbd792bb249cea7a/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-touch-icon.png": "src/assets/favicon/apple-touch-icon.png",
+      "assets/favicon/apple-touch-icon.png": "src/assets/favicon/apple-touch-icon.png",
+      "assets/favicon/favicon.ico": "src/assets/favicon/favicon.ico",
+      "assets/favicon/icon-192.png": "src/assets/favicon/icon-192.png",
+      "assets/favicon/icon-512.png": "src/assets/favicon/icon-512.png",
+      "assets/favicon/icon-mask.png": "src/assets/favicon/icon-mask.png",
+      "assets/favicon/manifest.webmanifest": "src/assets/favicon/manifest.webmanifest",
+      "assets/img/avatars/avatar1.jpg": "src/assets/img/avatars/avatar1.jpg",
+      "assets/img/avatars/avatar10.jpg": "src/assets/img/avatars/avatar10.jpg",
+      "assets/img/avatars/avatar2.jpg": "src/assets/img/avatars/avatar2.jpg",
+      "assets/img/avatars/avatar3.jpg": "src/assets/img/avatars/avatar3.jpg",
+      "assets/img/avatars/avatar4.jpg": "src/assets/img/avatars/avatar4.jpg",
+      "assets/img/avatars/avatar5.jpg": "src/assets/img/avatars/avatar5.jpg",
+      "assets/img/avatars/avatar6.jpg": "src/assets/img/avatars/avatar6.jpg",
+      "assets/img/avatars/avatar7.jpg": "src/assets/img/avatars/avatar7.jpg",
+      "assets/img/avatars/avatar8.jpg": "src/assets/img/avatars/avatar8.jpg",
+      "assets/img/avatars/avatar9.jpg": "src/assets/img/avatars/avatar9.jpg",
+      "assets/img/avatars/placeholder-avatar.jpg": "src/assets/img/avatars/placeholder-avatar.jpg",
+      "assets/img/feature-image.png": ".github/images/feature-image.png",
+      "assets/img/pages/401.png": "src/assets/img/pages/401.png",
+      "assets/img/pages/404.png": "src/assets/img/pages/404.png",
+      "assets/img/pages/500.png": "src/assets/img/pages/500.png",
+      "assets/img/pages/coming-soon.png": "src/assets/img/pages/coming-soon.png",
+      "assets/img/pages/maintenance.png": "src/assets/img/pages/maintenance.png",
+      "assets/img/pages/maintenance2.png": "src/assets/img/pages/maintenance2.png",
+      "assets/img/pages/maintenance3.png": "src/assets/img/pages/maintenance3.png",
+      "assets/img/pages/nice.png": "src/assets/img/pages/nice.png",
+      "assets/img/placeholder-images/placeholder-image-1200x440-dark.png": "src/assets/img/placeholder-images/placeholder-image-1200x440-dark.png",
+      "assets/img/placeholder-images/placeholder-image-1200x440.png": "src/assets/img/placeholder-images/placeholder-image-1200x440.png",
+      "assets/img/placeholder-images/placeholder-image-180x240.png": "src/assets/img/placeholder-images/placeholder-image-180x240.png",
+      "assets/img/placeholder-images/placeholder-image-300x140.png": "src/assets/img/placeholder-images/placeholder-image-300x140.png",
+      "assets/img/placeholder-images/placeholder-image-300x200.png": "src/assets/img/placeholder-images/placeholder-image-300x200.png",
+      "assets/img/placeholder-images/placeholder-image-740x200-dark.png": "src/assets/img/placeholder-images/placeholder-image-740x200-dark.png",
+      "assets/img/placeholder-images/placeholder-image-740x200.png": "src/assets/img/placeholder-images/placeholder-image-740x200.png",
+      "assets/img/products/product-1.jpg": "src/assets/img/products/product-1.jpg",
+      "assets/img/products/product-2.jpg": "src/assets/img/products/product-2.jpg",
+      "assets/img/products/product-3.jpg": "src/assets/img/products/product-3.jpg",
+      "assets/img/products/product-4.jpg": "src/assets/img/products/product-4.jpg",
+      "assets/img/products/product-5.jpg": "src/assets/img/products/product-5.jpg",
+      "assets/img/products/product-6.jpg": "src/assets/img/products/product-6.jpg",
+      "assets/img/puppies/beagle.png": "src/assets/img/puppies/beagle.png",
+      "assets/img/puppies/bulldog.png": "src/assets/img/puppies/bulldog.png",
+      "assets/img/puppies/german-shepherd.png": "src/assets/img/puppies/german-shepherd.png",
+      "assets/img/puppies/labrador.png": "src/assets/img/puppies/labrador.png",
+      "assets/img/puppies/poodle.png": "src/assets/img/puppies/poodle.png",
+      "assets/img/puppies/rottweiler.png": "src/assets/img/puppies/rottweiler.png",
+      "assets/js/pages/roles-permissions/groups/table.js": "src/assets/js/pages/roles-permissions/groups/table.js",
+      "assets/js/pages/roles-permissions/permissions/table.js": "src/assets/js/pages/roles-permissions/permissions/table.js",
+      "assets/js/pages/roles-permissions/roles/toggle-permissions.js": "src/assets/js/pages/roles-permissions/roles/toggle-permissions.js",
+      "assets/js/pages/tables/datatable.js": "src/assets/js/pages/tables/datatable.js",
+      "assets/js/pages/users/form.js": "src/assets/js/pages/users/form.js",
+      "assets/js/pages/users/list.js": "src/assets/js/pages/users/list.js",
+      "assets/js/snippets.js": "src/assets/js/snippets.js",
+      "assets/vendor/css/codemirror-editor.css": "src/assets/vendor/css/codemirror-editor.css",
+      "assets/vendor/css/component-preview.css": "src/assets/vendor/css/component-preview.css",
+      "assets/vendor/css/skin.css": "src/assets/vendor/css/skin.css",
+      "assets/vendor/datatables/datatables.init.js": "src/assets/vendor/datatables/datatables.init.js",
+      "assets/vendor/js/component-preview/codemirror-editor.js": "src/assets/vendor/js/component-preview/codemirror-editor.js",
+      "assets/vendor/js/component-preview/ui-controls-manager.js": "src/assets/vendor/js/component-preview/ui-controls-manager.js",
+      "assets/vendor/js/table/table-filter.js": "src/assets/vendor/js/table/table-filter.js",
+      "assets/vendor/js/table/table-pagination.js": "src/assets/vendor/js/table/table-pagination.js",
+      "favicon.ico": "src/assets/favicon/favicon.ico",
+      "icon-192.png": "src/assets/favicon/icon-192.png",
+      "icon-512.png": "src/assets/favicon/icon-512.png",
+      "icon-mask.png": "src/assets/favicon/icon-mask.png",
+      "manifest.webmanifest": "src/assets/favicon/manifest.webmanifest"
+    }
+  }
+}

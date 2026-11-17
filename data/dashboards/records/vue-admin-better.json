@@ -1,0 +1,61 @@
+{
+  "record": {
+    "slug": "vue-admin-better",
+    "title": "Vue Admin Better",
+    "description": "Vue 2 + Element UI admin built with Rspack: dashboard, tables, forms, icons, permissions, editors, charts and error pages with MockJS data.",
+    "repo": "zxwk1998/vue-admin-better",
+    "sha": "b02834b2dd9148bca55fdb168347890eb1a35e88",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/zxwk1998/vue-admin-better/blob/b02834b2dd9148bca55fdb168347890eb1a35e88/LICENSE"
+    },
+    "author": "zxwk1998",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "rspack",
+      "vue2",
+      "element-ui",
+      "mockjs",
+      "echarts"
+    ],
+    "demoUrl": "https://zxwk1998.github.io/vue-admin-better/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue Admin Better"
+      }
+    ],
+    "storedBytes": 15277678,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:40.219Z"
+  },
+  "serve": {
+    "slug": "vue-admin-better",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/zxwk1998/vue-admin-better@b02834b2dd9148bca55fdb168347890eb1a35e88/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "favicon_backup.ico": "public/favicon_backup.ico",
+      "robots.txt": "public/robots.txt",
+      "static/401.03b82ae6c95d71a9.png": "src/assets/error_images/401.png",
+      "static/404.42feab213e254a83.png": "src/assets/error_images/404.png",
+      "static/background.a69dce67d9e3dc78.jpg": "src/assets/login_images/background.jpg",
+      "static/css/loading.css": "public/static/css/loading.css",
+      "static/left.1b194ee6d9da225d.jpg": "src/assets/comparison/left.jpg",
+      "static/mynb.780189e3b44b5aa4.jpg": "src/assets/mynb.jpg",
+      "static/right.9d354013c83fa357.jpg": "src/assets/comparison/right.jpg",
+      "static/zfb_kf.95c922b4564cd764.jpg": "src/assets/zfb_kf.jpg"
+    }
+  }
+}

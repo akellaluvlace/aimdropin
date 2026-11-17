@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-10T19:15:01.531Z",
+  "pagesChecked": 10,
+  "pagesOk": 10,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Vue White Dashboard by Creative Tim"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "icons",
+      "title": "Icons"
+    },
+    {
+      "path": "maps",
+      "title": "Maps"
+    },
+    {
+      "path": "notifications",
+      "title": "Notifications"
+    },
+    {
+      "path": "user",
+      "title": "User"
+    },
+    {
+      "path": "table",
+      "title": "Table"
+    },
+    {
+      "path": "typography",
+      "title": "Typography"
+    },
+    {
+      "path": "dashboard?enableRTL=true",
+      "title": "Dashboard"
+    },
+    {
+      "path": "upgradeToPro",
+      "title": "UpgradeToPro"
+    }
+  ]
+}

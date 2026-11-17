@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-11-10T19:02:31.130Z",
+  "pagesChecked": 18,
+  "pagesOk": 18,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "仪表盘 - Admin Pro"
+    },
+    {
+      "path": "users",
+      "title": "用户管理 - Admin Pro"
+    },
+    {
+      "path": "users/demo/profile",
+      "title": "用户管理 - Admin Pro"
+    },
+    {
+      "path": "users/demo/security",
+      "title": "用户管理 - Admin Pro"
+    },
+    {
+      "path": "messages",
+      "title": "消息中心 - Admin Pro"
+    },
+    {
+      "path": "files",
+      "title": "文件管理 - Admin Pro"
+    },
+    {
+      "path": "calendar",
+      "title": "日程管理 - Admin Pro"
+    },
+    {
+      "path": "security",
+      "title": "安全审计 - Admin Pro"
+    },
+    {
+      "path": "settings",
+      "title": "系统设置 - Admin Pro"
+    },
+    {
+      "path": "analytics",
+      "title": "数据分析 - Admin Pro"
+    },
+    {
+      "path": "privacy",
+      "title": "Admin Pro - Admin Pro"
+    },
+    {
+      "path": "terms",
+      "title": "Admin Pro - Admin Pro"
+    },
+    {
+      "path": "notifications",
+      "title": "通知中心 - Admin Pro"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "register",
+      "title": "Register"
+    },
+    {
+      "path": "forgot-password",
+      "title": "Forgot Password"
+    },
+    {
+      "path": "reset-password",
+      "title": "Reset Password"
+    },
+    {
+      "path": "profile",
+      "title": "个人中心 - Admin Pro"
+    }
+  ]
+}

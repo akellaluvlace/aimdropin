@@ -1,0 +1,301 @@
+{
+  "record": {
+    "slug": "kiaalap",
+    "title": "Kiaalap",
+    "description": "Education and LMS admin template on Bootstrap 5.3: courses, students, professors, library, calendar, mail and auth pages.",
+    "repo": "puikinsh/kiaalap",
+    "sha": "f1af1555d30ce94718ade1d1ff150385dafe3786",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles simple-datatables (LGPL-3.0).",
+      "url": "https://github.com/puikinsh/kiaalap/blob/f1af1555d30ce94718ade1d1ff150385dafe3786/LICENSE"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "education",
+      "chartjs",
+      "vite"
+    ],
+    "demoUrl": "https://colorlib.com/polygon/kiaalap/index.html",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard - Kiaalap Dashboard"
+      },
+      {
+        "path": "404.html",
+        "title": "404 - Kiaalap Dashboard"
+      },
+      {
+        "path": "500.html",
+        "title": "500 - Kiaalap Dashboard"
+      },
+      {
+        "path": "accordion.html",
+        "title": "Accordion - Kiaalap Dashboard"
+      },
+      {
+        "path": "add-course.html",
+        "title": "Add course - Kiaalap Dashboard"
+      },
+      {
+        "path": "add-department.html",
+        "title": "Add department - Kiaalap Dashboard"
+      },
+      {
+        "path": "add-library-assets.html",
+        "title": "Add Library Asset - Kiaalap Dashboard"
+      },
+      {
+        "path": "add-professor.html",
+        "title": "Add professor - Kiaalap Dashboard"
+      },
+      {
+        "path": "add-student.html",
+        "title": "Add student - Kiaalap Dashboard"
+      },
+      {
+        "path": "advance-form-element.html",
+        "title": "Advance form element - Kiaalap Dashboard"
+      },
+      {
+        "path": "alerts.html",
+        "title": "Alert Components - Kiaalap Dashboard"
+      },
+      {
+        "path": "all-courses.html",
+        "title": "All courses - Kiaalap Dashboard"
+      },
+      {
+        "path": "all-professors.html",
+        "title": "All professors - Kiaalap Dashboard"
+      },
+      {
+        "path": "all-students.html",
+        "title": "All students - Kiaalap Dashboard"
+      },
+      {
+        "path": "analytics.html",
+        "title": "Analytics Dashboard - Kiaalap Dashboard"
+      },
+      {
+        "path": "area-charts.html",
+        "title": "Area Charts - Kiaalap Dashboard"
+      },
+      {
+        "path": "bar-charts.html",
+        "title": "Bar Charts - Kiaalap Dashboard"
+      },
+      {
+        "path": "basic-form-element.html",
+        "title": "Basic form element - Kiaalap Dashboard"
+      },
+      {
+        "path": "buttons.html",
+        "title": "Button Components - Kiaalap Dashboard"
+      },
+      {
+        "path": "c3.html",
+        "title": "C3 Charts - Kiaalap Dashboard"
+      },
+      {
+        "path": "code-editor.html",
+        "title": "Code editor - Kiaalap Dashboard"
+      },
+      {
+        "path": "course-info.html",
+        "title": "Course Info - Kiaalap Dashboard"
+      },
+      {
+        "path": "course-payment.html",
+        "title": "Course payment - Kiaalap Dashboard"
+      },
+      {
+        "path": "data-maps.html",
+        "title": "Data maps - Kiaalap Dashboard"
+      },
+      {
+        "path": "data-table.html",
+        "title": "Data table - Kiaalap Dashboard"
+      },
+      {
+        "path": "departments.html",
+        "title": "Departments - Kiaalap Dashboard"
+      },
+      {
+        "path": "dual-list-box.html",
+        "title": "Dual list box - Kiaalap Dashboard"
+      },
+      {
+        "path": "edit-course.html",
+        "title": "Edit course - Kiaalap Dashboard"
+      },
+      {
+        "path": "edit-department.html",
+        "title": "Edit department - Kiaalap Dashboard"
+      },
+      {
+        "path": "edit-library-assets.html",
+        "title": "Edit Library Asset - Kiaalap Dashboard"
+      },
+      {
+        "path": "edit-professor.html",
+        "title": "Edit professor - Kiaalap Dashboard"
+      },
+      {
+        "path": "edit-student.html",
+        "title": "Edit student - Kiaalap Dashboard"
+      },
+      {
+        "path": "events.html",
+        "title": "Events - Kiaalap Dashboard"
+      },
+      {
+        "path": "google-map.html",
+        "title": "Google map - Kiaalap Dashboard"
+      },
+      {
+        "path": "images-cropper.html",
+        "title": "Images cropper - Kiaalap Dashboard"
+      },
+      {
+        "path": "index-1.html",
+        "title": "Dashboard Variant 1 - Kiaalap Dashboard"
+      },
+      {
+        "path": "index-2.html",
+        "title": "Dashboard Variant 2 - Kiaalap Dashboard"
+      },
+      {
+        "path": "library-assets.html",
+        "title": "Library Assets - Kiaalap Dashboard"
+      },
+      {
+        "path": "line-charts.html",
+        "title": "Line Charts - Kiaalap Dashboard"
+      },
+      {
+        "path": "lock.html",
+        "title": "Lock Screen - Kiaalap"
+      },
+      {
+        "path": "login.html",
+        "title": "Login - Kiaalap"
+      },
+      {
+        "path": "mailbox-compose.html",
+        "title": "Compose Message - Kiaalap Dashboard"
+      },
+      {
+        "path": "mailbox-view.html",
+        "title": "View Message - Kiaalap Dashboard"
+      },
+      {
+        "path": "mailbox.html",
+        "title": "Mailbox - Kiaalap Dashboard"
+      },
+      {
+        "path": "modals.html",
+        "title": "Modal Components - Kiaalap Dashboard"
+      },
+      {
+        "path": "multi-upload.html",
+        "title": "Multi upload - Kiaalap Dashboard"
+      },
+      {
+        "path": "notifications.html",
+        "title": "Notifications - Kiaalap Dashboard"
+      },
+      {
+        "path": "password-meter.html",
+        "title": "Password meter - Kiaalap Dashboard"
+      },
+      {
+        "path": "password-recovery.html",
+        "title": "Password Recovery - Kiaalap"
+      },
+      {
+        "path": "pdf-viewer.html",
+        "title": "Pdf viewer - Kiaalap Dashboard"
+      },
+      {
+        "path": "peity.html",
+        "title": "Peity Charts - Kiaalap Dashboard"
+      },
+      {
+        "path": "preloader.html",
+        "title": "Preloader - Kiaalap Dashboard"
+      },
+      {
+        "path": "professor-profile.html",
+        "title": "Professor Profile - Kiaalap Dashboard"
+      },
+      {
+        "path": "register.html",
+        "title": "Register - Kiaalap"
+      },
+      {
+        "path": "rounded-chart.html",
+        "title": "Rounded Charts - Kiaalap Dashboard"
+      },
+      {
+        "path": "sparkline.html",
+        "title": "Sparkline Charts - Kiaalap Dashboard"
+      },
+      {
+        "path": "starter.html",
+        "title": "Starter - Kiaalap Dashboard"
+      },
+      {
+        "path": "static-table.html",
+        "title": "Static table - Kiaalap Dashboard"
+      },
+      {
+        "path": "student-profile.html",
+        "title": "Student profile - Kiaalap Dashboard"
+      },
+      {
+        "path": "tabs.html",
+        "title": "Tabs - Kiaalap Dashboard"
+      },
+      {
+        "path": "tinymc.html",
+        "title": "Tinymc - Kiaalap Dashboard"
+      },
+      {
+        "path": "tree-view.html",
+        "title": "Tree view - Kiaalap Dashboard"
+      },
+      {
+        "path": "widgets.html",
+        "title": "Widgets - Kiaalap Dashboard"
+      }
+    ],
+    "storedBytes": 5051145,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:28.061Z"
+  },
+  "serve": {
+    "slug": "kiaalap",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/puikinsh/kiaalap@f1af1555d30ce94718ade1d1ff150385dafe3786/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/favicon-9EIT7vLh.ico": "favicon.ico",
+      "images/kiaalap-dashboard-preview.jpg": "public/images/kiaalap-dashboard-preview.jpg",
+      "images/logo.png": "public/images/logo.png"
+    }
+  }
+}

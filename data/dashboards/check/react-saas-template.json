@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-11-10T17:47:45.422Z",
+  "pagesChecked": 17,
+  "pagesOk": 17,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "WaVer - Free template for building a SaaS or admin application"
+    },
+    {
+      "path": "c/dashboard",
+      "title": "WaVer - Dashboard"
+    },
+    {
+      "path": "blog",
+      "title": "WaVer - Blog"
+    },
+    {
+      "path": "c/posts",
+      "title": "WaVer - Posts"
+    },
+    {
+      "path": "c/subscription",
+      "title": "WaVer - Subscription"
+    },
+    {
+      "path": "blog/post/post-1",
+      "title": "WaVer - Post 1"
+    },
+    {
+      "path": "blog/post/post-4",
+      "title": "WaVer - Post 4"
+    },
+    {
+      "path": "blog/post/post-2",
+      "title": "WaVer - Post 2"
+    },
+    {
+      "path": "blog/post/post-5",
+      "title": "WaVer - Post 5"
+    },
+    {
+      "path": "blog/post/post-3",
+      "title": "WaVer - Post 3"
+    },
+    {
+      "path": "blog/post/post-6",
+      "title": "WaVer - Post 6"
+    },
+    {
+      "path": "blog/post/post-2?id=2",
+      "title": "WaVer - Post 2"
+    },
+    {
+      "path": "blog/post/post-3?id=3",
+      "title": "WaVer - Post 3"
+    },
+    {
+      "path": "blog/post/post-4?id=4",
+      "title": "WaVer - Post 4"
+    },
+    {
+      "path": "blog/post/post-5?id=5",
+      "title": "WaVer - Post 5"
+    },
+    {
+      "path": "blog/post/post-6?id=6",
+      "title": "WaVer - Post 6"
+    },
+    {
+      "path": "blog/post/post-1?id=1",
+      "title": "WaVer - Post 1"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "record": {
+    "slug": "tremor-overview",
+    "title": "Tremor Overview",
+    "description": "Support-center analytics with support, retention, workflow and agents dashboards plus a login page.",
+    "repo": "tremorlabs/template-overview",
+    "sha": "ee80d622c3d92f25b5b714a91319fd930dbeae7e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/tremorlabs/template-overview/blob/ee80d622c3d92f25b5b714a91319fd930dbeae7e/LICENSE.md"
+    },
+    "author": "Tremor Labs",
+    "framework": "next",
+    "ui": "tremor",
+    "category": "Analytics",
+    "tags": [
+      "tremor",
+      "recharts",
+      "support",
+      "dark-mode"
+    ],
+    "demoUrl": "https://overview.tremor.so",
+    "quality": 4,
+    "entry": "support/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "support/index.html",
+        "title": "Overview"
+      },
+      {
+        "path": "404.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "404/index.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "agents/index.html",
+        "title": "Overview"
+      },
+      {
+        "path": "login/index.html",
+        "title": "Overview"
+      },
+      {
+        "path": "retention/index.html",
+        "title": "Overview"
+      },
+      {
+        "path": "workflow/index.html",
+        "title": "Overview"
+      }
+    ],
+    "storedBytes": 2381811,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:56:46.490Z"
+  },
+  "serve": {
+    "slug": "tremor-overview",
+    "kind": "build",
+    "entry": "support/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/tremorlabs/template-overview@ee80d622c3d92f25b5b714a91319fd930dbeae7e/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "Logo.tsx": "public/Logo.tsx",
+      "favicon.ico": "src/app/favicon.ico"
+    }
+  }
+}

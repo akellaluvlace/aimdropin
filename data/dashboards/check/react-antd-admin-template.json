@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-11-10T17:53:38.819Z",
+  "pagesChecked": 23,
+  "pagesOk": 23,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "首页 - Ant Design Pro"
+    },
+    {
+      "path": "#/dashboard",
+      "title": "Home"
+    },
+    {
+      "path": "#/doc",
+      "title": "作者博客 - Ant Design Pro"
+    },
+    {
+      "path": "#/guide",
+      "title": "引导页 - Ant Design Pro"
+    },
+    {
+      "path": "#/permission/explanation",
+      "title": "权限说明 - Ant Design Pro"
+    },
+    {
+      "path": "#/permission/adminPage",
+      "title": "admin页面 - Ant Design Pro"
+    },
+    {
+      "path": "#/permission/guestPage",
+      "title": "guest页面 - Ant Design Pro"
+    },
+    {
+      "path": "#/permission/editorPage",
+      "title": "editor页面 - Ant Design Pro"
+    },
+    {
+      "path": "#/components/richTextEditor",
+      "title": "富文本 - Ant Design Pro"
+    },
+    {
+      "path": "#/components/Markdown",
+      "title": "Markdown - Ant Design Pro"
+    },
+    {
+      "path": "#/components/draggable",
+      "title": "拖拽列表 - Ant Design Pro"
+    },
+    {
+      "path": "#/charts/keyboard",
+      "title": "键盘图表 - Ant Design Pro"
+    },
+    {
+      "path": "#/charts/line",
+      "title": "折线图 - Ant Design Pro"
+    },
+    {
+      "path": "#/charts/mix-chart",
+      "title": "混合图表 - Ant Design Pro"
+    },
+    {
+      "path": "#/table",
+      "title": "表格 - Ant Design Pro"
+    },
+    {
+      "path": "#/excel/export",
+      "title": "导出Excel - Ant Design Pro"
+    },
+    {
+      "path": "#/excel/upload",
+      "title": "上传Excel - Ant Design Pro"
+    },
+    {
+      "path": "#/zip",
+      "title": "Zip - Ant Design Pro"
+    },
+    {
+      "path": "#/clipboard",
+      "title": "剪贴板 - Ant Design Pro"
+    },
+    {
+      "path": "#/user",
+      "title": "用户管理 - Ant Design Pro"
+    },
+    {
+      "path": "#/about",
+      "title": "关于作者 - Ant Design Pro"
+    },
+    {
+      "path": "#/bug",
+      "title": "Bug收集 - Ant Design Pro"
+    },
+    {
+      "path": "#/",
+      "title": "Home"
+    }
+  ]
+}

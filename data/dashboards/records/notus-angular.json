@@ -1,0 +1,75 @@
+{
+  "record": {
+    "slug": "notus-angular",
+    "title": "Notus Angular",
+    "description": "Creative Tim's Notus for Angular and Tailwind: admin dashboard, settings, tables, maps, login/register, landing and profile pages.",
+    "repo": "creativetimofficial/notus-angular",
+    "sha": "d5eecfcab397f528a60fec61e38bfd7bab67ebc0",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/notus-angular/blob/d5eecfcab397f528a60fec61e38bfd7bab67ebc0/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "angular",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "tailwind",
+      "chartjs",
+      "landing-page"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-angular/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Notus Angular"
+      }
+    ],
+    "storedBytes": 5105134,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:25.840Z"
+  },
+  "serve": {
+    "slug": "notus-angular",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/notus-angular@d5eecfcab397f528a60fec61e38bfd7bab67ebc0/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/img/angular.jpg": "src/assets/img/angular.jpg",
+      "assets/img/bootstrap.jpg": "src/assets/img/bootstrap.jpg",
+      "assets/img/component-btn-pink.png": "src/assets/img/component-btn-pink.png",
+      "assets/img/component-btn.png": "src/assets/img/component-btn.png",
+      "assets/img/component-info-2.png": "src/assets/img/component-info-2.png",
+      "assets/img/component-info-card.png": "src/assets/img/component-info-card.png",
+      "assets/img/component-menu.png": "src/assets/img/component-menu.png",
+      "assets/img/component-profile-card.png": "src/assets/img/component-profile-card.png",
+      "assets/img/documentation.png": "src/assets/img/documentation.png",
+      "assets/img/ill_header.png": "src/assets/img/ill_header.png",
+      "assets/img/landing.jpg": "src/assets/img/landing.jpg",
+      "assets/img/login.jpg": "src/assets/img/login.jpg",
+      "assets/img/pattern_angular.png": "src/assets/img/pattern_angular.png",
+      "assets/img/pattern_react.png": "src/assets/img/pattern_react.png",
+      "assets/img/profile.jpg": "src/assets/img/profile.jpg",
+      "assets/img/react.jpg": "src/assets/img/react.jpg",
+      "assets/img/register_bg_2.png": "src/assets/img/register_bg_2.png",
+      "assets/img/sketch.jpg": "src/assets/img/sketch.jpg",
+      "assets/img/team-1-800x800.jpg": "src/assets/img/team-1-800x800.jpg",
+      "assets/img/team-2-800x800.jpg": "src/assets/img/team-2-800x800.jpg",
+      "assets/img/team-3-800x800.jpg": "src/assets/img/team-3-800x800.jpg",
+      "assets/img/team-4-470x470.png": "src/assets/img/team-4-470x470.png",
+      "assets/img/vue.jpg": "src/assets/img/vue.jpg",
+      "assets/styles/index.css": "src/assets/styles/index.css",
+      "assets/styles/tailwind.css": "src/assets/styles/tailwind.css",
+      "favicon.ico": "src/favicon.ico"
+    }
+  }
+}

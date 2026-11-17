@@ -1,0 +1,118 @@
+{
+  "checkedAt": "2026-11-10T19:07:15.072Z",
+  "pagesChecked": 26,
+  "pagesOk": 25,
+  "failures": [
+    {
+      "path": "marketing/hello",
+      "problem": "page is empty"
+    }
+  ],
+  "deadLinks": [
+    "errors/404",
+    "auth",
+    "errors"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "shadcn-vue-admin"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "tasks",
+      "title": "Tasks"
+    },
+    {
+      "path": "apps",
+      "title": "Apps"
+    },
+    {
+      "path": "users",
+      "title": "Users"
+    },
+    {
+      "path": "ai-talk",
+      "title": "Ai Talk"
+    },
+    {
+      "path": "auth/sign-in",
+      "title": "Auth / Sign In"
+    },
+    {
+      "path": "auth/sign-in-2",
+      "title": "Auth / Sign In 2"
+    },
+    {
+      "path": "auth/sign-up",
+      "title": "Auth / Sign Up"
+    },
+    {
+      "path": "auth/forgot-password",
+      "title": "Auth / Forgot Password"
+    },
+    {
+      "path": "auth/otp",
+      "title": "Auth / Otp"
+    },
+    {
+      "path": "errors/401",
+      "title": "Errors / 401"
+    },
+    {
+      "path": "errors/403",
+      "title": "Errors / 403"
+    },
+    {
+      "path": "errors/500",
+      "title": "Errors / 500"
+    },
+    {
+      "path": "errors/503",
+      "title": "Errors / 503"
+    },
+    {
+      "path": "settings/",
+      "title": "Settings"
+    },
+    {
+      "path": "settings/account",
+      "title": "Settings / Account"
+    },
+    {
+      "path": "settings/appearance",
+      "title": "Settings / Appearance"
+    },
+    {
+      "path": "settings/notifications",
+      "title": "Settings / Notifications"
+    },
+    {
+      "path": "settings/display",
+      "title": "Settings / Display"
+    },
+    {
+      "path": "prop-components",
+      "title": "Prop Components"
+    },
+    {
+      "path": "help-center",
+      "title": "Help Center"
+    },
+    {
+      "path": "billing",
+      "title": "Billing"
+    },
+    {
+      "path": "marketing",
+      "title": "Marketing"
+    },
+    {
+      "path": "settings",
+      "title": "Settings"
+    }
+  ]
+}

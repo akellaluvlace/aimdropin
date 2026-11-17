@@ -1,0 +1,87 @@
+{
+  "record": {
+    "slug": "sb-admin-html",
+    "title": "SB Admin",
+    "description": "Bootstrap 5 admin: dashboard with Chart.js charts and data tables, layouts, auth and error pages.",
+    "repo": "StartBootstrap/startbootstrap-sb-admin",
+    "sha": "adde34b9616b9840c4da756323131f59ac445090",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin/blob/adde34b9616b9840c4da756323131f59ac445090/LICENSE"
+    },
+    "author": "Start Bootstrap",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "charts",
+      "datatables"
+    ],
+    "demoUrl": "https://startbootstrap.github.io/startbootstrap-sb-admin/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard - SB Admin"
+      },
+      {
+        "path": "401.html",
+        "title": "404 Error - SB Admin"
+      },
+      {
+        "path": "404.html",
+        "title": "404 Error - SB Admin"
+      },
+      {
+        "path": "500.html",
+        "title": "404 Error - SB Admin"
+      },
+      {
+        "path": "charts.html",
+        "title": "Charts - SB Admin"
+      },
+      {
+        "path": "layout-sidenav-light.html",
+        "title": "Sidenav Light - SB Admin"
+      },
+      {
+        "path": "layout-static.html",
+        "title": "Static Navigation - SB Admin"
+      },
+      {
+        "path": "login.html",
+        "title": "Login - SB Admin"
+      },
+      {
+        "path": "password.html",
+        "title": "Password Reset - SB Admin"
+      },
+      {
+        "path": "register.html",
+        "title": "Register - SB Admin"
+      },
+      {
+        "path": "tables.html",
+        "title": "Tables - SB Admin"
+      }
+    ],
+    "storedBytes": 137613,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:24.426Z"
+  },
+  "serve": {
+    "slug": "sb-admin-html",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/StartBootstrap/startbootstrap-sb-admin@adde34b9616b9840c4da756323131f59ac445090/",
+    "cdnRoot": "dist",
+    "cdnMap": null
+  }
+}

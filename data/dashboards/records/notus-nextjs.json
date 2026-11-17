@@ -1,0 +1,113 @@
+{
+  "record": {
+    "slug": "notus-nextjs",
+    "title": "Notus NextJS",
+    "description": "Tailwind UI kit and admin on Next.js: dashboard, settings, tables and maps pages, login/register, landing and profile.",
+    "repo": "creativetimofficial/notus-nextjs",
+    "sha": "83af9355cf3373c31d5f5f3845e65185d327186d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/notus-nextjs/blob/83af9355cf3373c31d5f5f3845e65185d327186d/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "next",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "pages-router",
+      "chartjs",
+      "landing"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-nextjs/",
+    "quality": 4,
+    "entry": "admin/dashboard/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "admin/dashboard/index.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "404.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "admin/maps/index.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "admin/settings/index.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "admin/tables/index.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "auth/login/index.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "auth/register/index.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "index.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "landing/index.html",
+        "title": "Notus NextJS by Creative Tim"
+      },
+      {
+        "path": "profile/index.html",
+        "title": "Notus NextJS by Creative Tim"
+      }
+    ],
+    "storedBytes": 1924439,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:55:00.403Z"
+  },
+  "serve": {
+    "slug": "notus-nextjs",
+    "kind": "build",
+    "entry": "admin/dashboard/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/notus-nextjs@83af9355cf3373c31d5f5f3845e65185d327186d/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "img/angular.jpg": "public/img/angular.jpg",
+      "img/bootstrap.jpg": "public/img/bootstrap.jpg",
+      "img/brand/apple-icon.png": "public/img/brand/apple-icon.png",
+      "img/brand/favicon.ico": "public/img/brand/favicon.ico",
+      "img/component-btn-pink.png": "public/img/component-btn-pink.png",
+      "img/component-btn.png": "public/img/component-btn.png",
+      "img/component-info-2.png": "public/img/component-info-2.png",
+      "img/component-info-card.png": "public/img/component-info-card.png",
+      "img/component-menu.png": "public/img/component-menu.png",
+      "img/component-profile-card.png": "public/img/component-profile-card.png",
+      "img/documentation.png": "public/img/documentation.png",
+      "img/img-1-1000x600.jpg": "public/img/img-1-1000x600.jpg",
+      "img/landing.jpg": "public/img/landing.jpg",
+      "img/login.jpg": "public/img/login.jpg",
+      "img/pattern_nextjs.png": "public/img/pattern_nextjs.png",
+      "img/profile.jpg": "public/img/profile.jpg",
+      "img/react.jpg": "public/img/react.jpg",
+      "img/register_bg_2.png": "public/img/register_bg_2.png",
+      "img/sketch.jpg": "public/img/sketch.jpg",
+      "img/team-1-800x800.jpg": "public/img/team-1-800x800.jpg",
+      "img/team-2-800x800.jpg": "public/img/team-2-800x800.jpg",
+      "img/team-3-800x800.jpg": "public/img/team-3-800x800.jpg",
+      "img/team-4-470x470.png": "public/img/team-4-470x470.png",
+      "img/vue.jpg": "public/img/vue.jpg"
+    }
+  }
+}

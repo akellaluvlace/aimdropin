@@ -1,0 +1,55 @@
+{
+  "record": {
+    "slug": "vue-naive-admin",
+    "title": "Vue Naive Admin",
+    "description": "Vue 3 + Naive UI admin in plain JavaScript: home, user, role and resource management, profile, demo pages and theme settings, backed by a public mock API.",
+    "repo": "zclzone/vue-naive-admin",
+    "sha": "a55f0a2e6fe0561ce62c3452b96ec4b4cbcb8553",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/zclzone/vue-naive-admin/blob/a55f0a2e6fe0561ce62c3452b96ec4b4cbcb8553/LICENSE"
+    },
+    "author": "Ronnie Zhang (zclzone)",
+    "framework": "vue",
+    "ui": "naive",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "naive-ui",
+      "unocss",
+      "pinia",
+      "rbac"
+    ],
+    "demoUrl": "https://admin.isme.top",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue Naive Admin"
+      }
+    ],
+    "storedBytes": 2346378,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:41.419Z"
+  },
+  "serve": {
+    "slug": "vue-naive-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/zclzone/vue-naive-admin@a55f0a2e6fe0561ce62c3452b96ec4b4cbcb8553/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/isme-D6AR05SU.png": "src/assets/images/isme.png",
+      "assets/login_banner-BD2eW0TC.webp": "src/assets/images/login_banner.webp",
+      "assets/login_bg-Ce0wZ8k4.webp": "src/assets/images/login_bg.webp",
+      "assets/logo-Bw3FJMyu.png": "src/assets/images/logo.png",
+      "favicon.png": "public/favicon.png"
+    }
+  }
+}

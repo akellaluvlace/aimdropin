@@ -1,0 +1,151 @@
+{
+  "checkedAt": "2026-11-10T18:07:08.203Z",
+  "pagesChecked": 21,
+  "pagesOk": 20,
+  "failures": [
+    {
+      "path": "components_navs.html",
+      "problem": "script error: Uncaught Error: Collapse is transitioning"
+    }
+  ],
+  "deadLinks": [
+    "wiki/Computer",
+    "wiki/Computation",
+    "wiki/Procedure_(computer_science)",
+    "wiki/Algorithm",
+    "wiki/Information",
+    "wiki/Computer_scientist",
+    "wiki/Science",
+    "wiki/Society",
+    "wiki/Electronics",
+    "wiki/Information_Age",
+    "wiki/Information_revolution",
+    "wiki/Industrial_Revolution",
+    "wiki/Neolithic_Revolution",
+    "wiki/Digital_Revolution",
+    "wiki/Internet",
+    "wiki/Computability",
+    "wiki/Undecidable_problem",
+    "wiki/Computational_complexity_theory",
+    "wiki/Programming_language",
+    "wiki/Cryptography",
+    "wiki/Cryptanalysis_of_the_Enigma",
+    "wiki/Computational_science",
+    "wiki/Human_Genome_Project",
+    "wiki/Distributed_computing",
+    "wiki/Folding@home",
+    "wiki/Protein_folding",
+    "wiki/Algorithmic_trading",
+    "wiki/Economic_efficiency",
+    "wiki/Market_liquidity",
+    "wiki/Artificial_intelligence",
+    "wiki/Machine_learning",
+    "wiki/Statistics",
+    "wiki/Numerical_analysis",
+    "wiki/Volatility_(finance)",
+    "wiki/Computer_graphics",
+    "wiki/Computer-generated_imagery",
+    "wiki/Entertainment",
+    "wiki/Television",
+    "wiki/Filmmaking",
+    "wiki/Advertising",
+    "wiki/Animation",
+    "wiki/Video_game",
+    "wiki/Digital_camera",
+    "wiki/Video_editing",
+    "wiki/Video_post-processing",
+    "wiki/Simulation",
+    "wiki/Fluid_dynamics",
+    "wiki/SPICE",
+    "wiki/Integrated_circuit",
+    "wiki/Wikipedia:Citation_needed",
+    "wiki/Robotic_vacuum_cleaner",
+    "wiki/Legged_Squad_Support_System",
+    "wiki/Human-Computer_Interaction",
+    "wiki/Direct_manipulation",
+    "wiki/Touchscreen",
+    "wiki/Virtual_reality"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "appearence_panels.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "appearence_typography.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "charts_chartist.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "components_alerts.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "components_badges.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "components_buttons.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "components_dropdowns.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "editors_ck.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "icons_fontawesome.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "input_groups.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "inputs.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "layout_horizontal.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "layout_vertical.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "pages_login.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "pages_register.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "pickers_date.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "pickers_time.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "tables_basic.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    },
+    {
+      "path": "tables_datatables.html",
+      "title": "Modish - Open Source Admin Dashboard Template"
+    }
+  ]
+}

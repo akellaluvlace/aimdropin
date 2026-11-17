@@ -1,0 +1,85 @@
+{
+  "record": {
+    "slug": "risaltte-dashboard",
+    "title": "Risaltte Dashboard",
+    "description": "Small Tailwind and Alpine.js dashboard for a course platform: overview, courses, students, settings and login.",
+    "repo": "risaltte/dashboard-tailwindCSS",
+    "sha": "4ef2cb0f0493820ba81b6d5749f4c70ee7ae2460",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/risaltte/dashboard-tailwindCSS/blob/4ef2cb0f0493820ba81b6d5749f4c70ee7ae2460/LICENSE"
+    },
+    "author": "Rafael Risalte",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "alpinejs",
+      "vite"
+    ],
+    "demoUrl": "https://dashboard-tailwind-css.vercel.app",
+    "quality": 2,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "RCursos - Dashboard"
+      },
+      {
+        "path": "pages/courses_add.html",
+        "title": "RCursos - Novo curso"
+      },
+      {
+        "path": "pages/courses_edit.html",
+        "title": "RCursos - Nome do curso | Editar"
+      },
+      {
+        "path": "pages/courses_index.html",
+        "title": "Dashboard - Listar cursos"
+      },
+      {
+        "path": "pages/courses_view.html",
+        "title": "RCursos - Nome do curso | Detalhes"
+      },
+      {
+        "path": "pages/login.html",
+        "title": "Dashboard - Login"
+      },
+      {
+        "path": "pages/recovery_password.html",
+        "title": "Dashboard - Recuperar senha"
+      },
+      {
+        "path": "pages/register.html",
+        "title": "Dashboard - Cadastro"
+      }
+    ],
+    "storedBytes": 269133,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T17:42:37.938Z"
+  },
+  "serve": {
+    "slug": "risaltte-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/risaltte/dashboard-tailwindCSS@4ef2cb0f0493820ba81b6d5749f4c70ee7ae2460/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "images/avatar-1.jpg": "public/images/avatar-1.jpg",
+      "images/avatar-2.jpg": "public/images/avatar-2.jpg",
+      "images/avatar-3.jpg": "public/images/avatar-3.jpg",
+      "images/avatar-4.jpg": "public/images/avatar-4.jpg",
+      "images/logo.png": "public/images/logo.png",
+      "images/robo-avatar-1.png": "public/images/robo-avatar-1.png",
+      "images/robo-avatar-2.png": "public/images/robo-avatar-2.png",
+      "images/user-avatar.jpg": "public/images/user-avatar.jpg",
+      "vite.svg": "public/vite.svg"
+    }
+  }
+}

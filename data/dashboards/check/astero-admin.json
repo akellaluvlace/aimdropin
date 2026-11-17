@@ -1,0 +1,328 @@
+{
+  "checkedAt": "2026-11-10T18:44:36.652Z",
+  "pagesChecked": 79,
+  "pagesOk": 52,
+  "failures": [
+    {
+      "path": "pages/analytics.html",
+      "problem": "script error: observer is not defined"
+    },
+    {
+      "path": "pages/forms/form-controls.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/forms/horizontal.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/forms/radio-checkbox.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/forms/select.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/forms/switches.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/forms/validation.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/forms/vertical.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/index.html",
+      "problem": "load failed: Execution context was destroyed, most likely because of a navigation."
+    },
+    {
+      "path": "pages/interface/accordion.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/alerts.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/badges.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/breadcrumb.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/button-group.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/buttons.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/cards.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/carousel.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/close-button.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/collapse.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/colors.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/dropdowns.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/info-box.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag. · script error: Unexpected identifier 'as'"
+    },
+    {
+      "path": "pages/interface/list-group.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/modal.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/navbar.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/navs-and-tabs.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    },
+    {
+      "path": "pages/interface/offcanvas.html",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    }
+  ],
+  "deadLinks": [
+    "index.html"
+  ],
+  "pages": [
+    {
+      "path": "pages/dashboard.html",
+      "title": "Dashboard | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/2-step-verification-code.html",
+      "title": "2-Step Verification Code | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/2-step-verification.html",
+      "title": "2-Step Verification | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/forgot-password.html",
+      "title": "Forgot Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/link-sent.html",
+      "title": "Recovery Link Sent | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/lock-screen.html",
+      "title": "Lock Screen | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/login.html",
+      "title": "Login | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/new-password.html",
+      "title": "New Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/register.html",
+      "title": "Register | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/reset-successfully.html",
+      "title": "Password Reset Successfully | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/basic/verify-email.html",
+      "title": "Verify Email | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/2-step-verification-code.html",
+      "title": "2-Step Verification Code | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/2-step-verification.html",
+      "title": "2-Step Verification | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/forgot-password.html",
+      "title": "Forgot Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/link-sent.html",
+      "title": "Recovery Link Sent | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/lock-screen.html",
+      "title": "Lock Screen | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/login.html",
+      "title": "Login | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/new-password.html",
+      "title": "New Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/register.html",
+      "title": "Register | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/reset-successfully.html",
+      "title": "Password Reset Successfully | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/compact-split/verify-email.html",
+      "title": "Verify Email | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/2-step-verification-code.html",
+      "title": "2-Step Verification Code | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/2-step-verification.html",
+      "title": "2-Step Verification | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/forgot-password.html",
+      "title": "Forgot Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/link-sent.html",
+      "title": "Recovery Link Sent | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/lock-screen.html",
+      "title": "Lock Screen | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/login.html",
+      "title": "Login | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/new-password.html",
+      "title": "New Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/register.html",
+      "title": "Register | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/reset-successfully.html",
+      "title": "Password Reset Successfully | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/modern/verify-email.html",
+      "title": "Verify Email | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/2-step-verification-code.html",
+      "title": "2-Step Verification Code | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/2-step-verification.html",
+      "title": "2-Step Verification | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/forgot-password.html",
+      "title": "Forgot Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/link-sent.html",
+      "title": "Recovery Link Sent | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/lock-screen.html",
+      "title": "Lock Screen | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/login.html",
+      "title": "Login | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/new-password.html",
+      "title": "New Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/register.html",
+      "title": "Register | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/reset-successfully.html",
+      "title": "Password Reset Successfully | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/social/verify-email.html",
+      "title": "Verify Email | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/2-step-verification-code.html",
+      "title": "2-Step Verification Code | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/2-step-verification.html",
+      "title": "2-Step Verification | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/forgot-password.html",
+      "title": "Forgot Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/link-sent.html",
+      "title": "Recovery Link Sent | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/lock-screen.html",
+      "title": "Lock Screen | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/login.html",
+      "title": "Login | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/new-password.html",
+      "title": "New Password | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/register.html",
+      "title": "Register | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/reset-successfully.html",
+      "title": "Password Reset Successfully | Astero Admin"
+    },
+    {
+      "path": "pages/authentication/split/verify-email.html",
+      "title": "Verify Email | Astero Admin"
+    },
+    {
+      "path": "pages/interface.html",
+      "title": "UI Components | Astero Admin"
+    }
+  ]
+}

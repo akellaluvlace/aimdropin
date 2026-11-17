@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-11-10T17:41:22.503Z",
+  "pagesChecked": 15,
+  "pagesOk": 15,
+  "failures": [],
+  "deadLinks": [
+    "accordion.html",
+    "form-layout.html",
+    "inv'",
+    "modals.html",
+    "reset-password.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "PlainAdmin Demo | Bootstrap 5 Admin Template"
+    },
+    {
+      "path": "alerts.html",
+      "title": "Alerts | PlainAdmin Demo"
+    },
+    {
+      "path": "blank-page.html",
+      "title": "Blank Page | PlainAdmin Demo"
+    },
+    {
+      "path": "buttons.html",
+      "title": "Button | PlainAdmin Demo"
+    },
+    {
+      "path": "cards.html",
+      "title": "Cards | PlainAdmin Demo"
+    },
+    {
+      "path": "form-elements.html",
+      "title": "Form Elements | PlainAdmin Demo"
+    },
+    {
+      "path": "icons.html",
+      "title": "Line Icons | PlainAdmin Demo"
+    },
+    {
+      "path": "invoice.html",
+      "title": "Invoice | PlainAdmin Demo"
+    },
+    {
+      "path": "mdi-icons.html",
+      "title": "Material Design Icons | PlainAdmin Demo"
+    },
+    {
+      "path": "notification.html",
+      "title": "Notification | PlainAdmin Demo"
+    },
+    {
+      "path": "settings.html",
+      "title": "Settings | PlainAdmin Demo"
+    },
+    {
+      "path": "signin.html",
+      "title": "Sign In | PlainAdmin Demo"
+    },
+    {
+      "path": "signup.html",
+      "title": "Sign Up | PlainAdmin Demo"
+    },
+    {
+      "path": "tables.html",
+      "title": "Tables | PlainAdmin Demo"
+    },
+    {
+      "path": "typography.html",
+      "title": "Typography | PlainAdmin Demo"
+    }
+  ]
+}

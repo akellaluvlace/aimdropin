@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-11-10T19:06:06.960Z",
+  "pagesChecked": 38,
+  "pagesOk": 36,
+  "failures": [
+    {
+      "path": "videos/index.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read the 'caches' property from 'Window': Cache storage is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag. · script error: writeEmbed is not defined · script error: Uncaught undefined"
+    },
+    {
+      "path": "videos/",
+      "problem": "script error: Uncaught SecurityError: Failed to read the 'caches' property from 'Window': Cache storage is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag. · script error: writeEmbed is not defined · script error: Uncaught undefined"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Next.js E-commerce Dashboard | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "_not-found/index.html",
+      "title": " Not Found"
+    },
+    {
+      "path": "404.html",
+      "title": "404"
+    },
+    {
+      "path": "404/index.html",
+      "title": "404"
+    },
+    {
+      "path": "alerts/index.html",
+      "title": "Next.js Alerts | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "avatars/index.html",
+      "title": "Next.js Avatars | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "badge/index.html",
+      "title": "Next.js Badge | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "bar-chart/index.html",
+      "title": "Next.js Bar Chart | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "basic-tables/index.html",
+      "title": "Next.js Basic Table | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "blank/index.html",
+      "title": "Next.js Blank Page | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "buttons/index.html",
+      "title": "Next.js Buttons | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "calendar/index.html",
+      "title": "Next.js Calender | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "error-404/index.html",
+      "title": "Next.js Error 404 | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "form-elements/index.html",
+      "title": "Next.js Form Elements | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "images/index.html",
+      "title": "Next.js Images | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "line-chart/index.html",
+      "title": "Next.js Line Chart | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "modals/index.html",
+      "title": "Next.js Modals | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "profile/index.html",
+      "title": "Next.js Profile | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "signin/index.html",
+      "title": "Next.js SignIn Page | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "signup/index.html",
+      "title": "Next.js SignUp Page | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "",
+      "title": "Next.js E-commerce Dashboard | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "calendar/",
+      "title": "Next.js Calender | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "profile/",
+      "title": "Next.js Profile | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "form-elements/",
+      "title": "Next.js Form Elements | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "basic-tables/",
+      "title": "Next.js Basic Table | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "blank/",
+      "title": "Next.js Blank Page | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "error-404/",
+      "title": "Next.js Error 404 | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "line-chart/",
+      "title": "Next.js Line Chart | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "bar-chart/",
+      "title": "Next.js Bar Chart | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "alerts/",
+      "title": "Next.js Alerts | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "avatars/",
+      "title": "Next.js Avatars | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "badge/",
+      "title": "Next.js Badge | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "buttons/",
+      "title": "Next.js Buttons | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "images/",
+      "title": "Next.js Images | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "signin/",
+      "title": "Next.js SignIn Page | TailAdmin - Next.js Dashboard Template"
+    },
+    {
+      "path": "signup/",
+      "title": "Next.js SignUp Page | TailAdmin - Next.js Dashboard Template"
+    }
+  ]
+}

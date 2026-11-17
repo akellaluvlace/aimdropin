@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-10T19:05:03.880Z",
+  "pagesChecked": 12,
+  "pagesOk": 12,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Vue Notus by Creative Tim | Free and Open Source UI Kit"
+    },
+    {
+      "path": "admin/dashboard",
+      "title": "Admin / Dashboard"
+    },
+    {
+      "path": "admin/settings",
+      "title": "Admin / Settings"
+    },
+    {
+      "path": "admin/tables",
+      "title": "Admin / Tables"
+    },
+    {
+      "path": "admin/maps",
+      "title": "Admin / Maps"
+    },
+    {
+      "path": "auth/login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/register",
+      "title": "Auth / Register"
+    },
+    {
+      "path": "landing",
+      "title": "Landing"
+    },
+    {
+      "path": "profile",
+      "title": "Profile"
+    },
+    {
+      "path": "admin",
+      "title": "Admin"
+    },
+    {
+      "path": "auth",
+      "title": "Auth"
+    },
+    {
+      "path": "index",
+      "title": "Index"
+    }
+  ]
+}

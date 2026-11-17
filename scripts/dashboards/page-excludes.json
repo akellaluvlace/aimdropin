@@ -1,0 +1,11 @@
+{
+  "_comment": "Pages the crawl found that aren't real pages of the template: build leftovers, routes that only redirect to the app's 404, and links crawled out of contributor lists. build-index.mjs drops them from the page lists. Found by the full re-check on 2026-11-11.",
+  "patterns": ["(^|/)200\\.html$", "(^|/)_not-found(/index\\.html)?$"],
+  "pages": {
+    "shadcn-admin": ["dashboard/overview"],
+    "vitify-admin": ["kingyue737", "lodgepole", "fuant", "xiaoyouyou", "johnnyleider"],
+    "vue-element-plus-admin": ["function", "error"],
+    "art-design-pro": ["403"],
+    "tabler": ["docs/index.html"]
+  }
+}

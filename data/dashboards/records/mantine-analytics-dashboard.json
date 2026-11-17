@@ -1,0 +1,649 @@
+{
+  "record": {
+    "slug": "mantine-analytics-dashboard",
+    "title": "Mantine Analytics Dashboard",
+    "description": "Mantine admin on Next.js 16: 14 dashboards (SaaS, CRM, finance, LLM...), apps (chat, calendar, kanban, invoices, projects) and auth pages.",
+    "repo": "design-sparx/mantine-analytics-dashboard",
+    "sha": "3428a4cec37bbc647c4e3635d63fb33ce0be9831",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/design-sparx/mantine-analytics-dashboard/blob/3428a4cec37bbc647c4e3635d63fb33ce0be9831/LICENSE"
+    },
+    "author": "Kelvin Kiprop (design-sparx)",
+    "framework": "next",
+    "ui": "mantine",
+    "category": "Analytics",
+    "tags": [
+      "mantine",
+      "app-router",
+      "mock-api",
+      "dark-mode",
+      "kanban"
+    ],
+    "demoUrl": "https://mantine-analytics-dashboard.netlify.app/",
+    "quality": 4,
+    "entry": "dashboard/default/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard/default/index.html",
+        "title": "Default Dashboard | DesignSparx"
+      },
+      {
+        "path": "_not-found/index.html",
+        "title": "Page Not Found | DesignSparx"
+      },
+      {
+        "path": "404.html",
+        "title": "Page Not Found | DesignSparx"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Page Not Found | DesignSparx"
+      },
+      {
+        "path": "announcements/index.html",
+        "title": "Announcements | DesignSparx"
+      },
+      {
+        "path": "apps/calendar/index.html",
+        "title": "CalendarView | DesignSparx"
+      },
+      {
+        "path": "apps/chat/index.html",
+        "title": "Chat | DesignSparx"
+      },
+      {
+        "path": "apps/customers/index.html",
+        "title": "Customers | DesignSparx"
+      },
+      {
+        "path": "apps/email/index.html",
+        "title": "Email | DesignSparx"
+      },
+      {
+        "path": "apps/file-manager/index.html",
+        "title": "File Manager | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/03f9221d-846d-48e7-84de-581a44de74f1/index.html",
+        "title": "Invoice - 03f9221d-846d-48e7-84de-581a44de74f1 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/06d33125-e81c-4183-bb4a-954bfd8a7fd8/index.html",
+        "title": "Invoice - 06d33125-e81c-4183-bb4a-954bfd8a7fd8 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/0831fdde-92a0-4d34-b645-a8983504d8f4/index.html",
+        "title": "Invoice - 0831fdde-92a0-4d34-b645-a8983504d8f4 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/08c88c55-5c3d-4257-902c-e33557081077/index.html",
+        "title": "Invoice - 08c88c55-5c3d-4257-902c-e33557081077 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/08eb01b6-00d7-48bb-8617-5902b574dc30/index.html",
+        "title": "Invoice - 08eb01b6-00d7-48bb-8617-5902b574dc30 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/0b9d22d7-8d4e-4823-880a-53911094528c/index.html",
+        "title": "Invoice - 0b9d22d7-8d4e-4823-880a-53911094528c | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/0cf15b2f-6e20-4c83-8742-5f8314e044c8/index.html",
+        "title": "Invoice - 0cf15b2f-6e20-4c83-8742-5f8314e044c8 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/0e4cbcd3-8104-4a8a-af15-33eac84ce587/index.html",
+        "title": "Invoice - 0e4cbcd3-8104-4a8a-af15-33eac84ce587 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/13ae3f42-c6a9-46cb-b329-1e14e26addb0/index.html",
+        "title": "Invoice - 13ae3f42-c6a9-46cb-b329-1e14e26addb0 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/1520f32f-832b-4940-8bd1-fceda63b7238/index.html",
+        "title": "Invoice - 1520f32f-832b-4940-8bd1-fceda63b7238 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/16f3da06-b202-410b-819a-7897c5db31c6/index.html",
+        "title": "Invoice - 16f3da06-b202-410b-819a-7897c5db31c6 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/1ad6a94a-4700-4420-b818-7f5171d0b263/index.html",
+        "title": "Invoice - 1ad6a94a-4700-4420-b818-7f5171d0b263 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/2227852a-4b9b-4426-8990-9e048ad5cfcd/index.html",
+        "title": "Invoice - 2227852a-4b9b-4426-8990-9e048ad5cfcd | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/23cdf9a6-ada5-4af9-bb22-54e486f377f5/index.html",
+        "title": "Invoice - 23cdf9a6-ada5-4af9-bb22-54e486f377f5 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/24f9c0da-86a1-4d10-b4e8-4f132d35e466/index.html",
+        "title": "Invoice - 24f9c0da-86a1-4d10-b4e8-4f132d35e466 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/2d051275-332d-459b-bab7-755c7156da9e/index.html",
+        "title": "Invoice - 2d051275-332d-459b-bab7-755c7156da9e | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/33bd76ae-1f84-48b9-b1b6-e00294100b70/index.html",
+        "title": "Invoice - 33bd76ae-1f84-48b9-b1b6-e00294100b70 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/355b66d5-21a6-491b-bc03-df6fc882165c/index.html",
+        "title": "Invoice - 355b66d5-21a6-491b-bc03-df6fc882165c | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/394c57ed-b0be-49d3-aace-d95ed519b7f9/index.html",
+        "title": "Invoice - 394c57ed-b0be-49d3-aace-d95ed519b7f9 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/3a2be16e-44f5-43c5-b0c2-d2b9ad8e9546/index.html",
+        "title": "Invoice - 3a2be16e-44f5-43c5-b0c2-d2b9ad8e9546 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/3b079971-6d44-4a3d-8237-c9e968cbbdce/index.html",
+        "title": "Invoice - 3b079971-6d44-4a3d-8237-c9e968cbbdce | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/3e39edbb-df11-4978-a187-80eb48030043/index.html",
+        "title": "Invoice - 3e39edbb-df11-4978-a187-80eb48030043 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/3f235819-651d-4dcf-a8e7-c4de6823f480/index.html",
+        "title": "Invoice - 3f235819-651d-4dcf-a8e7-c4de6823f480 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/3f3c7b00-01ad-4e38-8636-b9e2713f0ecf/index.html",
+        "title": "Invoice - 3f3c7b00-01ad-4e38-8636-b9e2713f0ecf | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/3f42d2bf-f00d-4568-9a1e-850c2a0f0b33/index.html",
+        "title": "Invoice - 3f42d2bf-f00d-4568-9a1e-850c2a0f0b33 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/4174ad1a-c9f1-48eb-a827-6d12931c771d/index.html",
+        "title": "Invoice - 4174ad1a-c9f1-48eb-a827-6d12931c771d | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/437a3a03-4ffc-467c-87f9-eb65c7fb4eed/index.html",
+        "title": "Invoice - 437a3a03-4ffc-467c-87f9-eb65c7fb4eed | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/4543e4ee-8934-4bd1-a617-57fafd6c1f35/index.html",
+        "title": "Invoice - 4543e4ee-8934-4bd1-a617-57fafd6c1f35 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/471fa25d-2c85-41f4-8970-0938d79d33ad/index.html",
+        "title": "Invoice - 471fa25d-2c85-41f4-8970-0938d79d33ad | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/5106ed3e-90ee-4bcd-8d73-bcb76583c9e6/index.html",
+        "title": "Invoice - 5106ed3e-90ee-4bcd-8d73-bcb76583c9e6 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/5270e981-0474-4795-b569-b4390d7aeaad/index.html",
+        "title": "Invoice - 5270e981-0474-4795-b569-b4390d7aeaad | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/53baa6ed-b1b0-474a-b446-c4a2674dddb0/index.html",
+        "title": "Invoice - 53baa6ed-b1b0-474a-b446-c4a2674dddb0 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/54e896d5-f11c-4f6e-8764-831cc55362a1/index.html",
+        "title": "Invoice - 54e896d5-f11c-4f6e-8764-831cc55362a1 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/58e034f3-efcc-427e-a5ba-88b39c35f819/index.html",
+        "title": "Invoice - 58e034f3-efcc-427e-a5ba-88b39c35f819 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/5a96dba6-f276-4218-a537-07cb89da9674/index.html",
+        "title": "Invoice - 5a96dba6-f276-4218-a537-07cb89da9674 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/5a9e20d7-3539-4f03-8221-0a687667dcb3/index.html",
+        "title": "Invoice - 5a9e20d7-3539-4f03-8221-0a687667dcb3 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/5d366ce0-51bb-4f3c-83f4-e71b609c8ebd/index.html",
+        "title": "Invoice - 5d366ce0-51bb-4f3c-83f4-e71b609c8ebd | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/5df95cbd-2c5c-43c7-86c1-d25072015fbe/index.html",
+        "title": "Invoice - 5df95cbd-2c5c-43c7-86c1-d25072015fbe | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/5eca3b19-e0db-42dc-87cf-f096808ab892/index.html",
+        "title": "Invoice - 5eca3b19-e0db-42dc-87cf-f096808ab892 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/6268aa34-6fb5-4b10-9223-935163cea9f6/index.html",
+        "title": "Invoice - 6268aa34-6fb5-4b10-9223-935163cea9f6 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/64395cbc-24b8-417f-8113-d41fc5fcb4f0/index.html",
+        "title": "Invoice - 64395cbc-24b8-417f-8113-d41fc5fcb4f0 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/6b8de9c6-b3e0-44c2-957d-4ef43781cd86/index.html",
+        "title": "Invoice - 6b8de9c6-b3e0-44c2-957d-4ef43781cd86 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/6e99ae0a-f0ef-4b49-abb7-4171b004c600/index.html",
+        "title": "Invoice - 6e99ae0a-f0ef-4b49-abb7-4171b004c600 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/6f30a8a6-583f-46b5-9192-8837bee1e7b2/index.html",
+        "title": "Invoice - 6f30a8a6-583f-46b5-9192-8837bee1e7b2 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/73152a60-c7c5-454d-8d6e-7259deebaf0a/index.html",
+        "title": "Invoice - 73152a60-c7c5-454d-8d6e-7259deebaf0a | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/7552dd99-c069-4ab7-80d3-fedcc0a219dd/index.html",
+        "title": "Invoice - 7552dd99-c069-4ab7-80d3-fedcc0a219dd | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/7676e7a6-7a8e-4c97-b96c-8afab74bf656/index.html",
+        "title": "Invoice - 7676e7a6-7a8e-4c97-b96c-8afab74bf656 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/7730485a-36a5-46f8-9c52-55ae529c88c5/index.html",
+        "title": "Invoice - 7730485a-36a5-46f8-9c52-55ae529c88c5 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/7aaf9b02-c9f9-4c41-ba6f-7d955aef23dd/index.html",
+        "title": "Invoice - 7aaf9b02-c9f9-4c41-ba6f-7d955aef23dd | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/7fd34d70-3052-4986-acfd-7adef98d95c9/index.html",
+        "title": "Invoice - 7fd34d70-3052-4986-acfd-7adef98d95c9 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/800b09fc-d575-47fd-bd02-3e692f97049f/index.html",
+        "title": "Invoice - 800b09fc-d575-47fd-bd02-3e692f97049f | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/840f287c-ff3d-4638-b202-d2dec5f43a88/index.html",
+        "title": "Invoice - 840f287c-ff3d-4638-b202-d2dec5f43a88 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/843480d6-cbd3-4348-9fd2-7fb73f7ff94c/index.html",
+        "title": "Invoice - 843480d6-cbd3-4348-9fd2-7fb73f7ff94c | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/85b99dd6-6672-4d0f-b9c0-cd7ede0332c4/index.html",
+        "title": "Invoice - 85b99dd6-6672-4d0f-b9c0-cd7ede0332c4 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/8677a3e2-dde3-4d04-8edd-9d0bcf178f89/index.html",
+        "title": "Invoice - 8677a3e2-dde3-4d04-8edd-9d0bcf178f89 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/873053c6-9ac7-4147-8887-d06df01431ea/index.html",
+        "title": "Invoice - 873053c6-9ac7-4147-8887-d06df01431ea | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/879ab9ce-8a8c-4dc9-b28a-71c442628fec/index.html",
+        "title": "Invoice - 879ab9ce-8a8c-4dc9-b28a-71c442628fec | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/89070d97-619f-4c93-92da-313f753ffcda/index.html",
+        "title": "Invoice - 89070d97-619f-4c93-92da-313f753ffcda | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/8e17249a-c8eb-495b-b22a-874c1a86fc74/index.html",
+        "title": "Invoice - 8e17249a-c8eb-495b-b22a-874c1a86fc74 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/8f0f29b7-5f96-4070-a1f8-32a3f64acd4f/index.html",
+        "title": "Invoice - 8f0f29b7-5f96-4070-a1f8-32a3f64acd4f | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/92fc6a5f-c9ad-4d16-a6e4-7f8945c50529/index.html",
+        "title": "Invoice - 92fc6a5f-c9ad-4d16-a6e4-7f8945c50529 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/9abf5c0e-5875-448b-bebf-8e22406028e5/index.html",
+        "title": "Invoice - 9abf5c0e-5875-448b-bebf-8e22406028e5 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/9b20e1a2-7b5c-42b0-8245-83fa88aa2174/index.html",
+        "title": "Invoice - 9b20e1a2-7b5c-42b0-8245-83fa88aa2174 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/9b33cae5-90e6-4ee5-a3bb-1f7787bdf68c/index.html",
+        "title": "Invoice - 9b33cae5-90e6-4ee5-a3bb-1f7787bdf68c | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/9d042e44-8570-4a45-8b52-2a17f25f715a/index.html",
+        "title": "Invoice - 9d042e44-8570-4a45-8b52-2a17f25f715a | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/9d956809-1450-401e-ad10-cce5e686a3d3/index.html",
+        "title": "Invoice - 9d956809-1450-401e-ad10-cce5e686a3d3 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/9eb20628-ec08-4377-8399-4879271c1154/index.html",
+        "title": "Invoice - 9eb20628-ec08-4377-8399-4879271c1154 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/9f0cdc25-805e-488b-b9cb-e6f95401c627/index.html",
+        "title": "Invoice - 9f0cdc25-805e-488b-b9cb-e6f95401c627 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/a3791b87-03d9-4c22-8067-06dd714400f2/index.html",
+        "title": "Invoice - a3791b87-03d9-4c22-8067-06dd714400f2 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/acd86333-a2ec-42f3-8992-35ba421e28db/index.html",
+        "title": "Invoice - acd86333-a2ec-42f3-8992-35ba421e28db | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/aee7c28f-a2c5-428b-b94a-d011624079e3/index.html",
+        "title": "Invoice - aee7c28f-a2c5-428b-b94a-d011624079e3 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/afc1249c-cc77-43b2-af06-953cdcd27781/index.html",
+        "title": "Invoice - afc1249c-cc77-43b2-af06-953cdcd27781 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/b46a2f12-db86-4297-9778-957e1b344674/index.html",
+        "title": "Invoice - b46a2f12-db86-4297-9778-957e1b344674 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/b56462f5-cb66-4462-804b-1ffea2350ee8/index.html",
+        "title": "Invoice - b56462f5-cb66-4462-804b-1ffea2350ee8 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/b7cf6eae-259d-41bd-a83a-c426942c2fb8/index.html",
+        "title": "Invoice - b7cf6eae-259d-41bd-a83a-c426942c2fb8 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/bf1497dd-8c7f-4dba-a942-aeb1714255d7/index.html",
+        "title": "Invoice - bf1497dd-8c7f-4dba-a942-aeb1714255d7 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/c13e0b0b-8b72-4f76-ba5c-1dfbfb78b95a/index.html",
+        "title": "Invoice - c13e0b0b-8b72-4f76-ba5c-1dfbfb78b95a | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/c81eb77f-0172-4942-b034-bf3beb9fbc71/index.html",
+        "title": "Invoice - c81eb77f-0172-4942-b034-bf3beb9fbc71 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/d04d80dd-015c-4a1b-976d-721703e8a3e8/index.html",
+        "title": "Invoice - d04d80dd-015c-4a1b-976d-721703e8a3e8 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/d07208dd-a7ff-4649-a9b2-a7e69e588658/index.html",
+        "title": "Invoice - d07208dd-a7ff-4649-a9b2-a7e69e588658 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/d450881a-0116-4db0-bc61-80d53da4c407/index.html",
+        "title": "Invoice - d450881a-0116-4db0-bc61-80d53da4c407 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/d73d88a9-ef50-4a09-ae75-ea1e32142fb2/index.html",
+        "title": "Invoice - d73d88a9-ef50-4a09-ae75-ea1e32142fb2 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/da58d6a7-ba6a-4821-81bf-f136928a6728/index.html",
+        "title": "Invoice - da58d6a7-ba6a-4821-81bf-f136928a6728 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/da675a46-f155-4310-a0dd-096998099b0c/index.html",
+        "title": "Invoice - da675a46-f155-4310-a0dd-096998099b0c | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/da87dc2a-c634-4619-a20a-4ecdc76bd7a6/index.html",
+        "title": "Invoice - da87dc2a-c634-4619-a20a-4ecdc76bd7a6 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/dee3334b-dfba-42f2-b6e1-5d62efa504da/index.html",
+        "title": "Invoice - dee3334b-dfba-42f2-b6e1-5d62efa504da | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/dee9b40a-2eb5-40ce-bd87-9470d4163427/index.html",
+        "title": "Invoice - dee9b40a-2eb5-40ce-bd87-9470d4163427 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/e05432ee-1149-4ea0-90ba-3051a936a3e8/index.html",
+        "title": "Invoice - e05432ee-1149-4ea0-90ba-3051a936a3e8 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/e061359a-de46-472b-ad83-d7f7389a6091/index.html",
+        "title": "Invoice - e061359a-de46-472b-ad83-d7f7389a6091 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/e1f362f9-c981-4d33-8e4d-7e8b71181684/index.html",
+        "title": "Invoice - e1f362f9-c981-4d33-8e4d-7e8b71181684 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/e50fd63b-278f-4fac-abbc-13da7ae9af6c/index.html",
+        "title": "Invoice - e50fd63b-278f-4fac-abbc-13da7ae9af6c | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/eb729a19-6410-4f06-881b-848c782077ae/index.html",
+        "title": "Invoice - eb729a19-6410-4f06-881b-848c782077ae | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/ebb1f433-10ef-4107-9b18-648e4b73d997/index.html",
+        "title": "Invoice - ebb1f433-10ef-4107-9b18-648e4b73d997 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/ee6b3e56-5c5f-4986-ad56-3cf5fb2c2ebd/index.html",
+        "title": "Invoice - ee6b3e56-5c5f-4986-ad56-3cf5fb2c2ebd | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/ef6cfd31-5dbe-4125-b776-112471d61092/index.html",
+        "title": "Invoice - ef6cfd31-5dbe-4125-b776-112471d61092 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/f06645dd-da77-4824-9ea3-04032955242d/index.html",
+        "title": "Invoice - f06645dd-da77-4824-9ea3-04032955242d | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/f49598cb-0c17-4ddd-ac1f-8f412059c2b2/index.html",
+        "title": "Invoice - f49598cb-0c17-4ddd-ac1f-8f412059c2b2 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/f50ab3cb-9874-4b37-979d-27e1bb670955/index.html",
+        "title": "Invoice - f50ab3cb-9874-4b37-979d-27e1bb670955 | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/f685e710-29c0-49b9-9e85-f60365d6c73a/index.html",
+        "title": "Invoice - f685e710-29c0-49b9-9e85-f60365d6c73a | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/f96206e3-e724-4de8-a13a-b09778f86a1f/index.html",
+        "title": "Invoice - f96206e3-e724-4de8-a13a-b09778f86a1f | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/details/index.html",
+        "title": "Sample Invoice Details | DesignSparx"
+      },
+      {
+        "path": "apps/invoices/index.html",
+        "title": "Invoices | DesignSparx"
+      },
+      {
+        "path": "apps/notifications/index.html",
+        "title": "Notifications | DesignSparx"
+      },
+      {
+        "path": "apps/orders/index.html",
+        "title": "Orders | DesignSparx"
+      },
+      {
+        "path": "apps/products/categories/index.html",
+        "title": "Product Categories | DesignSparx"
+      },
+      {
+        "path": "apps/products/index.html",
+        "title": "Products | DesignSparx"
+      },
+      {
+        "path": "apps/profile/index.html",
+        "title": "Profile | DesignSparx"
+      },
+      {
+        "path": "apps/projects/index.html",
+        "title": "Projects | DesignSparx"
+      },
+      {
+        "path": "apps/settings/index.html",
+        "title": "Settings | DesignSparx"
+      },
+      {
+        "path": "apps/tasks/index.html",
+        "title": "Tasks | DesignSparx"
+      },
+      {
+        "path": "auth/auth0/index.html",
+        "title": "Auth0 | DesignSparx"
+      },
+      {
+        "path": "auth/password-reset/index.html",
+        "title": "Password Reset | DesignSparx"
+      },
+      {
+        "path": "auth/signin/index.html",
+        "title": "Sign in | DesignSparx"
+      },
+      {
+        "path": "auth/signup/index.html",
+        "title": "Sign up | DesignSparx"
+      },
+      {
+        "path": "changelog/index.html",
+        "title": "Changelog | DesignSparx"
+      },
+      {
+        "path": "dashboard/analytics/index.html",
+        "title": "Analytics Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/crm/index.html",
+        "title": "CRM Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/ecommerce/index.html",
+        "title": "E-commerce Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/education/index.html",
+        "title": "Education Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/finance/index.html",
+        "title": "Finance Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/healthcare/index.html",
+        "title": "Healthcare Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/hr/index.html",
+        "title": "HR Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/llm/index.html",
+        "title": "LLM/AI Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/logistics/index.html",
+        "title": "Logistics Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/marketing/index.html",
+        "title": "Marketing Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/real-estate/index.html",
+        "title": "Real Estate Dashboard | DesignSparx"
+      },
+      {
+        "path": "dashboard/saas/index.html",
+        "title": "SaaS Dashboard | DesignSparx"
+      },
+      {
+        "path": "index.html",
+        "title": "DesignSparx | Website UI Kit"
+      },
+      {
+        "path": "pages/about/index.html",
+        "title": "About | DesignSparx"
+      },
+      {
+        "path": "pages/blank/index.html",
+        "title": "Blank page | DesignSparx"
+      },
+      {
+        "path": "pages/pricing/index.html",
+        "title": "Pricing | DesignSparx"
+      }
+    ],
+    "storedBytes": 29848711,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:15:31.412Z"
+  },
+  "serve": {
+    "slug": "mantine-analytics-dashboard",
+    "kind": "build",
+    "entry": "dashboard/default/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/design-sparx/mantine-analytics-dashboard@3428a4cec37bbc647c4e3635d63fb33ce0be9831/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "_next/static/media/favicon.2vob68tjqpejf.ico": "src/app/favicon.ico",
+      "a-dashboard.png": "public/a-dashboard.png",
+      "android-chrome-192x192.png": "public/android-chrome-192x192.png",
+      "android-chrome-512x512.png": "public/android-chrome-512x512.png",
+      "apple-touch-icon.png": "public/apple-touch-icon.png",
+      "assets/default_user.jpg": "public/assets/default_user.jpg",
+      "chat-black.jpg": "public/chat-black.jpg",
+      "chat-grape.png": "public/chat-grape.png",
+      "chat-white.jpg": "public/chat-white.jpg",
+      "d-dashboard.png": "public/d-dashboard.png",
+      "dashboard.png": "public/dashboard.png",
+      "data.csv": "public/data.csv",
+      "favicon-16x16.png": "public/favicon-16x16.png",
+      "favicon-32x32.png": "public/favicon-32x32.png",
+      "favicon.ico": "src/app/favicon.ico",
+      "invoices.png": "public/invoices.png",
+      "logo-no-background.png": "public/logo-no-background.png",
+      "logo.png": "public/logo.png",
+      "orders-pink.png": "public/orders-pink.png",
+      "profile-green.png": "public/profile-green.png",
+      "profile.png": "public/profile.png",
+      "s-dashboard-dark.png": "public/s-dashboard-dark.png",
+      "showcase/apps-calendar.png": "public/showcase/apps-calendar.png",
+      "showcase/apps-chat.png": "public/showcase/apps-chat.png",
+      "showcase/apps-invoices.png": "public/showcase/apps-invoices.png",
+      "showcase/apps-orders.png": "public/showcase/apps-orders.png",
+      "showcase/apps-profile.png": "public/showcase/apps-profile.png",
+      "showcase/apps-projects.png": "public/showcase/apps-projects.png",
+      "showcase/apps-settings.png": "public/showcase/apps-settings.png",
+      "showcase/apps-tasks.png": "public/showcase/apps-tasks.png",
+      "showcase/dashboard-analytics.png": "public/showcase/dashboard-analytics.png",
+      "showcase/dashboard-default-dark.png": "public/showcase/dashboard-default-dark.png",
+      "showcase/dashboard-default.png": "public/showcase/dashboard-default.png",
+      "showcase/dashboard-saas.png": "public/showcase/dashboard-saas.png",
+      "site.webmanifest": "public/site.webmanifest",
+      "tasks-orange.png": "public/tasks-orange.png",
+      "tasks.png": "public/tasks.png",
+      "thumbnail-img-b.jpg": "public/thumbnail-img-b.jpg",
+      "thumbnail-img.jpg": "public/thumbnail-img.jpg"
+    }
+  }
+}

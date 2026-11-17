@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-11-10T19:06:47.471Z",
+  "pagesChecked": 25,
+  "pagesOk": 25,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Sakai Vue"
+    },
+    {
+      "path": "uikit/formlayout",
+      "title": "Uikit / Formlayout"
+    },
+    {
+      "path": "uikit/input",
+      "title": "Uikit / Input"
+    },
+    {
+      "path": "uikit/button",
+      "title": "Uikit / Button"
+    },
+    {
+      "path": "uikit/table",
+      "title": "Uikit / Table"
+    },
+    {
+      "path": "uikit/list",
+      "title": "Uikit / List"
+    },
+    {
+      "path": "uikit/tree",
+      "title": "Uikit / Tree"
+    },
+    {
+      "path": "uikit/panel",
+      "title": "Uikit / Panel"
+    },
+    {
+      "path": "uikit/overlay",
+      "title": "Uikit / Overlay"
+    },
+    {
+      "path": "uikit/media",
+      "title": "Uikit / Media"
+    },
+    {
+      "path": "uikit/menu",
+      "title": "Uikit / Menu"
+    },
+    {
+      "path": "uikit/message",
+      "title": "Uikit / Message"
+    },
+    {
+      "path": "uikit/file",
+      "title": "Uikit / File"
+    },
+    {
+      "path": "uikit/charts",
+      "title": "Uikit / Charts"
+    },
+    {
+      "path": "uikit/timeline",
+      "title": "Uikit / Timeline"
+    },
+    {
+      "path": "uikit/misc",
+      "title": "Uikit / Misc"
+    },
+    {
+      "path": "blocks",
+      "title": "Blocks"
+    },
+    {
+      "path": "landing",
+      "title": "Landing"
+    },
+    {
+      "path": "auth/login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/error",
+      "title": "Auth / Error"
+    },
+    {
+      "path": "auth/access",
+      "title": "Auth / Access"
+    },
+    {
+      "path": "pages/crud",
+      "title": "Pages / Crud"
+    },
+    {
+      "path": "pages/notfound",
+      "title": "Pages / Notfound"
+    },
+    {
+      "path": "pages/empty",
+      "title": "Pages / Empty"
+    },
+    {
+      "path": "documentation",
+      "title": "Documentation"
+    }
+  ]
+}

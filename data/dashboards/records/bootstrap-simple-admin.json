@@ -1,0 +1,135 @@
+{
+  "record": {
+    "slug": "bootstrap-simple-admin",
+    "title": "Bootstrap Simple Admin",
+    "description": "Plain Bootstrap 5 admin: dashboard, users, permissions, settings, forms, tables, charts, UI elements and auth pages.",
+    "repo": "alexisbriandev/bootstrap-simple-admin-template",
+    "sha": "baf4fd8ff5753955ba184dd818527b4c180129b7",
+    "license": {
+      "spdx": "Apache-2.0",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/alexisbriandev/bootstrap-simple-admin-template/blob/baf4fd8ff5753955ba184dd818527b4c180129b7/LICENSE"
+    },
+    "author": "alexisbriandev",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "users",
+      "settings"
+    ],
+    "demoUrl": "https://devopspower.github.io/bootstrap-simple-admin-template/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "404.html",
+        "title": "404 | Page not found!"
+      },
+      {
+        "path": "500.html",
+        "title": "500 | Internal Server Error!"
+      },
+      {
+        "path": "blank.html",
+        "title": "Blank Page | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "charts.html",
+        "title": "Charts | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "dashboard.html",
+        "title": "Dashboard | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "forgot-password.html",
+        "title": "Forgot Password | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "forms.html",
+        "title": "Forms | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "icons.html",
+        "title": "Icons | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "login.html",
+        "title": "Login | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "permissions.html",
+        "title": "User Permissions | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "roles.html",
+        "title": "User Roles | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "settings.html",
+        "title": "Settings | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "signup.html",
+        "title": "Sign up | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "tables.html",
+        "title": "Tables | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "template.html",
+        "title": "Template | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "ui-alerts.html",
+        "title": "UI Alerts | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "ui-badges.html",
+        "title": "UI Badges | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "ui-buttons.html",
+        "title": "UI Buttons | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "ui-cards.html",
+        "title": "UI Card | Bootstrap Simple Admin Templatep"
+      },
+      {
+        "path": "ui-date-time-picker.html",
+        "title": "UI Date & Time Picker | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "ui-tabs.html",
+        "title": "UI Tabs | Bootstrap Simple Admin Template"
+      },
+      {
+        "path": "users.html",
+        "title": "Users | Bootstrap Simple Admin Template"
+      }
+    ],
+    "storedBytes": 3483689,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:22.128Z"
+  },
+  "serve": {
+    "slug": "bootstrap-simple-admin",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/alexisbriandev/bootstrap-simple-admin-template@baf4fd8ff5753955ba184dd818527b4c180129b7/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

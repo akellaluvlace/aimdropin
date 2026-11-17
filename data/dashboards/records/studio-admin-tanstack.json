@@ -1,0 +1,64 @@
+{
+  "record": {
+    "slug": "studio-admin-tanstack",
+    "title": "Studio Admin (TanStack)",
+    "description": "Shadcn/ui admin on TanStack Router: many dashboards (CRM, finance, analytics and more), mail, chat, calendar, kanban, users and auth pages.",
+    "repo": "arhamkhnz/tanstack-shadcn-admin-dashboard",
+    "sha": "37169ffbd1a82820953642053b155b54fdd3a657",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/arhamkhnz/tanstack-shadcn-admin-dashboard/blob/37169ffbd1a82820953642053b155b54fdd3a657/LICENSE"
+    },
+    "author": "Mohammed Arham Khan",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tanstack-start",
+      "tanstack-router",
+      "tailwind",
+      "dark-mode"
+    ],
+    "demoUrl": "https://studio-admin.arhamkhnz.com",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Studio Admin (TanStack)"
+      }
+    ],
+    "storedBytes": 3396281,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:38.196Z"
+  },
+  "serve": {
+    "slug": "studio-admin-tanstack",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/arhamkhnz/tanstack-shadcn-admin-dashboard@37169ffbd1a82820953642053b155b54fdd3a657/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-icon.png": "public/apple-icon.png",
+      "favicon.ico": "public/favicon.ico",
+      "fonts/geist-serif/GeistSerifVF.woff2": "public/fonts/geist-serif/GeistSerifVF.woff2",
+      "fonts/geist-serif/LICENSE.txt": "public/fonts/geist-serif/LICENSE.txt",
+      "fonts/geist-serif/font.css": "public/fonts/geist-serif/font.css",
+      "icons/icon-128.png": "public/icons/icon-128.png",
+      "icons/icon-16.png": "public/icons/icon-16.png",
+      "icons/icon-192.png": "public/icons/icon-192.png",
+      "icons/icon-32.png": "public/icons/icon-32.png",
+      "icons/icon-48.png": "public/icons/icon-48.png",
+      "icons/icon-512.png": "public/icons/icon-512.png",
+      "logo192.png": "public/icons/icon-192.png",
+      "logo512.png": "public/icons/icon-512.png",
+      "robots.txt": "public/robots.txt"
+    }
+  }
+}

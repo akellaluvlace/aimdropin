@@ -1,0 +1,56 @@
+{
+  "record": {
+    "slug": "react-antd-admin-template",
+    "title": "React Antd Admin Template",
+    "description": "Ant Design 3 admin (Chinese UI): dashboard, permissions, rich text and markdown editors, drag lists, charts, tables, Excel and zip export.",
+    "repo": "NLRX-WJC/react-antd-admin-template",
+    "sha": "2bf6517630daa7d68aeb7a71b4c86f99f48160ac",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/NLRX-WJC/react-antd-admin-template/blob/2bf6517630daa7d68aeb7a71b4c86f99f48160ac/LICENSE"
+    },
+    "author": "NLRX-WJC",
+    "framework": "react",
+    "ui": "antd",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "ant-design",
+      "redux",
+      "echarts",
+      "mockjs"
+    ],
+    "demoUrl": "https://nlrx-wjc.github.io/react-antd-admin-template/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "React Antd Admin Template"
+      }
+    ],
+    "storedBytes": 6589222,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:36.556Z"
+  },
+  "serve": {
+    "slug": "react-antd-admin-template",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/NLRX-WJC/react-antd-admin-template@2bf6517630daa7d68aeb7a71b4c86f99f48160ac/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "static/media/404.9161e238.png": "src/assets/images/404.png",
+      "static/media/bg.2701e8c9.jpg": "src/assets/images/bg.jpg",
+      "static/media/draggable.e58eaef0.gif": "src/assets/images/draggable.gif",
+      "static/media/reward.5a232d53.jpg": "src/assets/images/reward.jpg",
+      "static/media/wechat.2a5b6308.jpg": "src/assets/images/wechat.jpg"
+    }
+  }
+}

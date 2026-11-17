@@ -1,0 +1,54 @@
+{
+  "record": {
+    "slug": "tdesign-react-starter",
+    "title": "TDesign React Starter",
+    "description": "Tencent TDesign admin: overview and detail dashboards, detail pages, base and step forms, card/select/tree lists, result pages, user center, login.",
+    "repo": "Tencent/tdesign-react-starter",
+    "sha": "fce97863edd5d5556f766dd4e342aace31a99487",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/Tencent/tdesign-react-starter/blob/fce97863edd5d5556f766dd4e342aace31a99487/LICENSE"
+    },
+    "author": "TDesign (Tencent)",
+    "framework": "react",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tdesign",
+      "echarts",
+      "redux",
+      "mockjs"
+    ],
+    "demoUrl": "https://tdesign.tencent.com/starter/react/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "TDesign React Starter"
+      }
+    ],
+    "storedBytes": 3390121,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:38.511Z"
+  },
+  "serve": {
+    "slug": "tdesign-react-starter",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Tencent/tdesign-react-starter@fce97863edd5d5556f766dd4e342aace31a99487/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/assets-login-bg-black.ff89ae69.png": "src/assets/image/assets-login-bg-black.png",
+      "assets/assets-login-bg-white.439b0654.png": "src/assets/image/assets-login-bg-white.png",
+      "favicon.ico": "public/favicon.ico",
+      "robots.txt": "public/robots.txt"
+    }
+  }
+}

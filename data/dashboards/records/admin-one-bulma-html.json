@@ -1,0 +1,59 @@
+{
+  "record": {
+    "slug": "admin-one-bulma-html",
+    "title": "Admin One (Bulma)",
+    "description": "Bulma admin dashboard with charts, tables, forms and profile pages.",
+    "repo": "vikdiesel/admin-one-bulma-dashboard",
+    "sha": "28ba7a32f033872e65747eaf039f476f60e12a88",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/vikdiesel/admin-one-bulma-dashboard/blob/28ba7a32f033872e65747eaf039f476f60e12a88/LICENSE"
+    },
+    "author": "JustBoil.me",
+    "framework": "html",
+    "ui": "bulma",
+    "category": "Admin",
+    "tags": [
+      "bulma",
+      "charts",
+      "vanilla-js"
+    ],
+    "demoUrl": "https://vikdiesel.github.io/admin-one-bulma-dashboard/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Admin One HTML - Bulma Admin Dashboard"
+      },
+      {
+        "path": "forms.html",
+        "title": "Forms - Admin One HTML - Bulma Admin Dashboard"
+      },
+      {
+        "path": "profile.html",
+        "title": "Profile - Admin One HTML - Bulma Admin Dashboard"
+      },
+      {
+        "path": "tables.html",
+        "title": "Tables - Admin One HTML - Bulma Admin Dashboard"
+      }
+    ],
+    "storedBytes": 150353,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:21.147Z"
+  },
+  "serve": {
+    "slug": "admin-one-bulma-html",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/vikdiesel/admin-one-bulma-dashboard@28ba7a32f033872e65747eaf039f476f60e12a88/",
+    "cdnRoot": "demo",
+    "cdnMap": null
+  }
+}

@@ -1,0 +1,1019 @@
+[
+  {
+    "slug": "shadcn-ui-sidebar",
+    "title": "Shadcn UI Sidebar",
+    "description": "Retractable shadcn/ui sidebar layout for Next.js with dashboard, posts, categories, tags, users and account pages.",
+    "repo": "salimi-my/shadcn-ui-sidebar",
+    "sha": "25a8c1295514fe1fc923997b9c4dac9a84453559",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Salimi",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Starter",
+    "tags": [
+      "sidebar",
+      "app-router",
+      "dark-mode",
+      "tailwind"
+    ],
+    "demoUrl": "https://shadcn-ui-sidebar.salimi.my",
+    "quality": 2,
+    "exclude": "LOW-QUALITY (2): a sidebar layout demo; every dashboard page is an empty placeholder",
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "dashboard/index.html",
+      "spa": false,
+      "patch": "shadcn-ui-sidebar.mjs"
+    }
+  },
+  {
+    "slug": "devias-material-kit-react",
+    "title": "Devias Material Kit React",
+    "description": "MUI admin on the Next.js App Router: overview charts, customers table, integrations, settings, account and auth pages.",
+    "repo": "devias-io/material-kit-react",
+    "sha": "6423e1a2f092c50d7e1e22f3e43344df02af41de",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Devias",
+    "framework": "next",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "material-ui",
+      "app-router",
+      "apexcharts",
+      "auth-pages"
+    ],
+    "demoUrl": "https://material-kit-react.devias.io",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "dashboard/index.html",
+      "spa": false,
+      "patch": "devias-material-kit-react.mjs"
+    }
+  },
+  {
+    "slug": "tremor-dashboard-oss",
+    "title": "Tremor Dashboard (OSS)",
+    "description": "Tremor Raw dashboard: overview KPIs with charts, a details table with filters and a settings page.",
+    "repo": "tremorlabs/template-dashboard-oss",
+    "sha": "a20f619680e4582122c331bacf2efdef6daf460f",
+    "license": {
+      "spdx": "Apache-2.0",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tremor Labs",
+    "framework": "next",
+    "ui": "tremor",
+    "category": "Analytics",
+    "tags": [
+      "tremor",
+      "recharts",
+      "tanstack-table",
+      "dark-mode"
+    ],
+    "demoUrl": "https://dashboard.tremor.so",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "overview/index.html",
+      "spa": false,
+      "patch": "tremor-dashboard-oss.mjs"
+    }
+  },
+  {
+    "slug": "tremor-dashboard",
+    "title": "Tremor Dashboard",
+    "description": "Tremor dashboard with overview KPIs and charts, a filterable details table and general, billing and users settings.",
+    "repo": "tremorlabs/template-dashboard",
+    "sha": "ac673531b124244b75fef5c750df1fa9ee783d4a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tremor Labs",
+    "framework": "next",
+    "ui": "tremor",
+    "category": "Analytics",
+    "tags": [
+      "tremor",
+      "recharts",
+      "tanstack-table",
+      "dark-mode"
+    ],
+    "demoUrl": "https://dashboard.tremor.so",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "overview/index.html",
+      "spa": false,
+      "patch": "tremor-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "tremor-insights",
+    "title": "Tremor Insights",
+    "description": "Expense analytics: reports, filterable transactions, three-step onboarding, audit/billing/users settings and a login page.",
+    "repo": "tremorlabs/template-insights",
+    "sha": "c94ef1f3756793d541b01df6b2012828182e58bb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tremor Labs",
+    "framework": "next",
+    "ui": "tremor",
+    "category": "Finance",
+    "tags": [
+      "tremor",
+      "recharts",
+      "tanstack-table",
+      "onboarding"
+    ],
+    "demoUrl": "https://insights.tremor.so",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "reports/index.html",
+      "spa": false,
+      "patch": "tremor-insights.mjs"
+    }
+  },
+  {
+    "slug": "tremor-overview",
+    "title": "Tremor Overview",
+    "description": "Support-center analytics with support, retention, workflow and agents dashboards plus a login page.",
+    "repo": "tremorlabs/template-overview",
+    "sha": "ee80d622c3d92f25b5b714a91319fd930dbeae7e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tremor Labs",
+    "framework": "next",
+    "ui": "tremor",
+    "category": "Analytics",
+    "tags": [
+      "tremor",
+      "recharts",
+      "support",
+      "dark-mode"
+    ],
+    "demoUrl": "https://overview.tremor.so",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "corepack pnpm@9.15.9 install --frozen-lockfile --ignore-scripts",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "support/index.html",
+      "spa": false,
+      "patch": "tremor-overview.mjs"
+    }
+  },
+  {
+    "slug": "tremor-planner",
+    "title": "Tremor Planner",
+    "description": "Dense quote-planning dashboards: quotes overview, monitoring and audits, with a collapsible sidebar.",
+    "repo": "tremorlabs/template-planner",
+    "sha": "7b5d1f10e2705c9a2dca108c41910793185cdbb8",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tremor Labs",
+    "framework": "next",
+    "ui": "tremor",
+    "category": "Analytics",
+    "tags": [
+      "tremor",
+      "recharts",
+      "sidebar",
+      "data-viz"
+    ],
+    "demoUrl": "https://planner.tremor.so",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "corepack pnpm@9.15.9 install --frozen-lockfile --ignore-scripts",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "quotes/overview/index.html",
+      "spa": false,
+      "patch": "tremor-planner.mjs"
+    }
+  },
+  {
+    "slug": "admin-one-react-tailwind",
+    "title": "Admin One React Tailwind",
+    "description": "Tailwind admin on Next.js: dashboard, tables, forms, UI, responsive and profile pages, login and error screens, dark mode.",
+    "repo": "justboil/admin-one-react-tailwind",
+    "sha": "251841fff0a36e4ac1eb96836adcd2858a66c3ac",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "JustBoil.me",
+    "framework": "next",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "app-router",
+      "redux",
+      "dark-mode"
+    ],
+    "demoUrl": "https://justboil.github.io/admin-one-react-tailwind/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "dashboard/index.html",
+      "spa": false,
+      "patch": "admin-one-react-tailwind.mjs"
+    }
+  },
+  {
+    "slug": "mantine-admin",
+    "title": "Mantine Admin",
+    "description": "Mantine 7 admin starter on Next.js: dashboard, chart, form, table and settings pages with login and register.",
+    "repo": "jotyy/Mantine-Admin",
+    "sha": "8b6f5dcdda08d355b9bb91a0355303ff18593995",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Joshua Lee",
+    "framework": "next",
+    "ui": "mantine",
+    "category": "Starter",
+    "tags": [
+      "mantine",
+      "app-router",
+      "tanstack-query",
+      "dark-mode"
+    ],
+    "demoUrl": "https://mantine-admin.vercel.app",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "dashboard/index.html",
+      "spa": false,
+      "patch": "mantine-admin.mjs"
+    }
+  },
+  {
+    "slug": "studio-admin",
+    "title": "Studio Admin",
+    "description": "Large shadcn/ui admin on Next.js 16: about 20 dashboards (CRM, finance, analytics, e-commerce, logistics...), mail, chat, kanban and auth.",
+    "repo": "arhamkhnz/next-shadcn-admin-dashboard",
+    "sha": "3d1d6f4abf4231b258c81da25da1ccbc38d9b954",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Mohammed Arham Khan",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "shadcn",
+      "app-router",
+      "tailwind-4",
+      "dark-mode",
+      "theme-presets"
+    ],
+    "demoUrl": "https://studio-admin.arhamkhnz.com",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "dashboard/default/index.html",
+      "spa": false,
+      "patch": "studio-admin.mjs"
+    }
+  },
+  {
+    "slug": "studio-admin-baseui",
+    "title": "Studio Admin (Base UI)",
+    "description": "Studio Admin built on shadcn/ui's Base UI primitives: many dashboards (CRM, finance, analytics...), mail, chat, kanban and auth pages.",
+    "repo": "arhamkhnz/next-shadcn-admin-dashboard-baseui",
+    "sha": "c63b8ff4232d94720b02585c863d7dd9d7ec6bc5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Mohammed Arham Khan",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "shadcn",
+      "base-ui",
+      "app-router",
+      "tailwind-4",
+      "dark-mode"
+    ],
+    "demoUrl": "https://studio-admin.arhamkhnz.com",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "dashboard/default/index.html",
+      "spa": false,
+      "patch": "studio-admin-baseui.mjs"
+    }
+  },
+  {
+    "slug": "matdash-nextjs-free",
+    "title": "MatDash Next.js Free",
+    "description": "Tailwind/Flowbite admin on Next.js: dashboard, blog, notes and tickets apps, profile, form, table, icons and auth pages.",
+    "repo": "adminmart/MatDash-Nextjs-free",
+    "sha": "9af47bc3e2653083c11aa906bf97606d86bba835",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "next",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "flowbite",
+      "app-router",
+      "apexcharts"
+    ],
+    "demoUrl": "https://matdash-nextjs-free.vercel.app",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd package && npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "package/out",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "matdash-nextjs-free.mjs"
+    }
+  },
+  {
+    "slug": "modernize-nextjs-free",
+    "title": "Modernize Next.js Free",
+    "description": "MUI admin on Next.js: dashboard with charts, typography, shadow, icons and sample pages plus login and register.",
+    "repo": "adminmart/Modernize-Nextjs-Free",
+    "sha": "b0e8cd1b2588cf231ba48d1d7d9f84379dc4c9f4",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "next",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "material-ui",
+      "app-router",
+      "apexcharts",
+      "auth-pages"
+    ],
+    "demoUrl": "https://modernize-nextjs-free.vercel.app/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd package && npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "package/out",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "modernize-nextjs-free.mjs"
+    }
+  },
+  {
+    "slug": "tailadmin-nextjs",
+    "title": "TailAdmin Next.js",
+    "description": "TailAdmin's free Next.js admin: e-commerce dashboard, calendar, profile, forms, tables, charts, UI elements and auth pages.",
+    "repo": "TailAdmin/free-nextjs-admin-dashboard",
+    "sha": "d3526b35fb7e579a4585129fe6eaa47f54ec9a0b",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "TailAdmin",
+    "framework": "next",
+    "ui": "tailwind",
+    "category": "E-commerce",
+    "tags": [
+      "tailwind-4",
+      "app-router",
+      "apexcharts",
+      "dark-mode"
+    ],
+    "demoUrl": "https://nextjs-free-demo.tailadmin.com",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "tailadmin-nextjs.mjs"
+    }
+  },
+  {
+    "slug": "dashui-free-nextjs",
+    "title": "DashUI Next.js",
+    "description": "Bootstrap 5 admin on the Next.js 13 app router: dashboard, about 25 component pages, profile, settings, billing, pricing and auth.",
+    "repo": "codescandy/dashui-free-nextjs-admin-template",
+    "sha": "5a7fbfb0327ae075f18f201cea2ac651bd0e445d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Codescandy",
+    "framework": "next",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap-5",
+      "react-bootstrap",
+      "app-router",
+      "apexcharts"
+    ],
+    "demoUrl": "https://dashui.codescandy.com/next-js-admin-dashboard-template.html",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "dashui-free-nextjs.mjs"
+    }
+  },
+  {
+    "slug": "tokyo-free-white-nextjs",
+    "title": "Tokyo Free White Next.js",
+    "description": "MUI 5 admin on the Next.js pages router: crypto dashboard, messenger, transactions, profile and settings, component and status pages.",
+    "repo": "bloomui/tokyo-free-white-nextjs-admin-dashboard",
+    "sha": "b8fa38e3e354206988ddf56db7d167ff11b06aff",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "BloomUI",
+    "framework": "next",
+    "ui": "mui",
+    "category": "Finance",
+    "tags": [
+      "material-ui",
+      "pages-router",
+      "apexcharts",
+      "crypto"
+    ],
+    "demoUrl": "https://bloomui.com/product/tokyo-free-white-nextjs-typescript-material-ui-admin-dashboard/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx next build && npx next export -o out",
+      "out": "out",
+      "entry": "dashboards/crypto/index.html",
+      "spa": false,
+      "patch": "tokyo-free-white-nextjs.mjs"
+    }
+  },
+  {
+    "slug": "sakai-react",
+    "title": "Sakai React",
+    "description": "PrimeReact admin on Next.js: dashboard, about 20 UI-kit pages (tables, charts, forms, tree, menus...), CRUD, timeline, landing and auth.",
+    "repo": "primefaces/sakai-react",
+    "sha": "cef0db541432b7fad962a72e7ee2fbbb187500dd",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "PrimeTek",
+    "framework": "next",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "primereact",
+      "app-router",
+      "chartjs",
+      "themes"
+    ],
+    "demoUrl": "https://sakai.primereact.org",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build && node /patches/_next-post.mjs out",
+      "out": "out",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "sakai-react.mjs"
+    }
+  },
+  {
+    "slug": "nextui-dashboard-template",
+    "title": "NextUI Dashboard Template",
+    "description": "NextUI v2 dashboard on the Next.js app router: home with charts and cards, accounts table, login and register pages.",
+    "repo": "Siumauricio/nextui-dashboard-template",
+    "sha": "19beccf692cdf9453dc554cfdcb4087a30bd835c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Mauricio Siu",
+    "framework": "next",
+    "ui": "other",
+    "category": "Starter",
+    "tags": [
+      "nextui",
+      "app-router",
+      "apexcharts",
+      "dark-mode"
+    ],
+    "demoUrl": "https://nextui-dashboard-template.vercel.app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "nextui-dashboard-template.mjs"
+    }
+  },
+  {
+    "slug": "arco-design-pro",
+    "title": "Arco Design Pro",
+    "description": "ByteDance's Arco enterprise admin (Next.js build): workplace and monitor dashboards, data analysis, search table, cards, forms, profile and results.",
+    "repo": "arco-design/arco-design-pro",
+    "sha": "bb6aebcceca6b294b438be4c13dc7328ee80d70b",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "ArcoDesign (ByteDance)",
+    "framework": "next",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "arco-design",
+      "pages-router",
+      "bizcharts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://pro.arco.design",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "cd arco-design-pro-next && yarn install --frozen-lockfile --ignore-scripts --network-timeout 600000",
+      "build": "npx next build && npx next export -o out",
+      "out": "arco-design-pro-next/out",
+      "entry": "dashboard/workplace/index.html",
+      "spa": false,
+      "patch": "arco-design-pro.mjs"
+    }
+  },
+  {
+    "slug": "notus-nextjs",
+    "title": "Notus NextJS",
+    "description": "Tailwind UI kit and admin on Next.js: dashboard, settings, tables and maps pages, login/register, landing and profile.",
+    "repo": "creativetimofficial/notus-nextjs",
+    "sha": "83af9355cf3373c31d5f5f3845e65185d327186d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "next",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "pages-router",
+      "chartjs",
+      "landing"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-nextjs/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "admin/dashboard/index.html",
+      "spa": false,
+      "patch": "notus-nextjs.mjs"
+    }
+  },
+  {
+    "slug": "nextjs-material-dashboard",
+    "title": "NextJS Material Dashboard",
+    "description": "Material UI v4 admin on Next.js 10: dashboard, user profile, table list, typography, icons, maps, notifications and an RTL page.",
+    "repo": "creativetimofficial/nextjs-material-dashboard",
+    "sha": "f1ed96d3b7a391b7ca2750f91c5e7af866a6247c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "next",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "material-ui",
+      "pages-router",
+      "chartist",
+      "rtl"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/nextjs-material-dashboard/admin/dashboard",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx next build && npx next export -o out",
+      "out": "out",
+      "entry": "admin/dashboard/index.html",
+      "spa": false,
+      "patch": "nextjs-material-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "nextjs-argon-dashboard",
+    "title": "NextJS Argon Dashboard",
+    "description": "Bootstrap 4 Argon admin on Next.js 10: dashboard charts, icons, maps, profile, tables and login/register pages.",
+    "repo": "creativetimofficial/nextjs-argon-dashboard",
+    "sha": "801c7c4a8f1018928c6ef69ce4b1b30231eb1f96",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "next",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap-4",
+      "reactstrap",
+      "pages-router",
+      "chartjs"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/nextjs-argon-dashboard/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx next build && npx next export -o out",
+      "out": "out",
+      "entry": "admin/dashboard/index.html",
+      "spa": false,
+      "patch": "nextjs-argon-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "next-shadcn-dashboard-starter",
+    "title": "Next Shadcn Dashboard Starter",
+    "description": "shadcn/ui admin starter on Next.js 16: overview charts, product and user tables with filters, kanban, chat, AI chat, forms and notifications.",
+    "repo": "Kiranism/next-shadcn-dashboard-starter",
+    "sha": "47da494b89e330d884a0f9b5c37a605fbabb3987",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Kiranism",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "shadcn",
+      "app-router",
+      "tanstack-query",
+      "nuqs",
+      "kanban"
+    ],
+    "demoUrl": "https://shadcn-dashboard.kiranism.dev",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx next build --webpack",
+      "out": "out",
+      "entry": "dashboard/overview/index.html",
+      "spa": false,
+      "patch": "next-shadcn-dashboard-starter.mjs"
+    }
+  },
+  {
+    "slug": "shadboard",
+    "title": "Shadboard",
+    "description": "Big shadcn/ui kit on Next.js 15: analytics, CRM and e-commerce dashboards, email, chat, calendar, kanban, settings, pricing and a design system.",
+    "repo": "Qualiora/shadboard",
+    "sha": "d56d92e391c7e955ac371c7e0db4941be02a354f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Qualiora",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "shadcn",
+      "app-router",
+      "i18n",
+      "rtl",
+      "kanban"
+    ],
+    "demoUrl": "https://shadboard.vercel.app",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd full-kit && pnpm install --frozen-lockfile --ignore-scripts --config.strict-dep-builds=false",
+      "build": "npx next build",
+      "out": "full-kit/out",
+      "entry": "en/dashboards/analytics/index.html",
+      "spa": false,
+      "patch": "shadboard.mjs",
+      "env": {
+        "BASE_URL": "https://shadboard.vercel.app",
+        "HOME_PATHNAME": "/dashboards/analytics",
+        "NEXT_PUBLIC_HOME_PATHNAME": "/dashboards/analytics"
+      }
+    }
+  },
+  {
+    "slug": "mantine-analytics-dashboard",
+    "title": "Mantine Analytics Dashboard",
+    "description": "Mantine admin on Next.js 16: 14 dashboards (SaaS, CRM, finance, LLM...), apps (chat, calendar, kanban, invoices, projects) and auth pages.",
+    "repo": "design-sparx/mantine-analytics-dashboard",
+    "sha": "3428a4cec37bbc647c4e3635d63fb33ce0be9831",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Kelvin Kiprop (design-sparx)",
+    "framework": "next",
+    "ui": "mantine",
+    "category": "Analytics",
+    "tags": [
+      "mantine",
+      "app-router",
+      "mock-api",
+      "dark-mode",
+      "kanban"
+    ],
+    "demoUrl": "https://mantine-analytics-dashboard.netlify.app/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --ignore-scripts",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "dashboard/default/index.html",
+      "spa": false,
+      "patch": "mantine-analytics-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "shadcn-ui-examples-www-legacy",
+    "title": "shadcn/ui Examples (v3)",
+    "description": "The shadcn/ui examples from the Tailwind 3 era site: mail, music, dashboard, cards, tasks table, playground, forms and authentication.",
+    "repo": "shadcn-ui/ui",
+    "sha": "84bd724d97005f98b54d064aed5883b79aac1fd3",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "shadcn",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Starter",
+    "tags": [
+      "shadcn",
+      "radix-ui",
+      "app-router",
+      "tailwind",
+      "examples"
+    ],
+    "demoUrl": "https://v3.shadcn.com/examples/mail",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "corepack pnpm@9.15.9 install --frozen-lockfile --ignore-scripts --filter www...",
+      "build": "cd apps/www && npx next build",
+      "out": "apps/www/out",
+      "entry": "examples/mail/index.html",
+      "spa": false,
+      "patch": "shadcn-ui-examples-www-legacy.mjs"
+    }
+  },
+  {
+    "slug": "horizon-ui-chakra-nextjs",
+    "title": "Horizon UI Chakra Next.js",
+    "description": "Next.js version of Horizon UI Chakra.",
+    "repo": "horizon-ui/horizon-ui-chakra-nextjs",
+    "sha": "4fe7a7399526a6cd3dd9497b14a322cf9fd1e9c2",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Horizon UI",
+    "framework": "next",
+    "ui": "chakra",
+    "category": "Admin",
+    "tags": [
+      "chakra"
+    ],
+    "quality": 4,
+    "exclude": "VENDOR-EXCLUDED: Horizon UI/Simmmple; README points to the Simmmple license page instead of plain MIT",
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "datta-able-free-nextjs-tailwind",
+    "title": "Datta Able Free Next.js",
+    "description": "Tailwind port of Datta Able on Next.js.",
+    "repo": "codedthemes/datta-able-free-tailwind-nextjs-admin-template",
+    "sha": "f42763bfd8c013bdedcc9228b50e625310f38c50",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "CodedThemes",
+    "framework": "next",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind"
+    ],
+    "quality": 3,
+    "exclude": "VENDOR-EXCLUDED: CodedThemes freebies ask for a footer credit link; also ships apexcharts 5.3.1 (non-MIT)",
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "nellavio",
+    "title": "Nellavio",
+    "description": "Next.js analytics/admin with customers, orders, products, calendar and charts.",
+    "repo": "nellavio/nellavio",
+    "sha": "ac5ea4505206baff718ab5df5a92c6fca004732e",
+    "license": {
+      "spdx": "MIT",
+      "path": "license",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Mateusz Wyrębek",
+    "framework": "next",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind"
+    ],
+    "quality": 4,
+    "exclude": "README-CONDITION: author asks that the project not be repackaged or redistributed as a template/UI kit, which is what the gallery does",
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "shadcn-ui-examples-v4",
+    "title": "shadcn/ui Examples (v4)",
+    "description": "The shadcn/ui v4 site examples (dashboard-01, tasks, auth).",
+    "repo": "shadcn-ui/ui",
+    "sha": "8ab27715521cbd4f87ae6886cd989cbb678f6de7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "shadcn",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Starter",
+    "tags": [
+      "shadcn"
+    ],
+    "quality": 5,
+    "exclude": "TOO-LARGE: examples import style folders (styles/<style>/ui) that are gitignored and generated by the monorepo's registry build; scaffolding them out of the fumadocs site is a rewrite, not a patch (the v3 examples are imported as shadcn-ui-examples-www-legacy)",
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx next build",
+      "out": "out",
+      "entry": "index.html",
+      "spa": false
+    }
+  }
+]

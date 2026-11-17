@@ -1,0 +1,296 @@
+{
+  "record": {
+    "slug": "dash-ui-bootstrap",
+    "title": "Dash UI",
+    "description": "Bootstrap 5 admin dashboard with projects overview, profile, settings, billing, pricing, auth and layout pages.",
+    "repo": "codescandy/Dash-UI",
+    "sha": "394b933495a0847e21d0cc40a462d381df80190f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.47 (MIT).",
+      "url": "https://github.com/codescandy/Dash-UI/blob/394b933495a0847e21d0cc40a462d381df80190f/LICENSE"
+    },
+    "author": "Codescandy",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "apexcharts",
+      "gulp"
+    ],
+    "demoUrl": "https://dashui.codescandy.com",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Homepage | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "assets/libs/@mdi/font/preview.html",
+        "title": "Material Design Icons"
+      },
+      {
+        "path": "docs/accordions.html",
+        "title": "Accordions | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/alerts.html",
+        "title": "Alerts | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/badge.html",
+        "title": "Badges | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/borders.html",
+        "title": "Borders | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/breadcrumb.html",
+        "title": "Breadcrumb | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/button-group.html",
+        "title": "Button Group | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/buttons.html",
+        "title": "Buttons | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/card.html",
+        "title": "Card | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/carousel.html",
+        "title": "Carousel | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/changelog.html",
+        "title": "Changelog | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/close-button.html",
+        "title": "Close Button | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/collapse.html",
+        "title": "Collapse | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/colored-links.html",
+        "title": "Colored links | Geeks - Bootstrap 5 Template"
+      },
+      {
+        "path": "docs/colors.html",
+        "title": "Colors | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/credits.html",
+        "title": "Credits | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/dropdowns.html",
+        "title": "Dropdowns | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/forms.html",
+        "title": "Forms | Geeks - Bootstrap 5 Template"
+      },
+      {
+        "path": "docs/gulp.html",
+        "title": "Gulp | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/index.html",
+        "title": "Introduction | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/list-group.html",
+        "title": "List Group | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/modal.html",
+        "title": "Modal | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/navbar.html",
+        "title": "Navbar | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/navs-tabs.html",
+        "title": "Navs and tabs | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/offcanvas.html",
+        "title": "Offcanvas | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/opacity.html",
+        "title": "Opacity | Geeks - Bootstrap 5 Template"
+      },
+      {
+        "path": "docs/pagination.html",
+        "title": "Pagination | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/placeholders.html",
+        "title": "Placeholder | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/popovers.html",
+        "title": "Popovers | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/progress.html",
+        "title": "Progress bars | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/ratio.html",
+        "title": "Ratio | Geeks - Bootstrap 5 Template"
+      },
+      {
+        "path": "docs/scrollspy.html",
+        "title": "Scrollspy | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/shadows.html",
+        "title": "Shadows | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/spinners.html",
+        "title": "Spinners | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/stacks.html",
+        "title": "Stacks | Geeks - Bootstrap 5 Template"
+      },
+      {
+        "path": "docs/tables.html",
+        "title": "Tables | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/text-truncation.html",
+        "title": "Text truncation | Geeks - Bootstrap 5 Template"
+      },
+      {
+        "path": "docs/text.html",
+        "title": "Text | Geeks - Bootstrap 5 Template"
+      },
+      {
+        "path": "docs/toasts.html",
+        "title": "Toasts | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/tooltips.html",
+        "title": "Tooltips | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/typography.html",
+        "title": "Typography | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "docs/vertical-rule.html",
+        "title": "Vertical rule | Geeks - Bootstrap 5 Template"
+      },
+      {
+        "path": "pages/404-error.html",
+        "title": "404 error | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "pages/billing.html",
+        "title": "Billing | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "pages/forget-password.html",
+        "title": "Forget Password | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "pages/layout.html",
+        "title": "Layout | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "pages/pricing.html",
+        "title": "Pricing | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "pages/profile.html",
+        "title": "Profile Overview | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "pages/settings.html",
+        "title": "Setting | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "pages/sign-in.html",
+        "title": "Sign In | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "pages/sign-up.html",
+        "title": "Sign Up | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      },
+      {
+        "path": "pages/tables.html",
+        "title": "Tables | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+      }
+    ],
+    "storedBytes": 22210255,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:29.692Z"
+  },
+  "serve": {
+    "slug": "dash-ui-bootstrap",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/codescandy/Dash-UI@394b933495a0847e21d0cc40a462d381df80190f/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/images/avatar/avatar-1.jpg": "src/assets/images/avatar/avatar-1.jpg",
+      "assets/images/avatar/avatar-10.jpg": "src/assets/images/avatar/avatar-10.jpg",
+      "assets/images/avatar/avatar-11.jpg": "src/assets/images/avatar/avatar-11.jpg",
+      "assets/images/avatar/avatar-12.jpg": "src/assets/images/avatar/avatar-12.jpg",
+      "assets/images/avatar/avatar-13.jpg": "src/assets/images/avatar/avatar-13.jpg",
+      "assets/images/avatar/avatar-14.jpg": "src/assets/images/avatar/avatar-14.jpg",
+      "assets/images/avatar/avatar-15.jpg": "src/assets/images/avatar/avatar-15.jpg",
+      "assets/images/avatar/avatar-16.jpg": "src/assets/images/avatar/avatar-16.jpg",
+      "assets/images/avatar/avatar-17.jpg": "src/assets/images/avatar/avatar-17.jpg",
+      "assets/images/avatar/avatar-18.jpg": "src/assets/images/avatar/avatar-18.jpg",
+      "assets/images/avatar/avatar-19.jpg": "src/assets/images/avatar/avatar-19.jpg",
+      "assets/images/avatar/avatar-2.jpg": "src/assets/images/avatar/avatar-2.jpg",
+      "assets/images/avatar/avatar-20.jpg": "src/assets/images/avatar/avatar-20.jpg",
+      "assets/images/avatar/avatar-21.jpg": "src/assets/images/avatar/avatar-21.jpg",
+      "assets/images/avatar/avatar-3.jpg": "src/assets/images/avatar/avatar-3.jpg",
+      "assets/images/avatar/avatar-4.jpg": "src/assets/images/avatar/avatar-4.jpg",
+      "assets/images/avatar/avatar-5.jpg": "src/assets/images/avatar/avatar-5.jpg",
+      "assets/images/avatar/avatar-6.jpg": "src/assets/images/avatar/avatar-6.jpg",
+      "assets/images/avatar/avatar-7.jpg": "src/assets/images/avatar/avatar-7.jpg",
+      "assets/images/avatar/avatar-8.jpg": "src/assets/images/avatar/avatar-8.jpg",
+      "assets/images/avatar/avatar-9.jpg": "src/assets/images/avatar/avatar-9.jpg",
+      "assets/images/avatar/avatar.jpg": "src/assets/images/avatar/avatar.jpg",
+      "assets/images/background/profile-cover.jpg": "src/assets/images/background/profile-cover.jpg",
+      "assets/images/blog/blog-img-1.jpg": "src/assets/images/blog/blog-img-1.jpg",
+      "assets/images/brand/logo/brand-logo.png": "src/assets/images/brand/logo/brand-logo.png",
+      "assets/images/error/404-error-img.png": "src/assets/images/error/404-error-img.png",
+      "assets/images/favicon/favicon.ico": "src/assets/images/favicon/favicon.ico",
+      "assets/images/marketing/bootstrap-5-admin-dashboard-template.jpg": "src/assets/images/marketing/bootstrap-5-admin-dashboard-template.jpg",
+      "assets/images/marketing/chrome.png": "src/assets/images/marketing/chrome.png",
+      "assets/images/marketing/edge.png": "src/assets/images/marketing/edge.png",
+      "assets/images/marketing/firefox.png": "src/assets/images/marketing/firefox.png",
+      "assets/images/marketing/hero-img.jpg": "src/assets/images/marketing/hero-img.jpg",
+      "assets/images/marketing/opera.png": "src/assets/images/marketing/opera.png",
+      "assets/images/marketing/safari.png": "src/assets/images/marketing/safari.png",
+      "assets/images/placeholder/4by3.jpg": "src/assets/images/placeholder/4by3.jpg",
+      "assets/images/placeholder/placeholder-img.jpg": "src/assets/images/placeholder/placeholder-img.jpg",
+      "assets/images/slide-img/slider-img-1.jpg": "src/assets/images/slide-img/slider-img-1.jpg",
+      "assets/images/slide-img/slider-img-2.jpg": "src/assets/images/slide-img/slider-img-2.jpg",
+      "assets/images/slide-img/slider-img-3.jpg": "src/assets/images/slide-img/slider-img-3.jpg"
+    }
+  }
+}

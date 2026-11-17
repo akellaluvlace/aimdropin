@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-11-10T17:47:32.629Z",
+  "pagesChecked": 21,
+  "pagesOk": 15,
+  "failures": [
+    {
+      "path": "error-404-alt.html",
+      "problem": "script error: Uncaught Sortable: `el` must be HTMLElement, not [object Undefined]"
+    },
+    {
+      "path": "error-500-alt.html",
+      "problem": "script error: Uncaught Sortable: `el` must be HTMLElement, not [object Undefined]"
+    },
+    {
+      "path": "login.html",
+      "problem": "script error: Uncaught Sortable: `el` must be HTMLElement, not [object Undefined]"
+    },
+    {
+      "path": "reset.html",
+      "problem": "script error: Uncaught Sortable: `el` must be HTMLElement, not [object Undefined]"
+    },
+    {
+      "path": "screenful.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB https://cdn.jsdelivr.net/gh/modularcode/modular-admin-html@b4a10e69fd0515ff24a96a8286ece31021935dc7/modular-admin-html/assets/screenful/integration-jira.png · net::ERR_BLOCKED_BY_ORB https://cdn.jsdelivr.net/gh/modularcode/modular-admin-html@b4a10e69fd0515ff24a96a8286ece31021935dc7/modular-admin-html/assets/screenful/integration-gitlab.png · net::ERR_BLOCKED_BY_ORB https://cdn.jsdelivr.net/gh/modularcode/modular-admin-html@b4a10e69fd0515ff24a96a8286ece31021935dc7/modular-admin-html/assets/screenful/screen-timing.png"
+    },
+    {
+      "path": "signup.html",
+      "problem": "script error: Uncaught Sortable: `el` must be HTMLElement, not [object Undefined]"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "buttons.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "cards.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "charts-flot.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "charts-morris.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "error-404.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "error-500.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "forms.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "grid.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "icons.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "item-editor.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "items-list.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "responsive-tables.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "static-tables.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    },
+    {
+      "path": "typography.html",
+      "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+    }
+  ]
+}

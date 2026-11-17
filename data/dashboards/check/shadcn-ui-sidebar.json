@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-11-10T19:02:47.102Z",
+  "pagesChecked": 18,
+  "pagesOk": 18,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "dashboard/index.html",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "404.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "404/index.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "account/index.html",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "categories/index.html",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "index.html",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "posts/index.html",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "posts/new/index.html",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "tags/index.html",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "users/index.html",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "dashboard/",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "posts/",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "posts/new/",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "categories/",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "tags/",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "users/",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "account/",
+      "title": "shadcn/ui sidebar"
+    },
+    {
+      "path": "",
+      "title": "shadcn/ui sidebar"
+    }
+  ]
+}

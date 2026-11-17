@@ -1,0 +1,129 @@
+{
+  "record": {
+    "slug": "modular-admin",
+    "title": "ModularAdmin",
+    "description": "Bootstrap 4 admin with jQuery: dashboard, items list and editor, charts (Flot, Morris), forms, tables, buttons, icons, auth and error pages.",
+    "repo": "modularcode/modular-admin-html",
+    "sha": "b4a10e69fd0515ff24a96a8286ece31021935dc7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the gh-pages branch (built site, 2019-07-15), which has no LICENSE file; MIT read from LICENSE on master at fb247f5a373b (2019-07-14, the build's source period). Bundles jqvmap (MIT/GPL dual), Flot (MIT), Morris (BSD) and Quill 1 (BSD-3).",
+      "url": "https://github.com/modularcode/modular-admin-html/blob/b4a10e69fd0515ff24a96a8286ece31021935dc7/LICENSE"
+    },
+    "author": "ModularCode",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "flot",
+      "morris"
+    ],
+    "demoUrl": "https://modularcode.io/modular-admin-html/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "buttons.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "cards.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "charts-flot.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "charts-morris.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "error-404-alt.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "error-404.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "error-500-alt.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "error-500.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "forms.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "grid.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "icons.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "item-editor.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "items-list.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "login.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "reset.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "responsive-tables.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "screenful.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "signup.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "static-tables.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      },
+      {
+        "path": "typography.html",
+        "title": "ModularAdmin - Free Dashboard Theme | HTML Version"
+      }
+    ],
+    "storedBytes": 934334,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T17:46:46.871Z"
+  },
+  "serve": {
+    "slug": "modular-admin",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/modularcode/modular-admin-html@b4a10e69fd0515ff24a96a8286ece31021935dc7/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

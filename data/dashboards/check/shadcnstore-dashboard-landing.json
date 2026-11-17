@@ -1,0 +1,133 @@
+{
+  "checkedAt": "2026-11-10T17:24:34.786Z",
+  "pagesChecked": 30,
+  "pagesOk": 29,
+  "failures": [
+    {
+      "path": "dashboard-2",
+      "problem": "net::ERR_BLOCKED_BY_ORB /demos/shadcnstore-dashboard-landing/https:/notion-avatars.netlify.app/api/avatar?preset=male-1 · net::ERR_BLOCKED_BY_ORB /demos/shadcnstore-dashboard-landing/https:/notion-avatars.netlify.app/api/avatar?preset=female- · net::ERR_BLOCKED_BY_ORB /demos/shadcnstore-dashboard-landing/https:/notion-avatars.netlify.app/api/avatar?preset=female-2"
+    }
+  ],
+  "deadLinks": [
+    "errors/not-found",
+    "sign-in"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "Shadcn Dashboard & Landing Template"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "mail",
+      "title": "Mail"
+    },
+    {
+      "path": "tasks",
+      "title": "Tasks"
+    },
+    {
+      "path": "chat",
+      "title": "Chat"
+    },
+    {
+      "path": "calendar",
+      "title": "Calendar"
+    },
+    {
+      "path": "users",
+      "title": "Users"
+    },
+    {
+      "path": "landing",
+      "title": "Landing"
+    },
+    {
+      "path": "auth/sign-in",
+      "title": "Auth / Sign In"
+    },
+    {
+      "path": "auth/sign-in-2",
+      "title": "Auth / Sign In 2"
+    },
+    {
+      "path": "auth/sign-in-3",
+      "title": "Auth / Sign In 3"
+    },
+    {
+      "path": "auth/sign-up",
+      "title": "Auth / Sign Up"
+    },
+    {
+      "path": "auth/sign-up-2",
+      "title": "Auth / Sign Up 2"
+    },
+    {
+      "path": "auth/sign-up-3",
+      "title": "Auth / Sign Up 3"
+    },
+    {
+      "path": "auth/forgot-password",
+      "title": "Auth / Forgot Password"
+    },
+    {
+      "path": "auth/forgot-password-2",
+      "title": "Auth / Forgot Password 2"
+    },
+    {
+      "path": "auth/forgot-password-3",
+      "title": "Auth / Forgot Password 3"
+    },
+    {
+      "path": "errors/unauthorized",
+      "title": "Errors / Unauthorized"
+    },
+    {
+      "path": "errors/forbidden",
+      "title": "Errors / Forbidden"
+    },
+    {
+      "path": "errors/internal-server-error",
+      "title": "Errors / Internal Server Error"
+    },
+    {
+      "path": "errors/under-maintenance",
+      "title": "Errors / Under Maintenance"
+    },
+    {
+      "path": "settings/user",
+      "title": "Settings / User"
+    },
+    {
+      "path": "settings/account",
+      "title": "Settings / Account"
+    },
+    {
+      "path": "settings/billing",
+      "title": "Settings / Billing"
+    },
+    {
+      "path": "settings/appearance",
+      "title": "Settings / Appearance"
+    },
+    {
+      "path": "settings/notifications",
+      "title": "Settings / Notifications"
+    },
+    {
+      "path": "settings/connections",
+      "title": "Settings / Connections"
+    },
+    {
+      "path": "faqs",
+      "title": "Faqs"
+    },
+    {
+      "path": "pricing",
+      "title": "Pricing"
+    }
+  ]
+}

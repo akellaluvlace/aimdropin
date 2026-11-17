@@ -1,0 +1,55 @@
+{
+  "record": {
+    "slug": "sakai-vue",
+    "title": "Sakai Vue",
+    "description": "PrimeVue admin template with dashboard, CRUD, every PrimeVue component demo, landing page, auth pages and timeline/empty pages.",
+    "repo": "primefaces/sakai-vue",
+    "sha": "7c32ae1f6fc75e18a5e735f76e1ab25d1167d26c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/primefaces/sakai-vue/blob/7c32ae1f6fc75e18a5e735f76e1ab25d1167d26c/LICENSE.md"
+    },
+    "author": "PrimeTek",
+    "framework": "vue",
+    "ui": "primevue",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "primevue",
+      "tailwind",
+      "dark-mode",
+      "crud"
+    ],
+    "demoUrl": "https://sakai.primevue.org",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Sakai Vue"
+      }
+    ],
+    "storedBytes": 5630413,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:38.626Z"
+  },
+  "serve": {
+    "slug": "sakai-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/primefaces/sakai-vue@7c32ae1f6fc75e18a5e735f76e1ab25d1167d26c/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "demo/images/blocks/landing-blocks-dark.jpg": "public/demo/images/blocks/landing-blocks-dark.jpg",
+      "demo/images/blocks/landing-blocks.jpg": "public/demo/images/blocks/landing-blocks.jpg",
+      "demo/images/flag/flag_placeholder.png": "public/demo/images/flag/flag_placeholder.png",
+      "demo/images/landing/screen-1.png": "public/demo/images/landing/screen-1.png",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

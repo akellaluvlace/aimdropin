@@ -1,0 +1,333 @@
+{
+  "checkedAt": "2026-11-10T17:41:06.705Z",
+  "pagesChecked": 81,
+  "pagesOk": 81,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Shadcn Admin Kit Demo"
+    },
+    {
+      "path": "orders",
+      "title": "Orders"
+    },
+    {
+      "path": "products",
+      "title": "Products"
+    },
+    {
+      "path": "categories",
+      "title": "Categories"
+    },
+    {
+      "path": "customers",
+      "title": "Customers"
+    },
+    {
+      "path": "reviews",
+      "title": "Reviews"
+    },
+    {
+      "path": "orders/56",
+      "title": "Orders / 56"
+    },
+    {
+      "path": "orders/542",
+      "title": "Orders / 542"
+    },
+    {
+      "path": "orders/0",
+      "title": "Orders / 0"
+    },
+    {
+      "path": "orders/122",
+      "title": "Orders / 122"
+    },
+    {
+      "path": "orders/460",
+      "title": "Orders / 460"
+    },
+    {
+      "path": "orders/313",
+      "title": "Orders / 313"
+    },
+    {
+      "path": "orders/210",
+      "title": "Orders / 210"
+    },
+    {
+      "path": "orders/487",
+      "title": "Orders / 487"
+    },
+    {
+      "path": "orders/453",
+      "title": "Orders / 453"
+    },
+    {
+      "path": "orders/24",
+      "title": "Orders / 24"
+    },
+    {
+      "path": "orders/43",
+      "title": "Orders / 43"
+    },
+    {
+      "path": "orders/19",
+      "title": "Orders / 19"
+    },
+    {
+      "path": "orders/381",
+      "title": "Orders / 381"
+    },
+    {
+      "path": "orders/222",
+      "title": "Orders / 222"
+    },
+    {
+      "path": "orders/472",
+      "title": "Orders / 472"
+    },
+    {
+      "path": "orders/412",
+      "title": "Orders / 412"
+    },
+    {
+      "path": "orders/493",
+      "title": "Orders / 493"
+    },
+    {
+      "path": "orders/561",
+      "title": "Orders / 561"
+    },
+    {
+      "path": "orders/235",
+      "title": "Orders / 235"
+    },
+    {
+      "path": "orders/135",
+      "title": "Orders / 135"
+    },
+    {
+      "path": "orders/345",
+      "title": "Orders / 345"
+    },
+    {
+      "path": "orders/289",
+      "title": "Orders / 289"
+    },
+    {
+      "path": "orders/324",
+      "title": "Orders / 324"
+    },
+    {
+      "path": "reviews?{%22filter%22:{%22status%22:%22pending%22}}",
+      "title": "Reviews"
+    },
+    {
+      "path": "reviews/276",
+      "title": "Reviews / 276"
+    },
+    {
+      "path": "reviews/266",
+      "title": "Reviews / 266"
+    },
+    {
+      "path": "reviews/163",
+      "title": "Reviews / 163"
+    },
+    {
+      "path": "reviews/42",
+      "title": "Reviews / 42"
+    },
+    {
+      "path": "reviews/63",
+      "title": "Reviews / 63"
+    },
+    {
+      "path": "reviews/208",
+      "title": "Reviews / 208"
+    },
+    {
+      "path": "reviews/33",
+      "title": "Reviews / 33"
+    },
+    {
+      "path": "reviews/181",
+      "title": "Reviews / 181"
+    },
+    {
+      "path": "reviews/207",
+      "title": "Reviews / 207"
+    },
+    {
+      "path": "reviews/272",
+      "title": "Reviews / 272"
+    },
+    {
+      "path": "reviews/196",
+      "title": "Reviews / 196"
+    },
+    {
+      "path": "reviews/183",
+      "title": "Reviews / 183"
+    },
+    {
+      "path": "reviews/205",
+      "title": "Reviews / 205"
+    },
+    {
+      "path": "reviews/307",
+      "title": "Reviews / 307"
+    },
+    {
+      "path": "reviews/137",
+      "title": "Reviews / 137"
+    },
+    {
+      "path": "reviews/210",
+      "title": "Reviews / 210"
+    },
+    {
+      "path": "reviews/335",
+      "title": "Reviews / 335"
+    },
+    {
+      "path": "reviews/211",
+      "title": "Reviews / 211"
+    },
+    {
+      "path": "reviews/91",
+      "title": "Reviews / 91"
+    },
+    {
+      "path": "reviews/267",
+      "title": "Reviews / 267"
+    },
+    {
+      "path": "reviews/103",
+      "title": "Reviews / 103"
+    },
+    {
+      "path": "reviews/134",
+      "title": "Reviews / 134"
+    },
+    {
+      "path": "reviews/313",
+      "title": "Reviews / 313"
+    },
+    {
+      "path": "reviews/113",
+      "title": "Reviews / 113"
+    },
+    {
+      "path": "reviews/245",
+      "title": "Reviews / 245"
+    },
+    {
+      "path": "reviews/305",
+      "title": "Reviews / 305"
+    },
+    {
+      "path": "reviews/170",
+      "title": "Reviews / 170"
+    },
+    {
+      "path": "reviews/84",
+      "title": "Reviews / 84"
+    },
+    {
+      "path": "reviews/182",
+      "title": "Reviews / 182"
+    },
+    {
+      "path": "reviews/41",
+      "title": "Reviews / 41"
+    },
+    {
+      "path": "reviews/310",
+      "title": "Reviews / 310"
+    },
+    {
+      "path": "reviews/25",
+      "title": "Reviews / 25"
+    },
+    {
+      "path": "reviews/283",
+      "title": "Reviews / 283"
+    },
+    {
+      "path": "reviews/164",
+      "title": "Reviews / 164"
+    },
+    {
+      "path": "reviews/321",
+      "title": "Reviews / 321"
+    },
+    {
+      "path": "reviews/69",
+      "title": "Reviews / 69"
+    },
+    {
+      "path": "reviews/275",
+      "title": "Reviews / 275"
+    },
+    {
+      "path": "reviews/327",
+      "title": "Reviews / 327"
+    },
+    {
+      "path": "reviews/47",
+      "title": "Reviews / 47"
+    },
+    {
+      "path": "reviews/111",
+      "title": "Reviews / 111"
+    },
+    {
+      "path": "reviews/139",
+      "title": "Reviews / 139"
+    },
+    {
+      "path": "reviews/16",
+      "title": "Reviews / 16"
+    },
+    {
+      "path": "reviews/315",
+      "title": "Reviews / 315"
+    },
+    {
+      "path": "reviews/66",
+      "title": "Reviews / 66"
+    },
+    {
+      "path": "reviews/161",
+      "title": "Reviews / 161"
+    },
+    {
+      "path": "reviews/49",
+      "title": "Reviews / 49"
+    },
+    {
+      "path": "reviews/255",
+      "title": "Reviews / 255"
+    },
+    {
+      "path": "reviews/246",
+      "title": "Reviews / 246"
+    },
+    {
+      "path": "reviews/292",
+      "title": "Reviews / 292"
+    },
+    {
+      "path": "reviews/318",
+      "title": "Reviews / 318"
+    },
+    {
+      "path": "reviews/223",
+      "title": "Reviews / 223"
+    }
+  ]
+}

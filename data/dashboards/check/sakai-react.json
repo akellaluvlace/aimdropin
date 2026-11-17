@@ -1,0 +1,269 @@
+{
+  "checkedAt": "2026-11-10T18:56:42.819Z",
+  "pagesChecked": 65,
+  "pagesOk": 65,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "404.html",
+      "title": "404: This page could not be found"
+    },
+    {
+      "path": "404/index.html",
+      "title": "404: This page could not be found"
+    },
+    {
+      "path": "auth/access/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "auth/error/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "auth/login/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "blocks/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "documentation/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "landing/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "pages/crud/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "pages/empty/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "pages/notfound/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "pages/timeline/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/button/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/charts/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/file/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/floatlabel/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/formlayout/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/input/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/invalidstate/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/list/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/media/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/menu/confirmation/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/menu/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/menu/payment/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/menu/seat/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/message/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/misc/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/overlay/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/panel/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/table/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/tree/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "utilities/icons/index.html",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "documentation/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/formlayout/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/input/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/floatlabel/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/invalidstate/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/button/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/table/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/list/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/tree/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/panel/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/overlay/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/media/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/menu/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/message/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/file/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/charts/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/misc/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "blocks/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "utilities/icons/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "landing/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "auth/login/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "auth/error/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "auth/access/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "pages/crud/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "pages/timeline/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "pages/notfound/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "pages/empty/",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/button",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/panel",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "uikit/menu",
+      "title": "PrimeReact Sakai"
+    },
+    {
+      "path": "landing",
+      "title": "PrimeReact Sakai"
+    }
+  ]
+}

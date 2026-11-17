@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-11-10T17:48:02.725Z",
+  "pagesChecked": 18,
+  "pagesOk": 18,
+  "failures": [],
+  "deadLinks": [
+    "pages/components/forgot-password.html",
+    "pages/components/sign-up.html",
+    "pages/components/sign-in.html"
+  ],
+  "pages": [
+    {
+      "path": "pages/dashboard/dashboard.html",
+      "title": "Volt - Free Bootstrap 5 Dashboard"
+    },
+    {
+      "path": "index.html",
+      "title": "Volt - Free Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "pages/components/buttons.html",
+      "title": "Volt Premium Bootstrap Dashboard - Buttons"
+    },
+    {
+      "path": "pages/components/forms.html",
+      "title": "Volt Premium Bootstrap Dashboard - Forms"
+    },
+    {
+      "path": "pages/components/modals.html",
+      "title": "Volt Premium Bootstrap Dashboard - Modals"
+    },
+    {
+      "path": "pages/components/notifications.html",
+      "title": "Volt Premium Bootstrap Dashboard - Notifications"
+    },
+    {
+      "path": "pages/components/typography.html",
+      "title": "Volt Premium Bootstrap Dashboard - Typography"
+    },
+    {
+      "path": "pages/examples/404.html",
+      "title": "Volt Premium Bootstrap Dashboard - 404 Not Found Page"
+    },
+    {
+      "path": "pages/examples/500.html",
+      "title": "Volt Premium Bootstrap Dashboard - 500 Server Error Page"
+    },
+    {
+      "path": "pages/examples/forgot-password.html",
+      "title": "Volt Premium Bootstrap Dashboard - Forgot password"
+    },
+    {
+      "path": "pages/examples/lock.html",
+      "title": "Volt Premium Bootstrap Dashboard - Lock Page"
+    },
+    {
+      "path": "pages/examples/reset-password.html",
+      "title": "Volt Premium Bootstrap Dashboard - Reset password"
+    },
+    {
+      "path": "pages/examples/sign-in.html",
+      "title": "Volt Premium Bootstrap Dashboard - Sign in page"
+    },
+    {
+      "path": "pages/examples/sign-up.html",
+      "title": "Volt Premium Bootstrap Dashboard - Sign up page"
+    },
+    {
+      "path": "pages/settings.html",
+      "title": "Volt Free Bootstrap Dashboard - Settings"
+    },
+    {
+      "path": "pages/tables/bootstrap-tables.html",
+      "title": "Volt Free Bootstrap Dashboard - Bootstrap Tables"
+    },
+    {
+      "path": "pages/transactions.html",
+      "title": "Volt Free Bootstrap Dashboard - Transactions"
+    },
+    {
+      "path": "pages/upgrade-to-pro.html",
+      "title": "Volt Bootstrap 5 Dashboard - Upgrade to Pro"
+    }
+  ]
+}

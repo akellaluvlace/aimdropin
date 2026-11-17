@@ -1,0 +1,58 @@
+{
+  "record": {
+    "slug": "bulma-admin-nafplann",
+    "title": "Bulma Admin",
+    "description": "Bulma admin: dashboard with Chart.js charts, forms, UI elements, data tables and login page.",
+    "repo": "nafplann/bulma-admin",
+    "sha": "4a44769350b35d640912252ca6751674d36a30c5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/nafplann/bulma-admin/blob/4a44769350b35d640912252ca6751674d36a30c5/LICENSE"
+    },
+    "author": "Abdul Manaaf",
+    "framework": "html",
+    "ui": "bulma",
+    "category": "Admin",
+    "tags": [
+      "bulma",
+      "datatables"
+    ],
+    "demoUrl": "https://bulma-admin.sayamoko.com",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Bulma Admin | Free Admin Template By @nafplann"
+      },
+      {
+        "path": "datatables.html",
+        "title": "Bulma Admin | Free Admin Template By @nafplann"
+      },
+      {
+        "path": "elements.html",
+        "title": "Bulma Admin | Free Admin Template By @nafplann"
+      },
+      {
+        "path": "forms.html",
+        "title": "Bulma Admin | Free Admin Template By @nafplann"
+      }
+    ],
+    "storedBytes": 183442,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:25.896Z"
+  },
+  "serve": {
+    "slug": "bulma-admin-nafplann",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/nafplann/bulma-admin@4a44769350b35d640912252ca6751674d36a30c5/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

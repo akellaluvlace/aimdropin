@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T17:33:55.118Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Paper Dashboard React by Creative Tim"
+    },
+    {
+      "path": "admin/dashboard",
+      "title": "Admin / Dashboard"
+    },
+    {
+      "path": "admin/icons",
+      "title": "Admin / Icons"
+    },
+    {
+      "path": "admin/maps",
+      "title": "Admin / Maps"
+    },
+    {
+      "path": "admin/notifications",
+      "title": "Admin / Notifications"
+    },
+    {
+      "path": "admin/user-page",
+      "title": "Admin / User Page"
+    },
+    {
+      "path": "admin/tables",
+      "title": "Admin / Tables"
+    },
+    {
+      "path": "admin/typography",
+      "title": "Admin / Typography"
+    },
+    {
+      "path": "admin/upgrade",
+      "title": "Admin / Upgrade"
+    }
+  ]
+}

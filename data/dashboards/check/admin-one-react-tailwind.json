@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-11-10T19:00:49.962Z",
+  "pagesChecked": 20,
+  "pagesOk": 20,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "dashboard/index.html",
+      "title": "Dashboard — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "404.html",
+      "title": "Admin One React Tailwind free"
+    },
+    {
+      "path": "404/index.html",
+      "title": "Admin One React Tailwind free"
+    },
+    {
+      "path": "dashboard/forms/index.html",
+      "title": "Admin One React Tailwind free"
+    },
+    {
+      "path": "dashboard/profile/index.html",
+      "title": "Profile — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "dashboard/responsive/index.html",
+      "title": "Responsive — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "dashboard/tables/index.html",
+      "title": "Tables — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "dashboard/ui/index.html",
+      "title": "UI — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "error/index.html",
+      "title": "Error — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "index.html",
+      "title": "Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "login/index.html",
+      "title": "Login — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "dashboard/profile/",
+      "title": "Profile — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "dashboard/",
+      "title": "Dashboard — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "dashboard/tables/",
+      "title": "Tables — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "dashboard/forms/",
+      "title": "Admin One React Tailwind free"
+    },
+    {
+      "path": "dashboard/ui/",
+      "title": "UI — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "dashboard/responsive/",
+      "title": "Responsive — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "",
+      "title": "Dashboard — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "login/",
+      "title": "Login — Free Tailwind 4 React Next Typescript dashboard template"
+    },
+    {
+      "path": "error/",
+      "title": "Error — Free Tailwind 4 React Next Typescript dashboard template"
+    }
+  ]
+}

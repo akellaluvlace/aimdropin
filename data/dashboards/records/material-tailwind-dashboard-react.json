@@ -1,0 +1,64 @@
+{
+  "record": {
+    "slug": "material-tailwind-dashboard-react",
+    "title": "Material Tailwind Dashboard React",
+    "description": "Material-style Tailwind admin: dashboard with stat cards and charts, profile, tables, notifications, and sign-in/sign-up pages.",
+    "repo": "creativetimofficial/material-tailwind-dashboard-react",
+    "sha": "721f312c444ee7caa300963a042915c6bdcc883b",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/material-tailwind-dashboard-react/blob/721f312c444ee7caa300963a042915c6bdcc883b/LICENSE"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "material-tailwind",
+      "apexcharts"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/material-tailwind-dashboard-react/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Material Tailwind Dashboard React"
+      }
+    ],
+    "storedBytes": 1588152,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:37.442Z"
+  },
+  "serve": {
+    "slug": "material-tailwind-dashboard-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/material-tailwind-dashboard-react@721f312c444ee7caa300963a042915c6bdcc883b/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "css/tailwind.css": "public/css/tailwind.css",
+      "img/background-image.png": "public/img/background-image.png",
+      "img/bruce-mars.jpeg": "public/img/bruce-mars.jpeg",
+      "img/favicon.png": "public/img/favicon.png",
+      "img/home-decor-1.jpeg": "public/img/home-decor-1.jpeg",
+      "img/home-decor-2.jpeg": "public/img/home-decor-2.jpeg",
+      "img/home-decor-3.jpeg": "public/img/home-decor-3.jpeg",
+      "img/home-decor-4.jpeg": "public/img/home-decor-4.jpeg",
+      "img/logo-ct-dark.png": "public/img/logo-ct-dark.png",
+      "img/logo-ct.png": "public/img/logo-ct.png",
+      "img/pattern.png": "public/img/pattern.png",
+      "img/team-1.jpeg": "public/img/team-1.jpeg",
+      "img/team-2.jpeg": "public/img/team-2.jpeg",
+      "img/team-3.jpeg": "public/img/team-3.jpeg",
+      "img/team-4.jpeg": "public/img/team-4.jpeg"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "record": {
+    "slug": "shadcn-ui-sidebar",
+    "title": "Shadcn UI Sidebar",
+    "description": "Retractable shadcn/ui sidebar layout for Next.js with dashboard, posts, categories, tags, users and account pages.",
+    "repo": "salimi-my/shadcn-ui-sidebar",
+    "sha": "25a8c1295514fe1fc923997b9c4dac9a84453559",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/salimi-my/shadcn-ui-sidebar/blob/25a8c1295514fe1fc923997b9c4dac9a84453559/LICENSE"
+    },
+    "author": "Salimi",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Starter",
+    "tags": [
+      "sidebar",
+      "app-router",
+      "dark-mode",
+      "tailwind"
+    ],
+    "demoUrl": "https://shadcn-ui-sidebar.salimi.my",
+    "quality": 3,
+    "entry": "dashboard/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard/index.html",
+        "title": "shadcn/ui sidebar"
+      },
+      {
+        "path": "404.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "404/index.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "account/index.html",
+        "title": "shadcn/ui sidebar"
+      },
+      {
+        "path": "categories/index.html",
+        "title": "shadcn/ui sidebar"
+      },
+      {
+        "path": "index.html",
+        "title": "shadcn/ui sidebar"
+      },
+      {
+        "path": "posts/index.html",
+        "title": "shadcn/ui sidebar"
+      },
+      {
+        "path": "posts/new/index.html",
+        "title": "shadcn/ui sidebar"
+      },
+      {
+        "path": "tags/index.html",
+        "title": "shadcn/ui sidebar"
+      },
+      {
+        "path": "users/index.html",
+        "title": "shadcn/ui sidebar"
+      }
+    ],
+    "storedBytes": 1357712,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:33:58.732Z"
+  },
+  "serve": {
+    "slug": "shadcn-ui-sidebar",
+    "kind": "build",
+    "entry": "dashboard/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/salimi-my/shadcn-ui-sidebar@25a8c1295514fe1fc923997b9c4dac9a84453559/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "demo-dark-min.png": "public/demo-dark-min.png",
+      "demo-light-min.png": "public/demo-light-min.png",
+      "demo-mobile-dark-min.png": "public/demo-mobile-dark-min.png",
+      "demo-mobile-light-min.png": "public/demo-mobile-light-min.png",
+      "icon.ico": "src/app/icon.ico",
+      "opengraph-image.png": "src/app/opengraph-image.png",
+      "placeholder.png": "public/placeholder.png",
+      "registry/shadcn-sidebar.json": "public/registry/shadcn-sidebar.json",
+      "twitter-image.png": "src/app/opengraph-image.png"
+    }
+  }
+}

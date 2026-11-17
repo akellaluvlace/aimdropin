@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-10T17:25:14.288Z",
+  "pagesChecked": 5,
+  "pagesOk": 5,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard - Admin One Tailwind CSS Admin Dashboard"
+    },
+    {
+      "path": "forms.html",
+      "title": "Forms - Admin One Tailwind CSS Admin Dashboard"
+    },
+    {
+      "path": "login.html",
+      "title": "Login - Admin One Tailwind CSS Admin Dashboard"
+    },
+    {
+      "path": "profile.html",
+      "title": "Profile - Admin One Tailwind CSS Admin Dashboard"
+    },
+    {
+      "path": "tables.html",
+      "title": "Tables - Admin One Tailwind CSS Admin Dashboard"
+    }
+  ]
+}

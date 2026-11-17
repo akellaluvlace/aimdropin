@@ -1,0 +1,95 @@
+{
+  "record": {
+    "slug": "nextjs-argon-dashboard",
+    "title": "NextJS Argon Dashboard",
+    "description": "Bootstrap 4 Argon admin on Next.js 10: dashboard charts, icons, maps, profile, tables and login/register pages.",
+    "repo": "creativetimofficial/nextjs-argon-dashboard",
+    "sha": "801c7c4a8f1018928c6ef69ce4b1b30231eb1f96",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/nextjs-argon-dashboard/blob/801c7c4a8f1018928c6ef69ce4b1b30231eb1f96/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "next",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap-4",
+      "reactstrap",
+      "pages-router",
+      "chartjs"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/nextjs-argon-dashboard/",
+    "quality": 3,
+    "entry": "admin/dashboard/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "admin/dashboard/index.html",
+        "title": "NextJS Argon Dashboard by Creative Tim"
+      },
+      {
+        "path": "404/index.html",
+        "title": "NextJS Argon Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/icons/index.html",
+        "title": "NextJS Argon Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/maps/index.html",
+        "title": "NextJS Argon Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/profile/index.html",
+        "title": "NextJS Argon Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/tables/index.html",
+        "title": "NextJS Argon Dashboard by Creative Tim"
+      },
+      {
+        "path": "auth/login/index.html",
+        "title": "NextJS Argon Dashboard by Creative Tim"
+      },
+      {
+        "path": "auth/register/index.html",
+        "title": "NextJS Argon Dashboard by Creative Tim"
+      },
+      {
+        "path": "index.html",
+        "title": "NextJS Argon Dashboard by Creative Tim"
+      }
+    ],
+    "storedBytes": 5806235,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:19:41.084Z"
+  },
+  "serve": {
+    "slug": "nextjs-argon-dashboard",
+    "kind": "build",
+    "entry": "admin/dashboard/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/nextjs-argon-dashboard@801c7c4a8f1018928c6ef69ce4b1b30231eb1f96/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "_next/static/images/angular-368685db949cddcd901ba54559a727d9.jpg": "assets/img/theme/angular.jpg",
+      "_next/static/images/bootstrap-ab904daa548967670847fc3929bf50f4.jpg": "assets/img/theme/bootstrap.jpg",
+      "_next/static/images/img-1-1000x600-35a52547bfba87e5480f3a5fa7691236.jpg": "assets/img/theme/img-1-1000x600.jpg",
+      "_next/static/images/nextjs_argon_black-00653defbe44f7b5ed0e3926ec44f265.png": "assets/img/brand/nextjs_argon_black.png",
+      "_next/static/images/nextjs_argon_white-208499fcdcb9350ed61678872c7bd9c2.png": "assets/img/brand/nextjs_argon_white.png",
+      "_next/static/images/nucleo-icons-0b8a30b10cbe7708d5f3a4b007c1d665.svg": "assets/plugins/nucleo/fonts/nucleo-icons.svg",
+      "_next/static/images/profile-cover-e2582654b8e7b6c285d5017df6427d73.jpg": "assets/img/theme/profile-cover.jpg",
+      "_next/static/images/react-c4eb3d0be0cf5a2d156a123bdf7fb40d.jpg": "assets/img/theme/react.jpg",
+      "_next/static/images/sketch-e7c82e5c569db9d9761b13ef1384f702.jpg": "assets/img/theme/sketch.jpg",
+      "_next/static/images/team-1-800x800-53033970a416368da35794389680266f.jpg": "assets/img/theme/team-1-800x800.jpg",
+      "_next/static/images/team-2-800x800-dcfcf3b77210fe85b0abc8260e6fa70e.jpg": "assets/img/theme/team-2-800x800.jpg",
+      "_next/static/images/team-3-800x800-497bb3590e24c9f8b645864bfffc39b8.jpg": "assets/img/theme/team-3-800x800.jpg",
+      "_next/static/images/team-4-800x800-230071328b705f8686cabd26a85ed6a5.jpg": "assets/img/theme/team-4-800x800.jpg",
+      "_next/static/images/vue-9378e368a757bd0c7ca556a0258cb527.jpg": "assets/img/theme/vue.jpg"
+    }
+  }
+}

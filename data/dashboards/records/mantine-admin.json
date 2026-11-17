@@ -1,0 +1,97 @@
+{
+  "record": {
+    "slug": "mantine-admin",
+    "title": "Mantine Admin",
+    "description": "Mantine 7 admin starter on Next.js: dashboard, chart, form, table and settings pages with login and register.",
+    "repo": "jotyy/Mantine-Admin",
+    "sha": "8b6f5dcdda08d355b9bb91a0355303ff18593995",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/jotyy/Mantine-Admin/blob/8b6f5dcdda08d355b9bb91a0355303ff18593995/LICENSE"
+    },
+    "author": "Joshua Lee",
+    "framework": "next",
+    "ui": "mantine",
+    "category": "Starter",
+    "tags": [
+      "mantine",
+      "app-router",
+      "tanstack-query",
+      "dark-mode"
+    ],
+    "demoUrl": "https://mantine-admin.vercel.app",
+    "quality": 3,
+    "entry": "dashboard/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard/index.html",
+        "title": "Mantine Admin"
+      },
+      {
+        "path": "404.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "404/index.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "dashboard/chart/index.html",
+        "title": "Mantine Admin"
+      },
+      {
+        "path": "dashboard/form/index.html",
+        "title": "Mantine Admin"
+      },
+      {
+        "path": "dashboard/settings/index.html",
+        "title": "Mantine Admin"
+      },
+      {
+        "path": "dashboard/table/index.html",
+        "title": "Mantine Admin"
+      },
+      {
+        "path": "index.html",
+        "title": "Mantine Admin"
+      },
+      {
+        "path": "login/index.html",
+        "title": "Mantine Admin"
+      },
+      {
+        "path": "register/index.html",
+        "title": "Mantine Admin"
+      }
+    ],
+    "storedBytes": 2823672,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:19:58.055Z"
+  },
+  "serve": {
+    "slug": "mantine-admin",
+    "kind": "build",
+    "entry": "dashboard/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/jotyy/Mantine-Admin@8b6f5dcdda08d355b9bb91a0355303ff18593995/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "logo.png": "public/logo.png",
+      "mock/products.json": "public/mock/products.json",
+      "opengraph-image.png": "src/app/opengraph-image.png",
+      "site.webmanifest": "public/site.webmanifest",
+      "static/icons/icon-128x128.png": "public/static/icons/icon-128x128.png",
+      "static/icons/icon-16x16.png": "public/static/icons/icon-16x16.png",
+      "static/icons/icon-192x192.png": "public/logo.png",
+      "static/icons/icon-32x32.png": "public/static/icons/icon-32x32.png",
+      "static/icons/icon-512x512.png": "public/static/icons/icon-512x512.png",
+      "static/images/og.png": "public/static/images/og.png",
+      "twitter-image.png": "src/app/opengraph-image.png"
+    }
+  }
+}

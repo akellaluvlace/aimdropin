@@ -1,0 +1,92 @@
+{
+  "record": {
+    "slug": "windmill-dashboard-html",
+    "title": "Windmill Dashboard",
+    "description": "Accessible Tailwind + Alpine.js dashboard with dark mode: forms, cards, charts, buttons, modals, tables and auth pages.",
+    "repo": "estevanmaito/windmill-dashboard",
+    "sha": "e05267588134ca2f4129087cc65a59c38a9c36b5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/estevanmaito/windmill-dashboard/blob/e05267588134ca2f4129087cc65a59c38a9c36b5/LICENSE"
+    },
+    "author": "Estevan Maito",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "alpinejs",
+      "dark-mode",
+      "accessible"
+    ],
+    "demoUrl": "https://windmill-dashboard.vercel.app/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Windmill Dashboard"
+      },
+      {
+        "path": "buttons.html",
+        "title": "Buttons - Windmill Dashboard"
+      },
+      {
+        "path": "cards.html",
+        "title": "Cards - Windmill Dashboard"
+      },
+      {
+        "path": "charts.html",
+        "title": "Charts - Windmill Dashboard"
+      },
+      {
+        "path": "forms.html",
+        "title": "Windmill Dashboard - Forms"
+      },
+      {
+        "path": "modals.html",
+        "title": "Modals - Windmill Dashboard"
+      },
+      {
+        "path": "pages/404.html",
+        "title": "404 - Windmill Dashboard"
+      },
+      {
+        "path": "pages/blank.html",
+        "title": "Blank - Windmill Dashboard"
+      },
+      {
+        "path": "pages/create-account.html",
+        "title": "Create account - Windmill Dashboard"
+      },
+      {
+        "path": "pages/forgot-password.html",
+        "title": "Forgot password - Windmill Dashboard"
+      },
+      {
+        "path": "pages/login.html",
+        "title": "Login - Windmill Dashboard"
+      },
+      {
+        "path": "tables.html",
+        "title": "Tables - Windmill Dashboard"
+      }
+    ],
+    "storedBytes": 502025,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:21.140Z"
+  },
+  "serve": {
+    "slug": "windmill-dashboard-html",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/estevanmaito/windmill-dashboard@e05267588134ca2f4129087cc65a59c38a9c36b5/",
+    "cdnRoot": "public",
+    "cdnMap": null
+  }
+}

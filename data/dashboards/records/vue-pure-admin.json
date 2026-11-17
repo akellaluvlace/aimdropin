@@ -1,0 +1,61 @@
+{
+  "record": {
+    "slug": "vue-pure-admin",
+    "title": "Vue Pure Admin",
+    "description": "Large Vue 3 + Element Plus admin: dashboards, pro tables, forms, editors, flowcharts, charts, permissions, i18n, themes and dozens of component demos.",
+    "repo": "pure-admin/vue-pure-admin",
+    "sha": "fae75ad1cd52d11a7279931ef5bba2b80e363c7b",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/pure-admin/vue-pure-admin/blob/fae75ad1cd52d11a7279931ef5bba2b80e363c7b/LICENSE"
+    },
+    "author": "pure-admin",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "element-plus",
+      "tailwind",
+      "pinia",
+      "i18n",
+      "dark-mode"
+    ],
+    "demoUrl": "https://pure-admin.github.io/vue-pure-admin",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue Pure Admin"
+      }
+    ],
+    "storedBytes": 14232580,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:40.445Z"
+  },
+  "serve": {
+    "slug": "vue-pure-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/pure-admin/vue-pure-admin@fae75ad1cd52d11a7279931ef5bba2b80e363c7b/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "audio/海阔天空.mp3": "public/audio/海阔天空.mp3",
+      "favicon.ico": "public/favicon.ico",
+      "static/jpg/1-CNu9tHLV.jpg": "src/views/components/upload/imgs/1.jpg",
+      "static/jpg/2-Dn7NyzRJ.jpg": "src/views/components/upload/imgs/2.jpg",
+      "static/jpg/3-BNVYzMvF.jpg": "src/views/components/upload/imgs/3.jpg",
+      "static/png/avatar-BYZ7LL6-.png": "src/views/components/cropping/avatar.png",
+      "static/png/bg-oEDCYcDF.png": "src/assets/login/bg.png",
+      "wasm/capture.worker.js": "public/wasm/capture.worker.js",
+      "wasm/capture.worker.wasm": "public/wasm/capture.worker.wasm",
+      "wasm/index.js": "public/wasm/index.js"
+    }
+  }
+}

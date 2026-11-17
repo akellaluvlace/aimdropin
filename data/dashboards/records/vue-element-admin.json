@@ -1,0 +1,57 @@
+{
+  "record": {
+    "slug": "vue-element-admin",
+    "title": "Vue Element Admin",
+    "description": "Feature-rich Vue 2 + Element UI admin: dashboard, permissions, rich editors, charts, tables, Excel export, i18n, themes and error pages with mock data.",
+    "repo": "PanJiaChen/vue-element-admin",
+    "sha": "6858a9ad67483025f6a9432a926beb9327037be3",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/PanJiaChen/vue-element-admin/blob/6858a9ad67483025f6a9432a926beb9327037be3/LICENSE"
+    },
+    "author": "PanJiaChen",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "element-ui",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://panjiachen.github.io/vue-element-admin",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue Element Admin"
+      }
+    ],
+    "storedBytes": 5919982,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:39.944Z"
+  },
+  "serve": {
+    "slug": "vue-element-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/PanJiaChen/vue-element-admin@6858a9ad67483025f6a9432a926beb9327037be3/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "static/fonts/element-icons.27c72091.ttf": "src/assets/custom-theme/fonts/element-icons.ttf",
+      "static/fonts/element-icons.9b70ee41.woff": "src/assets/custom-theme/fonts/element-icons.woff",
+      "static/img/401.089007e7.gif": "src/assets/401_images/401.gif",
+      "static/img/404.a57b6f31.png": "src/assets/404_images/404.png",
+      "static/img/404_cloud.0f4bc32b.png": "src/assets/404_images/404_cloud.png"
+    }
+  }
+}

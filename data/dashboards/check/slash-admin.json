@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-11-10T17:50:11.309Z",
+  "pagesChecked": 25,
+  "pagesOk": 23,
+  "failures": [
+    {
+      "path": "link/external-link",
+      "problem": "page is empty"
+    },
+    {
+      "path": "link/iframe",
+      "problem": "script error: SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag. · script error: Uncaught (in promise) SecurityError: Failed to read the 'localStorage' property from 'Window': The document is sandboxed and lacks the 'allow-same-origin' flag."
+    }
+  ],
+  "deadLinks": [
+    "error/404"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "Slash Admin"
+    },
+    {
+      "path": "workbench",
+      "title": "Workbench"
+    },
+    {
+      "path": "analysis",
+      "title": "Analysis"
+    },
+    {
+      "path": "menu_level/1a",
+      "title": "Menu Level / 1a"
+    },
+    {
+      "path": "error/403",
+      "title": "403 Access Denied!"
+    },
+    {
+      "path": "error/500",
+      "title": "500 Internal Server Error!"
+    },
+    {
+      "path": "components/icon",
+      "title": "Components / Icon"
+    },
+    {
+      "path": "components/animate",
+      "title": "Components / Animate"
+    },
+    {
+      "path": "components/scroll",
+      "title": "Components / Scroll"
+    },
+    {
+      "path": "components/multi-language",
+      "title": "Components / Multi Language"
+    },
+    {
+      "path": "components/upload",
+      "title": "Components / Upload"
+    },
+    {
+      "path": "components/chart",
+      "title": "Components / Chart"
+    },
+    {
+      "path": "components/toast",
+      "title": "Components / Toast"
+    },
+    {
+      "path": "functions/clipboard",
+      "title": "Functions / Clipboard"
+    },
+    {
+      "path": "functions/token_expired",
+      "title": "Functions / Token Expired"
+    },
+    {
+      "path": "permission",
+      "title": "Permission"
+    },
+    {
+      "path": "calendar",
+      "title": "Calendar"
+    },
+    {
+      "path": "kanban",
+      "title": "Kanban"
+    },
+    {
+      "path": "blank",
+      "title": "Blank"
+    },
+    {
+      "path": "menu_level/1b/2a",
+      "title": "Menu Level / 1b / 2a"
+    },
+    {
+      "path": "permission/page-test",
+      "title": "Permission / Page Test"
+    },
+    {
+      "path": "menu_level/1b/2b/3a",
+      "title": "Menu Level / 1b / 2b / 3a"
+    },
+    {
+      "path": "menu_level/1b/2b/3b",
+      "title": "Menu Level / 1b / 2b / 3b"
+    }
+  ]
+}

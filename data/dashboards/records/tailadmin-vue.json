@@ -1,0 +1,92 @@
+{
+  "record": {
+    "slug": "tailadmin-vue",
+    "title": "TailAdmin Vue",
+    "description": "Tailwind Vue 3 admin dashboard (v1) with eCommerce dashboard, calendar, profile, forms, tables, charts, UI elements and auth pages.",
+    "repo": "TailAdmin/vue-tailwind-admin-dashboard",
+    "sha": "9b1be1b027c2c669c5f0e06159e468c70d771a82",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/TailAdmin/vue-tailwind-admin-dashboard/blob/9b1be1b027c2c669c5f0e06159e468c70d771a82/LICENSE"
+    },
+    "author": "TailAdmin",
+    "framework": "vue",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "apexcharts",
+      "pinia"
+    ],
+    "demoUrl": "https://free-vue-demo.tailadmin.com/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "TailAdmin Vue"
+      }
+    ],
+    "storedBytes": 1158668,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:39.007Z"
+  },
+  "serve": {
+    "slug": "tailadmin-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/TailAdmin/vue-tailwind-admin-dashboard@9b1be1b027c2c669c5f0e06159e468c70d771a82/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/Satoshi-Black-450Lrkc_.woff2": "src/assets/fonts/Satoshi-Black.woff2",
+      "assets/Satoshi-Black-94c0-1Jh.woff": "src/assets/fonts/Satoshi-Black.woff",
+      "assets/Satoshi-Black-osx8kam5.ttf": "src/assets/fonts/Satoshi-Black.ttf",
+      "assets/Satoshi-BlackItalic-_AIv0twt.woff": "src/assets/fonts/Satoshi-BlackItalic.woff",
+      "assets/Satoshi-BlackItalic-oQm0w9uw.woff2": "src/assets/fonts/Satoshi-BlackItalic.woff2",
+      "assets/Satoshi-BlackItalic-ryKTqEoS.ttf": "src/assets/fonts/Satoshi-BlackItalic.ttf",
+      "assets/Satoshi-Bold-XeZCkP1H.woff2": "src/assets/fonts/Satoshi-Bold.woff2",
+      "assets/Satoshi-Bold-j5cvZB-W.ttf": "src/assets/fonts/Satoshi-Bold.ttf",
+      "assets/Satoshi-Bold-tj4S1hXG.woff": "src/assets/fonts/Satoshi-Bold.woff",
+      "assets/Satoshi-BoldItalic-0OwdD3y2.woff": "src/assets/fonts/Satoshi-BoldItalic.woff",
+      "assets/Satoshi-BoldItalic-LQpUHAG_.ttf": "src/assets/fonts/Satoshi-BoldItalic.ttf",
+      "assets/Satoshi-BoldItalic-gI7wHMUV.woff2": "src/assets/fonts/Satoshi-BoldItalic.woff2",
+      "assets/Satoshi-Italic-BTMZAg_K.ttf": "src/assets/fonts/Satoshi-Italic.ttf",
+      "assets/Satoshi-Italic-MFZhBHOj.woff2": "src/assets/fonts/Satoshi-Italic.woff2",
+      "assets/Satoshi-Italic-Twl0cc8q.woff": "src/assets/fonts/Satoshi-Italic.woff",
+      "assets/Satoshi-Light-CKsCf2Y0.woff2": "src/assets/fonts/Satoshi-Light.woff2",
+      "assets/Satoshi-Light-fNpM21Pn.ttf": "src/assets/fonts/Satoshi-Light.ttf",
+      "assets/Satoshi-Light-v3ZpCl8y.woff": "src/assets/fonts/Satoshi-Light.woff",
+      "assets/Satoshi-LightItalic-QIbsWPgA.ttf": "src/assets/fonts/Satoshi-LightItalic.ttf",
+      "assets/Satoshi-LightItalic-fS-rPe05.woff": "src/assets/fonts/Satoshi-LightItalic.woff",
+      "assets/Satoshi-LightItalic-vYrlOL--.woff2": "src/assets/fonts/Satoshi-LightItalic.woff2",
+      "assets/Satoshi-Medium-cj_mW_vX.woff2": "src/assets/fonts/Satoshi-Medium.woff2",
+      "assets/Satoshi-Medium-w8Az3gYK.woff": "src/assets/fonts/Satoshi-Medium.woff",
+      "assets/Satoshi-Medium-zrfZDPmu.ttf": "src/assets/fonts/Satoshi-Medium.ttf",
+      "assets/Satoshi-MediumItalic-T0yVKccw.woff": "src/assets/fonts/Satoshi-MediumItalic.woff",
+      "assets/Satoshi-MediumItalic-VBVWKA9v.ttf": "src/assets/fonts/Satoshi-MediumItalic.ttf",
+      "assets/Satoshi-MediumItalic-cUfiHEYx.woff2": "src/assets/fonts/Satoshi-MediumItalic.woff2",
+      "assets/Satoshi-Regular-06BV6INj.ttf": "src/assets/fonts/Satoshi-Regular.ttf",
+      "assets/Satoshi-Regular-jzPXXLeF.woff2": "src/assets/fonts/Satoshi-Regular.woff2",
+      "assets/Satoshi-Regular-lkshIxr8.woff": "src/assets/fonts/Satoshi-Regular.woff",
+      "assets/cover-01-Bh2KyY3g.png": "src/assets/images/cover/cover-01.png",
+      "assets/favicon-IEgBzHHm.ico": "src/assets/images/favicon.ico",
+      "assets/product-01-hDMX2gNC.png": "src/assets/images/product/product-01.png",
+      "assets/product-02-ooCFLK2k.png": "src/assets/images/product/product-02.png",
+      "assets/product-03-aavd2e2f.png": "src/assets/images/product/product-03.png",
+      "assets/product-04-zp8Np3FV.png": "src/assets/images/product/product-04.png",
+      "assets/user-01-OMqtv7h9.png": "src/assets/images/user/user-01.png",
+      "assets/user-02-u3nxgvad.png": "src/assets/images/user/user-02.png",
+      "assets/user-03-l9Ao8BuR.png": "src/assets/images/user/user-03.png",
+      "assets/user-04-hFxv_XBZ.png": "src/assets/images/user/user-04.png",
+      "assets/user-05-7y14hK6N.png": "src/assets/images/user/user-05.png",
+      "assets/user-06-9s1C9Ddv.png": "src/assets/images/user/user-06.png",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

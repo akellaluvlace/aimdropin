@@ -1,0 +1,79 @@
+{
+  "record": {
+    "slug": "black-dashboard-vue",
+    "title": "Vue Black Dashboard",
+    "description": "Dark Bootstrap 4 Vue 2 admin with dashboard charts, icons, maps, notifications, user profile, table list, typography and RTL page.",
+    "repo": "creativetimofficial/vue-black-dashboard",
+    "sha": "2ef27d89cb859c03c974179160ffa47b8954f2bd",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/vue-black-dashboard/blob/2ef27d89cb859c03c974179160ffa47b8954f2bd/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "vue",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "bootstrap",
+      "chartjs",
+      "dark-mode"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/vue-black-dashboard",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue Black Dashboard"
+      }
+    ],
+    "storedBytes": 1964911,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:39.304Z"
+  },
+  "serve": {
+    "slug": "black-dashboard-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/vue-black-dashboard@2ef27d89cb859c03c974179160ffa47b8954f2bd/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-icon.png": "public/apple-icon.png",
+      "favicon.png": "public/favicon.png",
+      "fonts/nucleo.1980fd62.eot": "src/assets/fonts/nucleo.eot",
+      "fonts/nucleo.47dbbd6a.woff2": "src/assets/fonts/nucleo.woff2",
+      "fonts/nucleo.82def8cd.ttf": "src/assets/fonts/nucleo.ttf",
+      "fonts/nucleo.e3d17b30.woff": "src/assets/fonts/nucleo.woff",
+      "img/anime3.png": "public/img/anime3.png",
+      "img/anime6.png": "public/img/anime6.png",
+      "img/apple-icon.png": "public/img/apple-icon.png",
+      "img/bg5.jpg": "public/img/bg5.jpg",
+      "img/default-avatar.png": "public/img/default-avatar.png",
+      "img/emilyz.jpg": "public/img/emilyz.jpg",
+      "img/favicon.png": "public/img/favicon.png",
+      "img/icons/android-chrome-192x192.png": "public/img/icons/android-chrome-192x192.png",
+      "img/icons/android-chrome-512x512.png": "public/img/icons/android-chrome-512x512.png",
+      "img/icons/apple-touch-icon-120x120.png": "public/img/icons/apple-touch-icon-120x120.png",
+      "img/icons/apple-touch-icon-152x152.png": "public/img/icons/apple-touch-icon-152x152.png",
+      "img/icons/apple-touch-icon-180x180.png": "public/img/icons/apple-touch-icon-180x180.png",
+      "img/icons/apple-touch-icon-60x60.png": "public/img/icons/apple-touch-icon-60x60.png",
+      "img/icons/apple-touch-icon-76x76.png": "public/img/icons/apple-touch-icon-76x76.png",
+      "img/icons/apple-touch-icon.png": "public/img/icons/apple-touch-icon.png",
+      "img/icons/favicon-16x16.png": "public/img/icons/favicon-16x16.png",
+      "img/icons/favicon-32x32.png": "public/img/icons/favicon-32x32.png",
+      "img/icons/msapplication-icon-144x144.png": "public/img/icons/msapplication-icon-144x144.png",
+      "img/icons/mstile-150x150.png": "public/img/icons/mstile-150x150.png",
+      "img/img_3115.jpg": "public/img/img_3115.jpg",
+      "img/james.jpg": "public/img/james.jpg",
+      "img/mike.jpg": "public/img/mike.jpg",
+      "robots.txt": "public/robots.txt"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T17:40:53.154Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Overview · Octopus"
+    },
+    {
+      "path": "calendar.html",
+      "title": "Calendar · Octopus"
+    },
+    {
+      "path": "charts.html",
+      "title": "Analytics · Octopus"
+    },
+    {
+      "path": "components.html",
+      "title": "Components · Octopus"
+    },
+    {
+      "path": "forms.html",
+      "title": "Forms · Octopus"
+    },
+    {
+      "path": "messages.html",
+      "title": "Messages · Octopus"
+    },
+    {
+      "path": "settings.html",
+      "title": "Settings · Octopus"
+    },
+    {
+      "path": "tables.html",
+      "title": "Orders · Octopus"
+    },
+    {
+      "path": "users.html",
+      "title": "Team members · Octopus"
+    }
+  ]
+}

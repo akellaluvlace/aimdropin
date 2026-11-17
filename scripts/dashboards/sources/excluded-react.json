@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "nextadmin-nextjs",
+    "repo": "NextAdminHQ/nextjs-admin-dashboard",
+    "exclude": "No LICENSE file at HEAD (GitHub reports no license; README states none; no LICENSE in commit history)"
+  },
+  {
+    "slug": "horizon-shadcn-nextjs-boilerplate",
+    "repo": "horizon-ui/shadcn-nextjs-boilerplate",
+    "exclude": "Needs Supabase+Stripe+OpenAI for all dashboard pages; not a static demo candidate"
+  },
+  {
+    "slug": "materialpro-react-lite",
+    "repo": "wrappixel/materialpro-react-lite",
+    "exclude": "No LICENSE file (README only says 'free and open-source'); applies to all WrapPixel lites except ample/xtreme/monster Next.js"
+  },
+  {
+    "slug": "spike-nextjs-free",
+    "repo": "wrappixel/spike-nextjs-free",
+    "exclude": "No LICENSE file"
+  },
+  {
+    "slug": "materio-mui-nextjs-free",
+    "repo": "themeselection/materio-mui-nextjs-admin-template-free",
+    "exclude": "README adds an attribution requirement on top of MIT: 'We just need attribution from your end. Copy the link below and paste it in the footer'"
+  },
+  {
+    "slug": "tabler-react",
+    "repo": "tabler/tabler-react",
+    "exclude": "Archived repo; component library whose dashboard is a stale example app"
+  },
+  {
+    "slug": "vercel-next-admin-dashboard",
+    "repo": "vercel/nextjs-postgres-nextauth-tailwindcss-template",
+    "exclude": "Every page is a DB-backed server component behind NextAuth; not a static demo candidate"
+  },
+  {
+    "slug": "square-ui",
+    "repo": "zerostaticthemes/square-ui",
+    "exclude": "Custom 'ln-dev UI License': forbids redistributing the templates or publishing them in any repository/marketplace/website or template collection (GitHub shows NOASSERTION)"
+  },
+  {
+    "slug": "mosaic-lite-react",
+    "repo": "cruip/tailwind-dashboard-template",
+    "exclude": "No LICENSE file; README says GPL-3.0 and 'please don't republish, redistribute, or resell the template'"
+  },
+  {
+    "slug": "shards-dashboard-react",
+    "repo": "DesignRevision/shards-dashboard-react",
+    "exclude": "No LICENSE file (README only shows an MIT badge)"
+  },
+  {
+    "slug": "tremor-database",
+    "repo": "tremorlabs/template-database",
+    "exclude": "Not a dashboard (marketing landing page) - belongs to the landing-page slice"
+  },
+  {
+    "slug": "tremor-solar",
+    "repo": "tremorlabs/template-solar",
+    "exclude": "Not a dashboard (one-page landing) - belongs to the landing-page slice"
+  },
+  {
+    "slug": "shadcn-ui-kit-free",
+    "repo": "bundui/shadcn-ui-kit",
+    "exclude": "Vendor shadcnuikit.com (Bundui) is on the earlier exclusion list; also mostly a component/registry site"
+  },
+  {
+    "slug": "argon-dashboard-material-ui",
+    "repo": "creativetimofficial/argon-dashboard-material-ui",
+    "exclude": "No LICENSE file"
+  },
+  {
+    "slug": "wrappixel-nextjs-lites",
+    "repo": "wrappixel/xtreme-admin-nextjs-free",
+    "exclude": "Current root project has no LICENSE; the only LICENSE (MIT) is old/LICENSE covering the legacy old/ copy"
+  },
+  {
+    "slug": "sing-app-react",
+    "repo": "flatlogic/sing-app-react",
+    "exclude": "Depends on proprietary chart libraries (highcharts + @amcharts/amcharts4: non-commercial/linkware licenses) that ship in the built demo"
+  },
+  {
+    "slug": "light-blue-react",
+    "repo": "flatlogic/light-blue-react",
+    "exclude": "Depends on proprietary chart libraries (highcharts + @amcharts/amcharts4) that ship in the built demo"
+  },
+  {
+    "slug": "shadcnspace",
+    "repo": "shadcnspace/shadcnspace",
+    "exclude": "Component/blocks gallery site, not a dashboard template"
+  },
+  {
+    "slug": "shadcndashboard-vite",
+    "repo": "shadcndashboard/shadcndashboard",
+    "exclude": "Vendor shadcndashboard.dev is on the earlier exclusion list; README also requires a footer attribution link"
+  },
+  {
+    "slug": "shadcndashboard-next",
+    "repo": "shadcndashboard/next-shadcn-dashboard",
+    "exclude": "Vendor shadcndashboard.dev on exclusion list; README requires footer attribution"
+  },
+  {
+    "slug": "admincn-free",
+    "repo": "shadcnstudio/shadcn-nextjs-admincn-admin-template-free",
+    "exclude": "README adds a footer-attribution requirement on top of MIT (ThemeSelection/shadcn-studio wording)"
+  },
+  {
+    "slug": "itsnyein-shadcn-admin",
+    "repo": "itsnyein/shadcn-admin",
+    "exclude": "Auth + Postgres required for every dashboard page; not a static demo candidate"
+  },
+  {
+    "slug": "remix-dashboard-template",
+    "repo": "dev-templates/remix-dashboard-template",
+    "exclude": "Needs a Remix server + Prisma database for all pages; tiny project"
+  },
+  {
+    "slug": "saas-ui",
+    "repo": "saas-js/saas-ui",
+    "exclude": "Component library; repo examples are minimal framework starters, not a dashboard"
+  },
+  {
+    "slug": "next-forge",
+    "repo": "vercel/next-forge",
+    "exclude": "SaaS monorepo starter needing Clerk/DB/Stripe; not a dashboard template"
+  },
+  {
+    "slug": "relivator",
+    "repo": "reliverse/relivator",
+    "exclude": "Full-stack e-commerce starter needing DB/auth/payments; not a dashboard template"
+  },
+  {
+    "slug": "open-saas",
+    "repo": "wasp-lang/open-saas",
+    "exclude": "Full-stack Wasp app; admin dashboard requires its server and database"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T17:48:07.475Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Windmill Dashboard"
+    },
+    {
+      "path": "app/dashboard",
+      "title": "App / Dashboard"
+    },
+    {
+      "path": "app/forms",
+      "title": "App / Forms"
+    },
+    {
+      "path": "app/cards",
+      "title": "App / Cards"
+    },
+    {
+      "path": "app/charts",
+      "title": "App / Charts"
+    },
+    {
+      "path": "app/buttons",
+      "title": "App / Buttons"
+    },
+    {
+      "path": "app/modals",
+      "title": "App / Modals"
+    },
+    {
+      "path": "app/tables",
+      "title": "App / Tables"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    }
+  ]
+}

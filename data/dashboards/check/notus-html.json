@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-10T18:07:17.561Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [
+    "pages/admin/maps.html",
+    "pages/admin/index.html"
+  ],
+  "pages": [
+    {
+      "path": "pages/admin/dashboard.html",
+      "title": "Dashboard | Notus Tailwind JS by Creative Tim"
+    },
+    {
+      "path": "index.html",
+      "title": "Index | Notus Tailwind JS by Creative Tim"
+    },
+    {
+      "path": "pages/admin/settings.html",
+      "title": "Settings | Notus Tailwind JS by Creative Tim"
+    },
+    {
+      "path": "pages/admin/tables.html",
+      "title": "Tables | Notus Tailwind JS by Creative Tim"
+    },
+    {
+      "path": "pages/auth/login.html",
+      "title": "Login | Notus Tailwind JS by Creative Tim"
+    },
+    {
+      "path": "pages/auth/register.html",
+      "title": "Register | Notus Tailwind JS by Creative Tim"
+    },
+    {
+      "path": "pages/landing.html",
+      "title": "Landing | Notus Tailwind JS by Creative Tim"
+    },
+    {
+      "path": "pages/profile.html",
+      "title": "Profile | Notus Tailwind JS by Creative Tim"
+    }
+  ]
+}

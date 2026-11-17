@@ -1,0 +1,69 @@
+{
+  "record": {
+    "slug": "flowbite-react-admin-dashboard",
+    "title": "Flowbite React Admin Dashboard",
+    "description": "Small Flowbite React admin: dashboard with charts and world map, e-commerce products, users list, sign-in and sign-up.",
+    "repo": "themesberg/flowbite-react-admin-dashboard",
+    "sha": "ce3afeb2149ad5a91e59c8e98c85e9220224c744",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/themesberg/flowbite-react-admin-dashboard/blob/ce3afeb2149ad5a91e59c8e98c85e9220224c744/LICENSE"
+    },
+    "author": "Themesberg",
+    "framework": "react",
+    "ui": "flowbite",
+    "category": "E-commerce",
+    "tags": [
+      "vite",
+      "tailwind",
+      "flowbite",
+      "apexcharts"
+    ],
+    "demoUrl": "https://flowbite-react-admin-dashboard.vercel.app/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Flowbite React Admin Dashboard"
+      }
+    ],
+    "storedBytes": 982521,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:37.710Z"
+  },
+  "serve": {
+    "slug": "flowbite-react-admin-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/themesberg/flowbite-react-admin-dashboard@ce3afeb2149ad5a91e59c8e98c85e9220224c744/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "images/authentication/create-account.jpg": "public/images/authentication/create-account.jpg",
+      "images/authentication/login.jpg": "public/images/authentication/login.jpg",
+      "images/authentication/reset-password.jpg": "public/images/authentication/reset-password.jpg",
+      "images/products/apple-imac-1.png": "public/images/products/apple-imac-1.png",
+      "images/products/apple-imac-2.png": "public/images/products/apple-imac-2.png",
+      "images/products/apple-imac-3.png": "public/images/products/apple-imac-3.png",
+      "images/users/bonnie-green-2x.png": "public/images/users/bonnie-green-2x.png",
+      "images/users/bonnie-green.png": "public/images/users/bonnie-green.png",
+      "images/users/helene-engels.png": "public/images/users/helene-engels.png",
+      "images/users/jese-leos-2x.png": "public/images/users/jese-leos-2x.png",
+      "images/users/jese-leos.png": "public/images/users/jese-leos.png",
+      "images/users/joseph-mcfall.png": "public/images/users/joseph-mcfall.png",
+      "images/users/lana-byrd.png": "public/images/users/lana-byrd.png",
+      "images/users/leslie-livingston.png": "public/images/users/leslie-livingston.png",
+      "images/users/michael-gough.png": "public/images/users/michael-gough.png",
+      "images/users/neil-sims.png": "public/images/users/neil-sims.png",
+      "images/users/robert-brown.png": "public/images/users/robert-brown.png",
+      "images/users/roberta-casas-2x.png": "public/images/users/roberta-casas-2x.png",
+      "images/users/roberta-casas.png": "public/images/users/roberta-casas.png",
+      "images/users/thomas-lean.png": "public/images/users/thomas-lean.png"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "record": {
+    "slug": "paper-dashboard-html",
+    "title": "Paper Dashboard 2",
+    "description": "Soft Bootstrap 4 dashboard: Chart.js charts, Nucleo icons, notifications, user profile, tables and typography.",
+    "repo": "creativetimofficial/paper-dashboard",
+    "sha": "92e9e76885c37b7f89720e9f82c48a7b464089e7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "LICENSE and README badge MIT; package.json says 'Creative Tim License'.",
+      "url": "https://github.com/creativetimofficial/paper-dashboard/blob/92e9e76885c37b7f89720e9f82c48a7b464089e7/LICENSE"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "charts",
+      "notifications"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/paper-dashboard/examples/dashboard.html",
+    "quality": 3,
+    "entry": "examples/dashboard.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "examples/dashboard.html",
+        "title": "Paper Dashboard 2 by Creative Tim"
+      },
+      {
+        "path": "examples/icons.html",
+        "title": "Paper Dashboard 2 by Creative Tim"
+      },
+      {
+        "path": "examples/notifications.html",
+        "title": "Paper Dashboard 2 by Creative Tim"
+      },
+      {
+        "path": "examples/tables.html",
+        "title": "Paper Dashboard 2 by Creative Tim"
+      },
+      {
+        "path": "examples/typography.html",
+        "title": "Paper Dashboard 2 by Creative Tim"
+      },
+      {
+        "path": "examples/upgrade.html",
+        "title": "Paper Dashboard 2 by Creative Tim"
+      },
+      {
+        "path": "examples/user.html",
+        "title": "Paper Dashboard 2 by Creative Tim"
+      },
+      {
+        "path": "nucleo-icons.html",
+        "title": "Nucleo Outline Web Font"
+      },
+      {
+        "path": "template.html",
+        "title": "Paper Dashboard 2 by Creative Tim"
+      }
+    ],
+    "storedBytes": 138542,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:24.308Z"
+  },
+  "serve": {
+    "slug": "paper-dashboard-html",
+    "kind": "static",
+    "entry": "examples/dashboard.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/paper-dashboard@92e9e76885c37b7f89720e9f82c48a7b464089e7/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

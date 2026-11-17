@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-11-10T18:04:58.433Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [
+    "examples/map.html"
+  ],
+  "pages": [
+    {
+      "path": "examples/dashboard.html",
+      "title": "Black Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/icons.html",
+      "title": "Black Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/notifications.html",
+      "title": "Black Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/rtl.html",
+      "title": "Black Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/tables.html",
+      "title": "Black Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/typography.html",
+      "title": "Black Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/upgrade.html",
+      "title": "Black Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/user.html",
+      "title": "Black Dashboard by Creative Tim"
+    }
+  ]
+}

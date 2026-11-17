@@ -1,0 +1,365 @@
+{
+  "record": {
+    "slug": "tailwind-alpine-vojislavd",
+    "title": "TailwindCSS Alpine.js Template",
+    "description": "Tailwind and Alpine.js admin with dashboards, e-commerce, 15 auth variants, UI components, forms and charts.",
+    "repo": "vojislavd/TailwindCSS-Alpine.js-Template",
+    "sha": "46850fa9a0e8d7ebe1fffd03e219fd680f61b794",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/vojislavd/TailwindCSS-Alpine.js-Template/blob/46850fa9a0e8d7ebe1fffd03e219fd680f61b794/LICENSE.md"
+    },
+    "author": "Vojislav Dimitrijevic",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "alpinejs",
+      "vite",
+      "ecommerce"
+    ],
+    "demoUrl": "https://vojislavd.com/ta-template-demo/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/basic/emailVerification.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/basic/forgotPassword.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/basic/resetPassword.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/basic/signIn.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/basic/signUp.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/cover/emailVerification.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/cover/forgotPassword.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/cover/resetPassword.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/cover/signIn.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/cover/signUp.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/illustration/emailVerification.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/illustration/forgotPassword.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/illustration/resetPassword.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/illustration/signIn.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/authentication/illustration/signUp.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/calendar.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/charts/bar_charts.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/charts/line_charts.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/charts/other_charts.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/colors.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/coming_soon/basic.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/coming_soon/timer.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ecommerce/checkout.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ecommerce/productDetails.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ecommerce/products.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ecommerce/shoppingCart.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/email/inbox.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/email/newMessage.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/email/viewMessage.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/error/404/basic.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/error/404/illustration_cover.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/error/404/illustration.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/error/500/basic.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/error/500/illustration_cover.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/error/500/illustration.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/faq/accordion.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/faq/basic.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/faq/qa.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/forms/checkbox.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/forms/input.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/forms/layout.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/forms/radio.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/forms/select.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/forms/switch.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/forms/textarea.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/generic/emptyPage.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/invoices.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/maintenance.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/maps.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/messages.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/modals/authentication.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/modals/confirmation.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/modals/info.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/pricing.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/profile.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/settings.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/tables.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/accordions.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/alerts.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/badges.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/breadcrumbs.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/buttons.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/cards.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/count_up.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/dropdowns.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/pagination.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/tabs.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      },
+      {
+        "path": "pages/ui/tooltips.html",
+        "title": "Tailwind CSS & Alpine.js Template"
+      }
+    ],
+    "storedBytes": 6644737,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:28.446Z"
+  },
+  "serve": {
+    "slug": "tailwind-alpine-vojislavd",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/vojislavd/TailwindCSS-Alpine.js-Template@46850fa9a0e8d7ebe1fffd03e219fd680f61b794/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/img/auth-background.jpg": "public/assets/img/auth-background.jpg",
+      "assets/img/card.jpg": "public/assets/img/card.jpg",
+      "assets/img/coming-soon.jpg": "public/assets/img/coming-soon.jpg",
+      "assets/img/connections/connection1.jpg": "public/assets/img/connections/connection1.jpg",
+      "assets/img/connections/connection10.jpg": "public/assets/img/connections/connection10.jpg",
+      "assets/img/connections/connection11.jpg": "public/assets/img/connections/connection11.jpg",
+      "assets/img/connections/connection12.jpg": "public/assets/img/connections/connection12.jpg",
+      "assets/img/connections/connection13.jpg": "public/assets/img/connections/connection13.jpg",
+      "assets/img/connections/connection14.jpg": "public/assets/img/connections/connection14.jpg",
+      "assets/img/connections/connection15.jpg": "public/assets/img/connections/connection15.jpg",
+      "assets/img/connections/connection16.jpg": "public/assets/img/connections/connection16.jpg",
+      "assets/img/connections/connection2.jpg": "public/assets/img/connections/connection2.jpg",
+      "assets/img/connections/connection3.jpg": "public/assets/img/connections/connection3.jpg",
+      "assets/img/connections/connection4.jpg": "public/assets/img/connections/connection4.jpg",
+      "assets/img/connections/connection5.jpg": "public/assets/img/connections/connection5.jpg",
+      "assets/img/connections/connection6.jpg": "public/assets/img/connections/connection6.jpg",
+      "assets/img/connections/connection7.jpg": "public/assets/img/connections/connection7.jpg",
+      "assets/img/connections/connection8.jpg": "public/assets/img/connections/connection8.jpg",
+      "assets/img/connections/connection9.jpg": "public/assets/img/connections/connection9.jpg",
+      "assets/img/ecommerce/product1.jpg": "public/assets/img/ecommerce/product1.jpg",
+      "assets/img/ecommerce/product10.jpg": "public/assets/img/ecommerce/product10.jpg",
+      "assets/img/ecommerce/product11.jpg": "public/assets/img/ecommerce/product11.jpg",
+      "assets/img/ecommerce/product12.jpg": "public/assets/img/ecommerce/product12.jpg",
+      "assets/img/ecommerce/product2.jpg": "public/assets/img/ecommerce/product2.jpg",
+      "assets/img/ecommerce/product3.jpg": "public/assets/img/ecommerce/product3.jpg",
+      "assets/img/ecommerce/product4.jpg": "public/assets/img/ecommerce/product4.jpg",
+      "assets/img/ecommerce/product5.jpg": "public/assets/img/ecommerce/product5.jpg",
+      "assets/img/ecommerce/product6.jpg": "public/assets/img/ecommerce/product6.jpg",
+      "assets/img/ecommerce/product7.jpg": "public/assets/img/ecommerce/product7.jpg",
+      "assets/img/ecommerce/product8.jpg": "public/assets/img/ecommerce/product8.jpg",
+      "assets/img/ecommerce/product9.jpg": "public/assets/img/ecommerce/product9.jpg",
+      "assets/img/message1.jpg": "public/assets/img/message1.jpg",
+      "assets/img/message2.jpg": "public/assets/img/message2.jpg",
+      "assets/img/message3.jpg": "public/assets/img/message3.jpg",
+      "assets/img/modals/advance_sign_in_modal.png": "public/assets/img/modals/advance_sign_in_modal.png",
+      "assets/img/modals/advance_sign_up_modal.png": "public/assets/img/modals/advance_sign_up_modal.png",
+      "assets/img/modals/basic_confirmation_modal.png": "public/assets/img/modals/basic_confirmation_modal.png",
+      "assets/img/modals/basic_info_modal.png": "public/assets/img/modals/basic_info_modal.png",
+      "assets/img/modals/basic_sign_in_modal.png": "public/assets/img/modals/basic_sign_in_modal.png",
+      "assets/img/modals/basic_sign_up_modal.png": "public/assets/img/modals/basic_sign_up_modal.png",
+      "assets/img/modals/ultra_wide_info_modal.png": "public/assets/img/modals/ultra_wide_info_modal.png",
+      "assets/img/modals/wide_info_modal.png": "public/assets/img/modals/wide_info_modal.png",
+      "assets/img/profile-background.jpg": "public/assets/img/profile-background.jpg",
+      "assets/img/profile.jpg": "public/assets/img/profile.jpg"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "record": {
+    "slug": "modernize-react-lite",
+    "title": "Modernize React Lite",
+    "description": "Material UI admin: dashboard with charts, typography, shadows, icons, basic table, form layouts and elements, sample page, auth and 404.",
+    "repo": "adminmart/modernize-react-lite",
+    "sha": "4de5f2a10f6b64fdf8090bbd5a25ad52fcd67226",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/adminmart/modernize-react-lite/blob/4de5f2a10f6b64fdf8090bbd5a25ad52fcd67226/LICENSE.txt"
+    },
+    "author": "AdminMart",
+    "framework": "react",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "material-ui",
+      "apexcharts",
+      "react-router"
+    ],
+    "demoUrl": "https://adminmart.github.io/modernize-react-lite/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Modernize React Lite"
+      }
+    ],
+    "storedBytes": 1743011,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:37.292Z"
+  },
+  "serve": {
+    "slug": "modernize-react-lite",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/adminmart/modernize-react-lite@4de5f2a10f6b64fdf8090bbd5a25ad52fcd67226/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/404-error-idea-2OUdqd9u.gif": "package/src/assets/images/backgrounds/404-error-idea.gif",
+      "assets/rocket-r5Ujvr1l.png": "package/src/assets/images/backgrounds/rocket.png",
+      "assets/s11-DIHYzUGF.jpg": "package/src/assets/images/products/s11.jpg",
+      "assets/s4-DZcRYgYm.jpg": "package/src/assets/images/products/s4.jpg",
+      "assets/s5-B_lonQNp.jpg": "package/src/assets/images/products/s5.jpg",
+      "assets/s7-CTzWdjv0.jpg": "package/src/assets/images/products/s7.jpg",
+      "assets/user-1-CznVQ9Sv.jpg": "package/src/assets/images/profile/user-1.jpg",
+      "favicon.ico": "package/public/favicon.ico"
+    }
+  }
+}

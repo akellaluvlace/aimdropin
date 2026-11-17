@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-10T17:57:24.837Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "RCursos - Dashboard"
+    },
+    {
+      "path": "pages/courses_add.html",
+      "title": "RCursos - Novo curso"
+    },
+    {
+      "path": "pages/courses_edit.html",
+      "title": "RCursos - Nome do curso | Editar"
+    },
+    {
+      "path": "pages/courses_index.html",
+      "title": "Dashboard - Listar cursos"
+    },
+    {
+      "path": "pages/courses_view.html",
+      "title": "RCursos - Nome do curso | Detalhes"
+    },
+    {
+      "path": "pages/login.html",
+      "title": "Dashboard - Login"
+    },
+    {
+      "path": "pages/recovery_password.html",
+      "title": "Dashboard - Recuperar senha"
+    },
+    {
+      "path": "pages/register.html",
+      "title": "Dashboard - Cadastro"
+    }
+  ]
+}

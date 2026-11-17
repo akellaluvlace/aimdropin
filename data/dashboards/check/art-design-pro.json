@@ -1,0 +1,250 @@
+{
+  "checkedAt": "2026-11-10T19:16:50.582Z",
+  "pagesChecked": 55,
+  "pagesOk": 54,
+  "failures": [
+    {
+      "path": "auth/login",
+      "problem": "page is empty"
+    }
+  ],
+  "deadLinks": [
+    "system/nested/menu3/menu3-2/menu3-2-1",
+    "examples/permission/switch-role",
+    "examples/tables/tree",
+    "dashboard/console",
+    "dashboard/ecommerce",
+    "template/banners",
+    "template/calendar",
+    "widgets/image-crop",
+    "widgets/excel",
+    "widgets/wang-editor",
+    "examples/permission",
+    "examples/forms",
+    "system/user-center",
+    "article/comment",
+    "exception/403",
+    "outside",
+    "dashboard",
+    "result",
+    "change"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "工作台 - Art Design Pro"
+    },
+    {
+      "path": "system/nested/menu2/menu2-1",
+      "title": "Menu 2-1 - Art Design Pro"
+    },
+    {
+      "path": "system/nested/menu3/menu3-1",
+      "title": "Menu 3-1 - Art Design Pro"
+    },
+    {
+      "path": "system/nested/menu3/menu3-2",
+      "title": "Menu 3-2-1 - Art Design Pro"
+    },
+    {
+      "path": "outside/iframe/elementui",
+      "title": "Component Overview - Art Design Pro"
+    },
+    {
+      "path": "examples/permission/button-auth",
+      "title": "Button Authority - Art Design Pro"
+    },
+    {
+      "path": "examples/permission/page-visibility",
+      "title": "Super Admin Visibility - Art Design Pro"
+    },
+    {
+      "path": "examples/tables/basic",
+      "title": "Basic Tables - Art Design Pro"
+    },
+    {
+      "path": "examples/form/search-bar",
+      "title": "Search Form - Art Design Pro"
+    },
+    {
+      "path": "system/nested/menu1",
+      "title": "Menu 1 - Art Design Pro"
+    },
+    {
+      "path": "system/nested/menu2",
+      "title": "菜单2-1 - Art Design Pro"
+    },
+    {
+      "path": "system/nested/menu3",
+      "title": "Menu 3-1 - Art Design Pro"
+    },
+    {
+      "path": "auth/register",
+      "title": "注册 - Art Design Pro"
+    },
+    {
+      "path": "auth/forget-password",
+      "title": "忘记密码 - Art Design Pro"
+    },
+    {
+      "path": "dashboard/analysis",
+      "title": "分析页 - Art Design Pro"
+    },
+    {
+      "path": "template/cards",
+      "title": "Cards - Art Design Pro"
+    },
+    {
+      "path": "template/charts",
+      "title": "Charts - Art Design Pro"
+    },
+    {
+      "path": "template/map",
+      "title": "Map - Art Design Pro"
+    },
+    {
+      "path": "template/chat",
+      "title": "Chat - Art Design Pro"
+    },
+    {
+      "path": "template/pricing",
+      "title": "Pricing - Art Design Pro"
+    },
+    {
+      "path": "widgets/icon",
+      "title": "Icon - Art Design Pro"
+    },
+    {
+      "path": "widgets/video",
+      "title": "Video Player - Art Design Pro"
+    },
+    {
+      "path": "widgets/count-to",
+      "title": "数字滚动 - Art Design Pro"
+    },
+    {
+      "path": "widgets/watermark",
+      "title": "Watermark - Art Design Pro"
+    },
+    {
+      "path": "widgets/context-menu",
+      "title": "Context Menu - Art Design Pro"
+    },
+    {
+      "path": "widgets/qrcode",
+      "title": "QR Code - Art Design Pro"
+    },
+    {
+      "path": "widgets/drag",
+      "title": "Drag - Art Design Pro"
+    },
+    {
+      "path": "widgets/text-scroll",
+      "title": "Text Scroll - Art Design Pro"
+    },
+    {
+      "path": "widgets/fireworks",
+      "title": "Fireworks - Art Design Pro"
+    },
+    {
+      "path": "examples/tabs",
+      "title": "Tabs - Art Design Pro"
+    },
+    {
+      "path": "examples/tables",
+      "title": "Advanced Tables - Art Design Pro"
+    },
+    {
+      "path": "examples/socket-chat",
+      "title": "Socket Connection - Art Design Pro"
+    },
+    {
+      "path": "system/user",
+      "title": "User Manage - Art Design Pro"
+    },
+    {
+      "path": "system/role",
+      "title": "Role Manage - Art Design Pro"
+    },
+    {
+      "path": "system/menu",
+      "title": "Menu Manage - Art Design Pro"
+    },
+    {
+      "path": "system/nested",
+      "title": "Menu 1 - Art Design Pro"
+    },
+    {
+      "path": "article/article-list",
+      "title": "Article List - Art Design Pro"
+    },
+    {
+      "path": "article/publish",
+      "title": "Article Publish - Art Design Pro"
+    },
+    {
+      "path": "result/success",
+      "title": "Success - Art Design Pro"
+    },
+    {
+      "path": "result/fail",
+      "title": "Fail - Art Design Pro"
+    },
+    {
+      "path": "exception/404",
+      "title": "404 - Art Design Pro"
+    },
+    {
+      "path": "exception/500",
+      "title": "500 - Art Design Pro"
+    },
+    {
+      "path": "safeguard/server",
+      "title": "Server - Art Design Pro"
+    },
+    {
+      "path": "change/log",
+      "title": "Change Log - Art Design Pro"
+    },
+    {
+      "path": "template",
+      "title": "Cards - Art Design Pro"
+    },
+    {
+      "path": "widgets",
+      "title": "Icon - Art Design Pro"
+    },
+    {
+      "path": "examples",
+      "title": "Toggle Auth - Art Design Pro"
+    },
+    {
+      "path": "system",
+      "title": "User Manage - Art Design Pro"
+    },
+    {
+      "path": "article",
+      "title": "文章列表 - Art Design Pro"
+    },
+    {
+      "path": "exception",
+      "title": "403 - Art Design Pro"
+    },
+    {
+      "path": "safeguard",
+      "title": "服务器管理 - Art Design Pro"
+    },
+    {
+      "path": "403",
+      "title": "404 - Art Design Pro"
+    },
+    {
+      "path": "500",
+      "title": "404 - Art Design Pro"
+    },
+    {
+      "path": "privacy-policy",
+      "title": "Console - Art Design Pro"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "record": {
+    "slug": "vvveb-admin",
+    "title": "Vvveb Admin",
+    "description": "CMS and e-commerce admin from Vvveb: products, orders, posts, users, media, themes, plugins, settings and localization.",
+    "repo": "givanz/vvveb-admin-template",
+    "sha": "9fde584e12d3990e0b07d13a1110c5aed9f4100e",
+    "license": {
+      "spdx": "Apache-2.0",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/givanz/vvveb-admin-template/blob/9fde584e12d3990e0b07d13a1110c5aed9f4100e/LICENSE"
+    },
+    "author": "givanz",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "E-commerce",
+    "tags": [
+      "bootstrap5",
+      "cms",
+      "e-commerce",
+      "dark-mode"
+    ],
+    "demoUrl": "https://demo.vvveb.com/admin/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Vvveb - Dasboard"
+      },
+      {
+        "path": "admin/recover.html",
+        "title": "Vvveb - Recover password"
+      },
+      {
+        "path": "admin/role.html",
+        "title": "Vvveb - Role"
+      },
+      {
+        "path": "admin/roles.html",
+        "title": "Vvveb - Roles"
+      },
+      {
+        "path": "admin/user.html",
+        "title": "Vvveb - User"
+      },
+      {
+        "path": "admin/users.html",
+        "title": "Vvveb - Users"
+      },
+      {
+        "path": "content/comment.html",
+        "title": "Vvveb - Comment"
+      },
+      {
+        "path": "content/comments.html",
+        "title": "Vvveb - Comments"
+      },
+      {
+        "path": "content/fields.html",
+        "title": "Vvveb - Fields"
+      },
+      {
+        "path": "content/menus.html",
+        "title": "Vvveb - Menus"
+      },
+      {
+        "path": "content/menus/menu.html",
+        "title": "Vvveb - Menus"
+      },
+      {
+        "path": "content/page.html",
+        "title": "Vvveb - Edit post"
+      },
+      {
+        "path": "content/pages.html",
+        "title": "Vvveb - Posts"
+      },
+      {
+        "path": "content/post.html",
+        "title": "Vvveb - Edit post"
+      },
+      {
+        "path": "content/posts.html",
+        "title": "Vvveb - Posts"
+      },
+      {
+        "path": "content/revisions.html",
+        "title": "Vvveb - Revisions"
+      },
+      {
+        "path": "content/tag.html",
+        "title": "Vvveb - Tag"
+      },
+      {
+        "path": "content/tags.html",
+        "title": "Vvveb - tags"
+      },
+      {
+        "path": "content/taxonomy.html",
+        "title": "Vvveb - Edit taxonomy"
+      },
+      {
+        "path": "editor/code.html",
+        "title": "Vvveb - Code Editor"
+      },
+      {
+        "path": "email/user/reset.html",
+        "title": "Reset"
+      },
+      {
+        "path": "email/user/reset.txt.html",
+        "title": "Reset.Txt"
+      },
+      {
+        "path": "error403.html",
+        "title": "Vvveb - Permission denied!"
+      },
+      {
+        "path": "error404.html",
+        "title": "Vvveb - Page not found"
+      },
+      {
+        "path": "error500.html",
+        "title": "Vvveb - Internal server error"
+      },
+      {
+        "path": "field/field-group.html",
+        "title": "Vvveb - Field Group"
+      },
+      {
+        "path": "field/field-groups.html",
+        "title": "Vvveb - Field groups"
+      },
+      {
+        "path": "localization/countries.html",
+        "title": "Vvveb - Countries"
+      },
+      {
+        "path": "localization/country.html",
+        "title": "Vvveb - Country"
+      },
+      {
+        "path": "localization/currencies.html",
+        "title": "Vvveb - Currencies"
+      },
+      {
+        "path": "localization/currency.html",
+        "title": "Vvveb - Currency"
+      },
+      {
+        "path": "localization/language.html",
+        "title": "Vvveb - Language"
+      },
+      {
+        "path": "localization/languages.html",
+        "title": "Vvveb - Languages"
+      },
+      {
+        "path": "localization/region-group.html",
+        "title": "Vvveb - Region Group"
+      },
+      {
+        "path": "localization/region-groups.html",
+        "title": "Vvveb - Region Groups"
+      },
+      {
+        "path": "localization/region.html",
+        "title": "Vvveb - Region"
+      },
+      {
+        "path": "localization/regions.html",
+        "title": "Vvveb - Regions"
+      },
+      {
+        "path": "localization/translations/domain.html",
+        "title": "Vvveb - Translations"
+      },
+      {
+        "path": "localization/translations/domains.html",
+        "title": "Vvveb - Domains"
+      },
+      {
+        "path": "media/media-popup.html",
+        "title": "Vvveb - Media popup"
+      },
+      {
+        "path": "media/media.html",
+        "title": "Vvveb - Media"
+      },
+      {
+        "path": "order/coupon.html",
+        "title": "Vvveb - Coupon"
+      },
+      {
+        "path": "order/coupons.html",
+        "title": "Vvveb - Coupons"
+      },
+      {
+        "path": "order/order.html",
+        "title": "Vvveb - Order"
+      },
+      {
+        "path": "order/order/print.html",
+        "title": "Vvveb - Order"
+      },
+      {
+        "path": "order/order/printshipping.html",
+        "title": "Vvveb - Order"
+      },
+      {
+        "path": "order/orders.html",
+        "title": "Vvveb - Orders"
+      },
+      {
+        "path": "order/return-order.html",
+        "title": "Vvveb - Return"
+      },
+      {
+        "path": "order/returns.html",
+        "title": "Vvveb - Returns"
+      },
+      {
+        "path": "order/subscription.html",
+        "title": "Vvveb - Subscription"
+      },
+      {
+        "path": "order/subscriptions.html",
+        "title": "Vvveb - Subscriptions"
+      },
+      {
+        "path": "order/voucher.html",
+        "title": "Vvveb - Voucher"
+      },
+      {
+        "path": "order/vouchers.html",
+        "title": "Vvveb - Vouchers"
+      },
+      {
+        "path": "plugin/market.html",
+        "title": "Vvveb - Plugins Marketplace"
+      },
+      {
+        "path": "plugin/market/install.html",
+        "title": "Vvveb - Plugins Marketplace"
+      },
+      {
+        "path": "plugin/plugins.html",
+        "title": "Vvveb - Plugins"
+      },
+      {
+        "path": "product/attribute-group.html",
+        "title": "Vvveb - Attribute Group"
+      },
+      {
+        "path": "product/attribute-groups.html",
+        "title": "Vvveb - Attribute Groups"
+      },
+      {
+        "path": "product/attribute.html",
+        "title": "Vvveb - Attribute"
+      },
+      {
+        "path": "product/attributes.html",
+        "title": "Vvveb - Attributes"
+      },
+      {
+        "path": "product/digital-asset.html",
+        "title": "Vvveb - Digital asset"
+      },
+      {
+        "path": "product/digital-assets.html",
+        "title": "Vvveb - Digital assets"
+      },
+      {
+        "path": "product/fields.html",
+        "title": "Vvveb - Fields"
+      },
+      {
+        "path": "product/manufacturer.html",
+        "title": "Vvveb - Manufacturer"
+      },
+      {
+        "path": "product/manufacturers.html",
+        "title": "Vvveb - Manufactuers"
+      },
+      {
+        "path": "product/option.html",
+        "title": "Vvveb - Option"
+      },
+      {
+        "path": "product/options.html",
+        "title": "Vvveb - Options"
+      },
+      {
+        "path": "product/product-question.html",
+        "title": "Vvveb - Question"
+      },
+      {
+        "path": "product/product-questions.html",
+        "title": "Vvveb - Questions"
+      },
+      {
+        "path": "product/product-review.html",
+        "title": "Vvveb - Review"
+      },
+      {
+        "path": "product/product-reviews.html",
+        "title": "Vvveb - Reviews"
+      },
+      {
+        "path": "product/product.html",
+        "title": "Vvveb - Edit product"
+      },
+      {
+        "path": "product/products.html",
+        "title": "Vvveb - Products"
+      },
+      {
+        "path": "product/vendor.html",
+        "title": "Vvveb - Vendor"
+      },
+      {
+        "path": "product/vendors.html",
+        "title": "Vvveb - Vendors"
+      },
+      {
+        "path": "settings/email.html",
+        "title": "Vvveb - Email settings"
+      },
+      {
+        "path": "settings/length-type.html",
+        "title": "Vvveb - Length type"
+      },
+      {
+        "path": "settings/length-types.html",
+        "title": "Vvveb - Length type"
+      },
+      {
+        "path": "settings/order-status.html",
+        "title": "Vvveb - Order status"
+      },
+      {
+        "path": "settings/order-statuses.html",
+        "title": "Vvveb - Order status"
+      },
+      {
+        "path": "settings/return-reason.html",
+        "title": "Vvveb - Return reason"
+      },
+      {
+        "path": "settings/return-reasons.html",
+        "title": "Vvveb - Return reason"
+      },
+      {
+        "path": "settings/return-status.html",
+        "title": "Vvveb - Return status"
+      },
+      {
+        "path": "settings/return-statuses.html",
+        "title": "Vvveb - Return status"
+      },
+      {
+        "path": "settings/site.html",
+        "title": "Vvveb - Site"
+      },
+      {
+        "path": "settings/sites.html",
+        "title": "Vvveb - Sites"
+      },
+      {
+        "path": "settings/stock-status.html",
+        "title": "Vvveb - Stock status"
+      },
+      {
+        "path": "settings/stock-statuses.html",
+        "title": "Vvveb - Stock status"
+      },
+      {
+        "path": "settings/subscription-plan.html",
+        "title": "Vvveb - Subscription plan"
+      },
+      {
+        "path": "settings/subscription-plans.html",
+        "title": "Vvveb - Subscription plans"
+      },
+      {
+        "path": "settings/subscription-status.html",
+        "title": "Vvveb - Subscription status"
+      },
+      {
+        "path": "settings/subscription-statuses.html",
+        "title": "Vvveb - Subscription status"
+      },
+      {
+        "path": "settings/tax-rate.html",
+        "title": "Vvveb - Tax rate"
+      },
+      {
+        "path": "settings/tax-rates.html",
+        "title": "Vvveb - Tax rates"
+      },
+      {
+        "path": "settings/tax-type.html",
+        "title": "Vvveb - Tax type"
+      },
+      {
+        "path": "settings/tax-types.html",
+        "title": "Vvveb - Tax types"
+      },
+      {
+        "path": "settings/taxonomies.html",
+        "title": "Vvveb - Taxonomies"
+      },
+      {
+        "path": "settings/taxonomy.html",
+        "title": "Vvveb - Taxonomy"
+      },
+      {
+        "path": "settings/weight-type.html",
+        "title": "Vvveb - Weight type"
+      },
+      {
+        "path": "settings/weight-types.html",
+        "title": "Vvveb - Weight type"
+      },
+      {
+        "path": "theme/market.html",
+        "title": "Vvveb - Themes"
+      },
+      {
+        "path": "theme/themes.html",
+        "title": "Vvveb - Themes"
+      },
+      {
+        "path": "theme/themes/import.html",
+        "title": "Vvveb - Import"
+      },
+      {
+        "path": "theme/themes/install.html",
+        "title": "Vvveb - Import"
+      },
+      {
+        "path": "tools/backup.html",
+        "title": "Vvveb - Backup"
+      },
+      {
+        "path": "tools/cache.html",
+        "title": "Vvveb - Cache"
+      },
+      {
+        "path": "tools/cron.html",
+        "title": "Vvveb - Cron"
+      },
+      {
+        "path": "tools/errorlog.html",
+        "title": "Vvveb - Error log"
+      },
+      {
+        "path": "tools/export.html",
+        "title": "Vvveb - Export"
+      },
+      {
+        "path": "tools/import.html",
+        "title": "Vvveb - Import"
+      },
+      {
+        "path": "tools/security.html",
+        "title": "Vvveb - Security"
+      },
+      {
+        "path": "tools/systeminfo.html",
+        "title": "Vvveb - System info"
+      },
+      {
+        "path": "tools/update.html",
+        "title": "Vvveb - Updates"
+      },
+      {
+        "path": "user/login.html",
+        "title": "Vvveb - Login"
+      },
+      {
+        "path": "user/reset.html",
+        "title": "Recover password"
+      },
+      {
+        "path": "user/reset/reset.html",
+        "title": "Recover password"
+      },
+      {
+        "path": "user/user-group.html",
+        "title": "Vvveb - User Group"
+      },
+      {
+        "path": "user/user-groups.html",
+        "title": "Vvveb - User Groups"
+      },
+      {
+        "path": "user/user.html",
+        "title": "Vvveb - User"
+      },
+      {
+        "path": "user/users.html",
+        "title": "Vvveb - Users"
+      }
+    ],
+    "storedBytes": 18009808,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:21.774Z"
+  },
+  "serve": {
+    "slug": "vvveb-admin",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/givanz/vvveb-admin-template@9fde584e12d3990e0b07d13a1110c5aed9f4100e/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "record": {
+    "slug": "next-shadcn-dashboard-starter",
+    "title": "Next Shadcn Dashboard Starter",
+    "description": "shadcn/ui admin starter on Next.js 16: overview charts, product and user tables with filters, kanban, chat, AI chat, forms and notifications.",
+    "repo": "Kiranism/next-shadcn-dashboard-starter",
+    "sha": "47da494b89e330d884a0f9b5c37a605fbabb3987",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/Kiranism/next-shadcn-dashboard-starter/blob/47da494b89e330d884a0f9b5c37a605fbabb3987/LICENSE"
+    },
+    "author": "Kiranism",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "shadcn",
+      "app-router",
+      "tanstack-query",
+      "nuqs",
+      "kanban"
+    ],
+    "demoUrl": "https://shadcn-dashboard.kiranism.dev",
+    "quality": 5,
+    "entry": "dashboard/overview/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard/overview/index.html",
+        "title": "Next Shadcn Dashboard Starter | Shadcn Dashboard"
+      },
+      {
+        "path": "_not-found/index.html",
+        "title": "Shadcn Dashboard - Next.js Admin Dashboard Template"
+      },
+      {
+        "path": "404.html",
+        "title": "Shadcn Dashboard - Next.js Admin Dashboard Template"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Shadcn Dashboard - Next.js Admin Dashboard Template"
+      },
+      {
+        "path": "dashboard/ai-chat/index.html",
+        "title": "Dashboard: AI Chat"
+      },
+      {
+        "path": "dashboard/chat/index.html",
+        "title": "Dashboard: Chat"
+      },
+      {
+        "path": "dashboard/elements/icons/index.html",
+        "title": "Dashboard : Icons"
+      },
+      {
+        "path": "dashboard/forms/advanced/index.html",
+        "title": "Dashboard: Advanced Form Patterns"
+      },
+      {
+        "path": "dashboard/forms/basic/index.html",
+        "title": "Dashboard: Basic Form"
+      },
+      {
+        "path": "dashboard/forms/index.html",
+        "title": "Next Shadcn Dashboard Starter | Shadcn Dashboard"
+      },
+      {
+        "path": "dashboard/forms/multi-step/index.html",
+        "title": "Dashboard: Multi-Step Form"
+      },
+      {
+        "path": "dashboard/forms/sheet-form/index.html",
+        "title": "Dashboard: Sheet Form"
+      },
+      {
+        "path": "dashboard/index.html",
+        "title": "Next Shadcn Dashboard Starter | Shadcn Dashboard"
+      },
+      {
+        "path": "dashboard/kanban/index.html",
+        "title": "Dashboard : Kanban view"
+      },
+      {
+        "path": "dashboard/notifications/index.html",
+        "title": "Dashboard: Notifications"
+      },
+      {
+        "path": "dashboard/product/1/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/10/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/11/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/12/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/13/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/14/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/15/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/16/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/17/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/18/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/19/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/2/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/20/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/3/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/4/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/5/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/6/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/7/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/8/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/9/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/product/index.html",
+        "title": "Dashboard: Products"
+      },
+      {
+        "path": "dashboard/product/new/index.html",
+        "title": "Dashboard : Product View"
+      },
+      {
+        "path": "dashboard/react-query/index.html",
+        "title": "Dashboard: React Query"
+      },
+      {
+        "path": "dashboard/users/index.html",
+        "title": "Dashboard: Users"
+      },
+      {
+        "path": "index.html",
+        "title": "Shadcn Dashboard - Next.js Admin Dashboard Template"
+      }
+    ],
+    "storedBytes": 14901508,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:12:42.178Z"
+  },
+  "serve": {
+    "slug": "next-shadcn-dashboard-starter",
+    "kind": "build",
+    "entry": "dashboard/overview/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Kiranism/next-shadcn-dashboard-starter@47da494b89e330d884a0f9b5c37a605fbabb3987/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "src/app/favicon.ico",
+      "robots.txt": "public/robots.txt",
+      "shadcn-dashboard.png": "public/shadcn-dashboard.png"
+    }
+  }
+}

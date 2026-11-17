@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-11-10T18:56:26.331Z",
+  "pagesChecked": 45,
+  "pagesOk": 45,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Default - NG-ALAIN"
+    },
+    {
+      "path": "passport/lock",
+      "title": "Lock - NG-ALAIN"
+    },
+    {
+      "path": "widgets",
+      "title": "Widgets - NG-ALAIN"
+    },
+    {
+      "path": "style/typography",
+      "title": "Typography - NG-ALAIN"
+    },
+    {
+      "path": "style/gridmasonry",
+      "title": "Grid Masonry - NG-ALAIN"
+    },
+    {
+      "path": "pro/result/success",
+      "title": "Success - NG-ALAIN"
+    },
+    {
+      "path": "dashboard/v1",
+      "title": "Dashboard / V1"
+    },
+    {
+      "path": "dashboard/analysis",
+      "title": "Analysis - NG-ALAIN"
+    },
+    {
+      "path": "dashboard/monitor",
+      "title": "Monitor - NG-ALAIN"
+    },
+    {
+      "path": "dashboard/workplace",
+      "title": "Workplace - NG-ALAIN"
+    },
+    {
+      "path": "style/colors",
+      "title": "Colors - NG-ALAIN"
+    },
+    {
+      "path": "delon/form",
+      "title": "Page Name - NG-ALAIN"
+    },
+    {
+      "path": "delon/st",
+      "title": "Simple table - NG-ALAIN"
+    },
+    {
+      "path": "delon/util",
+      "title": "Util - NG-ALAIN"
+    },
+    {
+      "path": "delon/print",
+      "title": "Print - NG-ALAIN"
+    },
+    {
+      "path": "delon/qr",
+      "title": "QR - NG-ALAIN"
+    },
+    {
+      "path": "delon/acl",
+      "title": "ACL - NG-ALAIN"
+    },
+    {
+      "path": "delon/guard",
+      "title": "Route Guard - NG-ALAIN"
+    },
+    {
+      "path": "delon/cache",
+      "title": "Cache - NG-ALAIN"
+    },
+    {
+      "path": "delon/downfile",
+      "title": "Download File - NG-ALAIN"
+    },
+    {
+      "path": "delon/xlsx",
+      "title": "Excel - NG-ALAIN"
+    },
+    {
+      "path": "delon/zip",
+      "title": "Zip - NG-ALAIN"
+    },
+    {
+      "path": "pro/form",
+      "title": "Form - NG-ALAIN"
+    },
+    {
+      "path": "pro/form/basic-form",
+      "title": "基础表单 - NG-ALAIN"
+    },
+    {
+      "path": "pro/form/step-form",
+      "title": "分步表单 - NG-ALAIN"
+    },
+    {
+      "path": "pro/form/advanced-form",
+      "title": "高级表单 - NG-ALAIN"
+    },
+    {
+      "path": "pro/list/table-list",
+      "title": "查询表格 - NG-ALAIN"
+    },
+    {
+      "path": "pro/list/basic-list",
+      "title": "Basic List - NG-ALAIN"
+    },
+    {
+      "path": "pro/list/card-list",
+      "title": "卡片列表 - NG-ALAIN"
+    },
+    {
+      "path": "pro/list/articles",
+      "title": "搜索列表 - NG-ALAIN"
+    },
+    {
+      "path": "pro/list/projects",
+      "title": "搜索列表 - NG-ALAIN"
+    },
+    {
+      "path": "pro/list/applications",
+      "title": "搜索列表 - NG-ALAIN"
+    },
+    {
+      "path": "pro/profile/basic",
+      "title": "基础详情页 - NG-ALAIN"
+    },
+    {
+      "path": "pro/profile/advanced",
+      "title": "单号：234231029431 - NG-ALAIN"
+    },
+    {
+      "path": "pro/result/fail",
+      "title": "Fail - NG-ALAIN"
+    },
+    {
+      "path": "exception/403",
+      "title": "403 - NG-ALAIN"
+    },
+    {
+      "path": "exception/404",
+      "title": "404 - NG-ALAIN"
+    },
+    {
+      "path": "exception/500",
+      "title": "500 - NG-ALAIN"
+    },
+    {
+      "path": "pro/account/center",
+      "title": "pro-account-center - NG-ALAIN"
+    },
+    {
+      "path": "pro/account/settings",
+      "title": "pro-account-settings - NG-ALAIN"
+    },
+    {
+      "path": "data-v/relation",
+      "title": "asdf - NG-ALAIN"
+    },
+    {
+      "path": "extras",
+      "title": "Extra - NG-ALAIN"
+    },
+    {
+      "path": "extras/helpcenter",
+      "title": "Help Center - NG-ALAIN"
+    },
+    {
+      "path": "extras/settings",
+      "title": "Settings - NG-ALAIN"
+    },
+    {
+      "path": "extras/poi",
+      "title": "Poi - NG-ALAIN"
+    }
+  ]
+}

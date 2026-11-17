@@ -1,0 +1,281 @@
+{
+  "checkedAt": "2026-11-10T17:40:49.315Z",
+  "pagesChecked": 67,
+  "pagesOk": 65,
+  "failures": [
+    {
+      "path": "pages/forms/layout.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB /demos/tailwind-alpine-vojislavd/pages/assets/img/profile.jpg"
+    },
+    {
+      "path": "pages/maps.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read a named property 'addEventListener' from 'Window': Sandbox access violation: Blocked a frame at \"https://www.google.com\" from accessing a frame at \"null\".  Both "
+    }
+  ],
+  "deadLinks": [
+    "pages/error/404/basic.html",
+    "pages/error/404/illustration_cover.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/basic/emailVerification.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/basic/forgotPassword.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/basic/resetPassword.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/basic/signIn.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/basic/signUp.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/cover/emailVerification.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/cover/forgotPassword.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/cover/resetPassword.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/cover/signIn.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/cover/signUp.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/illustration/emailVerification.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/illustration/forgotPassword.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/illustration/resetPassword.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/illustration/signIn.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/authentication/illustration/signUp.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/calendar.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/charts/bar_charts.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/charts/line_charts.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/charts/other_charts.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/colors.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/coming_soon/basic.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/coming_soon/timer.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ecommerce/checkout.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ecommerce/productDetails.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ecommerce/products.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ecommerce/shoppingCart.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/email/inbox.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/email/newMessage.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/email/viewMessage.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/error/404/illustration.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/error/500/basic.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/error/500/illustration_cover.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/error/500/illustration.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/faq/accordion.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/faq/basic.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/faq/qa.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/forms/checkbox.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/forms/input.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/forms/radio.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/forms/select.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/forms/switch.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/forms/textarea.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/generic/emptyPage.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/invoices.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/maintenance.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/messages.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/modals/authentication.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/modals/confirmation.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/modals/info.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/pricing.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/profile.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/settings.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/tables.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/accordions.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/alerts.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/badges.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/breadcrumbs.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/buttons.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/cards.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/count_up.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/dropdowns.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/pagination.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/tabs.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    },
+    {
+      "path": "pages/ui/tooltips.html",
+      "title": "Tailwind CSS & Alpine.js Template"
+    }
+  ]
+}

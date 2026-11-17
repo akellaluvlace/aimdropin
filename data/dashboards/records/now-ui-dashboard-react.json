@@ -1,0 +1,57 @@
+{
+  "record": {
+    "slug": "now-ui-dashboard-react",
+    "title": "Now UI Dashboard React",
+    "description": "Colorful Bootstrap 4 admin with dashboard charts, icons, map, notifications, user profile, tables, typography and upgrade page.",
+    "repo": "creativetimofficial/now-ui-dashboard-react",
+    "sha": "882f872ad8745333cfa721798c48edd9cd834150",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/now-ui-dashboard-react/blob/882f872ad8745333cfa721798c48edd9cd834150/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "reactstrap",
+      "chartjs",
+      "react-router"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/now-ui-dashboard-react/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Now UI Dashboard React"
+      }
+    ],
+    "storedBytes": 867581,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.324Z"
+  },
+  "serve": {
+    "slug": "now-ui-dashboard-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/now-ui-dashboard-react@882f872ad8745333cfa721798c48edd9cd834150/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-icon.png": "public/apple-icon.png",
+      "favicon.ico": "public/favicon.ico",
+      "static/media/bg5.d60a95eb31d6400f802f.jpg": "src/assets/img/bg5.jpg",
+      "static/media/mike.d34d0690a264ad046861.jpg": "src/assets/img/mike.jpg",
+      "static/media/nucleo-outline.1102ed9b2d16dccdec05.ttf": "src/assets/fonts/nucleo-outline.ttf",
+      "static/media/nucleo-outline.1a1036e643f97457ec5f.woff": "src/assets/fonts/nucleo-outline.woff",
+      "static/media/nucleo-outline.56814a6b7240045e1494.eot": "src/assets/fonts/nucleo-outline.eot",
+      "static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2": "src/assets/fonts/nucleo-outline.woff2"
+    }
+  }
+}

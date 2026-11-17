@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-11-10T17:35:09.079Z",
+  "pagesChecked": 13,
+  "pagesOk": 12,
+  "failures": [
+    {
+      "path": "one-column.html",
+      "problem": "script error: Uncaught TypeError: Cannot read properties of null (reading 'length')"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "home.html",
+      "title": "Polished"
+    },
+    {
+      "path": "buttons.html",
+      "title": "Polished"
+    },
+    {
+      "path": "charts.html",
+      "title": "Polished"
+    },
+    {
+      "path": "colors.html",
+      "title": "Polished"
+    },
+    {
+      "path": "dashboard.html",
+      "title": "Polished"
+    },
+    {
+      "path": "font-sizes.html",
+      "title": "Polished"
+    },
+    {
+      "path": "forms.html",
+      "title": "Polished"
+    },
+    {
+      "path": "getting-started.html",
+      "title": "Polished"
+    },
+    {
+      "path": "index.html",
+      "title": "Polished"
+    },
+    {
+      "path": "table.html",
+      "title": "Polished"
+    },
+    {
+      "path": "two-columns.html",
+      "title": "Polished"
+    },
+    {
+      "path": "widgets.html",
+      "title": "Polished"
+    }
+  ]
+}

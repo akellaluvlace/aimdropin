@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-10T17:42:13.104Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Home"
+    },
+    {
+      "path": "profile",
+      "title": "Profile"
+    },
+    {
+      "path": "tables",
+      "title": "Tables"
+    },
+    {
+      "path": "notifications",
+      "title": "Notifications"
+    },
+    {
+      "path": "subscriptions",
+      "title": "Subscriptions"
+    },
+    {
+      "path": "auth/sign-in",
+      "title": "Auth / Sign In"
+    },
+    {
+      "path": "auth/sign-up",
+      "title": "Auth / Sign Up"
+    },
+    {
+      "path": "documentation",
+      "title": "Documentation"
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "checkedAt": "2026-11-10T17:45:45.057Z",
+  "pagesChecked": 81,
+  "pagesOk": 78,
+  "failures": [
+    {
+      "path": "interface/media-objects",
+      "problem": "script error: Uncaught TypeError: i.faker.person.title is not a function · page is empty"
+    },
+    {
+      "path": "forms/input-groups",
+      "problem": "script error: Uncaught TypeError: Cannot read properties of null (reading 'contains')"
+    },
+    {
+      "path": "apps/users/list",
+      "problem": "script error: Uncaught TypeError: i.faker.phone.phoneNumberFormat is not a function · page is empty"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Airframe - Projects Dashboard"
+    },
+    {
+      "path": "apps/profile-details",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/settings-edit",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/billing-edit",
+      "title": "Airframe"
+    },
+    {
+      "path": "pages/login",
+      "title": "Airframe"
+    },
+    {
+      "path": "dashboards/analytics",
+      "title": "Airframe"
+    },
+    {
+      "path": "dashboards/projects",
+      "title": "Dashboards / Projects"
+    },
+    {
+      "path": "dashboards/system",
+      "title": "Airframe"
+    },
+    {
+      "path": "dashboards/monitor",
+      "title": "Airframe - Monitor"
+    },
+    {
+      "path": "dashboards/financial",
+      "title": "Airframe - Financial"
+    },
+    {
+      "path": "dashboards/stock",
+      "title": "Airframe - Stock"
+    },
+    {
+      "path": "dashboards/reports",
+      "title": "Airframe - Reports"
+    },
+    {
+      "path": "widgets",
+      "title": "Airframe"
+    },
+    {
+      "path": "cards/cards",
+      "title": "Airframe"
+    },
+    {
+      "path": "cards/cardsheaders",
+      "title": "Airframe"
+    },
+    {
+      "path": "layouts/navbar",
+      "title": "Airframe"
+    },
+    {
+      "path": "layouts/sidebar",
+      "title": "Airframe"
+    },
+    {
+      "path": "layouts/sidebar-a",
+      "title": "Airframe"
+    },
+    {
+      "path": "layouts/sidebar-with-navbar",
+      "title": "Airframe"
+    },
+    {
+      "path": "layouts/dnd-layout",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/colors",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/typography",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/buttons",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/paginations",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/images",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/avatars",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/progress-bars",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/badges-and-labels",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/list-groups",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/alerts",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/accordions",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/tabs-pills",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/tooltips-and-popovers",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/dropdowns",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/modals",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/breadcrumbs",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/navbars",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/notifications",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/crop-image",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/drag-and-drop-elements",
+      "title": "Airframe"
+    },
+    {
+      "path": "interface/calendar",
+      "title": "Airframe"
+    },
+    {
+      "path": "graphs/re-charts",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/forms",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/forms-layouts",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/wizard",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/text-mask",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/typeahead",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/toggles",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/editor",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/date-picker",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/dropzone",
+      "title": "Airframe"
+    },
+    {
+      "path": "forms/sliders",
+      "title": "Airframe"
+    },
+    {
+      "path": "tables/tables",
+      "title": "Airframe"
+    },
+    {
+      "path": "tables/extended-table",
+      "title": "Airframe"
+    },
+    {
+      "path": "tables/ag-grid",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/projects/list",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/projects/grid",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/tasks/list",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/tasks/grid",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/tasks-kanban",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/task-details",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/files/list",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/files/grid",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/search-results",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/images-results",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/videos-results",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/users-results",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/users/grid",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/gallery-grid",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/gallery-table",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/inbox",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/new-email",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/email-details",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/profile-edit",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/account-edit",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/sessions-edit",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/clients",
+      "title": "Airframe"
+    },
+    {
+      "path": "apps/chat",
+      "title": "Airframe"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-10T17:25:07.479Z",
+  "pagesChecked": 4,
+  "pagesOk": 4,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Admin One HTML - Bulma Admin Dashboard"
+    },
+    {
+      "path": "forms.html",
+      "title": "Forms - Admin One HTML - Bulma Admin Dashboard"
+    },
+    {
+      "path": "profile.html",
+      "title": "Profile - Admin One HTML - Bulma Admin Dashboard"
+    },
+    {
+      "path": "tables.html",
+      "title": "Tables - Admin One HTML - Bulma Admin Dashboard"
+    }
+  ]
+}

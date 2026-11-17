@@ -1,0 +1,76 @@
+{
+  "record": {
+    "slug": "argon-dashboard-html",
+    "title": "Argon Dashboard 2",
+    "description": "Bootstrap 5 dashboard with tables, billing, profile, RTL, virtual-reality and sign-in/up pages, Chart.js charts.",
+    "repo": "creativetimofficial/argon-dashboard",
+    "sha": "106e472674e5bc0908cec3d350082de78373812e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "README Licensing section: MIT; Resources list links the Creative Tim license page.",
+      "url": "https://github.com/creativetimofficial/argon-dashboard/blob/106e472674e5bc0908cec3d350082de78373812e/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "rtl",
+      "charts"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/argon-dashboard/pages/dashboard.html",
+    "quality": 4,
+    "entry": "pages/dashboard.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "pages/dashboard.html",
+        "title": "Argon Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/billing.html",
+        "title": "Argon Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/profile.html",
+        "title": "Argon Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/rtl.html",
+        "title": "Argon Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/sign-in.html",
+        "title": "Argon Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/sign-up.html",
+        "title": "Argon Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/tables.html",
+        "title": "Argon Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/virtual-reality.html",
+        "title": "Argon Dashboard 3 by Creative Tim"
+      }
+    ],
+    "storedBytes": 971417,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:19.387Z"
+  },
+  "serve": {
+    "slug": "argon-dashboard-html",
+    "kind": "static",
+    "entry": "pages/dashboard.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/argon-dashboard@106e472674e5bc0908cec3d350082de78373812e/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

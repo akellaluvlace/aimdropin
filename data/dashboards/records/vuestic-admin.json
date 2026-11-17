@@ -1,0 +1,61 @@
+{
+  "record": {
+    "slug": "vuestic-admin",
+    "title": "Vuestic Admin",
+    "description": "Vue 3 admin built with Vuestic UI and Tailwind: dashboard with charts and map, users, projects, payments, billing, pricing, FAQ, settings and auth.",
+    "repo": "epicmaxco/vuestic-admin",
+    "sha": "9c5b44f3674d4c3e7ad01cc043d5331cee953c49",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/epicmaxco/vuestic-admin/blob/9c5b44f3674d4c3e7ad01cc043d5331cee953c49/LICENSE"
+    },
+    "author": "Epicmax",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "vuestic-ui",
+      "tailwind",
+      "chartjs",
+      "i18n"
+    ],
+    "demoUrl": "https://admin-demo.vuestic.dev",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vuestic Admin"
+      }
+    ],
+    "storedBytes": 2242393,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:39.602Z"
+  },
+  "serve": {
+    "slug": "vuestic-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/epicmaxco/vuestic-admin@9c5b44f3674d4c3e7ad01cc043d5331cee953c49/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "android-chrome-192x192.png": "public/android-chrome-192x192.png",
+      "android-chrome-512x512.png": "public/android-chrome-512x512.png",
+      "apple-touch-icon.png": "public/apple-touch-icon.png",
+      "assets/vuestic-icons-CQHfKOUV.ttf": "src/scss/icon-fonts/vuestic-icons/vuestic-icons.ttf",
+      "assets/vuestic-icons-W_0rSzTi.eot": "src/scss/icon-fonts/vuestic-icons/vuestic-icons.eot",
+      "favicon-16x16.png": "public/favicon-16x16.png",
+      "favicon-32x32.png": "public/favicon-32x32.png",
+      "favicon.ico": "public/favicon.ico",
+      "site.webmanifest": "public/site.webmanifest",
+      "vuestic-admin-image.png": "public/vuestic-admin-image.png",
+      "vuestic-admin-logo.png": "public/vuestic-admin-logo.png"
+    }
+  }
+}

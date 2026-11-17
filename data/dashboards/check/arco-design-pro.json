@@ -1,0 +1,309 @@
+{
+  "checkedAt": "2026-11-10T19:15:52.330Z",
+  "pagesChecked": 75,
+  "pagesOk": 75,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "dashboard/workplace/index.html",
+      "title": "Dashboard / Workplace"
+    },
+    {
+      "path": "404.html/index.html",
+      "title": "404.Html"
+    },
+    {
+      "path": "404/index.html",
+      "title": "404"
+    },
+    {
+      "path": "dashboard/monitor/chat-panel/index.html",
+      "title": "Dashboard / Monitor / Chat Panel"
+    },
+    {
+      "path": "dashboard/monitor/data-statistic-list/index.html",
+      "title": "Dashboard / Monitor / Data Statistic List"
+    },
+    {
+      "path": "dashboard/monitor/data-statistic/index.html",
+      "title": "Dashboard / Monitor / Data Statistic"
+    },
+    {
+      "path": "dashboard/monitor/index.html",
+      "title": "Dashboard / Monitor"
+    },
+    {
+      "path": "dashboard/monitor/message-list/index.html",
+      "title": "Dashboard / Monitor / Message List"
+    },
+    {
+      "path": "dashboard/monitor/message-list/item/index.html",
+      "title": "Dashboard / Monitor / Message List / Item"
+    },
+    {
+      "path": "dashboard/monitor/quick-operation/index.html",
+      "title": "Dashboard / Monitor / Quick Operation"
+    },
+    {
+      "path": "dashboard/monitor/studio-information/index.html",
+      "title": "Dashboard / Monitor / Studio Information"
+    },
+    {
+      "path": "dashboard/monitor/studio-status/index.html",
+      "title": "Dashboard / Monitor / Studio Status"
+    },
+    {
+      "path": "dashboard/monitor/studio/index.html",
+      "title": "Dashboard / Monitor / Studio"
+    },
+    {
+      "path": "dashboard/workplace/announcement/index.html",
+      "title": "Dashboard / Workplace / Announcement"
+    },
+    {
+      "path": "dashboard/workplace/carousel/index.html",
+      "title": "Dashboard / Workplace / Carousel"
+    },
+    {
+      "path": "dashboard/workplace/content-percentage/index.html",
+      "title": "Dashboard / Workplace / Content Percentage"
+    },
+    {
+      "path": "dashboard/workplace/docs/index.html",
+      "title": "Dashboard / Workplace / Docs"
+    },
+    {
+      "path": "dashboard/workplace/overview/index.html",
+      "title": "Dashboard / Workplace / Overview"
+    },
+    {
+      "path": "dashboard/workplace/popular-contents/index.html",
+      "title": "Dashboard / Workplace / Popular Contents"
+    },
+    {
+      "path": "dashboard/workplace/shortcuts/index.html",
+      "title": "Dashboard / Workplace / Shortcuts"
+    },
+    {
+      "path": "exception/403/index.html",
+      "title": "Exception / 403"
+    },
+    {
+      "path": "exception/404/index.html",
+      "title": "Exception / 404"
+    },
+    {
+      "path": "exception/500/index.html",
+      "title": "Exception / 500"
+    },
+    {
+      "path": "form/group/index.html",
+      "title": "Form / Group"
+    },
+    {
+      "path": "form/step/index.html",
+      "title": "Form / Step"
+    },
+    {
+      "path": "index.html",
+      "title": "Index"
+    },
+    {
+      "path": "layout/index.html",
+      "title": "Layout"
+    },
+    {
+      "path": "list/card/card-add/index.html",
+      "title": "List / Card / Card Add"
+    },
+    {
+      "path": "list/card/card-block/index.html",
+      "title": "List / Card / Card Block"
+    },
+    {
+      "path": "list/card/index.html",
+      "title": "List / Card"
+    },
+    {
+      "path": "list/search-table/constants/index.html",
+      "title": "List / Search Table / Constants"
+    },
+    {
+      "path": "list/search-table/form/index.html",
+      "title": "List / Search Table / Form"
+    },
+    {
+      "path": "list/search-table/index.html",
+      "title": "List / Search Table"
+    },
+    {
+      "path": "login/banner/index.html",
+      "title": "Login / Banner"
+    },
+    {
+      "path": "login/form/index.html",
+      "title": "Login / Form"
+    },
+    {
+      "path": "login/index.html",
+      "title": "Login"
+    },
+    {
+      "path": "profile/basic/index.html",
+      "title": "Profile / Basic"
+    },
+    {
+      "path": "profile/basic/item/index.html",
+      "title": "Profile / Basic / Item"
+    },
+    {
+      "path": "result/error/index.html",
+      "title": "Result / Error"
+    },
+    {
+      "path": "result/success/index.html",
+      "title": "Result / Success"
+    },
+    {
+      "path": "user/info/blocks/project/index.html",
+      "title": "User / Info / Blocks / Project"
+    },
+    {
+      "path": "user/info/header/index.html",
+      "title": "User / Info / Header"
+    },
+    {
+      "path": "user/info/index.html",
+      "title": "User / Info"
+    },
+    {
+      "path": "user/info/latest-news/index.html",
+      "title": "User / Info / Latest News"
+    },
+    {
+      "path": "user/info/my-projects/index.html",
+      "title": "User / Info / My Projects"
+    },
+    {
+      "path": "user/info/my-team/index.html",
+      "title": "User / Info / My Team"
+    },
+    {
+      "path": "user/setting/header/index.html",
+      "title": "User / Setting / Header"
+    },
+    {
+      "path": "user/setting/index.html",
+      "title": "User / Setting"
+    },
+    {
+      "path": "user/setting/info/index.html",
+      "title": "User / Setting / Info"
+    },
+    {
+      "path": "user/setting/security/index.html",
+      "title": "User / Setting / Security"
+    },
+    {
+      "path": "user/setting/verified/index.html",
+      "title": "User / Setting / Verified"
+    },
+    {
+      "path": "visualization/data-analysis/index.html",
+      "title": "Visualization / Data Analysis"
+    },
+    {
+      "path": "visualization/data-analysis/public-opinion/card/index.html",
+      "title": "Visualization / Data Analysis / Public Opinion / Card"
+    },
+    {
+      "path": "visualization/data-analysis/public-opinion/index.html",
+      "title": "Visualization / Data Analysis / Public Opinion"
+    },
+    {
+      "path": "visualization/multi-dimension-data-analysis/card-list/index.html",
+      "title": "Visualization / Multi Dimension Data Analysis / Card List"
+    },
+    {
+      "path": "visualization/multi-dimension-data-analysis/data-overview/index.html",
+      "title": "Visualization / Multi Dimension Data Analysis / Data Overview"
+    },
+    {
+      "path": "visualization/multi-dimension-data-analysis/index.html",
+      "title": "Visualization / Multi Dimension Data Analysis"
+    },
+    {
+      "path": "welcome/code-block/index.html",
+      "title": "Welcome / Code Block"
+    },
+    {
+      "path": "welcome/index.html",
+      "title": "Welcome"
+    },
+    {
+      "path": "dashboard/workplace/",
+      "title": "Dashboard / Workplace"
+    },
+    {
+      "path": "dashboard/monitor/",
+      "title": "Dashboard / Monitor"
+    },
+    {
+      "path": "visualization/data-analysis/",
+      "title": "Visualization / Data Analysis"
+    },
+    {
+      "path": "visualization/multi-dimension-data-analysis/",
+      "title": "Visualization / Multi Dimension Data Analysis"
+    },
+    {
+      "path": "list/search-table/",
+      "title": "List / Search Table"
+    },
+    {
+      "path": "list/card/",
+      "title": "List / Card"
+    },
+    {
+      "path": "form/group/",
+      "title": "Form / Group"
+    },
+    {
+      "path": "form/step/",
+      "title": "Form / Step"
+    },
+    {
+      "path": "profile/basic/",
+      "title": "Profile / Basic"
+    },
+    {
+      "path": "result/success/",
+      "title": "Result / Success"
+    },
+    {
+      "path": "result/error/",
+      "title": "Result / Error"
+    },
+    {
+      "path": "exception/403/",
+      "title": "Exception / 403"
+    },
+    {
+      "path": "exception/404/",
+      "title": "Exception / 404"
+    },
+    {
+      "path": "exception/500/",
+      "title": "Exception / 500"
+    },
+    {
+      "path": "user/info/",
+      "title": "User / Info"
+    },
+    {
+      "path": "user/setting/",
+      "title": "User / Setting"
+    }
+  ]
+}

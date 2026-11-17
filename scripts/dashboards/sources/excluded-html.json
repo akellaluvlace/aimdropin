@@ -1,0 +1,557 @@
+[
+  {
+    "slug": "sneat-bootstrap",
+    "repo": "themeselection/sneat-bootstrap-html-admin-template-free",
+    "exclude": "ATTRIBUTION-REQUIRED: ThemeSelection requires a footer link to themeselection.com unless PRO is bought"
+  },
+  {
+    "slug": "able-pro-bootstrap",
+    "repo": "phoenixcoded/able-pro-free-admin-dashboard-template",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "able-pro-tailwind",
+    "repo": "phoenixcoded/able-pro-free-admin-dashboard-template",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "adminator",
+    "repo": "puikinsh/Adminator-admin-dashboard",
+    "exclude": "ATTRIBUTION-REQUIRED: README adds 'always credit Colorlib as the original author' on top of MIT"
+  },
+  {
+    "slug": "argon-dashboard-tailwind",
+    "repo": "creativetimofficial/argon-dashboard-tailwind",
+    "exclude": "LICENSE-CONFLICT: README declares the Creative Tim EULA (no redistribution as template) despite MIT LICENSE file"
+  },
+  {
+    "slug": "berry-bootstrap",
+    "repo": "codedthemes/berry-free-bootstrap-admin-template",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "corporate-ui-dashboard",
+    "repo": "creativetimofficial/corporate-ui-dashboard",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough); README declares Creative Tim EULA"
+  },
+  {
+    "slug": "dashboardkit",
+    "repo": "codedthemes/dashboardkit-free-admin-template",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "datta-able-bootstrap",
+    "repo": "codedthemes/datta-able-bootstrap-dashboard",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "datta-able-tailwind",
+    "repo": "codedthemes/datta-able-free-tailwind-admin-template",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "gradient-able",
+    "repo": "codedthemes/gradient-able-free-admin-template",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "mantis-bootstrap",
+    "repo": "codedthemes/mantis-free-bootstrap-admin-template",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "material-tailwind-dashboard",
+    "repo": "creativetimofficial/material-tailwind-dashboard-react",
+    "exclude": "NOT-HTML: only a React version exists (no Material Tailwind HTML dashboard)"
+  },
+  {
+    "slug": "materio-bootstrap",
+    "repo": "themeselection/materio-bootstrap-html-admin-template-free",
+    "exclude": "ATTRIBUTION-REQUIRED: ThemeSelection requires a footer link to themeselection.com unless PRO is bought"
+  },
+  {
+    "slug": "niceadmin-bootstrapmade",
+    "repo": "fadrian06-templates/NiceAdmin",
+    "exclude": "NO-LICENSE-FILE + vendor requires footer credit (BootstrapMade); only unofficial mirrors on GitHub"
+  },
+  {
+    "slug": "notika",
+    "repo": "puikinsh/notika",
+    "exclude": "ATTRIBUTION-REQUIRED: README adds 'always credit Colorlib as the original author' on top of MIT"
+  },
+  {
+    "slug": "portal-bs5",
+    "repo": "xriley/portal-theme-bs5",
+    "exclude": "ATTRIBUTION-REQUIRED + NO-LICENSE-FILE: footer link mandatory, commercial license sold separately"
+  },
+  {
+    "slug": "preline-cms-admin",
+    "repo": "htmlstreamofficial/preline",
+    "exclude": "NON-PERMISSIVE-LICENSE: Preline Fair Use License add-on (attribution + redistribution limits)"
+  },
+  {
+    "slug": "soft-ui-dashboard",
+    "repo": "creativetimofficial/soft-ui-dashboard",
+    "exclude": "LICENSE-CONFLICT: README declares the Creative Tim EULA (no redistribution as template) despite MIT LICENSE file"
+  },
+  {
+    "slug": "soft-ui-dashboard-tailwind",
+    "repo": "creativetimofficial/soft-ui-dashboard-tailwind",
+    "exclude": "LICENSE-CONFLICT: README declares the Creative Tim EULA (no redistribution as template) despite MIT LICENSE file"
+  },
+  {
+    "slug": "srtdash",
+    "repo": "puikinsh/srtdash-admin-dashboard",
+    "exclude": "ATTRIBUTION-REQUIRED: README adds 'always credit Colorlib as the original author' on top of MIT"
+  },
+  {
+    "slug": "sufee-admin",
+    "repo": "puikinsh/sufee-admin-dashboard",
+    "exclude": "ATTRIBUTION-REQUIRED: README adds 'always credit Colorlib as the original author' on top of MIT"
+  },
+  {
+    "slug": "vite-soft-ui-dashboard",
+    "repo": "creativetimofficial/vite-soft-ui-dashboard",
+    "exclude": "NOT-HTML: Vue 3 app (other researcher's slice); also README declares Creative Tim EULA"
+  },
+  {
+    "slug": "admin-pro-lite",
+    "repo": "wrappixel/admin-pro-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "admin-wrap-lite",
+    "repo": "wrappixel/admin-wrap-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "ample-admin-lite",
+    "repo": "wrappixel/ample-admin-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "azia-admin",
+    "repo": "BootstrapDash/Azia-Admin-Bootstrap-Template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "breeze-admin",
+    "repo": "BootstrapDash/Breeze-Free-Bootstrap-Admin-Template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "celestial-admin",
+    "repo": "BootstrapDash/celestialAdmin-free-admin-template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "connect-plus",
+    "repo": "BootstrapDash/ConnectPlusAdmin-Free-Bootstrap-Admin-Template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough); also BootstrapDash site license conflict"
+  },
+  {
+    "slug": "corona-dark-admin",
+    "repo": "BootstrapDash/corona-free-dark-bootstrap-admin-template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "dashmin-htmlcodex",
+    "repo": "technext/dashmin",
+    "exclude": "NON-PERMISSIVE-LICENSE: CC BY 4.0 + mandatory credit link (HTML Codex)"
+  },
+  {
+    "slug": "dashtreme",
+    "repo": "technext/dashtreme",
+    "exclude": "NON-PERMISSIVE-LICENSE: custom MIT variant without sublicense/sell rights; repo is a third-party mirror"
+  },
+  {
+    "slug": "elaadmin",
+    "repo": "puikinsh/ElaAdmin",
+    "exclude": "ATTRIBUTION-REQUIRED: README adds 'always credit Colorlib as the original author' on top of MIT"
+  },
+  {
+    "slug": "elegant-admin-lite",
+    "repo": "wrappixel/elegant-admin-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "flat-able",
+    "repo": "phoenixcoded/flat-able-free-bootstrap-admin-template",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "flexy-bootstrap-lite",
+    "repo": "wrappixel/flexy-bootstrap-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "future-ui",
+    "repo": "BootstrapDash/futureui-free-admin-bootstrap-template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "kapella-admin",
+    "repo": "BootstrapDash/Kapella-Free-Bootstrap-Admin-Template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "majestic-admin",
+    "repo": "BootstrapDash/MajesticAdmin-Free-Bootstrap-Admin-Template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "material-admin-bsd",
+    "repo": "BootstrapDash/Material-Admin",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough); also BootstrapDash site license conflict"
+  },
+  {
+    "slug": "materialm-bootstrap",
+    "repo": "wrappixel/MaterailM-Free-Bootstrap-Admin-Template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "materialpro-lite",
+    "repo": "wrappixel/material-pro-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "matrix-admin-bt5",
+    "repo": "wrappixel/matrix-admin-bt5",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "matrix-admin-lite",
+    "repo": "wrappixel/matrix-admin-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "monster-admin-lite",
+    "repo": "wrappixel/monster-admin-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "nalika",
+    "repo": "puikinsh/nalika",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough); README also adds Colorlib attribution"
+  },
+  {
+    "slug": "nice-admin-lite",
+    "repo": "wrappixel/nice-admin-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "niceadmin-wrappixel",
+    "repo": "wrappixel/niceadmin-bootstrap-free",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "now-ui-dashboard",
+    "repo": "creativetimofficial/now-ui-dashboard",
+    "exclude": "LICENSE-CONFLICT: README declares the Creative Tim EULA (no redistribution as template) despite MIT LICENSE file"
+  },
+  {
+    "slug": "plus-admin",
+    "repo": "BootstrapDash/PlusAdmin-Free-Bootstrap-Admin-Template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "pollux-ui",
+    "repo": "BootstrapDash/polluxui-free-admin-template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "purple-admin",
+    "repo": "BootstrapDash/PurpleAdmin-Free-Admin-Template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "regal-admin",
+    "repo": "BootstrapDash/Regal-Free-Bootstrap-Admin-Template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "royalui",
+    "repo": "BootstrapDash/RoyalUI-Free-Bootstrap-Admin-Template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "seodash",
+    "repo": "adminmart/seodash-free-bootstrap",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "skydash",
+    "repo": "BootstrapDash/skydash-free-bootstrap-admin-template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough); also BootstrapDash site license conflict"
+  },
+  {
+    "slug": "spica-admin",
+    "repo": "BootstrapDash/SpicaAdmin-Free-Bootstrap-Admin-Template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough); also BootstrapDash site license conflict"
+  },
+  {
+    "slug": "spike-bootstrap",
+    "repo": "wrappixel/spike-bootstrap-free",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "spike-tailwind",
+    "repo": "wrappixel/spike-tailwind-free",
+    "exclude": "NO-LICENSE-FILE: no root license; nested package/LICENSE names a different copyright holder (Codescandy) - provenance unclear"
+  },
+  {
+    "slug": "star-admin",
+    "repo": "BootstrapDash/StarAdmin-Free-Bootstrap-Admin-Template",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "star-admin-2",
+    "repo": "BootstrapDash/star-admin2-free-admin-template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough); also BootstrapDash site license conflict"
+  },
+  {
+    "slug": "stellar-admin",
+    "repo": "BootstrapDash/Stellar",
+    "exclude": "LICENSE-CONFLICT: BootstrapDash site license (Limited) forbids redistribution/listing as free download and requires footer credit; contradicts the repo's MIT file"
+  },
+  {
+    "slug": "tailadmin-nextjs-shadcn",
+    "repo": "Tailwind-Admin/free-tailwind-admin-dashboard-template",
+    "exclude": "NOT-HTML: Next.js/React (other researcher's slice)"
+  },
+  {
+    "slug": "tinydash",
+    "repo": "technext/tinydash",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "xtreme-admin-lite",
+    "repo": "wrappixel/xtreme-admin-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "ace-admin-bopoda",
+    "repo": "bopoda/ace",
+    "exclude": "NON-PERMISSIVE/UNVERIFIED-LICENSE: GitHub reports 'other'; archived BS3 (not inspected)"
+  },
+  {
+    "slug": "adminpro-colorlib",
+    "repo": "puikinsh/adminpro",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "bs5-admin-frontendfunn",
+    "repo": "frontendfunn/bootstrap-5-admin-dashboard-template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "bs5-admin-mustafaerden",
+    "repo": "mustafaerden/responsive-bootstrap5-admin-dashboard",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "chameleon-admin-lite",
+    "repo": "themeselection/chameleon-bootstrap-html-admin-template-free",
+    "exclude": "ATTRIBUTION-REQUIRED: ThemeSelection requires a footer link to themeselection.com unless PRO is bought"
+  },
+  {
+    "slug": "coreui-ajax",
+    "repo": "coreui/coreui-free-bootstrap-admin-template-ajax",
+    "exclude": "ARCHIVED/SUPERSEDED: archived 2021; use coreui-free"
+  },
+  {
+    "slug": "dashboardhero-lite",
+    "repo": "mihairaulea/DashboardHeroLite",
+    "exclude": "NOT-HTML: Svelte app (other researcher's slice)"
+  },
+  {
+    "slug": "dashbrd-simzikov",
+    "repo": "simzikov/dashbrd",
+    "exclude": "NON-PERMISSIVE/UNVERIFIED-LICENSE: GitHub reports 'other' (not inspected)"
+  },
+  {
+    "slug": "dashforge",
+    "repo": "themepixels/dashforge",
+    "exclude": "NON-PERMISSIVE-LICENSE: GPL-3.0 (and repo is just a teaser page)"
+  },
+  {
+    "slug": "dashmin-react-klaby",
+    "repo": "klaby/dashmin",
+    "exclude": "NOT-HTML: React app"
+  },
+  {
+    "slug": "flash-able",
+    "repo": "codedthemes/flash-able-free-bootstrap-admin-template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "genesisui",
+    "repo": "mrholek/GenesisUI",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "guru-able",
+    "repo": "codedthemes/guru-able-free-bootstap-admin-template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "harmony-admin",
+    "repo": "theme-struck/themestruck-harmony-admin",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "html5admin-ricricucit",
+    "repo": "ricricucit/html5admin",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "hubuntu-ui",
+    "repo": "720kb/hubuntu-ui",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "inventory-admin-jassarich",
+    "repo": "JassaRich/Inventory-Management-Admin-Dashboard",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "itemplate-bulma",
+    "repo": "bendo01/itemplate",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "jeweler",
+    "repo": "puikinsh/jeweler",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "mash-able",
+    "repo": "codedthemes/mash-able-free-bootstrap-admin-template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "material-able",
+    "repo": "codedthemes/Material-Able-Free-admin-Template",
+    "exclude": "ATTRIBUTION-REQUIRED: CodedThemes freebies license asks for a footer link, removable only by buying PRO"
+  },
+  {
+    "slug": "moss-ecommerce-admin",
+    "repo": "djdivesh007/moss-multipurpose-ecommerce-admin-template",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "myadmin-lite",
+    "repo": "wrappixel/myadmin-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "nextro-able",
+    "repo": "phoenixcoded/nextro-free-bootstrap-admin-template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "nice-admin-hacktheme",
+    "repo": "hacktheme/Nice-Admin",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "nozha-rtl",
+    "repo": "MajidAlinejad/Nozha-rtl-Dashboard",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "octopus-icdcom",
+    "repo": "icdcom/octopus",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "pandora-metro",
+    "repo": "olton/Pandora",
+    "exclude": "NON-PERMISSIVE-LICENSE: CC BY-SA 4.0 (per GitHub); archived"
+  },
+  {
+    "slug": "pixel-admin-lite",
+    "repo": "wrappixel/pixel-admin-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "quantum-able",
+    "repo": "codedthemes/quantum-able-free-bootstrap-admin-template",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "severny-admin-lite",
+    "repo": "wrappixel/severny-admin-lite",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "simple-ui-semantic",
+    "repo": "muhkanda/Simple-UI-Semantic-UI-Admin",
+    "exclude": "ATTRIBUTION-REQUIRED: README adds mandatory author credit"
+  },
+  {
+    "slug": "tailwind-client-dashboard",
+    "repo": "mazyar1128/tailwindcss-client-dashboard",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "tailwind-movie-dashboard",
+    "repo": "mazyar1128/tailwindcss-movie-dashboard",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "ui-kit-fazeelkhalid",
+    "repo": "fazeelkhalid/Free-Responsive-Web-UI-Kit---Dashboard-Template-bootstrap",
+    "exclude": "NO-LICENSE-FILE: GitHub search reports no license (not inspected further)"
+  },
+  {
+    "slug": "zuradmin",
+    "repo": "zuramai/zuradmin",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "bulma-dashboard-lucperkins",
+    "repo": "lucperkins/bulma-dashboard",
+    "exclude": "NOT-A-TEMPLATE: Bulma layout helper with a single example page"
+  },
+  {
+    "slug": "freedashboard-therichpost",
+    "repo": "JassaRich/freedashboard",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough); repo has no HTML"
+  },
+  {
+    "slug": "kui-dashboard-alpine",
+    "repo": "kamona-ui/dashboard-alpine",
+    "exclude": "INCOMPLETE: single work-in-progress page (author: 'WIP dashboard template')"
+  },
+  {
+    "slug": "maruti-admin",
+    "repo": "wrappixel/maruti-admin",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough)"
+  },
+  {
+    "slug": "dashlite",
+    "repo": null,
+    "exclude": "NO-GITHUB-REPO/PAID: no open-source repo or license"
+  },
+  {
+    "slug": "material-dashboard-legacy-repo",
+    "repo": "creativetimofficial/material-dashboard",
+    "exclude": "MOVED/NOT-HTML: old repo URL now serves a React component registry; use creativetimofficial/material-dashboard-free"
+  },
+  {
+    "slug": "nazox",
+    "repo": null,
+    "exclude": "NO-GITHUB-REPO/PAID: commercial only"
+  },
+  {
+    "slug": "rocker-admin-free",
+    "repo": "Codervent/rocker-admin-free",
+    "exclude": "NO-LICENSE-FILE: repo has no LICENSE file (README/description claims are not enough); repo contains no template"
+  },
+  {
+    "slug": "stisla-v3-master",
+    "repo": "stisla/stisla",
+    "exclude": "NOT-A-DASHBOARD: master branch is Stisla v3 component library; the dashboard is slug stisla-v2"
+  }
+]

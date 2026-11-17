@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-10T19:03:25.285Z",
+  "pagesChecked": 10,
+  "pagesOk": 10,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Material Dashboard Shadcn Vue by Creative Tim"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "contacts",
+      "title": "Contacts"
+    },
+    {
+      "path": "companies",
+      "title": "Companies"
+    },
+    {
+      "path": "deals",
+      "title": "Deals"
+    },
+    {
+      "path": "tasks",
+      "title": "Tasks"
+    },
+    {
+      "path": "reports",
+      "title": "Reports"
+    },
+    {
+      "path": "billing",
+      "title": "Billing"
+    },
+    {
+      "path": "settings",
+      "title": "Settings"
+    },
+    {
+      "path": "docs",
+      "title": "Docs"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "record": {
+    "slug": "shadcn-vue-admin",
+    "title": "Shadcn Vue Admin",
+    "description": "shadcn-vue admin dashboard with tasks, apps, chats, users, billing and settings pages, file-based routing and dark mode.",
+    "repo": "Whbbit1999/shadcn-vue-admin",
+    "sha": "7f9c427f28a1ae7f94060d79664915cb33c51c2a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/Whbbit1999/shadcn-vue-admin/blob/7f9c427f28a1ae7f94060d79664915cb33c51c2a/LICENSE"
+    },
+    "author": "Whbbit1999",
+    "framework": "vue",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "shadcn-vue",
+      "tailwind",
+      "dark-mode"
+    ],
+    "demoUrl": "https://shadcn-vue-admin.netlify.app/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Shadcn Vue Admin"
+      }
+    ],
+    "storedBytes": 1716487,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:38.721Z"
+  },
+  "serve": {
+    "slug": "shadcn-vue-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Whbbit1999/shadcn-vue-admin@7f9c427f28a1ae7f94060d79664915cb33c51c2a/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "_redirects": "public/_redirects",
+      "placeholder.webp": "public/placeholder.webp",
+      "robot.png": "public/robot.png"
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "checkedAt": "2026-11-10T17:35:44.631Z",
+  "pagesChecked": 81,
+  "pagesOk": 81,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Atomic CRM"
+    },
+    {
+      "path": "contacts",
+      "title": "Contacts"
+    },
+    {
+      "path": "companies",
+      "title": "Companies"
+    },
+    {
+      "path": "deals",
+      "title": "Deals"
+    },
+    {
+      "path": "contacts/create",
+      "title": "Contacts / Create"
+    },
+    {
+      "path": "contacts/76/show",
+      "title": "Contacts / 76 / Show"
+    },
+    {
+      "path": "contacts/297/show",
+      "title": "Contacts / 297 / Show"
+    },
+    {
+      "path": "contacts/447/show",
+      "title": "Contacts / 447 / Show"
+    },
+    {
+      "path": "contacts/238/show",
+      "title": "Contacts / 238 / Show"
+    },
+    {
+      "path": "contacts/36/show",
+      "title": "Contacts / 36 / Show"
+    },
+    {
+      "path": "contacts/415/show",
+      "title": "Contacts / 415 / Show"
+    },
+    {
+      "path": "contacts/491/show",
+      "title": "Contacts / 491 / Show"
+    },
+    {
+      "path": "contacts/307/show",
+      "title": "Contacts / 307 / Show"
+    },
+    {
+      "path": "contacts/241/show",
+      "title": "Contacts / 241 / Show"
+    },
+    {
+      "path": "contacts/174/show",
+      "title": "Contacts / 174 / Show"
+    },
+    {
+      "path": "contacts/433/show",
+      "title": "Contacts / 433 / Show"
+    },
+    {
+      "path": "contacts/209/show",
+      "title": "Contacts / 209 / Show"
+    },
+    {
+      "path": "deals/9/show",
+      "title": "Deals / 9 / Show"
+    },
+    {
+      "path": "companies/0/show",
+      "title": "Companies / 0 / Show"
+    },
+    {
+      "path": "contacts/27/show",
+      "title": "Contacts / 27 / Show"
+    },
+    {
+      "path": "contacts/136/show",
+      "title": "Contacts / 136 / Show"
+    },
+    {
+      "path": "contacts/331/show",
+      "title": "Contacts / 331 / Show"
+    },
+    {
+      "path": "contacts/58/show",
+      "title": "Contacts / 58 / Show"
+    },
+    {
+      "path": "contacts/87/show",
+      "title": "Contacts / 87 / Show"
+    },
+    {
+      "path": "contacts/165/show",
+      "title": "Contacts / 165 / Show"
+    },
+    {
+      "path": "contacts/255/show",
+      "title": "Contacts / 255 / Show"
+    },
+    {
+      "path": "contacts/40/show",
+      "title": "Contacts / 40 / Show"
+    },
+    {
+      "path": "contacts/154/show",
+      "title": "Contacts / 154 / Show"
+    },
+    {
+      "path": "contacts/195/show",
+      "title": "Contacts / 195 / Show"
+    },
+    {
+      "path": "contacts/350/show",
+      "title": "Contacts / 350 / Show"
+    },
+    {
+      "path": "contacts/33/show",
+      "title": "Contacts / 33 / Show"
+    },
+    {
+      "path": "contacts/190/show",
+      "title": "Contacts / 190 / Show"
+    },
+    {
+      "path": "contacts/372/show",
+      "title": "Contacts / 372 / Show"
+    },
+    {
+      "path": "contacts/225/show",
+      "title": "Contacts / 225 / Show"
+    },
+    {
+      "path": "contacts/487/show",
+      "title": "Contacts / 487 / Show"
+    },
+    {
+      "path": "contacts/373/show",
+      "title": "Contacts / 373 / Show"
+    },
+    {
+      "path": "profile",
+      "title": "Profile"
+    },
+    {
+      "path": "sales",
+      "title": "Sales"
+    },
+    {
+      "path": "settings",
+      "title": "Settings"
+    },
+    {
+      "path": "import",
+      "title": "Import"
+    },
+    {
+      "path": "changelog",
+      "title": "Changelog"
+    },
+    {
+      "path": "contacts/490/show",
+      "title": "Contacts / 490 / Show"
+    },
+    {
+      "path": "contacts/54/show",
+      "title": "Contacts / 54 / Show"
+    },
+    {
+      "path": "contacts/68/show",
+      "title": "Contacts / 68 / Show"
+    },
+    {
+      "path": "contacts/349/show",
+      "title": "Contacts / 349 / Show"
+    },
+    {
+      "path": "contacts/273/show",
+      "title": "Contacts / 273 / Show"
+    },
+    {
+      "path": "contacts/406/show",
+      "title": "Contacts / 406 / Show"
+    },
+    {
+      "path": "contacts/424/show",
+      "title": "Contacts / 424 / Show"
+    },
+    {
+      "path": "contacts/193/show",
+      "title": "Contacts / 193 / Show"
+    },
+    {
+      "path": "contacts/188/show",
+      "title": "Contacts / 188 / Show"
+    },
+    {
+      "path": "contacts/9/show",
+      "title": "Contacts / 9 / Show"
+    },
+    {
+      "path": "contacts/201/show",
+      "title": "Contacts / 201 / Show"
+    },
+    {
+      "path": "contacts/316/show",
+      "title": "Contacts / 316 / Show"
+    },
+    {
+      "path": "contacts/343/show",
+      "title": "Contacts / 343 / Show"
+    },
+    {
+      "path": "contacts/371/show",
+      "title": "Contacts / 371 / Show"
+    },
+    {
+      "path": "contacts/270/show",
+      "title": "Contacts / 270 / Show"
+    },
+    {
+      "path": "contacts/398/show",
+      "title": "Contacts / 398 / Show"
+    },
+    {
+      "path": "contacts/305/show",
+      "title": "Contacts / 305 / Show"
+    },
+    {
+      "path": "contacts/301/show",
+      "title": "Contacts / 301 / Show"
+    },
+    {
+      "path": "contacts/338/show",
+      "title": "Contacts / 338 / Show"
+    },
+    {
+      "path": "contacts/228/show",
+      "title": "Contacts / 228 / Show"
+    },
+    {
+      "path": "contacts/115/show",
+      "title": "Contacts / 115 / Show"
+    },
+    {
+      "path": "contacts/360/show",
+      "title": "Contacts / 360 / Show"
+    },
+    {
+      "path": "contacts/146/show",
+      "title": "Contacts / 146 / Show"
+    },
+    {
+      "path": "companies/create",
+      "title": "Companies / Create"
+    },
+    {
+      "path": "companies/26/show",
+      "title": "Companies / 26 / Show"
+    },
+    {
+      "path": "companies/8/show",
+      "title": "Companies / 8 / Show"
+    },
+    {
+      "path": "companies/7/show",
+      "title": "Companies / 7 / Show"
+    },
+    {
+      "path": "companies/43/show",
+      "title": "Companies / 43 / Show"
+    },
+    {
+      "path": "companies/10/show",
+      "title": "Companies / 10 / Show"
+    },
+    {
+      "path": "companies/20/show",
+      "title": "Companies / 20 / Show"
+    },
+    {
+      "path": "companies/23/show",
+      "title": "Companies / 23 / Show"
+    },
+    {
+      "path": "companies/37/show",
+      "title": "Companies / 37 / Show"
+    },
+    {
+      "path": "companies/33/show",
+      "title": "Companies / 33 / Show"
+    },
+    {
+      "path": "companies/11/show",
+      "title": "Companies / 11 / Show"
+    },
+    {
+      "path": "companies/50/show",
+      "title": "Companies / 50 / Show"
+    },
+    {
+      "path": "companies/21/show",
+      "title": "Companies / 21 / Show"
+    },
+    {
+      "path": "companies/44/show",
+      "title": "Companies / 44 / Show"
+    },
+    {
+      "path": "companies/54/show",
+      "title": "Companies / 54 / Show"
+    },
+    {
+      "path": "companies/51/show",
+      "title": "Companies / 51 / Show"
+    },
+    {
+      "path": "companies/3/show",
+      "title": "Companies / 3 / Show"
+    }
+  ]
+}

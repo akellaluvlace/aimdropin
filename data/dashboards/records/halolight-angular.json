@@ -1,0 +1,52 @@
+{
+  "record": {
+    "slug": "halolight-angular",
+    "title": "HaloLight Angular",
+    "description": "Chinese-language Angular 21 + Tailwind admin: draggable widget dashboard, analytics, users, roles, settings, profile and auth pages.",
+    "repo": "halolight/halolight-angular",
+    "sha": "62568798a56d7714d14c52a073ebaf58c695733c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ECharts 6 (Apache-2.0).",
+      "url": "https://github.com/halolight/halolight-angular/blob/62568798a56d7714d14c52a073ebaf58c695733c/LICENSE"
+    },
+    "author": "h7ml",
+    "framework": "angular",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "tailwind4",
+      "signals",
+      "echarts",
+      "chinese"
+    ],
+    "demoUrl": "https://halolight-angular.h7ml.cn",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "HaloLight Angular"
+      }
+    ],
+    "storedBytes": 1492778,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:32:15.813Z"
+  },
+  "serve": {
+    "slug": "halolight-angular",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/halolight/halolight-angular@62568798a56d7714d14c52a073ebaf58c695733c/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

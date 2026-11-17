@@ -1,0 +1,309 @@
+{
+  "checkedAt": "2026-11-10T19:26:48.633Z",
+  "pagesChecked": 74,
+  "pagesOk": 73,
+  "failures": [
+    {
+      "path": "",
+      "problem": "load failed: Execution context was destroyed, most likely because of a navigation."
+    }
+  ],
+  "deadLinks": [
+    "not-found",
+    "pages/api-demo"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "404.html",
+      "title": "404"
+    },
+    {
+      "path": "authentication/forget-password.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "authentication/sign-in.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "authentication/sign-up.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "changelog.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/accordions.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/alerts.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/badges.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/breadcrumbs.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/button-group.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/buttons.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/cards.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/carousels.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/close-button.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/collapse.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/dropdowns.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/list-group.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/modal.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/navbar.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/navs.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/offcanvas.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/overlays.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/pagination.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/popovers.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/progress.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/spinners.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/tables.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/toasts.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/tooltips.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "documentation.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "layout-vertical.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "pages/billing.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "pages/pricing.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "pages/profile.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "pages/settings.html",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "pages/profile",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "pages/settings",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "pages/billing",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "pages/pricing",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "authentication/sign-in",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "authentication/sign-up",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "authentication/forget-password",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "layout-vertical",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/accordions",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/alerts",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/badges",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/breadcrumbs",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/buttons",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/button-group",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/cards",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/carousels",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/close-button",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/collapse",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/dropdowns",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/list-group",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/modal",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/navs",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/navbar",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/offcanvas",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/overlays",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/pagination",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/popovers",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/progress",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/spinners",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/tables",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/toasts",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/tooltips",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "documentation",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "changelog",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/dropdowns#/action-1",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/dropdowns#/action-2",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    },
+    {
+      "path": "components/dropdowns#/action-3",
+      "title": "Dash UI - Next.Js Admin Dashboard Template"
+    }
+  ]
+}

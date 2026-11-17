@@ -1,0 +1,153 @@
+{
+  "checkedAt": "2026-11-10T17:30:03.112Z",
+  "pagesChecked": 36,
+  "pagesOk": 36,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard v1 | AdminLTE Tailwind"
+    },
+    {
+      "path": "examples/lockscreen.html",
+      "title": "Lockscreen | AdminLTE Tailwind"
+    },
+    {
+      "path": "examples/login.html",
+      "title": "Login | AdminLTE Tailwind"
+    },
+    {
+      "path": "examples/register.html",
+      "title": "Register | AdminLTE Tailwind"
+    },
+    {
+      "path": "forms/elements.html",
+      "title": "Form Elements | AdminLTE Tailwind"
+    },
+    {
+      "path": "index2.html",
+      "title": "Dashboard v2 | AdminLTE Tailwind"
+    },
+    {
+      "path": "index3.html",
+      "title": "Dashboard v3 | AdminLTE Tailwind"
+    },
+    {
+      "path": "mailbox/compose.html",
+      "title": "Compose | AdminLTE Tailwind"
+    },
+    {
+      "path": "mailbox/inbox.html",
+      "title": "Inbox | AdminLTE Tailwind"
+    },
+    {
+      "path": "mailbox/read.html",
+      "title": "Read Mail | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/404.html",
+      "title": "404 - Page Not Found | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/500.html",
+      "title": "500 - Server Error | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/blank.html",
+      "title": "Blank Page | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/calendar.html",
+      "title": "Calendar | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/chat.html",
+      "title": "Chat | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/contacts.html",
+      "title": "Contacts | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/faq.html",
+      "title": "FAQ | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/file-manager.html",
+      "title": "File Manager | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/gallery.html",
+      "title": "Gallery | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/invoice.html",
+      "title": "Invoice | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/kanban.html",
+      "title": "Kanban Board | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/maintenance.html",
+      "title": "Maintenance | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/pricing.html",
+      "title": "Pricing | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/profile.html",
+      "title": "User Profile | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/projects.html",
+      "title": "Projects | AdminLTE Tailwind"
+    },
+    {
+      "path": "pages/settings.html",
+      "title": "Settings | AdminLTE Tailwind"
+    },
+    {
+      "path": "tables/simple.html",
+      "title": "Tables | AdminLTE Tailwind"
+    },
+    {
+      "path": "UI/buttons.html",
+      "title": "Buttons | AdminLTE Tailwind"
+    },
+    {
+      "path": "UI/general.html",
+      "title": "General UI Elements | AdminLTE Tailwind"
+    },
+    {
+      "path": "UI/icons.html",
+      "title": "Icons | AdminLTE Tailwind"
+    },
+    {
+      "path": "UI/modals.html",
+      "title": "Modals | AdminLTE Tailwind"
+    },
+    {
+      "path": "UI/timeline.html",
+      "title": "Timeline | AdminLTE Tailwind"
+    },
+    {
+      "path": "widgets/cards.html",
+      "title": "Card Widgets | AdminLTE Tailwind"
+    },
+    {
+      "path": "widgets/info-box.html",
+      "title": "Info Box Widgets | AdminLTE Tailwind"
+    },
+    {
+      "path": "widgets/small-box.html",
+      "title": "Small Box Widgets | AdminLTE Tailwind"
+    },
+    {
+      "path": "",
+      "title": "Dashboard v1 | AdminLTE Tailwind"
+    }
+  ]
+}

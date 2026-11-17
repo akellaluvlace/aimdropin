@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-11-10T17:35:26.416Z",
+  "pagesChecked": 20,
+  "pagesOk": 20,
+  "failures": [],
+  "deadLinks": [
+    "cards.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "404.html",
+      "title": "Error 404 | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "500.html",
+      "title": "Error 500 | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "account-password-recover.html",
+      "title": "Recover Password | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "account-profile.html",
+      "title": "Profile | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "account-sign-in.html",
+      "title": "Log In | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "account-sign-up.html",
+      "title": "Create Account | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "assets/vendor/themify-icons/index.html",
+      "title": "Themify Icon Font"
+    },
+    {
+      "path": "blank.html",
+      "title": "Blank Page | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "forms.html",
+      "title": "Forms (Basic) | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "tables.html",
+      "title": "Tables | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "ui-alerts.html",
+      "title": "Alerts | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "ui-buttons.html",
+      "title": "Buttons | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "ui-cards.html",
+      "title": "Panels | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "ui-colors.html",
+      "title": "Colors | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "ui-modals.html",
+      "title": "Modals | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "ui-others.html",
+      "title": "Other | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "ui-spinners.html",
+      "title": "Spinners | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "ui-tooltips-and-popovers.html",
+      "title": "Tooltips & Popovers | Awesome Dashboard UI Kit"
+    },
+    {
+      "path": "ui-typography.html",
+      "title": "Typography | Awesome Dashboard UI Kit"
+    }
+  ]
+}

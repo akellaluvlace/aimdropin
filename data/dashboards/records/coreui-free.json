@@ -1,0 +1,284 @@
+{
+  "record": {
+    "slug": "coreui-free",
+    "title": "CoreUI Free Bootstrap Admin",
+    "description": "Bootstrap 5 admin built on CoreUI: dashboard, base and form components, buttons, charts, icons, notifications, widgets, auth and error pages.",
+    "repo": "coreui/coreui-free-bootstrap-admin-template",
+    "sha": "d4003cd8efe2a4173cb36c5ed55c4e5faec22e77",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/coreui/coreui-free-bootstrap-admin-template/blob/d4003cd8efe2a4173cb36c5ed55c4e5faec22e77/LICENSE"
+    },
+    "author": "creativeLabs Łukasz Holeczek",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "coreui",
+      "chartjs",
+      "dark-mode"
+    ],
+    "demoUrl": "https://coreui.io/product/free-bootstrap-admin-template/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "authentication/change-password.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "authentication/check-email.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "authentication/login.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "authentication/password-changed.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "authentication/register.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "authentication/reset-password.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "blank.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "charts.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/accordion.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/alerts.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/badge.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/breadcrumb.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/button-group.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/buttons.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/cards.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/carousel.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/chip-set.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/chip.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/collapse.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/dropdowns.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/list-group.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/modals.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/navs-tabs.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/pagination.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/placeholders.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/popovers.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/progress.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/search-button.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/spinners.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/tables.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/toasts.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "components/tooltips.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "error-pages/404.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "error-pages/500.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "forms/checks-radios.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "forms/chip-input.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "forms/floating-labels.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "forms/form-control.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "forms/input-group.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "forms/layout.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "forms/range.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "forms/select.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "forms/validation.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "icons/coreui-icons-brand.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "icons/coreui-icons-flag.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "icons/coreui-icons-free.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      },
+      {
+        "path": "widgets.html",
+        "title": "CoreUI Free Bootstrap Admin Template"
+      }
+    ],
+    "storedBytes": 12058066,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:33.344Z"
+  },
+  "serve": {
+    "slug": "coreui-free",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/coreui/coreui-free-bootstrap-admin-template@d4003cd8efe2a4173cb36c5ed55c4e5faec22e77/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/favicon/android-icon-144x144.png": "src/assets/favicon/android-icon-144x144.png",
+      "assets/favicon/android-icon-192x192.png": "src/assets/favicon/android-icon-192x192.png",
+      "assets/favicon/android-icon-36x36.png": "src/assets/favicon/android-icon-36x36.png",
+      "assets/favicon/android-icon-48x48.png": "src/assets/favicon/android-icon-48x48.png",
+      "assets/favicon/android-icon-72x72.png": "src/assets/favicon/android-icon-72x72.png",
+      "assets/favicon/android-icon-96x96.png": "src/assets/favicon/android-icon-96x96.png",
+      "assets/favicon/apple-icon-114x114.png": "src/assets/favicon/apple-icon-114x114.png",
+      "assets/favicon/apple-icon-120x120.png": "src/assets/favicon/apple-icon-120x120.png",
+      "assets/favicon/apple-icon-144x144.png": "src/assets/favicon/android-icon-144x144.png",
+      "assets/favicon/apple-icon-152x152.png": "src/assets/favicon/apple-icon-152x152.png",
+      "assets/favicon/apple-icon-180x180.png": "src/assets/favicon/apple-icon-180x180.png",
+      "assets/favicon/apple-icon-57x57.png": "src/assets/favicon/apple-icon-57x57.png",
+      "assets/favicon/apple-icon-60x60.png": "src/assets/favicon/apple-icon-60x60.png",
+      "assets/favicon/apple-icon-72x72.png": "src/assets/favicon/android-icon-72x72.png",
+      "assets/favicon/apple-icon-76x76.png": "src/assets/favicon/apple-icon-76x76.png",
+      "assets/favicon/apple-icon-precomposed.png": "src/assets/favicon/apple-icon.png",
+      "assets/favicon/apple-icon.png": "src/assets/favicon/apple-icon.png",
+      "assets/favicon/browserconfig.xml": "src/assets/favicon/browserconfig.xml",
+      "assets/favicon/favicon-16x16.png": "src/assets/favicon/favicon-16x16.png",
+      "assets/favicon/favicon-32x32.png": "src/assets/favicon/favicon-32x32.png",
+      "assets/favicon/favicon-96x96.png": "src/assets/favicon/android-icon-96x96.png",
+      "assets/favicon/favicon.ico": "src/assets/favicon/favicon.ico",
+      "assets/favicon/ms-icon-144x144.png": "src/assets/favicon/android-icon-144x144.png",
+      "assets/favicon/ms-icon-150x150.png": "src/assets/favicon/ms-icon-150x150.png",
+      "assets/favicon/ms-icon-310x310.png": "src/assets/favicon/ms-icon-310x310.png",
+      "assets/favicon/ms-icon-70x70.png": "src/assets/favicon/ms-icon-70x70.png",
+      "assets/img/avatars/1.jpg": "src/assets/img/avatars/1.jpg",
+      "assets/img/avatars/2.jpg": "src/assets/img/avatars/2.jpg",
+      "assets/img/avatars/3.jpg": "src/assets/img/avatars/3.jpg",
+      "assets/img/avatars/4.jpg": "src/assets/img/avatars/4.jpg",
+      "assets/img/avatars/5.jpg": "src/assets/img/avatars/5.jpg",
+      "assets/img/avatars/6.jpg": "src/assets/img/avatars/6.jpg",
+      "assets/img/avatars/7.jpg": "src/assets/img/avatars/7.jpg",
+      "assets/img/avatars/8.jpg": "src/assets/img/avatars/8.jpg",
+      "assets/img/avatars/9.jpg": "src/assets/img/avatars/9.jpg",
+      "assets/img/background-pro-yellow.jpg": "src/assets/img/background-pro-yellow.jpg",
+      "assets/img/background-pro.jpg": "src/assets/img/background-pro.jpg",
+      "assets/img/components.webp": "src/assets/img/components.webp",
+      "assets/img/full.jpg": "src/assets/img/full.jpg",
+      "assets/img/icons.webp": "src/assets/img/icons.webp",
+      "js/charts.js": "src/js/charts.js",
+      "js/config.js": "src/js/config.js",
+      "js/main.js": "src/js/main.js",
+      "js/popovers.js": "src/js/popovers.js",
+      "js/toasts.js": "src/js/toasts.js",
+      "js/tooltips.js": "src/js/tooltips.js",
+      "js/widgets.js": "src/js/widgets.js"
+    }
+  }
+}

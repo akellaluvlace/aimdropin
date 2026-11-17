@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-11-10T18:45:46.580Z",
+  "pagesChecked": 23,
+  "pagesOk": 20,
+  "failures": [
+    {
+      "path": "component-card.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read the 'caches' property from 'Window': Cache storage is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag. · net::ERR_BLOCKED_BY_ORB https://cdn.jsdelivr.net/gh/zuramai/sekul@ebd2f86f4178aa93c41cfc9e18f2c70d64321920/dist/assets/images/samples/aerial-panoramic-image-of-sansonvale-lake-X6TCENW.jpg · net::ERR_BLOCKED_BY_ORB https://cdn.jsdelivr.net/gh/zuramai/sekul@ebd2f86f4178aa93c41cfc9e18f2c70d64321920/dist/assets/images/samples/lovatnet-lake-beautiful-nature-norway-PUTLQJ4.jpg"
+    },
+    {
+      "path": "component-carousel.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB /demos/sekul/assets/images/samples · net::ERR_BLOCKED_BY_ORB https://cdn.jsdelivr.net/gh/zuramai/sekul@ebd2f86f4178aa93c41cfc9e18f2c70d64321920/dist/assets/images/samples/pexels-photo-443446.jpeg · net::ERR_BLOCKED_BY_ORB https://cdn.jsdelivr.net/gh/zuramai/sekul@ebd2f86f4178aa93c41cfc9e18f2c70d64321920/dist/assets/images/samples/amazing-animal-beautiful-beautifull.jpg"
+    },
+    {
+      "path": "component-extra-avatar.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB https://cdn.jsdelivr.net/gh/zuramai/sekul@ebd2f86f4178aa93c41cfc9e18f2c70d64321920/dist/assets/images/avatar/avatar-s-1.png"
+    }
+  ],
+  "deadLinks": [
+    "component-spinners.html",
+    "component-tooltips.html",
+    "apps-crud.html",
+    "apps-chat.html",
+    "apps-mail.html",
+    "apps-user-profile.html",
+    "apps-exam-login.html",
+    "apps-exam-working.html",
+    "apps-exam-admin-monitoring.html",
+    "form-layout.html",
+    "form-editor.html",
+    "ui-chatbox.html",
+    "ui-pricing.html",
+    "ui-todolist.html",
+    "ui-chart-chartjs.html",
+    "ui-chart-apexchart.html",
+    "ui-google-maps.html",
+    "auth-login.html",
+    "auth-register.html",
+    "auth-forgot-password.html",
+    "error-403.html",
+    "error-404.html",
+    "error-500.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Sekul Dashboard"
+    },
+    {
+      "path": "component-alert.html",
+      "title": "Alerts"
+    },
+    {
+      "path": "component-badge.html",
+      "title": "Badge"
+    },
+    {
+      "path": "component-breadcrumb.html",
+      "title": "Breadcrumb"
+    },
+    {
+      "path": "component-buttons.html",
+      "title": "Buttons"
+    },
+    {
+      "path": "component-dropdowns.html",
+      "title": "Sekul Dashboard"
+    },
+    {
+      "path": "component-extra-divider.html",
+      "title": "Sekul Dashboard"
+    },
+    {
+      "path": "component-list-group.html",
+      "title": "Sekul Dashboard"
+    },
+    {
+      "path": "component-modal.html",
+      "title": "Sekul Dashboard"
+    },
+    {
+      "path": "component-navs.html",
+      "title": "Sekul Dashboard"
+    },
+    {
+      "path": "component-pagination.html",
+      "title": "Sekul Dashboard"
+    },
+    {
+      "path": "component-progress.html",
+      "title": "Sekul Dashboard"
+    },
+    {
+      "path": "form-element-checkbox.html",
+      "title": "Checkbox"
+    },
+    {
+      "path": "form-element-input-group.html",
+      "title": "Input Group"
+    },
+    {
+      "path": "form-element-input.html",
+      "title": "Input"
+    },
+    {
+      "path": "form-element-radio.html",
+      "title": "Radio"
+    },
+    {
+      "path": "form-element-select.html",
+      "title": "Select"
+    },
+    {
+      "path": "form-element-textarea.html",
+      "title": "Textarea"
+    },
+    {
+      "path": "table-datatable.html",
+      "title": "Sekul Dashboard"
+    },
+    {
+      "path": "table.html",
+      "title": "Table"
+    }
+  ]
+}

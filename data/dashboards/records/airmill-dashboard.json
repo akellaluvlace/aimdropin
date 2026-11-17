@@ -1,0 +1,103 @@
+{
+  "record": {
+    "slug": "airmill-dashboard",
+    "title": "Airmill Dashboard",
+    "description": "Windmill dashboard ported to SvelteKit and Tailwind: dashboard, forms, cards, charts, buttons, modals, tables, login and 404 pages.",
+    "repo": "sonyarianto/airmill-dashboard",
+    "sha": "9ad7490fa6c53b4a87fa42810664ff2d72b2b44d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/sonyarianto/airmill-dashboard/blob/9ad7490fa6c53b4a87fa42810664ff2d72b2b44d/LICENSE"
+    },
+    "author": "Sony AK",
+    "framework": "sveltekit",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "sveltekit",
+      "svelte5",
+      "tailwind",
+      "chartjs",
+      "dark-mode"
+    ],
+    "demoUrl": "https://airmill-dashboard.vercel.app",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Home"
+      },
+      {
+        "path": "buttons/index.html",
+        "title": "Buttons"
+      },
+      {
+        "path": "cards/index.html",
+        "title": "Cards"
+      },
+      {
+        "path": "charts/index.html",
+        "title": "Charts"
+      },
+      {
+        "path": "forms/index.html",
+        "title": "Forms"
+      },
+      {
+        "path": "modals/index.html",
+        "title": "Modals"
+      },
+      {
+        "path": "pages/404/index.html",
+        "title": "404"
+      },
+      {
+        "path": "pages/blank/index.html",
+        "title": "Blank"
+      },
+      {
+        "path": "pages/create-account/index.html",
+        "title": "Create Account"
+      },
+      {
+        "path": "pages/forgot-password/index.html",
+        "title": "Forgot Password"
+      },
+      {
+        "path": "pages/login/index.html",
+        "title": "Login"
+      },
+      {
+        "path": "tables/index.html",
+        "title": "Tables"
+      }
+    ],
+    "storedBytes": 635315,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:21.589Z"
+  },
+  "serve": {
+    "slug": "airmill-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/sonyarianto/airmill-dashboard@9ad7490fa6c53b4a87fa42810664ff2d72b2b44d/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/img/create-account-office-dark.jpeg": "static/assets/img/create-account-office-dark.jpeg",
+      "assets/img/create-account-office.jpeg": "static/assets/img/create-account-office.jpeg",
+      "assets/img/dashboard.png": "static/assets/img/dashboard.png",
+      "assets/img/forgot-password-office-dark.jpeg": "static/assets/img/forgot-password-office-dark.jpeg",
+      "assets/img/forgot-password-office.jpeg": "static/assets/img/forgot-password-office.jpeg",
+      "assets/img/login-office-dark.jpeg": "static/assets/img/login-office-dark.jpeg",
+      "assets/img/login-office.jpeg": "static/assets/img/login-office.jpeg",
+      "assets/js/focus-trap.js": "static/assets/js/focus-trap.js",
+      "favicon.png": "static/favicon.png"
+    }
+  }
+}

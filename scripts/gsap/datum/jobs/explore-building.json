@@ -1,0 +1,64 @@
+{
+ "jobs": [
+  {
+   "name": "x-house-coast",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "A long, low, single-storey contemporary house on the Atlantic coast of Ireland. One simple rectangular volume about 28 metres long with a thin flat roof that oversails slightly; walls of pale board-marked in-situ concrete at the two ends and silvered vertical larch cladding between, with a run of full-height glazing with slim dark bronze frames across the middle third and one recessed timber door. It stands on a low concrete plinth on rough coastal grass with outcrops of grey limestone in the foreground and a low dry stone wall to one side; behind it, far off, a band of grey sea and low headlands under the sky. Architectural photograph for a monograph, taken straight on, as an elevation: the camera is level and square to the long front of the building, a tilt-shift lens, every vertical perfectly vertical and every horizontal of the facade perfectly horizontal, no converging lines. The building is centred and takes about two thirds of the frame's width, with generous sky above and open foreground below; the ground line where the building meets the land is a level horizontal line about three fifths of the way down the frame. Soft, even, overcast daylight with a pale luminous sky, no harsh shadows. Natural, restrained colour. No people, no vehicles, no animals, no text, no logos, no watermark. Extremely sharp, high resolution, fine material detail.",
+    "image_size": {
+     "width": 2880,
+     "height": 1920
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "x-house-gable",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "A contemporary reinterpretation of an Irish long house: a single, long, narrow two-storey gabled building about 24 metres long, seen on its long side, with a steep pitched roof of dark natural slate with no overhang and no gutters showing, walls of smooth white lime render, and deep square window openings of different sizes punched into the wall in a calm, irregular rhythm, each lined in pale oak, with one tall glazed opening and a plain oak door. It stands in a mown meadow with longer grass in the foreground, a few wind-bent hawthorn trees to one side and low hills far behind. Architectural photograph for a monograph, taken straight on, as an elevation: the camera is level and square to the long front of the building, a tilt-shift lens, every vertical perfectly vertical and every horizontal of the facade perfectly horizontal, no converging lines. The building is centred and takes about two thirds of the frame's width, with generous sky above and open foreground below; the ground line where the building meets the land is a level horizontal line about three fifths of the way down the frame. Soft, even, overcast daylight with a pale luminous sky, no harsh shadows. Natural, restrained colour. No people, no vehicles, no animals, no text, no logos, no watermark. Extremely sharp, high resolution, fine material detail.",
+    "image_size": {
+     "width": 2880,
+     "height": 1920
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "x-studio-water",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "A small artist's studio and boathouse standing on slender steel legs at the edge of a still tidal inlet in the west of Ireland. A simple pitched-roof volume about 14 metres long clad entirely, walls and roof, in black-stained vertical timber boards, with one very large square picture window, a smaller high window, and a narrow timber jetty and steps on one side. Its reflection lies in the calm grey water in the foreground; behind are reed beds, a low rocky shore and distant hills in mist. Architectural photograph for a monograph, taken straight on, as an elevation: the camera is level and square to the long front of the building, a tilt-shift lens, every vertical perfectly vertical and every horizontal of the facade perfectly horizontal, no converging lines. The building is centred and takes about two thirds of the frame's width, with generous sky above and open foreground below; the ground line where the building meets the land is a level horizontal line about three fifths of the way down the frame. Soft, even, overcast daylight with a pale luminous sky, no harsh shadows. Natural, restrained colour. No people, no vehicles, no animals, no text, no logos, no watermark. Extremely sharp, high resolution, fine material detail.",
+    "image_size": {
+     "width": 2880,
+     "height": 1920
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "x-pavilion-wood",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "A long, low public reading pavilion in a clearing in an Irish oak wood. A single-storey building about 30 metres long under one thin flat roof carried on a regular row of slender square timber columns, with full-height glass set back behind the columns, warm oak ceilings visible inside, and a base of pale stone forming a long low step. It stands on a level lawn with a gravel path in the foreground; behind it, a wall of mature oak and beech trees in soft green. Architectural photograph for a monograph, taken straight on, as an elevation: the camera is level and square to the long front of the building, a tilt-shift lens, every vertical perfectly vertical and every horizontal of the facade perfectly horizontal, no converging lines. The building is centred and takes about two thirds of the frame's width, with generous sky above and open foreground below; the ground line where the building meets the land is a level horizontal line about three fifths of the way down the frame. Soft, even, overcast daylight with a pale luminous sky, no harsh shadows. Natural, restrained colour. No people, no vehicles, no animals, no text, no logos, no watermark. Extremely sharp, high resolution, fine material detail.",
+    "image_size": {
+     "width": 2880,
+     "height": 1920
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  }
+ ]
+}

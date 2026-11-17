@@ -1,0 +1,93 @@
+{
+  "record": {
+    "slug": "tailadmin-react",
+    "title": "TailAdmin React",
+    "description": "Tailwind CSS admin: e-commerce dashboard, calendar, profile, form elements and layouts, tables, settings, charts, alerts, buttons and auth pages.",
+    "repo": "TailAdmin/free-react-tailwind-admin-dashboard",
+    "sha": "d382bb4ad107d1f0c5bc96c018f271c05e008389",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "v1.3.8 pinned: later commits use apexcharts 4 with @react-jvectormap (AGPL OR commercial) or apexcharts 5+ (dual commercial license).",
+      "url": "https://github.com/TailAdmin/free-react-tailwind-admin-dashboard/blob/d382bb4ad107d1f0c5bc96c018f271c05e008389/LICENSE.md"
+    },
+    "author": "TailAdmin",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "E-commerce",
+    "tags": [
+      "vite",
+      "tailwind",
+      "apexcharts",
+      "react-router",
+      "dark-mode"
+    ],
+    "demoUrl": "https://react-demo.tailadmin.com",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "TailAdmin React"
+      }
+    ],
+    "storedBytes": 1407662,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:37.228Z"
+  },
+  "serve": {
+    "slug": "tailadmin-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/TailAdmin/free-react-tailwind-admin-dashboard@d382bb4ad107d1f0c5bc96c018f271c05e008389/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/Satoshi-Black-78edaca6.ttf": "src/fonts/Satoshi-Black.ttf",
+      "assets/Satoshi-Black-a849a7b7.woff": "src/fonts/Satoshi-Black.woff",
+      "assets/Satoshi-Black-bd11b582.woff2": "src/fonts/Satoshi-Black.woff2",
+      "assets/Satoshi-BlackItalic-83d61d67.woff2": "src/fonts/Satoshi-BlackItalic.woff2",
+      "assets/Satoshi-BlackItalic-cf5edac8.woff": "src/fonts/Satoshi-BlackItalic.woff",
+      "assets/Satoshi-BlackItalic-d3d6c8d6.ttf": "src/fonts/Satoshi-BlackItalic.ttf",
+      "assets/Satoshi-Bold-1789917c.woff": "src/fonts/Satoshi-Bold.woff",
+      "assets/Satoshi-Bold-2c122eab.ttf": "src/fonts/Satoshi-Bold.ttf",
+      "assets/Satoshi-Bold-353a7fbf.woff2": "src/fonts/Satoshi-Bold.woff2",
+      "assets/Satoshi-BoldItalic-52bfd9e8.woff2": "src/fonts/Satoshi-BoldItalic.woff2",
+      "assets/Satoshi-BoldItalic-5d73878e.woff": "src/fonts/Satoshi-BoldItalic.woff",
+      "assets/Satoshi-BoldItalic-8ff85a17.ttf": "src/fonts/Satoshi-BoldItalic.ttf",
+      "assets/Satoshi-Italic-14c3d259.ttf": "src/fonts/Satoshi-Italic.ttf",
+      "assets/Satoshi-Italic-a6df1710.woff": "src/fonts/Satoshi-Italic.woff",
+      "assets/Satoshi-Italic-dbcb8c32.woff2": "src/fonts/Satoshi-Italic.woff2",
+      "assets/Satoshi-Light-8a24f395.woff2": "src/fonts/Satoshi-Light.woff2",
+      "assets/Satoshi-Light-b54cf060.ttf": "src/fonts/Satoshi-Light.ttf",
+      "assets/Satoshi-Light-dd42e743.woff": "src/fonts/Satoshi-Light.woff",
+      "assets/Satoshi-LightItalic-2f9c5264.woff": "src/fonts/Satoshi-LightItalic.woff",
+      "assets/Satoshi-LightItalic-9690a557.woff2": "src/fonts/Satoshi-LightItalic.woff2",
+      "assets/Satoshi-LightItalic-c9a8d027.ttf": "src/fonts/Satoshi-LightItalic.ttf",
+      "assets/Satoshi-Medium-7130cef6.ttf": "src/fonts/Satoshi-Medium.ttf",
+      "assets/Satoshi-Medium-7aeaf037.woff": "src/fonts/Satoshi-Medium.woff",
+      "assets/Satoshi-Medium-af02a722.woff2": "src/fonts/Satoshi-Medium.woff2",
+      "assets/Satoshi-MediumItalic-71f8dce5.ttf": "src/fonts/Satoshi-MediumItalic.ttf",
+      "assets/Satoshi-MediumItalic-beb15382.woff2": "src/fonts/Satoshi-MediumItalic.woff2",
+      "assets/Satoshi-MediumItalic-cf98a3ed.woff": "src/fonts/Satoshi-MediumItalic.woff",
+      "assets/Satoshi-Regular-243b23f6.ttf": "src/fonts/Satoshi-Regular.ttf",
+      "assets/Satoshi-Regular-50dca57f.woff2": "src/fonts/Satoshi-Regular.woff2",
+      "assets/Satoshi-Regular-9fbc41c9.woff": "src/fonts/Satoshi-Regular.woff",
+      "assets/cover-01-e8bbef04.png": "src/images/cover/cover-01.png",
+      "assets/product-01-c483c307.png": "src/images/product/product-01.png",
+      "assets/product-02-7399ae73.png": "src/images/product/product-02.png",
+      "assets/product-03-16b7c2c9.png": "src/images/product/product-03.png",
+      "assets/product-04-89ad00c9.png": "src/images/product/product-04.png",
+      "assets/user-01-b007ff3f.png": "src/images/user/user-01.png",
+      "assets/user-02-5a304001.png": "src/images/user/user-02.png",
+      "assets/user-03-3c4ef32c.png": "src/images/user/user-03.png",
+      "assets/user-04-04f11146.png": "src/images/user/user-04.png",
+      "assets/user-05-d5425ed5.png": "src/images/user/user-05.png",
+      "assets/user-06-00406fb8.png": "src/images/user/user-06.png",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

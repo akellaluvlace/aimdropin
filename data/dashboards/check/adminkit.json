@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-11-10T17:42:58.543Z",
+  "pagesChecked": 19,
+  "pagesOk": 18,
+  "failures": [
+    {
+      "path": "maps-google.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read a named property 'addEventListener' from 'Window': Sandbox access violation: Blocked a frame at \"http://localhost:3000\" from accessing a frame at \"null\".  Both f"
+    }
+  ],
+  "deadLinks": [
+    "pages-404.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Analytics Dashboard | AdminKit Demo"
+    },
+    {
+      "path": "charts-chartjs.html",
+      "title": "Chart.js | AdminKit Demo"
+    },
+    {
+      "path": "icons-lucide.html",
+      "title": "Lucide | AdminKit Demo"
+    },
+    {
+      "path": "pages-500.html",
+      "title": "500 | AdminKit Demo"
+    },
+    {
+      "path": "pages-blank.html",
+      "title": "Blank Page | AdminKit Demo"
+    },
+    {
+      "path": "pages-invoice.html",
+      "title": "Invoice | AdminKit Demo"
+    },
+    {
+      "path": "pages-pricing.html",
+      "title": "Pricing | AdminKit Demo"
+    },
+    {
+      "path": "pages-profile.html",
+      "title": "Profile | AdminKit Demo"
+    },
+    {
+      "path": "pages-sign-in.html",
+      "title": "Sign In | AdminKit Demo"
+    },
+    {
+      "path": "pages-sign-up.html",
+      "title": "Sign Up | AdminKit Demo"
+    },
+    {
+      "path": "tables-bootstrap.html",
+      "title": "Tables | AdminKit Demo"
+    },
+    {
+      "path": "ui-alerts.html",
+      "title": "Alerts | AdminKit Demo"
+    },
+    {
+      "path": "ui-buttons.html",
+      "title": "Buttons | AdminKit Demo"
+    },
+    {
+      "path": "ui-cards.html",
+      "title": "Cards | AdminKit Demo"
+    },
+    {
+      "path": "ui-forms.html",
+      "title": "Forms | AdminKit Demo"
+    },
+    {
+      "path": "ui-modals.html",
+      "title": "Modals | AdminKit Demo"
+    },
+    {
+      "path": "ui-typography.html",
+      "title": "Typography | AdminKit Demo"
+    },
+    {
+      "path": "upgrade-to-pro.html",
+      "title": "Upgrade to Pro | AdminKit Demo"
+    }
+  ]
+}

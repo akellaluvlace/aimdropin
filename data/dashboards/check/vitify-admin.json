@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-10T19:09:21.752Z",
+  "pagesChecked": 14,
+  "pagesOk": 14,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Homepage | Vitify Admin"
+    },
+    {
+      "path": "homepage/",
+      "title": "Homepage"
+    },
+    {
+      "path": "dashboard/",
+      "title": "Dashboard | Vitify Admin"
+    },
+    {
+      "path": "nested/menu1",
+      "title": "Menu 1 | Vitify Admin"
+    },
+    {
+      "path": "user-manage/",
+      "title": "User Management | Vitify Admin"
+    },
+    {
+      "path": "nested/",
+      "title": "Nested Routes | Vitify Admin"
+    },
+    {
+      "path": "nested/menu2/menu2-2",
+      "title": "Menu 2-2 | Vitify Admin"
+    },
+    {
+      "path": "nested/menu2/menu2-1",
+      "title": "Menu 2-1 | Vitify Admin"
+    },
+    {
+      "path": "kingyue737",
+      "title": "Vitify Admin"
+    },
+    {
+      "path": "lodgepole",
+      "title": "Vitify Admin"
+    },
+    {
+      "path": "fuant",
+      "title": "Vitify Admin"
+    },
+    {
+      "path": "xiaoyouyou",
+      "title": "Vitify Admin"
+    },
+    {
+      "path": "johnnyleider",
+      "title": "Vitify Admin"
+    },
+    {
+      "path": "nested/menu2",
+      "title": "Menu 2 | Vitify Admin"
+    }
+  ]
+}

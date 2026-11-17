@@ -1,0 +1,102 @@
+{
+  "record": {
+    "slug": "kwd-dashboard",
+    "title": "K-WD Dashboard",
+    "description": "Tailwind and Alpine.js dashboard with dark mode, sidebar layouts, components, tables, auth and error pages.",
+    "repo": "Kamona-WD/kwd-dashboard",
+    "sha": "76996c9aeae690aebac490309fabfb4bb9b3c029",
+    "license": {
+      "spdx": "MIT",
+      "path": "License.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^4.3 (MIT).",
+      "url": "https://github.com/Kamona-WD/kwd-dashboard/blob/76996c9aeae690aebac490309fabfb4bb9b3c029/License.md"
+    },
+    "author": "Ahmed Kamel",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "alpinejs",
+      "dark-mode",
+      "apexcharts"
+    ],
+    "demoUrl": "https://kamona-wd.github.io/kwd-dashboard/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "K-WD Dashboard"
+      },
+      {
+        "path": "auth/forgot-password.html",
+        "title": "K-WD Dashboard | Request new password"
+      },
+      {
+        "path": "auth/login.html",
+        "title": "K-WD Dashboard | Login"
+      },
+      {
+        "path": "auth/register.html",
+        "title": "K-WD Dashboard | Register"
+      },
+      {
+        "path": "auth/reset-password.html",
+        "title": "K-WD Dashboard | Reset password"
+      },
+      {
+        "path": "components/form-elements.html",
+        "title": "K-WD Dashboard | Form elements"
+      },
+      {
+        "path": "components/tables.html",
+        "title": "K-WD Dashboard | Tables"
+      },
+      {
+        "path": "layouts/mini-plus-one-column-sidebar.html",
+        "title": "K-WD Dashboard | Mini + One Column Sidebar"
+      },
+      {
+        "path": "layouts/mini-sidebar.html",
+        "title": "K-WD Dashboard | Mini Column Sidebar"
+      },
+      {
+        "path": "layouts/two-columns-sidebar.html",
+        "title": "K-WD Dashboard | Two Columns Sidebar"
+      },
+      {
+        "path": "pages/404.html",
+        "title": "K-WD Dashboard | 404 Not Found Page"
+      },
+      {
+        "path": "pages/500.html",
+        "title": "K-WD Dashboard | 500 Server Error Page"
+      },
+      {
+        "path": "pages/blank.html",
+        "title": "K-WD Dashboard | Blank"
+      }
+    ],
+    "storedBytes": 1406026,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:28.484Z"
+  },
+  "serve": {
+    "slug": "kwd-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Kamona-WD/kwd-dashboard@76996c9aeae690aebac490309fabfb4bb9b3c029/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "build/js/script.js": "public/build/js/script.js",
+      "favicon.ico": "public/favicon.ico",
+      "images/1.png": "public/images/1.png",
+      "images/avatar.jpeg": "public/images/avatar.jpeg"
+    }
+  }
+}

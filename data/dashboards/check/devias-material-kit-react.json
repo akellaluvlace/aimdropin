@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-11-10T18:28:23.209Z",
+  "pagesChecked": 16,
+  "pagesOk": 15,
+  "failures": [
+    {
+      "path": "index.html",
+      "problem": "HTTP 405 /demos/devias-material-kit-react/dashboard/index.txt?_rsc=1avkz · net::ERR_FAILED /demos/devias-material-kit-react/dashboard/index.txt?_rsc=1avkz"
+    }
+  ],
+  "deadLinks": [
+    "404/index.html",
+    "errors/not-found/index.html",
+    "errors/not-found/"
+  ],
+  "pages": [
+    {
+      "path": "dashboard/index.html",
+      "title": "Overview | Dashboard | Devias Kit"
+    },
+    {
+      "path": "404.html",
+      "title": "Not found | Devias Kit"
+    },
+    {
+      "path": "auth/reset-password/index.html",
+      "title": "Overview | Dashboard | Devias Kit"
+    },
+    {
+      "path": "auth/sign-in/index.html",
+      "title": "Overview | Dashboard | Devias Kit"
+    },
+    {
+      "path": "auth/sign-up/index.html",
+      "title": "Overview | Dashboard | Devias Kit"
+    },
+    {
+      "path": "dashboard/account/index.html",
+      "title": "Account | Dashboard | Devias Kit"
+    },
+    {
+      "path": "dashboard/customers/index.html",
+      "title": "Customers | Dashboard | Devias Kit"
+    },
+    {
+      "path": "dashboard/integrations/index.html",
+      "title": "Integrations | Dashboard | Devias Kit"
+    },
+    {
+      "path": "dashboard/settings/index.html",
+      "title": "Settings | Dashboard | Devias Kit"
+    },
+    {
+      "path": "",
+      "title": "Overview | Dashboard | Devias Kit"
+    },
+    {
+      "path": "dashboard/",
+      "title": "Overview | Dashboard | Devias Kit"
+    },
+    {
+      "path": "dashboard/customers/",
+      "title": "Customers | Dashboard | Devias Kit"
+    },
+    {
+      "path": "dashboard/integrations/",
+      "title": "Integrations | Dashboard | Devias Kit"
+    },
+    {
+      "path": "dashboard/settings/",
+      "title": "Settings | Dashboard | Devias Kit"
+    },
+    {
+      "path": "dashboard/account/",
+      "title": "Account | Dashboard | Devias Kit"
+    }
+  ]
+}

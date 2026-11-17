@@ -1,0 +1,223 @@
+{
+  "checkedAt": "2026-11-10T17:37:46.869Z",
+  "pagesChecked": 53,
+  "pagesOk": 53,
+  "failures": [],
+  "deadLinks": [
+    "pages/terms-condition-page.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Homepage | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "assets/libs/@mdi/font/preview.html",
+      "title": "Material Design Icons"
+    },
+    {
+      "path": "docs/accordions.html",
+      "title": "Accordions | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/alerts.html",
+      "title": "Alerts | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/badge.html",
+      "title": "Badges | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/borders.html",
+      "title": "Borders | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/breadcrumb.html",
+      "title": "Breadcrumb | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/button-group.html",
+      "title": "Button Group | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/buttons.html",
+      "title": "Buttons | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/card.html",
+      "title": "Card | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/carousel.html",
+      "title": "Carousel | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/changelog.html",
+      "title": "Changelog | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/close-button.html",
+      "title": "Close Button | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/collapse.html",
+      "title": "Collapse | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/colored-links.html",
+      "title": "Colored links | Geeks - Bootstrap 5 Template"
+    },
+    {
+      "path": "docs/colors.html",
+      "title": "Colors | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/credits.html",
+      "title": "Credits | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/dropdowns.html",
+      "title": "Dropdowns | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/forms.html",
+      "title": "Forms | Geeks - Bootstrap 5 Template"
+    },
+    {
+      "path": "docs/gulp.html",
+      "title": "Gulp | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/index.html",
+      "title": "Introduction | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/list-group.html",
+      "title": "List Group | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/modal.html",
+      "title": "Modal | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/navbar.html",
+      "title": "Navbar | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/navs-tabs.html",
+      "title": "Navs and tabs | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/offcanvas.html",
+      "title": "Offcanvas | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/opacity.html",
+      "title": "Opacity | Geeks - Bootstrap 5 Template"
+    },
+    {
+      "path": "docs/pagination.html",
+      "title": "Pagination | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/placeholders.html",
+      "title": "Placeholder | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/popovers.html",
+      "title": "Popovers | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/progress.html",
+      "title": "Progress bars | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/ratio.html",
+      "title": "Ratio | Geeks - Bootstrap 5 Template"
+    },
+    {
+      "path": "docs/scrollspy.html",
+      "title": "Scrollspy | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/shadows.html",
+      "title": "Shadows | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/spinners.html",
+      "title": "Spinners | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/stacks.html",
+      "title": "Stacks | Geeks - Bootstrap 5 Template"
+    },
+    {
+      "path": "docs/tables.html",
+      "title": "Tables | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/text-truncation.html",
+      "title": "Text truncation | Geeks - Bootstrap 5 Template"
+    },
+    {
+      "path": "docs/text.html",
+      "title": "Text | Geeks - Bootstrap 5 Template"
+    },
+    {
+      "path": "docs/toasts.html",
+      "title": "Toasts | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/tooltips.html",
+      "title": "Tooltips | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/typography.html",
+      "title": "Typography | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "docs/vertical-rule.html",
+      "title": "Vertical rule | Geeks - Bootstrap 5 Template"
+    },
+    {
+      "path": "pages/404-error.html",
+      "title": "404 error | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "pages/billing.html",
+      "title": "Billing | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "pages/forget-password.html",
+      "title": "Forget Password | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "pages/layout.html",
+      "title": "Layout | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "pages/pricing.html",
+      "title": "Pricing | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "pages/profile.html",
+      "title": "Profile Overview | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "pages/settings.html",
+      "title": "Setting | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "pages/sign-in.html",
+      "title": "Sign In | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "pages/sign-up.html",
+      "title": "Sign Up | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "pages/tables.html",
+      "title": "Tables | Dash Ui - Bootstrap 5 Admin Dashboard Template"
+    }
+  ]
+}

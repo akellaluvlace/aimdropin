@@ -1,0 +1,202 @@
+{
+  "checkedAt": "2026-11-10T19:02:35.524Z",
+  "pagesChecked": 37,
+  "pagesOk": 36,
+  "failures": [
+    {
+      "path": "index.html",
+      "problem": "HTTP 405 /demos/shadcn-ui-examples-www-legacy/examples/mail/index.txt?_rsc=12b8r · net::ERR_FAILED /demos/shadcn-ui-examples-www-legacy/examples/mail/index.txt?_rsc=12b8r"
+    }
+  ],
+  "deadLinks": [
+    "docs/tailwind-v4/",
+    "docs/components/accordion/",
+    "docs/components-json/",
+    "docs/theming/",
+    "docs/dark-mode/",
+    "docs/cli/",
+    "docs/monorepo/",
+    "docs/react-19/",
+    "docs/components/typography/",
+    "docs/v0/",
+    "docs/blocks/",
+    "docs/figma/",
+    "docs/changelog/",
+    "docs/installation/next/",
+    "docs/installation/vite/",
+    "docs/installation/laravel/",
+    "docs/installation/react-router/",
+    "docs/installation/astro/",
+    "docs/installation/tanstack/",
+    "docs/installation/tanstack-router/",
+    "docs/installation/manual/",
+    "docs/components/alert/",
+    "docs/components/alert-dialog/",
+    "docs/components/aspect-ratio/",
+    "docs/components/avatar/",
+    "docs/components/badge/",
+    "docs/components/breadcrumb/",
+    "docs/components/button/",
+    "docs/components/calendar/",
+    "docs/components/card/",
+    "docs/components/carousel/",
+    "docs/components/chart/",
+    "docs/components/checkbox/",
+    "docs/components/collapsible/",
+    "docs/components/combobox/",
+    "docs/components/command/",
+    "docs/components/context-menu/",
+    "docs/components/data-table/",
+    "docs/components/date-picker/",
+    "docs/components/dialog/",
+    "docs/components/drawer/",
+    "docs/components/dropdown-menu/",
+    "docs/components/form/"
+  ],
+  "pages": [
+    {
+      "path": "examples/mail/index.html",
+      "title": "Examples - shadcn/ui"
+    },
+    {
+      "path": "404.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "404/index.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "blocks/index.html",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "charts/index.html",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "colors/index.html",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "docs/components/index.html",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "docs/index.html",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "docs/installation/index.html",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "examples/authentication/index.html",
+      "title": "Authentication"
+    },
+    {
+      "path": "examples/cards/index.html",
+      "title": "Cards"
+    },
+    {
+      "path": "examples/dashboard/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "examples/forms/account/index.html",
+      "title": "Forms"
+    },
+    {
+      "path": "examples/forms/appearance/index.html",
+      "title": "Forms"
+    },
+    {
+      "path": "examples/forms/display/index.html",
+      "title": "Forms"
+    },
+    {
+      "path": "examples/forms/index.html",
+      "title": "Forms"
+    },
+    {
+      "path": "examples/forms/notifications/index.html",
+      "title": "Forms"
+    },
+    {
+      "path": "examples/music/index.html",
+      "title": "Music App"
+    },
+    {
+      "path": "examples/playground/index.html",
+      "title": "Playground"
+    },
+    {
+      "path": "examples/tasks/index.html",
+      "title": "Tasks"
+    },
+    {
+      "path": "themes/index.html",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "",
+      "title": "Examples - shadcn/ui"
+    },
+    {
+      "path": "docs/installation/",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "docs/components/",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "blocks/",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "charts/",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "themes/",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "colors/",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "docs/",
+      "title": "shadcn/ui"
+    },
+    {
+      "path": "examples/mail/",
+      "title": "Examples - shadcn/ui"
+    },
+    {
+      "path": "examples/dashboard/",
+      "title": "Dashboard"
+    },
+    {
+      "path": "examples/tasks/",
+      "title": "Tasks"
+    },
+    {
+      "path": "examples/playground/",
+      "title": "Playground"
+    },
+    {
+      "path": "examples/forms/",
+      "title": "Forms"
+    },
+    {
+      "path": "examples/music/",
+      "title": "Music App"
+    },
+    {
+      "path": "examples/authentication/",
+      "title": "Authentication"
+    }
+  ]
+}

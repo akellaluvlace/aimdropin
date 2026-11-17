@@ -1,0 +1,60 @@
+{
+  "record": {
+    "slug": "paper-dashboard-react",
+    "title": "Paper Dashboard React",
+    "description": "Light paper-style Bootstrap 4 admin with dashboard charts, icons, map, notifications, user profile, tables and typography.",
+    "repo": "creativetimofficial/paper-dashboard-react",
+    "sha": "c2ecf79745fde8ad3270482d371ea12106c0832a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/paper-dashboard-react/blob/c2ecf79745fde8ad3270482d371ea12106c0832a/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "reactstrap",
+      "chartjs",
+      "react-router"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/paper-dashboard-react/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Paper Dashboard React"
+      }
+    ],
+    "storedBytes": 908151,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.257Z"
+  },
+  "serve": {
+    "slug": "paper-dashboard-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/paper-dashboard-react@c2ecf79745fde8ad3270482d371ea12106c0832a/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-icon.png": "public/apple-icon.png",
+      "favicon.ico": "public/favicon.ico",
+      "static/media/ayo-ogunseinde-2.f4af8f2c98f6968c5ae9.jpg": "src/assets/img/faces/ayo-ogunseinde-2.jpg",
+      "static/media/clem-onojeghuo-2.d16702ce00aa38f275c0.jpg": "src/assets/img/faces/clem-onojeghuo-2.jpg",
+      "static/media/damir-bosnjak.efcaca50b633c2ba2ba9.jpg": "src/assets/img/damir-bosnjak.jpg",
+      "static/media/joe-gardner-2.09841708956117e93a7b.jpg": "src/assets/img/faces/joe-gardner-2.jpg",
+      "static/media/mike.d34d0690a264ad046861.jpg": "src/assets/img/mike.jpg",
+      "static/media/nucleo-icons.4466aeec3386b965a232.ttf": "src/assets/fonts/nucleo-icons.ttf",
+      "static/media/nucleo-icons.8e954b749f951b654fc6.woff": "src/assets/fonts/nucleo-icons.woff",
+      "static/media/nucleo-icons.bd42d77b9672555647d1.eot": "src/assets/fonts/nucleo-icons.eot",
+      "static/media/nucleo-icons.ec16bc4cc4526801004d.woff2": "src/assets/fonts/nucleo-icons.woff2"
+    }
+  }
+}

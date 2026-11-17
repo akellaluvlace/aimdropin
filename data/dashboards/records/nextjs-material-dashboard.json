@@ -1,0 +1,99 @@
+{
+  "record": {
+    "slug": "nextjs-material-dashboard",
+    "title": "NextJS Material Dashboard",
+    "description": "Material UI v4 admin on Next.js 10: dashboard, user profile, table list, typography, icons, maps, notifications and an RTL page.",
+    "repo": "creativetimofficial/nextjs-material-dashboard",
+    "sha": "f1ed96d3b7a391b7ca2750f91c5e7af866a6247c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/nextjs-material-dashboard/blob/f1ed96d3b7a391b7ca2750f91c5e7af866a6247c/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "next",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "material-ui",
+      "pages-router",
+      "chartist",
+      "rtl"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/nextjs-material-dashboard/admin/dashboard",
+    "quality": 3,
+    "entry": "admin/dashboard/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "admin/dashboard/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "404.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "404/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/icons/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/maps/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/notifications/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/table-list/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/typography/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/upgrade-to-pro/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "admin/user-profile/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      },
+      {
+        "path": "rtl/rtl-page/index.html",
+        "title": "NextJS Material Dashboard by Creative Tim"
+      }
+    ],
+    "storedBytes": 2282011,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:27:13.601Z"
+  },
+  "serve": {
+    "slug": "nextjs-material-dashboard",
+    "kind": "build",
+    "entry": "admin/dashboard/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/nextjs-material-dashboard@f1ed96d3b7a391b7ca2750f91c5e7af866a6247c/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "_next/static/images/bg7-b08234a2b7e8e4fb2e3c4e713252021c.jpg": "assets/img/bg7.jpg",
+      "_next/static/images/marc-8880a65c57d7f031579335be153f64a0.jpg": "assets/img/faces/marc.jpg",
+      "_next/static/images/sidebar-1-8e9f0a3c5578a20733d5bad0e51c91fb.jpg": "assets/img/sidebar-1.jpg",
+      "_next/static/images/sidebar-2-310509c95512893dc661bd3a6b0d2a5d.jpg": "assets/img/sidebar-2.jpg",
+      "_next/static/images/sidebar-3-2503169017014036cf0dd0dd7c2a2b8a.jpg": "assets/img/sidebar-3.jpg",
+      "_next/static/images/sidebar-4-fc9cb0538eb5a4dfd6fbb1bf6dd6189b.jpg": "assets/img/sidebar-4.jpg"
+    }
+  }
+}

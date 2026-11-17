@@ -1,0 +1,34 @@
+{
+ "jobs": [
+  {
+   "name": "proof-counter",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "A medium-sized brown corrugated cardboard parcel, sealed with clear tape, with one white shipping label stuck on top, left on the pale oak counter of a small office reception. Beside it on the counter are a small brass desk bell and the corner of a closed dark green visitors book; behind the counter, out of focus, a concrete wall and the edge of a plant. It looks like an honest photograph taken on a phone by a courier as proof of delivery: looking down at about sixty degrees, slightly off square, natural indoor daylight, sharp, true colour, no filter. The parcel's shipping label is white thermal paper with plain black barcode stripes and a few short grey bars where words would be; nothing on it can be read. No people, no hands, no logos, no brand names, no readable text anywhere, no watermark.",
+    "image_size": {
+     "width": 1920,
+     "height": 1440
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "proof-door",
+   "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+   "input": {
+    "prompt": "A medium-sized brown corrugated cardboard parcel, sealed with clear tape, with one white shipping label stuck on top, left on a coir doormat just inside the glass door of a ground floor office in a converted brick warehouse. Grey stone threshold, a strip of the cobbled square outside visible through the glass, soft overcast daylight. It looks like an honest photograph taken on a phone by a courier as proof of delivery: looking down at about sixty degrees, slightly off square, natural indoor daylight, sharp, true colour, no filter. The parcel's shipping label is white thermal paper with plain black barcode stripes and a few short grey bars where words would be; nothing on it can be read. No people, no hands, no logos, no brand names, no readable text anywhere, no watermark.",
+    "image_size": {
+     "width": 1920,
+     "height": 1440
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  }
+ ]
+}

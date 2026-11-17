@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-11-10T17:38:22.481Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [
+    "demo_1/pages/sample-pages/error_2.html",
+    "docs/docs.html"
+  ],
+  "pages": [
+    {
+      "path": "demo_1/index.html",
+      "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+    },
+    {
+      "path": "assets/vendors/iconfonts/mdi/preview.html",
+      "title": "Material Design Icons"
+    },
+    {
+      "path": "demo_1/pages/charts/chartjs.html",
+      "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+    },
+    {
+      "path": "demo_1/pages/forms/form-elements.html",
+      "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+    },
+    {
+      "path": "demo_1/pages/icons/material-icons.html",
+      "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+    },
+    {
+      "path": "demo_1/pages/sample-pages/login_1.html",
+      "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+    },
+    {
+      "path": "demo_1/pages/ui-components/buttons.html",
+      "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+    },
+    {
+      "path": "demo_1/pages/ui-components/tables.html",
+      "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+    },
+    {
+      "path": "demo_1/pages/ui-components/typography.html",
+      "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "record": {
+    "slug": "coreui-free-react",
+    "title": "CoreUI Free React Admin",
+    "description": "Bootstrap-based React admin with dashboard, widgets, charts, 25+ base components, buttons, forms, icons, notifications and auth pages.",
+    "repo": "coreui/coreui-free-react-admin-template",
+    "sha": "2609f5995035973e00c16ec723165a5fff87cceb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/coreui/coreui-free-react-admin-template/blob/2609f5995035973e00c16ec723165a5fff87cceb/LICENSE"
+    },
+    "author": "creativeLabs Łukasz Holeczek",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "coreui",
+      "chartjs",
+      "react-router",
+      "redux"
+    ],
+    "demoUrl": "https://coreui.io/demos/react/5.0/free/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "CoreUI Free React Admin"
+      }
+    ],
+    "storedBytes": 6276345,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:36.757Z"
+  },
+  "serve": {
+    "slug": "coreui-free-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/coreui/coreui-free-react-admin-template@2609f5995035973e00c16ec723165a5fff87cceb/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/1-Bxx5tbqp.jpg": "src/assets/images/avatars/1.jpg",
+      "assets/2-DU4eQes8.jpg": "src/assets/images/avatars/2.jpg",
+      "assets/3-D73ZQ4h9.jpg": "src/assets/images/avatars/3.jpg",
+      "assets/4-TDOHctEN.jpg": "src/assets/images/avatars/4.jpg",
+      "assets/5-C7PguISa.jpg": "src/assets/images/avatars/5.jpg",
+      "assets/6-DAej8nlJ.jpg": "src/assets/images/avatars/6.jpg",
+      "assets/8-CQnrj2m9.jpg": "src/assets/images/avatars/8.jpg",
+      "assets/angular-DbhKAn4Z.jpg": "src/assets/images/angular.jpg",
+      "assets/components-rl0RgVTV.webp": "src/assets/images/components.webp",
+      "assets/icons-C5EGodH8.webp": "src/assets/images/icons.webp",
+      "assets/react-DmxSGVXA.jpg": "src/assets/images/react.jpg",
+      "assets/vue-Ces23Jk5.jpg": "src/assets/images/vue.jpg",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

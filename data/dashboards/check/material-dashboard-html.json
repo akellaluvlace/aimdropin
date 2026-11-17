@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-10T18:06:28.981Z",
+  "pagesChecked": 14,
+  "pagesOk": 14,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "pages/dashboard.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/billing.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/icons.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/map.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/notifications.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/profile.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/rtl.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/sign-in.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/sign-up.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/tables.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/template.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/typography.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "pages/virtual-reality.html",
+      "title": "Material Dashboard 3 by Creative Tim"
+    },
+    {
+      "path": "template.html",
+      "title": "Material Dashboard 2 by Creative Tim"
+    }
+  ]
+}

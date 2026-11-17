@@ -1,0 +1,233 @@
+{
+  "checkedAt": "2026-11-10T19:05:25.474Z",
+  "pagesChecked": 50,
+  "pagesOk": 50,
+  "failures": [],
+  "deadLinks": [
+    "apps/blog/detail/after-twitter-staff-cuts-survivors-face-radio-silence/@@webRoot/main/index.html",
+    "apps/blog/detail/apple-is-apparently-working-on-a-new-streamlined-accessibility-for-ios/@@webRoot/main/index.html",
+    "apps/blog/detail/as-yen-tumbles-gadget-loving-japan-goes-for-secondhand-iphones-/@@webRoot/main/index.html",
+    "apps/blog/detail/covid-outbreak-deepens-as-more-lockdowns-loom-in-china/@@webRoot/main/index.html",
+    "apps/blog/detail/early-black-friday-amazon-deals-cheap-tvs-headphones-laptops/@@webRoot/main/index.html",
+    "apps/blog/detail/garmins-instinct-crossover-is-a-rugged-hybrid-smartwatch/@@webRoot/main/index.html",
+    "apps/blog/detail/intel-loses-bid-to-revive-antitrust-case-against-patent-foe-fortress/@@webRoot/main/index.html",
+    "apps/blog/detail/presented-by-max-rushden-with-barry-glendenning-philippe-auclair/@@webRoot/main/index.html",
+    "apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow/@@webRoot/main/index.html",
+    "apps/blog/detail/why-figma-is-selling-to-adobe-for-20-billion-streamlined/@@webRoot/main/index.html",
+    "apps/blog/post/@@webRoot/main/index.html",
+    "apps/notes/@@webRoot/main/index.html",
+    "apps/tickets/create/@@webRoot/main/index.html",
+    "apps/tickets/@@webRoot/main/index.html",
+    "user-profile/@@webRoot/main/index.html",
+    "utilities/form/@@webRoot/main/index.html",
+    "utilities/shadow/@@webRoot/main/index.html",
+    "utilities/table/@@webRoot/main/index.html",
+    "utilities/typography/@@webRoot/main/index.html",
+    "utilities/@@webRoot/main/index.html",
+    "@@webRoot/main/index.html",
+    "apps/@@webRoot/main/index.html",
+    "apps/blog/detail/@@webRoot/main/index.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "_not-found/index.html",
+      "title": "Error-404"
+    },
+    {
+      "path": "404.html",
+      "title": "Error-404"
+    },
+    {
+      "path": "404/index.html",
+      "title": "Error-404"
+    },
+    {
+      "path": "apps/blog/detail/after-twitter-staff-cuts-survivors-face-radio-silence/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/apple-is-apparently-working-on-a-new-streamlined-accessibility-for-ios/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/as-yen-tumbles-gadget-loving-japan-goes-for-secondhand-iphones-/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/covid-outbreak-deepens-as-more-lockdowns-loom-in-china/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/early-black-friday-amazon-deals-cheap-tvs-headphones-laptops/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/garmins-instinct-crossover-is-a-rugged-hybrid-smartwatch/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/intel-loses-bid-to-revive-antitrust-case-against-patent-foe-fortress/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/presented-by-max-rushden-with-barry-glendenning-philippe-auclair/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/why-figma-is-selling-to-adobe-for-20-billion-streamlined/index.html",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/post/index.html",
+      "title": "Blog Post"
+    },
+    {
+      "path": "apps/notes/index.html",
+      "title": "Notes App"
+    },
+    {
+      "path": "apps/tickets/create/index.html",
+      "title": "Ticket App"
+    },
+    {
+      "path": "apps/tickets/index.html",
+      "title": "Ticket App"
+    },
+    {
+      "path": "auth/login/index.html",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "auth/register/index.html",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "icons/solar/index.html",
+      "title": "Solar Icons"
+    },
+    {
+      "path": "sample-page/index.html",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "user-profile/index.html",
+      "title": "user-profile"
+    },
+    {
+      "path": "utilities/form/index.html",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "utilities/shadow/index.html",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "utilities/table/index.html",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "utilities/typography/index.html",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "utilities/typography/",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "utilities/table/",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "utilities/form/",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "utilities/shadow/",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "user-profile/",
+      "title": "user-profile"
+    },
+    {
+      "path": "apps/notes/",
+      "title": "Notes App"
+    },
+    {
+      "path": "apps/tickets/",
+      "title": "Ticket App"
+    },
+    {
+      "path": "auth/login/",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "auth/register/",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "icons/solar/",
+      "title": "Solar Icons"
+    },
+    {
+      "path": "sample-page/",
+      "title": "MatDash-Nextjs-Free"
+    },
+    {
+      "path": "apps/blog/detail/early-black-friday-amazon-deals-cheap-tvs-headphones-laptops/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/presented-by-max-rushden-with-barry-glendenning-philippe-auclair/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/as-yen-tumbles-gadget-loving-japan-goes-for-secondhand-iphones-/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/intel-loses-bid-to-revive-antitrust-case-against-patent-foe-fortress/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/covid-outbreak-deepens-as-more-lockdowns-loom-in-china/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/apple-is-apparently-working-on-a-new-streamlined-accessibility-for-ios/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/after-twitter-staff-cuts-survivors-face-radio-silence/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/why-figma-is-selling-to-adobe-for-20-billion-streamlined/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "apps/blog/detail/garmins-instinct-crossover-is-a-rugged-hybrid-smartwatch/",
+      "title": "Blog Details"
+    },
+    {
+      "path": "auth/login",
+      "title": "MatDash-Nextjs-Free"
+    }
+  ]
+}

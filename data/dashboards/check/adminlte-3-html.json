@@ -1,0 +1,292 @@
+{
+  "checkedAt": "2026-11-10T18:11:41.774Z",
+  "pagesChecked": 70,
+  "pagesOk": 65,
+  "failures": [
+    {
+      "path": "pages/examples/language-menu.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB /demos/adminlte-3-html/plugins/flag-icons/css/flag-icons.min.css"
+    },
+    {
+      "path": "pages/search/enhanced-results.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read the 'caches' property from 'Window': Cache storage is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag. · script error: writeEmbed is not defined · script error: Uncaught undefined"
+    },
+    {
+      "path": "pages/search/simple-results.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read the 'caches' property from 'Window': Cache storage is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag. · script error: writeEmbed is not defined"
+    },
+    {
+      "path": "pages/UI/timeline.html",
+      "problem": "script error: Uncaught SecurityError: Failed to read the 'caches' property from 'Window': Cache storage is disabled because the context is sandboxed and lacks the 'allow-same-origin' flag. · script error: writeEmbed is not defined · script error: Uncaught undefined"
+    },
+    {
+      "path": "pages/widgets.html",
+      "problem": "net::ERR_FAILED /demos/adminlte-3-html/pages/widgets.html"
+    }
+  ],
+  "deadLinks": [
+    "pages/layout/index3.html"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "AdminLTE 3 | Dashboard"
+    },
+    {
+      "path": "iframe-dark.html",
+      "title": "AdminLTE 3 | Tabbed IFrames"
+    },
+    {
+      "path": "iframe.html",
+      "title": "AdminLTE 3 | Tabbed IFrames"
+    },
+    {
+      "path": "index2.html",
+      "title": "AdminLTE 3 | Dashboard 2"
+    },
+    {
+      "path": "index3.html",
+      "title": "AdminLTE 3 | Dashboard 3"
+    },
+    {
+      "path": "pages/calendar.html",
+      "title": "AdminLTE 3 | Calendar"
+    },
+    {
+      "path": "pages/charts/chartjs.html",
+      "title": "AdminLTE 3 | ChartJS"
+    },
+    {
+      "path": "pages/charts/flot.html",
+      "title": "AdminLTE 3 | Flot Charts"
+    },
+    {
+      "path": "pages/charts/inline.html",
+      "title": "AdminLTE 3 | Inline Charts"
+    },
+    {
+      "path": "pages/charts/uplot.html",
+      "title": "AdminLTE 3 | uPlot"
+    },
+    {
+      "path": "pages/examples/404.html",
+      "title": "AdminLTE 3 | 404 Page not found"
+    },
+    {
+      "path": "pages/examples/500.html",
+      "title": "AdminLTE 3 | 500 Error"
+    },
+    {
+      "path": "pages/examples/blank.html",
+      "title": "AdminLTE 3 | Blank Page"
+    },
+    {
+      "path": "pages/examples/contact-us.html",
+      "title": "AdminLTE 3 | Contact us"
+    },
+    {
+      "path": "pages/examples/contacts.html",
+      "title": "AdminLTE 3 | Contacts"
+    },
+    {
+      "path": "pages/examples/e-commerce.html",
+      "title": "AdminLTE 3 | E-commerce"
+    },
+    {
+      "path": "pages/examples/faq.html",
+      "title": "AdminLTE 3 | FAQ"
+    },
+    {
+      "path": "pages/examples/forgot-password-v2.html",
+      "title": "AdminLTE 3 | Forgot Password (v2)"
+    },
+    {
+      "path": "pages/examples/forgot-password.html",
+      "title": "AdminLTE 3 | Forgot Password"
+    },
+    {
+      "path": "pages/examples/invoice-print.html",
+      "title": "AdminLTE 3 | Invoice Print"
+    },
+    {
+      "path": "pages/examples/invoice.html",
+      "title": "AdminLTE 3 | Invoice"
+    },
+    {
+      "path": "pages/examples/legacy-user-menu.html",
+      "title": "AdminLTE 3 | Legacy User Menu"
+    },
+    {
+      "path": "pages/examples/lockscreen.html",
+      "title": "AdminLTE 3 | Lockscreen"
+    },
+    {
+      "path": "pages/examples/login-v2.html",
+      "title": "AdminLTE 3 | Log in (v2)"
+    },
+    {
+      "path": "pages/examples/login.html",
+      "title": "AdminLTE 3 | Log in"
+    },
+    {
+      "path": "pages/examples/pace.html",
+      "title": "AdminLTE 3 | Pace"
+    },
+    {
+      "path": "pages/examples/profile.html",
+      "title": "AdminLTE 3 | User Profile"
+    },
+    {
+      "path": "pages/examples/project-add.html",
+      "title": "AdminLTE 3 | Project Add"
+    },
+    {
+      "path": "pages/examples/project-detail.html",
+      "title": "AdminLTE 3 | Project Detail"
+    },
+    {
+      "path": "pages/examples/project-edit.html",
+      "title": "AdminLTE 3 | Project Edit"
+    },
+    {
+      "path": "pages/examples/projects.html",
+      "title": "AdminLTE 3 | Projects"
+    },
+    {
+      "path": "pages/examples/recover-password-v2.html",
+      "title": "AdminLTE 3 | Recover Password (v2)"
+    },
+    {
+      "path": "pages/examples/recover-password.html",
+      "title": "AdminLTE 3 | Recover Password"
+    },
+    {
+      "path": "pages/examples/register-v2.html",
+      "title": "AdminLTE 3 | Registration Page (v2)"
+    },
+    {
+      "path": "pages/examples/register.html",
+      "title": "AdminLTE 3 | Registration Page"
+    },
+    {
+      "path": "pages/forms/advanced.html",
+      "title": "AdminLTE 3 | Advanced form elements"
+    },
+    {
+      "path": "pages/forms/editors.html",
+      "title": "AdminLTE 3 | Editors"
+    },
+    {
+      "path": "pages/forms/general.html",
+      "title": "AdminLTE 3 | General Form Elements"
+    },
+    {
+      "path": "pages/forms/validation.html",
+      "title": "AdminLTE 3 | Validation Form"
+    },
+    {
+      "path": "pages/gallery.html",
+      "title": "AdminLTE 3 | Gallery"
+    },
+    {
+      "path": "pages/kanban.html",
+      "title": "AdminLTE 3 | Kanban Board"
+    },
+    {
+      "path": "pages/layout/boxed.html",
+      "title": "AdminLTE 3 | Boxed Layout"
+    },
+    {
+      "path": "pages/layout/collapsed-sidebar.html",
+      "title": "AdminLTE 3 | Collapsed Sidebar"
+    },
+    {
+      "path": "pages/layout/fixed-footer.html",
+      "title": "AdminLTE 3 | Fixed Footer Layout"
+    },
+    {
+      "path": "pages/layout/fixed-sidebar-custom.html",
+      "title": "AdminLTE 3 | Fixed Sidebar"
+    },
+    {
+      "path": "pages/layout/fixed-sidebar.html",
+      "title": "AdminLTE 3 | Fixed Sidebar"
+    },
+    {
+      "path": "pages/layout/fixed-topnav.html",
+      "title": "AdminLTE 3 | Fixed Navbar Layout"
+    },
+    {
+      "path": "pages/layout/top-nav-sidebar.html",
+      "title": "AdminLTE 3 | Top Navigation + Sidebar"
+    },
+    {
+      "path": "pages/layout/top-nav.html",
+      "title": "AdminLTE 3 | Top Navigation"
+    },
+    {
+      "path": "pages/mailbox/compose.html",
+      "title": "AdminLTE 3 | Compose Message"
+    },
+    {
+      "path": "pages/mailbox/mailbox.html",
+      "title": "AdminLTE 3 | Mailbox"
+    },
+    {
+      "path": "pages/mailbox/read-mail.html",
+      "title": "AdminLTE 3 | Read Mail"
+    },
+    {
+      "path": "pages/search/enhanced.html",
+      "title": "AdminLTE 3 | Enhanced Search Form"
+    },
+    {
+      "path": "pages/search/simple.html",
+      "title": "AdminLTE 3 | Simple Search Form"
+    },
+    {
+      "path": "pages/tables/data.html",
+      "title": "AdminLTE 3 | DataTables"
+    },
+    {
+      "path": "pages/tables/jsgrid.html",
+      "title": "AdminLTE 3 | jsGrid"
+    },
+    {
+      "path": "pages/tables/simple.html",
+      "title": "AdminLTE 3 | Simple Tables"
+    },
+    {
+      "path": "pages/UI/buttons.html",
+      "title": "AdminLTE 3 | Buttons"
+    },
+    {
+      "path": "pages/UI/general.html",
+      "title": "AdminLTE 3 | General UI"
+    },
+    {
+      "path": "pages/UI/icons.html",
+      "title": "AdminLTE 3 | Icons"
+    },
+    {
+      "path": "pages/UI/modals.html",
+      "title": "AdminLTE 3 | Modals & Alerts"
+    },
+    {
+      "path": "pages/UI/navbar.html",
+      "title": "AdminLTE 3 | Navbar & Tabs"
+    },
+    {
+      "path": "pages/UI/ribbons.html",
+      "title": "AdminLTE 3 | UI Ribbons"
+    },
+    {
+      "path": "pages/UI/sliders.html",
+      "title": "AdminLTE 3 | UI Sliders"
+    },
+    {
+      "path": "starter.html",
+      "title": "AdminLTE 3 | Starter"
+    }
+  ]
+}

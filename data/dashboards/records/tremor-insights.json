@@ -1,0 +1,90 @@
+{
+  "record": {
+    "slug": "tremor-insights",
+    "title": "Tremor Insights",
+    "description": "Expense analytics: reports, filterable transactions, three-step onboarding, audit/billing/users settings and a login page.",
+    "repo": "tremorlabs/template-insights",
+    "sha": "c94ef1f3756793d541b01df6b2012828182e58bb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/tremorlabs/template-insights/blob/c94ef1f3756793d541b01df6b2012828182e58bb/LICENSE.md"
+    },
+    "author": "Tremor Labs",
+    "framework": "next",
+    "ui": "tremor",
+    "category": "Finance",
+    "tags": [
+      "tremor",
+      "recharts",
+      "tanstack-table",
+      "onboarding"
+    ],
+    "demoUrl": "https://insights.tremor.so",
+    "quality": 5,
+    "entry": "reports/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "reports/index.html",
+        "title": "Insights"
+      },
+      {
+        "path": "404.html",
+        "title": "Insights"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Insights"
+      },
+      {
+        "path": "login/index.html",
+        "title": "Insights"
+      },
+      {
+        "path": "onboarding/employees/index.html",
+        "title": "Insights"
+      },
+      {
+        "path": "onboarding/infrastructure/index.html",
+        "title": "Insights"
+      },
+      {
+        "path": "onboarding/products/index.html",
+        "title": "Insights"
+      },
+      {
+        "path": "settings/audit/index.html",
+        "title": "Insights"
+      },
+      {
+        "path": "settings/billing/index.html",
+        "title": "Insights"
+      },
+      {
+        "path": "settings/users/index.html",
+        "title": "Insights"
+      },
+      {
+        "path": "transactions/index.html",
+        "title": "Insights"
+      }
+    ],
+    "storedBytes": 2993238,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:36:13.626Z"
+  },
+  "serve": {
+    "slug": "tremor-insights",
+    "kind": "build",
+    "entry": "reports/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/tremorlabs/template-insights@c94ef1f3756793d541b01df6b2012828182e58bb/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "src/app/favicon.ico"
+    }
+  }
+}

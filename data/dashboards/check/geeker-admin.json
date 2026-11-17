@@ -1,0 +1,231 @@
+{
+  "checkedAt": "2026-11-10T19:17:56.490Z",
+  "pagesChecked": 49,
+  "pagesOk": 49,
+  "failures": [],
+  "deadLinks": [
+    "menu/menu2/menu23",
+    "auth/menu",
+    "assembly/batchImport",
+    "echarts/waterChart",
+    "echarts/columnChart",
+    "echarts/lineChart",
+    "echarts/pieChart",
+    "echarts/radarChart",
+    "echarts/nestedChart",
+    "directives/copyDirect",
+    "directives/watermarkDirect",
+    "directives/debounceDirect",
+    "directives/throttleDirect",
+    "directives/longpressDirect",
+    "menu/menu1",
+    "menu/menu2",
+    "menu/menu3",
+    "link/gitee",
+    "link/github",
+    "link/docs",
+    "link/juejin",
+    "auth",
+    "echarts",
+    "directives",
+    "menu"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "首页 - Geeker Admin"
+    },
+    {
+      "path": "menu/menu2/menu22/menu221",
+      "title": "菜单2-2-1 - Geeker Admin"
+    },
+    {
+      "path": "menu/menu2/menu22/menu222",
+      "title": "菜单2-2-2 - Geeker Admin"
+    },
+    {
+      "path": "menu/menu2/menu21",
+      "title": "菜单2-1 - Geeker Admin"
+    },
+    {
+      "path": "menu/menu2/menu22",
+      "title": "菜单2-2-1 - Geeker Admin"
+    },
+    {
+      "path": "home/index",
+      "title": "Home / Index"
+    },
+    {
+      "path": "proTable/useProTable",
+      "title": "使用 ProTable - Geeker Admin"
+    },
+    {
+      "path": "proTable/useTreeFilter",
+      "title": "使用 TreeFilter - Geeker Admin"
+    },
+    {
+      "path": "proTable/useSelectFilter",
+      "title": "使用 SelectFilter - Geeker Admin"
+    },
+    {
+      "path": "proTable/treeProTable",
+      "title": "树形 ProTable - Geeker Admin"
+    },
+    {
+      "path": "proTable/complexProTable",
+      "title": "复杂 ProTable - Geeker Admin"
+    },
+    {
+      "path": "proTable/document",
+      "title": "ProTable 文档 - Geeker Admin"
+    },
+    {
+      "path": "auth/button",
+      "title": "按钮权限 - Geeker Admin"
+    },
+    {
+      "path": "assembly/guide",
+      "title": "引导页 - Geeker Admin"
+    },
+    {
+      "path": "assembly/tabs",
+      "title": "标签页操作 - Geeker Admin"
+    },
+    {
+      "path": "assembly/selectIcon",
+      "title": "图标选择器 - Geeker Admin"
+    },
+    {
+      "path": "assembly/selectFilter",
+      "title": "分类筛选器 - Geeker Admin"
+    },
+    {
+      "path": "assembly/treeFilter",
+      "title": "树形筛选器 - Geeker Admin"
+    },
+    {
+      "path": "assembly/svgIcon",
+      "title": "SVG 图标 - Geeker Admin"
+    },
+    {
+      "path": "assembly/uploadFile",
+      "title": "文件上传 - Geeker Admin"
+    },
+    {
+      "path": "assembly/wangEditor",
+      "title": "富文本编辑器 - Geeker Admin"
+    },
+    {
+      "path": "assembly/draggable",
+      "title": "拖拽组件 - Geeker Admin"
+    },
+    {
+      "path": "dashboard/dataVisualize",
+      "title": "数据可视化 - Geeker Admin"
+    },
+    {
+      "path": "form/proForm",
+      "title": "超级 Form - Geeker Admin"
+    },
+    {
+      "path": "form/basicForm",
+      "title": "基础 Form - Geeker Admin"
+    },
+    {
+      "path": "form/validateForm",
+      "title": "校验 Form - Geeker Admin"
+    },
+    {
+      "path": "form/dynamicForm",
+      "title": "动态 Form - Geeker Admin"
+    },
+    {
+      "path": "directives/dragDirect",
+      "title": "拖拽指令 - Geeker Admin"
+    },
+    {
+      "path": "system/accountManage",
+      "title": "账号管理 - Geeker Admin"
+    },
+    {
+      "path": "system/roleManage",
+      "title": "角色管理 - Geeker Admin"
+    },
+    {
+      "path": "system/menuMange",
+      "title": "菜单管理 - Geeker Admin"
+    },
+    {
+      "path": "system/departmentManage",
+      "title": "部门管理 - Geeker Admin"
+    },
+    {
+      "path": "system/dictManage",
+      "title": "字典管理 - Geeker Admin"
+    },
+    {
+      "path": "system/timingTask",
+      "title": "定时任务 - Geeker Admin"
+    },
+    {
+      "path": "system/systemLog",
+      "title": "系统日志 - Geeker Admin"
+    },
+    {
+      "path": "link/bing",
+      "title": "Bing 内嵌 - Geeker Admin"
+    },
+    {
+      "path": "about/index",
+      "title": "关于项目 - Geeker Admin"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "proTable",
+      "title": "使用 ProTable - Geeker Admin"
+    },
+    {
+      "path": "assembly",
+      "title": "引导页 - Geeker Admin"
+    },
+    {
+      "path": "dashboard",
+      "title": "数据可视化 - Geeker Admin"
+    },
+    {
+      "path": "form",
+      "title": "超级 Form - Geeker Admin"
+    },
+    {
+      "path": "system",
+      "title": "账号管理 - Geeker Admin"
+    },
+    {
+      "path": "link",
+      "title": "Bing 内嵌 - Geeker Admin"
+    },
+    {
+      "path": "layout",
+      "title": "Layout"
+    },
+    {
+      "path": "403",
+      "title": "403页面 - Geeker Admin"
+    },
+    {
+      "path": "404",
+      "title": "404页面 - Geeker Admin"
+    },
+    {
+      "path": "500",
+      "title": "500页面 - Geeker Admin"
+    },
+    {
+      "path": "dataScreen",
+      "title": "数据大屏 - Geeker Admin"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-11-10T17:32:23.837Z",
+  "pagesChecked": 15,
+  "pagesOk": 15,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Dashboard"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "form-elements/autocomplete",
+      "title": "Modernize Free React Admin Template by Adminmart"
+    },
+    {
+      "path": "form-elements/button",
+      "title": "Modernize Free React Admin Template by Adminmart"
+    },
+    {
+      "path": "form-elements/checkbox",
+      "title": "Modernize Free React Admin Template by Adminmart"
+    },
+    {
+      "path": "form-elements/radio",
+      "title": "Modernize Free React Admin Template by Adminmart"
+    },
+    {
+      "path": "form-elements/slider",
+      "title": "Modernize Free React Admin Template by Adminmart"
+    },
+    {
+      "path": "form-elements/switch",
+      "title": "Modernize Free React Admin Template by Adminmart"
+    },
+    {
+      "path": "tables/basic-table",
+      "title": "Modernize Free React Admin Template by Adminmart"
+    },
+    {
+      "path": "form-layouts",
+      "title": "Modernize Free React Admin Template by Adminmart"
+    },
+    {
+      "path": "sample-page",
+      "title": "Sample Page"
+    },
+    {
+      "path": "ui/typography",
+      "title": "Typography"
+    },
+    {
+      "path": "ui/shadow",
+      "title": "Shadow"
+    },
+    {
+      "path": "auth/login",
+      "title": "Login"
+    },
+    {
+      "path": "auth/register",
+      "title": "Register"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "record": {
+    "slug": "argon-dashboard-react",
+    "title": "Argon Dashboard React",
+    "description": "Bootstrap 4 + reactstrap admin with dashboard charts, icons, Google map, user profile, tables and login/register pages.",
+    "repo": "creativetimofficial/argon-dashboard-react",
+    "sha": "04b58c36799220d0af4bb8f6e4b1f4a563f17994",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/argon-dashboard-react/blob/04b58c36799220d0af4bb8f6e4b1f4a563f17994/LICENSE"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "reactstrap",
+      "chartjs",
+      "react-router"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/argon-dashboard-react/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Argon Dashboard React"
+      }
+    ],
+    "storedBytes": 2239313,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.085Z"
+  },
+  "serve": {
+    "slug": "argon-dashboard-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/argon-dashboard-react@04b58c36799220d0af4bb8f6e4b1f4a563f17994/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-icon.png": "public/apple-icon.png",
+      "favicon.ico": "public/favicon.ico",
+      "static/media/angular.b50456665f80ad7ac7de.jpg": "src/assets/img/theme/angular.jpg",
+      "static/media/argon-react-white.e4dd3b41697ada43fdcb.png": "src/assets/img/brand/argon-react-white.png",
+      "static/media/argon-react.128d71d316a8e92aff4a.png": "src/assets/img/brand/argon-react.png",
+      "static/media/bootstrap.bd712487b8d6b192ca16.jpg": "src/assets/img/theme/bootstrap.jpg",
+      "static/media/nucleo-icons.19abb5402a664606b14c.eot": "src/assets/plugins/nucleo/fonts/nucleo-icons.eot",
+      "static/media/nucleo-icons.c82c9b7c40130b7116d3.woff": "src/assets/plugins/nucleo/fonts/nucleo-icons.woff",
+      "static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2": "src/assets/plugins/nucleo/fonts/nucleo-icons.woff2",
+      "static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf": "src/assets/plugins/nucleo/fonts/nucleo-icons.ttf",
+      "static/media/profile-cover.978992455652990b161d.jpg": "src/assets/img/theme/profile-cover.jpg",
+      "static/media/react.0e8c90660cd0ac1c3e75.jpg": "src/assets/img/theme/react.jpg",
+      "static/media/sketch.a6af780afb0dc6910131.jpg": "src/assets/img/theme/sketch.jpg",
+      "static/media/team-1-800x800.fa5a7ac2c81a43925586.jpg": "src/assets/img/theme/team-1-800x800.jpg",
+      "static/media/team-2-800x800.3e08ef145920c93bbe32.jpg": "src/assets/img/theme/team-2-800x800.jpg",
+      "static/media/team-3-800x800.70911cddbb86ea83b652.jpg": "src/assets/img/theme/team-3-800x800.jpg",
+      "static/media/team-4-800x800.99c612eb60728a5aeeb0.jpg": "src/assets/img/theme/team-4-800x800.jpg",
+      "static/media/vue.43bd93a8a614b73badd2.jpg": "src/assets/img/theme/vue.jpg"
+    }
+  }
+}

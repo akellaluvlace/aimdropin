@@ -1,0 +1,52 @@
+{
+  "record": {
+    "slug": "vben-admin",
+    "title": "Vue Vben Admin",
+    "description": "Vue 3 + Ant Design Vue admin (Vben 5): analytics and workspace dashboards, demos, access control, themes, layouts and i18n, backed by Vben's hosted mock API.",
+    "repo": "vbenjs/vue-vben-admin",
+    "sha": "53b47f8ce99ecea11aa04c9c876a2f18c479838f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/vbenjs/vue-vben-admin/blob/53b47f8ce99ecea11aa04c9c876a2f18c479838f/LICENSE"
+    },
+    "author": "Vben",
+    "framework": "vue",
+    "ui": "ant-design-vue",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "ant-design-vue",
+      "tailwind",
+      "monorepo",
+      "i18n",
+      "dark-mode"
+    ],
+    "demoUrl": "https://vben.pro/",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue Vben Admin"
+      }
+    ],
+    "storedBytes": 3770702,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:41.709Z"
+  },
+  "serve": {
+    "slug": "vben-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/vbenjs/vue-vben-admin@53b47f8ce99ecea11aa04c9c876a2f18c479838f/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "apps/web-antd/public/favicon.ico"
+    }
+  }
+}

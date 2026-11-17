@@ -1,0 +1,71 @@
+{
+  "record": {
+    "slug": "notus-react",
+    "title": "Notus React",
+    "description": "Tailwind CSS UI kit and admin: dashboard, settings, tables, map, login/register, landing and profile pages.",
+    "repo": "creativetimofficial/notus-react",
+    "sha": "e5a3728ab2fdf93677ba717f00bbb8413bfafb39",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/notus-react/blob/e5a3728ab2fdf93677ba717f00bbb8413bfafb39/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "tailwind",
+      "chartjs",
+      "landing-page"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-react/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Notus React"
+      }
+    ],
+    "storedBytes": 3604380,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.514Z"
+  },
+  "serve": {
+    "slug": "notus-react",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/notus-react@e5a3728ab2fdf93677ba717f00bbb8413bfafb39/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-icon.png": "public/apple-icon.png",
+      "favicon.ico": "public/favicon.ico",
+      "robots.txt": "public/robots.txt",
+      "static/media/angular.b50456665f80ad7ac7de.jpg": "src/assets/img/angular.jpg",
+      "static/media/bootstrap.bd712487b8d6b192ca16.jpg": "src/assets/img/bootstrap.jpg",
+      "static/media/component-info-2.5212a3a6a4cdd7663af1.png": "src/assets/img/component-info-2.png",
+      "static/media/component-info-card.d19a4464d2cb70bb8050.png": "src/assets/img/component-info-card.png",
+      "static/media/component-menu.418bd9495e75d1cb2461.png": "src/assets/img/component-menu.png",
+      "static/media/component-profile-card.52a3ee76a70356d2e910.png": "src/assets/img/component-profile-card.png",
+      "static/media/documentation.014ebef5373d22e36244.png": "src/assets/img/documentation.png",
+      "static/media/landing.8150f1b0f50babf23b18.jpg": "src/assets/img/landing.jpg",
+      "static/media/login.9c1ecd37bdf6110890b8.jpg": "src/assets/img/login.jpg",
+      "static/media/pattern_react.01996482038c959aba34.png": "src/assets/img/pattern_react.png",
+      "static/media/profile.c62f8a5b46b0d1826ede.jpg": "src/assets/img/profile.jpg",
+      "static/media/react.0e8c90660cd0ac1c3e75.jpg": "src/assets/img/react.jpg",
+      "static/media/register_bg_2.4f2cb0ac523768c8c77b.png": "src/assets/img/register_bg_2.png",
+      "static/media/sketch.a6af780afb0dc6910131.jpg": "src/assets/img/sketch.jpg",
+      "static/media/team-1-800x800.fa5a7ac2c81a43925586.jpg": "src/assets/img/team-1-800x800.jpg",
+      "static/media/team-2-800x800.3e08ef145920c93bbe32.jpg": "src/assets/img/team-2-800x800.jpg",
+      "static/media/team-3-800x800.19201574ed51f77138a7.jpg": "src/assets/img/team-3-800x800.jpg",
+      "static/media/team-4-470x470.4ef82ef45a9598d24c4c.png": "src/assets/img/team-4-470x470.png",
+      "static/media/vue.43bd93a8a614b73badd2.jpg": "src/assets/img/vue.jpg"
+    }
+  }
+}

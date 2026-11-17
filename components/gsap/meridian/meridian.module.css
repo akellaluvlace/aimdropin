@@ -1,0 +1,317 @@
+/* Meridian: a concept for delivery tracking software. Everything is scoped to
+   .root, and this file, the folder it is in and /assets/gsap/meridian are all the demo needs: it can be lifted
+   out whole.
+
+   The page is one pinned stage (.stage). Its height is written in px by the director and does not change
+   when a phone's toolbar moves; what stands on it is measured against it (container units). The scroller
+   is an element, never the document.
+
+   Map and words never share room. On a wide stage the console (.waybill) is a label down the left and the
+   map has the rest. On a tall one (a phone) the map is the top of the stage and the console stands under it
+   (--sheet is its height).
+
+   The look is a chart and the label that travels with a parcel: paper land, a pale tint for water, ink
+   linework, and the magenta an air chart draws a route in. One family, Overpass, which began as the
+   lettering of road signs, with its monospace for what a machine printed. */
+
+@font-face { font-family: 'Overpass'; font-style: normal; font-weight: 100 900; font-display: swap; src: url('/assets/gsap/meridian/fonts/overpass-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Overpass Mono'; font-style: normal; font-weight: 300 700; font-display: swap; src: url('/assets/gsap/meridian/fonts/overpass-mono-latin.woff2') format('woff2'); }
+
+.root {
+  --paper: #f8f8f4;
+  --label: #ffffff;
+  --sea: #d8e4ea;
+  --space: #eef1f3;
+  --ink: #101820;
+  --steel: #55626c;
+  --rule: rgb(16 24 32 / .2);
+  --route: #d6007e;
+  --amber: #f0a400;
+  --font: 'Overpass', 'Helvetica Neue', Arial, sans-serif;
+  --mono: 'Overpass Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  /* One stage is one screen of the scroller; the director writes it in px. */
+  --stage: 100cqh;
+  --gutter: clamp(12px, 1.7cqw, 24px);
+  --pad: clamp(16px, 1.6cqw, 24px);
+  /* The console's width on a wide stage, and its height on a tall one. */
+  --bill: clamp(330px, 31cqw, 440px);
+  --sheet: 0px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  container-type: size;
+  background: var(--space);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Half the stage, and at least 360px so the bars have room, unless that would leave the map under 250px. */
+.root[data-shape=tall] { --sheet: clamp(300px, max(50cqh, min(360px, 100cqh - 250px)), 560px); --pad: 16px; }
+.root *, .root *::before, .root *::after { box-sizing: border-box; }
+.root :where(h1, h2, h3, p, ol, ul, dl, dd, figure) { margin: 0; padding: 0; }
+.root :where(ol, ul) { list-style: none; }
+.root :where(button) { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.root :where(a, button):focus-visible { outline: 2px solid var(--route); outline-offset: 3px; }
+.root :where(i, em) { font-style: normal; }
+.root :where(b) { font-weight: inherit; }
+.srOnly { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.scroller { position: absolute; inset: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; outline: none; }
+.scroller::-webkit-scrollbar { display: none; }
+.track { height: calc(var(--stage) * (var(--screens) + 1)); }
+.stage { position: sticky; top: 0; height: var(--stage); overflow: hidden; container-type: size; background: var(--space); }
+/* The map: the whole stage when it is wide, the top of it when it is tall. */
+.map { position: absolute; left: 0; top: 0; width: 100%; height: calc(100% - var(--sheet)); display: block; z-index: 1; }
+
+/* ---------- What belongs to the map ---------- */
+.furniture { position: absolute; z-index: 3; left: calc(var(--gutter) * 2 + var(--bill)); right: var(--gutter); top: var(--gutter); bottom: var(--gutter); pointer-events: none; }
+.root[data-shape=tall] .furniture { left: var(--gutter); bottom: calc(var(--sheet) + 10px); top: calc(var(--gutter) + 44px); }
+/* A key to the map's lines. */
+.legend { position: absolute; left: 0; top: 0; display: flex; font-size: 12px; font-weight: 600; line-height: 1; }
+/* Each on paper of its own: when the second goes, no empty paper is left where it was. */
+.legend > span { display: inline-flex; align-items: center; gap: 6px; padding: 5px 9px 4px; background: rgb(248 248 244 / .88); }
+.legend i { display: block; width: 18px; height: 2px; background: #3d5a6c; opacity: .6; }
+.legend i[data-mine] { height: 3px; background: var(--route); opacity: 1; }
+.root[data-shape=tall] .legend { display: none; }
+.scaleBar { position: absolute; left: 0; bottom: 0; display: grid; gap: 5px; font-family: var(--mono); font-size: 11px; font-weight: 500; line-height: 1; color: var(--ink); }
+.scaleBar > i { display: block; height: 7px; width: var(--length, 120px); border: 1.5px solid var(--ink); border-top: 0; }
+.scaleBar > span { padding: 2px 4px 1px; background: rgb(248 248 244 / .85); width: fit-content; }
+.credit { position: absolute; right: 96px; bottom: 0; font-size: 10.5px; line-height: 1.3; color: var(--steel); padding: 2px 5px; background: rgb(248 248 244 / .8); }
+.root[data-shape=tall] .credit { right: 0; max-width: 58cqw; text-align: right; }
+/* What the software does by itself in Dublin, said as it happens: a card at the map's top corner, one at
+   a time, under the key. */
+.update { position: absolute; left: 0; top: 34px; width: min(310px, 32cqw); padding: 8px 12px 8px 11px; background: var(--label); border: 1.5px solid var(--ink); border-left: 4px solid var(--route); box-shadow: 6px 6px 0 rgb(16 24 32 / .1); visibility: hidden; }
+.updateKind { display: flex; align-items: baseline; gap: 8px; font-size: 11.5px; font-weight: 600; line-height: 1.25; color: var(--steel); }
+.updateKind > b { font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--ink); }
+.updateText { margin-top: 3px; font-size: 13.5px; font-weight: 600; line-height: 1.3; }
+.root[data-shape=tall] .update { top: 0; right: 8px; width: auto; padding: 6px 10px 6px 9px; }
+.root[data-shape=tall] .updateText { font-size: 13px; }
+/* A note that follows the parcel. */
+.note { position: absolute; left: 0; top: 0; font-family: var(--mono); font-size: 11px; font-weight: 500; line-height: 1; white-space: nowrap; visibility: hidden; will-change: transform; }
+.note > span { display: block; padding: 5px 7px 4px; background: var(--ink); color: #fff; transform: translateY(-50%); }
+/* The proof of delivery: a card laid on the map, at its right, between the tools above it and the step
+   buttons below, and never taller than that leaves: on a stage with little height its photograph gives
+   way (it is cut, top and bottom alike), and its width follows the height. It has no transform of its
+   own, GSAP moves it. The camera puts the door in the part of the map the card leaves free (mount.ts). */
+.proof { position: absolute; right: 0; top: 50px; bottom: 58px; margin-block: auto; width: min(300px, 26cqw, 46cqh); height: fit-content; max-height: calc(100% - 108px); display: flex; flex-direction: column; background: var(--label); border: 1.5px solid var(--ink); box-shadow: 8px 8px 0 rgb(16 24 32 / .12); visibility: hidden; pointer-events: auto; }
+.proofPhoto { flex: 0 1 auto; min-height: 56px; display: flex; align-items: center; overflow: hidden; border-bottom: 1.5px solid var(--ink); background: var(--paper); }
+.proofPhoto > img { display: block; flex: none; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.proof > figcaption { flex: none; padding: 12px 14px 0; font-size: 13px; }
+.proof > figcaption > b, .receipt > figcaption > b { display: block; font-weight: 700; margin-bottom: 6px; }
+.proof dl > div, .receipt dl > div { display: flex; justify-content: space-between; gap: 12px; padding: 3px 0; border-top: 1px solid var(--rule); }
+.proof dt, .receipt dt { color: var(--steel); }
+.proof dd, .receipt dd { font-family: var(--mono); font-size: 12px; font-weight: 500; }
+.signature { flex: none; display: block; width: calc(100% - 28px); height: auto; margin: 4px 14px 10px; border-top: 1px solid var(--rule); }
+.signature > path { fill: none; stroke: var(--ink); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+/* On a tall stage the map is too small to lay a card on: the proof of delivery is part of what the console
+   says at the door, under the words, its photograph at the left. It comes and goes with those words. */
+.receipt { display: none; position: relative; margin-top: 10px; background: var(--label); border: 1.5px solid var(--ink); }
+.receipt > .proofPhoto { position: absolute; left: 0; top: 0; bottom: 0; width: 34%; min-height: 0; border-bottom: 0; border-right: 1.5px solid var(--ink); }
+.receipt > .proofPhoto > img { height: 100%; aspect-ratio: auto; }
+.receipt > figcaption { margin-left: 34%; padding: 6px 10px 3px; font-size: 12px; line-height: 1.3; }
+.receipt > figcaption > b { margin-bottom: 4px; }
+.receipt dd { font-size: 11.5px; }
+.root[data-shape=tall] .proof { display: none; }
+.root[data-shape=tall] .receipt { display: block; }
+
+/* ---------- The console: a waybill ---------- */
+.waybill { position: absolute; z-index: 4; left: var(--gutter); top: var(--gutter); bottom: var(--gutter); width: var(--bill); display: flex; flex-direction: column; background: var(--label); border: 1.5px solid var(--ink); box-shadow: 8px 8px 0 rgb(16 24 32 / .1); }
+.waybill > * { padding: 0 var(--pad); }
+.waybill > * + * { border-top: 1px solid var(--rule); }
+.head { display: flex; align-items: baseline; justify-content: space-between; padding-top: 14px; padding-bottom: 12px; }
+.wordmark { font-weight: 800; font-size: 22px; line-height: 1; letter-spacing: -.02em; }
+.concept { font-size: 12px; font-weight: 500; color: var(--steel); }
+/* The product's own way in: a search, with the caret of a field that has the cursor. The page types the
+   parcel's number into it (mount.ts), and a pill says what state the parcel it found is in. */
+.search { padding-top: 8px; padding-bottom: 8px; }
+.field { display: flex; align-items: center; gap: 8px; height: 34px; padding: 0 6px 0 10px; background: var(--paper); border: 1.5px solid var(--ink); }
+.glass { flex: none; width: 13px; height: 13px; fill: none; stroke: var(--ink); stroke-width: 1.5; stroke-linecap: round; }
+.query { flex: 1 1 auto; min-width: 0; display: flex; align-items: center; overflow: hidden; font-family: var(--mono); font-size: 12.5px; font-weight: 500; line-height: 1; white-space: pre; }
+.caret { flex: none; display: block; width: 1.5px; height: 15px; margin: 0 2px 0 1px; background: var(--route); animation: meridian-caret 1.1s steps(1) infinite; }
+@keyframes meridian-caret { 0%, 55% { opacity: 1; } 56%, 100% { opacity: 0; } }
+.hint { font-family: var(--font); font-size: 13px; font-weight: 500; color: var(--steel); }
+.search[data-typing] .hint { display: none; }
+.pill { flex: none; padding: 5px 7px 4px; background: var(--label); border: 1.5px solid var(--route); color: var(--route); font-size: 11.5px; font-weight: 700; line-height: 1; white-space: nowrap; opacity: var(--found, 0); }
+.pill[data-done] { background: var(--route); color: #fff; }
+.due { font-variant-numeric: tabular-nums; }
+.fields { display: grid; padding-top: 9px; padding-bottom: 8px; font-family: var(--mono); font-size: 12px; line-height: 1.5; }
+.fields > div { display: flex; justify-content: space-between; gap: 12px; }
+.fields dt { color: var(--steel); }
+.fields dd { font-weight: 500; white-space: pre; }
+.told { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; padding-top: clamp(10px, 2cqh, 22px); padding-bottom: 12px; }
+.count { font-weight: 800; font-size: clamp(54px, min(7.1cqw, 13cqh), 112px); line-height: .9; letter-spacing: -.035em; font-variant-numeric: tabular-nums; color: var(--route); }
+/* A box of its own, as the loader's figure is: the one is laid over the other when the page opens. */
+.count > b { display: block; width: fit-content; }
+/* One sentence for each scale, all in the same place. */
+.says { position: relative; flex: 1 1 auto; min-height: 0; margin-top: 6px; }
+.say { position: absolute; left: 0; right: 0; top: 0; visibility: hidden; }
+.counted { font-weight: 700; font-size: clamp(20px, min(1.9cqw, 3.4cqh), 28px); line-height: 1.12; letter-spacing: -.012em; }
+/* What the number counts while the page is between two scales: said more quietly than a sentence at a rest. */
+.passing { color: var(--steel); }
+.body { margin-top: 10px; font-size: clamp(14px, 1.08cqw, 16px); line-height: 1.45; color: var(--steel); max-width: 38ch; }
+.line { display: block; overflow: hidden; overflow: clip; padding-bottom: .14em; margin-bottom: -.14em; }
+.line > span { display: block; will-change: transform; }
+/* The last screen ends as a product's page does, on its call to action; that there is no such product is
+   said in small print under it. */
+.close { margin-top: 14px; }
+.close > p { margin-top: 10px; font-size: 12px; line-height: 1.4; color: var(--steel); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; pointer-events: auto; }
+.primary, .ghost { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 0 18px; font-size: 14px; font-weight: 700; white-space: nowrap; transition: background-color .2s, color .2s, transform .2s; }
+.root .primary { background: var(--ink); color: #fff; }
+.root .ghost { border: 1.5px solid var(--ink); }
+.root .primary:active { transform: translate(1px, 1px); }
+@media (hover: hover) { .root .primary:hover { background: var(--route); } .root .ghost:hover { background: var(--paper); } }
+
+/* The console's two charts, each under a line that says what it is. */
+.chart { padding-top: 9px; padding-bottom: 9px; }
+.chartTitle { font-size: 11.5px; font-weight: 600; line-height: 1.2; color: var(--steel); margin-bottom: 6px; }
+/* What the parcels in the picture are doing: five bars that change shape with the scale. */
+.states { display: grid; gap: 5px; font-size: 13px; }
+.states > li { display: grid; grid-template-columns: 8.6em 1fr 4.2em; align-items: center; gap: 10px; color: var(--steel); }
+.states > li > i { display: block; height: 7px; background: rgb(16 24 32 / .08); }
+.states > li > i > b { display: block; height: 100%; width: calc(var(--share, 0) * 100%); background: var(--ink); }
+.states > li > em { font-family: var(--mono); font-size: 12px; font-weight: 500; text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
+/* The state this parcel is in. */
+.states > li[data-mine] { color: var(--ink); font-weight: 600; }
+.states > li[data-mine] > i > b { background: var(--route); }
+.ruler { height: 44px; }
+.ruler > canvas { display: block; width: 100%; height: 100%; }
+.cue { display: flex; align-items: center; gap: 8px; padding-top: 9px; padding-bottom: 8px; font-size: 13px; font-weight: 500; color: var(--steel); }
+.cue > i { display: grid; place-items: center; width: 20px; height: 20px; border: 1.5px solid var(--ink); color: var(--ink); animation: meridian-nod 2.2s cubic-bezier(.5, 0, .2, 1) infinite; }
+.cue svg { width: 9px; height: 9px; fill: none; stroke: currentColor; stroke-width: 1.4; }
+.cueMouse { display: none; }
+@media (hover: hover) and (pointer: fine) { .cueMouse { display: inline; } .cueTouch { display: none; } }
+@keyframes meridian-nod { 0%, 100% { transform: translateY(-1px); } 50% { transform: translateY(2px); } }
+.foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 9px; padding-bottom: 46px; font-family: var(--mono); font-size: 11px; color: var(--steel); }
+.barcode { display: flex; align-items: stretch; height: 24px; overflow: hidden; }
+.barcode > i { display: block; background: var(--ink); }
+
+/* ---------- Chrome ---------- */
+.bar { position: absolute; inset: 0 0 auto; z-index: 30; display: flex; align-items: center; justify-content: flex-end; gap: 12px; padding: var(--gutter); pointer-events: none; }
+.bar > * { pointer-events: auto; }
+/* On a wide stage the name is on the waybill; on a tall one it stands over the map. */
+.barMark { display: none; margin-right: auto; padding: 6px 9px 4px; background: var(--ink); color: #fff; font-weight: 800; font-size: 18px; line-height: 1; letter-spacing: -.02em; }
+.tools { display: flex; align-items: center; gap: 14px; padding: 5px 5px 5px 12px; background: var(--label); border: 1.5px solid var(--ink); font-size: 13px; font-weight: 600; }
+.exit { display: inline-flex; align-items: center; gap: 8px; }
+.exit > i { display: block; width: 26px; height: 26px; background: var(--ink); color: #fff; position: relative; }
+.exit > i::before, .exit > i::after { content: ''; position: absolute; left: 50%; top: 50%; width: 11px; height: 1.5px; background: currentColor; }
+.exit > i::before { transform: translate(-50%, -50%) rotate(45deg); }
+.exit > i::after { transform: translate(-50%, -50%) rotate(-45deg); }
+/* The scales, along the foot of the waybill. */
+.rail { position: absolute; z-index: 30; left: calc(var(--gutter) + var(--pad)); bottom: calc(var(--gutter) + 10px); width: calc(var(--bill) - var(--pad) * 2); display: flex; gap: 4px; pointer-events: none; font-size: 10.5px; font-weight: 600; color: var(--ink); }
+.railItem { flex: 1; min-width: 0; pointer-events: auto; text-align: left; padding: 8px 0 0; opacity: .45; transition: opacity .3s; }
+.railItem[aria-current=true] { opacity: 1; }
+@media (hover: hover) { .railItem:hover { opacity: 1; } }
+.railItem > i { display: block; height: 3px; background: rgb(16 24 32 / .14); margin-bottom: 5px; position: relative; overflow: hidden; }
+.railItem > i > b { position: absolute; inset: 0; background: var(--route); transform: scaleX(var(--fill, 0)); transform-origin: 0 50%; }
+.railItem > span { display: block; line-height: 1.1; white-space: nowrap; overflow: hidden; }
+.pager { --pager: 34px; position: absolute; right: var(--gutter); bottom: var(--gutter); z-index: 31; display: flex; gap: 6px; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+.pager > button { display: grid; place-items: center; width: var(--pager); height: var(--pager); background: var(--label); border: 1.5px solid var(--ink); touch-action: none; -webkit-tap-highlight-color: transparent; transition: background-color .2s, color .2s, opacity .25s, transform .2s; }
+.pager svg { width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 1.4; }
+.pager > button[data-down] { background: var(--ink); color: #fff; transform: translate(1px, 1px); }
+.pager[data-end=top] > button[data-step='-1'], .pager[data-end=bottom] > button[data-step='1'] { opacity: .35; }
+@media (hover: hover) and (pointer: fine) { .pager > button:hover { background: var(--ink); color: #fff; } }
+@media (pointer: coarse) { .pager { --pager: 44px; gap: 8px; } .pager svg { width: 14px; height: 14px; } }
+
+/* ---------- Entrance ---------- */
+.veil { position: absolute; inset: 0; z-index: 50; display: grid; place-items: center; background: var(--space); color: var(--ink); }
+.loading { display: grid; justify-items: center; gap: 2px; }
+/* Set as the waybill's own figure is (the same tracking and line), so that scaled to its size it is that figure. */
+.loading > b { display: block; font-weight: 800; font-size: clamp(72px, 15cqw, 190px); line-height: .9; letter-spacing: -.035em; font-variant-numeric: tabular-nums; color: var(--route); will-change: transform; }
+.loading > span { font-size: 15px; font-weight: 600; }
+.loadingFoot { position: absolute; left: var(--gutter); right: var(--gutter); bottom: var(--gutter); display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; }
+.loadingFoot > span:first-child { font-weight: 800; font-size: 18px; letter-spacing: -.02em; }
+
+/* ---------- Tall stages (phones): the console stands under the map ---------- */
+.root[data-shape=tall] .waybill { left: 0; right: 0; top: auto; bottom: 0; width: auto; height: var(--sheet); border-width: 1.5px 0 0; box-shadow: none; }
+.root[data-shape=tall] .head, .root[data-shape=tall] .foot { display: none; }
+/* The search is the sheet's first line, with no box of its own; the map's scale and centre are on the map. */
+.root[data-shape=tall] .fields { display: none; }
+.root[data-shape=tall] .search { padding-top: 4px; padding-bottom: 3px; }
+.root[data-shape=tall] .field { height: 20px; padding: 0; background: none; border: 0; }
+.root[data-shape=tall] .query { font-size: 11.5px; }
+.root[data-shape=tall] .hint { font-size: 12px; }
+.root[data-shape=tall] .caret { height: 13px; }
+.root[data-shape=tall] .pill { padding: 3px 6px 2px; font-size: 11px; }
+.root[data-shape=tall] .told { padding-top: 10px; padding-bottom: 6px; }
+.root[data-shape=tall] .count { font-size: clamp(46px, min(15cqw, 8cqh), 76px); }
+.root[data-shape=tall] .counted { font-size: clamp(18px, 5cqw, 24px); }
+.root[data-shape=tall] .body { font-size: 14px; margin-top: 6px; max-width: 44ch; }
+.root[data-shape=tall] .chart { padding-top: 6px; padding-bottom: 6px; }
+.root[data-shape=tall] .chartTitle { font-size: 11px; margin-bottom: 3px; }
+.root[data-shape=tall] .states { gap: 1px; font-size: 12px; line-height: 1.25; }
+.root[data-shape=tall] .states > li > i { height: 5px; }
+.root[data-shape=tall] .ruler { height: 40px; }
+/* The line that says how to go on shares its row with the step buttons: the words above need the room. */
+.root[data-shape=tall] .cue { border: 0; height: 56px; padding-top: 0; padding-bottom: 16px; }
+.root[data-shape=tall] .barMark { display: block; }
+.root[data-shape=tall] .tools > .concept { display: none; }
+.root[data-shape=tall] .rail { left: var(--pad); bottom: 12px; width: auto; right: calc(var(--gutter) + 112px); }
+.root[data-shape=tall] .railItem > span { display: none; }
+.root[data-shape=tall] .railItem > i { margin-bottom: 0; }
+
+/* The words come first. The console measures them against its room (mount.ts, fitConsole) and says on the
+   root what gives way to them, in the order it goes: the time chart, the bars, the label's small print, and
+   last the name. Measured, not guessed from the window's size: a guess leaves gaps between its thresholds.
+   Two screens say more than the others and are measured by themselves: the door on a tall stage (the proof
+   of delivery is in the console there) and the last one. What gives way to them fades first (mount.ts
+   says how much of each is to be seen), so nothing is seen to vanish. */
+.root[data-drop~=time] .timeChart, .root[data-drop~=states] .chart, .root[data-drop~=small] .fields, .root[data-shape=tall][data-drop~=small] .search,
+.root[data-shape=wide][data-drop~=small] .cue, .root[data-shape=wide][data-drop~=small] .foot > *, .root[data-shape=wide][data-drop~=search] .search, .root[data-shape=wide][data-drop~=head] .head { display: none; }
+.root[data-shape=wide][data-drop~=small] .foot { padding-top: 0; }
+.chart { opacity: var(--see-states, 1); }
+.chart.timeChart { opacity: var(--see-time, 1); }
+.fields, .root[data-shape=tall] .search, .root[data-shape=wide] .foot > * { opacity: var(--see-small, 1); }
+.root[data-shape=wide] .search { opacity: var(--see-search, 1); }
+.head { opacity: var(--see-head, 1); }
+
+/* The proof of delivery where there is little height: no signature on a wide stage, two lines of four on a
+   tall one (what the other two say is in the words above them). */
+@container (max-height: 620px) { .root[data-shape=wide] .signature { display: none; } .root[data-shape=wide] .proof > figcaption { padding-bottom: 8px; } }
+@container (max-height: 620px) { .root[data-shape=tall] .receipt dl > div:nth-child(2), .root[data-shape=tall] .receipt dl > div:nth-child(3) { display: none; } }
+
+/* The smallest phones: a card is its time and what it says, on one line where that fits, and the last
+   screen's note and buttons close up. */
+@container (max-height: 640px) {
+  .root[data-shape=tall] .update { display: flex; align-items: baseline; gap: 8px; padding: 5px 9px 5px 8px; }
+  .root[data-shape=tall] .updateKind > span { display: none; }
+  .root[data-shape=tall] .updateText { margin-top: 0; font-size: 12.5px; }
+}
+@container (max-height: 620px) {
+  .root[data-shape=tall] .body { margin-top: 4px; }
+  .root[data-shape=tall] .close { margin-top: 8px; }
+  .root[data-shape=tall] .close > p { margin-top: 6px; font-size: 11.5px; line-height: 1.35; }
+  .root[data-shape=tall] .primary, .root[data-shape=tall] .ghost { min-height: 40px; padding: 0 14px; }
+}
+
+/* A narrower label has no room for eight names along its foot: it names the scale the page is at. */
+@container (max-width: 1290px) {
+  /* Nor has its search room for the time beside the state. */
+  .root[data-shape=wide] .due { display: none; }
+  .root[data-shape=wide] .railItem > span { overflow: visible; visibility: hidden; }
+  .root[data-shape=wide] .railItem[aria-current=true] > span { visibility: visible; }
+}
+
+/* A wide stage with little height (a phone on its side): everything on the label closes up. */
+@container (max-height: 660px) { .root[data-shape=wide] .foot > .barcode { display: none; } .root[data-shape=wide] .states { gap: 3px; } }
+@container (max-height: 480px) {
+  .root[data-shape=wide] .search { padding-top: 5px; padding-bottom: 5px; }
+  .root[data-shape=wide] .field { height: 28px; }
+  .root[data-shape=wide] .head { padding-top: 9px; padding-bottom: 7px; }
+  .root[data-shape=wide] .wordmark { font-size: 18px; }
+  .root[data-shape=wide] .told { padding-top: 8px; padding-bottom: 6px; }
+  .root[data-shape=wide] .body { margin-top: 6px; }
+  .root[data-shape=wide] .close { margin-top: 8px; }
+  .root[data-shape=wide] .close > p { margin-top: 7px; font-size: 11.5px; line-height: 1.35; }
+  .root[data-shape=wide] .primary, .root[data-shape=wide] .ghost { min-height: 36px; padding: 0 14px; font-size: 13px; }
+}
+
+/* The narrowest phones: the state alone. */
+@container (max-width: 350px) { .root[data-shape=tall] .due { display: none; } }
+
+@media (prefers-reduced-motion: reduce) { .cue > i, .caret { animation: none; } }

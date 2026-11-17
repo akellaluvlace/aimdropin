@@ -1,0 +1,117 @@
+[
+  {
+    "slug": "material-dashboard-vue",
+    "repo": "creativetimofficial/vue-material-dashboard",
+    "exclude": "No LICENSE file in the repository"
+  },
+  {
+    "slug": "materio-vue",
+    "repo": "themeselection/materio-vuetify-vuejs-admin-template-free",
+    "exclude": "Vendor freebies terms require a footer attribution link (or buying PRO): custom attribution term beyond MIT. Re-include only if the policy accepts a visible credit."
+  },
+  {
+    "slug": "sneat-vue",
+    "repo": "themeselection/sneat-vuetify-vuejs-admin-template-free",
+    "exclude": "Vendor freebies terms require footer attribution (or PRO purchase): custom attribution term."
+  },
+  {
+    "slug": "berry-vue",
+    "repo": "codedthemes/berry-free-vuetify-vuejs-admin-template",
+    "exclude": "Vendor terms ask for footer attribution unless PRO is bought: custom attribution term (borderline 'ask')."
+  },
+  {
+    "slug": "mantis-vue",
+    "repo": "codedthemes/mantis-free-vuetify-vuejs-admin-template",
+    "exclude": "Vendor terms ask for footer attribution unless PRO is bought: custom attribution term (borderline)."
+  },
+  {
+    "slug": "mosaic-lite-vue",
+    "repo": "cruip/vuejs-admin-dashboard-template",
+    "exclude": "GPL + no-redistribution clause; no LICENSE file"
+  },
+  {
+    "slug": "spike-vue",
+    "repo": "wrappixel/spike-vue-free",
+    "exclude": "No LICENSE file"
+  },
+  {
+    "slug": "materialpro-nuxt",
+    "repo": "wrappixel/materialpro-nuxtjs-free",
+    "exclude": "No LICENSE file"
+  },
+  {
+    "slug": "shadcn-vue-examples",
+    "repo": "unovue/shadcn-vue",
+    "exclude": "Not a standalone dashboard (examples embedded in the docs site); use Whbbit1999/shadcn-vue-admin or dianprata/nuxt-shadcn-dashboard instead"
+  },
+  {
+    "slug": "berry-angular",
+    "repo": "codedthemes/berry-free-angular-admin-template",
+    "exclude": "Vendor attribution term (footer link unless PRO): custom attribution requirement (borderline 'ask')"
+  },
+  {
+    "slug": "mantis-angular",
+    "repo": "codedthemes/mantis-free-angular-admin-template",
+    "exclude": "Vendor attribution term (footer link unless PRO)"
+  },
+  {
+    "slug": "datta-able-angular",
+    "repo": "codedthemes/datta-able-free-angular-admin-template",
+    "exclude": "Vendor attribution term (footer link unless PRO)"
+  },
+  {
+    "slug": "angularjs-material-dashboard",
+    "repo": "flatlogic/angular-material-dashboard",
+    "exclude": "AngularJS 1.x (EOL) with bower/gulp; out of scope for modern Angular and tiny"
+  },
+  {
+    "slug": "matx-angular",
+    "repo": "uilibrary/matx-angular",
+    "exclude": "No LICENSE file"
+  },
+  {
+    "slug": "materialpro-angular",
+    "repo": "wrappixel/material-pro-angular-lite",
+    "exclude": "No LICENSE file"
+  },
+  {
+    "slug": "spartan-ng-examples",
+    "repo": "spartan-ng/spartan",
+    "exclude": "Not a standalone dashboard (UI library docs/examples)"
+  },
+  {
+    "slug": "flowbite-svelte-admin",
+    "repo": "themesberg/flowbite-svelte-admin-dashboard",
+    "exclude": "No LICENSE file (package.json 'MIT' only)"
+  },
+  {
+    "slug": "sveltekit-supabase-dashboard",
+    "repo": "xulioc/sveltekit-supabase-dashboard",
+    "exclude": "Requires a Supabase backend (server-side auth/data); no static or mock mode"
+  },
+  {
+    "slug": "svelteforge-admin",
+    "repo": "ColorlibHQ/svelteforge-admin",
+    "exclude": "No LICENSE file; full-stack (DB and auth server required)"
+  },
+  {
+    "slug": "svelterapp",
+    "repo": "SaiefBrahim/SvelterApp",
+    "exclude": "Full-stack starter that needs Postgres and auth; cannot run as a static demo"
+  },
+  {
+    "slug": "shadcn-svelte-examples",
+    "repo": "huntabyte/shadcn-svelte",
+    "exclude": "Not a standalone dashboard (examples embedded in the docs site)"
+  },
+  {
+    "slug": "solid-admin",
+    "repo": "marmelab/solid-admin",
+    "exclude": "Admin framework experiment, not a dashboard template"
+  },
+  {
+    "slug": "astro-dashboard-supabase",
+    "repo": "alexwhitmore/astro-dashboard",
+    "exclude": "No LICENSE file; needs Supabase"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "record": {
+    "slug": "light-bootstrap-dashboard-html",
+    "title": "Light Bootstrap Dashboard",
+    "description": "Bootstrap 4 dashboard: Chartist charts, user profile, table list, typography, icons and notifications.",
+    "repo": "creativetimofficial/light-bootstrap-dashboard",
+    "sha": "651e5de95677efcdb84fe76a3096250e8743beb8",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/651e5de95677efcdb84fe76a3096250e8743beb8/LICENSE"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "charts",
+      "notifications"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html",
+    "quality": 3,
+    "entry": "examples/dashboard.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "examples/dashboard.html",
+        "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/icons.html",
+        "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/notifications.html",
+        "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/table.html",
+        "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/typography.html",
+        "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/upgrade.html",
+        "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/user.html",
+        "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+      }
+    ],
+    "storedBytes": 355230,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:21.628Z"
+  },
+  "serve": {
+    "slug": "light-bootstrap-dashboard-html",
+    "kind": "static",
+    "entry": "examples/dashboard.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/light-bootstrap-dashboard@651e5de95677efcdb84fe76a3096250e8743beb8/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

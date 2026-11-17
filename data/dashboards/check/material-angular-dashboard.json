@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-11-10T18:42:13.910Z",
+  "pagesChecked": 20,
+  "pagesOk": 20,
+  "failures": [],
+  "deadLinks": [
+    "ui-colors.html"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "Material Angular Dashboard"
+    },
+    {
+      "path": "app/dashboard",
+      "title": "App / Dashboard"
+    },
+    {
+      "path": "app/dashboard-custom",
+      "title": "App / Dashboard Custom"
+    },
+    {
+      "path": "ui/buttons",
+      "title": "Ui / Buttons"
+    },
+    {
+      "path": "ui/cards",
+      "title": "Ui / Cards"
+    },
+    {
+      "path": "ui/colors",
+      "title": "Ui / Colors"
+    },
+    {
+      "path": "ui/forms",
+      "title": "Ui / Forms"
+    },
+    {
+      "path": "ui/icons",
+      "title": "Ui / Icons"
+    },
+    {
+      "path": "ui/typography",
+      "title": "Ui / Typography"
+    },
+    {
+      "path": "ui/tables",
+      "title": "Ui / Tables"
+    },
+    {
+      "path": "ui/right-sidebar",
+      "title": "Ui / Right Sidebar"
+    },
+    {
+      "path": "app/components",
+      "title": "App / Components"
+    },
+    {
+      "path": "app/forms",
+      "title": "App / Forms"
+    },
+    {
+      "path": "maps/simple",
+      "title": "Maps / Simple"
+    },
+    {
+      "path": "maps/advanced",
+      "title": "Maps / Advanced"
+    },
+    {
+      "path": "app/charts",
+      "title": "App / Charts"
+    },
+    {
+      "path": "pages/login",
+      "title": "Pages / Login"
+    },
+    {
+      "path": "pages/sign-up",
+      "title": "Pages / Sign Up"
+    },
+    {
+      "path": "pages/forgot-password",
+      "title": "Pages / Forgot Password"
+    },
+    {
+      "path": "pages/error",
+      "title": "Pages / Error"
+    }
+  ]
+}

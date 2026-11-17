@@ -1,0 +1,149 @@
+{
+  "checkedAt": "2026-11-10T17:36:55.837Z",
+  "pagesChecked": 35,
+  "pagesOk": 35,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "404.html",
+      "title": "Page not found | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "500.html",
+      "title": "Server error | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "alert.html",
+      "title": "Alerts | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "badge.html",
+      "title": "Badges | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "button.html",
+      "title": "Buttons | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "calendar.html",
+      "title": "Calendar | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "card.html",
+      "title": "Cards | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "chart.html",
+      "title": "Charts | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "data-table.html",
+      "title": "Data table | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "docs.html",
+      "title": "Documentation | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "fontawesome.html",
+      "title": "Font Awesome | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "forget-pass.html",
+      "title": "Forgot password | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "form.html",
+      "title": "Forms | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "grid.html",
+      "title": "Grid system | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "inbox.html",
+      "title": "Inbox | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "index2.html",
+      "title": "Sales pipeline | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "index3.html",
+      "title": "Marketing analytics | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "index4.html",
+      "title": "Projects | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "invoice.html",
+      "title": "Invoice | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "kanban.html",
+      "title": "Kanban board | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "login.html",
+      "title": "Sign in | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "maintenance.html",
+      "title": "Under maintenance | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "map.html",
+      "title": "Maps | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "modal.html",
+      "title": "Modals | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "notifications.html",
+      "title": "Notifications | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "pricing.html",
+      "title": "Pricing | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "profile.html",
+      "title": "Account & settings | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "progress-bar.html",
+      "title": "Progress bars | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "register.html",
+      "title": "Create account | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "switch.html",
+      "title": "Toggle switches | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "tab.html",
+      "title": "Tabs | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "table.html",
+      "title": "Data tables | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "typo.html",
+      "title": "Typography | CoolAdmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "wizard.html",
+      "title": "Setup wizard | CoolAdmin Bootstrap 5 Admin Dashboard"
+    }
+  ]
+}

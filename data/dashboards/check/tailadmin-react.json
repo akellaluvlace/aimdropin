@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-10T17:24:49.861Z",
+  "pagesChecked": 12,
+  "pagesOk": 12,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "calendar",
+      "title": "Calendar | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "profile",
+      "title": "Profile | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "forms/form-elements",
+      "title": "Form Elements | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "forms/form-layout",
+      "title": "Form Layout | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "tables",
+      "title": "Tables | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "settings",
+      "title": "Settings | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "chart",
+      "title": "Basic Chart | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "ui/alerts",
+      "title": "Alerts | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "ui/buttons",
+      "title": "Buttons | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "auth/signin",
+      "title": "Signin | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    },
+    {
+      "path": "auth/signup",
+      "title": "Signup | TailAdmin - Tailwind CSS Admin Dashboard Template"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "record": {
+    "slug": "react-saas-template",
+    "title": "React SaaS Template",
+    "description": "MUI SaaS starter: landing page with blog and pricing, plus a logged-in area with dashboard charts, posts, subscription and settings.",
+    "repo": "dunky11/react-saas-template",
+    "sha": "3fff0ba1ebd1a05b75a6484eea92fdad93b06e6d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/dunky11/react-saas-template/blob/3fff0ba1ebd1a05b75a6484eea92fdad93b06e6d/LICENSE"
+    },
+    "author": "Tim von Känel",
+    "framework": "react",
+    "ui": "mui",
+    "category": "SaaS",
+    "tags": [
+      "create-react-app",
+      "material-ui",
+      "recharts",
+      "landing-page"
+    ],
+    "demoUrl": "https://reactsaastemplate.com",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "React SaaS Template"
+      }
+    ],
+    "storedBytes": 1977479,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:36.503Z"
+  },
+  "serve": {
+    "slug": "react-saas-template",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/dunky11/react-saas-template@3fff0ba1ebd1a05b75a6484eea92fdad93b06e6d/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apple-touch-icon.png": "public/apple-touch-icon.png",
+      "favicon-192x192.png": "public/favicon-192x192.png",
+      "favicon-512x512.png": "public/favicon-512x512.png",
+      "favicon.ico": "public/favicon.ico",
+      "images/logged_in/image1.jpg": "public/images/logged_in/image1.jpg",
+      "images/logged_in/image10.jpg": "public/images/logged_in/image10.jpg",
+      "images/logged_in/image2.jpg": "public/images/logged_in/image2.jpg",
+      "images/logged_in/image3.jpg": "public/images/logged_in/image3.jpg",
+      "images/logged_in/image4.jpg": "public/images/logged_in/image4.jpg",
+      "images/logged_in/image5.jpg": "public/images/logged_in/image5.jpg",
+      "images/logged_in/image6.jpg": "public/images/logged_in/image6.jpg",
+      "images/logged_in/image7.jpg": "public/images/logged_in/image7.jpg",
+      "images/logged_in/image8.jpg": "public/images/logged_in/image8.jpg",
+      "images/logged_in/image9.jpg": "public/images/logged_in/image9.jpg",
+      "images/logged_in/profilePicture.jpg": "public/images/logged_in/profilePicture.jpg",
+      "images/logged_out/blogPost1.jpg": "public/images/logged_out/blogPost1.jpg",
+      "images/logged_out/blogPost2.jpg": "public/images/logged_out/blogPost2.jpg",
+      "images/logged_out/blogPost3.jpg": "public/images/logged_out/blogPost3.jpg",
+      "images/logged_out/blogPost4.jpg": "public/images/logged_out/blogPost4.jpg",
+      "images/logged_out/blogPost5.jpg": "public/images/logged_out/blogPost5.jpg",
+      "images/logged_out/blogPost6.jpg": "public/images/logged_out/blogPost6.jpg",
+      "images/logged_out/headerImage.jpg": "public/images/logged_out/headerImage.jpg",
+      "robots.txt": "public/robots.txt"
+    }
+  }
+}

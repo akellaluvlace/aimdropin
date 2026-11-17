@@ -1,0 +1,203 @@
+{
+  "checkedAt": "2026-11-10T17:48:34.886Z",
+  "pagesChecked": 48,
+  "pagesOk": 48,
+  "failures": [],
+  "deadLinks": [
+    "error-pages/404"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "CoreUI Free React.js Admin Template"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "charts",
+      "title": "Charts"
+    },
+    {
+      "path": "components/accordion",
+      "title": "Components / Accordion"
+    },
+    {
+      "path": "components/alerts",
+      "title": "Components / Alerts"
+    },
+    {
+      "path": "components/badge",
+      "title": "Components / Badge"
+    },
+    {
+      "path": "components/breadcrumb",
+      "title": "Components / Breadcrumb"
+    },
+    {
+      "path": "components/buttons",
+      "title": "Components / Buttons"
+    },
+    {
+      "path": "components/button-group",
+      "title": "Components / Button Group"
+    },
+    {
+      "path": "components/cards",
+      "title": "Components / Cards"
+    },
+    {
+      "path": "components/carousel",
+      "title": "Components / Carousel"
+    },
+    {
+      "path": "components/chip",
+      "title": "Components / Chip"
+    },
+    {
+      "path": "components/chip-set",
+      "title": "Components / Chip Set"
+    },
+    {
+      "path": "components/collapse",
+      "title": "Components / Collapse"
+    },
+    {
+      "path": "components/dropdowns",
+      "title": "Components / Dropdowns"
+    },
+    {
+      "path": "components/list-group",
+      "title": "Components / List Group"
+    },
+    {
+      "path": "components/modals",
+      "title": "Components / Modals"
+    },
+    {
+      "path": "components/navs-tabs",
+      "title": "Components / Navs Tabs"
+    },
+    {
+      "path": "components/pagination",
+      "title": "Components / Pagination"
+    },
+    {
+      "path": "components/placeholders",
+      "title": "Components / Placeholders"
+    },
+    {
+      "path": "components/popovers",
+      "title": "Components / Popovers"
+    },
+    {
+      "path": "components/progress",
+      "title": "Components / Progress"
+    },
+    {
+      "path": "components/search-button",
+      "title": "Components / Search Button"
+    },
+    {
+      "path": "components/spinners",
+      "title": "Components / Spinners"
+    },
+    {
+      "path": "components/tables",
+      "title": "Components / Tables"
+    },
+    {
+      "path": "components/tabs",
+      "title": "Components / Tabs"
+    },
+    {
+      "path": "components/toasts",
+      "title": "Components / Toasts"
+    },
+    {
+      "path": "components/tooltips",
+      "title": "Components / Tooltips"
+    },
+    {
+      "path": "forms/checks-radios",
+      "title": "Forms / Checks Radios"
+    },
+    {
+      "path": "forms/chip-input",
+      "title": "Forms / Chip Input"
+    },
+    {
+      "path": "forms/floating-labels",
+      "title": "Forms / Floating Labels"
+    },
+    {
+      "path": "forms/form-control",
+      "title": "Forms / Form Control"
+    },
+    {
+      "path": "forms/input-group",
+      "title": "Forms / Input Group"
+    },
+    {
+      "path": "forms/range",
+      "title": "Forms / Range"
+    },
+    {
+      "path": "forms/select",
+      "title": "Forms / Select"
+    },
+    {
+      "path": "forms/layout",
+      "title": "Forms / Layout"
+    },
+    {
+      "path": "forms/validation",
+      "title": "Forms / Validation"
+    },
+    {
+      "path": "icons/coreui-icons",
+      "title": "Icons / Coreui Icons"
+    },
+    {
+      "path": "icons/flags",
+      "title": "Icons / Flags"
+    },
+    {
+      "path": "icons/brands",
+      "title": "Icons / Brands"
+    },
+    {
+      "path": "widgets",
+      "title": "Widgets"
+    },
+    {
+      "path": "authentication/login",
+      "title": "Authentication / Login"
+    },
+    {
+      "path": "authentication/register",
+      "title": "Authentication / Register"
+    },
+    {
+      "path": "authentication/check-email",
+      "title": "Authentication / Check Email"
+    },
+    {
+      "path": "authentication/reset-password",
+      "title": "Authentication / Reset Password"
+    },
+    {
+      "path": "authentication/change-password",
+      "title": "Authentication / Change Password"
+    },
+    {
+      "path": "authentication/password-changed",
+      "title": "Authentication / Password Changed"
+    },
+    {
+      "path": "error-pages/500",
+      "title": "Error Pages / 500"
+    }
+  ]
+}

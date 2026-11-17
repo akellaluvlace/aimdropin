@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-11-10T19:03:08.517Z",
+  "pagesChecked": 17,
+  "pagesOk": 16,
+  "failures": [
+    {
+      "path": "index.html",
+      "problem": "HTTP 405 /demos/tremor-dashboard/overview/index.txt?_rsc=xy9am · net::ERR_FAILED /demos/tremor-dashboard/overview/index.txt?_rsc=xy9am · HTTP 405 /demos/tremor-dashboard/settings/general/index.txt?_rsc=17jly"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "overview/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "404.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "404/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "details/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/billing/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/general/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/users/index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "overview/",
+      "title": "Dashboard"
+    },
+    {
+      "path": "details/",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/general/",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/users/",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/billing/",
+      "title": "Dashboard"
+    },
+    {
+      "path": "",
+      "title": "Dashboard"
+    },
+    {
+      "path": "overview",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/general",
+      "title": "Dashboard"
+    },
+    {
+      "path": "settings/billing",
+      "title": "Dashboard"
+    }
+  ]
+}

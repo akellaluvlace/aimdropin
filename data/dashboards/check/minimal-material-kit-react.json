@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-11-10T17:32:52.578Z",
+  "pagesChecked": 5,
+  "pagesOk": 5,
+  "failures": [],
+  "deadLinks": [
+    "404"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "Dashboard - Minimal UI"
+    },
+    {
+      "path": "user",
+      "title": "Users - Minimal UI"
+    },
+    {
+      "path": "products",
+      "title": "Products - Minimal UI"
+    },
+    {
+      "path": "blog",
+      "title": "Blog - Minimal UI"
+    },
+    {
+      "path": "sign-in",
+      "title": "Sign in - Minimal UI"
+    }
+  ]
+}

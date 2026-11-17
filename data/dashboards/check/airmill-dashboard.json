@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-11-10T18:23:04.039Z",
+  "pagesChecked": 22,
+  "pagesOk": 22,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Home"
+    },
+    {
+      "path": "buttons/index.html",
+      "title": "Buttons"
+    },
+    {
+      "path": "cards/index.html",
+      "title": "Cards"
+    },
+    {
+      "path": "charts/index.html",
+      "title": "Charts"
+    },
+    {
+      "path": "forms/index.html",
+      "title": "Forms"
+    },
+    {
+      "path": "modals/index.html",
+      "title": "Modals"
+    },
+    {
+      "path": "pages/404/index.html",
+      "title": "404"
+    },
+    {
+      "path": "pages/blank/index.html",
+      "title": "Blank"
+    },
+    {
+      "path": "pages/create-account/index.html",
+      "title": "Create Account"
+    },
+    {
+      "path": "pages/forgot-password/index.html",
+      "title": "Forgot Password"
+    },
+    {
+      "path": "pages/login/index.html",
+      "title": "Login"
+    },
+    {
+      "path": "tables/index.html",
+      "title": "Tables"
+    },
+    {
+      "path": "",
+      "title": "Home"
+    },
+    {
+      "path": "forms",
+      "title": "Forms"
+    },
+    {
+      "path": "cards",
+      "title": "Cards"
+    },
+    {
+      "path": "charts",
+      "title": "Charts"
+    },
+    {
+      "path": "buttons",
+      "title": "Buttons"
+    },
+    {
+      "path": "modals",
+      "title": "Modals"
+    },
+    {
+      "path": "tables",
+      "title": "Tables"
+    },
+    {
+      "path": "pages/login",
+      "title": "Login"
+    },
+    {
+      "path": "pages/forgot-password",
+      "title": "Forgot Password"
+    },
+    {
+      "path": "pages/create-account",
+      "title": "Create Account"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "record": {
+    "slug": "art-design-pro",
+    "title": "Art Design Pro",
+    "description": "Polished Vue 3 + Element Plus admin: console and analysis dashboards, e-commerce, widgets, charts, tables, forms, system management, themes and i18n.",
+    "repo": "Daymychen/art-design-pro",
+    "sha": "f3aaf58eec1a0e988f162352c33862327a484f95",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/Daymychen/art-design-pro/blob/f3aaf58eec1a0e988f162352c33862327a484f95/LICENSE"
+    },
+    "author": "Daymychen (SuperManTT)",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "element-plus",
+      "tailwind",
+      "echarts",
+      "i18n",
+      "dark-mode"
+    ],
+    "demoUrl": "https://www.artd.pro",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Art Design Pro"
+      }
+    ],
+    "storedBytes": 8186396,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:40.677Z"
+  },
+  "serve": {
+    "slug": "art-design-pro",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Daymychen/art-design-pro@f3aaf58eec1a0e988f162352c33862327a484f95/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/bg-DrCBEYh-.webp": "src/assets/images/user/bg.webp",
+      "assets/bg_dark-BoZNsetB.webp": "src/assets/images/lock/bg_dark.webp",
+      "assets/bg_light-WsVMpqKz.webp": "src/assets/images/lock/bg_light.webp",
+      "assets/draw1-Ce1WF34i.png": "src/assets/images/draw/draw1.png",
+      "assets/favicon-C1KazUkF.ico": "src/assets/images/favicon.ico",
+      "assets/icon1-DYDLnOGV.webp": "src/assets/images/3d/icon1.webp",
+      "assets/icon2-CpZimU24.webp": "src/assets/images/3d/icon2.webp",
+      "assets/icon3-T3qq4dG7.webp": "src/assets/images/3d/icon3.webp",
+      "assets/icon4-DoSzj0bv.webp": "src/assets/images/3d/icon4.webp",
+      "assets/icon5-BXFopm_n.webp": "src/assets/images/3d/icon5.webp",
+      "assets/icon6-WLywVSyq.webp": "src/assets/images/3d/icon6.webp",
+      "assets/icon7-Bv7tEJJc.webp": "src/assets/images/3d/icon7.webp",
+      "assets/img1-D1-edq2V.webp": "src/assets/images/cover/img1.webp",
+      "assets/img2-B4YC9Se8.webp": "src/assets/images/cover/img2.webp",
+      "assets/img3-2dukXPv_.webp": "src/assets/images/cover/img3.webp",
+      "assets/img4-puXkhAjD.webp": "src/assets/images/cover/img4.webp",
+      "assets/img5-O9OJMad4.webp": "src/assets/images/cover/img5.webp",
+      "assets/img6-PBedqv72.webp": "src/assets/images/cover/img6.webp",
+      "assets/img7-4tHQ8_RR.webp": "src/assets/images/cover/img7.webp",
+      "assets/img8-B6h2fA3L.webp": "src/assets/images/cover/img8.webp",
+      "assets/img9-C5GNNLTv.webp": "src/assets/images/cover/img9.webp",
+      "assets/lf_icon2-CrdSAdav.webp": "src/assets/images/login/lf_icon2.webp",
+      "assets/sd-C0PQtrty.png": "src/assets/images/ceremony/sd.png",
+      "assets/yd-BrGqJ6Cs.png": "src/assets/images/ceremony/yd.png",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

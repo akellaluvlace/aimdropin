@@ -1,0 +1,334 @@
+{
+  "checkedAt": "2026-11-10T19:14:27.578Z",
+  "pagesChecked": 81,
+  "pagesOk": 76,
+  "failures": [
+    {
+      "path": "dynamic-form/definition",
+      "problem": "script error: Request failed with status code 404\nJo (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js:23:13148)\nRi.Mi (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js"
+    },
+    {
+      "path": "workflow/model",
+      "problem": "script error: Request failed with status code 404\nJo (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js:23:13148)\nRi.Mi (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js"
+    },
+    {
+      "path": "workflow/task",
+      "problem": "script error: Request failed with status code 404\nJo (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js:23:13148)\nRi.Mi (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js"
+    },
+    {
+      "path": "workflow/designer",
+      "problem": "script error: Request failed with status code 404\nJo (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js:23:13148)\nRi.Mi (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js"
+    },
+    {
+      "path": "dynamic-form",
+      "problem": "script error: Request failed with status code 404\nJo (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js:23:13148)\nRi.Mi (http://localhost:3000/demos/vue3-element-admin/assets/index.BgVSH0d3.js"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "vue3-element-admin"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "system/user",
+      "title": "System / User"
+    },
+    {
+      "path": "system/role",
+      "title": "System / Role"
+    },
+    {
+      "path": "system/menu",
+      "title": "System / Menu"
+    },
+    {
+      "path": "system/dept",
+      "title": "System / Dept"
+    },
+    {
+      "path": "system/dict",
+      "title": "System / Dict"
+    },
+    {
+      "path": "system/log",
+      "title": "System / Log"
+    },
+    {
+      "path": "system/config",
+      "title": "System / Config"
+    },
+    {
+      "path": "system/notice",
+      "title": "System / Notice"
+    },
+    {
+      "path": "#/data-screen",
+      "title": "Home"
+    },
+    {
+      "path": "codegen",
+      "title": "Codegen"
+    },
+    {
+      "path": "component/basic/icon-demo",
+      "title": "Component / Basic / Icon Demo"
+    },
+    {
+      "path": "component/basic/drag",
+      "title": "Component / Basic / Drag"
+    },
+    {
+      "path": "component/basic/text-scroll",
+      "title": "Component / Basic / Text Scroll"
+    },
+    {
+      "path": "component/basic/dict-sync",
+      "title": "Component / Basic / Dict Sync"
+    },
+    {
+      "path": "component/form/wang-editor",
+      "title": "Component / Form / Wang Editor"
+    },
+    {
+      "path": "component/form/upload",
+      "title": "Component / Form / Upload"
+    },
+    {
+      "path": "component/form/icon-select",
+      "title": "Component / Form / Icon Select"
+    },
+    {
+      "path": "component/form/dict-demo",
+      "title": "Component / Form / Dict Demo"
+    },
+    {
+      "path": "component/form/table-select",
+      "title": "Component / Form / Table Select"
+    },
+    {
+      "path": "component/crud",
+      "title": "Component / Crud"
+    },
+    {
+      "path": "component/table/vxe-table",
+      "title": "Component / Table / Vxe Table"
+    },
+    {
+      "path": "component/table/operation-column",
+      "title": "Component / Table / Operation Column"
+    },
+    {
+      "path": "multi-level/level-one/level-two/level-three-a",
+      "title": "Multi Level / Level One / Level Two / Level Three A"
+    },
+    {
+      "path": "multi-level/level-one/level-two/level-three-b",
+      "title": "Multi Level / Level One / Level Two / Level Three B"
+    },
+    {
+      "path": "route-example/route-param",
+      "title": "Route Example / Route Param"
+    },
+    {
+      "path": "route-example/cache",
+      "title": "Route Example / Cache"
+    },
+    {
+      "path": "route-example/navigate",
+      "title": "Route Example / Navigate"
+    },
+    {
+      "path": "route-example/iframe",
+      "title": "Route Example / Iframe"
+    },
+    {
+      "path": "dynamic-form/sample/open_source_survey?formKey=open_source_survey",
+      "title": "Dynamic Form / Sample / Open Source Survey"
+    },
+    {
+      "path": "dynamic-form/sample/activity_registration?formKey=activity_registration",
+      "title": "Dynamic Form / Sample / Activity Registration"
+    },
+    {
+      "path": "dynamic-form/sample/feedback?formKey=feedback",
+      "title": "Dynamic Form / Sample / Feedback"
+    },
+    {
+      "path": "workflow/launch",
+      "title": "Workflow / Launch"
+    },
+    {
+      "path": "multi-level/level-one/level-two",
+      "title": "Multi Level / Level One / Level Two"
+    },
+    {
+      "path": "dynamic-form/sample/open_source_survey",
+      "title": "Dynamic Form / Sample / Open Source Survey"
+    },
+    {
+      "path": "dynamic-form/sample/activity_registration",
+      "title": "Dynamic Form / Sample / Activity Registration"
+    },
+    {
+      "path": "dynamic-form/sample/feedback",
+      "title": "Dynamic Form / Sample / Feedback"
+    },
+    {
+      "path": "oidc/callback",
+      "title": "Oidc / Callback"
+    },
+    {
+      "path": "profile/notice",
+      "title": "Profile / Notice"
+    },
+    {
+      "path": "component/basic",
+      "title": "Component / Basic"
+    },
+    {
+      "path": "component/form",
+      "title": "Component / Form"
+    },
+    {
+      "path": "component/table",
+      "title": "Component / Table"
+    },
+    {
+      "path": "multi-level/level-one",
+      "title": "Multi Level / Level One"
+    },
+    {
+      "path": "dynamic-form/data",
+      "title": "Dynamic Form / Data"
+    },
+    {
+      "path": "dynamic-form/designer",
+      "title": "Dynamic Form / Designer"
+    },
+    {
+      "path": "dynamic-form/preview",
+      "title": "Dynamic Form / Preview"
+    },
+    {
+      "path": "dynamic-form/sample",
+      "title": "Dynamic Form / Sample"
+    },
+    {
+      "path": "redirect",
+      "title": "Redirect"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "data-screen",
+      "title": "Data Screen"
+    },
+    {
+      "path": "401",
+      "title": "401"
+    },
+    {
+      "path": "404",
+      "title": "404"
+    },
+    {
+      "path": "profile",
+      "title": "Profile"
+    },
+    {
+      "path": "system",
+      "title": "System"
+    },
+    {
+      "path": "component",
+      "title": "Component"
+    },
+    {
+      "path": "multi-level",
+      "title": "Multi Level"
+    },
+    {
+      "path": "route-example",
+      "title": "Route Example"
+    },
+    {
+      "path": "workflow",
+      "title": "Workflow"
+    },
+    {
+      "path": "dashboard#/data-screen",
+      "title": "Dashboard"
+    },
+    {
+      "path": "system/user#/data-screen",
+      "title": "System / User"
+    },
+    {
+      "path": "system/role#/data-screen",
+      "title": "System / Role"
+    },
+    {
+      "path": "system/menu#/data-screen",
+      "title": "System / Menu"
+    },
+    {
+      "path": "system/dept#/data-screen",
+      "title": "System / Dept"
+    },
+    {
+      "path": "system/dict#/data-screen",
+      "title": "System / Dict"
+    },
+    {
+      "path": "system/log#/data-screen",
+      "title": "System / Log"
+    },
+    {
+      "path": "system/config#/data-screen",
+      "title": "System / Config"
+    },
+    {
+      "path": "system/notice#/data-screen",
+      "title": "System / Notice"
+    },
+    {
+      "path": "codegen#/data-screen",
+      "title": "Codegen"
+    },
+    {
+      "path": "component/basic/icon-demo#/data-screen",
+      "title": "Component / Basic / Icon Demo"
+    },
+    {
+      "path": "component/basic/drag#/data-screen",
+      "title": "Component / Basic / Drag"
+    },
+    {
+      "path": "component/basic/text-scroll#/data-screen",
+      "title": "Component / Basic / Text Scroll"
+    },
+    {
+      "path": "component/basic/dict-sync#/data-screen",
+      "title": "Component / Basic / Dict Sync"
+    },
+    {
+      "path": "component/form/wang-editor#/data-screen",
+      "title": "Component / Form / Wang Editor"
+    },
+    {
+      "path": "component/form/upload#/data-screen",
+      "title": "Component / Form / Upload"
+    },
+    {
+      "path": "component/form/icon-select#/data-screen",
+      "title": "Component / Form / Icon Select"
+    }
+  ]
+}

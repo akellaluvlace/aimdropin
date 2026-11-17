@@ -1,0 +1,206 @@
+{
+  "checkedAt": "2026-11-10T18:38:40.095Z",
+  "pagesChecked": 49,
+  "pagesOk": 47,
+  "failures": [
+    {
+      "path": "icons/coreui-icons-flag.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB /demos/coreui-free/vendors/@coreui/icons/svg/flag/cif-BE.svg · net::ERR_BLOCKED_BY_ORB /demos/coreui-free/vendors/@coreui/icons/svg/flag/cif-AT.svg · net::ERR_BLOCKED_BY_ORB /demos/coreui-free/vendors/@coreui/icons/svg/flag/cif-BF.svg"
+    },
+    {
+      "path": "",
+      "problem": "load failed: Execution context was destroyed, most likely because of a navigation."
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "authentication/change-password.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "authentication/check-email.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "authentication/login.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "authentication/password-changed.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "authentication/register.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "authentication/reset-password.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "blank.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "charts.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/accordion.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/alerts.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/badge.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/breadcrumb.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/button-group.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/buttons.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/cards.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/carousel.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/chip-set.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/chip.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/collapse.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/dropdowns.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/list-group.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/modals.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/navs-tabs.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/pagination.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/placeholders.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/popovers.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/progress.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/search-button.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/spinners.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/tables.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/toasts.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "components/tooltips.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "error-pages/404.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "error-pages/500.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "forms/checks-radios.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "forms/chip-input.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "forms/floating-labels.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "forms/form-control.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "forms/input-group.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "forms/layout.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "forms/range.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "forms/select.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "forms/validation.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "icons/coreui-icons-brand.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "icons/coreui-icons-free.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    },
+    {
+      "path": "widgets.html",
+      "title": "CoreUI Free Bootstrap Admin Template"
+    }
+  ]
+}

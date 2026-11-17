@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-11-10T19:18:49.809Z",
+  "pagesChecked": 16,
+  "pagesOk": 16,
+  "failures": [],
+  "deadLinks": [
+    "iframe/naive-u-i",
+    "iframe/my-blog"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "首页 | Vue Naive Admin"
+    },
+    {
+      "path": "iframe/show-docs",
+      "title": "项目文档 | Vue Naive Admin"
+    },
+    {
+      "path": "iframe/api-fox-docs",
+      "title": "接口文档 | Vue Naive Admin"
+    },
+    {
+      "path": "pms/resource",
+      "title": "资源管理 | Vue Naive Admin"
+    },
+    {
+      "path": "pms/role",
+      "title": "角色管理 | Vue Naive Admin"
+    },
+    {
+      "path": "pms/user",
+      "title": "用户管理 | Vue Naive Admin"
+    },
+    {
+      "path": "demo/upload",
+      "title": "图片上传 | Vue Naive Admin"
+    },
+    {
+      "path": "base/components",
+      "title": "基础组件 | Vue Naive Admin"
+    },
+    {
+      "path": "base/unocss",
+      "title": "Unocss | Vue Naive Admin"
+    },
+    {
+      "path": "base/keep-alive",
+      "title": "KeepAlive | Vue Naive Admin"
+    },
+    {
+      "path": "base/icon",
+      "title": "图标 Icon | Vue Naive Admin"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "404",
+      "title": "页面飞走了 | Vue Naive Admin"
+    },
+    {
+      "path": "403",
+      "title": "没有权限 | Vue Naive Admin"
+    },
+    {
+      "path": "profile",
+      "title": "个人资料 | Vue Naive Admin"
+    },
+    {
+      "path": "testModal",
+      "title": "MeModal | Vue Naive Admin"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "record": {
+    "slug": "material-dashboard-shadcn-vue",
+    "title": "Material Dashboard shadcn Vue",
+    "description": "Material-style Vue dashboard built with shadcn-vue and Tailwind: dashboard, tables, billing, notifications, profile and auth pages.",
+    "repo": "creativetimofficial/material-dashboard-shadcn-vue",
+    "sha": "7bebf12a802167a55210b7ea1cf13e50d7f6e307",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/material-dashboard-shadcn-vue/blob/7bebf12a802167a55210b7ea1cf13e50d7f6e307/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "vue",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "shadcn-vue",
+      "tailwind",
+      "material"
+    ],
+    "demoUrl": "https://www.creative-tim.com/product/material-dashboard-shadcn-vue",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Material Dashboard shadcn Vue"
+      }
+    ],
+    "storedBytes": 372648,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:38.840Z"
+  },
+  "serve": {
+    "slug": "material-dashboard-shadcn-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/material-dashboard-shadcn-vue@7bebf12a802167a55210b7ea1cf13e50d7f6e307/",
+    "cdnRoot": null,
+    "cdnMap": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-11-10T17:44:19.332Z",
+  "pagesChecked": 19,
+  "pagesOk": 19,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "404.html",
+      "title": "404 - Page Not Found | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "500.html",
+      "title": "500 - Internal Server Error | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "account-password-recover.html",
+      "title": "Recover Password | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "account-profile.html",
+      "title": "Profile | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "account-sign-in.html",
+      "title": "Sign In | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "account-sign-up.html",
+      "title": "Create Account | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "blank.html",
+      "title": "Blank Page | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "docs.html",
+      "title": "Blank Page | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "forms.html",
+      "title": "Forms | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "tables.html",
+      "title": "Tables | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "ui-alerts.html",
+      "title": "Alerts | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "ui-buttons.html",
+      "title": "Buttons | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "ui-cards.html",
+      "title": "Cards | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "ui-colors.html",
+      "title": "Colors | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "ui-modals.html",
+      "title": "Modals | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "ui-others.html",
+      "title": "Other Components | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "ui-tooltips-and-popovers.html",
+      "title": "Tooltips & Popovers | Stream - Dashboard UI Kit"
+    },
+    {
+      "path": "ui-typography.html",
+      "title": "Typography | Stream - Dashboard UI Kit"
+    }
+  ]
+}

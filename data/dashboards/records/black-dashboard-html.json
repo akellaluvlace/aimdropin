@@ -1,0 +1,76 @@
+{
+  "record": {
+    "slug": "black-dashboard-html",
+    "title": "Black Dashboard",
+    "description": "Dark Bootstrap 4 dashboard: Chart.js analytics, icons, notifications, user profile, tables, typography and RTL page.",
+    "repo": "creativetimofficial/black-dashboard",
+    "sha": "4784388e067eb5d3684bdff7f10324ebfc4081fc",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/black-dashboard/blob/4784388e067eb5d3684bdff7f10324ebfc4081fc/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Analytics",
+    "tags": [
+      "bootstrap4",
+      "dark-mode",
+      "rtl",
+      "charts"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/black-dashboard/examples/dashboard.html",
+    "quality": 3,
+    "entry": "examples/dashboard.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "examples/dashboard.html",
+        "title": "Black Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/icons.html",
+        "title": "Black Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/notifications.html",
+        "title": "Black Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/rtl.html",
+        "title": "Black Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/tables.html",
+        "title": "Black Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/typography.html",
+        "title": "Black Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/upgrade.html",
+        "title": "Black Dashboard by Creative Tim"
+      },
+      {
+        "path": "examples/user.html",
+        "title": "Black Dashboard by Creative Tim"
+      }
+    ],
+    "storedBytes": 221389,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:21.471Z"
+  },
+  "serve": {
+    "slug": "black-dashboard-html",
+    "kind": "static",
+    "entry": "examples/dashboard.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/black-dashboard@4784388e067eb5d3684bdff7f10324ebfc4081fc/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

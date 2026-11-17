@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T18:47:53.339Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Notus Angular | Free Tailwind CSS UI Kit and Admin by Creative Tim"
+    },
+    {
+      "path": "admin/dashboard",
+      "title": "Admin / Dashboard"
+    },
+    {
+      "path": "admin/settings",
+      "title": "Admin / Settings"
+    },
+    {
+      "path": "admin/tables",
+      "title": "Admin / Tables"
+    },
+    {
+      "path": "admin/maps",
+      "title": "Admin / Maps"
+    },
+    {
+      "path": "auth/login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/register",
+      "title": "Auth / Register"
+    },
+    {
+      "path": "landing",
+      "title": "Landing"
+    },
+    {
+      "path": "profile",
+      "title": "Profile"
+    }
+  ]
+}

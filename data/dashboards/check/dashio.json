@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-11-10T17:30:52.113Z",
+  "pagesChecked": 22,
+  "pagesOk": 22,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard | Dashio"
+    },
+    {
+      "path": "pages/404.html",
+      "title": "404 - Page Not Found | Dashio"
+    },
+    {
+      "path": "pages/500.html",
+      "title": "500 - Server Error | Dashio"
+    },
+    {
+      "path": "pages/calendar.html",
+      "title": "Calendar | Dashio"
+    },
+    {
+      "path": "pages/charts.html",
+      "title": "Charts | Dashio"
+    },
+    {
+      "path": "pages/dashboard-analytics.html",
+      "title": "Analytics | Dashio"
+    },
+    {
+      "path": "pages/dashboard-crm.html",
+      "title": "CRM | Dashio"
+    },
+    {
+      "path": "pages/dashboard-ecommerce.html",
+      "title": "E-commerce | Dashio"
+    },
+    {
+      "path": "pages/dashboard-finance.html",
+      "title": "Finance | Dashio"
+    },
+    {
+      "path": "pages/dashboard-projects.html",
+      "title": "Projects | Dashio"
+    },
+    {
+      "path": "pages/dashboard-saas.html",
+      "title": "SaaS | Dashio"
+    },
+    {
+      "path": "pages/forgot-password.html",
+      "title": "Forgot Password | Dashio"
+    },
+    {
+      "path": "pages/forms.html",
+      "title": "Forms | Dashio"
+    },
+    {
+      "path": "pages/kanban.html",
+      "title": "Kanban | Dashio"
+    },
+    {
+      "path": "pages/login.html",
+      "title": "Login | Dashio"
+    },
+    {
+      "path": "pages/notifications.html",
+      "title": "Notifications | Dashio"
+    },
+    {
+      "path": "pages/pricing.html",
+      "title": "Pricing | Dashio"
+    },
+    {
+      "path": "pages/profile.html",
+      "title": "Profile | Dashio"
+    },
+    {
+      "path": "pages/register.html",
+      "title": "Register | Dashio"
+    },
+    {
+      "path": "pages/settings.html",
+      "title": "Settings | Dashio"
+    },
+    {
+      "path": "pages/tables.html",
+      "title": "Tables | Dashio"
+    },
+    {
+      "path": "",
+      "title": "Dashboard | Dashio"
+    }
+  ]
+}

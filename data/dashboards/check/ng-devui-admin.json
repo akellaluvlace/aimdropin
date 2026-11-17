@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-11-10T18:40:12.068Z",
+  "pagesChecked": 18,
+  "pagesOk": 18,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "DevUI Admin"
+    },
+    {
+      "path": "pages/dashboard/analysis",
+      "title": "Pages / Dashboard / Analysis"
+    },
+    {
+      "path": "pages/dashboard/monitor",
+      "title": "Pages / Dashboard / Monitor"
+    },
+    {
+      "path": "pages/dashboard/workspace",
+      "title": "Pages / Dashboard / Workspace"
+    },
+    {
+      "path": "pages/form/basic-form",
+      "title": "Pages / Form / Basic Form"
+    },
+    {
+      "path": "pages/form/form-layout",
+      "title": "Pages / Form / Form Layout"
+    },
+    {
+      "path": "pages/form/advanced-form",
+      "title": "Pages / Form / Advanced Form"
+    },
+    {
+      "path": "pages/form/dynamic-form",
+      "title": "Pages / Form / Dynamic Form"
+    },
+    {
+      "path": "pages/list/basic",
+      "title": "Pages / List / Basic"
+    },
+    {
+      "path": "pages/list/card",
+      "title": "Pages / List / Card"
+    },
+    {
+      "path": "pages/list/editable",
+      "title": "Pages / List / Editable"
+    },
+    {
+      "path": "pages/list/advance",
+      "title": "Pages / List / Advance"
+    },
+    {
+      "path": "pages/list/tree",
+      "title": "Pages / List / Tree"
+    },
+    {
+      "path": "pages/abnormal/abnormal403",
+      "title": "Pages / Abnormal / Abnormal403"
+    },
+    {
+      "path": "pages/abnormal/abnormal404",
+      "title": "Pages / Abnormal / Abnormal404"
+    },
+    {
+      "path": "pages/abnormal/abnormal500",
+      "title": "Pages / Abnormal / Abnormal500"
+    },
+    {
+      "path": "pages/user/center",
+      "title": "Pages / User / Center"
+    },
+    {
+      "path": "pages/user/settings",
+      "title": "Pages / User / Settings"
+    }
+  ]
+}

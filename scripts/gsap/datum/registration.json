@@ -1,0 +1,48 @@
+{
+ "build-a.png": {
+  "from": "lines: ground, ridge, wall ends",
+  "sx": 0.999874,
+  "sy": 1.001673,
+  "tx": -0.562,
+  "ty": -0.693,
+  "leftOver": [
+   0.04,
+   -0.04,
+   0.5,
+   -0.44
+  ],
+  "out": "build-a-reg.png"
+ },
+ "dusk.png": {
+  "from": "wall",
+  "sx": 1.00021,
+  "sy": 1.001308,
+  "tx": -1.012,
+  "ty": -0.403,
+  "patches": [
+   12,
+   24
+  ],
+  "leftOver": [
+   0.255,
+   0.358
+  ],
+  "out": "dusk-reg.png"
+ },
+ "dusk-off.png": {
+  "from": "wall",
+  "sx": 0.999944,
+  "sy": 1.00033,
+  "tx": -0.959,
+  "ty": 0.05,
+  "patches": [
+   12,
+   21
+  ],
+  "leftOver": [
+   0.316,
+   0.345
+  ],
+  "out": "dusk-off-reg.png"
+ }
+}

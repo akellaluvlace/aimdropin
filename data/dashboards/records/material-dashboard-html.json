@@ -1,0 +1,101 @@
+{
+  "record": {
+    "slug": "material-dashboard-html",
+    "title": "Material Dashboard 3",
+    "description": "Material Design dashboard on Bootstrap 5: tables, billing, notifications, profile, RTL, VR, map and auth pages.",
+    "repo": "creativetimofficial/material-dashboard-free",
+    "sha": "d441a3a174f69d6ef15b2581981f1195884772ad",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "README Licensing section: MIT; Resources list links the Creative Tim license page.",
+      "url": "https://github.com/creativetimofficial/material-dashboard-free/blob/d441a3a174f69d6ef15b2581981f1195884772ad/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "material-design",
+      "rtl",
+      "charts"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/material-dashboard/pages/dashboard.html",
+    "quality": 4,
+    "entry": "pages/dashboard.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "pages/dashboard.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/billing.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/icons.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/map.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/notifications.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/profile.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/rtl.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/sign-in.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/sign-up.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/tables.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/template.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/typography.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "pages/virtual-reality.html",
+        "title": "Material Dashboard 3 by Creative Tim"
+      },
+      {
+        "path": "template.html",
+        "title": "Material Dashboard 2 by Creative Tim"
+      }
+    ],
+    "storedBytes": 2754056,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:21.347Z"
+  },
+  "serve": {
+    "slug": "material-dashboard-html",
+    "kind": "static",
+    "entry": "pages/dashboard.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/material-dashboard-free@d441a3a174f69d6ef15b2581981f1195884772ad/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

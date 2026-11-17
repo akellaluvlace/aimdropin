@@ -1,0 +1,72 @@
+{
+  "record": {
+    "slug": "material-angular-dashboard",
+    "title": "Material Angular Dashboard",
+    "description": "Dark Material Design Lite dashboard for Angular by CreativeIT: dashboard with NVD3 charts, UI components, forms, tables, maps, sign-in/up and 404 pages.",
+    "repo": "CreativeIT/material-angular-dashboard",
+    "sha": "0bbef05ef58a20733f7530962806332baacc9828",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "node-sass swapped for dart-sass at build time.",
+      "url": "https://github.com/CreativeIT/material-angular-dashboard/blob/0bbef05ef58a20733f7530962806332baacc9828/LICENSE"
+    },
+    "author": "CreativeIT",
+    "framework": "angular",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "material-design-lite",
+      "nvd3",
+      "d3",
+      "dark"
+    ],
+    "demoUrl": "https://creativeit.github.io/material-angular-dashboard/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Material Angular Dashboard"
+      }
+    ],
+    "storedBytes": 2422236,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:27.260Z"
+  },
+  "serve": {
+    "slug": "material-angular-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/CreativeIT/material-angular-dashboard@0bbef05ef58a20733f7530962806332baacc9828/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/icons/favicon-16x16.png": "src/assets/icons/favicon-16x16.png",
+      "assets/icons/favicon-32x32.png": "src/assets/icons/favicon-16x16.png",
+      "assets/images/Bobby.PNG": "src/assets/images/Bobby.PNG",
+      "assets/images/DB_16х16.png": "src/assets/icons/favicon-16x16.png",
+      "assets/images/Dark_background_1920x1080.png": "src/assets/images/Dark_background_1920x1080.png",
+      "assets/images/Icon.png": "src/assets/images/Icon.png",
+      "assets/images/Icon_header.png": "src/assets/images/Icon_header.png",
+      "assets/images/active_marker.png": "src/assets/images/active_marker.png",
+      "assets/images/card.jpg": "src/assets/images/card.jpg",
+      "assets/images/cotoneaster.jpg": "src/assets/images/cotoneaster.jpg",
+      "assets/images/gina-torres.png": "src/assets/images/gina-torres.png",
+      "assets/images/imgo.png": "src/assets/images/imgo.png",
+      "assets/images/istanbul.jpg": "src/assets/images/istanbul.jpg",
+      "assets/images/map_target_images_sprite.png": "src/assets/images/map_target_images_sprite.png",
+      "assets/images/marker.png": "src/assets/images/marker.png",
+      "assets/images/nathan-fillion.png": "src/assets/images/nathan-fillion.png",
+      "assets/images/robot.png": "src/assets/images/robot.png",
+      "assets/images/sao_paulo.jpg": "src/assets/images/sao_paulo.jpg",
+      "assets/images/tokyo.jpg": "src/assets/images/tokyo.jpg",
+      "assets/images/tudyk.png": "src/assets/images/tudyk.png",
+      "assets/images/weather_bck.png": "src/assets/images/weather_bck.png"
+    }
+  }
+}

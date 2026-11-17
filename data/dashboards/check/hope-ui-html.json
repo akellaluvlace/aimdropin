@@ -1,0 +1,217 @@
+{
+  "checkedAt": "2026-11-10T18:05:39.834Z",
+  "pagesChecked": 51,
+  "pagesOk": 49,
+  "failures": [
+    {
+      "path": "dashboard/auth/confirm-mail.html",
+      "problem": "net::ERR_BLOCKED_BY_ORB /demos/hope-ui-html/assets/images/auth/mail.png"
+    },
+    {
+      "path": "dashboard/errors/maintenance.html",
+      "problem": "script error: Uncaught ReferenceError: Cannot access 'timeinterval' before initialization"
+    }
+  ],
+  "deadLinks": [
+    "dashboard/maps/google.html",
+    "landing-pages/landing-pages/index.html"
+  ],
+  "pages": [
+    {
+      "path": "dashboard/index.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/admin.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/app/user-account-setting.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/app/user-add.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/app/user-list.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/app/user-privacy-setting.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/app/user-profile.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/auth/lock-screen.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/auth/recoverpw.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/auth/sign-in.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/auth/sign-up.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/errors/error404.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/errors/error500.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/extra/privacy-policy.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/extra/terms-of-service.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/form/form-element.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/form/form-validation.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/form/form-wizard.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/icons/dual-tone.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/icons/outline.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/icons/solid.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/index-boxed-fancy.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/index-boxed.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/index-dual-compact.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/index-dual-horizontal.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/index-horizontal.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/maps/vector.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/plugins/flatpickr.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/special-pages/billing.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/special-pages/calender.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/special-pages/kanban.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/special-pages/pricing.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/special-pages/rtl-support.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/special-pages/timeline.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/table/bootstrap-table.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/table/table-data.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/widget/widgetbasic.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/widget/widgetcard.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "dashboard/widget/widgetchart.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "index.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "landing-pages/about.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "landing-pages/blog-detail.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "landing-pages/blog.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "landing-pages/contact-us.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "landing-pages/faq.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "landing-pages/feature.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "landing-pages/index.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "landing-pages/pricing.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    },
+    {
+      "path": "landing-pages/software-landing-page.html",
+      "title": "Hope UI | Responsive Bootstrap 5 Admin Dashboard Template"
+    }
+  ]
+}

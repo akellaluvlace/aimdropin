@@ -1,0 +1,84 @@
+{
+  "record": {
+    "slug": "label-admin",
+    "title": "Label",
+    "description": "Bootstrap 4 admin: dashboard, buttons, typography, form elements, tables, Chart.js charts, Material icons and login.",
+    "repo": "uxcandy/Label-Free-Bootstrap-Admin-Template",
+    "sha": "ea50ff5649caeeb72c4d445f8dbefd29fbd55c42",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles TinyMCE 4.9.3 (LGPL-2.1).",
+      "url": "https://github.com/uxcandy/Label-Free-Bootstrap-Admin-Template/blob/ea50ff5649caeeb72c4d445f8dbefd29fbd55c42/LICENSE"
+    },
+    "author": "Uxcandy",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts"
+    ],
+    "demoUrl": null,
+    "quality": 3,
+    "entry": "demo_1/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "demo_1/index.html",
+        "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+      },
+      {
+        "path": "assets/vendors/iconfonts/mdi/preview.html",
+        "title": "Material Design Icons"
+      },
+      {
+        "path": "demo_1/pages/charts/chartjs.html",
+        "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+      },
+      {
+        "path": "demo_1/pages/forms/form-elements.html",
+        "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+      },
+      {
+        "path": "demo_1/pages/icons/material-icons.html",
+        "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+      },
+      {
+        "path": "demo_1/pages/sample-pages/error_2.html",
+        "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+      },
+      {
+        "path": "demo_1/pages/sample-pages/login_1.html",
+        "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+      },
+      {
+        "path": "demo_1/pages/ui-components/buttons.html",
+        "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+      },
+      {
+        "path": "demo_1/pages/ui-components/tables.html",
+        "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+      },
+      {
+        "path": "demo_1/pages/ui-components/typography.html",
+        "title": "Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template"
+      }
+    ],
+    "storedBytes": 11209648,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:23.291Z"
+  },
+  "serve": {
+    "slug": "label-admin",
+    "kind": "static",
+    "entry": "demo_1/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/uxcandy/Label-Free-Bootstrap-Admin-Template@ea50ff5649caeeb72c4d445f8dbefd29fbd55c42/",
+    "cdnRoot": "src",
+    "cdnMap": null
+  }
+}

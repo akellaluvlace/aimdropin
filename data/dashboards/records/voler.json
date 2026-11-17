@@ -1,0 +1,199 @@
+{
+  "record": {
+    "slug": "voler",
+    "title": "Voler",
+    "description": "Bootstrap 5 admin: dashboard, components, forms, tables, charts, layouts, auth and error pages.",
+    "repo": "zuramai/voler",
+    "sha": "7318fb9b17f51a180f97960ff69e0e18d002d00d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/zuramai/voler/blob/7318fb9b17f51a180f97960ff69e0e18d002d00d/LICENSE"
+    },
+    "author": "zuramai",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "apexcharts",
+      "layouts"
+    ],
+    "demoUrl": "https://zuramai.github.io/voler",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard - Voler Admin Dashboard"
+      },
+      {
+        "path": "auth-forgot-password.html",
+        "title": "Forgot Password - Voler Admin Dashboard"
+      },
+      {
+        "path": "auth-login.html",
+        "title": "Sign in - Voler Admin Dashboard"
+      },
+      {
+        "path": "auth-register.html",
+        "title": "Sign up - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-alert.html",
+        "title": "Alert - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-badge.html",
+        "title": "Badge - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-breadcrumb.html",
+        "title": "Breadcrumb - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-buttons.html",
+        "title": "Buttons - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-card.html",
+        "title": "Card - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-carousel.html",
+        "title": "Carousel - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-dropdowns.html",
+        "title": "Dropdowns - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-extra-avatar.html",
+        "title": "Avatar - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-extra-divider.html",
+        "title": "Divider - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-list-group.html",
+        "title": "List Group - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-modal.html",
+        "title": "Modal - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-navs.html",
+        "title": "Navs - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-pagination.html",
+        "title": "Pagination - Voler Admin Dashboard"
+      },
+      {
+        "path": "component-progress.html",
+        "title": "Progress - Voler Admin Dashboard"
+      },
+      {
+        "path": "error-403.html",
+        "title": "Forbidden - Voler Admin Dashboard"
+      },
+      {
+        "path": "error-404.html",
+        "title": "Not Found - Voler Admin Dashboard"
+      },
+      {
+        "path": "error-500.html",
+        "title": "Forbidden - Voler Admin Dashboard"
+      },
+      {
+        "path": "form-editor.html",
+        "title": "Form Editor - Voler Admin Dashboard"
+      },
+      {
+        "path": "form-element-checkbox.html",
+        "title": "Checkbox - Voler Admin Dashboard"
+      },
+      {
+        "path": "form-element-input-group.html",
+        "title": "Input Group - Voler Admin Dashboard"
+      },
+      {
+        "path": "form-element-input.html",
+        "title": "Input - Voler Admin Dashboard"
+      },
+      {
+        "path": "form-element-radio.html",
+        "title": "Radio - Voler Admin Dashboard"
+      },
+      {
+        "path": "form-element-select.html",
+        "title": "Select - Voler Admin Dashboard"
+      },
+      {
+        "path": "form-element-textarea.html",
+        "title": "Textarea - Voler Admin Dashboard"
+      },
+      {
+        "path": "form-layout.html",
+        "title": "Form Layout - Voler Admin Dashboard"
+      },
+      {
+        "path": "table-datatable.html",
+        "title": "Datatable - Voler Admin Dashboard"
+      },
+      {
+        "path": "table.html",
+        "title": "Table - Voler Admin Dashboard"
+      },
+      {
+        "path": "ui-chart-apexchart.html",
+        "title": "Apexchart - Voler Admin Dashboard"
+      },
+      {
+        "path": "ui-chart-chartjs.html",
+        "title": "ChartJS - Voler Admin Dashboard"
+      },
+      {
+        "path": "ui-chatbox.html",
+        "title": "Chatbox - Voler Admin Dashboard"
+      },
+      {
+        "path": "ui-pricing.html",
+        "title": "Pricing - Voler Admin Dashboard"
+      },
+      {
+        "path": "ui-todolist.html",
+        "title": "Todo List - Voler Admin Dashboard"
+      },
+      {
+        "path": "ui-widgets-chatbox.html",
+        "title": "Chatbox - Voler Admin Dashboard"
+      },
+      {
+        "path": "ui-widgets-pricing.html",
+        "title": "Pricing - Voler Admin Dashboard"
+      },
+      {
+        "path": "ui-widgets-todolist.html",
+        "title": "Todo List - Voler Admin Dashboard"
+      }
+    ],
+    "storedBytes": 1294956,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:26.001Z"
+  },
+  "serve": {
+    "slug": "voler",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/zuramai/voler@7318fb9b17f51a180f97960ff69e0e18d002d00d/",
+    "cdnRoot": "dist",
+    "cdnMap": null
+  }
+}

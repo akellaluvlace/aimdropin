@@ -1,0 +1,172 @@
+{
+  "record": {
+    "slug": "adminkit",
+    "title": "AdminKit",
+    "description": "Bootstrap 5 admin template with dashboards, pages, forms, tables, charts, icons, maps and auth screens.",
+    "repo": "adminkit/adminkit",
+    "sha": "61b40dcd3f03590688482e9811f5d04add80c2fd",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/adminkit/adminkit/blob/61b40dcd3f03590688482e9811f5d04add80c2fd/LICENSE"
+    },
+    "author": "AdminKit",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "vanilla-js",
+      "chartjs",
+      "vite"
+    ],
+    "demoUrl": "https://demo.adminkit.io/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Analytics Dashboard | AdminKit Demo"
+      },
+      {
+        "path": "charts-chartjs.html",
+        "title": "Chart.js | AdminKit Demo"
+      },
+      {
+        "path": "icons-lucide.html",
+        "title": "Lucide | AdminKit Demo"
+      },
+      {
+        "path": "maps-google.html",
+        "title": "Google Maps | AdminKit Demo"
+      },
+      {
+        "path": "pages-404.html",
+        "title": "404 | AdminKit Demo"
+      },
+      {
+        "path": "pages-500.html",
+        "title": "500 | AdminKit Demo"
+      },
+      {
+        "path": "pages-blank.html",
+        "title": "Blank Page | AdminKit Demo"
+      },
+      {
+        "path": "pages-invoice.html",
+        "title": "Invoice | AdminKit Demo"
+      },
+      {
+        "path": "pages-pricing.html",
+        "title": "Pricing | AdminKit Demo"
+      },
+      {
+        "path": "pages-profile.html",
+        "title": "Profile | AdminKit Demo"
+      },
+      {
+        "path": "pages-sign-in.html",
+        "title": "Sign In | AdminKit Demo"
+      },
+      {
+        "path": "pages-sign-up.html",
+        "title": "Sign Up | AdminKit Demo"
+      },
+      {
+        "path": "tables-bootstrap.html",
+        "title": "Tables | AdminKit Demo"
+      },
+      {
+        "path": "ui-alerts.html",
+        "title": "Alerts | AdminKit Demo"
+      },
+      {
+        "path": "ui-buttons.html",
+        "title": "Buttons | AdminKit Demo"
+      },
+      {
+        "path": "ui-cards.html",
+        "title": "Cards | AdminKit Demo"
+      },
+      {
+        "path": "ui-forms.html",
+        "title": "Forms | AdminKit Demo"
+      },
+      {
+        "path": "ui-modals.html",
+        "title": "Modals | AdminKit Demo"
+      },
+      {
+        "path": "ui-typography.html",
+        "title": "Typography | AdminKit Demo"
+      },
+      {
+        "path": "upgrade-to-pro.html",
+        "title": "Upgrade to Pro | AdminKit Demo"
+      }
+    ],
+    "storedBytes": 2724056,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:27.369Z"
+  },
+  "serve": {
+    "slug": "adminkit",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/adminkit/adminkit@61b40dcd3f03590688482e9811f5d04add80c2fd/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "css/app.d.css.ts": "src/types/app.d.css.ts",
+      "img/avatars/avatar-2.jpg": "public/img/avatars/avatar-2.jpg",
+      "img/avatars/avatar-3.jpg": "public/img/avatars/avatar-3.jpg",
+      "img/avatars/avatar-4.jpg": "public/img/avatars/avatar-4.jpg",
+      "img/avatars/avatar-5.jpg": "public/img/avatars/avatar-5.jpg",
+      "img/avatars/avatar.jpg": "public/img/avatars/avatar.jpg",
+      "img/icons/icon-48x48.png": "public/img/icons/icon-48x48.png",
+      "img/photos/unsplash-1.jpg": "public/img/photos/unsplash-1.jpg",
+      "img/photos/unsplash-2.jpg": "public/img/photos/unsplash-2.jpg",
+      "img/screenshots/pro/ai-chat-dark-800.webp": "public/img/screenshots/pro/ai-chat-dark-800.webp",
+      "img/screenshots/pro/ai-chat-dark.webp": "public/img/screenshots/pro/ai-chat-dark.webp",
+      "img/screenshots/pro/ai-chat-light-800.webp": "public/img/screenshots/pro/ai-chat-light-800.webp",
+      "img/screenshots/pro/ai-chat-light.webp": "public/img/screenshots/pro/ai-chat-light.webp",
+      "img/screenshots/pro/ai-usage-dark-800.webp": "public/img/screenshots/pro/ai-usage-dark-800.webp",
+      "img/screenshots/pro/ai-usage-dark.webp": "public/img/screenshots/pro/ai-usage-dark.webp",
+      "img/screenshots/pro/ai-usage-light-800.webp": "public/img/screenshots/pro/ai-usage-light-800.webp",
+      "img/screenshots/pro/ai-usage-light.webp": "public/img/screenshots/pro/ai-usage-light.webp",
+      "img/screenshots/pro/analytics-dark-800.webp": "public/img/screenshots/pro/analytics-dark-800.webp",
+      "img/screenshots/pro/analytics-dark.webp": "public/img/screenshots/pro/analytics-dark.webp",
+      "img/screenshots/pro/analytics-light-800.webp": "public/img/screenshots/pro/analytics-light-800.webp",
+      "img/screenshots/pro/analytics-light.webp": "public/img/screenshots/pro/analytics-light.webp",
+      "img/screenshots/pro/calendar-dark-800.webp": "public/img/screenshots/pro/calendar-dark-800.webp",
+      "img/screenshots/pro/calendar-dark.webp": "public/img/screenshots/pro/calendar-dark.webp",
+      "img/screenshots/pro/calendar-light-800.webp": "public/img/screenshots/pro/calendar-light-800.webp",
+      "img/screenshots/pro/calendar-light.webp": "public/img/screenshots/pro/calendar-light.webp",
+      "img/screenshots/pro/crm-dark-800.webp": "public/img/screenshots/pro/crm-dark-800.webp",
+      "img/screenshots/pro/crm-dark.webp": "public/img/screenshots/pro/crm-dark.webp",
+      "img/screenshots/pro/crm-light-800.webp": "public/img/screenshots/pro/crm-light-800.webp",
+      "img/screenshots/pro/crm-light.webp": "public/img/screenshots/pro/crm-light.webp",
+      "img/screenshots/pro/crypto-dark-800.webp": "public/img/screenshots/pro/crypto-dark-800.webp",
+      "img/screenshots/pro/crypto-dark.webp": "public/img/screenshots/pro/crypto-dark.webp",
+      "img/screenshots/pro/crypto-light-800.webp": "public/img/screenshots/pro/crypto-light-800.webp",
+      "img/screenshots/pro/crypto-light.webp": "public/img/screenshots/pro/crypto-light.webp",
+      "img/screenshots/pro/datatables-dark-800.webp": "public/img/screenshots/pro/datatables-dark-800.webp",
+      "img/screenshots/pro/datatables-dark.webp": "public/img/screenshots/pro/datatables-dark.webp",
+      "img/screenshots/pro/datatables-light-800.webp": "public/img/screenshots/pro/datatables-light-800.webp",
+      "img/screenshots/pro/datatables-light.webp": "public/img/screenshots/pro/datatables-light.webp",
+      "img/screenshots/pro/ecommerce-dark-800.webp": "public/img/screenshots/pro/ecommerce-dark-800.webp",
+      "img/screenshots/pro/ecommerce-dark.webp": "public/img/screenshots/pro/ecommerce-dark.webp",
+      "img/screenshots/pro/ecommerce-light-800.webp": "public/img/screenshots/pro/ecommerce-light-800.webp",
+      "img/screenshots/pro/ecommerce-light.webp": "public/img/screenshots/pro/ecommerce-light.webp",
+      "img/screenshots/pro/settings-dark-800.webp": "public/img/screenshots/pro/settings-dark-800.webp",
+      "img/screenshots/pro/settings-dark.webp": "public/img/screenshots/pro/settings-dark.webp",
+      "img/screenshots/pro/settings-light-800.webp": "public/img/screenshots/pro/settings-light-800.webp",
+      "img/screenshots/pro/settings-light.webp": "public/img/screenshots/pro/settings-light.webp",
+      "js/app.d.ts": "src/types/app.d.ts",
+      "og-image.png": "public/og-image.png"
+    }
+  }
+}

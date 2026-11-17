@@ -1,0 +1,71 @@
+{
+  "record": {
+    "slug": "shards-dashboard-html",
+    "title": "Shards Dashboard Lite",
+    "description": "Bootstrap 4 blog admin: overview, posts, new post editor, forms, tables, components and user profile.",
+    "repo": "DesignRevision/shards-dashboard",
+    "sha": "525efdca736a2203b8c3e5f8f64c766841e71c57",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/DesignRevision/shards-dashboard/blob/525efdca736a2203b8c3e5f8f64c766841e71c57/LICENSE"
+    },
+    "author": "DesignRevision",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "blog",
+      "charts"
+    ],
+    "demoUrl": "https://designrevision.com/demo/shards-dashboard-lite",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+      },
+      {
+        "path": "add-new-post.html",
+        "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+      },
+      {
+        "path": "components-blog-posts.html",
+        "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+      },
+      {
+        "path": "errors.html",
+        "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+      },
+      {
+        "path": "form-components.html",
+        "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+      },
+      {
+        "path": "tables.html",
+        "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+      },
+      {
+        "path": "user-profile-lite.html",
+        "title": "Shards Dashboard Lite - Free Bootstrap Admin Template – DesignRevision"
+      }
+    ],
+    "storedBytes": 185933,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:24.463Z"
+  },
+  "serve": {
+    "slug": "shards-dashboard-html",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/DesignRevision/shards-dashboard@525efdca736a2203b8c3e5f8f64c766841e71c57/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

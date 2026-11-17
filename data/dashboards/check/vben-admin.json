@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-11-10T19:09:02.881Z",
+  "pagesChecked": 21,
+  "pagesOk": 21,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "分析页 - Vben Admin Antd"
+    },
+    {
+      "path": "dashboard/analytics",
+      "title": "Dashboard / Analytics"
+    },
+    {
+      "path": "dashboard/workspace",
+      "title": "工作台 - Vben Admin Antd"
+    },
+    {
+      "path": "demos/ant-design",
+      "title": "Ant Design Vue - Vben Admin Antd"
+    },
+    {
+      "path": "vben-admin/about",
+      "title": "关于 - Vben Admin Antd"
+    },
+    {
+      "path": "auth/login",
+      "title": "登录 - Vben Admin Antd"
+    },
+    {
+      "path": "auth/code-login",
+      "title": "验证码登录 - Vben Admin Antd"
+    },
+    {
+      "path": "auth/qrcode-login",
+      "title": "二维码登录 - Vben Admin Antd"
+    },
+    {
+      "path": "auth/forget-password",
+      "title": "忘记密码 - Vben Admin Antd"
+    },
+    {
+      "path": "auth/register",
+      "title": "注册 - Vben Admin Antd"
+    },
+    {
+      "path": "vben-admin/document",
+      "title": "文档 - Vben Admin Antd"
+    },
+    {
+      "path": "vben-admin/github",
+      "title": "Github - Vben Admin Antd"
+    },
+    {
+      "path": "vben-admin/antdv-next",
+      "title": "Antdv Next 版本 - Vben Admin Antd"
+    },
+    {
+      "path": "vben-admin/naive",
+      "title": "Naive UI 版本 - Vben Admin Antd"
+    },
+    {
+      "path": "vben-admin/tdesign",
+      "title": "TDesign Vue 版本 - Vben Admin Antd"
+    },
+    {
+      "path": "vben-admin/ele",
+      "title": "Element Plus 版本 - Vben Admin Antd"
+    },
+    {
+      "path": "auth",
+      "title": "登录 - Vben Admin Antd"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "demos",
+      "title": "Ant Design Vue - Vben Admin Antd"
+    },
+    {
+      "path": "vben-admin",
+      "title": "文档 - Vben Admin Antd"
+    },
+    {
+      "path": "profile",
+      "title": "个人中心 - Vben Admin Antd"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T18:48:39.659Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Now UI Dashboard Angular by Creative Tim"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "icons",
+      "title": "Icons"
+    },
+    {
+      "path": "maps",
+      "title": "Maps"
+    },
+    {
+      "path": "notifications",
+      "title": "Notifications"
+    },
+    {
+      "path": "user-profile",
+      "title": "User Profile"
+    },
+    {
+      "path": "table-list",
+      "title": "Table List"
+    },
+    {
+      "path": "typography",
+      "title": "Typography"
+    },
+    {
+      "path": "upgrade",
+      "title": "Upgrade"
+    }
+  ]
+}

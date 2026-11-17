@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-10T19:02:53.767Z",
+  "pagesChecked": 10,
+  "pagesOk": 10,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Light Bootstrap Dashboard Vue"
+    },
+    {
+      "path": "admin/overview",
+      "title": "Admin / Overview"
+    },
+    {
+      "path": "admin/user",
+      "title": "Admin / User"
+    },
+    {
+      "path": "admin/table-list",
+      "title": "Admin / Table List"
+    },
+    {
+      "path": "admin/typography",
+      "title": "Admin / Typography"
+    },
+    {
+      "path": "admin/icons",
+      "title": "Admin / Icons"
+    },
+    {
+      "path": "admin/maps",
+      "title": "Admin / Maps"
+    },
+    {
+      "path": "admin/notifications",
+      "title": "Admin / Notifications"
+    },
+    {
+      "path": "admin/upgrade",
+      "title": "Admin / Upgrade"
+    },
+    {
+      "path": "admin",
+      "title": "Admin"
+    }
+  ]
+}

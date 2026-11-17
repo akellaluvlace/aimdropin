@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-11-10T19:20:35.426Z",
+  "pagesChecked": 16,
+  "pagesOk": 16,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Dashboard"
+    },
+    {
+      "path": "404.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "404/index.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "authentication/login/index.html",
+      "title": "Login"
+    },
+    {
+      "path": "authentication/register/index.html",
+      "title": "Register"
+    },
+    {
+      "path": "icons/index.html",
+      "title": "Icons"
+    },
+    {
+      "path": "sample-page/index.html",
+      "title": "Sample Page"
+    },
+    {
+      "path": "utilities/shadow/index.html",
+      "title": "Shadow"
+    },
+    {
+      "path": "utilities/typography/index.html",
+      "title": "Typography"
+    },
+    {
+      "path": "",
+      "title": "Dashboard"
+    },
+    {
+      "path": "utilities/typography/",
+      "title": "Typography"
+    },
+    {
+      "path": "utilities/shadow/",
+      "title": "Shadow"
+    },
+    {
+      "path": "authentication/login/",
+      "title": "Login"
+    },
+    {
+      "path": "authentication/register/",
+      "title": "Register"
+    },
+    {
+      "path": "icons/",
+      "title": "Icons"
+    },
+    {
+      "path": "sample-page/",
+      "title": "Sample Page"
+    }
+  ]
+}

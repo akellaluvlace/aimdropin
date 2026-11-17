@@ -1,0 +1,95 @@
+{
+  "checkedAt": "2026-11-10T17:42:39.068Z",
+  "pagesChecked": 20,
+  "pagesOk": 20,
+  "failures": [],
+  "deadLinks": [
+    "session/404",
+    "chat",
+    "page-layouts/user-profile",
+    "material",
+    "charts"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "MatX React - Material UI admin dashboard template"
+    },
+    {
+      "path": "dashboard/default",
+      "title": "Dashboard / Default"
+    },
+    {
+      "path": "session/signin",
+      "title": "Session / Signin"
+    },
+    {
+      "path": "session/signup",
+      "title": "Session / Signup"
+    },
+    {
+      "path": "session/forgot-password",
+      "title": "Session / Forgot Password"
+    },
+    {
+      "path": "material/autocomplete",
+      "title": "Material / Autocomplete"
+    },
+    {
+      "path": "material/buttons",
+      "title": "Material / Buttons"
+    },
+    {
+      "path": "material/checkbox",
+      "title": "Material / Checkbox"
+    },
+    {
+      "path": "material/dialog",
+      "title": "Material / Dialog"
+    },
+    {
+      "path": "material/expansion-panel",
+      "title": "Material / Expansion Panel"
+    },
+    {
+      "path": "material/form",
+      "title": "Material / Form"
+    },
+    {
+      "path": "material/icons",
+      "title": "Material / Icons"
+    },
+    {
+      "path": "material/menu",
+      "title": "Material / Menu"
+    },
+    {
+      "path": "material/progress",
+      "title": "Material / Progress"
+    },
+    {
+      "path": "material/radio",
+      "title": "Material / Radio"
+    },
+    {
+      "path": "material/switch",
+      "title": "Material / Switch"
+    },
+    {
+      "path": "material/slider",
+      "title": "Material / Slider"
+    },
+    {
+      "path": "material/snackbar",
+      "title": "Material / Snackbar"
+    },
+    {
+      "path": "material/table",
+      "title": "Material / Table"
+    },
+    {
+      "path": "charts/echarts",
+      "title": "Charts / Echarts"
+    }
+  ]
+}

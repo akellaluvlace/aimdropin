@@ -1,0 +1,128 @@
+{
+  "record": {
+    "slug": "dashio",
+    "title": "Dashio",
+    "description": "Bootstrap 5.3 dashboard with analytics, e-commerce, CRM, projects, SaaS and finance dashboards plus app and auth pages.",
+    "repo": "DashboardPack/dashio-template",
+    "sha": "4d9109ed48853439f4384adb8987562480d67dbb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/DashboardPack/dashio-template/blob/4d9109ed48853439f4384adb8987562480d67dbb/LICENSE"
+    },
+    "author": "DashboardPack",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "chartjs",
+      "vite",
+      "multi-dashboard"
+    ],
+    "demoUrl": "https://dashboardpack.github.io/dashio-template/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard | Dashio"
+      },
+      {
+        "path": "pages/404.html",
+        "title": "404 - Page Not Found | Dashio"
+      },
+      {
+        "path": "pages/500.html",
+        "title": "500 - Server Error | Dashio"
+      },
+      {
+        "path": "pages/calendar.html",
+        "title": "Calendar | Dashio"
+      },
+      {
+        "path": "pages/charts.html",
+        "title": "Charts | Dashio"
+      },
+      {
+        "path": "pages/dashboard-analytics.html",
+        "title": "Analytics | Dashio"
+      },
+      {
+        "path": "pages/dashboard-crm.html",
+        "title": "CRM | Dashio"
+      },
+      {
+        "path": "pages/dashboard-ecommerce.html",
+        "title": "E-commerce | Dashio"
+      },
+      {
+        "path": "pages/dashboard-finance.html",
+        "title": "Finance | Dashio"
+      },
+      {
+        "path": "pages/dashboard-projects.html",
+        "title": "Projects | Dashio"
+      },
+      {
+        "path": "pages/dashboard-saas.html",
+        "title": "SaaS | Dashio"
+      },
+      {
+        "path": "pages/forgot-password.html",
+        "title": "Forgot Password | Dashio"
+      },
+      {
+        "path": "pages/forms.html",
+        "title": "Forms | Dashio"
+      },
+      {
+        "path": "pages/kanban.html",
+        "title": "Kanban | Dashio"
+      },
+      {
+        "path": "pages/login.html",
+        "title": "Login | Dashio"
+      },
+      {
+        "path": "pages/notifications.html",
+        "title": "Notifications | Dashio"
+      },
+      {
+        "path": "pages/pricing.html",
+        "title": "Pricing | Dashio"
+      },
+      {
+        "path": "pages/profile.html",
+        "title": "Profile | Dashio"
+      },
+      {
+        "path": "pages/register.html",
+        "title": "Register | Dashio"
+      },
+      {
+        "path": "pages/settings.html",
+        "title": "Settings | Dashio"
+      },
+      {
+        "path": "pages/tables.html",
+        "title": "Tables | Dashio"
+      }
+    ],
+    "storedBytes": 1578604,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:27.952Z"
+  },
+  "serve": {
+    "slug": "dashio",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/DashboardPack/dashio-template@4d9109ed48853439f4384adb8987562480d67dbb/",
+    "cdnRoot": null,
+    "cdnMap": null
+  }
+}

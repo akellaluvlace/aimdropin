@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-11-10T18:07:26.390Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [
+    "examples/map.html"
+  ],
+  "pages": [
+    {
+      "path": "examples/dashboard.html",
+      "title": "Paper Dashboard 2 by Creative Tim"
+    },
+    {
+      "path": "examples/icons.html",
+      "title": "Paper Dashboard 2 by Creative Tim"
+    },
+    {
+      "path": "examples/notifications.html",
+      "title": "Paper Dashboard 2 by Creative Tim"
+    },
+    {
+      "path": "examples/tables.html",
+      "title": "Paper Dashboard 2 by Creative Tim"
+    },
+    {
+      "path": "examples/typography.html",
+      "title": "Paper Dashboard 2 by Creative Tim"
+    },
+    {
+      "path": "examples/upgrade.html",
+      "title": "Paper Dashboard 2 by Creative Tim"
+    },
+    {
+      "path": "examples/user.html",
+      "title": "Paper Dashboard 2 by Creative Tim"
+    },
+    {
+      "path": "nucleo-icons.html",
+      "title": "Nucleo Outline Web Font"
+    },
+    {
+      "path": "template.html",
+      "title": "Paper Dashboard 2 by Creative Tim"
+    }
+  ]
+}

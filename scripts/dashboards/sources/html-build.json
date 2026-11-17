@@ -1,0 +1,1204 @@
+[
+  {
+    "slug": "tabler",
+    "title": "Tabler",
+    "description": "Bootstrap 5 admin kit with 90+ pages: dashboards, components, forms, tables, charts, maps, auth and error screens, light and dark themes.",
+    "repo": "tabler/tabler",
+    "sha": "93d9718c33cb7f9b1fed8f28760446bf9a6c12e6",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to tag v1.0.0-beta20, the last release that commits the built demo/. Bundles ApexCharts 3.40.0 (MIT) and TinyMCE 6.4.2 (MIT). Unreferenced dark/full email previews are not stored."
+    },
+    "author": "The Tabler Authors",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "dark-mode",
+      "apexcharts",
+      "components",
+      "vanilla-js"
+    ],
+    "demoUrl": "https://preview.tabler.io",
+    "quality": 5,
+    "site": {
+      "kind": "static",
+      "root": "demo",
+      "entry": "index.html",
+      "ignore": [
+        "static/emails/absence-dark-full.png",
+        "static/emails/absence-dark.png",
+        "static/emails/absence-full.png",
+        "static/emails/activities-dark-full.png",
+        "static/emails/activities-dark.png",
+        "static/emails/activities-full.png",
+        "static/emails/blog-post-dark-full.png",
+        "static/emails/blog-post-dark.png",
+        "static/emails/blog-post-full.png",
+        "static/emails/collection-dark-full.png",
+        "static/emails/collection-dark.png",
+        "static/emails/collection-full.png",
+        "static/emails/conference-dark-full.png",
+        "static/emails/conference-dark.png",
+        "static/emails/conference-full.png",
+        "static/emails/confirmation-dark-full.png",
+        "static/emails/confirmation-dark.png",
+        "static/emails/confirmation-full.png",
+        "static/emails/download-dark-full.png",
+        "static/emails/download-dark.png",
+        "static/emails/download-full.png",
+        "static/emails/empty-dark-full.png",
+        "static/emails/empty-dark.png",
+        "static/emails/empty-full.png",
+        "static/emails/empty.png",
+        "static/emails/error-dark-full.png",
+        "static/emails/error-dark.png",
+        "static/emails/error-full.png",
+        "static/emails/event-invitation-dark-full.png",
+        "static/emails/event-invitation-dark.png",
+        "static/emails/event-invitation-full.png",
+        "static/emails/featured-photo-dark-full.png",
+        "static/emails/featured-photo-dark.png",
+        "static/emails/featured-photo-full.png",
+        "static/emails/features-2-dark-full.png",
+        "static/emails/features-2-dark.png",
+        "static/emails/features-2-full.png",
+        "static/emails/features-dark-full.png",
+        "static/emails/features-dark.png",
+        "static/emails/features-full.png",
+        "static/emails/friend-request-dark-full.png",
+        "static/emails/friend-request-dark.png",
+        "static/emails/friend-request-full.png",
+        "static/emails/gdpr-dark-full.png",
+        "static/emails/gdpr-dark.png",
+        "static/emails/gdpr-full.png",
+        "static/emails/help-dark-full.png",
+        "static/emails/help-dark.png",
+        "static/emails/help-full.png",
+        "static/emails/invitation-dark-full.png",
+        "static/emails/invitation-dark.png",
+        "static/emails/invitation-full.png",
+        "static/emails/invoice-dark-full.png",
+        "static/emails/invoice-dark.png",
+        "static/emails/invoice-full.png",
+        "static/emails/last-conversation-dark-full.png",
+        "static/emails/last-conversation-dark.png",
+        "static/emails/last-conversation-full.png",
+        "static/emails/license-dark-full.png",
+        "static/emails/license-dark.png",
+        "static/emails/license-full.png",
+        "static/emails/message-dark-full.png",
+        "static/emails/message-dark.png",
+        "static/emails/message-full.png",
+        "static/emails/missing-order-dark-full.png",
+        "static/emails/missing-order-dark.png",
+        "static/emails/missing-order-full.png",
+        "static/emails/new-photos-dark-full.png",
+        "static/emails/new-photos-dark.png",
+        "static/emails/new-photos-full.png",
+        "static/emails/new-photos.png",
+        "static/emails/newsletter-dark-full.png",
+        "static/emails/newsletter-dark.png",
+        "static/emails/newsletter-full.png",
+        "static/emails/offer-dark-full.png",
+        "static/emails/offer-dark.png",
+        "static/emails/offer-full.png",
+        "static/emails/order-dark-full.png",
+        "static/emails/order-dark.png",
+        "static/emails/order-full.png",
+        "static/emails/password-dark-full.png",
+        "static/emails/password-dark.png",
+        "static/emails/password-full.png",
+        "static/emails/payment-dark-full.png",
+        "static/emails/payment-dark.png",
+        "static/emails/payment-full.png",
+        "static/emails/popular-posts-dark-full.png",
+        "static/emails/popular-posts-dark.png",
+        "static/emails/popular-posts-full.png",
+        "static/emails/pricing-dark-full.png",
+        "static/emails/pricing-dark.png",
+        "static/emails/pricing-full.png",
+        "static/emails/product-available-dark-full.png",
+        "static/emails/product-available-dark.png",
+        "static/emails/product-available-full.png",
+        "static/emails/progress-dark-full.png",
+        "static/emails/progress-dark.png",
+        "static/emails/progress-full.png",
+        "static/emails/projects-dark-full.png",
+        "static/emails/projects-dark.png",
+        "static/emails/projects-full.png",
+        "static/emails/promo-code-dark-full.png",
+        "static/emails/promo-code-dark.png",
+        "static/emails/promo-code-full.png",
+        "static/emails/register-dark-full.png",
+        "static/emails/register-dark.png",
+        "static/emails/register-full.png",
+        "static/emails/reminder-dark-full.png",
+        "static/emails/reminder-dark.png",
+        "static/emails/reminder-full.png",
+        "static/emails/repo-stats-dark-full.png",
+        "static/emails/repo-stats-dark.png",
+        "static/emails/repo-stats-full.png",
+        "static/emails/sale-dark-full.png",
+        "static/emails/sale-dark.png",
+        "static/emails/sale-full.png",
+        "static/emails/schedule-dark-full.png",
+        "static/emails/schedule-dark.png",
+        "static/emails/schedule-full.png",
+        "static/emails/shipped-dark-full.png",
+        "static/emails/shipped-dark.png",
+        "static/emails/shipped-full.png",
+        "static/emails/stats-2-dark-full.png",
+        "static/emails/stats-2-dark.png",
+        "static/emails/stats-2-full.png",
+        "static/emails/stats-dark-full.png",
+        "static/emails/stats-dark.png",
+        "static/emails/stats-full.png",
+        "static/emails/subscribe-dark-full.png",
+        "static/emails/subscribe-dark.png",
+        "static/emails/subscribe-full.png",
+        "static/emails/subscription-dark-full.png",
+        "static/emails/subscription-dark.png",
+        "static/emails/subscription-full.png",
+        "static/emails/survey-dark-full.png",
+        "static/emails/survey-dark.png",
+        "static/emails/survey-full.png",
+        "static/emails/todo-dark-full.png",
+        "static/emails/todo-dark.png",
+        "static/emails/todo-full.png",
+        "static/emails/top-comments-dark-full.png",
+        "static/emails/top-comments-dark.png",
+        "static/emails/top-comments-full.png",
+        "static/emails/ui-colors-dark-full.png",
+        "static/emails/ui-colors-dark.png",
+        "static/emails/ui-colors-full.png",
+        "static/emails/ui-grid-dark-full.png",
+        "static/emails/ui-grid-dark.png",
+        "static/emails/ui-grid-full.png",
+        "static/emails/ui-typography-dark-full.png",
+        "static/emails/ui-typography-dark.png",
+        "static/emails/ui-typography-full.png",
+        "static/emails/valentines-1-dark-full.png",
+        "static/emails/valentines-1-dark.png",
+        "static/emails/valentines-1-full.png",
+        "static/emails/valentines-2-dark-full.png",
+        "static/emails/valentines-2-dark.png",
+        "static/emails/valentines-2-full.png",
+        "static/emails/valentines-3-dark-full.png",
+        "static/emails/valentines-3-dark.png",
+        "static/emails/valentines-3-full.png",
+        "static/emails/valentines-4-dark-full.png",
+        "static/emails/valentines-4-dark.png",
+        "static/emails/valentines-4-full.png",
+        "static/emails/visitors-map-dark-full.png",
+        "static/emails/visitors-map-dark.png",
+        "static/emails/visitors-map-full.png",
+        "static/emails/wishlist-dark-full.png",
+        "static/emails/wishlist-dark.png",
+        "static/emails/wishlist-full.png"
+      ]
+    }
+  },
+  {
+    "slug": "mazer",
+    "title": "Mazer",
+    "description": "Bootstrap 5 admin dashboard with about 70 pages: components, forms, editors, tables, charts, maps, chat, email, auth and error screens.",
+    "repo": "zuramai/mazer",
+    "sha": "82f55fb2510d534d03136d92c9a17711a111267a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the docs branch (built demo/), which has no LICENSE file; MIT read from LICENSE on main at 6ea47abbd5bd (2025-08-05, same day as this build). ApexCharts 3.48.0 and TinyMCE 6.8.3 (MIT). The CKEditor 5 (GPL, loaded from cdn.ckeditor.com) page is left out. Bundles simple-datatables (LGPL-3.0)."
+    },
+    "author": "Ahmad Saugi",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "dark-mode",
+      "vanilla-js",
+      "apexcharts",
+      "rtl"
+    ],
+    "demoUrl": "https://zuramai.github.io/mazer/demo/",
+    "quality": 5,
+    "site": {
+      "kind": "static",
+      "root": "demo",
+      "entry": "index.html",
+      "ignore": [
+        "form-editor-ckeditor.html"
+      ]
+    }
+  },
+  {
+    "slug": "architectui-free",
+    "title": "ArchitectUI",
+    "description": "Bootstrap 5 admin dashboard with 26 pages: dashboard widgets, UI elements, components, forms, tables, Chart.js charts and a calendar.",
+    "repo": "DashboardPack/architectui-html-theme-free",
+    "sha": "fcec72bb8a512b9d5b992296388687782264261a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the gh-pages branch (built site), which has no LICENSE file; MIT read from LICENSE on master at 1eee00e46b46 (2026-10-08, same release)."
+    },
+    "author": "DashboardPack",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "jquery",
+      "chartjs",
+      "fullcalendar"
+    ],
+    "demoUrl": "https://dashboardpack.com/theme-details/architectui-html-dashboard-free/",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "adminkit",
+    "title": "AdminKit",
+    "description": "Bootstrap 5 admin template with dashboards, pages, forms, tables, charts, icons, maps and auth screens.",
+    "repo": "adminkit/adminkit",
+    "sha": "61b40dcd3f03590688482e9811f5d04add80c2fd",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminKit",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "vanilla-js",
+      "chartjs",
+      "vite"
+    ],
+    "demoUrl": "https://demo.adminkit.io/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "adminlte-tailwind",
+    "title": "AdminLTE Tailwind",
+    "description": "AdminLTE rebuilt on Tailwind CSS 4: dashboards, widgets, forms, tables, charts, mailbox, auth and error pages.",
+    "repo": "puikinsh/adminlte-tailwind",
+    "sha": "995434edfabf1c7f33c6a74a5b55562b96e1d542",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles simple-datatables (LGPL-3.0); photos under the Unsplash License (see CREDITS.md)."
+    },
+    "author": "AdminLTE.io",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind4",
+      "typescript",
+      "vite",
+      "dark-mode"
+    ],
+    "demoUrl": "https://adminlte.io/themes/tailwind/",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "BASE_PATH=$DEMO_BASE npx vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "dashio",
+    "title": "Dashio",
+    "description": "Bootstrap 5.3 dashboard with analytics, e-commerce, CRM, projects, SaaS and finance dashboards plus app and auth pages.",
+    "repo": "DashboardPack/dashio-template",
+    "sha": "4d9109ed48853439f4384adb8987562480d67dbb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "DashboardPack",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "chartjs",
+      "vite",
+      "multi-dashboard"
+    ],
+    "demoUrl": "https://dashboardpack.github.io/dashio-template/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "kiaalap",
+    "title": "Kiaalap",
+    "description": "Education and LMS admin template on Bootstrap 5.3: courses, students, professors, library, calendar, mail and auth pages.",
+    "repo": "puikinsh/kiaalap",
+    "sha": "f1af1555d30ce94718ade1d1ff150385dafe3786",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles simple-datatables (LGPL-3.0)."
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "education",
+      "chartjs",
+      "vite"
+    ],
+    "demoUrl": "https://colorlib.com/polygon/kiaalap/index.html",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "concept-admin",
+    "title": "Concept",
+    "description": "Bootstrap 5.3 admin with finance, sales and influencer dashboards, e-commerce, email, calendar, tables and UI elements.",
+    "repo": "puikinsh/concept",
+    "sha": "95446d87877501a3a84065d0f8de188e13f6f311",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "chartjs",
+      "datatables",
+      "vite"
+    ],
+    "demoUrl": "https://colorlib.com/polygon/concept/index.html",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npm run build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "metis-admin",
+    "title": "Metis",
+    "description": "Bootstrap 5.3 and Alpine.js dashboard with analytics, users, orders, products, reports, settings and auth pages.",
+    "repo": "puikinsh/Bootstrap-Admin-Template",
+    "sha": "3ee469460fbafe29762dad1a7daecb8df4be0eb0",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "alpinejs",
+      "chartjs",
+      "vite"
+    ],
+    "demoUrl": "https://preview.colorlib.com/theme/metis/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build",
+      "out": "dist-modern",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "gentelella-v4",
+    "title": "Gentelella",
+    "description": "Admin template with its own design system: 58 pages incl. inbox, kanban, calendar, file manager, ECharts and settings.",
+    "repo": "ColorlibHQ/gentelella",
+    "sha": "02936f9003baa8473aa39dadd4ce23b679961d53",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "echarts",
+      "vanilla-js",
+      "vite",
+      "dark-mode"
+    ],
+    "demoUrl": "https://gentelella.colorlib.com/",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "BASE_PATH=$DEMO_BASE npx vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "tailwind-alpine-vojislavd",
+    "title": "TailwindCSS Alpine.js Template",
+    "description": "Tailwind and Alpine.js admin with dashboards, e-commerce, 15 auth variants, UI components, forms and charts.",
+    "repo": "vojislavd/TailwindCSS-Alpine.js-Template",
+    "sha": "46850fa9a0e8d7ebe1fffd03e219fd680f61b794",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Vojislav Dimitrijevic",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "alpinejs",
+      "vite",
+      "ecommerce"
+    ],
+    "demoUrl": "https://vojislavd.com/ta-template-demo/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    }
+  },
+  {
+    "slug": "kwd-dashboard",
+    "title": "K-WD Dashboard",
+    "description": "Tailwind and Alpine.js dashboard with dark mode, sidebar layouts, components, tables, auth and error pages.",
+    "repo": "Kamona-WD/kwd-dashboard",
+    "sha": "76996c9aeae690aebac490309fabfb4bb9b3c029",
+    "license": {
+      "spdx": "MIT",
+      "path": "License.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^4.3 (MIT)."
+    },
+    "author": "Ahmed Kamel",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "alpinejs",
+      "dark-mode",
+      "apexcharts"
+    ],
+    "demoUrl": "https://kamona-wd.github.io/kwd-dashboard/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "yarn install --frozen-lockfile --ignore-scripts",
+      "build": "npx vite build --emptyOutDir",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "kwd-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "risaltte-dashboard",
+    "title": "Risaltte Dashboard",
+    "description": "Small Tailwind and Alpine.js dashboard for a course platform: overview, courses, students, settings and login.",
+    "repo": "risaltte/dashboard-tailwindCSS",
+    "sha": "4ef2cb0f0493820ba81b6d5749f4c70ee7ae2460",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Rafael Risalte",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "alpinejs",
+      "vite"
+    ],
+    "demoUrl": "https://dashboard-tailwind-css.vercel.app",
+    "quality": 2,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    },
+    "exclude": "Passes the crawl (8/8) but is a small, basic 4-section Portuguese course demo (quality 2)."
+  },
+  {
+    "slug": "volt-bootstrap-5",
+    "title": "Volt",
+    "description": "Bootstrap 5 dashboard with Chartist charts: overview, transactions, settings, tables, components, auth and error pages.",
+    "repo": "themesberg/volt-bootstrap-5-dashboard",
+    "sha": "733061d47060d761254df349b17e2abd02de6c74",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Themesberg",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "vanilla-js",
+      "chartist",
+      "gulp"
+    ],
+    "demoUrl": "https://demo.themesberg.com/volt/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx gulp build:dist",
+      "out": "dist",
+      "entry": "pages/dashboard/dashboard.html",
+      "spa": false,
+      "patch": "volt-bootstrap-5.mjs"
+    }
+  },
+  {
+    "slug": "dash-ui-bootstrap",
+    "title": "Dash UI",
+    "description": "Bootstrap 5 admin dashboard with projects overview, profile, settings, billing, pricing, auth and layout pages.",
+    "repo": "codescandy/Dash-UI",
+    "sha": "394b933495a0847e21d0cc40a462d381df80190f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.47 (MIT)."
+    },
+    "author": "Codescandy",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "apexcharts",
+      "gulp"
+    ],
+    "demoUrl": "https://dashui.codescandy.com",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx gulp build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "dash-ui-bootstrap.mjs"
+    }
+  },
+  {
+    "slug": "dasher-bootstrap",
+    "title": "Dasher",
+    "description": "Bootstrap 5 e-commerce admin: dashboard, products, orders, customers, settings and auth pages.",
+    "repo": "codescandy/dasher-bootstrap-5-admin-template-free",
+    "sha": "1a81e11ee51f8893e1555491e00b60eaef2bec62",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.52 (MIT)."
+    },
+    "author": "Codescandy",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "E-commerce",
+    "tags": [
+      "bootstrap5",
+      "ecommerce",
+      "apexcharts",
+      "gulp"
+    ],
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx gulp build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "dasher-bootstrap.mjs"
+    }
+  },
+  {
+    "slug": "dashui-tailwind",
+    "title": "Dash UI Tailwind",
+    "description": "Tailwind CSS port of Dash UI: projects dashboard, profile, settings, billing, pricing, auth and component pages.",
+    "repo": "codescandy/dashui-tailwindcss",
+    "sha": "eab6e57438d4da5f1f4c543dce4ac082609eb51f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.44 (MIT)."
+    },
+    "author": "Codescandy",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "apexcharts",
+      "gulp"
+    ],
+    "demoUrl": "https://dashui.codescandy.com/tailwindcss/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx gulp build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "dashui-tailwind.mjs"
+    }
+  },
+  {
+    "slug": "flowbite-admin-dashboard",
+    "title": "Flowbite Admin Dashboard",
+    "description": "Tailwind CSS 4 and Flowbite admin: dashboard, product and user CRUD, settings, pricing, auth, error and maintenance pages.",
+    "repo": "themesberg/flowbite-admin-dashboard",
+    "sha": "229df7ff25808ab2bbda65f03f2397a05f7b4288",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.46 (MIT). simple-datatables (LGPL-3.0) is loaded from jsDelivr, not bundled."
+    },
+    "author": "Themesberg (Bergside Inc.)",
+    "framework": "html",
+    "ui": "flowbite",
+    "category": "Admin",
+    "tags": [
+      "tailwind4",
+      "flowbite",
+      "hugo",
+      "dark-mode",
+      "apexcharts"
+    ],
+    "demoUrl": "https://flowbite-admin-dashboard.vercel.app",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "find node_modules -mindepth 1 -maxdepth 1 -exec rm -rf {} + ; rm -f package-lock.json && yarn install --ignore-scripts --non-interactive && curl -fsSL -o /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.111.3/hugo_extended_0.111.3_linux-$(dpkg --print-architecture).deb && dpkg -i /tmp/hugo.deb",
+      "build": "npx webpack --mode=production --no-optimization-minimize && HUGO_CANONIFYURLS=false hugo --baseURL $DEMO_BASE --destination=./demo-out && node /patches/root-links-post.mjs demo-out",
+      "out": "demo-out",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "flowbite-admin-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "windster",
+    "title": "Windster",
+    "description": "Tailwind CSS and Flowbite dashboard: overview with charts, users, products, settings, pricing and auth pages.",
+    "repo": "themesberg/tailwind-dashboard-windster",
+    "sha": "9be2ab853454f35f3c0c010c2b66220762adf7ec",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.29 (MIT)."
+    },
+    "author": "Themesberg",
+    "framework": "html",
+    "ui": "flowbite",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "flowbite",
+      "hugo",
+      "apexcharts"
+    ],
+    "demoUrl": "https://demo.themesberg.com/windster/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund && curl -fsSL -o /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.111.3/hugo_extended_0.111.3_linux-$(dpkg --print-architecture).deb && dpkg -i /tmp/hugo.deb",
+      "build": "npx webpack --mode=production && HUGO_CANONIFYURLS=false hugo --baseURL $DEMO_BASE --destination=./demo-out && node /patches/root-links-post.mjs demo-out",
+      "out": "demo-out",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "windster.mjs"
+    }
+  },
+  {
+    "slug": "tailadmin-html",
+    "title": "TailAdmin",
+    "description": "Tailwind CSS 4 and Alpine.js admin: e-commerce dashboard, calendar, profile, forms, tables, charts, UI elements and auth pages.",
+    "repo": "TailAdmin/tailadmin-free-tailwind-dashboard-template",
+    "sha": "0cd65f1a8cdd201377976b1c8de0af76178e9d0e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to 0cd65f1a (2026-09-07), the last commit before the move to ApexCharts 7 (not MIT); its lockfile resolves ApexCharts 3.54.1 (MIT)."
+    },
+    "author": "TailAdmin",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind4",
+      "alpinejs",
+      "apexcharts",
+      "dark-mode",
+      "webpack"
+    ],
+    "demoUrl": "https://free-demo.tailadmin.com/",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx webpack --config webpack.config.js",
+      "out": "build",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "tailadmin-html.mjs"
+    }
+  },
+  {
+    "slug": "coreui-free",
+    "title": "CoreUI Free Bootstrap Admin",
+    "description": "Bootstrap 5 admin built on CoreUI: dashboard, base and form components, buttons, charts, icons, notifications, widgets, auth and error pages.",
+    "repo": "coreui/coreui-free-bootstrap-admin-template",
+    "sha": "d4003cd8efe2a4173cb36c5ed55c4e5faec22e77",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "creativeLabs \u0141ukasz Holeczek",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "coreui",
+      "chartjs",
+      "dark-mode"
+    ],
+    "demoUrl": "https://coreui.io/product/free-bootstrap-admin-template/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npm run build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "coreui-free.mjs"
+    }
+  },
+  {
+    "slug": "astero-admin",
+    "title": "Astero Admin",
+    "description": "Bootstrap 5.3 admin generated with Astro: dashboards, apps, users, roles and permissions, forms, tables, components and auth pages.",
+    "repo": "asterodigital/bootstrap-admin-template",
+    "sha": "74a628874af7fb322f355ecffbd792bb249cea7a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Astero Digital",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "astro",
+      "dark-mode",
+      "rtl"
+    ],
+    "demoUrl": "https://asterodigital.com/astero-admin/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "PATH=$PWD/node_modules/.bin:$PATH node tools/build.mjs --skip-lint --skip-format",
+      "out": "dist",
+      "entry": "pages/dashboard.html",
+      "spa": false,
+      "patch": "astero-admin.mjs"
+    }
+  },
+  {
+    "slug": "bootstrap-dashboard-kit",
+    "title": "Bootstrap Dashboard Kit",
+    "description": "Minimal Bootstrap 5 dashboard by Webpixels: overview, account, profile, settings, login and error pages.",
+    "repo": "webpixels/bootstrap-dashboard-kit",
+    "sha": "bd6aa2dad2d0008bfdaa91bead651fa72586dd7d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Webpixels",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "eleventy",
+      "parcel"
+    ],
+    "demoUrl": "https://bootstrap-dashboard-kit.netlify.app",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "rm -rf dist && npx parcel build ./src/scss/*.scss --dist-dir ./dist/css && npx parcel build ./src/js/main.js --dist-dir ./dist/js && npx cross-env ELEVENTY_ENV=production eleventy && node /patches/root-links-post.mjs dist",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    },
+    "exclude": "Build needs Parcel 2.2's native modules (lmdb via node-gyp-build), which have no linux-arm64 prebuild and would need install scripts; also minimal (9 pages, 2022, quality 3)."
+  },
+  {
+    "slug": "flowbite-astro-admin",
+    "title": "Flowbite Astro Admin",
+    "description": "Flowbite admin dashboard rebuilt with Astro and Tailwind: dashboard, CRUD for products and users, settings, auth and error pages.",
+    "repo": "themesberg/flowbite-astro-admin-dashboard",
+    "sha": "478b5ae818b31af10f01fd08a6a49624235d6933",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.37 (MIT)."
+    },
+    "author": "Themesberg (Bergside Inc.)",
+    "framework": "html",
+    "ui": "flowbite",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "flowbite",
+      "astro",
+      "dark-mode",
+      "apexcharts"
+    ],
+    "demoUrl": "https://themesberg.github.io/flowbite-astro-admin-dashboard/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx astro build --base $DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    },
+    "exclude": "Astro project also listed in the Astro/other batch (dashboards-other.json); left to that batch. Its build fetches its own /api from SITE and hardcodes root links."
+  },
+  {
+    "slug": "cleopatra",
+    "title": "Cleopatra",
+    "description": "Tailwind CSS 4 dashboard with analytics, e-commerce, apps and UI pages.",
+    "repo": "moesaid/cleopatra",
+    "sha": "40c56983999a139741a441d279a8335ff159fad2",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Mohamed Said",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind4",
+      "vite"
+    ],
+    "demoUrl": "https://moesaid.github.io/cleopatra/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "yarn build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    },
+    "exclude": "Bundles ApexCharts ^5.3.6 (dual commercial license); the v2 rewrite used ApexCharts 5 from its first commit (2026-01-20), and the older v1 is a 2020 7-page design."
+  },
+  {
+    "slug": "admintoolkit-html",
+    "title": "AdminToolkit",
+    "description": "Tailwind CSS admin with 59 pages.",
+    "repo": "mostafizurhimself/admintoolkit-html",
+    "sha": "6d92c31ffd5082c972a8a3e2127ec121b7c42933",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Md Mostafizur Rahman",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind3",
+      "vite"
+    ],
+    "demoUrl": "https://getadmintoolkit.com/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "yarn build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    },
+    "exclude": "Bundles amCharts 5 (free version requires amCharts branding; commercial license otherwise) since 2023-04-21; earlier commits have no LICENSE file."
+  },
+  {
+    "slug": "stisla-v2",
+    "title": "Stisla",
+    "description": "Bootstrap 4 admin template with 80+ pages.",
+    "repo": "stisla/stisla",
+    "sha": "4e271a77b329d6a39a9b1fe2f59796d96a7e02c2",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Muhamad Nauval Azhar",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "gulp"
+    ],
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx gulp dist",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    },
+    "exclude": "Bundles Chocolat 0.4.21 (GPL-3.0) and sticky-kit (WTFPL) via ../node_modules links; v2 is also a 2019 Bootstrap 4 design."
+  },
+  {
+    "slug": "aero-admin",
+    "title": "Aero Admin",
+    "description": "Materialize-based admin template (2018).",
+    "repo": "felippepuhle/aero-admin",
+    "sha": "6e7db06d5cee8d9881cb10aaaa4d00ac88ef3fe2",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Felippe Puhle",
+    "framework": "html",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "materialize",
+      "jekyll"
+    ],
+    "demoUrl": "http://demo.felippepuhle.com.br/aero/",
+    "quality": 2,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "bundle exec jekyll build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    },
+    "exclude": "Dated (2018 Materialize design, quality 2) and needs a Jekyll 3 + gulp 3 toolchain."
+  },
+  {
+    "slug": "bulma-dashboard-codersamer",
+    "title": "Bulma Dashboard",
+    "description": "Bulma dashboard with 3 pages.",
+    "repo": "codersamer/Bulma-Dashboard",
+    "sha": "1e4145735833b9160775491ab7a42c7933a0ab5d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Samer Moustafa",
+    "framework": "html",
+    "ui": "bulma",
+    "category": "Admin",
+    "tags": [
+      "bulma",
+      "gulp"
+    ],
+    "quality": 2,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx gulp",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    },
+    "exclude": "Too small and dated: 3 page sources (2020), quality 2."
+  },
+  {
+    "slug": "bulma-admin-mazipan",
+    "title": "Bulma Admin Dashboard",
+    "description": "Archived Bulma admin with 7 pages.",
+    "repo": "mazipan/bulma-admin-dashboard-template",
+    "sha": "05321b7a572fb8a89cdaa291505c75301c55b669",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Irfan Maulana",
+    "framework": "html",
+    "ui": "bulma",
+    "category": "Admin",
+    "tags": [
+      "bulma",
+      "eleventy"
+    ],
+    "demoUrl": "https://mazipan.github.io/bulma-admin-dashboard-template/",
+    "quality": 2,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "pnpm build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": false
+    },
+    "exclude": "Archived, dated (2021, quality 2), needs node-sass 5 (native install script); gh-pages build hardcodes /bulma-admin-dashboard-template/ paths."
+  },
+  {
+    "slug": "modular-admin",
+    "title": "ModularAdmin",
+    "description": "Bootstrap 4 admin with jQuery: dashboard, items list and editor, charts (Flot, Morris), forms, tables, buttons, icons, auth and error pages.",
+    "repo": "modularcode/modular-admin-html",
+    "sha": "b4a10e69fd0515ff24a96a8286ece31021935dc7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the gh-pages branch (built site, 2019-07-15), which has no LICENSE file; MIT read from LICENSE on master at fb247f5a373b (2019-07-14, the build's source period). Bundles jqvmap (MIT/GPL dual), Flot (MIT), Morris (BSD) and Quill 1 (BSD-3)."
+    },
+    "author": "ModularCode",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "flot",
+      "morris"
+    ],
+    "demoUrl": "https://modularcode.io/modular-admin-html/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "Dated Bootstrap 4 design (2016-19, quality 3); the prebuilt gh-pages app.js throws on login, signup, reset and error pages (15/21 pass) and a source build needs node-sass (native install script)."
+  }
+]

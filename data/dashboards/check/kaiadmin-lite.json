@@ -1,0 +1,98 @@
+{
+  "checkedAt": "2026-11-10T18:05:54.970Z",
+  "pagesChecked": 20,
+  "pagesOk": 20,
+  "failures": [],
+  "deadLinks": [
+    "examples/demo1/maps/googlemaps.html",
+    "documentation/index.html",
+    "examples/demo1/profile.html",
+    "examples/demo1/charts/profile.html",
+    "examples/demo1/components/profile.html",
+    "examples/demo1/forms/profile.html",
+    "examples/demo1/maps/profile.html",
+    "examples/demo1/tables/profile.html"
+  ],
+  "pages": [
+    {
+      "path": "examples/demo1/index.html",
+      "title": "Kaiadmin - Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/charts/charts.html",
+      "title": "Charts - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/charts/sparkline.html",
+      "title": "Sparkline - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/components/avatars.html",
+      "title": "Avatars - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/components/buttons.html",
+      "title": "Buttons - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/components/font-awesome-icons.html",
+      "title": "Font Awesome - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/components/gridsystem.html",
+      "title": "Grid System - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/components/notifications.html",
+      "title": "Notifications - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/components/panels.html",
+      "title": "Panels - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/components/simple-line-icons.html",
+      "title": "Simple Line Icons - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/components/sweetalert.html",
+      "title": "Sweet Alert - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/components/typography.html",
+      "title": "Typography - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/forms/forms.html",
+      "title": "Forms - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/icon-menu.html",
+      "title": "Kaiadmin - Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/maps/jsvectormap.html",
+      "title": "Jsvectormap - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/sidebar-style-2.html",
+      "title": "Kaiadmin - Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/starter-template.html",
+      "title": "Kaiadmin - Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/tables/datatables.html",
+      "title": "Datatables - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/tables/tables.html",
+      "title": "Tables - Kaiadmin Bootstrap 5 Admin Dashboard"
+    },
+    {
+      "path": "examples/demo1/widgets.html",
+      "title": "Widgets - Kaiadmin Bootstrap 5 Admin Dashboard"
+    }
+  ]
+}

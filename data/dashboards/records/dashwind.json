@@ -1,0 +1,60 @@
+{
+  "record": {
+    "slug": "dashwind",
+    "title": "DashWind",
+    "description": "daisyUI + Redux admin: dashboard, leads, transactions, calendar, team/billing/profile settings, charts, integrations and docs.",
+    "repo": "robbins23/daisyui-admin-dashboard-template",
+    "sha": "0d119454b92b3a5210970b2c0b7d3d8e22e3e71a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/robbins23/daisyui-admin-dashboard-template/blob/0d119454b92b3a5210970b2c0b7d3d8e22e3e71a/LICENSE.md"
+    },
+    "author": "robbins23",
+    "framework": "react",
+    "ui": "daisyui",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "daisyui",
+      "redux-toolkit",
+      "themes"
+    ],
+    "demoUrl": "https://tailwind-dashboard-template-dashwind.vercel.app/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "DashWind"
+      }
+    ],
+    "storedBytes": 1199591,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:35.850Z"
+  },
+  "serve": {
+    "slug": "dashwind",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/robbins23/daisyui-admin-dashboard-template@0d119454b92b3a5210970b2c0b7d3d8e22e3e71a/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "android-chrome-192x192.png": "public/android-chrome-192x192.png",
+      "android-chrome-512x512.png": "public/android-chrome-512x512.png",
+      "apple-touch-icon.png": "public/apple-touch-icon.png",
+      "favicon-16x16.png": "public/favicon-16x16.png",
+      "favicon-32x32.png": "public/favicon-32x32.png",
+      "favicon.ico": "public/favicon.ico",
+      "intro.png": "public/intro.png",
+      "logo.jpg": "public/logo.jpg",
+      "logo192.png": "public/android-chrome-192x192.png",
+      "logo512.png": "public/android-chrome-512x512.png",
+      "robots.txt": "public/robots.txt"
+    }
+  }
+}

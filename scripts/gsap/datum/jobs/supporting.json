@@ -1,0 +1,76 @@
+{
+ "defaults": {
+  "openai/gpt-image-2.6/sunburst/edit": {
+   "image_size": {
+    "width": 2880,
+    "height": 1920
+   },
+   "quality": "max",
+   "output_format": "png",
+   "background": "opaque",
+   "num_images": 1
+  }
+ },
+ "jobs": [
+  {
+   "name": "dusk-off",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "dusk-ref.jpg"
+   ],
+   "input": {
+    "prompt": "Show exactly the same view at exactly the same moment of dusk, with every light inside the house switched off. Keep everything exactly as it is, at exactly the same size and in exactly the same position in the frame: the building, the slate roof, the wall, every window with its oak lining, the tall glazed opening, the door, the trees, the hills, the meadow, the long grass, and the deep blue twilight sky with its faint warm glow low at the horizon. Change only this: no light is on inside the house. Every window and the tall glazed opening is dark, its glass dimly reflecting the cool blue twilight sky, with the rooms behind barely visible, and there is no warm light on the grass in front of the house, which lies in the same even cool blue twilight as the rest of the meadow. The white wall keeps the same cool blue-grey tone, evenly lit, with no warm glow around the openings. No lights anywhere, no stars, no moon, no people, no text."
+   }
+  },
+  {
+   "name": "in-ground",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "house-ref.jpg"
+   ],
+   "input": {
+    "prompt": "An interior photograph of the ground floor room of the house in the reference image, taken from inside the room at blue hour, looking straight at the long outside wall and its tall glazed opening. One-point perspective, the camera level and square to the wall, every vertical perfectly vertical and every horizontal of the wall perfectly horizontal. The line where the floor meets the wall is a level horizontal line running the full width of the picture, about three quarters of the way down the frame. The wall is thick white lime plaster, softly hand-trowelled. The tall glazed opening stands in the centre of the frame, lined in pale oak with a deep reveal, its glass rising from the floor to well above head height; through it are the mown meadow, the long grass and low hills under a deep blue dusk sky. In front of the opening stands the pale oak dining table with four slender oak chairs and a white vase of meadow flowers, as seen through the window in the reference; one plain small pendant lamp hangs over the table, lit, giving warm light on the table, the floor and the white wall. Wide pale oak floorboards run toward the wall. Far to the left a deep square window lined in oak, far to the right a plain oak door, both in the same wall. Calm, spare, warm lamp light against the blue outside. Architectural interior photograph for a monograph, wide lens with no distortion, natural restrained colour, extremely sharp, fine material detail. The important things sit in the middle band of the picture so that it can be cropped to a wide panorama or to a square. No people, no animals, no text."
+   }
+  },
+  {
+   "name": "in-first",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "house-ref.jpg"
+   ],
+   "input": {
+    "prompt": "An interior photograph of an upstairs room of the house in the reference image, a quiet bedroom and study under the pitched roof, taken at blue hour, looking straight at the long outside wall. One-point perspective, the camera level and square to the wall, every vertical perfectly vertical and every horizontal of the wall perfectly horizontal. The line where the floor meets the wall is a level horizontal line running the full width of the picture, about three quarters of the way down the frame. The wall is thick white lime plaster, softly hand-trowelled, about two metres high, and above it the white plastered slope of the roof rises toward the camera with a row of exposed pale oak rafters. In the wall, a little right of centre, one deep window lined in pale oak, taller than it is wide, with low hills and a deep blue dusk sky through it. Under the window a long low oak bench with a folded grey wool blanket and three books. To the left a small plain oak desk and chair with a slim desk lamp, lit, giving warm light on the white wall. Wide pale oak floorboards run toward the wall. Calm, spare, warm lamp light against the blue outside. Architectural interior photograph for a monograph, wide lens with no distortion, natural restrained colour, extremely sharp, fine material detail. The important things sit in the middle band of the picture so that it can be cropped to a wide panorama or to a square. No people, no animals, no text."
+   }
+  },
+  {
+   "name": "mat-slate",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "house-ref.jpg"
+   ],
+   "input": {
+    "prompt": "A close-up detail photograph, taken straight on, of the natural slate roof of the house in the reference image, filling the whole frame from edge to edge. Blue-grey riven slates of random widths, laid in perfectly level horizontal courses that become gradually shorter toward the top of the frame, each slate with a naturally split surface, slightly uneven thickness, crisp dressed edges and fine shadows under its lower edge; a few slates a little lighter or rustier than the rest, and small patches of pale lichen. About twelve courses are visible. Soft, even overcast daylight, no direct sun. Architectural detail photograph for a monograph, natural restrained colour, extremely sharp from corner to corner, fine material detail. Nothing else in the picture: no sky, no gutter, no people, no text."
+   }
+  },
+  {
+   "name": "mat-lime",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "house-ref.jpg"
+   ],
+   "input": {
+    "prompt": "A close-up detail photograph, taken straight on, of the white lime-rendered wall of the house in the reference image, filling the whole frame from edge to edge. Hand-floated lime render, limewashed white: a soft, slightly uneven, matt mineral surface with the faint sweeping marks of the wooden float, tiny grains of sand and a few hairline crazing lines, lit by soft overcast daylight raking gently from the left so the texture shows. Along the bottom quarter of the frame runs the level top edge of a pale oak window lining, perfectly horizontal across the full width, its end grain and a fine dark shadow line where the render stops against it. Architectural detail photograph for a monograph, natural restrained colour, extremely sharp from corner to corner, fine material detail. Nothing else in the picture: no window glass, no people, no text."
+   }
+  },
+  {
+   "name": "mat-oak",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "house-ref.jpg"
+   ],
+   "input": {
+    "prompt": "A close-up detail photograph, taken straight on, of the pale oak lining of a window of the house in the reference image, filling the whole frame from edge to edge: the corner where an upright board of the lining meets the level sill board. Solid European oak, quarter-sawn, unfinished and pale, with fine straight grain and the silvery flecks of its medullary rays; a tight joint held by two small round oak pegs; crisp square edges with a hairline of shadow. The top edge of the sill board is a perfectly level horizontal line across the full width of the frame, about three quarters of the way down. In the top left corner, a little of the white lime render the lining sits in. Soft, even overcast daylight. Architectural detail photograph for a monograph, natural restrained colour, extremely sharp from corner to corner, fine material detail. Nothing else in the picture: no glass, no people, no text."
+   }
+  }
+ ]
+}

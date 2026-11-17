@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T18:31:05.139Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Black Dashboard Angular by Creative Tim"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "icons",
+      "title": "Icons"
+    },
+    {
+      "path": "maps",
+      "title": "Maps"
+    },
+    {
+      "path": "notifications",
+      "title": "Notifications"
+    },
+    {
+      "path": "user",
+      "title": "User"
+    },
+    {
+      "path": "tables",
+      "title": "Tables"
+    },
+    {
+      "path": "typography",
+      "title": "Typography"
+    },
+    {
+      "path": "rtl",
+      "title": "Rtl"
+    }
+  ]
+}

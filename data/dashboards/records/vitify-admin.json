@@ -1,0 +1,55 @@
+{
+  "record": {
+    "slug": "vitify-admin",
+    "title": "Vitify Admin",
+    "description": "Vue 2.7 + Vuetify 2 admin built with Vite: dashboard with ECharts, user management, permissions, i18n, file-based routes and MSW mocks.",
+    "repo": "kingyue737/vitify-admin",
+    "sha": "1bf6404a108d5b6703b59663ad4a8939950a524f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/kingyue737/vitify-admin/blob/1bf6404a108d5b6703b59663ad4a8939950a524f/LICENSE"
+    },
+    "author": "Yue JIN (kingyue737)",
+    "framework": "vue",
+    "ui": "vuetify",
+    "category": "Starter",
+    "tags": [
+      "vite",
+      "vue2",
+      "vuetify",
+      "echarts",
+      "msw",
+      "i18n"
+    ],
+    "demoUrl": "https://vitify-admin.netlify.app/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vitify Admin"
+      }
+    ],
+    "storedBytes": 1953783,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:41.968Z"
+  },
+  "serve": {
+    "slug": "vitify-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/kingyue737/vitify-admin@1bf6404a108d5b6703b59663ad4a8939950a524f/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/1-CrVAzcSL.jpg": "src/assets/images/drawer/1.jpg",
+      "assets/2-DhhXCRUJ.jpg": "src/assets/images/drawer/2.jpg",
+      "assets/3-qK5gtFOf.jpg": "src/assets/images/drawer/3.jpg",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

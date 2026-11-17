@@ -1,0 +1,87 @@
+{
+  "record": {
+    "slug": "modernize-tailwind-html",
+    "title": "Modernize (Tailwind)",
+    "description": "Tailwind CSS admin: dashboard with ApexCharts, buttons, alerts, cards, forms, typography, icons and auth pages.",
+    "repo": "adminmart/modernize-html-free-tailwind",
+    "sha": "7969f4baa7dd071c3d4cc3a192bd25925c5fbe05",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/adminmart/modernize-html-free-tailwind/blob/7969f4baa7dd071c3d4cc3a192bd25925c5fbe05/LICENSE.txt"
+    },
+    "author": "AdminMart",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "preline",
+      "apexcharts"
+    ],
+    "demoUrl": "https://bootstrapdemos.adminmart.com/modernize-tailwind-free/dist/index.html",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "components/alerts.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "components/buttons.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "components/cards.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "components/forms.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "components/typography.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "pages/authentication-login.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "pages/authentication-register.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "pages/icons.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "pages/index.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      },
+      {
+        "path": "pages/sample-page.html",
+        "title": "Modernize TailwindCSS HTML Admin Template"
+      }
+    ],
+    "storedBytes": 7483151,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:24.033Z"
+  },
+  "serve": {
+    "slug": "modernize-tailwind-html",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/adminmart/modernize-html-free-tailwind@7969f4baa7dd071c3d4cc3a192bd25925c5fbe05/",
+    "cdnRoot": "dist",
+    "cdnMap": null
+  }
+}

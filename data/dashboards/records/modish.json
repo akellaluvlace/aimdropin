@@ -1,0 +1,128 @@
+{
+  "record": {
+    "slug": "modish",
+    "title": "Modish",
+    "description": "Bootstrap 4 admin: dashboard, inputs, pickers, components, icons, Chartist charts, CKEditor, tables, two layouts and auth pages.",
+    "repo": "humzakhan/modish",
+    "sha": "745bbab215f04c864d360832ba6419ad888f1383",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles CKEditor 4.7.3 (GPL/LGPL/MPL tri-license).",
+      "url": "https://github.com/humzakhan/modish/blob/745bbab215f04c864d360832ba6419ad888f1383/LICENSE"
+    },
+    "author": "Humza Khan",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts"
+    ],
+    "demoUrl": "https://humzakhan.net/demo/Modish/index.html",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "appearence_panels.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "appearence_typography.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "charts_chartist.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "components_alerts.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "components_badges.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "components_buttons.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "components_dropdowns.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "components_navs.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "editors_ck.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "icons_fontawesome.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "input_groups.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "inputs.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "layout_horizontal.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "layout_vertical.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "pages_login.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "pages_register.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "pickers_date.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "pickers_time.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "tables_basic.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      },
+      {
+        "path": "tables_datatables.html",
+        "title": "Modish - Open Source Admin Dashboard Template"
+      }
+    ],
+    "storedBytes": 1188755,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:26.510Z"
+  },
+  "serve": {
+    "slug": "modish",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/humzakhan/modish@745bbab215f04c864d360832ba6419ad888f1383/",
+    "cdnRoot": "dist",
+    "cdnMap": null
+  }
+}

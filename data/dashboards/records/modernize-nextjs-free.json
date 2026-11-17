@@ -1,0 +1,90 @@
+{
+  "record": {
+    "slug": "modernize-nextjs-free",
+    "title": "Modernize Next.js Free",
+    "description": "MUI admin on Next.js: dashboard with charts, typography, shadow, icons and sample pages plus login and register.",
+    "repo": "adminmart/Modernize-Nextjs-Free",
+    "sha": "b0e8cd1b2588cf231ba48d1d7d9f84379dc4c9f4",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/adminmart/Modernize-Nextjs-Free/blob/b0e8cd1b2588cf231ba48d1d7d9f84379dc4c9f4/LICENSE.md"
+    },
+    "author": "AdminMart",
+    "framework": "next",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "material-ui",
+      "app-router",
+      "apexcharts",
+      "auth-pages"
+    ],
+    "demoUrl": "https://modernize-nextjs-free.vercel.app/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "404.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "404/index.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "authentication/login/index.html",
+        "title": "Login"
+      },
+      {
+        "path": "authentication/register/index.html",
+        "title": "Register"
+      },
+      {
+        "path": "icons/index.html",
+        "title": "Icons"
+      },
+      {
+        "path": "sample-page/index.html",
+        "title": "Sample Page"
+      },
+      {
+        "path": "utilities/shadow/index.html",
+        "title": "Shadow"
+      },
+      {
+        "path": "utilities/typography/index.html",
+        "title": "Typography"
+      }
+    ],
+    "storedBytes": 3777344,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:31:29.637Z"
+  },
+  "serve": {
+    "slug": "modernize-nextjs-free",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/adminmart/Modernize-Nextjs-Free@b0e8cd1b2588cf231ba48d1d7d9f84379dc4c9f4/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "package/src/app/favicon.ico",
+      "images/backgrounds/404-error-idea.gif": "package/public/images/backgrounds/404-error-idea.gif",
+      "images/backgrounds/rocket.png": "package/public/images/backgrounds/rocket.png",
+      "images/products/empty-shopping-bag.gif": "package/public/images/products/empty-shopping-bag.gif",
+      "images/products/s11.jpg": "package/public/images/products/s11.jpg",
+      "images/products/s4.jpg": "package/public/images/products/s4.jpg",
+      "images/products/s5.jpg": "package/public/images/products/s5.jpg",
+      "images/products/s7.jpg": "package/public/images/products/s7.jpg",
+      "images/profile/user-1.jpg": "package/public/images/profile/user-1.jpg"
+    }
+  }
+}

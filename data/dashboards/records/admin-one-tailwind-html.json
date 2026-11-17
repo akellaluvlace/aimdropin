@@ -1,0 +1,63 @@
+{
+  "record": {
+    "slug": "admin-one-tailwind-html",
+    "title": "Admin One (Tailwind)",
+    "description": "Tailwind CSS admin dashboard with charts, tables, forms, profile and login pages.",
+    "repo": "justboil/admin-one-tailwind",
+    "sha": "5a033707365a7b4f290d9dfdd5d7f09ad4dd6129",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/justboil/admin-one-tailwind/blob/5a033707365a7b4f290d9dfdd5d7f09ad4dd6129/LICENSE"
+    },
+    "author": "JustBoil.me",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "charts",
+      "vanilla-js"
+    ],
+    "demoUrl": "https://justboil.github.io/admin-one-tailwind/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard - Admin One Tailwind CSS Admin Dashboard"
+      },
+      {
+        "path": "forms.html",
+        "title": "Forms - Admin One Tailwind CSS Admin Dashboard"
+      },
+      {
+        "path": "login.html",
+        "title": "Login - Admin One Tailwind CSS Admin Dashboard"
+      },
+      {
+        "path": "profile.html",
+        "title": "Profile - Admin One Tailwind CSS Admin Dashboard"
+      },
+      {
+        "path": "tables.html",
+        "title": "Tables - Admin One Tailwind CSS Admin Dashboard"
+      }
+    ],
+    "storedBytes": 313996,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:21.366Z"
+  },
+  "serve": {
+    "slug": "admin-one-tailwind-html",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/justboil/admin-one-tailwind@5a033707365a7b4f290d9dfdd5d7f09ad4dd6129/",
+    "cdnRoot": "dist",
+    "cdnMap": null
+  }
+}

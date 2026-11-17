@@ -1,0 +1,133 @@
+{
+  "record": {
+    "slug": "shadcn-ui-examples-www-legacy",
+    "title": "shadcn/ui Examples (v3)",
+    "description": "The shadcn/ui examples from the Tailwind 3 era site: mail, music, dashboard, cards, tasks table, playground, forms and authentication.",
+    "repo": "shadcn-ui/ui",
+    "sha": "84bd724d97005f98b54d064aed5883b79aac1fd3",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/shadcn-ui/ui/blob/84bd724d97005f98b54d064aed5883b79aac1fd3/LICENSE.md"
+    },
+    "author": "shadcn",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Starter",
+    "tags": [
+      "shadcn",
+      "radix-ui",
+      "app-router",
+      "tailwind",
+      "examples"
+    ],
+    "demoUrl": "https://v3.shadcn.com/examples/mail",
+    "quality": 4,
+    "entry": "examples/mail/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "examples/mail/index.html",
+        "title": "Examples - shadcn/ui"
+      },
+      {
+        "path": "404.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "404/index.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "blocks/index.html",
+        "title": "shadcn/ui"
+      },
+      {
+        "path": "charts/index.html",
+        "title": "shadcn/ui"
+      },
+      {
+        "path": "colors/index.html",
+        "title": "shadcn/ui"
+      },
+      {
+        "path": "docs/components/index.html",
+        "title": "shadcn/ui"
+      },
+      {
+        "path": "docs/index.html",
+        "title": "shadcn/ui"
+      },
+      {
+        "path": "docs/installation/index.html",
+        "title": "shadcn/ui"
+      },
+      {
+        "path": "examples/authentication/index.html",
+        "title": "Authentication"
+      },
+      {
+        "path": "examples/cards/index.html",
+        "title": "Cards"
+      },
+      {
+        "path": "examples/dashboard/index.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "examples/forms/account/index.html",
+        "title": "Forms"
+      },
+      {
+        "path": "examples/forms/appearance/index.html",
+        "title": "Forms"
+      },
+      {
+        "path": "examples/forms/display/index.html",
+        "title": "Forms"
+      },
+      {
+        "path": "examples/forms/index.html",
+        "title": "Forms"
+      },
+      {
+        "path": "examples/forms/notifications/index.html",
+        "title": "Forms"
+      },
+      {
+        "path": "examples/music/index.html",
+        "title": "Music App"
+      },
+      {
+        "path": "examples/playground/index.html",
+        "title": "Playground"
+      },
+      {
+        "path": "examples/tasks/index.html",
+        "title": "Tasks"
+      },
+      {
+        "path": "index.html",
+        "title": "shadcn/ui"
+      },
+      {
+        "path": "themes/index.html",
+        "title": "shadcn/ui"
+      }
+    ],
+    "storedBytes": 36978153,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:55:41.154Z"
+  },
+  "serve": {
+    "slug": "shadcn-ui-examples-www-legacy",
+    "kind": "build",
+    "entry": "examples/mail/index.html",
+    "spa": false,
+    "cdnBase": null,
+    "cdnRoot": null,
+    "cdnMap": null
+  }
+}

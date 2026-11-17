@@ -1,0 +1,59 @@
+{
+  "record": {
+    "slug": "matdash-react-tailwind-free",
+    "title": "MatDash React Tailwind",
+    "description": "Tailwind and Flowbite React admin: dashboard with charts, products and blog cards, typography, table, form, alert, shadow, icons and auth pages.",
+    "repo": "adminmart/matdash-react-tailwind-free",
+    "sha": "b575f47fcebfcccd16f1b4714fd6fa639af43e30",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to v2 (apexcharts 3.48.0); v3.0.0 (2026-05) moved to apexcharts 5 (dual commercial license).",
+      "url": "https://github.com/adminmart/matdash-react-tailwind-free/blob/b575f47fcebfcccd16f1b4714fd6fa639af43e30/LICENSE.txt"
+    },
+    "author": "AdminMart",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "flowbite",
+      "apexcharts"
+    ],
+    "demoUrl": "https://matdash-react-tailwind-free.netlify.app/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "MatDash React Tailwind"
+      }
+    ],
+    "storedBytes": 1421950,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:37.321Z"
+  },
+  "serve": {
+    "slug": "matdash-react-tailwind-free",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/adminmart/matdash-react-tailwind-free@b575f47fcebfcccd16f1b4714fd6fa639af43e30/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/blog-img1-7d3AnRTi.jpg": "package/src/assets/images/blog/blog-img1.jpg",
+      "assets/blog-img2-D-kU9kDk.jpg": "package/src/assets/images/blog/blog-img2.jpg",
+      "assets/blog-img3-CDxvw-yK.jpg": "package/src/assets/images/blog/blog-img3.jpg",
+      "assets/dash-prd-2-C01gIwt2.jpg": "package/src/assets/images/products/dash-prd-2.jpg",
+      "assets/upgrade-CP-p7A_3.png": "package/src/assets/images/backgrounds/upgrade.png",
+      "assets/user-1-CGXawLZT.jpg": "package/src/assets/images/profile/user-1.jpg",
+      "assets/user-2-Co9mMIqW.jpg": "package/src/assets/images/profile/user-2.jpg",
+      "assets/user-3-L8S66gD0.jpg": "package/src/assets/images/profile/user-3.jpg",
+      "favicon.png": "package/public/favicon.png"
+    }
+  }
+}

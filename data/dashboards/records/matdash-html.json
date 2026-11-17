@@ -1,0 +1,83 @@
+{
+  "record": {
+    "slug": "matdash-html",
+    "title": "MatDash",
+    "description": "Bootstrap 5 admin: dashboard with ApexCharts, buttons, alerts, cards, forms, typography, icons and auth pages.",
+    "repo": "adminmart/matdash-bootstrap-free",
+    "sha": "56b8cf163777a562dac7a57ac76d6fbdd92881bb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/adminmart/matdash-bootstrap-free/blob/56b8cf163777a562dac7a57ac76d6fbdd92881bb/LICENSE.txt"
+    },
+    "author": "AdminMart",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "apexcharts",
+      "tabler-icons"
+    ],
+    "demoUrl": "https://bootstrapdemos.adminmart.com/matdash-free/landingpage/index.html",
+    "quality": 3,
+    "entry": "html/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "html/index.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/authentication-login.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/authentication-register.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/icon-tabler.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/sample-page.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-alerts.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-buttons.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-card.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-forms.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-typography.html",
+        "title": "Matdash Free Bootstrap Admin Template by Adminmart"
+      }
+    ],
+    "storedBytes": 7086028,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:22.324Z"
+  },
+  "serve": {
+    "slug": "matdash-html",
+    "kind": "static",
+    "entry": "html/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/adminmart/matdash-bootstrap-free@56b8cf163777a562dac7a57ac76d6fbdd92881bb/",
+    "cdnRoot": "src",
+    "cdnMap": null
+  }
+}

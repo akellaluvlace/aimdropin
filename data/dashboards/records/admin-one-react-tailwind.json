@@ -1,0 +1,90 @@
+{
+  "record": {
+    "slug": "admin-one-react-tailwind",
+    "title": "Admin One React Tailwind",
+    "description": "Tailwind admin on Next.js: dashboard, tables, forms, UI, responsive and profile pages, login and error screens, dark mode.",
+    "repo": "justboil/admin-one-react-tailwind",
+    "sha": "251841fff0a36e4ac1eb96836adcd2858a66c3ac",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/justboil/admin-one-react-tailwind/blob/251841fff0a36e4ac1eb96836adcd2858a66c3ac/LICENSE"
+    },
+    "author": "JustBoil.me",
+    "framework": "next",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "app-router",
+      "redux",
+      "dark-mode"
+    ],
+    "demoUrl": "https://justboil.github.io/admin-one-react-tailwind/",
+    "quality": 4,
+    "entry": "dashboard/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard/index.html",
+        "title": "Dashboard — Free Tailwind 4 React Next Typescript dashboard template"
+      },
+      {
+        "path": "404.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "404/index.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "dashboard/forms/index.html",
+        "title": "Admin One React Tailwind free"
+      },
+      {
+        "path": "dashboard/profile/index.html",
+        "title": "Profile — Free Tailwind 4 React Next Typescript dashboard template"
+      },
+      {
+        "path": "dashboard/responsive/index.html",
+        "title": "Responsive — Free Tailwind 4 React Next Typescript dashboard template"
+      },
+      {
+        "path": "dashboard/tables/index.html",
+        "title": "Tables — Free Tailwind 4 React Next Typescript dashboard template"
+      },
+      {
+        "path": "dashboard/ui/index.html",
+        "title": "UI — Free Tailwind 4 React Next Typescript dashboard template"
+      },
+      {
+        "path": "error/index.html",
+        "title": "Error — Free Tailwind 4 React Next Typescript dashboard template"
+      },
+      {
+        "path": "index.html",
+        "title": "Free Tailwind 4 React Next Typescript dashboard template"
+      },
+      {
+        "path": "login/index.html",
+        "title": "Login — Free Tailwind 4 React Next Typescript dashboard template"
+      }
+    ],
+    "storedBytes": 2104817,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:45:37.006Z"
+  },
+  "serve": {
+    "slug": "admin-one-react-tailwind",
+    "kind": "build",
+    "entry": "dashboard/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/justboil/admin-one-react-tailwind@251841fff0a36e4ac1eb96836adcd2858a66c3ac/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.png": "public/favicon.png"
+    }
+  }
+}

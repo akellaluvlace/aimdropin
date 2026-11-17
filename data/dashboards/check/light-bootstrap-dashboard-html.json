@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-11-10T18:06:09.818Z",
+  "pagesChecked": 7,
+  "pagesOk": 7,
+  "failures": [],
+  "deadLinks": [
+    "examples/maps.html"
+  ],
+  "pages": [
+    {
+      "path": "examples/dashboard.html",
+      "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/icons.html",
+      "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/notifications.html",
+      "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/table.html",
+      "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/typography.html",
+      "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/upgrade.html",
+      "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+    },
+    {
+      "path": "examples/user.html",
+      "title": "Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim"
+    }
+  ]
+}

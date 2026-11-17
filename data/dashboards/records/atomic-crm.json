@@ -1,0 +1,87 @@
+{
+  "record": {
+    "slug": "atomic-crm",
+    "title": "Atomic CRM",
+    "description": "Full CRM demo: dashboard, contacts, companies, deals kanban, notes, tasks and sales team, with in-browser fake data and working CRUD.",
+    "repo": "marmelab/atomic-crm",
+    "sha": "259c179a2b2d2bd4d0f6121565770b7fbe99c6c6",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/marmelab/atomic-crm/blob/259c179a2b2d2bd4d0f6121565770b7fbe99c6c6/LICENSE.md"
+    },
+    "author": "Marmelab",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "CRM",
+    "tags": [
+      "vite",
+      "react-admin",
+      "kanban",
+      "fakerest",
+      "tailwind"
+    ],
+    "demoUrl": "https://marmelab.com/atomic-crm-demo",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Atomic CRM"
+      }
+    ],
+    "storedBytes": 5501086,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:36.806Z"
+  },
+  "serve": {
+    "slug": "atomic-crm",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/marmelab/atomic-crm@259c179a2b2d2bd4d0f6121565770b7fbe99c6c6/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "appIcon/100.png": "public/appIcon/100.png",
+      "appIcon/1024.png": "public/appIcon/1024.png",
+      "appIcon/114.png": "public/appIcon/114.png",
+      "appIcon/120.png": "public/appIcon/120.png",
+      "appIcon/128.png": "public/appIcon/128.png",
+      "appIcon/144.png": "public/appIcon/144.png",
+      "appIcon/152.png": "public/appIcon/152.png",
+      "appIcon/16.png": "public/appIcon/16.png",
+      "appIcon/167.png": "public/appIcon/167.png",
+      "appIcon/180.png": "public/appIcon/180.png",
+      "appIcon/192.png": "public/appIcon/192.png",
+      "appIcon/20.png": "public/appIcon/20.png",
+      "appIcon/256.png": "public/appIcon/256.png",
+      "appIcon/29.png": "public/appIcon/29.png",
+      "appIcon/32.png": "public/appIcon/32.png",
+      "appIcon/40.png": "public/appIcon/40.png",
+      "appIcon/50.png": "public/appIcon/50.png",
+      "appIcon/512.png": "public/appIcon/512.png",
+      "appIcon/57.png": "public/appIcon/57.png",
+      "appIcon/58.png": "public/appIcon/58.png",
+      "appIcon/60.png": "public/appIcon/60.png",
+      "appIcon/64.png": "public/appIcon/64.png",
+      "appIcon/72.png": "public/appIcon/72.png",
+      "appIcon/76.png": "public/appIcon/76.png",
+      "appIcon/80.png": "public/appIcon/80.png",
+      "appIcon/87.png": "public/appIcon/87.png",
+      "appIcon/maskable_icon.png": "public/appIcon/maskable_icon.png",
+      "appIcon/maskable_icon_x128.png": "public/appIcon/maskable_icon_x128.png",
+      "appIcon/maskable_icon_x192.png": "public/appIcon/maskable_icon_x192.png",
+      "appIcon/maskable_icon_x384.png": "public/appIcon/maskable_icon_x384.png",
+      "appIcon/maskable_icon_x48.png": "public/appIcon/maskable_icon_x48.png",
+      "appIcon/maskable_icon_x512.png": "public/appIcon/maskable_icon_x512.png",
+      "appIcon/maskable_icon_x72.png": "public/appIcon/maskable_icon_x72.png",
+      "appIcon/maskable_icon_x96.png": "public/appIcon/maskable_icon_x96.png",
+      "favicon.ico": "public/favicon.ico",
+      "img/adding-users.png": "doc/src/content/images/adding-users.png",
+      "robots.txt": "public/robots.txt"
+    }
+  }
+}

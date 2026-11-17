@@ -1,0 +1,329 @@
+{
+  "checkedAt": "2026-11-10T19:20:28.235Z",
+  "pagesChecked": 80,
+  "pagesOk": 80,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "AdminLTE v4 | Dashboard"
+    },
+    {
+      "path": "charts/apexcharts.html",
+      "title": "AdminLTE 4 | Chart.js"
+    },
+    {
+      "path": "charts/chartjs.html",
+      "title": "AdminLTE 4 | Chart.js"
+    },
+    {
+      "path": "docs/browser-support.html",
+      "title": "Browser Support | AdminLTE 4"
+    },
+    {
+      "path": "docs/color-mode.html",
+      "title": "Color Mode | AdminLTE 4"
+    },
+    {
+      "path": "docs/colors.html",
+      "title": "Colors | AdminLTE 4"
+    },
+    {
+      "path": "docs/components/card.html",
+      "title": "Card Component | AdminLTE 4"
+    },
+    {
+      "path": "docs/components/main-header.html",
+      "title": "Main Header Component | AdminLTE 4"
+    },
+    {
+      "path": "docs/components/main-sidebar.html",
+      "title": "Main Sidebar Component | AdminLTE 4"
+    },
+    {
+      "path": "docs/components/miscellaneous.html",
+      "title": "Miscellaneous Components | AdminLTE 4"
+    },
+    {
+      "path": "docs/customization.html",
+      "title": "Customization & Theming | AdminLTE 4"
+    },
+    {
+      "path": "docs/deployment.html",
+      "title": "Deployment & Performance | AdminLTE 4"
+    },
+    {
+      "path": "docs/faq.html",
+      "title": "FAQ | AdminLTE 4"
+    },
+    {
+      "path": "docs/getting-started.html",
+      "title": "Getting Started | AdminLTE 4"
+    },
+    {
+      "path": "docs/how-to-contribute.html",
+      "title": "How To Contribute | AdminLTE 4"
+    },
+    {
+      "path": "docs/index.html",
+      "title": "Introduction | AdminLTE 4"
+    },
+    {
+      "path": "docs/integrations.html",
+      "title": "Recommended Integrations | AdminLTE 4"
+    },
+    {
+      "path": "docs/introduction.html",
+      "title": "Introduction | AdminLTE 4"
+    },
+    {
+      "path": "docs/javascript/accessibility.html",
+      "title": "Accessibility Module | AdminLTE 4"
+    },
+    {
+      "path": "docs/javascript/card-widget.html",
+      "title": "Card Widget Plugin | AdminLTE 4"
+    },
+    {
+      "path": "docs/javascript/direct-chat.html",
+      "title": "Direct Chat Plugin | AdminLTE 4"
+    },
+    {
+      "path": "docs/javascript/fullscreen.html",
+      "title": "Fullscreen Plugin | AdminLTE 4"
+    },
+    {
+      "path": "docs/javascript/layout.html",
+      "title": "Layout Plugin | AdminLTE 4"
+    },
+    {
+      "path": "docs/javascript/plugins-overview.html",
+      "title": "JavaScript Plugins Overview | AdminLTE 4"
+    },
+    {
+      "path": "docs/javascript/pushmenu.html",
+      "title": "Pushmenu Plugin | AdminLTE 4"
+    },
+    {
+      "path": "docs/javascript/sidebar-search.html",
+      "title": "SidebarSearch Plugin | AdminLTE 4"
+    },
+    {
+      "path": "docs/javascript/treeview.html",
+      "title": "Treeview Plugin | AdminLTE 4"
+    },
+    {
+      "path": "docs/layout-blueprint.html",
+      "title": "Layout Blueprint | AdminLTE 4"
+    },
+    {
+      "path": "docs/layout.html",
+      "title": "Layout | AdminLTE 4"
+    },
+    {
+      "path": "docs/license.html",
+      "title": "License | AdminLTE 4"
+    },
+    {
+      "path": "docs/migration.html",
+      "title": "Migration from v3 | AdminLTE 4"
+    },
+    {
+      "path": "docs/recipes.html",
+      "title": "Common Patterns & Recipes | AdminLTE 4"
+    },
+    {
+      "path": "docs/rtl.html",
+      "title": "RTL Support | AdminLTE 4"
+    },
+    {
+      "path": "examples/forgot-password.html",
+      "title": "AdminLTE 4 | Forgot Password"
+    },
+    {
+      "path": "examples/lockscreen.html",
+      "title": "AdminLTE 4 | Lockscreen"
+    },
+    {
+      "path": "examples/login-v2.html",
+      "title": "AdminLTE 4 | Login Page v2"
+    },
+    {
+      "path": "examples/login.html",
+      "title": "AdminLTE 4 | Login Page"
+    },
+    {
+      "path": "examples/register-v2.html",
+      "title": "AdminLTE 4 | Register Page v2"
+    },
+    {
+      "path": "examples/register.html",
+      "title": "AdminLTE 4 | Register Page"
+    },
+    {
+      "path": "forms/advanced.html",
+      "title": "AdminLTE 4 | Advanced Form Elements"
+    },
+    {
+      "path": "forms/editors.html",
+      "title": "AdminLTE 4 | Editors"
+    },
+    {
+      "path": "forms/elements.html",
+      "title": "AdminLTE 4 | Form Elements"
+    },
+    {
+      "path": "forms/layout.html",
+      "title": "AdminLTE 4 | Form Layout"
+    },
+    {
+      "path": "forms/validation.html",
+      "title": "AdminLTE 4 | Form Validation"
+    },
+    {
+      "path": "forms/wizard.html",
+      "title": "AdminLTE 4 | Form Wizard"
+    },
+    {
+      "path": "generate/theme.html",
+      "title": "AdminLTE 4 | Theme Customize"
+    },
+    {
+      "path": "index2.html",
+      "title": "AdminLTE | Dashboard v2"
+    },
+    {
+      "path": "index3.html",
+      "title": "AdminLTE | Dashboard v3"
+    },
+    {
+      "path": "layout/collapsed-sidebar-without-hover.html",
+      "title": "AdminLTE 4 | Collapsed Sidebar Without Hover"
+    },
+    {
+      "path": "layout/collapsed-sidebar.html",
+      "title": "AdminLTE 4 | Sidebar Mini"
+    },
+    {
+      "path": "layout/fixed-complete.html",
+      "title": "AdminLTE 4 | Fixed Complete"
+    },
+    {
+      "path": "layout/fixed-footer.html",
+      "title": "AdminLTE 4 | Fixed Footer"
+    },
+    {
+      "path": "layout/fixed-header.html",
+      "title": "AdminLTE 4 | Fixed Header"
+    },
+    {
+      "path": "layout/fixed-sidebar.html",
+      "title": "AdminLTE 4 | Fixed Sidebar"
+    },
+    {
+      "path": "layout/layout-custom-area.html",
+      "title": "AdminLTE 4 | Layout Custom Area"
+    },
+    {
+      "path": "layout/layout-rtl.html",
+      "title": "AdminLTE 4 | Layout RTL"
+    },
+    {
+      "path": "layout/logo-switch.html",
+      "title": "AdminLTE 4 | Sidebar Mini"
+    },
+    {
+      "path": "layout/sidebar-mini.html",
+      "title": "AdminLTE 4 | Sidebar Mini"
+    },
+    {
+      "path": "layout/top-nav.html",
+      "title": "AdminLTE 4 | Top Nav Layout"
+    },
+    {
+      "path": "layout/unfixed-sidebar.html",
+      "title": "AdminLTE 4 | Unfixed Sidebar"
+    },
+    {
+      "path": "mailbox/compose.html",
+      "title": "AdminLTE 4 | Mailbox - Compose"
+    },
+    {
+      "path": "mailbox/inbox.html",
+      "title": "AdminLTE 4 | Mailbox"
+    },
+    {
+      "path": "mailbox/read.html",
+      "title": "AdminLTE 4 | Mailbox - Read"
+    },
+    {
+      "path": "pages/404.html",
+      "title": "AdminLTE 4 | 404 Error Page"
+    },
+    {
+      "path": "pages/500.html",
+      "title": "AdminLTE 4 | 500 Error Page"
+    },
+    {
+      "path": "pages/calendar.html",
+      "title": "AdminLTE 4 | Calendar"
+    },
+    {
+      "path": "pages/chat.html",
+      "title": "AdminLTE 4 | Chat"
+    },
+    {
+      "path": "pages/faq.html",
+      "title": "AdminLTE 4 | FAQ"
+    },
+    {
+      "path": "pages/file-manager.html",
+      "title": "AdminLTE 4 | File Manager"
+    },
+    {
+      "path": "pages/gallery.html",
+      "title": "AdminLTE 4 | Gallery"
+    },
+    {
+      "path": "pages/invoice.html",
+      "title": "AdminLTE 4 | Invoice"
+    },
+    {
+      "path": "pages/kanban.html",
+      "title": "AdminLTE 4 | Kanban Board"
+    },
+    {
+      "path": "pages/maintenance.html",
+      "title": "AdminLTE 4 | Maintenance"
+    },
+    {
+      "path": "pages/pricing.html",
+      "title": "AdminLTE 4 | Pricing"
+    },
+    {
+      "path": "pages/profile.html",
+      "title": "AdminLTE 4 | User Profile"
+    },
+    {
+      "path": "pages/projects.html",
+      "title": "AdminLTE 4 | Projects"
+    },
+    {
+      "path": "pages/search-results.html",
+      "title": "AdminLTE 4 | Search Results"
+    },
+    {
+      "path": "pages/settings.html",
+      "title": "AdminLTE 4 | Settings"
+    },
+    {
+      "path": "starter.html",
+      "title": "AdminLTE 4 | Starter Page"
+    },
+    {
+      "path": "tables/data.html",
+      "title": "AdminLTE 4 | Data Tables"
+    }
+  ]
+}

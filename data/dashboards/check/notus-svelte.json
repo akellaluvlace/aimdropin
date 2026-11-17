@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-10T19:00:42.870Z",
+  "pagesChecked": 10,
+  "pagesOk": 10,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Notus Svelte"
+    },
+    {
+      "path": "index",
+      "title": "Index"
+    },
+    {
+      "path": "admin/dashboard",
+      "title": "Admin / Dashboard"
+    },
+    {
+      "path": "admin/settings",
+      "title": "Admin / Settings"
+    },
+    {
+      "path": "admin/tables",
+      "title": "Admin / Tables"
+    },
+    {
+      "path": "admin/maps",
+      "title": "Admin / Maps"
+    },
+    {
+      "path": "auth/login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/register",
+      "title": "Auth / Register"
+    },
+    {
+      "path": "landing",
+      "title": "Landing"
+    },
+    {
+      "path": "profile",
+      "title": "Profile"
+    }
+  ]
+}

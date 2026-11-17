@@ -1,0 +1,54 @@
+{
+  "record": {
+    "slug": "vue-element-plus-admin",
+    "title": "Vue Element Plus Admin",
+    "description": "Vue 3 + Element Plus admin (v2.10): analysis and workplace dashboards, forms, tables, editors, components, functions, permissions, i18n and mock data.",
+    "repo": "kailong321200875/vue-element-plus-admin",
+    "sha": "a65b3f5a4556044a84a3fcdd8036d995b627d065",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/kailong321200875/vue-element-plus-admin/blob/a65b3f5a4556044a84a3fcdd8036d995b627d065/LICENSE"
+    },
+    "author": "Archer (kailong321200875)",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "element-plus",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://element-plus-admin.cn/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Vue Element Plus Admin"
+      }
+    ],
+    "storedBytes": 18754125,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:41.045Z"
+  },
+  "serve": {
+    "slug": "vue-element-plus-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/kailong321200875/vue-element-plus-admin@a65b3f5a4556044a84a3fcdd8036d995b627d065/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/avatar-Cwy0s6ay.jpg": "src/assets/imgs/avatar.jpg",
+      "assets/logo-CRQ9AZN7.png": "public/logo.png",
+      "favicon.ico": "public/favicon.ico",
+      "logo.png": "public/logo.png"
+    }
+  }
+}

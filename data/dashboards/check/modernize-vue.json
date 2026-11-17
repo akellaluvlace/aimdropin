@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-11-10T19:18:28.678Z",
+  "pagesChecked": 11,
+  "pagesOk": 11,
+  "failures": [],
+  "deadLinks": [
+    "main",
+    "auth"
+  ],
+  "pages": [
+    {
+      "path": "",
+      "title": "Modernize - Vue3 Typescript based Admin Dashboard Template"
+    },
+    {
+      "path": "ui/typography",
+      "title": "Ui / Typography"
+    },
+    {
+      "path": "ui/shadow",
+      "title": "Ui / Shadow"
+    },
+    {
+      "path": "sample-page",
+      "title": "Sample Page"
+    },
+    {
+      "path": "ui/alerts",
+      "title": "Ui / Alerts"
+    },
+    {
+      "path": "ui/buttons",
+      "title": "Ui / Buttons"
+    },
+    {
+      "path": "ui/cards",
+      "title": "Ui / Cards"
+    },
+    {
+      "path": "ui/tables",
+      "title": "Ui / Tables"
+    },
+    {
+      "path": "auth/login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/register",
+      "title": "Auth / Register"
+    },
+    {
+      "path": "icons",
+      "title": "Icons"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "record": {
+    "slug": "lightence-antd",
+    "title": "Lightence Ant Design React",
+    "description": "Ant Design 4 admin in TypeScript: NFT and medical dashboards, feed, forms, data tables, charts, four map libraries, profile and auth.",
+    "repo": "altence/lightence-ant-design-react-template",
+    "sha": "e4b9416fd2e58298428a8caad13e181fbfabbddd",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/altence/lightence-ant-design-react-template/blob/e4b9416fd2e58298428a8caad13e181fbfabbddd/LICENSE"
+    },
+    "author": "Altence",
+    "framework": "react",
+    "ui": "antd",
+    "category": "Admin",
+    "tags": [
+      "create-react-app",
+      "typescript",
+      "ant-design",
+      "echarts",
+      "styled-components"
+    ],
+    "demoUrl": "https://altence.com/lightence-landing",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Lightence Ant Design React"
+      }
+    ],
+    "storedBytes": 7895665,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:36.367Z"
+  },
+  "serve": {
+    "slug": "lightence-antd",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/altence/lightence-ant-design-react-template@e4b9416fd2e58298428a8caad13e181fbfabbddd/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "Lightence-screenshot.png": "public/Lightence-screenshot.png",
+      "favicon.ico": "public/favicon.ico",
+      "logo192.png": "public/logo192.png",
+      "logo512.png": "public/logo512.png",
+      "robots.txt": "public/robots.txt",
+      "static/media/login-bg.bf8eb115.webp": "src/assets/images/login-bg.webp",
+      "static/media/maestro.a8c1eabe.png": "src/assets/images/card-issuers/maestro.png",
+      "static/media/mastercard.cb335e28.png": "src/assets/images/card-issuers/mastercard.png",
+      "static/media/nothing-found.f6067789.webp": "src/assets/images/nothing-found.webp",
+      "static/media/verify-email.4db0235f.webp": "src/assets/images/verify-email.webp",
+      "static/media/visa.22144b4d.png": "src/assets/images/card-issuers/visa.png"
+    }
+  }
+}

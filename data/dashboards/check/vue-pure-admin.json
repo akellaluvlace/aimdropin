@@ -1,0 +1,334 @@
+{
+  "checkedAt": "2026-11-10T19:23:53.830Z",
+  "pagesChecked": 81,
+  "pagesOk": 78,
+  "failures": [
+    {
+      "path": "components/cropping",
+      "problem": "script error: SecurityError: Failed to execute 'toBlob' on 'HTMLCanvasElement': Tainted canvases may not be exported."
+    },
+    {
+      "path": "able/map",
+      "problem": "script error: Uncaught SecurityError: Failed to set a named property 'onresize' on 'Window': Sandbox access violation: Blocked a frame at \"http://localhost:3000\" from accessing a frame at \"null\".  Both frames are s"
+    },
+    {
+      "path": "able/video-frame",
+      "problem": "script error: Uncaught (in promise) SecurityError: Failed to construct 'Worker': Script at 'http://localhost:3000/demos/vue-pure-admin/wasm/capture.worker.js' cannot be accessed from origin 'null'."
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "首页 | PureAdmin"
+    },
+    {
+      "path": "welcome",
+      "title": "Welcome"
+    },
+    {
+      "path": "chatai",
+      "title": "chat-ai | PureAdmin"
+    },
+    {
+      "path": "vue-flow",
+      "title": "vue-flow | PureAdmin"
+    },
+    {
+      "path": "ganttastic",
+      "title": "甘特图 | PureAdmin"
+    },
+    {
+      "path": "components/dialog",
+      "title": "函数式弹框 | PureAdmin"
+    },
+    {
+      "path": "components/drawer",
+      "title": "函数式抽屉 | PureAdmin"
+    },
+    {
+      "path": "components/message",
+      "title": "消息提示 | PureAdmin"
+    },
+    {
+      "path": "components/upload",
+      "title": "文件上传 | PureAdmin"
+    },
+    {
+      "path": "components/check-card",
+      "title": "多选卡片 | PureAdmin"
+    },
+    {
+      "path": "components/date-picker",
+      "title": "日期选择器 | PureAdmin"
+    },
+    {
+      "path": "components/datetime-picker",
+      "title": "日期时间选择器 | PureAdmin"
+    },
+    {
+      "path": "components/time-picker",
+      "title": "时间选择器 | PureAdmin"
+    },
+    {
+      "path": "components/icon-select",
+      "title": "图标选择器 | PureAdmin"
+    },
+    {
+      "path": "components/animatecss",
+      "title": "animate.css选择器 | PureAdmin"
+    },
+    {
+      "path": "components/segmented",
+      "title": "分段控制器 | PureAdmin"
+    },
+    {
+      "path": "components/text",
+      "title": "文本省略 | PureAdmin"
+    },
+    {
+      "path": "components/slider",
+      "title": "滑块 | PureAdmin"
+    },
+    {
+      "path": "components/el-button",
+      "title": "按钮 | PureAdmin"
+    },
+    {
+      "path": "components/check-button",
+      "title": "可选按钮 | PureAdmin"
+    },
+    {
+      "path": "components/button",
+      "title": "按钮动效 | PureAdmin"
+    },
+    {
+      "path": "components/progress",
+      "title": "进度条 | PureAdmin"
+    },
+    {
+      "path": "components/tag",
+      "title": "标签 | PureAdmin"
+    },
+    {
+      "path": "components/statistic",
+      "title": "统计组件 | PureAdmin"
+    },
+    {
+      "path": "components/collapse",
+      "title": "折叠面板 | PureAdmin"
+    },
+    {
+      "path": "components/cascader",
+      "title": "区域级联选择器 | PureAdmin"
+    },
+    {
+      "path": "components/color-picker",
+      "title": "颜色选择器 | PureAdmin"
+    },
+    {
+      "path": "components/color-picker-panel",
+      "title": "颜色选择器面板 | PureAdmin"
+    },
+    {
+      "path": "components/selector",
+      "title": "范围选择器 | PureAdmin"
+    },
+    {
+      "path": "components/waterfall",
+      "title": "瀑布流无限滚动 | PureAdmin"
+    },
+    {
+      "path": "components/split-pane",
+      "title": "切割面板 | PureAdmin"
+    },
+    {
+      "path": "components/swiper",
+      "title": "Swiper插件 | PureAdmin"
+    },
+    {
+      "path": "components/timeline",
+      "title": "时间线 | PureAdmin"
+    },
+    {
+      "path": "components/count-to",
+      "title": "数字动画 | PureAdmin"
+    },
+    {
+      "path": "components/contextmenu",
+      "title": "右键菜单 | PureAdmin"
+    },
+    {
+      "path": "components/json-editor",
+      "title": "JSON编辑器 | PureAdmin"
+    },
+    {
+      "path": "components/seamless-scroll",
+      "title": "无缝滚动 | PureAdmin"
+    },
+    {
+      "path": "components/virtual-list",
+      "title": "虚拟列表 | PureAdmin"
+    },
+    {
+      "path": "able/mqtt-client",
+      "title": "MQTT客户端(mqtt) | PureAdmin"
+    },
+    {
+      "path": "able/verify",
+      "title": "图形验证码 | PureAdmin"
+    },
+    {
+      "path": "able/watermark",
+      "title": "水印 | PureAdmin"
+    },
+    {
+      "path": "able/print",
+      "title": "打印 | PureAdmin"
+    },
+    {
+      "path": "able/download",
+      "title": "下载 | PureAdmin"
+    },
+    {
+      "path": "able/excel",
+      "title": "导出Excel | PureAdmin"
+    },
+    {
+      "path": "components/ripple",
+      "title": "波纹(Ripple) | PureAdmin"
+    },
+    {
+      "path": "able/debounce",
+      "title": "防抖节流 | PureAdmin"
+    },
+    {
+      "path": "able/directives",
+      "title": "防抖、截流、复制、长按指令 | PureAdmin"
+    },
+    {
+      "path": "able/draggable",
+      "title": "拖拽 | PureAdmin"
+    },
+    {
+      "path": "able/pdf",
+      "title": "PDF预览 | PureAdmin"
+    },
+    {
+      "path": "able/barcode",
+      "title": "条形码 | PureAdmin"
+    },
+    {
+      "path": "able/qrcode",
+      "title": "二维码 | PureAdmin"
+    },
+    {
+      "path": "able/wavesurfer",
+      "title": "音频可视化 | PureAdmin"
+    },
+    {
+      "path": "able/video",
+      "title": "视频 | PureAdmin"
+    },
+    {
+      "path": "able/danmaku",
+      "title": "弹幕 | PureAdmin"
+    },
+    {
+      "path": "able/infinite-scroll",
+      "title": "表格无限滚动 | PureAdmin"
+    },
+    {
+      "path": "able/menu-tree",
+      "title": "菜单树结构 | PureAdmin"
+    },
+    {
+      "path": "able/line-tree",
+      "title": "树形连接线 | PureAdmin"
+    },
+    {
+      "path": "able/typeit",
+      "title": "打字机 | PureAdmin"
+    },
+    {
+      "path": "able/sensitive",
+      "title": "敏感词过滤 | PureAdmin"
+    },
+    {
+      "path": "able/pinyin",
+      "title": "汉语拼音 | PureAdmin"
+    },
+    {
+      "path": "table/index",
+      "title": "基础用法 | PureAdmin"
+    },
+    {
+      "path": "table/high",
+      "title": "高级用法 | PureAdmin"
+    },
+    {
+      "path": "table/edit",
+      "title": "可编辑用法 | PureAdmin"
+    },
+    {
+      "path": "table/virtual",
+      "title": "虚拟滚动 | PureAdmin"
+    },
+    {
+      "path": "form",
+      "title": "表单 | PureAdmin"
+    },
+    {
+      "path": "list/card",
+      "title": "卡片列表页 | PureAdmin"
+    },
+    {
+      "path": "result/success",
+      "title": "成功页面 | PureAdmin"
+    },
+    {
+      "path": "result/fail",
+      "title": "失败页面 | PureAdmin"
+    },
+    {
+      "path": "error/403",
+      "title": "403 | PureAdmin"
+    },
+    {
+      "path": "error/404",
+      "title": "404 | PureAdmin"
+    },
+    {
+      "path": "error/500",
+      "title": "500 | PureAdmin"
+    },
+    {
+      "path": "nested/menu1/menu1-1",
+      "title": "菜单1-1 | PureAdmin"
+    },
+    {
+      "path": "nested/menu1/menu1-2/menu1-2-1",
+      "title": "菜单1-2-1 | PureAdmin"
+    },
+    {
+      "path": "nested/menu1/menu1-2/menu1-2-2",
+      "title": "菜单1-2-2 | PureAdmin"
+    },
+    {
+      "path": "nested/menu1/menu1-3",
+      "title": "菜单1-3 | PureAdmin"
+    },
+    {
+      "path": "nested/menu2",
+      "title": "菜单二 | PureAdmin"
+    },
+    {
+      "path": "permission/page/index",
+      "title": "页面权限 | PureAdmin"
+    },
+    {
+      "path": "permission/button/router",
+      "title": "路由返回按钮权限 | PureAdmin"
+    }
+  ]
+}

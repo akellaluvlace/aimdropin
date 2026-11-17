@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-11-10T17:44:25.848Z",
+  "pagesChecked": 6,
+  "pagesOk": 6,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Tailwind Admin Template"
+    },
+    {
+      "path": "blank.html",
+      "title": "Tailwind Admin Template"
+    },
+    {
+      "path": "calendar.html",
+      "title": "Tailwind Admin Template"
+    },
+    {
+      "path": "forms.html",
+      "title": "Tailwind Admin Template"
+    },
+    {
+      "path": "tables.html",
+      "title": "Tailwind Admin Template"
+    },
+    {
+      "path": "tabs.html",
+      "title": "Tailwind Admin Template"
+    }
+  ]
+}

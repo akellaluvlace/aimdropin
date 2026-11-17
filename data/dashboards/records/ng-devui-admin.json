@@ -1,0 +1,87 @@
+{
+  "record": {
+    "slug": "ng-devui-admin",
+    "title": "DevUI Admin",
+    "description": "Huawei DevUI admin for Angular (Chinese UI, English toggle): analysis/monitor/workspace dashboards, forms, lists, abnormal pages and user center.",
+    "repo": "DevCloudFE/ng-devui-admin",
+    "sha": "c05f8a0ca1e35ff9d1cdfc9a8a110c00b6184a42",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ECharts 5.2.1 (Apache-2.0).",
+      "url": "https://github.com/DevCloudFE/ng-devui-admin/blob/c05f8a0ca1e35ff9d1cdfc9a8a110c00b6184a42/LICENSE"
+    },
+    "author": "DevUI (Huawei Technologies)",
+    "framework": "angular",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "devui",
+      "echarts",
+      "i18n",
+      "dark-mode"
+    ],
+    "demoUrl": "https://devui.design/admin/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "DevUI Admin"
+      }
+    ],
+    "storedBytes": 6158271,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:23.746Z"
+  },
+  "serve": {
+    "slug": "ng-devui-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/DevCloudFE/ng-devui-admin@c05f8a0ca1e35ff9d1cdfc9a8a110c00b6184a42/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/i18n/en-US.ts": "src/assets/i18n/en-US.ts",
+      "assets/i18n/en-US/abnormal.ts": "src/assets/i18n/en-US/abnormal.ts",
+      "assets/i18n/en-US/auth-guard.ts": "src/assets/i18n/en-US/auth-guard.ts",
+      "assets/i18n/en-US/dashboard.ts": "src/assets/i18n/en-US/dashboard.ts",
+      "assets/i18n/en-US/footer.ts": "src/assets/i18n/en-US/footer.ts",
+      "assets/i18n/en-US/form.ts": "src/assets/i18n/en-US/form.ts",
+      "assets/i18n/en-US/header.ts": "src/assets/i18n/en-US/header.ts",
+      "assets/i18n/en-US/list.ts": "src/assets/i18n/en-US/list.ts",
+      "assets/i18n/en-US/login.ts": "src/assets/i18n/en-US/login.ts",
+      "assets/i18n/en-US/notice.ts": "src/assets/i18n/en-US/notice.ts",
+      "assets/i18n/en-US/page.ts": "src/assets/i18n/en-US/page.ts",
+      "assets/i18n/en-US/personalize.ts": "src/assets/i18n/en-US/personalize.ts",
+      "assets/i18n/en-US/register.ts": "src/assets/i18n/en-US/register.ts",
+      "assets/i18n/en-US/side-setting.ts": "src/assets/i18n/en-US/side-setting.ts",
+      "assets/i18n/zh-CN.ts": "src/assets/i18n/zh-CN.ts",
+      "assets/i18n/zh-CN/abnormal.ts": "src/assets/i18n/zh-CN/abnormal.ts",
+      "assets/i18n/zh-CN/auth-guard.ts": "src/assets/i18n/zh-CN/auth-guard.ts",
+      "assets/i18n/zh-CN/dashboard.ts": "src/assets/i18n/zh-CN/dashboard.ts",
+      "assets/i18n/zh-CN/footer.ts": "src/assets/i18n/zh-CN/footer.ts",
+      "assets/i18n/zh-CN/form.ts": "src/assets/i18n/zh-CN/form.ts",
+      "assets/i18n/zh-CN/header.ts": "src/assets/i18n/zh-CN/header.ts",
+      "assets/i18n/zh-CN/list.ts": "src/assets/i18n/zh-CN/list.ts",
+      "assets/i18n/zh-CN/login.ts": "src/assets/i18n/zh-CN/login.ts",
+      "assets/i18n/zh-CN/notice.ts": "src/assets/i18n/zh-CN/notice.ts",
+      "assets/i18n/zh-CN/page.ts": "src/assets/i18n/zh-CN/page.ts",
+      "assets/i18n/zh-CN/personalize.ts": "src/assets/i18n/zh-CN/personalize.ts",
+      "assets/i18n/zh-CN/register.ts": "src/assets/i18n/zh-CN/register.ts",
+      "assets/i18n/zh-CN/side-setting.ts": "src/assets/i18n/zh-CN/side-setting.ts",
+      "assets/img/abnormal/403-dark.png": "schematics/src/ng-add/files/src/assets/img/abnormal/401-dark.png",
+      "assets/img/abnormal/403.png": "schematics/src/ng-add/files/src/assets/img/abnormal/401.png",
+      "assets/img/abnormal/404-dark.png": "schematics/src/ng-add/files/src/assets/img/abnormal/404-dark.png",
+      "assets/img/abnormal/404.png": "schematics/src/ng-add/files/src/assets/img/abnormal/404.png",
+      "assets/img/abnormal/500-dark.png": "schematics/src/ng-add/files/src/assets/img/abnormal/500-dark.png",
+      "assets/img/abnormal/500.png": "schematics/src/ng-add/files/src/assets/img/abnormal/500.png",
+      "assets/img/background/img_log.png": "schematics/src/ng-add/files/src/assets/img/background/img_log.png",
+      "favicon.ico": "materials/src/favicon.ico"
+    }
+  }
+}

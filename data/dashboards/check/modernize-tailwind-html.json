@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-10T17:39:47.511Z",
+  "pagesChecked": 12,
+  "pagesOk": 12,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "components/alerts.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "components/buttons.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "components/cards.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "components/forms.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "components/typography.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "pages/authentication-login.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "pages/authentication-register.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "pages/icons.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "pages/index.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "pages/sample-page.html",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    },
+    {
+      "path": "",
+      "title": "Modernize TailwindCSS HTML Admin Template"
+    }
+  ]
+}

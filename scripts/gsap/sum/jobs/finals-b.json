@@ -1,0 +1,94 @@
+{
+ "jobs": [
+  {
+   "name": "head-salmon",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "head-ref.jpg"
+   ],
+   "input": {
+    "prompt": "Change only the colour of the dial of this watch: make the dial a warm salmon pink with a fine sunray finish, the copper-pink colour known as a salmon dial. Keep everything else exactly as it is in the photograph, at exactly the same size and position in the frame: the brushed steel case, bezel, lugs, spring bars and crown, the twelve applied polished baton hour markers in the same places, the printed minute track, the small centre post, the lighting and the transparent background. There are still no hands on the dial. No text, no logo.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "head-ink",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "head-ref.jpg"
+   ],
+   "input": {
+    "prompt": "Change only the colour of the dial of this watch: make the dial a deep ink black with a fine sunray finish that catches a little light, with the minute track printed in white. Keep everything else exactly as it is in the photograph, at exactly the same size and position in the frame: the brushed steel case, bezel, lugs, spring bars and crown, the twelve applied polished baton hour markers in the same places, the printed minute track, the small centre post, the lighting and the transparent background. There are still no hands on the dial. No text, no logo.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "transparent",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "worn-cuff",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "product-ref.jpg"
+   ],
+   "input": {
+    "prompt": "An editorial lifestyle photograph for a watch brand. A man's left wrist wearing this exact watch: a 39 mm brushed steel case with a thin polished bezel, a silver sunray dial with slim polished baton markers and no numerals, slim blued steel hour and minute hands, a thin red seconds hand, and a charcoal black leather strap with tonal stitching, as in the reference image. He wears a pale blue oxford shirt with the cuff unbuttoned and pushed back a little and a navy merino jumper; his hand rests relaxed on the edge of a pale oak desk beside a window. Soft overcast daylight from the left. Photographed on a full-frame camera with an 85 mm lens at f/2.8, shallow depth of field with the watch tack sharp, natural skin texture, true-to-life materials, a quiet refined colour grade with soft contrast, fine film grain. The watch is in the centre of the square frame and reads clearly, with calm, uncluttered surroundings filling the frame to every edge so the picture can be cropped either as a wide landscape or as a tall portrait. No text, no logos, no watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "worn-bench",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "product-ref.jpg"
+   ],
+   "input": {
+    "prompt": "An editorial still life for a watch brand, photographed from above at a slight angle. This exact watch: a 39 mm brushed steel case with a thin polished bezel, a silver sunray dial with slim polished baton markers and no numerals, slim blued steel hour and minute hands, a thin red seconds hand, and a charcoal black leather strap with tonal stitching, as in the reference image, lies on a watchmaker's workbench: a green bench mat on pale wood, with fine brass tweezers, a loupe, two slim screwdrivers and a small tray of tiny screws arranged neatly around it. Soft even light from a north window, gentle shadows. Photographed on a full-frame camera with an 85 mm lens at f/2.8, shallow depth of field with the watch tack sharp, natural skin texture, true-to-life materials, a quiet refined colour grade with soft contrast, fine film grain. The watch is in the centre of the square frame and reads clearly, with calm, uncluttered surroundings filling the frame to every edge so the picture can be cropped either as a wide landscape or as a tall portrait. No text, no logos, no watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  },
+  {
+   "name": "worn-rail",
+   "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+   "refs": [
+    "product-ref.jpg"
+   ],
+   "input": {
+    "prompt": "An editorial lifestyle photograph for a watch brand. A woman's left wrist wearing this exact watch: a 39 mm brushed steel case with a thin polished bezel, a silver sunray dial with slim polished baton markers and no numerals, slim blued steel hour and minute hands, a thin red seconds hand, and a charcoal black leather strap with tonal stitching, as in the reference image. She wears a camel wool coat and holds a paper coffee cup; behind her, softly out of focus, an empty railway platform in early morning light with a low sun and long shadows. Warm, quiet, unhurried. Photographed on a full-frame camera with an 85 mm lens at f/2.8, shallow depth of field with the watch tack sharp, natural skin texture, true-to-life materials, a quiet refined colour grade with soft contrast, fine film grain. The watch is in the centre of the square frame and reads clearly, with calm, uncluttered surroundings filling the frame to every edge so the picture can be cropped either as a wide landscape or as a tall portrait. No text, no logos, no watermark, no border.",
+    "image_size": {
+     "width": 2880,
+     "height": 2880
+    },
+    "quality": "max",
+    "output_format": "png",
+    "background": "opaque",
+    "num_images": 1
+   }
+  }
+ ]
+}

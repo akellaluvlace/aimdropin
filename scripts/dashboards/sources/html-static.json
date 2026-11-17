@@ -1,0 +1,2388 @@
+[
+  {
+    "slug": "adminlte-4-html",
+    "title": "AdminLTE 4",
+    "description": "Bootstrap 5.3 admin: 3 dashboards, layouts, widgets, UI, forms, tables, charts, mailbox, calendar, file manager, auth pages and docs.",
+    "repo": "ColorlibHQ/AdminLTE",
+    "sha": "e13df78a4d0c287e5fa57308e293f63e44e9dd0f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "ColorlibHQ",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "dark-mode",
+      "rtl",
+      "charts",
+      "vanilla-js"
+    ],
+    "demoUrl": "https://adminlte.io/themes/v4/",
+    "quality": 5,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "adminlte-3-html",
+    "title": "AdminLTE 3",
+    "description": "Bootstrap 4 + jQuery admin: 3 dashboards and 60+ pages of charts, forms, tables, calendar, mailbox, kanban, e-commerce and auth.",
+    "repo": "ColorlibHQ/AdminLTE",
+    "sha": "a6a1fd3341db9c8b6f0b34b225b83e963f2e8444",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "ColorlibHQ",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "dark-mode",
+      "charts"
+    ],
+    "demoUrl": "https://adminlte.io/themes/v3/",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "docs",
+        "build"
+      ]
+    }
+  },
+  {
+    "slug": "argon-dashboard-html",
+    "title": "Argon Dashboard 2",
+    "description": "Bootstrap 5 dashboard with tables, billing, profile, RTL, virtual-reality and sign-in/up pages, Chart.js charts.",
+    "repo": "creativetimofficial/argon-dashboard",
+    "sha": "106e472674e5bc0908cec3d350082de78373812e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "README Licensing section: MIT; Resources list links the Creative Tim license page."
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "rtl",
+      "charts"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/argon-dashboard/pages/dashboard.html",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "pages/dashboard.html",
+      "ignore": [
+        "docs"
+      ]
+    }
+  },
+  {
+    "slug": "cooladmin",
+    "title": "CoolAdmin",
+    "description": "Bootstrap 5.3 admin with 4 dashboards, calendar, kanban, inbox, invoice, charts, maps, forms, tables and auth pages.",
+    "repo": "puikinsh/CoolAdmin",
+    "sha": "92e2af67f002a3151e193da6e86bd4b3ea1cd1d7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "vanilla-js",
+      "charts",
+      "calendar"
+    ],
+    "demoUrl": "https://cooladmin.colorlib.com",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "src",
+        "test",
+        "scripts",
+        "screenshots"
+      ]
+    }
+  },
+  {
+    "slug": "hope-ui-html",
+    "title": "Hope UI",
+    "description": "Bootstrap 5 dashboard in 7 layout variants: users, admin, blog, pricing, kanban, forms, tables, auth, error and landing pages.",
+    "repo": "iqonicdesignofficial/hope-ui-html-admin-dashboard",
+    "sha": "51e0e0675e817f1c9891e79b92715db78336ff40",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "README: 'Code released under the MIT (iqonic.design/licenses) License'; licenses page not readable (403)."
+    },
+    "author": "Iqonic Design",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "dark-mode",
+      "rtl",
+      "charts"
+    ],
+    "demoUrl": "https://hopeui.iqonic.design/",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "dashboard/index.html",
+      "ignore": [
+        "dashboard/maps/google.html",
+        "dashboard/plugins/choise-js.html",
+        "dashboard/plugins/dropzone.html",
+        "dashboard/plugins/no-ui-slider.html",
+        "dashboard/plugins/notify.html",
+        "dashboard/plugins/quill-editor.html",
+        "dashboard/special-pages/profile.html"
+      ]
+    }
+  },
+  {
+    "slug": "kaiadmin-lite",
+    "title": "Kaiadmin Lite",
+    "description": "Bootstrap 5 admin: dashboard, components, forms, tables, datatables, charts, sparklines, vector map, widgets, icons, sidebar styles.",
+    "repo": "Hizrian/kaiadmin-lite",
+    "sha": "65520bdce8f2e43ce26bdc293e0de4ab44c5559e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "ThemeKita",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "charts",
+      "jquery"
+    ],
+    "demoUrl": "https://themekita.com/demo-kaiadmin-lite-bootstrap-dashboard/livepreview/demo1/",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "examples/demo1/index.html",
+      "ignore": [
+        "documentation",
+        "examples/demo1/maps/googlemaps.html"
+      ]
+    }
+  },
+  {
+    "slug": "material-dashboard-html",
+    "title": "Material Dashboard 3",
+    "description": "Material Design dashboard on Bootstrap 5: tables, billing, notifications, profile, RTL, VR, map and auth pages.",
+    "repo": "creativetimofficial/material-dashboard-free",
+    "sha": "d441a3a174f69d6ef15b2581981f1195884772ad",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "README Licensing section: MIT; Resources list links the Creative Tim license page."
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "material-design",
+      "rtl",
+      "charts"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/material-dashboard/pages/dashboard.html",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "pages/dashboard.html",
+      "ignore": [
+        "docs",
+        "pages/landing.html"
+      ]
+    }
+  },
+  {
+    "slug": "vvveb-admin",
+    "title": "Vvveb Admin",
+    "description": "CMS and e-commerce admin from Vvveb: products, orders, posts, users, media, themes, plugins, settings and localization.",
+    "repo": "givanz/vvveb-admin-template",
+    "sha": "9fde584e12d3990e0b07d13a1110c5aed9f4100e",
+    "license": {
+      "spdx": "Apache-2.0",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "givanz",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "E-commerce",
+    "tags": [
+      "bootstrap5",
+      "cms",
+      "e-commerce",
+      "dark-mode"
+    ],
+    "demoUrl": "https://demo.vvveb.com/admin/",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "src",
+        "scss",
+        "libs/jquery-ui/index.html",
+        "libs/nestable/index.html",
+        "content/categories.html",
+        "product/categories.html"
+      ]
+    }
+  },
+  {
+    "slug": "windmill-dashboard-html",
+    "title": "Windmill Dashboard",
+    "description": "Accessible Tailwind + Alpine.js dashboard with dark mode: forms, cards, charts, buttons, modals, tables and auth pages.",
+    "repo": "estevanmaito/windmill-dashboard",
+    "sha": "e05267588134ca2f4129087cc65a59c38a9c36b5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Estevan Maito",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "alpinejs",
+      "dark-mode",
+      "accessible"
+    ],
+    "demoUrl": "https://windmill-dashboard.vercel.app/",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": "public",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "admin-one-bulma-html",
+    "title": "Admin One (Bulma)",
+    "description": "Bulma admin dashboard with charts, tables, forms and profile pages.",
+    "repo": "vikdiesel/admin-one-bulma-dashboard",
+    "sha": "28ba7a32f033872e65747eaf039f476f60e12a88",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "JustBoil.me",
+    "framework": "html",
+    "ui": "bulma",
+    "category": "Admin",
+    "tags": [
+      "bulma",
+      "charts",
+      "vanilla-js"
+    ],
+    "demoUrl": "https://vikdiesel.github.io/admin-one-bulma-dashboard/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "demo",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "admin-one-tailwind-html",
+    "title": "Admin One (Tailwind)",
+    "description": "Tailwind CSS admin dashboard with charts, tables, forms, profile and login pages.",
+    "repo": "justboil/admin-one-tailwind",
+    "sha": "5a033707365a7b4f290d9dfdd5d7f09ad4dd6129",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "JustBoil.me",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "charts",
+      "vanilla-js"
+    ],
+    "demoUrl": "https://justboil.github.io/admin-one-tailwind/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "atlantis-lite",
+    "title": "Atlantis Lite",
+    "description": "Bootstrap 4 admin: dashboard, components, forms, tables, charts, jqvmap map, widgets, icons and four sidebar layouts.",
+    "repo": "themekita/Atlantis-Lite",
+    "sha": "680bad46e0eca06baddfe41789dba672f2802b36",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles a Flaticon icon font licensed CC BY 3.0 (attribution)."
+    },
+    "author": "ThemeKita",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts"
+    ],
+    "demoUrl": "http://themekita.com/demo-atlantis-lite-bootstrap/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "examples/demo1/index.html",
+      "ignore": [
+        "documentation",
+        "assets/fonts/flaticon/flaticon.html"
+      ]
+    },
+    "exclude": "bundles the Flaticon icon font (CC BY 3.0, attribution required)"
+  },
+  {
+    "slug": "awesome-dashboard-ui-kit",
+    "title": "Awesome Dashboard UI Kit",
+    "description": "Bootstrap 4 dashboard kit: dashboard, UI components, forms, tables, sign-in/up, profile, password recovery and error pages.",
+    "repo": "htmlstreamofficial/awesome-dashboard-ui-kit",
+    "sha": "16d3835ce5a63bb1b319802f70676fc7fb91f005",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Htmlstream",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "charts",
+      "ui-kit"
+    ],
+    "demoUrl": "https://htmlstream.com/preview/awesome-dashboard-ui-kit/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "assets/vendor/chart.js/dist/docs",
+        "assets/vendor/chart.js/samples",
+        "assets/vendor/chartjs-plugin-style/docs",
+        "assets/vendor/chartjs-plugin-style/samples",
+        "assets/vendor/popper.js/docs",
+        "assets/vendor/themify-icons/demo.html"
+      ]
+    }
+  },
+  {
+    "slug": "ayuwind",
+    "title": "Ayuwind",
+    "description": "Tailwind + Alpine.js admin with multiple color themes: dashboard, forms, tables, cards, buttons and auth.",
+    "repo": "rizkhal/ayuwind",
+    "sha": "3c0fefb29e16fae6dbc7c33507e03ae00cfaed21",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Rizkhal Lamaau",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "alpinejs",
+      "themes"
+    ],
+    "demoUrl": "https://ayuwind.vercel.app",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html"
+    },
+    "exclude": "CHECK-FAIL: 5/6 ok (image missing upstream); dashboard is a single widget row"
+  },
+  {
+    "slug": "azzara-dashboard",
+    "title": "Azzara",
+    "description": "Bootstrap 4 admin: dashboard, projects, messages, components, forms, tables, charts, jqvmap map, widgets, icons and login pages.",
+    "repo": "themekita/azzara-admin-dashboard-template",
+    "sha": "54610dc5a45e05eb1e5d07415fcb72da4566a1cf",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles a Flaticon icon font licensed CC BY 3.0 (attribution)."
+    },
+    "author": "ThemeKita",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts"
+    ],
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "examples/index.html",
+      "ignore": [
+        "documentation",
+        "assets/fonts/flaticon/flaticon.html",
+        "examples/maps/googlemaps.html",
+        "examples/maps/fullscreenmaps.html"
+      ]
+    },
+    "exclude": "bundles the Flaticon icon font (CC BY 3.0, attribution required)"
+  },
+  {
+    "slug": "black-dashboard-html",
+    "title": "Black Dashboard",
+    "description": "Dark Bootstrap 4 dashboard: Chart.js analytics, icons, notifications, user profile, tables, typography and RTL page.",
+    "repo": "creativetimofficial/black-dashboard",
+    "sha": "4784388e067eb5d3684bdff7f10324ebfc4081fc",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Analytics",
+    "tags": [
+      "bootstrap4",
+      "dark-mode",
+      "rtl",
+      "charts"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/black-dashboard/examples/dashboard.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "examples/dashboard.html",
+      "ignore": [
+        "docs",
+        "examples/map.html"
+      ]
+    }
+  },
+  {
+    "slug": "bootstrap-simple-admin",
+    "title": "Bootstrap Simple Admin",
+    "description": "Plain Bootstrap 5 admin: dashboard, users, permissions, settings, forms, tables, charts, UI elements and auth pages.",
+    "repo": "alexisbriandev/bootstrap-simple-admin-template",
+    "sha": "baf4fd8ff5753955ba184dd818527b4c180129b7",
+    "license": {
+      "spdx": "Apache-2.0",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "alexisbriandev",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "users",
+      "settings"
+    ],
+    "demoUrl": "https://devopspower.github.io/bootstrap-simple-admin-template/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "hope-ui-design-system",
+    "title": "Hope UI Design System",
+    "description": "Hope UI component showcase with auth and error pages.",
+    "repo": "iqonicdesignofficial/hope-ui-design-system",
+    "sha": "3a51f05d110595d8fce5f975574668a1a462abdb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Iqonic Design",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "design-system",
+      "components"
+    ],
+    "demoUrl": "https://hopeui.iqonic.design/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html"
+    },
+    "exclude": "CHECK-FAIL: 0/9 ok (script error on every page); superseded by hope-ui-html"
+  },
+  {
+    "slug": "label-admin",
+    "title": "Label",
+    "description": "Bootstrap 4 admin: dashboard, buttons, typography, form elements, tables, Chart.js charts, Material icons and login.",
+    "repo": "uxcandy/Label-Free-Bootstrap-Admin-Template",
+    "sha": "ea50ff5649caeeb72c4d445f8dbefd29fbd55c42",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles TinyMCE 4.9.3 (LGPL-2.1)."
+    },
+    "author": "Uxcandy",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts"
+    ],
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "src",
+      "entry": "demo_1/index.html",
+      "ignore": [
+        "docs",
+        "assets/vendors/iconfonts/themify/index.html",
+        "assets/vendors/iconfonts/mdi/index.html",
+        "assets/vendors/iconfonts/flag-icon-css/index.html"
+      ]
+    }
+  },
+  {
+    "slug": "light-blue-lite-html",
+    "title": "Light Blue Lite",
+    "description": "Glassy dark admin on Bootstrap 3: dashboard, typography, tables, notifications, charts, icons and login.",
+    "repo": "flatlogic/light-blue-dashboard",
+    "sha": "ea63915fae8ad53229438ae9998d409007a8fc27",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Flatlogic",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap3",
+      "glassmorphism",
+      "charts"
+    ],
+    "demoUrl": "https://flatlogic.com/admin-dashboards/light-blue-dashboard-lite/demo",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "docs",
+      "entry": "index.html",
+      "ignore": [
+        "maps.html"
+      ]
+    }
+  },
+  {
+    "slug": "light-bootstrap-dashboard-html",
+    "title": "Light Bootstrap Dashboard",
+    "description": "Bootstrap 4 dashboard: Chartist charts, user profile, table list, typography, icons and notifications.",
+    "repo": "creativetimofficial/light-bootstrap-dashboard",
+    "sha": "651e5de95677efcdb84fe76a3096250e8743beb8",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "charts",
+      "notifications"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "examples/dashboard.html",
+      "ignore": [
+        "documentation",
+        "BS3",
+        "examples/maps.html"
+      ]
+    }
+  },
+  {
+    "slug": "matdash-html",
+    "title": "MatDash",
+    "description": "Bootstrap 5 admin: dashboard with ApexCharts, buttons, alerts, cards, forms, typography, icons and auth pages.",
+    "repo": "adminmart/matdash-bootstrap-free",
+    "sha": "56b8cf163777a562dac7a57ac76d6fbdd92881bb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "apexcharts",
+      "tabler-icons"
+    ],
+    "demoUrl": "https://bootstrapdemos.adminmart.com/matdash-free/landingpage/index.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "src",
+      "entry": "html/index.html"
+    }
+  },
+  {
+    "slug": "modernize-bootstrap-html",
+    "title": "Modernize (Bootstrap)",
+    "description": "Bootstrap 5 admin: dashboard with ApexCharts, buttons, alerts, cards, forms, typography, icons and auth pages.",
+    "repo": "adminmart/Modernize-bootstrap-free",
+    "sha": "eb5731c39157de7c1bd87de3ae8089d1f5f6f588",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "apexcharts",
+      "tabler-icons"
+    ],
+    "demoUrl": "https://bootstrapdemos.adminmart.com/modernize-bt-free/src/html/index.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "src",
+      "entry": "html/index.html"
+    }
+  },
+  {
+    "slug": "modernize-tailwind-html",
+    "title": "Modernize (Tailwind)",
+    "description": "Tailwind CSS admin: dashboard with ApexCharts, buttons, alerts, cards, forms, typography, icons and auth pages.",
+    "repo": "adminmart/modernize-html-free-tailwind",
+    "sha": "7969f4baa7dd071c3d4cc3a192bd25925c5fbe05",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "preline",
+      "apexcharts"
+    ],
+    "demoUrl": "https://bootstrapdemos.adminmart.com/modernize-tailwind-free/dist/index.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "modish",
+    "title": "Modish",
+    "description": "Bootstrap 4 admin: dashboard, inputs, pickers, components, icons, Chartist charts, CKEditor, tables, two layouts and auth pages.",
+    "repo": "humzakhan/modish",
+    "sha": "745bbab215f04c864d360832ba6419ad888f1383",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Bundles CKEditor 4.7.3 (GPL/LGPL/MPL tri-license)."
+    },
+    "author": "Humza Khan",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts"
+    ],
+    "demoUrl": "https://humzakhan.net/demo/Modish/index.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html",
+      "ignore": [
+        "lib/thirdparty/ckeditor/samples",
+        "lib/thirdparty/ckeditor/plugins/wsc/dialogs"
+      ]
+    }
+  },
+  {
+    "slug": "notus-html",
+    "title": "Notus JS",
+    "description": "Tailwind CSS UI kit with admin pages: dashboard, settings, tables, login, register, landing and profile.",
+    "repo": "creativetimofficial/notus-js",
+    "sha": "e3ca2299dd2caab1ef37b420d2209c3b9c3fca5e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "ui-kit",
+      "landing"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-js/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "pages/admin/dashboard.html",
+      "ignore": [
+        "pages/admin/maps.html"
+      ]
+    }
+  },
+  {
+    "slug": "octopus-admin",
+    "title": "Octopus",
+    "description": "Static admin: overview, analytics charts, team members, orders, calendar, messages, forms, components and settings.",
+    "repo": "ColorlibHQ/octopus",
+    "sha": "2078851c1e0509362813476c14a148803cb2320a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vanilla-css",
+      "charts",
+      "lightweight",
+      "calendar"
+    ],
+    "demoUrl": "https://colorlib.com/polygon/octopus/",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "docs",
+        "scripts"
+      ]
+    }
+  },
+  {
+    "slug": "paper-dashboard-html",
+    "title": "Paper Dashboard 2",
+    "description": "Soft Bootstrap 4 dashboard: Chart.js charts, Nucleo icons, notifications, user profile, tables and typography.",
+    "repo": "creativetimofficial/paper-dashboard",
+    "sha": "92e9e76885c37b7f89720e9f82c48a7b464089e7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "LICENSE and README badge MIT; package.json says 'Creative Tim License'."
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "charts",
+      "notifications"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/paper-dashboard/examples/dashboard.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "examples/dashboard.html",
+      "ignore": [
+        "docs",
+        "examples/map.html"
+      ]
+    }
+  },
+  {
+    "slug": "plainadmin",
+    "title": "PlainAdmin",
+    "description": "Bootstrap 5 admin with vanilla JS: e-commerce dashboard, invoice, settings, UI elements, forms, tables, icons and auth pages.",
+    "repo": "PlainAdmin/plain-free-bootstrap-admin-template",
+    "sha": "dcb30e2bce6c9f12e833ebb220b3cb218597f12e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "PlainAdmin",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "vanilla-js",
+      "charts"
+    ],
+    "demoUrl": "https://demo.plainadmin.com/",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "robust-lite",
+    "title": "Robust Lite",
+    "description": "Bootstrap 4 admin in LTR and RTL: dashboard, charts, cards, components, forms, tables, icons and auth pages.",
+    "repo": "bundanining/robust-free-bootstrap-admin-template",
+    "sha": "54f125bd54293c3d5d0240969e90d1fd6b1d0f66",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "PIXINVENT",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "rtl",
+      "charts",
+      "jquery"
+    ],
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "html/ltr/index.html",
+      "ignore": [
+        "documentation",
+        "src",
+        "grunt-tasks",
+        "gulp-tasks"
+      ]
+    }
+  },
+  {
+    "slug": "ruangadmin",
+    "title": "RuangAdmin",
+    "description": "Bootstrap 4 admin: dashboard, alerts, buttons, dropdowns, modals, popovers, forms, tables, charts and auth.",
+    "repo": "indrijunanda/RuangAdmin",
+    "sha": "0ab27d0024263bfa0d334850dd708ebb669d222e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Indri Junanda",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts"
+    ],
+    "demoUrl": "https://indrijunanda.github.io/RuangAdmin/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "vendor/select2/tests",
+        "scss"
+      ]
+    },
+    "exclude": "CHECK-FAIL: 17/19 pages (89%): upstream js/ruang-admin.js throws on login/register at every commit since 2019"
+  },
+  {
+    "slug": "sb-admin-html",
+    "title": "SB Admin",
+    "description": "Bootstrap 5 admin: dashboard with Chart.js charts and data tables, layouts, auth and error pages.",
+    "repo": "StartBootstrap/startbootstrap-sb-admin",
+    "sha": "adde34b9616b9840c4da756323131f59ac445090",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Start Bootstrap",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "charts",
+      "datatables"
+    ],
+    "demoUrl": "https://startbootstrap.github.io/startbootstrap-sb-admin/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "sb-admin-2",
+    "title": "SB Admin 2",
+    "description": "Bootstrap 4 admin: dashboard, buttons, cards, colors, borders, animations, charts, tables, auth and 404 pages.",
+    "repo": "StartBootstrap/startbootstrap-sb-admin-2",
+    "sha": "f0309881ef82794a1bd6257cd321801bc38a0f3d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Start Bootstrap",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts",
+      "datatables"
+    ],
+    "demoUrl": "https://startbootstrap.github.io/startbootstrap-sb-admin-2/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "sekul",
+    "title": "Sekul",
+    "description": "School-themed Bootstrap 5 admin: dashboard, UI components, form elements, tables and datatable.",
+    "repo": "zuramai/sekul",
+    "sha": "ebd2f86f4178aa93c41cfc9e18f2c70d64321920",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "zuramai",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "school",
+      "components"
+    ],
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html",
+      "ignore": [
+        "partials",
+        "layouts",
+        "assets/scss",
+        "assets/js/app.html"
+      ]
+    }
+  },
+  {
+    "slug": "shards-dashboard-html",
+    "title": "Shards Dashboard Lite",
+    "description": "Bootstrap 4 blog admin: overview, posts, new post editor, forms, tables, components and user profile.",
+    "repo": "DesignRevision/shards-dashboard",
+    "sha": "525efdca736a2203b8c3e5f8f64c766841e71c57",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "DesignRevision",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "blog",
+      "charts"
+    ],
+    "demoUrl": "https://designrevision.com/demo/shards-dashboard-lite",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "sing-app-lite-html",
+    "title": "Sing App Lite",
+    "description": "Bootstrap 4 + jQuery admin: analytics dashboard, charts, icons, notifications, tables and typography.",
+    "repo": "flatlogic/sing-app",
+    "sha": "f8ab549b41cdbddd83f060084ae9397b678b0205",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Flatlogic",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts"
+    ],
+    "demoUrl": "https://demo.flatlogic.com/sing-app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --omit=dev --no-audit --no-fund",
+      "build": "node /patches/sing-app-lite-html.mjs copy",
+      "out": "site",
+      "entry": "dist/index.html",
+      "spa": false,
+      "patch": "sing-app-lite-html.mjs"
+    }
+  },
+  {
+    "slug": "spur",
+    "title": "Spur",
+    "description": "Bootstrap 4 admin: dashboards, charts, cards, forms, tables, components and auth pages.",
+    "repo": "HackerThemes/spur-template",
+    "sha": "7ea0c1586828b65afd53f88703d93c9c352e60bb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "HackerThemes",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "charts",
+      "cards"
+    ],
+    "demoUrl": "https://hackerthemes.com/spur/demo/html/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "html/index.html"
+    }
+  },
+  {
+    "slug": "stream-dashboard-ui-kit",
+    "title": "Stream Dashboard UI Kit",
+    "description": "Bootstrap 4 dashboard kit: dashboard, UI components, forms, tables, sign-in/up, profile, password recovery and error pages.",
+    "repo": "htmlstreamofficial/stream-dashboard-ui-kit",
+    "sha": "55e41bd37324ab97e03b8719bc3a4a68fa1f8d33",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Htmlstream",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "charts",
+      "ui-kit"
+    ],
+    "demoUrl": "https://htmlstream.com/preview/stream-dashboard-ui-kit/index.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "assets/vendor/chart.js/samples",
+        "assets/vendor/popper.js/docs",
+        "assets/vendor/select2/docs",
+        "assets/vendor/select2/tests",
+        "documentation.html"
+      ]
+    }
+  },
+  {
+    "slug": "tailwind-admin-davidgrzyb",
+    "title": "Tailwind Admin Template",
+    "description": "Tailwind + Alpine.js admin: dashboard, blank page, tables, forms, tabs and calendar.",
+    "repo": "davidgrzyb/tailwind-admin-template",
+    "sha": "37c4c6106c772260861da5386923abce4b492fb6",
+    "license": {
+      "spdx": "Apache-2.0",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "David Grzyb",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "alpinejs",
+      "charts"
+    ],
+    "demoUrl": "https://davidgrzyb.github.io/tailwind-admin-template/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "vali-admin",
+    "title": "Vali Admin",
+    "description": "Bootstrap 5 admin: dashboard, UI cards, widgets, forms, tables, mailbox, invoice, user, lockscreen and login pages.",
+    "repo": "pratikborsadiya/vali-admin",
+    "sha": "7130e93e650206d627cbe762ea0827cf592f3b83",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Pratik Borsadiya",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "charts",
+      "datatables"
+    ],
+    "demoUrl": "https://pratikborsadiya.in/vali-admin/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "docs",
+      "entry": "dashboard.html"
+    }
+  },
+  {
+    "slug": "voler",
+    "title": "Voler",
+    "description": "Bootstrap 5 admin: dashboard, components, forms, tables, charts, layouts, auth and error pages.",
+    "repo": "zuramai/voler",
+    "sha": "7318fb9b17f51a180f97960ff69e0e18d002d00d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "zuramai",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "apexcharts",
+      "layouts"
+    ],
+    "demoUrl": "https://zuramai.github.io/voler",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html",
+      "ignore": [
+        "layouts"
+      ]
+    }
+  },
+  {
+    "slug": "zedadmin",
+    "title": "ZedAdmin",
+    "description": "Tailwind CSS + Alpine.js admin with RTL dashboard: UI components, tables, tabs, modals and auth pages.",
+    "repo": "zagreus-co/ZedAdmin",
+    "sha": "085f399ebd986a275b86ea9ff72b1db851146a9e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Zagreus",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "alpinejs",
+      "rtl"
+    ],
+    "demoUrl": "https://demo.zagreus.company/ZedAdmin/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "src"
+      ]
+    }
+  },
+  {
+    "slug": "tabler-html",
+    "title": "Tabler",
+    "description": "",
+    "repo": "tabler/tabler",
+    "sha": "93d9718c33cb7f9b1fed8f28760446bf9a6c12e6",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tabler",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://preview.tabler.io",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": "demo",
+      "entry": "index.html"
+    },
+    "exclude": "DUPLICATE: same repo+sha (v1.0.0-beta20 demo/) imported by the html-build batch as slug 'tabler'"
+  },
+  {
+    "slug": "argon-dashboard-bs4-html",
+    "title": "Argon Dashboard (BS4)",
+    "description": "",
+    "repo": "creativetimofficial/argon-dashboard-bs4",
+    "sha": "08ac648dbdf2b49127377146304d715457497b44",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "examples/dashboard.html"
+    },
+    "exclude": "LICENSE-BUNDLED: assets/vendor/jvectormap-next (jVectorMap, AGPL/commercial) in every commit since the first"
+  },
+  {
+    "slug": "material-dashboard-bs4-html",
+    "title": "Material Dashboard (BS4)",
+    "description": "",
+    "repo": "creativetimofficial/material-dashboard-bs4",
+    "sha": "d01bc80776a0ee6ac4a6d8bef5703d101f809b84",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://demos.creative-tim.com/material-dashboard-bs4/examples/dashboard.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "examples/dashboard.html"
+    },
+    "exclude": "LICENSE-BUNDLED: assets/js/plugins/jquery-jvectormap.js (jVectorMap 2.0.4, AGPL) since the first commit"
+  },
+  {
+    "slug": "freedash-lite",
+    "title": "FreeDash Lite",
+    "description": "",
+    "repo": "adminmart/FreeDash-lite",
+    "sha": "5952095d4b0761fd7216469e433a4a1bcd5b97b8",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://demos.adminmart.com/free/bootstrap/freedash-lite/src/html/index.html",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "src",
+      "entry": "html/index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: jVectorMap 2.0.2 (AGPL) in src/assets/extra-libs since 2019"
+  },
+  {
+    "slug": "sleek-dashboard",
+    "title": "Sleek",
+    "description": "",
+    "repo": "themefisher/sleek-bootstrap",
+    "sha": "ac1cc2dcd5d279e840d8ccd362407e06651852e9",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Themefisher",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://demo.themefisher.com/sleek/",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": "theme",
+      "entry": "index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: jVectorMap 2.0.3 (AGPL) in theme/assets/plugins, no clean commit"
+  },
+  {
+    "slug": "mono-admin",
+    "title": "Mono",
+    "description": "",
+    "repo": "themefisher/mono-bootstrap",
+    "sha": "85c471cefa654bb53ea3a9e6dab311ec9899513b",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Themefisher",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://demo.themefisher.com/mono/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "theme",
+      "entry": "index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: jVectorMap 2.0.3 (AGPL) in theme/plugins since the first commit"
+  },
+  {
+    "slug": "deskapp",
+    "title": "DeskApp",
+    "description": "",
+    "repo": "dropways/deskapp",
+    "sha": "a4d9f84d11ce280a5a21f244764aef9ce6dd185f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "DeskApp",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://dropways.github.io/deskapp/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: Highcharts 6.0.7 (commercial) and jVectorMap 2.0.4 (AGPL) in src/plugins since 2018"
+  },
+  {
+    "slug": "focus-admin",
+    "title": "Focus",
+    "description": "",
+    "repo": "themefisher/focus-bootstrap",
+    "sha": "a80ea0f66a2ea360ef66bd058b2d1a9334deab4e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Themefisher",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "theme",
+      "entry": "index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: Highcharts (commercial) and jVectorMap 2.0.4 (AGPL) in theme/vendor"
+  },
+  {
+    "slug": "quixlab-admin",
+    "title": "Quixlab",
+    "description": "",
+    "repo": "themefisher/quixlab-bootstrap",
+    "sha": "387728b26054ae43d58dc64f68f7a39f08e78f77",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Themefisher",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "theme",
+      "entry": "index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: Highcharts (commercial) in theme/plugins"
+  },
+  {
+    "slug": "atrana",
+    "title": "Atrana",
+    "description": "",
+    "repo": "atranathemes/Atrana",
+    "sha": "05641caf6149d5cc186449b32e42370a0cd0ad5c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Ahmad Saugi",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://atranathemes.github.io/Atrana/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: CKEditor 5 (GPL) in assets/modules/ckeditor, used by forms-editor.html, since the first commit"
+  },
+  {
+    "slug": "flatlogic-one-html",
+    "title": "Flatlogic One",
+    "description": "",
+    "repo": "flatlogic/one-bootstrap-template-full",
+    "sha": "d14d12c36011039b754daca0475fefa30008d75c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Flatlogic",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://flatlogic.com/templates/one-bootstrap-template/demo",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "dashboard/index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: maps_vector page uses jVectorMap 2.0.4 (AGPL, package.json dep); dist also needs uncommitted node_modules"
+  },
+  {
+    "slug": "light-blue-html",
+    "title": "Light Blue",
+    "description": "",
+    "repo": "flatlogic/light-blue-html5",
+    "sha": "971fa7ffb4dd6b0bf4ce7ac6449a2bad9e75292e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Flatlogic",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://flatlogic.com/templates/light-blue-html5/demo",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "dashboard/index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: maps_vector page uses jVectorMap 2.0.4 (AGPL, package.json dep); dist also needs uncommitted node_modules"
+  },
+  {
+    "slug": "sing-app-html",
+    "title": "Sing App",
+    "description": "",
+    "repo": "flatlogic/sing-app-html5",
+    "sha": "ae0a2918ed41f67128f34314bcd03290bc63f7b7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Flatlogic",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://flatlogic.com/templates/sing-app-html5/demo",
+    "quality": 4,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "dashboard/index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: maps_vector page uses jVectorMap 2.0.4 (AGPL, package.json dep); dist also needs uncommitted node_modules"
+  },
+  {
+    "slug": "milligram-admin",
+    "title": "Milligram Admin",
+    "description": "",
+    "repo": "mazipan/milligram-admin-dashboard-template",
+    "sha": "18352371a2bb6ff068baca7d174857f3501d3dab",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Irfan Maulana",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://mazipan.github.io/milligram-admin-dashboard-template/",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "LICENSE-BUNDLED: loads FusionCharts (commercial) 'latest' from static.fusioncharts.com; also tiny/archived"
+  },
+  {
+    "slug": "gentelella-legacy",
+    "title": "Gentelella 1.4",
+    "description": "",
+    "repo": "ColorlibHQ/gentelella",
+    "sha": "3448fdfdf16a41707d6e2a8154d592a88d85c41c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "production/index.html"
+    },
+    "exclude": "ATTRIBUTION-REQUIRED: README says 'you always need to state that Colorlib is the original author'; map.html loads Highcharts from a third-party site"
+  },
+  {
+    "slug": "arfa",
+    "title": "ArFa",
+    "description": "",
+    "repo": "abdulisabdul/arfa",
+    "sha": "de55953adecdfc365e6bf136a23df40ea8e3b6f9",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Muhamad Abdullah",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [],
+    "demoUrl": "https://abdulisabdul.github.io/arfa/dist/pages/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "pages/index.html"
+    },
+    "exclude": "LICENSE-RUNTIME: loads unpinned https://cdn.jsdelivr.net/npm/apexcharts (resolves to ApexCharts 5.x, dual commercial license); the download keeps it"
+  },
+  {
+    "slug": "adminbsb-material",
+    "title": "AdminBSB Material Design",
+    "description": "Bootstrap 3 Material Design admin: 60 pages of widgets, UI, forms, tables, charts, maps, example and auth pages.",
+    "repo": "gurayyarar/AdminBSBMaterialDesign",
+    "sha": "e5d39b81f4b9cf3c8150ce42cd9f7b987ba8c51a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Güray Yarar",
+    "framework": "html",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "bootstrap3",
+      "material-design",
+      "jquery"
+    ],
+    "demoUrl": "https://gurayyarar.github.io/AdminBSBMaterialDesign",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "documentation",
+        "plugins/ckeditor/samples",
+        "plugins/ckeditor/plugins/wsc/dialogs",
+        "pages/maps/google.html"
+      ]
+    }
+  },
+  {
+    "slug": "bobs-responsive-admin",
+    "title": "Responsive Admin Dashboard",
+    "description": "Single-page HTML/CSS/JS admin dashboard with ApexCharts.",
+    "repo": "BobsProgrammingAcademy/responsive-admin-dashboard",
+    "sha": "11957a47b3beb957a574bfc878e00c60880b6dbf",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Bob's Programming Academy",
+    "framework": "html",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vanilla-css",
+      "apexcharts",
+      "single-page"
+    ],
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "QUALITY-2: single-page tutorial dashboard"
+  },
+  {
+    "slug": "bootstrap4-admin-mazipan",
+    "title": "Bootstrap 4 Admin",
+    "description": "Small Bootstrap 4 admin: dashboard, forms, presentations and auth pages.",
+    "repo": "mazipan/bootstrap4-admin-dashboard-template",
+    "sha": "3cc47b80e1d874d99334b4c9b5039244d5cfe611",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Irfan Maulana",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "starter"
+    ],
+    "demoUrl": "https://mazipan.github.io/bootstrap4-admin-dashboard-template/",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "QUALITY-2: archived, 5 basic Bootstrap 4 pages"
+  },
+  {
+    "slug": "bulma-admin-nafplann",
+    "title": "Bulma Admin",
+    "description": "Bulma admin: dashboard with Chart.js charts, forms, UI elements, data tables and login page.",
+    "repo": "nafplann/bulma-admin",
+    "sha": "4a44769350b35d640912252ca6751674d36a30c5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Abdul Manaaf",
+    "framework": "html",
+    "ui": "bulma",
+    "category": "Admin",
+    "tags": [
+      "bulma",
+      "datatables"
+    ],
+    "demoUrl": "https://bulma-admin.sayamoko.com",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    }
+  },
+  {
+    "slug": "bulma-templates-admin",
+    "title": "Bulma Templates Admin",
+    "description": "Single admin page from the Bulma Templates collection.",
+    "repo": "BulmaTemplates/bulma-templates",
+    "sha": "188672e66bccc5e2e946440ebc6214d600860969",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Daniel Supernault",
+    "framework": "html",
+    "ui": "bulma",
+    "category": "Admin",
+    "tags": [
+      "bulma",
+      "single-page"
+    ],
+    "demoUrl": "https://bulmatemplates.github.io/bulma-templates/templates/admin.html",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": "templates",
+      "entry": "admin.html"
+    },
+    "exclude": "QUALITY-2: one admin page inside a template collection; collection pages fail (32/37)"
+  },
+  {
+    "slug": "bulmin",
+    "title": "Bulmin",
+    "description": "Bulma 0.7 admin with 4 pages.",
+    "repo": "iqbaladinur/bulmin",
+    "sha": "69c06be350b2487166c67bb4f3558e90f9c3a500",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Iqbal Adi Nurmansyah",
+    "framework": "html",
+    "ui": "bulma",
+    "category": "Admin",
+    "tags": [
+      "bulma",
+      "starter"
+    ],
+    "demoUrl": "https://bulmin.netlify.app",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": "build",
+      "entry": "index.html"
+    },
+    "exclude": "CHECK-FAIL: 2/4 pages ok (script errors upstream); Bulma 0.7, 4 pages"
+  },
+  {
+    "slug": "charisma",
+    "title": "Charisma",
+    "description": "Bootstrap 3 multi-skin admin: dashboard, UI, forms, charts, gallery, calendar, grid, tour, icons and auth.",
+    "repo": "usmanhalalit/charisma",
+    "sha": "c15f9fda0c41a982a727e34c6f21b21a893d08de",
+    "license": {
+      "spdx": "Apache-2.0",
+      "path": "license.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Muhammad Usman",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap3",
+      "jquery",
+      "themes"
+    ],
+    "demoUrl": "http://usman.it/themes/charisma",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "bower_components/fullcalendar/demos",
+        "php-version"
+      ]
+    },
+    "exclude": "CHECK-FAIL: entry page loads a missing theme stylesheet (66/80 ok); dated Bootstrap 3"
+  },
+  {
+    "slug": "dashmin-dacoto",
+    "title": "Dashmin",
+    "description": "Small Bootstrap 4 admin with 6 pages.",
+    "repo": "dacoto/dashmin-html",
+    "sha": "2038c3d312034db65dd39bc82517744a6785c0ee",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "David Cortés",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "starter"
+    ],
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "src"
+      ]
+    },
+    "exclude": "QUALITY-2: near-empty dashboard, 6 small pages, archived"
+  },
+  {
+    "slug": "jakarta-lte",
+    "title": "Jakarta LTE",
+    "description": "Tailwind CSS admin: analytics dashboard with ApexCharts, buttons, cards and forms.",
+    "repo": "undercode99/jakarta-lte",
+    "sha": "581d91fa7a6de3c9d4d1430be7927cb91658fd69",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENCE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Zero Black Coder",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "apexcharts"
+    ],
+    "demoUrl": "https://undercode99.github.io/jakarta-lte/",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "pages/index.html",
+      "ignore": [
+        "src"
+      ]
+    }
+  },
+  {
+    "slug": "kwd-starter-layout",
+    "title": "KWD Starter Dashboard Layout",
+    "description": "Responsive Tailwind dashboard layout starter.",
+    "repo": "Kamona-WD/starter-dashboard-layout",
+    "sha": "c57af89d98886782fa7981157b29da5c011bccca",
+    "license": {
+      "spdx": "MIT",
+      "path": "License.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Ahmed Kamel",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Starter",
+    "tags": [
+      "tailwind",
+      "alpinejs",
+      "starter"
+    ],
+    "demoUrl": "https://kamona-wd.github.io/starter-dashboard-layout/",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": "dist",
+      "entry": "index.html"
+    },
+    "exclude": "CHECK-FAIL: dist built for the /starter-dashboard-layout/ GitHub Pages base (0/2 ok); 2-page layout shell"
+  },
+  {
+    "slug": "lightweight-admin-mazipan",
+    "title": "Lightweight Admin",
+    "description": "Tiny-CSS admin with 7 pages.",
+    "repo": "mazipan/lightweight-admin-template",
+    "sha": "b0d9390bd65f755be0a2a2e0f9fe756f0b04feb4",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Irfan Maulana",
+    "framework": "html",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "lightweight",
+      "starter"
+    ],
+    "demoUrl": "https://mazipan.github.io/lightweight-admin-template/",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "sass"
+      ]
+    },
+    "exclude": "QUALITY-2: archived, plain 7-page admin"
+  },
+  {
+    "slug": "mdb-admin",
+    "title": "MDB Admin",
+    "description": "Single admin page built with MDB 5 (Material Design for Bootstrap).",
+    "repo": "mdbootstrap/bootstrap-5-admin-template",
+    "sha": "324b6fdc1f30a05170ed6c7aab9209ab5479d0d5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "MDBootstrap",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "mdb",
+      "single-page"
+    ],
+    "demoUrl": "https://mdbootstrap.com/freebies/admin/",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "admin.html",
+      "ignore": [
+        "src"
+      ]
+    },
+    "exclude": "QUALITY-2: single admin page"
+  },
+  {
+    "slug": "miminium",
+    "title": "Miminium",
+    "description": "Bootstrap 3 admin with 46 pages: dashboards, UI, forms, tables, charts, mail, calendar and auth.",
+    "repo": "akivaron/miminium",
+    "sha": "a3e669fd333c7097d8183da40b17fd6c59799fa5",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Isna Nur Azis",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap3",
+      "jquery",
+      "charts"
+    ],
+    "demoUrl": "http://akivaron.github.io/miminium/",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html",
+      "ignore": [
+        "asset/js/plugins/ckeditor/samples"
+      ]
+    },
+    "exclude": "CHECK-FAIL: 63/76 pages ok; Bootstrap 3, discontinued by author"
+  },
+  {
+    "slug": "papercss-admin",
+    "title": "PaperCSS Admin",
+    "description": "Hand-drawn PaperCSS admin with 5 pages.",
+    "repo": "mazipan/papercss-admin-dashboard-template",
+    "sha": "3a77571002cd65afccd9afb64c5baf83cee593f9",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Irfan Maulana",
+    "framework": "html",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "papercss",
+      "hand-drawn"
+    ],
+    "demoUrl": "https://mazipan.github.io/papercss-admin-dashboard-template/",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "QUALITY-2: archived 5-page PaperCSS demo"
+  },
+  {
+    "slug": "polished",
+    "title": "Polished",
+    "description": "Bootstrap 4 admin kit: store dashboard, charts, widgets, forms, buttons, tables, colors, typography, 1/2-column layouts.",
+    "repo": "azamuddin/polished-template",
+    "sha": "05629a3969cd40854a87098ed064a6455367a625",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Muhammad Azamuddin",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "style-guide"
+    ],
+    "demoUrl": "https://azamuddin.github.io/polished-template",
+    "quality": 3,
+    "site": {
+      "kind": "static",
+      "root": "docs",
+      "entry": "home.html"
+    }
+  },
+  {
+    "slug": "ready-bootstrap-dashboard",
+    "title": "Ready Dashboard",
+    "description": "Bootstrap 4 dashboard with 7 pages.",
+    "repo": "themekita/Ready-Bootstrap-Dashboard",
+    "sha": "184dfa97d07e2cb9530b5ec9cf390d5e91c9ed06",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "ThemeKita",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery"
+    ],
+    "demoUrl": "http://themekita.com/demo-ready-bootstrap/",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "examples/index.html"
+    },
+    "exclude": "CHECK-FAIL: script error on the entry page (6/7 ok); 2018 Bootstrap 4, 7 pages"
+  },
+  {
+    "slug": "startmin",
+    "title": "Startmin",
+    "description": "Bootstrap 3 SB Admin 2 derivative: dashboard, charts, tables, forms, UI elements and auth.",
+    "repo": "secondtruth/startmin",
+    "sha": "d1778e71353eb815f66515e8324d950b97a2b0ab",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Christian Neff",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap3",
+      "jquery",
+      "morris"
+    ],
+    "demoUrl": "http://secondtruth.github.io/startmin",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "pages/index.html"
+    },
+    "exclude": "QUALITY-2: dated Bootstrap 3 clone of SB Admin 2"
+  },
+  {
+    "slug": "tailwind-admin-habibmhamadi",
+    "title": "Tailwind Admin (habibmhamadi)",
+    "description": "Single-page Tailwind + Alpine.js admin starter.",
+    "repo": "habibmhamadi/tailwind-admin",
+    "sha": "c0fab989dca0a30c22273b5fc64ea12215e6c143",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Habib Mhamadi",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "alpinejs",
+      "single-page"
+    ],
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "QUALITY-2: single-page starter"
+  },
+  {
+    "slug": "tailwindtoolbox-admin",
+    "title": "Tailwind Toolbox Admin",
+    "description": "Single-page Tailwind admin template.",
+    "repo": "tailwindtoolbox/Admin-Template",
+    "sha": "317bdb9ca0e175bd86d24cd4bad5459442be3aa2",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tailwind Toolbox",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "single-page"
+    ],
+    "demoUrl": "https://tailwindtoolbox.github.io/Admin-Template",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "QUALITY-2: single page"
+  },
+  {
+    "slug": "tailwindtoolbox-admin-day",
+    "title": "Tailwind Toolbox Admin Day",
+    "description": "Single-page light Tailwind admin template.",
+    "repo": "tailwindtoolbox/Admin-Template-Day",
+    "sha": "1c8d8138b36c04fa8969667240a60b5fb9b7744d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tailwind Toolbox",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "single-page"
+    ],
+    "demoUrl": "https://tailwindtoolbox.github.io/Admin-Template-Day",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "QUALITY-2: single page"
+  },
+  {
+    "slug": "tailwindtoolbox-admin-night",
+    "title": "Tailwind Toolbox Admin Night",
+    "description": "Single-page dark Tailwind admin template.",
+    "repo": "tailwindtoolbox/Admin-Template-Night",
+    "sha": "125f0ff0d5d20f15ffe2e829bdc1c8a7c413c2e8",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tailwind Toolbox",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "single-page",
+      "dark"
+    ],
+    "demoUrl": "https://tailwindtoolbox.github.io/Admin-Template-Night",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "QUALITY-2: single page"
+  },
+  {
+    "slug": "tailwindtoolbox-minimal-admin",
+    "title": "Tailwind Toolbox Minimal Admin",
+    "description": "Single-page minimal Tailwind admin template.",
+    "repo": "tailwindtoolbox/Minimal-Admin-Template",
+    "sha": "ee686c3e9c8b8f95f636ccb2df76328849865682",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tailwind Toolbox",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "single-page"
+    ],
+    "demoUrl": "https://tailwindtoolbox.github.io/Minimal-Admin-Template/",
+    "quality": 2,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "index.html"
+    },
+    "exclude": "QUALITY-2: single page"
+  },
+  {
+    "slug": "mdash-materialize",
+    "title": "mDash",
+    "description": "Single Materialize dashboard page.",
+    "repo": "piedcipher/mDash",
+    "sha": "e900289a6424c2e1a3ed031404afa7aa2eddb3a8",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tirth Patel",
+    "framework": "html",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "materialize",
+      "single-page"
+    ],
+    "quality": 1,
+    "site": {
+      "kind": "static",
+      "root": ".",
+      "entry": "Dashboard.html"
+    },
+    "exclude": "QUALITY-1: single Materialize page (2017)"
+  }
+]

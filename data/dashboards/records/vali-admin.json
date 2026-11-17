@@ -1,0 +1,111 @@
+{
+  "record": {
+    "slug": "vali-admin",
+    "title": "Vali Admin",
+    "description": "Bootstrap 5 admin: dashboard, UI cards, widgets, forms, tables, mailbox, invoice, user, lockscreen and login pages.",
+    "repo": "pratikborsadiya/vali-admin",
+    "sha": "7130e93e650206d627cbe762ea0827cf592f3b83",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/pratikborsadiya/vali-admin/blob/7130e93e650206d627cbe762ea0827cf592f3b83/LICENSE"
+    },
+    "author": "Pratik Borsadiya",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "charts",
+      "datatables"
+    ],
+    "demoUrl": "https://pratikborsadiya.in/vali-admin/",
+    "quality": 3,
+    "entry": "dashboard.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard.html",
+        "title": "Vali Admin - Free Bootstrap 5 Admin Template"
+      },
+      {
+        "path": "blank-page.html",
+        "title": "Blank Page - Vali Admin"
+      },
+      {
+        "path": "bootstrap-components.html",
+        "title": "Bootstrap Elements - Vali Admin"
+      },
+      {
+        "path": "docs.html",
+        "title": "Documentation - Vali Admin"
+      },
+      {
+        "path": "form-components.html",
+        "title": "Form Components - Vali Admin"
+      },
+      {
+        "path": "form-samples.html",
+        "title": "Form Samples - Vali Admin"
+      },
+      {
+        "path": "index.html",
+        "title": "Vali Admin - Free Bootstrap 5 Dashboard Template"
+      },
+      {
+        "path": "page-error.html",
+        "title": "Error Page - Vali Admin"
+      },
+      {
+        "path": "page-invoice.html",
+        "title": "Invoice - Vali Admin"
+      },
+      {
+        "path": "page-lockscreen.html",
+        "title": "Lockscreen - Vali Admin"
+      },
+      {
+        "path": "page-login.html",
+        "title": "Login - Vali Admin"
+      },
+      {
+        "path": "page-mailbox.html",
+        "title": "Mailbox - Vali Admin"
+      },
+      {
+        "path": "page-user.html",
+        "title": "User Profile - Vali Admin"
+      },
+      {
+        "path": "table-basic.html",
+        "title": "Basic Tables - Vali Admin"
+      },
+      {
+        "path": "table-data-table.html",
+        "title": "Data Table - Vali Admin"
+      },
+      {
+        "path": "ui-cards.html",
+        "title": "Cards - Vali Admin"
+      },
+      {
+        "path": "widgets.html",
+        "title": "Widgets - Vali Admin"
+      }
+    ],
+    "storedBytes": 276910,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:25.352Z"
+  },
+  "serve": {
+    "slug": "vali-admin",
+    "kind": "static",
+    "entry": "dashboard.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/pratikborsadiya/vali-admin@7130e93e650206d627cbe762ea0827cf592f3b83/",
+    "cdnRoot": "docs",
+    "cdnMap": null
+  }
+}

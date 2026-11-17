@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-11-10T17:44:00.643Z",
+  "pagesChecked": 13,
+  "pagesOk": 13,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "html/index.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/blank.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/cards.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/chartjs.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/content.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/forms.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/icons.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/login.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/signup.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/stats.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/tables.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/typography.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    },
+    {
+      "path": "html/userinterface.html",
+      "title": "Spur - A Bootstrap Admin Template"
+    }
+  ]
+}

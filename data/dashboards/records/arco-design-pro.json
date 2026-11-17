@@ -1,0 +1,283 @@
+{
+  "record": {
+    "slug": "arco-design-pro",
+    "title": "Arco Design Pro",
+    "description": "ByteDance's Arco enterprise admin (Next.js build): workplace and monitor dashboards, data analysis, search table, cards, forms, profile and results.",
+    "repo": "arco-design/arco-design-pro",
+    "sha": "bb6aebcceca6b294b438be4c13dc7328ee80d70b",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/arco-design/arco-design-pro/blob/bb6aebcceca6b294b438be4c13dc7328ee80d70b/LICENSE"
+    },
+    "author": "ArcoDesign (ByteDance)",
+    "framework": "next",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "arco-design",
+      "pages-router",
+      "bizcharts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://pro.arco.design",
+    "quality": 4,
+    "entry": "dashboard/workplace/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard/workplace/index.html",
+        "title": "Workplace"
+      },
+      {
+        "path": "404.html/index.html",
+        "title": "404"
+      },
+      {
+        "path": "404/index.html",
+        "title": "404"
+      },
+      {
+        "path": "dashboard/monitor/chat-panel/index.html",
+        "title": "Chat Panel"
+      },
+      {
+        "path": "dashboard/monitor/data-statistic-list/index.html",
+        "title": "Data Statistic List"
+      },
+      {
+        "path": "dashboard/monitor/data-statistic/index.html",
+        "title": "Data Statistic"
+      },
+      {
+        "path": "dashboard/monitor/index.html",
+        "title": "Monitor"
+      },
+      {
+        "path": "dashboard/monitor/message-list/index.html",
+        "title": "Message List"
+      },
+      {
+        "path": "dashboard/monitor/message-list/item/index.html",
+        "title": "Item"
+      },
+      {
+        "path": "dashboard/monitor/quick-operation/index.html",
+        "title": "Quick Operation"
+      },
+      {
+        "path": "dashboard/monitor/studio-information/index.html",
+        "title": "Studio Information"
+      },
+      {
+        "path": "dashboard/monitor/studio-status/index.html",
+        "title": "Studio Status"
+      },
+      {
+        "path": "dashboard/monitor/studio/index.html",
+        "title": "Studio"
+      },
+      {
+        "path": "dashboard/workplace/announcement/index.html",
+        "title": "Announcement"
+      },
+      {
+        "path": "dashboard/workplace/carousel/index.html",
+        "title": "Carousel"
+      },
+      {
+        "path": "dashboard/workplace/content-percentage/index.html",
+        "title": "Content Percentage"
+      },
+      {
+        "path": "dashboard/workplace/docs/index.html",
+        "title": "Docs"
+      },
+      {
+        "path": "dashboard/workplace/overview/index.html",
+        "title": "Overview"
+      },
+      {
+        "path": "dashboard/workplace/popular-contents/index.html",
+        "title": "Popular Contents"
+      },
+      {
+        "path": "dashboard/workplace/shortcuts/index.html",
+        "title": "Shortcuts"
+      },
+      {
+        "path": "exception/403/index.html",
+        "title": "403"
+      },
+      {
+        "path": "exception/404/index.html",
+        "title": "404"
+      },
+      {
+        "path": "exception/500/index.html",
+        "title": "500"
+      },
+      {
+        "path": "form/group/index.html",
+        "title": "Group"
+      },
+      {
+        "path": "form/step/index.html",
+        "title": "Step"
+      },
+      {
+        "path": "index.html",
+        "title": "Index"
+      },
+      {
+        "path": "layout/index.html",
+        "title": "Layout"
+      },
+      {
+        "path": "list/card/card-add/index.html",
+        "title": "Card Add"
+      },
+      {
+        "path": "list/card/card-block/index.html",
+        "title": "Card Block"
+      },
+      {
+        "path": "list/card/index.html",
+        "title": "Card"
+      },
+      {
+        "path": "list/search-table/constants/index.html",
+        "title": "Constants"
+      },
+      {
+        "path": "list/search-table/form/index.html",
+        "title": "Form"
+      },
+      {
+        "path": "list/search-table/index.html",
+        "title": "Search Table"
+      },
+      {
+        "path": "login/banner/index.html",
+        "title": "Banner"
+      },
+      {
+        "path": "login/form/index.html",
+        "title": "Form"
+      },
+      {
+        "path": "login/index.html",
+        "title": "Login"
+      },
+      {
+        "path": "profile/basic/index.html",
+        "title": "Basic"
+      },
+      {
+        "path": "profile/basic/item/index.html",
+        "title": "Item"
+      },
+      {
+        "path": "result/error/index.html",
+        "title": "Error"
+      },
+      {
+        "path": "result/success/index.html",
+        "title": "Success"
+      },
+      {
+        "path": "user/info/blocks/project/index.html",
+        "title": "Project"
+      },
+      {
+        "path": "user/info/header/index.html",
+        "title": "Header"
+      },
+      {
+        "path": "user/info/index.html",
+        "title": "Info"
+      },
+      {
+        "path": "user/info/latest-news/index.html",
+        "title": "Latest News"
+      },
+      {
+        "path": "user/info/my-projects/index.html",
+        "title": "My Projects"
+      },
+      {
+        "path": "user/info/my-team/index.html",
+        "title": "My Team"
+      },
+      {
+        "path": "user/setting/header/index.html",
+        "title": "Header"
+      },
+      {
+        "path": "user/setting/index.html",
+        "title": "Setting"
+      },
+      {
+        "path": "user/setting/info/index.html",
+        "title": "Info"
+      },
+      {
+        "path": "user/setting/security/index.html",
+        "title": "Security"
+      },
+      {
+        "path": "user/setting/verified/index.html",
+        "title": "Verified"
+      },
+      {
+        "path": "visualization/data-analysis/index.html",
+        "title": "Data Analysis"
+      },
+      {
+        "path": "visualization/data-analysis/public-opinion/card/index.html",
+        "title": "Card"
+      },
+      {
+        "path": "visualization/data-analysis/public-opinion/index.html",
+        "title": "Public Opinion"
+      },
+      {
+        "path": "visualization/multi-dimension-data-analysis/card-list/index.html",
+        "title": "Card List"
+      },
+      {
+        "path": "visualization/multi-dimension-data-analysis/data-overview/index.html",
+        "title": "Data Overview"
+      },
+      {
+        "path": "visualization/multi-dimension-data-analysis/index.html",
+        "title": "Multi Dimension Data Analysis"
+      },
+      {
+        "path": "welcome/code-block/index.html",
+        "title": "Code Block"
+      },
+      {
+        "path": "welcome/index.html",
+        "title": "Welcome"
+      }
+    ],
+    "storedBytes": 7273690,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:09:32.373Z"
+  },
+  "serve": {
+    "slug": "arco-design-pro",
+    "kind": "build",
+    "entry": "dashboard/workplace/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/arco-design/arco-design-pro@bb6aebcceca6b294b438be4c13dc7328ee80d70b/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "_next/static/media/header-banner.953fc7b8.png": "arco-design-pro-next/src/pages/user/info/assets/header-banner.png"
+    }
+  }
+}

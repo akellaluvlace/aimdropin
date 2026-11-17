@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T19:07:59.149Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Next.js"
+    },
+    {
+      "path": "404.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "accounts.html",
+      "title": "Next.js"
+    },
+    {
+      "path": "login.html",
+      "title": "Next.js"
+    },
+    {
+      "path": "register.html",
+      "title": "Next.js"
+    },
+    {
+      "path": "",
+      "title": "Next.js"
+    },
+    {
+      "path": "accounts",
+      "title": "Next.js"
+    },
+    {
+      "path": "register",
+      "title": "Next.js"
+    },
+    {
+      "path": "login",
+      "title": "Next.js"
+    }
+  ]
+}

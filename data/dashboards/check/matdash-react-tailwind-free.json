@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-11-10T17:36:05.115Z",
+  "pagesChecked": 7,
+  "pagesOk": 7,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Matdash - ReactJS Tailwind"
+    },
+    {
+      "path": "ui/typography",
+      "title": "Ui / Typography"
+    },
+    {
+      "path": "ui/table",
+      "title": "Ui / Table"
+    },
+    {
+      "path": "ui/form",
+      "title": "Ui / Form"
+    },
+    {
+      "path": "ui/alert",
+      "title": "Ui / Alert"
+    },
+    {
+      "path": "auth/login",
+      "title": "Auth / Login"
+    },
+    {
+      "path": "auth/register",
+      "title": "Auth / Register"
+    }
+  ]
+}

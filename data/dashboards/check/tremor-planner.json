@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-10T18:11:49.511Z",
+  "pagesChecked": 11,
+  "pagesOk": 11,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "quotes/overview/index.html",
+      "title": "Planner"
+    },
+    {
+      "path": "404.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "404/index.html",
+      "title": "404: This page could not be found."
+    },
+    {
+      "path": "quotes/audits/index.html",
+      "title": "Planner"
+    },
+    {
+      "path": "quotes/monitoring/index.html",
+      "title": "Planner"
+    },
+    {
+      "path": "quotes/overview/",
+      "title": "Planner"
+    },
+    {
+      "path": "quotes/monitoring/",
+      "title": "Planner"
+    },
+    {
+      "path": "quotes/audits/",
+      "title": "Planner"
+    },
+    {
+      "path": "quotes/overview",
+      "title": "Planner"
+    },
+    {
+      "path": "quotes/monitoring",
+      "title": "Planner"
+    },
+    {
+      "path": "quotes/audits",
+      "title": "Planner"
+    }
+  ]
+}

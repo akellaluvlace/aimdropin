@@ -1,0 +1,50 @@
+{
+  "record": {
+    "slug": "admin-one-vue",
+    "title": "Admin One Vue",
+    "description": "Tailwind Vue 3 admin with dashboard, tables, forms, UI elements, profile, style switcher and dark mode.",
+    "repo": "justboil/admin-one-vue-tailwind",
+    "sha": "8a1c411b62c2fd01b7bd81feed7f4e36c46047e7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/justboil/admin-one-vue-tailwind/blob/8a1c411b62c2fd01b7bd81feed7f4e36c46047e7/LICENSE"
+    },
+    "author": "JustBoil.me",
+    "framework": "vue",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "pinia",
+      "dark-mode"
+    ],
+    "demoUrl": "https://justboil.github.io/admin-one-vue-tailwind/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Admin One Vue"
+      }
+    ],
+    "storedBytes": 483890,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:38.877Z"
+  },
+  "serve": {
+    "slug": "admin-one-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/justboil/admin-one-vue-tailwind@8a1c411b62c2fd01b7bd81feed7f4e36c46047e7/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.png": "public/favicon.png"
+    }
+  }
+}

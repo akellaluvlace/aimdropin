@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "name": "x-head-grey",
+      "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+      "input": {
+        "prompt": "High-end catalogue product photograph of the head of a mechanical wristwatch with no strap attached, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion, 12 o'clock at the top. A 39 mm round case in finely brushed stainless steel with a thin polished bezel, short straight lugs with a slim steel spring bar visible between each pair of lugs, and a small fluted crown at 3 o'clock. Dial: clean silver-white with a fine sunray finish, twelve slim polished applied baton hour markers (a double baton at 12), a delicate printed minute track at the very edge, no numerals, no date window, no text and no logo anywhere on the dial. The watch has no hands: the hour, minute and seconds hands have been removed, leaving only a small polished centre post in the exact middle of the dial. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the steel, a clear sapphire crystal with no glare and no reflections of the room. Background: plain flat mid-grey seamless (hex 8C8C8C), evenly lit, no shadow under the watch. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail. No text, no watermark, no border.",
+        "image_size": { "width": 2048, "height": 2048 },
+        "quality": "high",
+        "output_format": "png",
+        "background": "opaque",
+        "num_images": 2
+      }
+    },
+    {
+      "name": "x-head-clear",
+      "endpoint": "openai/gpt-image-2.6/sunburst/text-to-image",
+      "input": {
+        "prompt": "High-end catalogue product photograph of the head of a mechanical wristwatch with no strap attached, photographed from directly above, perfectly face-on and centred in the frame, orthographic view with no perspective distortion, 12 o'clock at the top. A 39 mm round case in finely brushed stainless steel with a thin polished bezel, short straight lugs with a slim steel spring bar visible between each pair of lugs, and a small fluted crown at 3 o'clock. Dial: clean silver-white with a fine sunray finish, twelve slim polished applied baton hour markers (a double baton at 12), a delicate printed minute track at the very edge, no numerals, no date window, no text and no logo anywhere on the dial. The watch has no hands: the hour, minute and seconds hands have been removed, leaving only a small polished centre post in the exact middle of the dial. Lighting: one large overhead softbox, soft even light, gentle gradient reflections on the steel, a clear sapphire crystal with no glare and no reflections of the room. Isolated on a transparent background with no shadow. Focus stacked, razor sharp from edge to edge, true-to-life materials and fine machining detail. No text, no watermark, no border.",
+        "image_size": { "width": 2048, "height": 2048 },
+        "quality": "high",
+        "output_format": "png",
+        "background": "transparent",
+        "num_images": 1
+      }
+    }
+  ]
+}

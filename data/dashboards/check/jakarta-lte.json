@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-10T17:33:13.616Z",
+  "pagesChecked": 5,
+  "pagesOk": 5,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "pages/index.html",
+      "title": "Jakarta LTE - Free and Open Source Premium Admin Templates with rich UI Kit base on Tailwind CSS"
+    },
+    {
+      "path": "index.html",
+      "title": "Jakarta LTE - Free and Open Source Premium Admin Templates with rich UI Kit base on Tailwind CSS"
+    },
+    {
+      "path": "pages/button.html",
+      "title": "Jakarta LTE - Free and Open Source Premium Admin Templates with rich UI Kit base on Tailwind CSS"
+    },
+    {
+      "path": "pages/card.html",
+      "title": "Jakarta LTE - Free and Open Source Premium Admin Templates with rich UI Kit base on Tailwind CSS"
+    },
+    {
+      "path": "pages/form.html",
+      "title": "Jakarta LTE - Free and Open Source Premium Admin Templates with rich UI Kit base on Tailwind CSS"
+    }
+  ]
+}

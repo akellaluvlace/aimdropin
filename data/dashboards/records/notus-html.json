@@ -1,0 +1,75 @@
+{
+  "record": {
+    "slug": "notus-html",
+    "title": "Notus JS",
+    "description": "Tailwind CSS UI kit with admin pages: dashboard, settings, tables, login, register, landing and profile.",
+    "repo": "creativetimofficial/notus-js",
+    "sha": "e3ca2299dd2caab1ef37b420d2209c3b9c3fca5e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/notus-js/blob/e3ca2299dd2caab1ef37b420d2209c3b9c3fca5e/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "html",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "tailwind",
+      "ui-kit",
+      "landing"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/notus-js/",
+    "quality": 3,
+    "entry": "pages/admin/dashboard.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "pages/admin/dashboard.html",
+        "title": "Dashboard | Notus Tailwind JS by Creative Tim"
+      },
+      {
+        "path": "index.html",
+        "title": "Index | Notus Tailwind JS by Creative Tim"
+      },
+      {
+        "path": "pages/admin/settings.html",
+        "title": "Settings | Notus Tailwind JS by Creative Tim"
+      },
+      {
+        "path": "pages/admin/tables.html",
+        "title": "Tables | Notus Tailwind JS by Creative Tim"
+      },
+      {
+        "path": "pages/auth/login.html",
+        "title": "Login | Notus Tailwind JS by Creative Tim"
+      },
+      {
+        "path": "pages/auth/register.html",
+        "title": "Register | Notus Tailwind JS by Creative Tim"
+      },
+      {
+        "path": "pages/landing.html",
+        "title": "Landing | Notus Tailwind JS by Creative Tim"
+      },
+      {
+        "path": "pages/profile.html",
+        "title": "Profile | Notus Tailwind JS by Creative Tim"
+      }
+    ],
+    "storedBytes": 2162330,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:24.239Z"
+  },
+  "serve": {
+    "slug": "notus-html",
+    "kind": "static",
+    "entry": "pages/admin/dashboard.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/notus-js@e3ca2299dd2caab1ef37b420d2209c3b9c3fca5e/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

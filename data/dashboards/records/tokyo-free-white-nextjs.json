@@ -1,0 +1,242 @@
+{
+  "record": {
+    "slug": "tokyo-free-white-nextjs",
+    "title": "Tokyo Free White Next.js",
+    "description": "MUI 5 admin on the Next.js pages router: crypto dashboard, messenger, transactions, profile and settings, component and status pages.",
+    "repo": "bloomui/tokyo-free-white-nextjs-admin-dashboard",
+    "sha": "b8fa38e3e354206988ddf56db7d167ff11b06aff",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/bloomui/tokyo-free-white-nextjs-admin-dashboard/blob/b8fa38e3e354206988ddf56db7d167ff11b06aff/LICENSE"
+    },
+    "author": "BloomUI",
+    "framework": "next",
+    "ui": "mui",
+    "category": "Finance",
+    "tags": [
+      "material-ui",
+      "pages-router",
+      "apexcharts",
+      "crypto"
+    ],
+    "demoUrl": "https://bloomui.com/product/tokyo-free-white-nextjs-typescript-material-ui-admin-dashboard/",
+    "quality": 4,
+    "entry": "dashboards/crypto/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboards/crypto/index.html",
+        "title": "Crypto Dashboard"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Status - 404"
+      },
+      {
+        "path": "applications/messenger/index.html",
+        "title": "Messenger - Applications"
+      },
+      {
+        "path": "components/accordions/index.html",
+        "title": "Accordions - Components"
+      },
+      {
+        "path": "components/avatars/index.html",
+        "title": "Avatars - Components"
+      },
+      {
+        "path": "components/badges/index.html",
+        "title": "Badges - Components"
+      },
+      {
+        "path": "components/buttons/index.html",
+        "title": "Buttons - Components"
+      },
+      {
+        "path": "components/cards/index.html",
+        "title": "Cards - Components"
+      },
+      {
+        "path": "components/forms/index.html",
+        "title": "Forms - Components"
+      },
+      {
+        "path": "components/modals/index.html",
+        "title": "Modals - Components"
+      },
+      {
+        "path": "components/tabs/index.html",
+        "title": "Tabs - Components"
+      },
+      {
+        "path": "components/tooltips/index.html",
+        "title": "Tooltips - Components"
+      },
+      {
+        "path": "index.html",
+        "title": "Tokyo Free White NextJS Typescript Admin Dashboard"
+      },
+      {
+        "path": "management/profile/index.html",
+        "title": "User Details - Management"
+      },
+      {
+        "path": "management/profile/settings/index.html",
+        "title": "User Settings - Applications"
+      },
+      {
+        "path": "management/transactions/index.html",
+        "title": "Transactions - Applications"
+      },
+      {
+        "path": "status/500/index.html",
+        "title": "Status - 500"
+      },
+      {
+        "path": "status/coming-soon/index.html",
+        "title": "Status - Coming Soon"
+      },
+      {
+        "path": "status/maintenance/index.html",
+        "title": "Status - Maintenance"
+      }
+    ],
+    "storedBytes": 3581269,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:10:39.590Z"
+  },
+  "serve": {
+    "slug": "tokyo-free-white-nextjs",
+    "kind": "build",
+    "entry": "dashboards/crypto/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/bloomui/tokyo-free-white-nextjs-admin-dashboard@b8fa38e3e354206988ddf56db7d167ff11b06aff/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "_redirects": "public/_redirects",
+      "favicon.ico": "public/favicon.ico",
+      "icon-192x192.png": "public/icon-192x192.png",
+      "icon-256x256.png": "public/icon-256x256.png",
+      "icon-384x384.png": "public/icon-384x384.png",
+      "icon-512x512.png": "public/icon-512x512.png",
+      "manifest.json": "public/manifest.json",
+      "robots.txt": "public/robots.txt",
+      "static/images/avatars/1.jpg": "public/static/images/avatars/1.jpg",
+      "static/images/avatars/2.jpg": "public/static/images/avatars/2.jpg",
+      "static/images/avatars/3.jpg": "public/static/images/avatars/3.jpg",
+      "static/images/avatars/4.jpg": "public/static/images/avatars/4.jpg",
+      "static/images/avatars/5.jpg": "public/static/images/avatars/5.jpg",
+      "static/images/logo/google.svg": "public/static/images/logo/google.svg",
+      "static/images/logo/material-ui.svg": "public/static/images/logo/material-ui.svg",
+      "static/images/logo/next-js.svg": "public/static/images/logo/next-js.svg",
+      "static/images/logo/typescript.svg": "public/static/images/logo/typescript.svg",
+      "static/images/overview/accent_header.png": "public/static/images/overview/accent_header.png",
+      "static/images/overview/accent_sidebar.png": "public/static/images/overview/accent_sidebar.png",
+      "static/images/overview/bottom_navigation.png": "public/static/images/overview/bottom_navigation.png",
+      "static/images/overview/boxed_sidebar.png": "public/static/images/overview/boxed_sidebar.png",
+      "static/images/overview/collapsed_sidebar.png": "public/static/images/overview/collapsed_sidebar.png",
+      "static/images/overview/extended_sidebar.png": "public/static/images/overview/extended_sidebar.png",
+      "static/images/overview/figma.svg": "public/static/images/overview/figma.svg",
+      "static/images/overview/hero-screenshot.png": "public/static/images/overview/hero-screenshot.png",
+      "static/images/overview/management_screen_1.png": "public/static/images/overview/management_screen_1.png",
+      "static/images/overview/management_screen_2.png": "public/static/images/overview/management_screen_2.png",
+      "static/images/overview/management_screen_3.png": "public/static/images/overview/management_screen_3.png",
+      "static/images/overview/performance.png": "public/static/images/overview/performance.png",
+      "static/images/overview/rtl-preview.jpg": "public/static/images/overview/rtl-preview.jpg",
+      "static/images/overview/sketch.svg": "public/static/images/overview/sketch.svg",
+      "static/images/overview/tokyo-logo.png": "public/static/images/overview/tokyo-logo.png",
+      "static/images/overview/top_navigation.png": "public/static/images/overview/top_navigation.png",
+      "static/images/placeholders/covers/1.jpg": "public/static/images/placeholders/covers/1.jpg",
+      "static/images/placeholders/covers/2.jpg": "public/static/images/placeholders/covers/2.jpg",
+      "static/images/placeholders/covers/3.jpg": "public/static/images/placeholders/covers/3.jpg",
+      "static/images/placeholders/covers/4.jpg": "public/static/images/placeholders/covers/4.jpg",
+      "static/images/placeholders/covers/5.jpg": "public/static/images/placeholders/covers/5.jpg",
+      "static/images/placeholders/covers/6.jpg": "public/static/images/placeholders/covers/6.jpg",
+      "static/images/placeholders/covers/7.jpg": "public/static/images/placeholders/covers/7.jpg",
+      "static/images/placeholders/covers/automation-bg.jpg": "public/static/images/placeholders/covers/automation-bg.jpg",
+      "static/images/placeholders/covers/garden_camera.jpg": "public/static/images/placeholders/covers/garden_camera.jpg",
+      "static/images/placeholders/fitness/1.jpg": "public/static/images/placeholders/fitness/1.jpg",
+      "static/images/placeholders/fitness/2.jpg": "public/static/images/placeholders/fitness/2.jpg",
+      "static/images/placeholders/fitness/3.jpg": "public/static/images/placeholders/fitness/3.jpg",
+      "static/images/placeholders/fitness/4.jpg": "public/static/images/placeholders/fitness/4.jpg",
+      "static/images/placeholders/illustrations/1.svg": "public/static/images/placeholders/illustrations/1.svg",
+      "static/images/placeholders/illustrations/2.png": "public/static/images/placeholders/illustrations/2.png",
+      "static/images/placeholders/illustrations/3.svg": "public/static/images/placeholders/illustrations/3.svg",
+      "static/images/placeholders/illustrations/4.svg": "public/static/images/placeholders/illustrations/4.svg",
+      "static/images/placeholders/illustrations/5.svg": "public/static/images/placeholders/illustrations/5.svg",
+      "static/images/placeholders/illustrations/6.png": "public/static/images/placeholders/illustrations/6.png",
+      "static/images/placeholders/illustrations/analysis.svg": "public/static/images/placeholders/illustrations/analysis.svg",
+      "static/images/placeholders/illustrations/authentication.svg": "public/static/images/placeholders/illustrations/authentication.svg",
+      "static/images/placeholders/illustrations/businessman.svg": "public/static/images/placeholders/illustrations/businessman.svg",
+      "static/images/placeholders/illustrations/handshake.svg": "public/static/images/placeholders/illustrations/handshake.svg",
+      "static/images/placeholders/illustrations/moving.svg": "public/static/images/placeholders/illustrations/moving.svg",
+      "static/images/placeholders/illustrations/partly-cloudy-day-rain.svg": "public/static/images/placeholders/illustrations/partly-cloudy-day-rain.svg",
+      "static/images/placeholders/illustrations/pressure-high.svg": "public/static/images/placeholders/illustrations/pressure-high.svg",
+      "static/images/placeholders/illustrations/security.svg": "public/static/images/placeholders/illustrations/security.svg",
+      "static/images/placeholders/illustrations/time.svg": "public/static/images/placeholders/illustrations/time.svg",
+      "static/images/placeholders/illustrations/wireframe.svg": "public/static/images/placeholders/illustrations/wireframe.svg",
+      "static/images/placeholders/logo/adobe.jpg": "public/static/images/placeholders/logo/adobe.jpg",
+      "static/images/placeholders/logo/airbnb-icon.svg": "public/static/images/placeholders/logo/airbnb-icon.svg",
+      "static/images/placeholders/logo/airbnb.svg": "public/static/images/placeholders/logo/airbnb.svg",
+      "static/images/placeholders/logo/autodesk.jpg": "public/static/images/placeholders/logo/autodesk.jpg",
+      "static/images/placeholders/logo/bankofamerica.svg": "public/static/images/placeholders/logo/bankofamerica.svg",
+      "static/images/placeholders/logo/bitcoin.png": "public/static/images/placeholders/logo/bitcoin.png",
+      "static/images/placeholders/logo/cardano.png": "public/static/images/placeholders/logo/cardano.png",
+      "static/images/placeholders/logo/coinbase.svg": "public/static/images/placeholders/logo/coinbase.svg",
+      "static/images/placeholders/logo/deutschebank.svg": "public/static/images/placeholders/logo/deutschebank.svg",
+      "static/images/placeholders/logo/deutschebank_light.svg": "public/static/images/placeholders/logo/deutschebank_light.svg",
+      "static/images/placeholders/logo/discord-icon.svg": "public/static/images/placeholders/logo/discord-icon.svg",
+      "static/images/placeholders/logo/discord.svg": "public/static/images/placeholders/logo/discord.svg",
+      "static/images/placeholders/logo/dribbble-icon.svg": "public/static/images/placeholders/logo/dribbble-icon.svg",
+      "static/images/placeholders/logo/ea.jpg": "public/static/images/placeholders/logo/ea.jpg",
+      "static/images/placeholders/logo/ethereum.png": "public/static/images/placeholders/logo/ethereum.png",
+      "static/images/placeholders/logo/facebook.svg": "public/static/images/placeholders/logo/facebook.svg",
+      "static/images/placeholders/logo/google-icon.svg": "public/static/images/placeholders/logo/google-icon.svg",
+      "static/images/placeholders/logo/google-logo.jpg": "public/static/images/placeholders/logo/google-logo.jpg",
+      "static/images/placeholders/logo/google.svg": "public/static/images/placeholders/logo/google.svg",
+      "static/images/placeholders/logo/hp.jpg": "public/static/images/placeholders/logo/hp.jpg",
+      "static/images/placeholders/logo/ibm.jpg": "public/static/images/placeholders/logo/ibm.jpg",
+      "static/images/placeholders/logo/ing.jpg": "public/static/images/placeholders/logo/ing.jpg",
+      "static/images/placeholders/logo/instagram-icon.svg": "public/static/images/placeholders/logo/instagram-icon.svg",
+      "static/images/placeholders/logo/instagram.svg": "public/static/images/placeholders/logo/instagram.svg",
+      "static/images/placeholders/logo/mastercard.png": "public/static/images/placeholders/logo/mastercard.png",
+      "static/images/placeholders/logo/microsoft-icon.svg": "public/static/images/placeholders/logo/microsoft-icon.svg",
+      "static/images/placeholders/logo/microsoft.svg": "public/static/images/placeholders/logo/microsoft.svg",
+      "static/images/placeholders/logo/netflix-icon.svg": "public/static/images/placeholders/logo/netflix-icon.svg",
+      "static/images/placeholders/logo/netflix-logo.jpg": "public/static/images/placeholders/logo/netflix-logo.jpg",
+      "static/images/placeholders/logo/netflix.svg": "public/static/images/placeholders/logo/netflix.svg",
+      "static/images/placeholders/logo/oracle.jpg": "public/static/images/placeholders/logo/oracle.jpg",
+      "static/images/placeholders/logo/orange.jpg": "public/static/images/placeholders/logo/orange.jpg",
+      "static/images/placeholders/logo/pinterest-icon.svg": "public/static/images/placeholders/logo/pinterest-icon.svg",
+      "static/images/placeholders/logo/ripple.png": "public/static/images/placeholders/logo/ripple.png",
+      "static/images/placeholders/logo/slack-big.svg": "public/static/images/placeholders/logo/slack-big.svg",
+      "static/images/placeholders/logo/slack-icon.svg": "public/static/images/placeholders/logo/slack-icon.svg",
+      "static/images/placeholders/logo/slack.svg": "public/static/images/placeholders/logo/slack.svg",
+      "static/images/placeholders/logo/spotify copy.svg": "public/static/images/placeholders/logo/spotify copy.svg",
+      "static/images/placeholders/logo/spotify-icon.svg": "public/static/images/placeholders/logo/spotify-icon.svg",
+      "static/images/placeholders/logo/spotify.svg": "public/static/images/placeholders/logo/spotify.svg",
+      "static/images/placeholders/logo/stripe.svg": "public/static/images/placeholders/logo/stripe.svg",
+      "static/images/placeholders/logo/tesla.svg": "public/static/images/placeholders/logo/tesla.svg",
+      "static/images/placeholders/logo/uipath.jpg": "public/static/images/placeholders/logo/uipath.jpg",
+      "static/images/placeholders/logo/visa.png": "public/static/images/placeholders/logo/visa.png",
+      "static/images/placeholders/logo/wellsfargo.svg": "public/static/images/placeholders/logo/wellsfargo.svg",
+      "static/images/placeholders/products/1.png": "public/static/images/placeholders/products/1.png",
+      "static/images/placeholders/products/10.png": "public/static/images/placeholders/products/10.png",
+      "static/images/placeholders/products/2.png": "public/static/images/placeholders/products/2.png",
+      "static/images/placeholders/products/3.png": "public/static/images/placeholders/products/3.png",
+      "static/images/placeholders/products/4.png": "public/static/images/placeholders/products/4.png",
+      "static/images/placeholders/products/5.png": "public/static/images/placeholders/products/5.png",
+      "static/images/placeholders/products/6.png": "public/static/images/placeholders/products/6.png",
+      "static/images/placeholders/products/7.png": "public/static/images/placeholders/products/7.png",
+      "static/images/placeholders/products/8.png": "public/static/images/placeholders/products/8.png",
+      "static/images/placeholders/products/9.png": "public/static/images/placeholders/products/9.png",
+      "static/images/status/404.svg": "public/static/images/status/404.svg",
+      "static/images/status/500.svg": "public/static/images/status/500.svg",
+      "static/images/status/coming-soon.svg": "public/static/images/status/coming-soon.svg",
+      "static/images/status/maintenance.svg": "public/static/images/status/maintenance.svg"
+    }
+  }
+}

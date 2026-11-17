@@ -1,0 +1,53 @@
+{
+  "record": {
+    "slug": "shadcn-admin",
+    "title": "Shadcn Admin",
+    "description": "Admin dashboard with tasks, chats, users, settings and auth screens.",
+    "repo": "satnaing/shadcn-admin",
+    "sha": "e16c87f213a5ba5e45964e9b67c792105ec74d26",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/satnaing/shadcn-admin/blob/e16c87f213a5ba5e45964e9b67c792105ec74d26/LICENSE"
+    },
+    "author": "Sat Naing",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tanstack-router",
+      "dark-mode"
+    ],
+    "demoUrl": "https://shadcn-admin.netlify.app",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Shadcn Admin"
+      }
+    ],
+    "storedBytes": 2246528,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:36.690Z"
+  },
+  "serve": {
+    "slug": "shadcn-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/satnaing/shadcn-admin@e16c87f213a5ba5e45964e9b67c792105ec74d26/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/dashboard-dark-XXx_X8s4.png": "src/features/auth/sign-in/assets/dashboard-dark.png",
+      "assets/dashboard-light-P68E3aSp.png": "src/features/auth/sign-in/assets/dashboard-light.png",
+      "images/favicon.png": "public/images/favicon.png",
+      "images/favicon_light.png": "public/images/favicon_light.png",
+      "images/shadcn-admin.png": "public/images/shadcn-admin.png"
+    }
+  }
+}

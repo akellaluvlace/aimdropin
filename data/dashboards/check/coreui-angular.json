@@ -1,0 +1,226 @@
+{
+  "checkedAt": "2026-11-10T18:22:45.458Z",
+  "pagesChecked": 54,
+  "pagesOk": 50,
+  "failures": [
+    {
+      "path": "icons/coreui-icons",
+      "problem": "failed /demos/coreui-angular/assets/icons/free.svg#cil-3d · failed /demos/coreui-angular/assets/icons/free.svg#cil-4k · failed /demos/coreui-angular/assets/icons/free.svg#cil-account-logout"
+    },
+    {
+      "path": "icons/flags",
+      "problem": "failed /demos/coreui-angular/assets/icons/flag.svg#cif-ad · failed /demos/coreui-angular/assets/icons/flag.svg#cif-ae · failed /demos/coreui-angular/assets/icons/flag.svg#cif-af"
+    },
+    {
+      "path": "icons/brands",
+      "problem": "failed /demos/coreui-angular/assets/icons/brand.svg#cib-500px-5 · failed /demos/coreui-angular/assets/icons/brand.svg#cib-500px · failed /demos/coreui-angular/assets/icons/brand.svg#cib-about-me"
+    },
+    {
+      "path": "icons",
+      "problem": "failed /demos/coreui-angular/assets/icons/free.svg#cil-3d · failed /demos/coreui-angular/assets/icons/free.svg#cil-4k · failed /demos/coreui-angular/assets/icons/free.svg#cil-account-logout"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "CoreUI Angular Admin Template"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "charts",
+      "title": "Charts"
+    },
+    {
+      "path": "components/accordion",
+      "title": "Components / Accordion"
+    },
+    {
+      "path": "components/alerts",
+      "title": "Components / Alerts"
+    },
+    {
+      "path": "components/badge",
+      "title": "Components / Badge"
+    },
+    {
+      "path": "components/breadcrumb",
+      "title": "Components / Breadcrumb"
+    },
+    {
+      "path": "components/buttons",
+      "title": "Components / Buttons"
+    },
+    {
+      "path": "components/button-group",
+      "title": "Components / Button Group"
+    },
+    {
+      "path": "components/cards",
+      "title": "Components / Cards"
+    },
+    {
+      "path": "components/carousel",
+      "title": "Components / Carousel"
+    },
+    {
+      "path": "components/chip",
+      "title": "Components / Chip"
+    },
+    {
+      "path": "components/chip-set",
+      "title": "Components / Chip Set"
+    },
+    {
+      "path": "components/collapse",
+      "title": "Components / Collapse"
+    },
+    {
+      "path": "components/dropdowns",
+      "title": "Components / Dropdowns"
+    },
+    {
+      "path": "components/list-group",
+      "title": "Components / List Group"
+    },
+    {
+      "path": "components/modals",
+      "title": "Components / Modals"
+    },
+    {
+      "path": "components/navs-tabs",
+      "title": "Components / Navs Tabs"
+    },
+    {
+      "path": "components/pagination",
+      "title": "Components / Pagination"
+    },
+    {
+      "path": "components/placeholders",
+      "title": "Components / Placeholders"
+    },
+    {
+      "path": "components/popovers",
+      "title": "Components / Popovers"
+    },
+    {
+      "path": "components/progress",
+      "title": "Components / Progress"
+    },
+    {
+      "path": "components/search-button",
+      "title": "Components / Search Button"
+    },
+    {
+      "path": "components/spinners",
+      "title": "Components / Spinners"
+    },
+    {
+      "path": "components/tables",
+      "title": "Components / Tables"
+    },
+    {
+      "path": "components/tabs",
+      "title": "Components / Tabs"
+    },
+    {
+      "path": "components/toasts",
+      "title": "Components / Toasts"
+    },
+    {
+      "path": "components/tooltips",
+      "title": "Components / Tooltips"
+    },
+    {
+      "path": "forms/form-control",
+      "title": "Forms / Form Control"
+    },
+    {
+      "path": "forms/checks-radios",
+      "title": "Forms / Checks Radios"
+    },
+    {
+      "path": "forms/chip-input",
+      "title": "Forms / Chip Input"
+    },
+    {
+      "path": "forms/floating-labels",
+      "title": "Forms / Floating Labels"
+    },
+    {
+      "path": "forms/input-group",
+      "title": "Forms / Input Group"
+    },
+    {
+      "path": "forms/range",
+      "title": "Forms / Range"
+    },
+    {
+      "path": "forms/select",
+      "title": "Forms / Select"
+    },
+    {
+      "path": "forms/layout",
+      "title": "Forms / Layout"
+    },
+    {
+      "path": "forms/validation",
+      "title": "Forms / Validation"
+    },
+    {
+      "path": "widgets",
+      "title": "Widgets"
+    },
+    {
+      "path": "authentication/login",
+      "title": "Authentication / Login"
+    },
+    {
+      "path": "authentication/register",
+      "title": "Authentication / Register"
+    },
+    {
+      "path": "authentication/check-email",
+      "title": "Authentication / Check Email"
+    },
+    {
+      "path": "authentication/password/reset",
+      "title": "Authentication / Password / Reset"
+    },
+    {
+      "path": "authentication/password/change",
+      "title": "Authentication / Password / Change"
+    },
+    {
+      "path": "authentication/password/changed",
+      "title": "Authentication / Password / Changed"
+    },
+    {
+      "path": "error-pages/404",
+      "title": "Error Pages / 404"
+    },
+    {
+      "path": "error-pages/500",
+      "title": "Error Pages / 500"
+    },
+    {
+      "path": "apps/email/inbox",
+      "title": "Apps / Email / Inbox"
+    },
+    {
+      "path": "components",
+      "title": "Components"
+    },
+    {
+      "path": "components/alert",
+      "title": "Components / Alert"
+    },
+    {
+      "path": "forms",
+      "title": "Forms"
+    }
+  ]
+}

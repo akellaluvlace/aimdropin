@@ -1,0 +1,182 @@
+{
+  "record": {
+    "slug": "flowbite-admin-dashboard",
+    "title": "Flowbite Admin Dashboard",
+    "description": "Tailwind CSS 4 and Flowbite admin: dashboard, product and user CRUD, settings, pricing, auth, error and maintenance pages.",
+    "repo": "themesberg/flowbite-admin-dashboard",
+    "sha": "229df7ff25808ab2bbda65f03f2397a05f7b4288",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.46 (MIT). simple-datatables (LGPL-3.0) is loaded from jsDelivr, not bundled.",
+      "url": "https://github.com/themesberg/flowbite-admin-dashboard/blob/229df7ff25808ab2bbda65f03f2397a05f7b4288/LICENSE"
+    },
+    "author": "Themesberg (Bergside Inc.)",
+    "framework": "html",
+    "ui": "flowbite",
+    "category": "Admin",
+    "tags": [
+      "tailwind4",
+      "flowbite",
+      "hugo",
+      "dark-mode",
+      "apexcharts"
+    ],
+    "demoUrl": "https://flowbite-admin-dashboard.vercel.app",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Tailwind CSS Admin Dashboard - Flowbite"
+      },
+      {
+        "path": "authentication/forgot-password/index.html",
+        "title": "Tailwind CSS Forgot Password Page - Flowbite"
+      },
+      {
+        "path": "authentication/profile-lock/index.html",
+        "title": "Tailwind CSS Profile Lock Page - Flowbite"
+      },
+      {
+        "path": "authentication/reset-password/index.html",
+        "title": "Tailwind CSS Reset Password Page - Flowbite"
+      },
+      {
+        "path": "authentication/sign-in/index.html",
+        "title": "Tailwind CSS Sign in/Login Page - Flowbite"
+      },
+      {
+        "path": "authentication/sign-up/index.html",
+        "title": "Tailwind CSS Sign Up/Register Page - Flowbite"
+      },
+      {
+        "path": "crud/products/index.html",
+        "title": "Tailwind CSS Products Page - Flowbite"
+      },
+      {
+        "path": "crud/users/index.html",
+        "title": "Tailwind CSS Users List Page - Flowbite"
+      },
+      {
+        "path": "layouts/sidebar/index.html",
+        "title": "Tailwind CSS Dashboard Stacked Layout - Flowbite"
+      },
+      {
+        "path": "layouts/stacked/index.html",
+        "title": "Tailwind CSS Dashboard Stacked Layout - Flowbite"
+      },
+      {
+        "path": "pages/404/index.html",
+        "title": "Tailwind CSS 404 Not Found Page - Flowbite"
+      },
+      {
+        "path": "pages/500/index.html",
+        "title": "Tailwind CSS 500 Server Error Page - Flowbite"
+      },
+      {
+        "path": "pages/maintenance/index.html",
+        "title": "Tailwind CSS Maintenance Page - Flowbite"
+      },
+      {
+        "path": "pages/pricing/index.html",
+        "title": "Tailwind CSS Pricing Page - Flowbite"
+      },
+      {
+        "path": "playground/sidebar/index.html",
+        "title": "Tailwind CSS Sidebar Layout Playground - Flowbite"
+      },
+      {
+        "path": "playground/stacked/index.html",
+        "title": "Tailwind CSS Stacked Layout Playground - Flowbite"
+      },
+      {
+        "path": "settings/index.html",
+        "title": "Tailwind CSS User Settings Page - Flowbite"
+      }
+    ],
+    "storedBytes": 5926767,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:32.609Z"
+  },
+  "serve": {
+    "slug": "flowbite-admin-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/themesberg/flowbite-admin-dashboard@229df7ff25808ab2bbda65f03f2397a05f7b4288/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "CNAME": "static/CNAME",
+      "android-chrome-192x192.png": "static/android-chrome-192x192.png",
+      "android-chrome-512x512.png": "static/android-chrome-512x512.png",
+      "android-icon-144x144.png": "static/android-icon-144x144.png",
+      "android-icon-192x192.png": "static/android-icon-192x192.png",
+      "android-icon-36x36.png": "static/android-icon-36x36.png",
+      "android-icon-48x48.png": "static/android-icon-48x48.png",
+      "android-icon-72x72.png": "static/android-icon-72x72.png",
+      "android-icon-96x96.png": "static/android-icon-96x96.png",
+      "apple-icon-114x114.png": "static/apple-icon-114x114.png",
+      "apple-icon-120x120.png": "static/apple-icon-120x120.png",
+      "apple-icon-144x144.png": "static/android-icon-144x144.png",
+      "apple-icon-152x152.png": "static/apple-icon-152x152.png",
+      "apple-icon-180x180.png": "static/apple-icon-180x180.png",
+      "apple-icon-57x57.png": "static/apple-icon-57x57.png",
+      "apple-icon-60x60.png": "static/apple-icon-60x60.png",
+      "apple-icon-72x72.png": "static/android-icon-72x72.png",
+      "apple-icon-76x76.png": "static/apple-icon-76x76.png",
+      "apple-icon-precomposed.png": "static/apple-icon.png",
+      "apple-icon.png": "static/apple-icon.png",
+      "apple-touch-icon.png": "static/apple-touch-icon.png",
+      "browserconfig.xml": "static/browserconfig.xml",
+      "favicon-16x16.png": "static/favicon-16x16.png",
+      "favicon-32x32.png": "static/favicon-32x32.png",
+      "favicon-96x96.png": "static/android-icon-96x96.png",
+      "favicon.ico": "static/favicon.ico",
+      "images/authentication/create-account.jpg": "static/images/authentication/create-account.jpg",
+      "images/authentication/login.jpg": "static/images/authentication/login.jpg",
+      "images/authentication/reset-password.jpg": "static/images/authentication/reset-password.jpg",
+      "images/blog/image-1.jpg": "static/images/blog/image-1.jpg",
+      "images/blog/image-2.jpg": "static/images/blog/image-2.jpg",
+      "images/blog/image-3.jpg": "static/images/blog/image-3.jpg",
+      "images/blog/image-4.jpg": "static/images/blog/image-4.jpg",
+      "images/blog/image-7.jpg": "static/images/blog/image-7.jpg",
+      "images/feed/image-1.jpg": "static/images/feed/image-1.jpg",
+      "images/feed/image-2.jpg": "static/images/feed/image-2.jpg",
+      "images/kanban/task-1.jpg": "static/images/kanban/task-1.jpg",
+      "images/kanban/task-2.jpg": "static/images/kanban/task-2.jpg",
+      "images/kanban/task-3.jpg": "static/images/kanban/task-3.jpg",
+      "images/og-image.png": "static/images/og-image.png",
+      "images/products/apple-imac-1.png": "static/images/products/apple-imac-1.png",
+      "images/products/apple-imac-2.png": "static/images/products/apple-imac-2.png",
+      "images/products/apple-imac-3.png": "static/images/products/apple-imac-3.png",
+      "images/products/imac.png": "static/images/products/imac.png",
+      "images/products/ipad.png": "static/images/products/ipad.png",
+      "images/products/iphone.png": "static/images/products/iphone.png",
+      "images/products/watch.png": "static/images/products/watch.png",
+      "images/users/bonnie-green-2x.png": "static/images/users/bonnie-green-2x.png",
+      "images/users/bonnie-green.png": "static/images/users/bonnie-green.png",
+      "images/users/helene-engels.png": "static/images/users/helene-engels.png",
+      "images/users/jese-leos-2x.png": "static/images/users/jese-leos-2x.png",
+      "images/users/jese-leos.png": "static/images/users/jese-leos.png",
+      "images/users/joseph-mcfall.png": "static/images/users/joseph-mcfall.png",
+      "images/users/lana-byrd.png": "static/images/users/lana-byrd.png",
+      "images/users/leslie-livingston.png": "static/images/users/leslie-livingston.png",
+      "images/users/michael-gough.png": "static/images/users/michael-gough.png",
+      "images/users/neil-sims.png": "static/images/users/neil-sims.png",
+      "images/users/robert-brown.png": "static/images/users/robert-brown.png",
+      "images/users/roberta-casas-2x.png": "static/images/users/roberta-casas-2x.png",
+      "images/users/roberta-casas.png": "static/images/users/roberta-casas.png",
+      "images/users/thomas-lean.png": "static/images/users/thomas-lean.png",
+      "ms-icon-144x144.png": "static/android-icon-144x144.png",
+      "ms-icon-150x150.png": "static/ms-icon-150x150.png",
+      "ms-icon-310x310.png": "static/ms-icon-310x310.png",
+      "ms-icon-70x70.png": "static/ms-icon-70x70.png",
+      "mstile-150x150.png": "static/mstile-150x150.png",
+      "site.webmanifest": "static/site.webmanifest"
+    }
+  }
+}

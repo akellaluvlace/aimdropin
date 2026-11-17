@@ -1,0 +1,52 @@
+{
+  "record": {
+    "slug": "sakai-ng",
+    "title": "Sakai Angular",
+    "description": "PrimeNG admin template with dashboard, CRUD, every PrimeNG component demo, landing page, auth pages and timeline/empty pages.",
+    "repo": "primefaces/sakai-ng",
+    "sha": "c58210cdbdd8396df579d1f6974d9fc4ed60e1a2",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the last commit before src/assets became a git submodule (cetincakiroglu/sakai-assets, which has no license).",
+      "url": "https://github.com/primefaces/sakai-ng/blob/c58210cdbdd8396df579d1f6974d9fc4ed60e1a2/LICENSE.md"
+    },
+    "author": "PrimeTek",
+    "framework": "angular",
+    "ui": "primeng",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "primeng",
+      "tailwind",
+      "dark-mode",
+      "crud"
+    ],
+    "demoUrl": "https://sakai.primeng.org",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Sakai Angular"
+      }
+    ],
+    "storedBytes": 3864287,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:19.092Z"
+  },
+  "serve": {
+    "slug": "sakai-ng",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/primefaces/sakai-ng@c58210cdbdd8396df579d1f6974d9fc4ed60e1a2/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "media/flags_responsive-FLFJ4F7K.png": "src/assets/demo/flags/flags_responsive.png"
+    }
+  }
+}

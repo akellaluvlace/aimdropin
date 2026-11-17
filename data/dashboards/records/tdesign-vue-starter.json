@@ -1,0 +1,54 @@
+{
+  "record": {
+    "slug": "tdesign-vue-starter",
+    "title": "TDesign Vue Next Starter",
+    "description": "Tencent TDesign Vue 3 starter: base and detail dashboards, lists, forms, detail pages, results, user center and login, with in-browser mocks.",
+    "repo": "Tencent/tdesign-vue-next-starter",
+    "sha": "5b8bb52a16472629d53d991c402489508bc10ba1",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/Tencent/tdesign-vue-next-starter/blob/5b8bb52a16472629d53d991c402489508bc10ba1/LICENSE"
+    },
+    "author": "TDesign (Tencent)",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tdesign",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://tdesign.tencent.com/starter/vue-next/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "TDesign Vue Next Starter"
+      }
+    ],
+    "storedBytes": 3455192,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:41.588Z"
+  },
+  "serve": {
+    "slug": "tdesign-vue-starter",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Tencent/tdesign-vue-next-starter@5b8bb52a16472629d53d991c402489508bc10ba1/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/assets-login-bg-black-DNZ_CoPB.png": "src/assets/assets-login-bg-black.png",
+      "assets/assets-login-bg-white-DhCleFXy.png": "src/assets/assets-login-bg-white.png",
+      "assets/assets-tencent-logo-BOudm1VC.png": "src/assets/assets-tencent-logo.png",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "record": {
+    "slug": "polished",
+    "title": "Polished",
+    "description": "Bootstrap 4 admin kit: store dashboard, charts, widgets, forms, buttons, tables, colors, typography, 1/2-column layouts.",
+    "repo": "azamuddin/polished-template",
+    "sha": "05629a3969cd40854a87098ed064a6455367a625",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/azamuddin/polished-template/blob/05629a3969cd40854a87098ed064a6455367a625/LICENSE"
+    },
+    "author": "Muhammad Azamuddin",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "style-guide"
+    ],
+    "demoUrl": "https://azamuddin.github.io/polished-template",
+    "quality": 3,
+    "entry": "home.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "home.html",
+        "title": "Polished"
+      },
+      {
+        "path": "buttons.html",
+        "title": "Polished"
+      },
+      {
+        "path": "charts.html",
+        "title": "Polished"
+      },
+      {
+        "path": "colors.html",
+        "title": "Polished"
+      },
+      {
+        "path": "dashboard.html",
+        "title": "Polished"
+      },
+      {
+        "path": "font-sizes.html",
+        "title": "Polished"
+      },
+      {
+        "path": "forms.html",
+        "title": "Polished"
+      },
+      {
+        "path": "getting-started.html",
+        "title": "Polished"
+      },
+      {
+        "path": "index.html",
+        "title": "Polished"
+      },
+      {
+        "path": "one-column.html",
+        "title": "Polished"
+      },
+      {
+        "path": "table.html",
+        "title": "Polished"
+      },
+      {
+        "path": "two-columns.html",
+        "title": "Polished"
+      },
+      {
+        "path": "widgets.html",
+        "title": "Polished"
+      }
+    ],
+    "storedBytes": 255834,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:26.633Z"
+  },
+  "serve": {
+    "slug": "polished",
+    "kind": "static",
+    "entry": "home.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/azamuddin/polished-template@05629a3969cd40854a87098ed064a6455367a625/",
+    "cdnRoot": "docs",
+    "cdnMap": null
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "record": {
+    "slug": "nuxt-shadcn-dashboard",
+    "title": "Nuxt shadcn Dashboard",
+    "description": "Nuxt 4 dashboard with shadcn-vue: dashboard, email, tasks, kanban, settings, auth and a full component gallery.",
+    "repo": "dianprata/nuxt-shadcn-dashboard",
+    "sha": "54988681e50feaa4935828882da93faff06cf042",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/dianprata/nuxt-shadcn-dashboard/blob/54988681e50feaa4935828882da93faff06cf042/LICENSE"
+    },
+    "author": "Dian Pratama",
+    "framework": "nuxt",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "nuxt",
+      "shadcn-vue",
+      "tailwind",
+      "dark-mode",
+      "kanban"
+    ],
+    "demoUrl": "https://dianprata.github.io/nuxt-shadcn-dashboard/",
+    "quality": 5,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "200.html",
+        "title": "200"
+      },
+      {
+        "path": "401/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "403/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "404.html",
+        "title": "404"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "500/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "503/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/accordion/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/alert-dialog/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/alert/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/aspect-ratio/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/avatar/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/badge/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/breadcrumb/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/button/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/calendar/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/card/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/carousel/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/checkbox/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/collapsible/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/combobox/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/command/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/context-menu/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/dialog/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/drawer/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/dropdown-menu/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/form/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/hover-card/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/index.html",
+        "title": "Components"
+      },
+      {
+        "path": "components/input/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/item/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/kbd/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/label/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/menubar/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/navigation-menu/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/number-field/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/pin-input/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/popover/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/progress/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/radio-group/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/range-calendar/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/resizable/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/scroll-area/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/select/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/separator/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/sheet/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/skeleton/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/slider/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/sonner/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/stepper/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/switch/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/table/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/tabs/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/tags-input/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/textarea/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/toggle-group/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/toggle/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "components/tooltip/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "email/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "forgot-password/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "kanban/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "login-basic/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "login/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "otp-1/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "otp-2/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "otp/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "register/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "settings/account/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "settings/appearance/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "settings/display/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "settings/index.html",
+        "title": "Settings"
+      },
+      {
+        "path": "settings/notifications/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "settings/profile/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      },
+      {
+        "path": "tasks/index.html",
+        "title": "Nuxt Shadcn-Vue TailwindCSS 4 - Dashboard Template"
+      }
+    ],
+    "storedBytes": 7288101,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:39.783Z"
+  },
+  "serve": {
+    "slug": "nuxt-shadcn-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/dianprata/nuxt-shadcn-dashboard@54988681e50feaa4935828882da93faff06cf042/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "avatars/avatartion.png": "public/avatars/avatartion.png",
+      "avatars/shadcn.png": "public/avatars/shadcn.png",
+      "favicon.ico": "public/favicon.ico",
+      "social-card.png": "public/social-card.png"
+    }
+  }
+}

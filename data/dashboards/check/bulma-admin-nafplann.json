@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-10T17:31:16.773Z",
+  "pagesChecked": 4,
+  "pagesOk": 4,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Bulma Admin | Free Admin Template By @nafplann"
+    },
+    {
+      "path": "datatables.html",
+      "title": "Bulma Admin | Free Admin Template By @nafplann"
+    },
+    {
+      "path": "elements.html",
+      "title": "Bulma Admin | Free Admin Template By @nafplann"
+    },
+    {
+      "path": "forms.html",
+      "title": "Bulma Admin | Free Admin Template By @nafplann"
+    }
+  ]
+}

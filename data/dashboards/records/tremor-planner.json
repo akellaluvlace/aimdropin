@@ -1,0 +1,69 @@
+{
+  "record": {
+    "slug": "tremor-planner",
+    "title": "Tremor Planner",
+    "description": "Dense quote-planning dashboards: quotes overview, monitoring and audits, with a collapsible sidebar.",
+    "repo": "tremorlabs/template-planner",
+    "sha": "7b5d1f10e2705c9a2dca108c41910793185cdbb8",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/tremorlabs/template-planner/blob/7b5d1f10e2705c9a2dca108c41910793185cdbb8/LICENSE.md"
+    },
+    "author": "Tremor Labs",
+    "framework": "next",
+    "ui": "tremor",
+    "category": "Analytics",
+    "tags": [
+      "tremor",
+      "recharts",
+      "sidebar",
+      "data-viz"
+    ],
+    "demoUrl": "https://planner.tremor.so",
+    "quality": 4,
+    "entry": "quotes/overview/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "quotes/overview/index.html",
+        "title": "Planner"
+      },
+      {
+        "path": "404.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "404/index.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "quotes/audits/index.html",
+        "title": "Planner"
+      },
+      {
+        "path": "quotes/monitoring/index.html",
+        "title": "Planner"
+      }
+    ],
+    "storedBytes": 1829947,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:11:08.296Z"
+  },
+  "serve": {
+    "slug": "tremor-planner",
+    "kind": "build",
+    "entry": "quotes/overview/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/tremorlabs/template-planner@7b5d1f10e2705c9a2dca108c41910793185cdbb8/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "Logo.tsx": "public/Logo.tsx",
+      "_next/static/media/4473ecc91f70f139-s.p.woff": "src/app/fonts/GeistVF.woff",
+      "_next/static/media/463dafcda517f24f-s.p.woff": "src/app/fonts/GeistMonoVF.woff",
+      "favicon.ico": "src/app/favicon.ico"
+    }
+  }
+}

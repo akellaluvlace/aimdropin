@@ -1,0 +1,51 @@
+{
+  "record": {
+    "slug": "material-dashboard-shadcn",
+    "title": "Material Dashboard Shadcn",
+    "description": "Material Dashboard look rebuilt with shadcn/ui: dashboard, profile, tables, notifications, subscriptions, docs, sign in and sign up.",
+    "repo": "creativetimofficial/material-dashboard-shadcn",
+    "sha": "e51aefd09b59452c4dacdaf3de88bed91e9b911e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/creativetimofficial/material-dashboard-shadcn/blob/e51aefd09b59452c4dacdaf3de88bed91e9b911e/LICENSE.md"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "hash-router",
+      "recharts"
+    ],
+    "demoUrl": "https://creativetimofficial.github.io/material-dashboard-shadcn",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Material Dashboard Shadcn"
+      }
+    ],
+    "storedBytes": 948579,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:37.755Z"
+  },
+  "serve": {
+    "slug": "material-dashboard-shadcn",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/creativetimofficial/material-dashboard-shadcn@e51aefd09b59452c4dacdaf3de88bed91e9b911e/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "images/material-persons.jpg": "client/public/images/material-persons.jpg",
+      "images/texture-background.jpg": "client/public/images/texture-background.jpg"
+    }
+  }
+}

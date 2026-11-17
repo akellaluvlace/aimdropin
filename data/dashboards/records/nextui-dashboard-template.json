@@ -1,0 +1,68 @@
+{
+  "record": {
+    "slug": "nextui-dashboard-template",
+    "title": "NextUI Dashboard Template",
+    "description": "NextUI v2 dashboard on the Next.js app router: home with charts and cards, accounts table, login and register pages.",
+    "repo": "Siumauricio/nextui-dashboard-template",
+    "sha": "19beccf692cdf9453dc554cfdcb4087a30bd835c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/Siumauricio/nextui-dashboard-template/blob/19beccf692cdf9453dc554cfdcb4087a30bd835c/LICENSE"
+    },
+    "author": "Mauricio Siu",
+    "framework": "next",
+    "ui": "other",
+    "category": "Starter",
+    "tags": [
+      "nextui",
+      "app-router",
+      "apexcharts",
+      "dark-mode"
+    ],
+    "demoUrl": "https://nextui-dashboard-template.vercel.app/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Next.js"
+      },
+      {
+        "path": "404.html",
+        "title": "404: This page could not be found."
+      },
+      {
+        "path": "accounts.html",
+        "title": "Next.js"
+      },
+      {
+        "path": "login.html",
+        "title": "Next.js"
+      },
+      {
+        "path": "register.html",
+        "title": "Next.js"
+      }
+    ],
+    "storedBytes": 2826594,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:06:48.737Z"
+  },
+  "serve": {
+    "slug": "nextui-dashboard-template",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Siumauricio/nextui-dashboard-template@19beccf692cdf9453dc554cfdcb4087a30bd835c/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "dark.png": "public/dark.png",
+      "favicon.ico": "public/favicon.ico",
+      "light.png": "public/light.png"
+    }
+  }
+}

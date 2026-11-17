@@ -1,0 +1,79 @@
+{
+  "record": {
+    "slug": "tremor-dashboard",
+    "title": "Tremor Dashboard",
+    "description": "Tremor dashboard with overview KPIs and charts, a filterable details table and general, billing and users settings.",
+    "repo": "tremorlabs/template-dashboard",
+    "sha": "ac673531b124244b75fef5c750df1fa9ee783d4a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/tremorlabs/template-dashboard/blob/ac673531b124244b75fef5c750df1fa9ee783d4a/LICENSE.md"
+    },
+    "author": "Tremor Labs",
+    "framework": "next",
+    "ui": "tremor",
+    "category": "Analytics",
+    "tags": [
+      "tremor",
+      "recharts",
+      "tanstack-table",
+      "dark-mode"
+    ],
+    "demoUrl": "https://dashboard.tremor.so",
+    "quality": 4,
+    "entry": "overview/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "overview/index.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "404.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "details/index.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "index.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "settings/billing/index.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "settings/general/index.html",
+        "title": "Dashboard"
+      },
+      {
+        "path": "settings/users/index.html",
+        "title": "Dashboard"
+      }
+    ],
+    "storedBytes": 2731257,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:42:40.053Z"
+  },
+  "serve": {
+    "slug": "tremor-dashboard",
+    "kind": "build",
+    "entry": "overview/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/tremorlabs/template-dashboard@ac673531b124244b75fef5c750df1fa9ee783d4a/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "DatabaseLogo.tsx": "public/DatabaseLogo.tsx",
+      "favicon.ico": "src/app/favicon.ico"
+    }
+  }
+}

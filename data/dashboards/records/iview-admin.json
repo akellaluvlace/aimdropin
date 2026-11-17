@@ -1,0 +1,54 @@
+{
+  "record": {
+    "slug": "iview-admin",
+    "title": "iView Admin",
+    "description": "Vue 2 + iView admin with home dashboard, tables, forms, charts, tree, drag lists, i18n, error log and message center, with MockJS data.",
+    "repo": "iview/iview-admin",
+    "sha": "dd86e386a8542e8808a54ce7afeb713963c81d3c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/iview/iview-admin/blob/dd86e386a8542e8808a54ce7afeb713963c81d3c/LICENSE"
+    },
+    "author": "TalkingData",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "iview",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://admin.iviewui.com/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "iView Admin"
+      }
+    ],
+    "storedBytes": 5075986,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:40.042Z"
+  },
+  "serve": {
+    "slug": "iview-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/iview/iview-admin@dd86e386a8542e8808a54ce7afeb713963c81d3c/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "img/icon-qr-qq-wechat.5d82191e.png": "src/assets/images/icon-qr-qq-wechat.png",
+      "img/login-bg.0899ffa6.jpg": "src/assets/images/login-bg.jpg"
+    }
+  }
+}

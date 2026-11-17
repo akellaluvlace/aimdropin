@@ -1,0 +1,1386 @@
+[
+  {
+    "slug": "sakai-vue",
+    "title": "Sakai Vue",
+    "description": "PrimeVue admin template with dashboard, CRUD, every PrimeVue component demo, landing page, auth pages and timeline/empty pages.",
+    "repo": "primefaces/sakai-vue",
+    "sha": "7c32ae1f6fc75e18a5e735f76e1ab25d1167d26c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "PrimeTek",
+    "framework": "vue",
+    "ui": "primevue",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "primevue",
+      "tailwind",
+      "dark-mode",
+      "crud"
+    ],
+    "demoUrl": "https://sakai.primevue.org",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "sakai-vue.mjs"
+    }
+  },
+  {
+    "slug": "shadcn-vue-admin",
+    "title": "Shadcn Vue Admin",
+    "description": "shadcn-vue admin dashboard with tasks, apps, chats, users, billing and settings pages, file-based routing and dark mode.",
+    "repo": "Whbbit1999/shadcn-vue-admin",
+    "sha": "7f9c427f28a1ae7f94060d79664915cb33c51c2a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Whbbit1999",
+    "framework": "vue",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "shadcn-vue",
+      "tailwind",
+      "dark-mode"
+    ],
+    "demoUrl": "https://shadcn-vue-admin.netlify.app/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "shadcn-vue-admin.mjs",
+      "env": {
+        "VITE_SERVER_API_URL": "https://api.example.com",
+        "VITE_SERVER_API_PREFIX": "/api"
+      }
+    }
+  },
+  {
+    "slug": "material-dashboard-shadcn-vue",
+    "title": "Material Dashboard shadcn Vue",
+    "description": "Material-style Vue dashboard built with shadcn-vue and Tailwind: dashboard, tables, billing, notifications, profile and auth pages.",
+    "repo": "creativetimofficial/material-dashboard-shadcn-vue",
+    "sha": "7bebf12a802167a55210b7ea1cf13e50d7f6e307",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "vue",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "shadcn-vue",
+      "tailwind",
+      "material"
+    ],
+    "demoUrl": "https://www.creative-tim.com/product/material-dashboard-shadcn-vue",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "material-dashboard-shadcn-vue.mjs"
+    }
+  },
+  {
+    "slug": "admin-one-vue",
+    "title": "Admin One Vue",
+    "description": "Tailwind Vue 3 admin with dashboard, tables, forms, UI elements, profile, style switcher and dark mode.",
+    "repo": "justboil/admin-one-vue-tailwind",
+    "sha": "8a1c411b62c2fd01b7bd81feed7f4e36c46047e7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "JustBoil.me",
+    "framework": "vue",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "pinia",
+      "dark-mode"
+    ],
+    "demoUrl": "https://justboil.github.io/admin-one-vue-tailwind/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "admin-one-vue.mjs"
+    }
+  },
+  {
+    "slug": "coreui-vue",
+    "title": "CoreUI Free Vue Admin",
+    "description": "Bootstrap-based Vue 3 admin with dashboard, widgets, charts, base and form components, buttons, icons, notifications and auth pages.",
+    "repo": "coreui/coreui-free-vue-admin-template",
+    "sha": "81cc2aef4f2c6a195558fcc414820f2f4fef359f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "creativeLabs Łukasz Holeczek",
+    "framework": "vue",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "coreui",
+      "chartjs",
+      "vue-router"
+    ],
+    "demoUrl": "https://coreui.io/demos/vue/latest/free/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "coreui-vue.mjs"
+    }
+  },
+  {
+    "slug": "tailadmin-vue",
+    "title": "TailAdmin Vue",
+    "description": "Tailwind Vue 3 admin dashboard (v1) with eCommerce dashboard, calendar, profile, forms, tables, charts, UI elements and auth pages.",
+    "repo": "TailAdmin/vue-tailwind-admin-dashboard",
+    "sha": "9b1be1b027c2c669c5f0e06159e468c70d771a82",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "TailAdmin",
+    "framework": "vue",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "apexcharts",
+      "pinia"
+    ],
+    "demoUrl": "https://free-vue-demo.tailadmin.com/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true
+    }
+  },
+  {
+    "slug": "modernize-vue",
+    "title": "Modernize Vue",
+    "description": "Vuetify 3 admin dashboard with dashboard cards and charts, typography, shadows, icons, sample page and auth pages.",
+    "repo": "adminmart/Modernize-vuejs-free",
+    "sha": "96f58edc24f8846110bd7181b344a4b1da60687d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "vue",
+    "ui": "vuetify",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "vuetify",
+      "apexcharts"
+    ],
+    "demoUrl": "https://modernize-vue3-free.netlify.app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd package && npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "package/dist",
+      "entry": "index.html",
+      "spa": true
+    }
+  },
+  {
+    "slug": "matdash-vue",
+    "title": "MatDash Vue",
+    "description": "Vuetify 3 admin dashboard with revenue and sales charts, typography, shadows, icons, sample page and auth pages.",
+    "repo": "adminmart/Matdash-vuetify-free",
+    "sha": "5486f500d01f5044d7964ccee6632d69a705a1f2",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "vue",
+    "ui": "vuetify",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "vuetify",
+      "apexcharts"
+    ],
+    "demoUrl": "https://matdash-vue3-free.netlify.app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd package && npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "package/dist",
+      "entry": "index.html",
+      "spa": true
+    }
+  },
+  {
+    "slug": "black-dashboard-vue",
+    "title": "Vue Black Dashboard",
+    "description": "Dark Bootstrap 4 Vue 2 admin with dashboard charts, icons, maps, notifications, user profile, table list, typography and RTL page.",
+    "repo": "creativetimofficial/vue-black-dashboard",
+    "sha": "2ef27d89cb859c03c974179160ffa47b8954f2bd",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "vue",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "bootstrap",
+      "chartjs",
+      "dark-mode"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/vue-black-dashboard",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx vue-cli-service build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "black-dashboard-vue.mjs"
+    }
+  },
+  {
+    "slug": "paper-dashboard-vue",
+    "title": "Vue Paper Dashboard",
+    "description": "Bootstrap Vue 2 admin with dashboard stats and charts, user profile, table list, typography, icons, maps and notifications.",
+    "repo": "creativetimofficial/vue-paper-dashboard",
+    "sha": "6858e61b0f523d71e23407b6bc7ac47d0e22367e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Cristi Jora & Creative Tim",
+    "framework": "vue",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "bootstrap",
+      "chartist"
+    ],
+    "demoUrl": "https://cristijora.github.io/vue-paper-dashboard/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx vue-cli-service build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "paper-dashboard-vue.mjs"
+    }
+  },
+  {
+    "slug": "white-dashboard-vue",
+    "title": "Vue White Dashboard",
+    "description": "Light Bootstrap 4 Vue 2 admin with dashboard charts, icons, maps, notifications, user profile, tables, typography and RTL page.",
+    "repo": "creativetimofficial/vue-white-dashboard",
+    "sha": "d1f911b88ad912d6b415939bac5e86e85fd30ea1",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "vue",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "bootstrap",
+      "chartjs"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/vue-white-dashboard",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx vue-cli-service build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "white-dashboard-vue.mjs"
+    }
+  },
+  {
+    "slug": "light-bootstrap-dashboard-vue",
+    "title": "Vue Light Bootstrap Dashboard",
+    "description": "Vue 2 port of Light Bootstrap Dashboard: overview charts, user profile, table list, typography, icons, maps and notifications.",
+    "repo": "creativetimofficial/vue-light-bootstrap-dashboard",
+    "sha": "cd56e09cf4fd85fbaa73f7dff57448f5e2b765d3",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Cristi Jora",
+    "framework": "vue",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "bootstrap",
+      "chartist"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/vue-light-bootstrap-dashboard/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx vue-cli-service build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "light-bootstrap-dashboard-vue.mjs"
+    }
+  },
+  {
+    "slug": "notus-vue",
+    "title": "Vue Notus",
+    "description": "Tailwind CSS Vue 3 UI kit and admin: dashboard, settings, tables and maps admin pages plus landing, profile, login and register.",
+    "repo": "creativetimofficial/vue-notus",
+    "sha": "da3ce22b0f8db99797884b7f8876498447dc8d8c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "vue",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "tailwind",
+      "chartjs",
+      "landing-page"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/vue-notus/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx vue-cli-service build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "notus-vue.mjs"
+    }
+  },
+  {
+    "slug": "vuestic-admin",
+    "title": "Vuestic Admin",
+    "description": "Vue 3 admin built with Vuestic UI and Tailwind: dashboard with charts and map, users, projects, payments, billing, pricing, FAQ, settings and auth.",
+    "repo": "epicmaxco/vuestic-admin",
+    "sha": "9c5b44f3674d4c3e7ad01cc043d5331cee953c49",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Epicmax",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "vuestic-ui",
+      "tailwind",
+      "chartjs",
+      "i18n"
+    ],
+    "demoUrl": "https://admin-demo.vuestic.dev",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "YARN_ENABLE_SCRIPTS=false yarn install --immutable",
+      "build": "yarn vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vuestic-admin.mjs"
+    }
+  },
+  {
+    "slug": "nuxt-shadcn-dashboard",
+    "title": "Nuxt shadcn Dashboard",
+    "description": "Nuxt 4 dashboard with shadcn-vue: dashboard, email, tasks, kanban, settings, auth and a full component gallery.",
+    "repo": "dianprata/nuxt-shadcn-dashboard",
+    "sha": "54988681e50feaa4935828882da93faff06cf042",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Dian Pratama",
+    "framework": "nuxt",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "nuxt",
+      "shadcn-vue",
+      "tailwind",
+      "dark-mode",
+      "kanban"
+    ],
+    "demoUrl": "https://dianprata.github.io/nuxt-shadcn-dashboard/",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec nuxt generate",
+      "out": ".output/public",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "nuxt-shadcn-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "nuxt-ui-dashboard",
+    "title": "Nuxt UI Dashboard",
+    "description": "Official Nuxt UI dashboard template: home stats and charts, inbox, customers table, notifications and settings pages.",
+    "repo": "nuxt-ui-templates/dashboard",
+    "sha": "5fe43b8cc033a35a79e2c8432c64f70ab7ab1ef9",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Nuxt UI Templates",
+    "framework": "nuxt",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "nuxt",
+      "nuxt-ui",
+      "tailwind",
+      "dark-mode"
+    ],
+    "demoUrl": "https://dashboard-template.nuxt.dev",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec nuxt generate",
+      "out": ".output/public",
+      "entry": "index.html",
+      "spa": false,
+      "patch": "nuxt-ui-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "vue-element-admin",
+    "title": "Vue Element Admin",
+    "description": "Feature-rich Vue 2 + Element UI admin: dashboard, permissions, rich editors, charts, tables, Excel export, i18n, themes and error pages with mock data.",
+    "repo": "PanJiaChen/vue-element-admin",
+    "sha": "6858a9ad67483025f6a9432a926beb9327037be3",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "PanJiaChen",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "element-ui",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://panjiachen.github.io/vue-element-admin",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx vue-cli-service build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vue-element-admin.mjs"
+    }
+  },
+  {
+    "slug": "vue-admin-template",
+    "title": "Vue Admin Template",
+    "description": "Minimal Vue 2 + Element UI admin starter: dashboard, example table and tree, form, nested menus and login, with MockJS data.",
+    "repo": "PanJiaChen/vue-admin-template",
+    "sha": "4c18a3f47bdb417ad8a25f09910f848cb574dee2",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "PanJiaChen",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Starter",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "element-ui",
+      "mockjs"
+    ],
+    "demoUrl": "http://panjiachen.github.io/vue-admin-template",
+    "quality": 2,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx vue-cli-service build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vue-admin-template.mjs"
+    },
+    "exclude": "Quality 2: bare starter shell (one-line dashboard, sample table/tree/form); vue-element-admin covers it"
+  },
+  {
+    "slug": "iview-admin",
+    "title": "iView Admin",
+    "description": "Vue 2 + iView admin with home dashboard, tables, forms, charts, tree, drag lists, i18n, error log and message center, with MockJS data.",
+    "repo": "iview/iview-admin",
+    "sha": "dd86e386a8542e8808a54ce7afeb713963c81d3c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "TalkingData",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "iview",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://admin.iviewui.com/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "npx vue-cli-service build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "iview-admin.mjs"
+    }
+  },
+  {
+    "slug": "ant-design-vue-pro",
+    "title": "Ant Design Vue Pro",
+    "description": "Vue 2 port of Ant Design Pro: analysis and workplace dashboards, forms, lists, profiles, results, exceptions and account settings with mock data.",
+    "repo": "vueComponent/ant-design-vue-pro",
+    "sha": "616df9e063a42661144614a69aa059e140c367d6",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Anan Yang",
+    "framework": "vue",
+    "ui": "ant-design-vue",
+    "category": "Admin",
+    "tags": [
+      "vue-cli",
+      "vue2",
+      "ant-design-vue",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://preview.pro.antdv.com",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npx -y pnpm@7.33.7 install --no-frozen-lockfile --ignore-scripts",
+      "build": "npx vue-cli-service build --no-module --mode preview",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "ant-design-vue-pro.mjs"
+    }
+  },
+  {
+    "slug": "vue-admin-better",
+    "title": "Vue Admin Better",
+    "description": "Vue 2 + Element UI admin built with Rspack: dashboard, tables, forms, icons, permissions, editors, charts and error pages with MockJS data.",
+    "repo": "zxwk1998/vue-admin-better",
+    "sha": "b02834b2dd9148bca55fdb168347890eb1a35e88",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "zxwk1998",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "rspack",
+      "vue2",
+      "element-ui",
+      "mockjs",
+      "echarts"
+    ],
+    "demoUrl": "https://zxwk1998.github.io/vue-admin-better/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "node --no-deprecation rspack.js build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vue-admin-better.mjs"
+    }
+  },
+  {
+    "slug": "vue-pure-admin",
+    "title": "Vue Pure Admin",
+    "description": "Large Vue 3 + Element Plus admin: dashboards, pro tables, forms, editors, flowcharts, charts, permissions, i18n, themes and dozens of component demos.",
+    "repo": "pure-admin/vue-pure-admin",
+    "sha": "fae75ad1cd52d11a7279931ef5bba2b80e363c7b",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "pure-admin",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "element-plus",
+      "tailwind",
+      "pinia",
+      "i18n",
+      "dark-mode"
+    ],
+    "demoUrl": "https://pure-admin.github.io/vue-pure-admin",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vue-pure-admin.mjs",
+      "env": {
+        "VITE_PUBLIC_PATH": "/demos/vue-pure-admin/",
+        "VITE_ROUTER_HISTORY": "h5,/demos/vue-pure-admin/"
+      }
+    }
+  },
+  {
+    "slug": "pure-admin-thin",
+    "title": "Pure Admin Thin",
+    "description": "Slim Vue 3 + Element Plus starter from vue-pure-admin: layout, welcome page, permission demos and error pages with in-browser mocks.",
+    "repo": "pure-admin/pure-admin-thin",
+    "sha": "f0ff132561ab684bb78379239adf29f9a38ac7f1",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "pure-admin",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Starter",
+    "tags": [
+      "vite",
+      "element-plus",
+      "tailwind",
+      "pinia"
+    ],
+    "demoUrl": "https://pure-admin-thin.netlify.app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npx -y pnpm@10.18.3 install --frozen-lockfile --ignore-scripts",
+      "build": "./node_modules/.bin/vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "pure-admin-thin.mjs",
+      "env": {
+        "VITE_PUBLIC_PATH": "/demos/pure-admin-thin/",
+        "VITE_ROUTER_HISTORY": "h5,/demos/pure-admin-thin/"
+      }
+    },
+    "exclude": "Quality 2: bare starter shell (title-only home page, error and permission demos); vue-pure-admin covers it"
+  },
+  {
+    "slug": "art-design-pro",
+    "title": "Art Design Pro",
+    "description": "Polished Vue 3 + Element Plus admin: console and analysis dashboards, e-commerce, widgets, charts, tables, forms, system management, themes and i18n.",
+    "repo": "Daymychen/art-design-pro",
+    "sha": "f3aaf58eec1a0e988f162352c33862327a484f95",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Daymychen (SuperManTT)",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "element-plus",
+      "tailwind",
+      "echarts",
+      "i18n",
+      "dark-mode"
+    ],
+    "demoUrl": "https://www.artd.pro",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "art-design-pro.mjs",
+      "env": {
+        "VITE_BASE_URL": "/demos/art-design-pro/"
+      }
+    }
+  },
+  {
+    "slug": "geeker-admin",
+    "title": "Geeker Admin",
+    "description": "Vue 3 + Element Plus admin with data screen, ProTable, forms, charts, rich components, multiple layouts, themes and permission demos.",
+    "repo": "HalseySpicy/Geeker-Admin",
+    "sha": "ad08fdd1c08bfd2390a85fbbb359be17e2bdaae9",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "HalseySpicy",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "element-plus",
+      "echarts",
+      "pinia",
+      "pro-table"
+    ],
+    "demoUrl": "https://admin.spicyboy.cn",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "geeker-admin.mjs",
+      "env": {
+        "VITE_PUBLIC_PATH": "/demos/geeker-admin/",
+        "VITE_ROUTER_MODE": "history",
+        "VITE_PWA": "false"
+      }
+    }
+  },
+  {
+    "slug": "v3-admin-vite",
+    "title": "V3 Admin Vite",
+    "description": "Vue 3 + Element Plus admin starter: dashboard, table CRUD demos, permission pages, theme and layout switching, backed by a public mock API.",
+    "repo": "un-pany/v3-admin-vite",
+    "sha": "c2c895d71d571e9c18c2453fa85469a479c79fc6",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "pany",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Starter",
+    "tags": [
+      "vite",
+      "element-plus",
+      "pinia",
+      "vxe-table"
+    ],
+    "demoUrl": "https://un-pany.github.io/v3-admin-vite",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "v3-admin-vite.mjs",
+      "env": {
+        "VITE_PUBLIC_PATH": "/demos/v3-admin-vite/",
+        "VITE_ROUTER_HISTORY": "html5"
+      }
+    }
+  },
+  {
+    "slug": "vue-element-plus-admin",
+    "title": "Vue Element Plus Admin",
+    "description": "Vue 3 + Element Plus admin (v2.10): analysis and workplace dashboards, forms, tables, editors, components, functions, permissions, i18n and mock data.",
+    "repo": "kailong321200875/vue-element-plus-admin",
+    "sha": "a65b3f5a4556044a84a3fcdd8036d995b627d065",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Archer (kailong321200875)",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "element-plus",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://element-plus-admin.cn/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build --mode pro",
+      "out": "dist-pro",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vue-element-plus-admin.mjs",
+      "env": {
+        "VITE_BASE_PATH": "/demos/vue-element-plus-admin/",
+        "VITE_USE_BUNDLE_ANALYZER": "false"
+      }
+    }
+  },
+  {
+    "slug": "vue3-element-admin",
+    "title": "Vue3 Element Admin",
+    "description": "Vue 3 + Element Plus admin: dashboard, users, roles, menus, departments, dictionaries, notices, logs, code generator and demos, with mock data.",
+    "repo": "youlaitech/vue3-element-admin",
+    "sha": "301f0ab983f8dda9d451c2c217b065ed613b9062",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "youlaitech",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "element-plus",
+      "unocss",
+      "pinia",
+      "rbac"
+    ],
+    "demoUrl": "https://vue.youlai.tech",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vue3-element-admin.mjs",
+      "env": {
+        "VITE_BASE_URL": "/demos/vue3-element-admin/",
+        "VITE_AI_ENABLED": "false"
+      }
+    }
+  },
+  {
+    "slug": "naive-ui-admin",
+    "title": "Naive UI Admin",
+    "description": "Vue 3 + Naive UI admin: console and workplace dashboards, basic and pro tables, forms, system and permission pages, with in-browser mocks.",
+    "repo": "jekip/naive-ui-admin",
+    "sha": "c9db4cde447240eaa17fbe439f507680819add3d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "jekip",
+    "framework": "vue",
+    "ui": "naive",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "naive-ui",
+      "tailwind",
+      "pinia",
+      "alova"
+    ],
+    "demoUrl": "https://gratis.naiveadmin.com",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build && pnpm exec esno ./build/script/postBuild.ts",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "naive-ui-admin.mjs",
+      "env": {
+        "VITE_PUBLIC_PATH": "/demos/naive-ui-admin/"
+      }
+    }
+  },
+  {
+    "slug": "vue-naive-admin",
+    "title": "Vue Naive Admin",
+    "description": "Vue 3 + Naive UI admin in plain JavaScript: home, user, role and resource management, profile, demo pages and theme settings, backed by a public mock API.",
+    "repo": "zclzone/vue-naive-admin",
+    "sha": "a55f0a2e6fe0561ce62c3452b96ec4b4cbcb8553",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Ronnie Zhang (zclzone)",
+    "framework": "vue",
+    "ui": "naive",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "naive-ui",
+      "unocss",
+      "pinia",
+      "rbac"
+    ],
+    "demoUrl": "https://admin.isme.top",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npx -y pnpm@10.18.3 install --frozen-lockfile --ignore-scripts",
+      "build": "./node_modules/.bin/vite build",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vue-naive-admin.mjs",
+      "env": {
+        "VITE_PUBLIC_PATH": "/demos/vue-naive-admin/",
+        "VITE_USE_HASH": "false"
+      }
+    }
+  },
+  {
+    "slug": "arco-design-pro-vue",
+    "title": "Arco Design Pro Vue",
+    "description": "ByteDance Arco Design admin: workplace and data analysis dashboards, lists, forms, profiles, results, exceptions and user settings, with mock data.",
+    "repo": "arco-design/arco-design-pro-vue",
+    "sha": "27020819af653243b7b1a3e8e2481d6b3d798749",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "ByteDance Arco Design",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "arco-design",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://vue-pro.arco.design/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "cd arco-design-pro-vite && npx -y pnpm@7.33.7 install --frozen-lockfile --ignore-scripts",
+      "build": "npx vite build --config ./config/vite.config.prod.ts --base=$DEMO_BASE",
+      "out": "arco-design-pro-vite/dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "arco-design-pro-vue.mjs"
+    }
+  },
+  {
+    "slug": "tdesign-vue-starter",
+    "title": "TDesign Vue Next Starter",
+    "description": "Tencent TDesign Vue 3 starter: base and detail dashboards, lists, forms, detail pages, results, user center and login, with in-browser mocks.",
+    "repo": "Tencent/tdesign-vue-next-starter",
+    "sha": "5b8bb52a16472629d53d991c402489508bc10ba1",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "TDesign (Tencent)",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tdesign",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://tdesign.tencent.com/starter/vue-next/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --mode release",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "tdesign-vue-starter.mjs",
+      "env": {
+        "VITE_BASE_URL": "/demos/tdesign-vue-starter/"
+      }
+    }
+  },
+  {
+    "slug": "vben-admin",
+    "title": "Vue Vben Admin",
+    "description": "Vue 3 + Ant Design Vue admin (Vben 5): analytics and workspace dashboards, demos, access control, themes, layouts and i18n, backed by Vben's hosted mock API.",
+    "repo": "vbenjs/vue-vben-admin",
+    "sha": "53b47f8ce99ecea11aa04c9c876a2f18c479838f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Vben",
+    "framework": "vue",
+    "ui": "ant-design-vue",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "ant-design-vue",
+      "tailwind",
+      "monorepo",
+      "i18n",
+      "dark-mode"
+    ],
+    "demoUrl": "https://vben.pro/",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec turbo build --filter=@vben/web-antd",
+      "out": "apps/web-antd/dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vben-admin.mjs",
+      "env": {
+        "TURBO_TELEMETRY_DISABLED": "1"
+      }
+    }
+  },
+  {
+    "slug": "fantastic-admin",
+    "title": "Fantastic Admin",
+    "description": "Vue 3 + Element Plus admin framework (basic edition v5.10): layouts, multi-tab navigation, permission and menu demos, themes and in-browser mocks.",
+    "repo": "fantastic-admin/basic",
+    "sha": "b661e0e834168b3323e4e743f3159a5daa64d42c",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "fantastic-admin (Hooray)",
+    "framework": "vue",
+    "ui": "element-plus",
+    "category": "Starter",
+    "tags": [
+      "vite",
+      "element-plus",
+      "unocss",
+      "pinia",
+      "dark-mode"
+    ],
+    "demoUrl": "https://fantastic-admin.pages.dev",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "fantastic-admin.mjs",
+      "env": {
+        "VITE_BUILD_MOCK": "true",
+        "VITE_BUILD_COMPRESS": "",
+        "VITE_BUILD_ARCHIVE": ""
+      }
+    },
+    "exclude": "Quality 2: the free basic edition (v5.10.1, the last release without TinyMCE 7/GPL) only has a promo home page for the paid editions and a nested-menu demo"
+  },
+  {
+    "slug": "vitify-admin",
+    "title": "Vitify Admin",
+    "description": "Vue 2.7 + Vuetify 2 admin built with Vite: dashboard with ECharts, user management, permissions, i18n, file-based routes and MSW mocks.",
+    "repo": "kingyue737/vitify-admin",
+    "sha": "1bf6404a108d5b6703b59663ad4a8939950a524f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Yue JIN (kingyue737)",
+    "framework": "vue",
+    "ui": "vuetify",
+    "category": "Starter",
+    "tags": [
+      "vite",
+      "vue2",
+      "vuetify",
+      "echarts",
+      "msw",
+      "i18n"
+    ],
+    "demoUrl": "https://vitify-admin.netlify.app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "vitify-admin.mjs"
+    }
+  },
+  {
+    "slug": "halolight-vue",
+    "title": "HaloLight Vue",
+    "description": "Vue 3 + shadcn-vue admin: customizable dashboard widgets, users, documents, files, messages, calendar, notifications and settings, with MockJS data.",
+    "repo": "halolight/halolight-vue",
+    "sha": "ee73993426d428662e14f0c9430eefdbb5185d63",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "h7ml",
+    "framework": "vue",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "shadcn-vue",
+      "tailwind",
+      "pinia",
+      "mockjs"
+    ],
+    "demoUrl": "https://halolight-vue.h7ml.cn",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "halolight-vue.mjs",
+      "env": {
+        "VITE_MOCK": "true",
+        "VITE_WS_URL": "",
+        "VITE_SHOW_DEMO_HINT": "false"
+      }
+    }
+  },
+  {
+    "slug": "modernize-nuxt",
+    "title": "Modernize Nuxt",
+    "description": "Nuxt 3 + Vuetify admin dashboard with revenue and sales charts, typography, shadows, icons, cards, sample page and auth pages.",
+    "repo": "adminmart/Modernize-nuxtjs-free",
+    "sha": "b68d3c44118e45e8d66febabe2d6b3fb155578d0",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "nuxt",
+    "ui": "vuetify",
+    "category": "Admin",
+    "tags": [
+      "nuxt",
+      "vuetify",
+      "apexcharts"
+    ],
+    "demoUrl": "https://modernize-nuxtjs-free.netlify.app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd package && npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx nuxt generate",
+      "out": "package/.output/public",
+      "entry": "index.html",
+      "spa": true,
+      "env": {
+        "NUXT_APP_BASE_URL": "/demos/modernize-nuxt/"
+      }
+    }
+  },
+  {
+    "slug": "salvia-vue-dashboards",
+    "repo": "salvia-kit/vue-dashboards",
+    "exclude": "Quality 2: nine layout shells whose pages are a title banner placeholder (no dashboard content)"
+  },
+  {
+    "slug": "soybean-admin",
+    "repo": "soybeanjs/soybean-admin",
+    "exclude": "README license section adds terms to MIT: 'for learning purposes only' (仅供学习参考) and keep the author's copyright for commercial use"
+  },
+  {
+    "slug": "argon-dashboard-vue",
+    "repo": "creativetimofficial/vue-argon-dashboard",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "material-dashboard-2-vue",
+    "repo": "creativetimofficial/vue-material-dashboard-2",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "soft-ui-dashboard-vue",
+    "repo": "creativetimofficial/vue-soft-ui-dashboard",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "vuetify-material-dashboard",
+    "repo": "creativetimofficial/vuetify-material-dashboard",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "muse-ant-design-vue",
+    "repo": "creativetimofficial/muse-vue-ant-design-dashboard",
+    "exclude": "README Licensing section points to the Creative Tim license (EULA) instead of MIT"
+  },
+  {
+    "slug": "sing-app-vue",
+    "repo": "flatlogic/sing-app-vue-dashboard",
+    "exclude": "LICENSE-DEPS: amCharts 4 (linkware/commercial), Highcharts (commercial) and ApexCharts 5 in dependencies; 2018-19 versions ship jvectormap (AGPL) instead"
+  },
+  {
+    "slug": "light-blue-vue",
+    "repo": "flatlogic/light-blue-vue-admin",
+    "exclude": "LICENSE-DEPS: amCharts 4 (linkware/commercial), Highcharts (commercial) and ApexCharts 5 in dependencies since Oct 2019; the earlier 2019 versions need node-sass (native install script, blocked) and vue2-google-maps"
+  }
+]

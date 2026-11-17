@@ -1,0 +1,80 @@
+{
+  "record": {
+    "slug": "octopus-admin",
+    "title": "Octopus",
+    "description": "Static admin: overview, analytics charts, team members, orders, calendar, messages, forms, components and settings.",
+    "repo": "ColorlibHQ/octopus",
+    "sha": "2078851c1e0509362813476c14a148803cb2320a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/ColorlibHQ/octopus/blob/2078851c1e0509362813476c14a148803cb2320a/LICENSE"
+    },
+    "author": "Colorlib",
+    "framework": "html",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vanilla-css",
+      "charts",
+      "lightweight",
+      "calendar"
+    ],
+    "demoUrl": "https://colorlib.com/polygon/octopus/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Overview · Octopus"
+      },
+      {
+        "path": "calendar.html",
+        "title": "Calendar · Octopus"
+      },
+      {
+        "path": "charts.html",
+        "title": "Analytics · Octopus"
+      },
+      {
+        "path": "components.html",
+        "title": "Components · Octopus"
+      },
+      {
+        "path": "forms.html",
+        "title": "Forms · Octopus"
+      },
+      {
+        "path": "messages.html",
+        "title": "Messages · Octopus"
+      },
+      {
+        "path": "settings.html",
+        "title": "Settings · Octopus"
+      },
+      {
+        "path": "tables.html",
+        "title": "Orders · Octopus"
+      },
+      {
+        "path": "users.html",
+        "title": "Team members · Octopus"
+      }
+    ],
+    "storedBytes": 118981,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:24.274Z"
+  },
+  "serve": {
+    "slug": "octopus-admin",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/ColorlibHQ/octopus@2078851c1e0509362813476c14a148803cb2320a/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "record": {
+    "slug": "adminbsb-material",
+    "title": "AdminBSB Material Design",
+    "description": "Bootstrap 3 Material Design admin: 60 pages of widgets, UI, forms, tables, charts, maps, example and auth pages.",
+    "repo": "gurayyarar/AdminBSBMaterialDesign",
+    "sha": "e5d39b81f4b9cf3c8150ce42cd9f7b987ba8c51a",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/gurayyarar/AdminBSBMaterialDesign/blob/e5d39b81f4b9cf3c8150ce42cd9f7b987ba8c51a/LICENSE.md"
+    },
+    "author": "Güray Yarar",
+    "framework": "html",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "bootstrap3",
+      "material-design",
+      "jquery"
+    ],
+    "demoUrl": "https://gurayyarar.github.io/AdminBSBMaterialDesign",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Welcome To | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/changelogs.html",
+        "title": "Changelogs | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/charts/chartjs.html",
+        "title": "ChartJS | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/charts/flot.html",
+        "title": "Flot | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/charts/jquery-knob.html",
+        "title": "Jquery Knob | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/charts/morris.html",
+        "title": "Morris | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/charts/sparkline.html",
+        "title": "Sparkline | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/examples/404.html",
+        "title": "404 | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/examples/500.html",
+        "title": "500 | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/examples/blank.html",
+        "title": "Blank Page | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/examples/forgot-password.html",
+        "title": "Forgot Password | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/examples/profile.html",
+        "title": "Profile | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/examples/sign-in.html",
+        "title": "Sign In | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/examples/sign-up.html",
+        "title": "Sign Up | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/forms/advanced-form-elements.html",
+        "title": "Advanced Form Elements | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/forms/basic-form-elements.html",
+        "title": "Basic Form Elements | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/forms/editors.html",
+        "title": "Editors | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/forms/form-examples.html",
+        "title": "Form Examples | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/forms/form-validation.html",
+        "title": "Form Validation | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/forms/form-wizard.html",
+        "title": "Form Wizard | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/helper-classes.html",
+        "title": "Helper Classes | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/maps/jvectormap.html",
+        "title": "JVECTORMAP | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/maps/yandex.html",
+        "title": "Yandex Maps | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/medias/carousel.html",
+        "title": "Carousel | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/medias/image-gallery.html",
+        "title": "Image Gallery | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/tables/editable-table.html",
+        "title": "Editable Table | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/tables/jquery-datatable.html",
+        "title": "Jquery DataTable | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/tables/normal-tables.html",
+        "title": "Normal Tables | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/typography.html",
+        "title": "Typography | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/alerts.html",
+        "title": "Alerts | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/animations.html",
+        "title": "Animations | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/badges.html",
+        "title": "Badges | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/breadcrumbs.html",
+        "title": "Breadcrumbs | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/buttons.html",
+        "title": "Buttons | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/collapse.html",
+        "title": "Collapse | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/colors.html",
+        "title": "Colors | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/dialogs.html",
+        "title": "Dialogs | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/icons.html",
+        "title": "Icons | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/labels.html",
+        "title": "Labels | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/list-group.html",
+        "title": "List Group | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/media-object.html",
+        "title": "Media Object | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/modals.html",
+        "title": "Modals | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/notifications.html",
+        "title": "Notifications | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/pagination.html",
+        "title": "Pagination | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/preloaders.html",
+        "title": "Preloaders | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/progressbars.html",
+        "title": "Progress Bars | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/range-sliders.html",
+        "title": "Range Sliders | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/sortable-nestable.html",
+        "title": "Sortable & Nestable | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/tabs.html",
+        "title": "Tabs | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/thumbnails.html",
+        "title": "Thumbnails | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/tooltips-popovers.html",
+        "title": "Tooltips & Popovers | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/ui/waves.html",
+        "title": "Waves | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/widgets/cards/basic.html",
+        "title": "Basic Card | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/widgets/cards/colored.html",
+        "title": "Colored Card | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/widgets/cards/no-header.html",
+        "title": "No Header Card | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/widgets/infobox/infobox-1.html",
+        "title": "Infobox - 1 | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/widgets/infobox/infobox-2.html",
+        "title": "Infobox - 2 | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/widgets/infobox/infobox-3.html",
+        "title": "Infobox - 3 | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/widgets/infobox/infobox-4.html",
+        "title": "Infobox - 4 | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "pages/widgets/infobox/infobox-5.html",
+        "title": "Infobox - 5 | Bootstrap Based Admin Template - Material Design"
+      },
+      {
+        "path": "plugins/morrisjs/examples/_template.html",
+        "title": " Template"
+      },
+      {
+        "path": "plugins/morrisjs/examples/area-as-line.html",
+        "title": "Area As Line"
+      },
+      {
+        "path": "plugins/morrisjs/examples/area.html",
+        "title": "Area"
+      },
+      {
+        "path": "plugins/morrisjs/examples/bar-colors.html",
+        "title": "Bar Colors"
+      },
+      {
+        "path": "plugins/morrisjs/examples/bar-no-axes.html",
+        "title": "Bar No Axes"
+      },
+      {
+        "path": "plugins/morrisjs/examples/bar.html",
+        "title": "Bar"
+      },
+      {
+        "path": "plugins/morrisjs/examples/days.html",
+        "title": "Days"
+      },
+      {
+        "path": "plugins/morrisjs/examples/decimal-custom-hover.html",
+        "title": "Decimal Custom Hover"
+      },
+      {
+        "path": "plugins/morrisjs/examples/diagonal-xlabels-bar.html",
+        "title": "Diagonal Xlabels Bar"
+      },
+      {
+        "path": "plugins/morrisjs/examples/diagonal-xlabels.html",
+        "title": "Diagonal Xlabels"
+      },
+      {
+        "path": "plugins/morrisjs/examples/donut-colors.html",
+        "title": "Donut Colors"
+      },
+      {
+        "path": "plugins/morrisjs/examples/donut-formatter.html",
+        "title": "Donut Formatter"
+      },
+      {
+        "path": "plugins/morrisjs/examples/donut.html",
+        "title": "Donut"
+      },
+      {
+        "path": "plugins/morrisjs/examples/dst.html",
+        "title": "Dst"
+      },
+      {
+        "path": "plugins/morrisjs/examples/events.html",
+        "title": "Events"
+      },
+      {
+        "path": "plugins/morrisjs/examples/goals.html",
+        "title": "Goals"
+      },
+      {
+        "path": "plugins/morrisjs/examples/months-no-smooth.html",
+        "title": "Months No Smooth"
+      },
+      {
+        "path": "plugins/morrisjs/examples/negative.html",
+        "title": "Negative"
+      },
+      {
+        "path": "plugins/morrisjs/examples/no-grid.html",
+        "title": "No Grid"
+      },
+      {
+        "path": "plugins/morrisjs/examples/non-continuous.html",
+        "title": "Non Continuous"
+      },
+      {
+        "path": "plugins/morrisjs/examples/non-date.html",
+        "title": "Non Date"
+      },
+      {
+        "path": "plugins/morrisjs/examples/quarters.html",
+        "title": "Quarters"
+      },
+      {
+        "path": "plugins/morrisjs/examples/resize.html",
+        "title": "Resize"
+      },
+      {
+        "path": "plugins/morrisjs/examples/stacked_bars.html",
+        "title": "Stacked Bars"
+      },
+      {
+        "path": "plugins/morrisjs/examples/timestamps.html",
+        "title": "Timestamps"
+      },
+      {
+        "path": "plugins/morrisjs/examples/updating.html",
+        "title": "Updating"
+      },
+      {
+        "path": "plugins/morrisjs/examples/weeks.html",
+        "title": "Weeks"
+      },
+      {
+        "path": "plugins/morrisjs/examples/years.html",
+        "title": "Years"
+      },
+      {
+        "path": "plugins/morrisjs/spec/specs.html",
+        "title": "morris.js tests"
+      },
+      {
+        "path": "plugins/morrisjs/spec/viz/test.html",
+        "title": "Test"
+      }
+    ],
+    "storedBytes": 4929600,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:27.856Z"
+  },
+  "serve": {
+    "slug": "adminbsb-material",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/gurayyarar/AdminBSBMaterialDesign@e5d39b81f4b9cf3c8150ce42cd9f7b987ba8c51a/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

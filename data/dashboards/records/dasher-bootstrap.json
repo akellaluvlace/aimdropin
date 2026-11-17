@@ -1,0 +1,147 @@
+{
+  "record": {
+    "slug": "dasher-bootstrap",
+    "title": "Dasher",
+    "description": "Bootstrap 5 e-commerce admin: dashboard, products, orders, customers, settings and auth pages.",
+    "repo": "codescandy/dasher-bootstrap-5-admin-template-free",
+    "sha": "1a81e11ee51f8893e1555491e00b60eaef2bec62",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ApexCharts ^3.52 (MIT).",
+      "url": "https://github.com/codescandy/dasher-bootstrap-5-admin-template-free/blob/1a81e11ee51f8893e1555491e00b60eaef2bec62/LICENSE"
+    },
+    "author": "Codescandy",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "E-commerce",
+    "tags": [
+      "bootstrap5",
+      "ecommerce",
+      "apexcharts",
+      "gulp"
+    ],
+    "demoUrl": null,
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Ecommerce | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+      },
+      {
+        "path": "assets/libs/@tabler/icons-webfont/tabler-icons.html",
+        "title": "Tabler Icons - version 2.47.0"
+      },
+      {
+        "path": "pages/authentication/forget-password.html",
+        "title": "Forget Password | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+      },
+      {
+        "path": "pages/authentication/otp-varification.html",
+        "title": "Otp varification | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+      },
+      {
+        "path": "pages/authentication/reset-password.html",
+        "title": "Otp varification | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+      },
+      {
+        "path": "pages/authentication/sign-in.html",
+        "title": "Sign In | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+      },
+      {
+        "path": "pages/authentication/sign-up.html",
+        "title": "Sign Up | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+      },
+      {
+        "path": "pages/blank.html",
+        "title": "Blank | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+      },
+      {
+        "path": "pages/error/404-error.html",
+        "title": "404 error | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+      },
+      {
+        "path": "pages/error/maintenance.html",
+        "title": "Maintenance | Dasher - Responsive Bootstrap 5 Admin Dashboard"
+      }
+    ],
+    "storedBytes": 35370321,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:32.119Z"
+  },
+  "serve": {
+    "slug": "dasher-bootstrap",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/codescandy/dasher-bootstrap-5-admin-template-free@1a81e11ee51f8893e1555491e00b60eaef2bec62/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/images/avatar/avatar-1.jpg": "src/assets/images/avatar/avatar-1.jpg",
+      "assets/images/avatar/avatar-10.jpg": "src/assets/images/avatar/avatar-10.jpg",
+      "assets/images/avatar/avatar-11.jpg": "src/assets/images/avatar/avatar-11.jpg",
+      "assets/images/avatar/avatar-12.jpg": "src/assets/images/avatar/avatar-12.jpg",
+      "assets/images/avatar/avatar-13.jpg": "src/assets/images/avatar/avatar-13.jpg",
+      "assets/images/avatar/avatar-14.jpg": "src/assets/images/avatar/avatar-14.jpg",
+      "assets/images/avatar/avatar-15.jpg": "src/assets/images/avatar/avatar-15.jpg",
+      "assets/images/avatar/avatar-16.jpg": "src/assets/images/avatar/avatar-16.jpg",
+      "assets/images/avatar/avatar-17.jpg": "src/assets/images/avatar/avatar-17.jpg",
+      "assets/images/avatar/avatar-18.jpg": "src/assets/images/avatar/avatar-18.jpg",
+      "assets/images/avatar/avatar-19.jpg": "src/assets/images/avatar/avatar-19.jpg",
+      "assets/images/avatar/avatar-2.jpg": "src/assets/images/avatar/avatar-2.jpg",
+      "assets/images/avatar/avatar-20.jpg": "src/assets/images/avatar/avatar-20.jpg",
+      "assets/images/avatar/avatar-21.jpg": "src/assets/images/avatar/avatar-21.jpg",
+      "assets/images/avatar/avatar-3.jpg": "src/assets/images/avatar/avatar-3.jpg",
+      "assets/images/avatar/avatar-4.jpg": "src/assets/images/avatar/avatar-4.jpg",
+      "assets/images/avatar/avatar-5.jpg": "src/assets/images/avatar/avatar-5.jpg",
+      "assets/images/avatar/avatar-6.jpg": "src/assets/images/avatar/avatar-6.jpg",
+      "assets/images/avatar/avatar-7.jpg": "src/assets/images/avatar/avatar-7.jpg",
+      "assets/images/avatar/avatar-8.jpg": "src/assets/images/avatar/avatar-8.jpg",
+      "assets/images/avatar/avatar-9.jpg": "src/assets/images/avatar/avatar-9.jpg",
+      "assets/images/avatar/avatar-fallback.jpg": "src/assets/images/avatar/avatar-fallback.jpg",
+      "assets/images/avatar/avatar.jpg": "src/assets/images/avatar/avatar.jpg",
+      "assets/images/ecommerce/product-1.jpg": "src/assets/images/ecommerce/product-1.jpg",
+      "assets/images/ecommerce/product-10.jpg": "src/assets/images/ecommerce/product-10.jpg",
+      "assets/images/ecommerce/product-2.jpg": "src/assets/images/ecommerce/product-2.jpg",
+      "assets/images/ecommerce/product-3.jpg": "src/assets/images/ecommerce/product-3.jpg",
+      "assets/images/ecommerce/product-4.jpg": "src/assets/images/ecommerce/product-4.jpg",
+      "assets/images/ecommerce/product-5.jpg": "src/assets/images/ecommerce/product-5.jpg",
+      "assets/images/ecommerce/product-6.jpg": "src/assets/images/ecommerce/product-6.jpg",
+      "assets/images/ecommerce/product-7.jpg": "src/assets/images/ecommerce/product-7.jpg",
+      "assets/images/ecommerce/product-8.jpg": "src/assets/images/ecommerce/product-8.jpg",
+      "assets/images/ecommerce/product-9.jpg": "src/assets/images/ecommerce/product-9.jpg",
+      "assets/images/favicon/android-icon-144x144.png": "src/assets/images/favicon/android-icon-144x144.png",
+      "assets/images/favicon/android-icon-192x192.png": "src/assets/images/favicon/android-icon-192x192.png",
+      "assets/images/favicon/android-icon-36x36.png": "src/assets/images/favicon/android-icon-36x36.png",
+      "assets/images/favicon/android-icon-48x48.png": "src/assets/images/favicon/android-icon-48x48.png",
+      "assets/images/favicon/android-icon-72x72.png": "src/assets/images/favicon/android-icon-72x72.png",
+      "assets/images/favicon/android-icon-96x96.png": "src/assets/images/favicon/android-icon-96x96.png",
+      "assets/images/favicon/apple-icon-114x114.png": "src/assets/images/favicon/apple-icon-114x114.png",
+      "assets/images/favicon/apple-icon-120x120.png": "src/assets/images/favicon/apple-icon-120x120.png",
+      "assets/images/favicon/apple-icon-144x144.png": "src/assets/images/favicon/android-icon-144x144.png",
+      "assets/images/favicon/apple-icon-152x152.png": "src/assets/images/favicon/apple-icon-152x152.png",
+      "assets/images/favicon/apple-icon-180x180.png": "src/assets/images/favicon/apple-icon-180x180.png",
+      "assets/images/favicon/apple-icon-57x57.png": "src/assets/images/favicon/apple-icon-57x57.png",
+      "assets/images/favicon/apple-icon-60x60.png": "src/assets/images/favicon/apple-icon-60x60.png",
+      "assets/images/favicon/apple-icon-72x72.png": "src/assets/images/favicon/android-icon-72x72.png",
+      "assets/images/favicon/apple-icon-76x76.png": "src/assets/images/favicon/apple-icon-76x76.png",
+      "assets/images/favicon/apple-icon-precomposed.png": "src/assets/images/favicon/apple-icon.png",
+      "assets/images/favicon/apple-icon.png": "src/assets/images/favicon/apple-icon.png",
+      "assets/images/favicon/browserconfig.xml": "src/assets/images/favicon/browserconfig.xml",
+      "assets/images/favicon/favicon-16x16.png": "src/assets/images/favicon/favicon-16x16.png",
+      "assets/images/favicon/favicon-32x32.png": "src/assets/images/favicon/favicon-32x32.png",
+      "assets/images/favicon/favicon-96x96.png": "src/assets/images/favicon/android-icon-96x96.png",
+      "assets/images/favicon/favicon.ico": "src/assets/images/favicon/favicon.ico",
+      "assets/images/favicon/ms-icon-144x144.png": "src/assets/images/favicon/android-icon-144x144.png",
+      "assets/images/favicon/ms-icon-150x150.png": "src/assets/images/favicon/ms-icon-150x150.png",
+      "assets/images/favicon/ms-icon-310x310.png": "src/assets/images/favicon/ms-icon-310x310.png",
+      "assets/images/favicon/ms-icon-70x70.png": "src/assets/images/favicon/ms-icon-70x70.png",
+      "assets/images/png/dasher-ai.png": "src/assets/images/png/dasher-ai.png",
+      "assets/images/png/dasher-ui-bootstrap-5.jpg": "src/assets/images/png/dasher-ui-bootstrap-5.jpg"
+    }
+  }
+}

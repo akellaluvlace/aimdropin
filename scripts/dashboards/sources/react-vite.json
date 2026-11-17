@@ -1,0 +1,840 @@
+[
+  {
+    "slug": "shadcn-admin",
+    "title": "Shadcn Admin",
+    "description": "Admin dashboard with tasks, chats, users, settings and auth screens.",
+    "repo": "satnaing/shadcn-admin",
+    "sha": "e16c87f213a5ba5e45964e9b67c792105ec74d26",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Sat Naing",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tanstack-router",
+      "dark-mode"
+    ],
+    "demoUrl": "https://shadcn-admin.netlify.app",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "shadcn-admin.mjs"
+    }
+  },
+  {
+    "slug": "coreui-free-react",
+    "title": "CoreUI Free React Admin",
+    "description": "Bootstrap-based React admin with dashboard, widgets, charts, 25+ base components, buttons, forms, icons, notifications and auth pages.",
+    "repo": "coreui/coreui-free-react-admin-template",
+    "sha": "2609f5995035973e00c16ec723165a5fff87cceb",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "creativeLabs Łukasz Holeczek",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "coreui",
+      "chartjs",
+      "react-router",
+      "redux"
+    ],
+    "demoUrl": "https://coreui.io/demos/react/5.0/free/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "build",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "coreui-free-react.mjs"
+    }
+  },
+  {
+    "slug": "atomic-crm",
+    "title": "Atomic CRM",
+    "description": "Full CRM demo: dashboard, contacts, companies, deals kanban, notes, tasks and sales team, with in-browser fake data and working CRUD.",
+    "repo": "marmelab/atomic-crm",
+    "sha": "259c179a2b2d2bd4d0f6121565770b7fbe99c6c6",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Marmelab",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "CRM",
+    "tags": [
+      "vite",
+      "react-admin",
+      "kanban",
+      "fakerest",
+      "tailwind"
+    ],
+    "demoUrl": "https://marmelab.com/atomic-crm-demo",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --config vite.demo.config.ts --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "atomic-crm.mjs"
+    }
+  },
+  {
+    "slug": "shadcn-admin-kit-demo",
+    "title": "Shadcn Admin Kit Demo",
+    "description": "E-commerce admin on shadcn/ui and react-admin: dashboard, orders, products, categories, customers and reviews with full CRUD on fake data.",
+    "repo": "marmelab/shadcn-admin-kit",
+    "sha": "93fbc910b20f473eba78094dd247e2abd0e4fdc7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Marmelab",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "E-commerce",
+    "tags": [
+      "vite",
+      "react-admin",
+      "fakerest",
+      "tailwind",
+      "crud"
+    ],
+    "demoUrl": "https://marmelab.com/shadcn-admin-kit/demo",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --ignore-scripts --config.strict-dep-builds=false",
+      "build": "pnpm exec vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "shadcn-admin-kit-demo.mjs"
+    }
+  },
+  {
+    "slug": "shadcnstore-dashboard-landing",
+    "title": "ShadcnStore Dashboard + Landing",
+    "description": "Shadcn/ui dashboard with two dashboards, mail, tasks, chat, calendar, users, pricing, FAQs, settings, auth and error pages, plus a landing page.",
+    "repo": "shadcnstore/shadcn-dashboard-landing-template",
+    "sha": "866423741fa4b62d5e9427603cb2174aedf00f80",
+    "license": {
+      "spdx": "MIT",
+      "path": "License.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "ShadcnStore",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "react-router",
+      "tailwind",
+      "dark-mode",
+      "landing-page"
+    ],
+    "demoUrl": "https://shadcnstore.com/templates/dashboards/chronicle",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd vite-version && pnpm install --frozen-lockfile --ignore-scripts --config.strict-dep-builds=false",
+      "build": "VITE_BASENAME=$DEMO_BASE_NOSLASH pnpm exec vite build --base=$DEMO_BASE",
+      "out": "vite-version/dist",
+      "entry": "index.html",
+      "spa": true
+    }
+  },
+  {
+    "slug": "tailadmin-react",
+    "title": "TailAdmin React",
+    "description": "Tailwind CSS admin: e-commerce dashboard, calendar, profile, form elements and layouts, tables, settings, charts, alerts, buttons and auth pages.",
+    "repo": "TailAdmin/free-react-tailwind-admin-dashboard",
+    "sha": "d382bb4ad107d1f0c5bc96c018f271c05e008389",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10",
+      "notes": "v1.3.8 pinned: later commits use apexcharts 4 with @react-jvectormap (AGPL OR commercial) or apexcharts 5+ (dual commercial license)."
+    },
+    "author": "TailAdmin",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "E-commerce",
+    "tags": [
+      "vite",
+      "tailwind",
+      "apexcharts",
+      "react-router",
+      "dark-mode"
+    ],
+    "demoUrl": "https://react-demo.tailadmin.com",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "tailadmin-react.mjs"
+    }
+  },
+  {
+    "slug": "berry-free-react",
+    "title": "Berry Free React Admin",
+    "description": "Material UI admin with a dashboard of cards and charts, typography, color and shadow utilities, sample page, and login/register screens.",
+    "repo": "codedthemes/berry-free-react-admin-template",
+    "sha": "d751c40dac3763a4b24b246701e56592075a3e3f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the last commit on apexcharts 4.7.0; v5.0.0 (2025-10) moved to apexcharts 5 (dual commercial license)."
+    },
+    "author": "CodedThemes",
+    "framework": "react",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "material-ui",
+      "apexcharts",
+      "react-router"
+    ],
+    "demoUrl": "https://berrydashboard.com/free/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd vite && yarn install --immutable",
+      "build": "VITE_APP_BASE_NAME=$DEMO_BASE_NOSLASH yarn vite build --base=$DEMO_BASE",
+      "out": "vite/dist",
+      "entry": "index.html",
+      "spa": true,
+      "env": {
+        "YARN_ENABLE_SCRIPTS": "false",
+        "NODE_OPTIONS": "--max-old-space-size=4096"
+      }
+    },
+    "exclude": "vendor requires a footer credit link on free items (custom attribution term beyond MIT)"
+  },
+  {
+    "slug": "mantis-free-react",
+    "title": "Mantis Free React Admin",
+    "description": "Ant Design-styled Material UI admin: analytics dashboard with charts and orders table, typography, color, shadow, sample page, login and register.",
+    "repo": "codedthemes/mantis-free-react-admin-template",
+    "sha": "bec0222f77d2298897799c5ba28aaaca797f9c46",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "CodedThemes",
+    "framework": "react",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "material-ui",
+      "mui-x-charts",
+      "react-router"
+    ],
+    "demoUrl": "https://mantisdashboard.com/free/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd vite && yarn install --immutable",
+      "build": "VITE_APP_BASE_NAME=$DEMO_BASE_NOSLASH yarn vite build --base=$DEMO_BASE",
+      "out": "vite/dist",
+      "entry": "index.html",
+      "spa": true,
+      "env": {
+        "YARN_ENABLE_SCRIPTS": "false",
+        "NODE_OPTIONS": "--max-old-space-size=4096"
+      }
+    },
+    "exclude": "vendor requires a footer credit link on free items (custom attribution term beyond MIT)"
+  },
+  {
+    "slug": "materially-free-react",
+    "title": "Materially Free React Admin",
+    "description": "Material UI admin with a card-and-chart dashboard, components, typography, sample page, and login/register screens.",
+    "repo": "codedthemes/materially-free-react-admin-template",
+    "sha": "ff70dd06896f1adb12ca39fd1dc81804a1e84e33",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "CodedThemes",
+    "framework": "react",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "material-ui",
+      "apexcharts",
+      "react-router"
+    ],
+    "demoUrl": "https://codedthemes.com/demos/admin-templates/materially/react/free",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "yarn install --immutable",
+      "build": "VITE_APP_BASE_URL=$DEMO_BASE_NOSLASH yarn vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "env": {
+        "YARN_ENABLE_SCRIPTS": "false",
+        "NODE_OPTIONS": "--max-old-space-size=4096"
+      }
+    },
+    "exclude": "vendor requires a footer credit link on free items (custom attribution term beyond MIT)"
+  },
+  {
+    "slug": "datta-able-free-react",
+    "title": "Datta Able Free React Admin",
+    "description": "React-Bootstrap admin: dashboard, UI components, forms, tables, ApexCharts, maps, sample page and auth screens.",
+    "repo": "codedthemes/datta-able-free-react-admin-template",
+    "sha": "a1e48234a75887ecbc5b46c8bfb9cab0caa72d8f",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the last commit on apexcharts 4.5.0; v4.1.0 (2025-12) moved to apexcharts 5 (dual commercial license)."
+    },
+    "author": "CodedThemes",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "react-bootstrap",
+      "apexcharts",
+      "react-router"
+    ],
+    "demoUrl": "https://codedthemes.com/demos/admin-templates/datta-able/react/free",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "yarn install --immutable",
+      "build": "VITE_APP_BASE_NAME=$DEMO_BASE_NOSLASH VITE_APP_GOOGLE_MAPS_API_KEY= yarn vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "env": {
+        "YARN_ENABLE_SCRIPTS": "false",
+        "NODE_OPTIONS": "--max-old-space-size=4096"
+      },
+      "patch": "datta-able-free-react.mjs"
+    },
+    "exclude": "vendor requires a footer credit link on free items (custom attribution term beyond MIT)"
+  },
+  {
+    "slug": "modernize-react-lite",
+    "title": "Modernize React Lite",
+    "description": "Material UI admin: dashboard with charts, typography, shadows, icons, basic table, form layouts and elements, sample page, auth and 404.",
+    "repo": "adminmart/modernize-react-lite",
+    "sha": "4de5f2a10f6b64fdf8090bbd5a25ad52fcd67226",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "AdminMart",
+    "framework": "react",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "material-ui",
+      "apexcharts",
+      "react-router"
+    ],
+    "demoUrl": "https://adminmart.github.io/modernize-react-lite/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd package && npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "package/dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "modernize-react-lite.mjs"
+    }
+  },
+  {
+    "slug": "matdash-react-tailwind-free",
+    "title": "MatDash React Tailwind",
+    "description": "Tailwind and Flowbite React admin: dashboard with charts, products and blog cards, typography, table, form, alert, shadow, icons and auth pages.",
+    "repo": "adminmart/matdash-react-tailwind-free",
+    "sha": "b575f47fcebfcccd16f1b4714fd6fa639af43e30",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to v2 (apexcharts 3.48.0); v3.0.0 (2026-05) moved to apexcharts 5 (dual commercial license)."
+    },
+    "author": "AdminMart",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "flowbite",
+      "apexcharts"
+    ],
+    "demoUrl": "https://matdash-react-tailwind-free.netlify.app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "cd package && npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "package/dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "matdash-react-tailwind-free.mjs"
+    }
+  },
+  {
+    "slug": "minimal-material-kit-react",
+    "title": "Minimal Material Kit React",
+    "description": "Free Minimal UI admin on Material UI: analytics dashboard, users table, products, blog, sign-in and 404 pages.",
+    "repo": "minimal-ui-kit/material-kit-react",
+    "sha": "69e780a40c455d664b2e13c525faf1d492a072a7",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Minimal UI",
+    "framework": "react",
+    "ui": "mui",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "material-ui",
+      "apexcharts",
+      "typescript"
+    ],
+    "demoUrl": "https://free.minimals.cc",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "yarn install --frozen-lockfile --ignore-scripts --network-timeout 600000",
+      "build": "yarn vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "minimal-material-kit-react.mjs"
+    }
+  },
+  {
+    "slug": "material-tailwind-dashboard-react",
+    "title": "Material Tailwind Dashboard React",
+    "description": "Material-style Tailwind admin: dashboard with stat cards and charts, profile, tables, notifications, and sign-in/sign-up pages.",
+    "repo": "creativetimofficial/material-tailwind-dashboard-react",
+    "sha": "721f312c444ee7caa300963a042915c6bdcc883b",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "tailwind",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "material-tailwind",
+      "apexcharts"
+    ],
+    "demoUrl": "https://demos.creative-tim.com/material-tailwind-dashboard-react/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "material-tailwind-dashboard-react.mjs"
+    }
+  },
+  {
+    "slug": "matx-react",
+    "title": "MatX React",
+    "description": "Material UI admin: analytics dashboard, ECharts page, 14 material component pages and sign in/up/forgot screens, on a mock API.",
+    "repo": "uilibrary/matx-react",
+    "sha": "94c37b0c682c7d56110b8540943a9368bca25633",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "UI Lib",
+    "framework": "react",
+    "ui": "mui",
+    "category": "Analytics",
+    "tags": [
+      "vite",
+      "material-ui",
+      "echarts",
+      "react-router"
+    ],
+    "demoUrl": "https://matx-react-free.netlify.app/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "matx-react.mjs"
+    }
+  },
+  {
+    "slug": "flowbite-react-admin-dashboard",
+    "title": "Flowbite React Admin Dashboard",
+    "description": "Small Flowbite React admin: dashboard with charts and world map, e-commerce products, users list, sign-in and sign-up.",
+    "repo": "themesberg/flowbite-react-admin-dashboard",
+    "sha": "ce3afeb2149ad5a91e59c8e98c85e9220224c744",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Themesberg",
+    "framework": "react",
+    "ui": "flowbite",
+    "category": "E-commerce",
+    "tags": [
+      "vite",
+      "tailwind",
+      "flowbite",
+      "apexcharts"
+    ],
+    "demoUrl": "https://flowbite-react-admin-dashboard.vercel.app/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "yarn install --frozen-lockfile --ignore-scripts --network-timeout 600000",
+      "build": "yarn vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "flowbite-react-admin-dashboard.mjs"
+    }
+  },
+  {
+    "slug": "material-dashboard-shadcn",
+    "title": "Material Dashboard Shadcn",
+    "description": "Material Dashboard look rebuilt with shadcn/ui: dashboard, profile, tables, notifications, subscriptions, docs, sign in and sign up.",
+    "repo": "creativetimofficial/material-dashboard-shadcn",
+    "sha": "e51aefd09b59452c4dacdaf3de88bed91e9b911e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.md",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Creative Tim",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tailwind",
+      "hash-router",
+      "recharts"
+    ],
+    "demoUrl": "https://creativetimofficial.github.io/material-dashboard-shadcn",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:20-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "NODE_ENV=production npx vite build --base=$DEMO_BASE",
+      "out": "dist/public",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "material-dashboard-shadcn.mjs"
+    }
+  },
+  {
+    "slug": "slash-admin",
+    "title": "Slash Admin",
+    "description": "Ant Design and shadcn admin: workbench and analysis dashboards, users/roles/permissions, components, charts, kanban, calendar, i18n and error pages.",
+    "repo": "dingyi214/slash-admin",
+    "sha": "63e113c241b2a87f823b14cee2ec2961a8356dbc",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "d3george",
+    "framework": "react",
+    "ui": "antd",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "ant-design",
+      "msw",
+      "tailwind",
+      "i18n"
+    ],
+    "demoUrl": "https://admin.slashspaces.com/",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "pnpm install --frozen-lockfile --ignore-scripts --config.strict-dep-builds=false",
+      "build": "VITE_APP_PUBLIC_PATH=$DEMO_BASE pnpm exec vite build --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "slash-admin.mjs"
+    }
+  },
+  {
+    "slug": "studio-admin-tanstack",
+    "title": "Studio Admin (TanStack)",
+    "description": "Shadcn/ui admin on TanStack Router: many dashboards (CRM, finance, analytics and more), mail, chat, calendar, kanban, users and auth pages.",
+    "repo": "arhamkhnz/tanstack-shadcn-admin-dashboard",
+    "sha": "37169ffbd1a82820953642053b155b54fdd3a657",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Mohammed Arham Khan",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tanstack-start",
+      "tanstack-router",
+      "tailwind",
+      "dark-mode"
+    ],
+    "demoUrl": "https://studio-admin.arhamkhnz.com",
+    "quality": 5,
+    "site": {
+      "kind": "build",
+      "image": "node:22-bookworm",
+      "install": "npm ci --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --base=$DEMO_BASE",
+      "out": "dist/client",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "studio-admin-tanstack.mjs",
+      "env": {
+        "NODE_OPTIONS": "--max-old-space-size=4096 --dns-result-order=ipv4first"
+      }
+    }
+  },
+  {
+    "slug": "airframe-react",
+    "title": "Airframe React",
+    "description": "Large Bootstrap 4 React kit: analytics, projects, system, monitor, financial and stock dashboards, apps (chat, mail, files, tasks), forms, tables.",
+    "repo": "0wczar/airframe-react",
+    "sha": "999e89b9a8ab80056ff2afdc112cdc521e8306a8",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "Tomasz Owczarczyk",
+    "framework": "react",
+    "ui": "bootstrap",
+    "category": "Analytics",
+    "tags": [
+      "webpack",
+      "bootstrap",
+      "reactstrap",
+      "recharts",
+      "react-router"
+    ],
+    "demoUrl": "https://airframe.webkom.co",
+    "quality": 4,
+    "site": {
+      "kind": "build",
+      "image": "node:16-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund --legacy-peer-deps",
+      "build": "BASE_PATH=$DEMO_BASE npx webpack --config ./build/webpack.config.client.prod.js",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "airframe-react.mjs",
+      "env": {
+        "NODE_OPTIONS": "--max-old-space-size=4096"
+      }
+    }
+  },
+  {
+    "slug": "tdesign-react-starter",
+    "title": "TDesign React Starter",
+    "description": "Tencent TDesign admin: overview and detail dashboards, detail pages, base and step forms, card/select/tree lists, result pages, user center, login.",
+    "repo": "Tencent/tdesign-react-starter",
+    "sha": "fce97863edd5d5556f766dd4e342aace31a99487",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10"
+    },
+    "author": "TDesign (Tencent)",
+    "framework": "react",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "tdesign",
+      "echarts",
+      "redux",
+      "mockjs"
+    ],
+    "demoUrl": "https://tdesign.tencent.com/starter/react/",
+    "quality": 3,
+    "site": {
+      "kind": "build",
+      "image": "node:18-bookworm",
+      "install": "npm install --ignore-scripts --no-audit --no-fund",
+      "build": "npx vite build --mode mock --base=$DEMO_BASE",
+      "out": "dist",
+      "entry": "index.html",
+      "spa": true,
+      "patch": "tdesign-react-starter.mjs"
+    }
+  },
+  {
+    "slug": "tailwind-admin-react",
+    "repo": "Tailwind-Admin/free-tailwind-admin-dashboard-template",
+    "sha": "383285f4d3d462d64fd54691d1356a7f2bc89aa5",
+    "exclude": "React version depends on apexcharts ^5.3.5 (dual commercial license since 5.0) and has a single commit, so no permissive older version to pin; it also mocks its API with an MSW service worker."
+  },
+  {
+    "slug": "react-material-admin",
+    "repo": "flatlogic/react-material-admin",
+    "sha": "9aa99163c51a09bb3d996b9c5ad08d48b3c08a52",
+    "exclude": "Every Vite commit depends on apexcharts ^5.6 (dual commercial license); the pre-Vite commits are a dated CRA/react-app-rewired build with backend mode switched on."
+  },
+  {
+    "slug": "tanstack-start-dashboard",
+    "repo": "Kiranism/tanstack-start-dashboard",
+    "sha": "b06c4a59455e6aba27e82dd8bcf446eab0308de8",
+    "exclude": "All data goes through TanStack Start server functions with auth middleware and encrypted cookie sessions (Nitro server); no static build."
+  },
+  {
+    "slug": "shadcn-admin-react-router",
+    "repo": "coji/shadcn-admin-react-router",
+    "sha": "9079aecd945a6d11c77d6cec4d4a68aa276b21f3",
+    "exclude": "React Router framework mode with SSR and server loaders/actions for its data; a port of satnaing/shadcn-admin, which is imported as shadcn-admin."
+  },
+  {
+    "slug": "react-admin-dashboard-antd-itsyujay",
+    "repo": "itsyujay/react-admin-dashboard",
+    "sha": "20957b8435cb31bc05ba62a73f908837c48567ab",
+    "exclude": "Quality 2: minimal antd starter with a handful of pages."
+  },
+  {
+    "slug": "refine-finefoods-antd",
+    "repo": "refinedev/refine",
+    "sha": "2352eb5b6539e2f39ad9aef652279ad1dcf2c467",
+    "exclude": "Every page loads its data from refine's live demo API (api.finefoods.refine.dev); needs a real backend. Example folder inside the refine monorepo."
+  },
+  {
+    "slug": "refine-finefoods-mui",
+    "repo": "refinedev/refine",
+    "sha": "2352eb5b6539e2f39ad9aef652279ad1dcf2c467",
+    "exclude": "Every page loads its data from refine's live demo API (api.finefoods.refine.dev); needs a real backend. Example folder inside the refine monorepo."
+  },
+  {
+    "slug": "refine-crm-minimal",
+    "repo": "refinedev/refine",
+    "sha": "2352eb5b6539e2f39ad9aef652279ad1dcf2c467",
+    "exclude": "Needs refine's live GraphQL + WebSocket API (api.crm.refine.dev) and a real login; needs a real backend."
+  },
+  {
+    "slug": "refine-hr",
+    "repo": "refinedev/refine",
+    "sha": "2352eb5b6539e2f39ad9aef652279ad1dcf2c467",
+    "exclude": "Data and JWT auth come from refine's hosted HR API; needs a real backend."
+  },
+  {
+    "slug": "mui-dashboard-template",
+    "repo": "mui/material-ui",
+    "sha": "dbf007c3406c7d7352089377cf620ceca6fee666",
+    "exclude": "Copy-in docs template inside the Material UI monorepo, not a standalone app: it would need a scaffolded Vite project, and the code view/download would be the whole MUI repo."
+  },
+  {
+    "slug": "mui-crud-dashboard-template",
+    "repo": "mui/material-ui",
+    "sha": "dbf007c3406c7d7352089377cf620ceca6fee666",
+    "exclude": "Copy-in docs template inside the Material UI monorepo, not a standalone app: it would need a scaffolded Vite project, and the code view/download would be the whole MUI repo."
+  },
+  {
+    "slug": "react-admin-posters-galore",
+    "repo": "marmelab/react-admin",
+    "sha": "c99aef27f0319c5bde9cf668274d176e6d0bb15c",
+    "exclude": "Demo builds from react-admin monorepo workspace sources (full monorepo install) and serves its fake API through an MSW service worker; the same Posters Galore admin is imported via shadcn-admin-kit-demo."
+  },
+  {
+    "slug": "ant-design-pro",
+    "repo": "ant-design/ant-design-pro",
+    "sha": "42f2cb1d303380909ea04c73b5e60679d09c321a",
+    "exclude": "All data (currentUser, login, lists, notices) comes from umi's dev-only mock server; a production build has no API, so the layout redirects to a login that cannot succeed."
+  },
+  {
+    "slug": "orange-admin",
+    "repo": "yluiop123/orange",
+    "sha": "939006804102bd32ed51cd57a5986f17958f0169",
+    "exclude": "Every page needs its NestJS API or an MSW service-worker mock with login and refresh-cookie auth (service workers can't register in the demo sandbox); monorepo frontend, quality 3."
+  },
+  {
+    "slug": "antd-admin-zuiidea",
+    "repo": "zuiidea/antd-admin",
+    "sha": "4dc473ba55635e73b642f7de71a3ac0aa58a7bd6",
+    "exclude": "Current rewrite is a small app (dashboard, users, login, 403/404) on the vite-plus toolchain whose data and login/refresh-token flow all run through an MSW service worker."
+  }
+]

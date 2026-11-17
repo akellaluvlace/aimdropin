@@ -1,0 +1,93 @@
+{
+  "record": {
+    "slug": "ng-matero",
+    "title": "NG-Matero",
+    "description": "Angular Material admin with dashboard, Material component demos, forms, tables (incl. grid), media gallery, permissions, profile, auth and error pages.",
+    "repo": "ng-matero/ng-matero",
+    "sha": "fbe4e77b0bf7ea78b5c85b9fd306e9162a190d8d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the last commit (2025-09-23) before ApexCharts moved to 5.x; it bundles ApexCharts 4.5.0 (MIT).",
+      "url": "https://github.com/ng-matero/ng-matero/blob/fbe4e77b0bf7ea78b5c85b9fd306e9162a190d8d/LICENSE"
+    },
+    "author": "Zongbin",
+    "framework": "angular",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "angular-material",
+      "apexcharts",
+      "i18n",
+      "dark-mode",
+      "rtl"
+    ],
+    "demoUrl": "https://ng-matero.github.io/ng-matero/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "NG-Matero"
+      }
+    ],
+    "storedBytes": 3114514,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:26.687Z"
+  },
+  "serve": {
+    "slug": "ng-matero",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/ng-matero/ng-matero@fbe4e77b0bf7ea78b5c85b9fd306e9162a190d8d/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "public/favicon.ico",
+      "fonts/Material_Icons.css": "public/fonts/Material_Icons.css",
+      "fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2": "public/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
+      "images/avatar-default.jpg": "public/images/avatar-default.jpg",
+      "images/avatar.jpg": "public/images/avatar.jpg",
+      "images/heros/1.jpg": "public/images/heros/1.jpg",
+      "images/heros/10.jpg": "public/images/heros/10.jpg",
+      "images/heros/11.jpg": "public/images/heros/11.jpg",
+      "images/heros/12.jpg": "public/images/heros/12.jpg",
+      "images/heros/13.jpg": "public/images/heros/13.jpg",
+      "images/heros/14.jpg": "public/images/heros/14.jpg",
+      "images/heros/15.jpg": "public/images/heros/15.jpg",
+      "images/heros/2.jpg": "public/images/heros/2.jpg",
+      "images/heros/3.jpg": "public/images/heros/3.jpg",
+      "images/heros/4.jpg": "public/images/heros/4.jpg",
+      "images/heros/5.jpg": "public/images/heros/5.jpg",
+      "images/heros/6.jpg": "public/images/heros/6.jpg",
+      "images/heros/7.jpg": "public/images/heros/7.jpg",
+      "images/heros/8.jpg": "public/images/heros/8.jpg",
+      "images/heros/9.jpg": "public/images/heros/9.jpg",
+      "images/matero.png": "public/images/matero.png",
+      "images/pixabay/1.jpg": "public/images/pixabay/1.jpg",
+      "images/pixabay/10.jpg": "public/images/pixabay/10.jpg",
+      "images/pixabay/11.jpg": "public/images/pixabay/11.jpg",
+      "images/pixabay/12.jpg": "public/images/pixabay/12.jpg",
+      "images/pixabay/13.jpg": "public/images/pixabay/13.jpg",
+      "images/pixabay/14.jpg": "public/images/pixabay/14.jpg",
+      "images/pixabay/15.jpg": "public/images/pixabay/15.jpg",
+      "images/pixabay/16.jpg": "public/images/pixabay/16.jpg",
+      "images/pixabay/17.jpg": "public/images/pixabay/17.jpg",
+      "images/pixabay/18.jpg": "public/images/pixabay/18.jpg",
+      "images/pixabay/19.jpg": "public/images/pixabay/19.jpg",
+      "images/pixabay/2.jpg": "public/images/pixabay/2.jpg",
+      "images/pixabay/20.jpg": "public/images/pixabay/20.jpg",
+      "images/pixabay/3.jpg": "public/images/pixabay/3.jpg",
+      "images/pixabay/4.jpg": "public/images/pixabay/4.jpg",
+      "images/pixabay/5.jpg": "public/images/pixabay/5.jpg",
+      "images/pixabay/6.jpg": "public/images/pixabay/6.jpg",
+      "images/pixabay/7.jpg": "public/images/pixabay/7.jpg",
+      "images/pixabay/8.jpg": "public/images/pixabay/8.jpg",
+      "images/pixabay/9.jpg": "public/images/pixabay/9.jpg"
+    }
+  }
+}

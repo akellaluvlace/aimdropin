@@ -1,0 +1,71 @@
+{
+  "record": {
+    "slug": "light-blue-lite-html",
+    "title": "Light Blue Lite",
+    "description": "Glassy dark admin on Bootstrap 3: dashboard, typography, tables, notifications, charts, icons and login.",
+    "repo": "flatlogic/light-blue-dashboard",
+    "sha": "ea63915fae8ad53229438ae9998d409007a8fc27",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/flatlogic/light-blue-dashboard/blob/ea63915fae8ad53229438ae9998d409007a8fc27/LICENSE"
+    },
+    "author": "Flatlogic",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap3",
+      "glassmorphism",
+      "charts"
+    ],
+    "demoUrl": "https://flatlogic.com/admin-dashboards/light-blue-dashboard-lite/demo",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Light Blue Dashboard - Bootstrap Admin Template"
+      },
+      {
+        "path": "charts.html",
+        "title": "Light Blue Dashboard - Charts"
+      },
+      {
+        "path": "icons.html",
+        "title": "Light Blue Dashboard - Icons"
+      },
+      {
+        "path": "login.html",
+        "title": "Light Blue Dashboard - Bootstrap Admin Template"
+      },
+      {
+        "path": "notifications.html",
+        "title": "Light Blue Dashboard - Notifications"
+      },
+      {
+        "path": "tables.html",
+        "title": "Light Blue Dashboard - Tables"
+      },
+      {
+        "path": "typography.html",
+        "title": "Light Blue Dashboard - Typography"
+      }
+    ],
+    "storedBytes": 865849,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:21.541Z"
+  },
+  "serve": {
+    "slug": "light-blue-lite-html",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/flatlogic/light-blue-dashboard@ea63915fae8ad53229438ae9998d409007a8fc27/",
+    "cdnRoot": "docs",
+    "cdnMap": null
+  }
+}

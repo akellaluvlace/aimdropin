@@ -1,0 +1,194 @@
+{
+  "checkedAt": "2026-11-10T17:49:17.867Z",
+  "pagesChecked": 46,
+  "pagesOk": 45,
+  "failures": [
+    {
+      "path": "maps/google-maps",
+      "problem": "script error: Uncaught SecurityError: Failed to read a named property 'addEventListener' from 'Window': Sandbox access violation: Blocked a frame at \"http://localhost:3000\" from accessing a frame at \"null\".  Both f"
+    }
+  ],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "NFT Dashboard | Lightence Admin"
+    },
+    {
+      "path": "medical-dashboard",
+      "title": "Medical Dashboard | Lightence Admin"
+    },
+    {
+      "path": "apps/feed",
+      "title": "Feed | Lightence Admin"
+    },
+    {
+      "path": "auth/login",
+      "title": "Log In | Lightence Admin"
+    },
+    {
+      "path": "auth/sign-up",
+      "title": "Sign Up | Lightence Admin"
+    },
+    {
+      "path": "auth/lock",
+      "title": "Lock | Lightence Admin"
+    },
+    {
+      "path": "auth/forgot-password",
+      "title": "Forgot Password | Lightence Admin"
+    },
+    {
+      "path": "auth/security-code",
+      "title": "Security Code | Lightence Admin"
+    },
+    {
+      "path": "auth/new-password",
+      "title": "New Password | Lightence Admin"
+    },
+    {
+      "path": "forms/advanced-forms",
+      "title": "Advanced Forms | Lightence Admin"
+    },
+    {
+      "path": "data-tables",
+      "title": "Data Tables | Lightence Admin"
+    },
+    {
+      "path": "charts",
+      "title": "Charts | Lightence Admin"
+    },
+    {
+      "path": "maps/leaflet-maps",
+      "title": "Leaflet Maps | Lightence Admin"
+    },
+    {
+      "path": "maps/react-simple-maps",
+      "title": "React Simple Maps | Lightence Admin"
+    },
+    {
+      "path": "maps/pigeon-maps",
+      "title": "Pigeon Maps | Lightence Admin"
+    },
+    {
+      "path": "profile",
+      "title": "Personal Info | Lightence Admin"
+    },
+    {
+      "path": "server-error",
+      "title": "Server Error | Lightence Admin"
+    },
+    {
+      "path": "404",
+      "title": "Client Error | Lightence Admin"
+    },
+    {
+      "path": "ui-components/alert",
+      "title": "Alert | Lightence Admin"
+    },
+    {
+      "path": "ui-components/avatar",
+      "title": "Avatar | Lightence Admin"
+    },
+    {
+      "path": "ui-components/auto-complete",
+      "title": "AutoComplete | Lightence Admin"
+    },
+    {
+      "path": "ui-components/badge",
+      "title": "Badge | Lightence Admin"
+    },
+    {
+      "path": "ui-components/breadcrumbs",
+      "title": "Breadcrumbs | Lightence Admin"
+    },
+    {
+      "path": "ui-components/button",
+      "title": "Button | Lightence Admin"
+    },
+    {
+      "path": "ui-components/checkbox",
+      "title": "Checkbox | Lightence Admin"
+    },
+    {
+      "path": "ui-components/collapse",
+      "title": "Collapse | Lightence Admin"
+    },
+    {
+      "path": "ui-components/date-time-picker",
+      "title": "DateTime Picker | Lightence Admin"
+    },
+    {
+      "path": "ui-components/dropdown",
+      "title": "Dropdown | Lightence Admin"
+    },
+    {
+      "path": "ui-components/input",
+      "title": "Input | Lightence Admin"
+    },
+    {
+      "path": "ui-components/modal",
+      "title": "Modal | Lightence Admin"
+    },
+    {
+      "path": "ui-components/notification",
+      "title": "Notification | Lightence Admin"
+    },
+    {
+      "path": "ui-components/pagination",
+      "title": "Pagination | Lightence Admin"
+    },
+    {
+      "path": "ui-components/popconfirm",
+      "title": "Popconfirm | Lightence Admin"
+    },
+    {
+      "path": "ui-components/popover",
+      "title": "Popover | Lightence Admin"
+    },
+    {
+      "path": "ui-components/progress",
+      "title": "Progress | Lightence Admin"
+    },
+    {
+      "path": "ui-components/radio",
+      "title": "Radio | Lightence Admin"
+    },
+    {
+      "path": "ui-components/rate",
+      "title": "Rate | Lightence Admin"
+    },
+    {
+      "path": "ui-components/result",
+      "title": "Result | Lightence Admin"
+    },
+    {
+      "path": "ui-components/select",
+      "title": "Select | Lightence Admin"
+    },
+    {
+      "path": "ui-components/skeleton",
+      "title": "Skeleton | Lightence Admin"
+    },
+    {
+      "path": "ui-components/spinner",
+      "title": "Spinner | Lightence Admin"
+    },
+    {
+      "path": "ui-components/steps",
+      "title": "Steps | Lightence Admin"
+    },
+    {
+      "path": "ui-components/switch",
+      "title": "Switch | Lightence Admin"
+    },
+    {
+      "path": "ui-components/tabs",
+      "title": "Tabs | Lightence Admin"
+    },
+    {
+      "path": "ui-components/upload",
+      "title": "Upload | Lightence Admin"
+    }
+  ]
+}

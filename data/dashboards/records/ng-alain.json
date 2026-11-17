@@ -1,0 +1,78 @@
+{
+  "record": {
+    "slug": "ng-alain",
+    "title": "NG-ALAIN",
+    "description": "Enterprise Angular admin on ng-zorro-antd and @delon: analysis/monitor/workplace dashboards, forms, lists, profiles, results, exceptions and account pages.",
+    "repo": "ng-alain/ng-alain",
+    "sha": "9f84a4ea8bd0291683d4be3c66697f0346bc0dca",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "notes": "ngx-tinymce is listed in package.json but not imported anywhere, so TinyMCE isn't bundled.",
+      "url": "https://github.com/ng-alain/ng-alain/blob/9f84a4ea8bd0291683d4be3c66697f0346bc0dca/LICENSE"
+    },
+    "author": "cipchk",
+    "framework": "angular",
+    "ui": "antd",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "ng-zorro",
+      "delon",
+      "i18n",
+      "mock-data"
+    ],
+    "demoUrl": "https://ng-alain.github.io/ng-alain/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "NG-ALAIN"
+      }
+    ],
+    "storedBytes": 3537739,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:26.775Z"
+  },
+  "serve": {
+    "slug": "ng-alain",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/ng-alain/ng-alain@9f84a4ea8bd0291683d4be3c66697f0346bc0dca/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/color.less": "src/assets/color.less",
+      "assets/style.compact.css": "src/assets/style.compact.css",
+      "assets/style.dark.css": "src/assets/style.dark.css",
+      "assets/tmp/demo.docx": "src/assets/tmp/demo.docx",
+      "assets/tmp/demo.pdf": "src/assets/tmp/demo.pdf",
+      "assets/tmp/demo.pptx": "src/assets/tmp/demo.pptx",
+      "assets/tmp/demo.xlsx": "src/assets/tmp/demo.xlsx",
+      "assets/tmp/demo.zip": "src/assets/tmp/demo.zip",
+      "assets/tmp/img/1.png": "src/assets/tmp/img/1.png",
+      "assets/tmp/img/2.png": "src/assets/tmp/img/2.png",
+      "assets/tmp/img/3.png": "src/assets/tmp/img/3.png",
+      "assets/tmp/img/4.png": "src/assets/tmp/img/4.png",
+      "assets/tmp/img/5.png": "src/assets/tmp/img/5.png",
+      "assets/tmp/img/6.png": "src/assets/tmp/img/6.png",
+      "assets/tmp/img/avatar.jpg": "src/assets/tmp/img/avatar.jpg",
+      "assets/tmp/img/bg1.jpg": "src/assets/tmp/img/bg1.jpg",
+      "assets/tmp/img/bg10.jpg": "src/assets/tmp/img/bg10.jpg",
+      "assets/tmp/img/bg2.jpg": "src/assets/tmp/img/bg2.jpg",
+      "assets/tmp/img/bg3.jpg": "src/assets/tmp/img/bg3.jpg",
+      "assets/tmp/img/bg4.jpg": "src/assets/tmp/img/bg4.jpg",
+      "assets/tmp/img/bg5.jpg": "src/assets/tmp/img/bg5.jpg",
+      "assets/tmp/img/bg6.jpg": "src/assets/tmp/img/bg6.jpg",
+      "assets/tmp/img/bg7.jpg": "src/assets/tmp/img/bg7.jpg",
+      "assets/tmp/img/bg8.jpg": "src/assets/tmp/img/bg8.jpg",
+      "assets/tmp/img/bg9.jpg": "src/assets/tmp/img/bg9.jpg",
+      "assets/tmp/img/half-float-bg-1.jpg": "src/assets/tmp/img/half-float-bg-1.jpg",
+      "favicon.ico": "public/favicon.ico"
+    }
+  }
+}

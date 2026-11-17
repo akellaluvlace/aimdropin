@@ -1,0 +1,77 @@
+{
+  "checkedAt": "2026-11-10T18:13:06.805Z",
+  "pagesChecked": 17,
+  "pagesOk": 17,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Tailwind CSS Dashboard - Windster"
+    },
+    {
+      "path": "authentication/sign-in/index.html",
+      "title": "Tailwind CSS Sign in/Login Page - Windster"
+    },
+    {
+      "path": "authentication/sign-up/index.html",
+      "title": "Tailwind CSS Sign Up/Register Page - Windster"
+    },
+    {
+      "path": "e-commerce/products/index.html",
+      "title": "Tailwind CSS Products Page - Windster"
+    },
+    {
+      "path": "pricing/index.html",
+      "title": "Tailwind CSS Pricing Page - Windster"
+    },
+    {
+      "path": "users/list/index.html",
+      "title": "Tailwind CSS Users List Page - Windster"
+    },
+    {
+      "path": "",
+      "title": "Tailwind CSS Dashboard - Windster"
+    },
+    {
+      "path": "pricing/",
+      "title": "Tailwind CSS Pricing Page - Windster"
+    },
+    {
+      "path": "users/list/",
+      "title": "Tailwind CSS Users List Page - Windster"
+    },
+    {
+      "path": "e-commerce/products/",
+      "title": "Tailwind CSS Products Page - Windster"
+    },
+    {
+      "path": "authentication/sign-in/",
+      "title": "Tailwind CSS Sign in/Login Page - Windster"
+    },
+    {
+      "path": "authentication/sign-up/",
+      "title": "Tailwind CSS Sign Up/Register Page - Windster"
+    },
+    {
+      "path": "pricing",
+      "title": "Tailwind CSS Pricing Page - Windster"
+    },
+    {
+      "path": "users/list",
+      "title": "Tailwind CSS Users List Page - Windster"
+    },
+    {
+      "path": "e-commerce/products",
+      "title": "Tailwind CSS Products Page - Windster"
+    },
+    {
+      "path": "authentication/sign-in",
+      "title": "Tailwind CSS Sign in/Login Page - Windster"
+    },
+    {
+      "path": "authentication/sign-up",
+      "title": "Tailwind CSS Sign Up/Register Page - Windster"
+    }
+  ]
+}

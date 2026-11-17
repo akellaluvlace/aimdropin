@@ -1,0 +1,83 @@
+{
+  "record": {
+    "slug": "modernize-bootstrap-html",
+    "title": "Modernize (Bootstrap)",
+    "description": "Bootstrap 5 admin: dashboard with ApexCharts, buttons, alerts, cards, forms, typography, icons and auth pages.",
+    "repo": "adminmart/Modernize-bootstrap-free",
+    "sha": "eb5731c39157de7c1bd87de3ae8089d1f5f6f588",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/adminmart/Modernize-bootstrap-free/blob/eb5731c39157de7c1bd87de3ae8089d1f5f6f588/LICENSE.txt"
+    },
+    "author": "AdminMart",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "apexcharts",
+      "tabler-icons"
+    ],
+    "demoUrl": "https://bootstrapdemos.adminmart.com/modernize-bt-free/src/html/index.html",
+    "quality": 3,
+    "entry": "html/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "html/index.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/authentication-login.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/authentication-register.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/icon-tabler.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/sample-page.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-alerts.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-buttons.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-card.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-forms.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      },
+      {
+        "path": "html/ui-typography.html",
+        "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+      }
+    ],
+    "storedBytes": 7100241,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:22.531Z"
+  },
+  "serve": {
+    "slug": "modernize-bootstrap-html",
+    "kind": "static",
+    "entry": "html/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/adminmart/Modernize-bootstrap-free@eb5731c39157de7c1bd87de3ae8089d1f5f6f588/",
+    "cdnRoot": "src",
+    "cdnMap": null
+  }
+}

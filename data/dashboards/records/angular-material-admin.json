@@ -1,0 +1,61 @@
+{
+  "record": {
+    "slug": "angular-material-admin",
+    "title": "Angular Material Admin",
+    "description": "Flatlogic's Angular Material admin: dashboard with ApexCharts and ECharts, typography, tables, notifications, UI icons/charts/maps pages and login.",
+    "repo": "flatlogic/angular-material-admin",
+    "sha": "8d743f3c2d5ec7a9bad4359cd612748428cbc550",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE.txt",
+      "verifiedAt": "2026-11-10",
+      "notes": "Pinned to the 2024-03 commit (Angular 11, ApexCharts 3.26.2, MIT); the 2026-11 Angular 21 migration bundles ApexCharts 6.x.",
+      "url": "https://github.com/flatlogic/angular-material-admin/blob/8d743f3c2d5ec7a9bad4359cd612748428cbc550/LICENSE.txt"
+    },
+    "author": "Flatlogic",
+    "framework": "angular",
+    "ui": "material",
+    "category": "Admin",
+    "tags": [
+      "angular",
+      "angular-material",
+      "apexcharts",
+      "echarts"
+    ],
+    "demoUrl": "https://flatlogic.com/templates/angular-material-admin",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Angular Material Admin"
+      }
+    ],
+    "storedBytes": 3438448,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:26.587Z"
+  },
+  "serve": {
+    "slug": "angular-material-admin",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/flatlogic/angular-material-admin@8d743f3c2d5ec7a9bad4359cd612748428cbc550/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "3rdpartylicenses.txt": "docs/3rdpartylicenses.txt",
+      "9-es2015.320f8cb4b1cddadac795.js": "docs/9-es2015.f41bee60680ac12bf6a3.js",
+      "9-es5.320f8cb4b1cddadac795.js": "docs/9-es5.f41bee60680ac12bf6a3.js",
+      "favicon.ico": "docs/favicon.ico",
+      "fontawesome-webfont.1e59d2330b4c6deb84b3.ttf": "docs/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+      "fontawesome-webfont.20fd1704ea223900efa9.woff2": "docs/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+      "fontawesome-webfont.8b43027f47b20503057d.eot": "docs/fontawesome-webfont.8b43027f47b20503057d.eot",
+      "fontawesome-webfont.f691f37e57f04c152e23.woff": "docs/fontawesome-webfont.f691f37e57f04c152e23.woff",
+      "polyfills-es2015.c131ee7c37c2ac42bd19.js": "docs/polyfills-es2015.50e780b49b41122eacd0.js",
+      "polyfills-es5.fe58a5d0f1c1254f8fa5.js": "docs/polyfills-es5.c74a87d6ce0c9868349c.js",
+      "styles.572ff90e61cae7822738.css": "docs/styles.572ff90e61cae7822738.css"
+    }
+  }
+}

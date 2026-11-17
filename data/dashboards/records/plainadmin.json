@@ -1,0 +1,103 @@
+{
+  "record": {
+    "slug": "plainadmin",
+    "title": "PlainAdmin",
+    "description": "Bootstrap 5 admin with vanilla JS: e-commerce dashboard, invoice, settings, UI elements, forms, tables, icons and auth pages.",
+    "repo": "PlainAdmin/plain-free-bootstrap-admin-template",
+    "sha": "dcb30e2bce6c9f12e833ebb220b3cb218597f12e",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/PlainAdmin/plain-free-bootstrap-admin-template/blob/dcb30e2bce6c9f12e833ebb220b3cb218597f12e/LICENSE"
+    },
+    "author": "PlainAdmin",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap5",
+      "vanilla-js",
+      "charts"
+    ],
+    "demoUrl": "https://demo.plainadmin.com/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "PlainAdmin Demo | Bootstrap 5 Admin Template"
+      },
+      {
+        "path": "alerts.html",
+        "title": "Alerts | PlainAdmin Demo"
+      },
+      {
+        "path": "blank-page.html",
+        "title": "Blank Page | PlainAdmin Demo"
+      },
+      {
+        "path": "buttons.html",
+        "title": "Button | PlainAdmin Demo"
+      },
+      {
+        "path": "cards.html",
+        "title": "Cards | PlainAdmin Demo"
+      },
+      {
+        "path": "form-elements.html",
+        "title": "Form Elements | PlainAdmin Demo"
+      },
+      {
+        "path": "icons.html",
+        "title": "Line Icons | PlainAdmin Demo"
+      },
+      {
+        "path": "invoice.html",
+        "title": "Invoice | PlainAdmin Demo"
+      },
+      {
+        "path": "mdi-icons.html",
+        "title": "Material Design Icons | PlainAdmin Demo"
+      },
+      {
+        "path": "notification.html",
+        "title": "Notification | PlainAdmin Demo"
+      },
+      {
+        "path": "settings.html",
+        "title": "Settings | PlainAdmin Demo"
+      },
+      {
+        "path": "signin.html",
+        "title": "Sign In | PlainAdmin Demo"
+      },
+      {
+        "path": "signup.html",
+        "title": "Sign Up | PlainAdmin Demo"
+      },
+      {
+        "path": "tables.html",
+        "title": "Tables | PlainAdmin Demo"
+      },
+      {
+        "path": "typography.html",
+        "title": "Typography | PlainAdmin Demo"
+      }
+    ],
+    "storedBytes": 2019184,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:24.348Z"
+  },
+  "serve": {
+    "slug": "plainadmin",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/PlainAdmin/plain-free-bootstrap-admin-template@dcb30e2bce6c9f12e833ebb220b3cb218597f12e/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

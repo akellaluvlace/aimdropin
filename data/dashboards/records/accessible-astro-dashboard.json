@@ -1,0 +1,80 @@
+{
+  "record": {
+    "slug": "accessible-astro-dashboard",
+    "title": "Accessible Astro Dashboard",
+    "description": "Accessibility-focused Astro admin with dashboard, users, products, media, messages, settings and login pages.",
+    "repo": "incluud/accessible-astro-dashboard",
+    "sha": "3dcc29035a2fc648384336446248548565e63357",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/incluud/accessible-astro-dashboard/blob/3dcc29035a2fc648384336446248548565e63357/LICENSE"
+    },
+    "author": "Mark Teekman (Incluud)",
+    "framework": "astro",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "astro",
+      "accessibility",
+      "scss",
+      "dark-mode"
+    ],
+    "demoUrl": "https://accessible-astro-dashboard.netlify.app",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dashboard - Accessible Astro Dashboard"
+      },
+      {
+        "path": "404.html",
+        "title": "404 - Accessible Astro Dashboard"
+      },
+      {
+        "path": "login/index.html",
+        "title": "Login - Accessible Astro Dashboard"
+      },
+      {
+        "path": "media/index.html",
+        "title": "Media - Accessible Astro Dashboard"
+      },
+      {
+        "path": "messages/index.html",
+        "title": "Messages - Accessible Astro Dashboard"
+      },
+      {
+        "path": "products/index.html",
+        "title": "Products - Accessible Astro Dashboard"
+      },
+      {
+        "path": "settings/index.html",
+        "title": "Settings - Accessible Astro Dashboard"
+      },
+      {
+        "path": "users/index.html",
+        "title": "Users - Accessible Astro Dashboard"
+      }
+    ],
+    "storedBytes": 200933,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:29:30.253Z"
+  },
+  "serve": {
+    "slug": "accessible-astro-dashboard",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/incluud/accessible-astro-dashboard@3dcc29035a2fc648384336446248548565e63357/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "login-background.webp": "public/login-background.webp",
+      "social-preview-image.png": "public/social-preview-image.png",
+      "user-avatar.png": "public/user-avatar.png"
+    }
+  }
+}

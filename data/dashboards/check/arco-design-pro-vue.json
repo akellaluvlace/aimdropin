@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-11-10T18:58:41.711Z",
+  "pagesChecked": 27,
+  "pagesOk": 27,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Arco Design Pro - 开箱即用的中台前端/设计解决方案"
+    },
+    {
+      "path": "dashboard/workplace",
+      "title": "Dashboard / Workplace"
+    },
+    {
+      "path": "dashboard/monitor",
+      "title": "Dashboard / Monitor"
+    },
+    {
+      "path": "exception/403",
+      "title": "Exception / 403"
+    },
+    {
+      "path": "exception/404",
+      "title": "Exception / 404"
+    },
+    {
+      "path": "exception/500",
+      "title": "Exception / 500"
+    },
+    {
+      "path": "form/step",
+      "title": "Form / Step"
+    },
+    {
+      "path": "form/group",
+      "title": "Form / Group"
+    },
+    {
+      "path": "list/search-table",
+      "title": "List / Search Table"
+    },
+    {
+      "path": "list/card",
+      "title": "List / Card"
+    },
+    {
+      "path": "profile/basic",
+      "title": "Profile / Basic"
+    },
+    {
+      "path": "result/success",
+      "title": "Result / Success"
+    },
+    {
+      "path": "result/error",
+      "title": "Result / Error"
+    },
+    {
+      "path": "user/info",
+      "title": "User / Info"
+    },
+    {
+      "path": "user/setting",
+      "title": "User / Setting"
+    },
+    {
+      "path": "visualization/data-analysis",
+      "title": "Visualization / Data Analysis"
+    },
+    {
+      "path": "visualization/multi-dimension-data-analysis",
+      "title": "Visualization / Multi Dimension Data Analysis"
+    },
+    {
+      "path": "login",
+      "title": "Login"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "exception",
+      "title": "Exception"
+    },
+    {
+      "path": "form",
+      "title": "Form"
+    },
+    {
+      "path": "list",
+      "title": "List"
+    },
+    {
+      "path": "profile",
+      "title": "Profile"
+    },
+    {
+      "path": "result",
+      "title": "Result"
+    },
+    {
+      "path": "user",
+      "title": "User"
+    },
+    {
+      "path": "visualization",
+      "title": "Visualization"
+    },
+    {
+      "path": "redirect",
+      "title": "Redirect"
+    }
+  ]
+}

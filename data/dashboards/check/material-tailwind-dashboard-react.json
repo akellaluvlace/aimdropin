@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-10T17:36:19.105Z",
+  "pagesChecked": 8,
+  "pagesOk": 8,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Material Tailwind Dashboard React | By Creative Tim"
+    },
+    {
+      "path": "dashboard/home",
+      "title": "Dashboard / Home"
+    },
+    {
+      "path": "dashboard/profile",
+      "title": "Dashboard / Profile"
+    },
+    {
+      "path": "dashboard/tables",
+      "title": "Dashboard / Tables"
+    },
+    {
+      "path": "dashboard/notifications",
+      "title": "Dashboard / Notifications"
+    },
+    {
+      "path": "auth/sign-in",
+      "title": "Auth / Sign In"
+    },
+    {
+      "path": "auth/sign-up",
+      "title": "Auth / Sign Up"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    }
+  ]
+}

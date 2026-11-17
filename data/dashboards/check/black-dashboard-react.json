@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T17:38:15.689Z",
+  "pagesChecked": 9,
+  "pagesOk": 9,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "",
+      "title": "Black Dashboard React by Creative Tim"
+    },
+    {
+      "path": "admin/dashboard",
+      "title": "Admin / Dashboard"
+    },
+    {
+      "path": "admin/icons",
+      "title": "Admin / Icons"
+    },
+    {
+      "path": "admin/map",
+      "title": "Admin / Map"
+    },
+    {
+      "path": "admin/notifications",
+      "title": "Admin / Notifications"
+    },
+    {
+      "path": "admin/user-profile",
+      "title": "Admin / User Profile"
+    },
+    {
+      "path": "admin/tables",
+      "title": "Admin / Tables"
+    },
+    {
+      "path": "admin/typography",
+      "title": "Admin / Typography"
+    },
+    {
+      "path": "rtl/rtl-support",
+      "title": "Rtl / Rtl Support"
+    }
+  ]
+}

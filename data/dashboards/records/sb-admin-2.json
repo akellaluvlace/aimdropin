@@ -1,0 +1,100 @@
+{
+  "record": {
+    "slug": "sb-admin-2",
+    "title": "SB Admin 2",
+    "description": "Bootstrap 4 admin: dashboard, buttons, cards, colors, borders, animations, charts, tables, auth and 404 pages.",
+    "repo": "StartBootstrap/startbootstrap-sb-admin-2",
+    "sha": "f0309881ef82794a1bd6257cd321801bc38a0f3d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2/blob/f0309881ef82794a1bd6257cd321801bc38a0f3d/LICENSE"
+    },
+    "author": "Start Bootstrap",
+    "framework": "html",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap4",
+      "jquery",
+      "charts",
+      "datatables"
+    ],
+    "demoUrl": "https://startbootstrap.github.io/startbootstrap-sb-admin-2/",
+    "quality": 3,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "SB Admin 2 - Dashboard"
+      },
+      {
+        "path": "404.html",
+        "title": "SB Admin 2 - 404"
+      },
+      {
+        "path": "blank.html",
+        "title": "SB Admin 2 - Blank"
+      },
+      {
+        "path": "buttons.html",
+        "title": "SB Admin 2 - Buttons"
+      },
+      {
+        "path": "cards.html",
+        "title": "SB Admin 2 - Cards"
+      },
+      {
+        "path": "charts.html",
+        "title": "SB Admin 2 - Charts"
+      },
+      {
+        "path": "forgot-password.html",
+        "title": "SB Admin 2 - Forgot Password"
+      },
+      {
+        "path": "login.html",
+        "title": "SB Admin 2 - Login"
+      },
+      {
+        "path": "register.html",
+        "title": "SB Admin 2 - Register"
+      },
+      {
+        "path": "tables.html",
+        "title": "SB Admin 2 - Tables"
+      },
+      {
+        "path": "utilities-animation.html",
+        "title": "SB Admin 2 - Animation Utilities"
+      },
+      {
+        "path": "utilities-border.html",
+        "title": "SB Admin 2 - Border Utilities"
+      },
+      {
+        "path": "utilities-color.html",
+        "title": "SB Admin 2 - Color Utilities"
+      },
+      {
+        "path": "utilities-other.html",
+        "title": "SB Admin 2 - Other Utilities"
+      }
+    ],
+    "storedBytes": 5608717,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:27.169Z"
+  },
+  "serve": {
+    "slug": "sb-admin-2",
+    "kind": "static",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/StartBootstrap/startbootstrap-sb-admin-2@f0309881ef82794a1bd6257cd321801bc38a0f3d/",
+    "cdnRoot": "",
+    "cdnMap": null
+  }
+}

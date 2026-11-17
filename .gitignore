@@ -1,0 +1,97 @@
+# deps
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env: every .env file except the documented example
+.env
+.env.*
+!.env.example
+
+# keys and certificates, wherever they land
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*.keystore
+
+# test and browser-run output
+/test-results/
+/playwright-report/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel
+
+# ingestion clone cache (uiverse-io/galaxy + markmead/hyperui)
+/.cache
+
+# Claude Code workspace - local-only agent settings + per-session artifacts
+.claude/
+
+# IDE clutter
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Working-tree screenshots (Windows + macOS naming conventions)
+Screenshot*.png
+screenshot-*.png
+
+# Local-only diff previews & one-off scratch
+phase5-prettier-diff-preview.txt
+*.tmp
+*.log
+
+# Internal planning / audit / handoff docs - kept LOCAL only, never shipped
+# to the public GitHub repo or the Vercel deploy. Covers CLAUDE.md +
+# archives, AUDIT-*, phase*, plan, manipulation, playbooks, etc. README.md
+# is the one root doc we keep as the repo's front page.
+/*.md
+!/README.md
+!/SECURITY.md
+!/THIRD_PARTY_NOTICES.md
+/docs/
+/audit-2026-05-04/
+/audit-2026-05-06/
+
+# One-off scratch scripts used during refactors
+/_*.cjs
+
+# Live dashboard demos (1.3 GB): built locally by scripts/dashboards, served in
+# production from the storage bucket (scripts/dashboards/upload-demos.mjs).
+/demos/
+/public/demos/
+/data/dashboards/log/
+
+# Local agent/workflow state
+/.superpowers/
+/.remember/
+/image.png
+# Screenshots pasted into the repo root while working ("image copy.png", ...)
+/image*.png

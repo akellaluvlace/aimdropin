@@ -1,0 +1,51 @@
+{
+  "record": {
+    "slug": "arco-design-pro-vue",
+    "title": "Arco Design Pro Vue",
+    "description": "ByteDance Arco Design admin: workplace and data analysis dashboards, lists, forms, profiles, results, exceptions and user settings, with mock data.",
+    "repo": "arco-design/arco-design-pro-vue",
+    "sha": "27020819af653243b7b1a3e8e2481d6b3d798749",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/arco-design/arco-design-pro-vue/blob/27020819af653243b7b1a3e8e2481d6b3d798749/LICENSE"
+    },
+    "author": "ByteDance Arco Design",
+    "framework": "vue",
+    "ui": "other",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "arco-design",
+      "echarts",
+      "mockjs",
+      "i18n"
+    ],
+    "demoUrl": "https://vue-pro.arco.design/",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "Arco Design Pro Vue"
+      }
+    ],
+    "storedBytes": 4432158,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:41.520Z"
+  },
+  "serve": {
+    "slug": "arco-design-pro-vue",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/arco-design/arco-design-pro-vue@27020819af653243b7b1a3e8e2481d6b3d798749/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "assets/login-banner.426fb77f.png": "arco-design-pro-vite/src/assets/images/login-banner.png"
+    }
+  }
+}

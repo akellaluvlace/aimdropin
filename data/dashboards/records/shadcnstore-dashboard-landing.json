@@ -1,0 +1,63 @@
+{
+  "record": {
+    "slug": "shadcnstore-dashboard-landing",
+    "title": "ShadcnStore Dashboard + Landing",
+    "description": "Shadcn/ui dashboard with two dashboards, mail, tasks, chat, calendar, users, pricing, FAQs, settings, auth and error pages, plus a landing page.",
+    "repo": "shadcnstore/shadcn-dashboard-landing-template",
+    "sha": "866423741fa4b62d5e9427603cb2174aedf00f80",
+    "license": {
+      "spdx": "MIT",
+      "path": "License.md",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template/blob/866423741fa4b62d5e9427603cb2174aedf00f80/License.md"
+    },
+    "author": "ShadcnStore",
+    "framework": "react",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "vite",
+      "react-router",
+      "tailwind",
+      "dark-mode",
+      "landing-page"
+    ],
+    "demoUrl": "https://shadcnstore.com/templates/dashboards/chronicle",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": true,
+    "pages": [
+      {
+        "path": "",
+        "title": "ShadcnStore Dashboard + Landing"
+      }
+    ],
+    "storedBytes": 2324547,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:19:37.123Z"
+  },
+  "serve": {
+    "slug": "shadcnstore-dashboard-landing",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": true,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/shadcnstore/shadcn-dashboard-landing-template@866423741fa4b62d5e9427603cb2174aedf00f80/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "apps.png": "nextjs-version/public/apps.png",
+      "customizer.png": "nextjs-version/public/customizer.png",
+      "dashboard-dark.png": "nextjs-version/public/dashboard-dark.png",
+      "dashboard-light.png": "nextjs-version/public/dashboard-light.png",
+      "dashboard.png": "nextjs-version/public/dashboard.png",
+      "favicon-dark.png": "nextjs-version/public/favicon-dark.png",
+      "favicon.png": "docs/public/favicon.png",
+      "feature-1-dark.png": "nextjs-version/public/feature-1-dark.png",
+      "feature-1-light.png": "nextjs-version/public/feature-1-light.png",
+      "feature-2-dark.png": "nextjs-version/public/feature-2-dark.png",
+      "feature-2-light.png": "nextjs-version/public/feature-2-light.png",
+      "hero-images-container.png": "nextjs-version/public/hero-images-container.png",
+      "og-image.png": "vite-version/public/og-image.png"
+    }
+  }
+}

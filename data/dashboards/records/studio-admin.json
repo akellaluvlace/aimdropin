@@ -1,0 +1,205 @@
+{
+  "record": {
+    "slug": "studio-admin",
+    "title": "Studio Admin",
+    "description": "Large shadcn/ui admin on Next.js 16: about 20 dashboards (CRM, finance, analytics, e-commerce, logistics...), mail, chat, kanban and auth.",
+    "repo": "arhamkhnz/next-shadcn-admin-dashboard",
+    "sha": "3d1d6f4abf4231b258c81da25da1ccbc38d9b954",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/arhamkhnz/next-shadcn-admin-dashboard/blob/3d1d6f4abf4231b258c81da25da1ccbc38d9b954/LICENSE"
+    },
+    "author": "Mohammed Arham Khan",
+    "framework": "next",
+    "ui": "shadcn",
+    "category": "Admin",
+    "tags": [
+      "shadcn",
+      "app-router",
+      "tailwind-4",
+      "dark-mode",
+      "theme-presets"
+    ],
+    "demoUrl": "https://studio-admin.arhamkhnz.com",
+    "quality": 5,
+    "entry": "dashboard/default/index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "dashboard/default/index.html",
+        "title": "Open Source Business Dashboard with shadcn/ui"
+      },
+      {
+        "path": "_not-found/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "404.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "404/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "auth/v1/login/index.html",
+        "title": "Open Source Split Screen Login Page with shadcn/ui"
+      },
+      {
+        "path": "auth/v1/register/index.html",
+        "title": "Open Source Split Screen Registration Page with shadcn/ui"
+      },
+      {
+        "path": "auth/v2/login/index.html",
+        "title": "Open Source Branded Login Page with shadcn/ui"
+      },
+      {
+        "path": "auth/v2/register/index.html",
+        "title": "Open Source Branded Registration Page with shadcn/ui"
+      },
+      {
+        "path": "chat/index.html",
+        "title": "Open Source Chat Interface with shadcn/ui"
+      },
+      {
+        "path": "dashboard/academy/index.html",
+        "title": "Open Source Education Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/analytics-v1/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "dashboard/analytics/index.html",
+        "title": "Open Source Analytics Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/calendar/index.html",
+        "title": "Open Source Calendar with shadcn/ui"
+      },
+      {
+        "path": "dashboard/chat/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "dashboard/coming-soon/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "dashboard/crm-v1/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "dashboard/crm/index.html",
+        "title": "Open Source CRM Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/default-v1/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "dashboard/ecommerce/index.html",
+        "title": "Open Source E-commerce Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/file-manager/index.html",
+        "title": "Open Source File Manager with shadcn/ui"
+      },
+      {
+        "path": "dashboard/finance-v1/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "dashboard/finance/index.html",
+        "title": "Open Source Finance Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "dashboard/infrastructure/index.html",
+        "title": "Open Source Infrastructure Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/invoice/index.html",
+        "title": "Open Source Invoice Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/kanban/index.html",
+        "title": "Open Source Kanban Board with shadcn/ui"
+      },
+      {
+        "path": "dashboard/logistics/index.html",
+        "title": "Open Source Logistics Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/mail/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "dashboard/patient-monitoring/index.html",
+        "title": "Open Source Patient Monitoring Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/productivity/index.html",
+        "title": "Open Source Productivity Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/products/index.html",
+        "title": "Open Source Product Management Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/profile/index.html",
+        "title": "Open Source Employee Profile Dashboard with shadcn/ui"
+      },
+      {
+        "path": "dashboard/roles/index.html",
+        "title": "Open Source Roles and Permissions UI with shadcn/ui"
+      },
+      {
+        "path": "dashboard/tasks/index.html",
+        "title": "Open Source Task Manager with shadcn/ui"
+      },
+      {
+        "path": "dashboard/users/index.html",
+        "title": "Open Source User Management Dashboard with shadcn/ui"
+      },
+      {
+        "path": "index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      },
+      {
+        "path": "mail/index.html",
+        "title": "Open Source Email Client with shadcn/ui"
+      },
+      {
+        "path": "unauthorized/index.html",
+        "title": "Studio Admin: Open Source shadcn/ui Admin Dashboard"
+      }
+    ],
+    "storedBytes": 17260012,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T18:49:11.671Z"
+  },
+  "serve": {
+    "slug": "studio-admin",
+    "kind": "build",
+    "entry": "dashboard/default/index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/arhamkhnz/next-shadcn-admin-dashboard@3d1d6f4abf4231b258c81da25da1ccbc38d9b954/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "_next/static/media/default-dark.0r5aey9jbk9zw.webp": "media/default/default-dark.webp",
+      "_next/static/media/default-light.198tqmtymz-gc.webp": "media/default/default-light.webp",
+      "_next/static/media/opengraph-image.1_smme06ouak5.png": "src/app/opengraph-image.png",
+      "_next/static/media/twitter-image.1_smme06ouak5.png": "src/app/opengraph-image.png",
+      "opengraph-image.png": "src/app/opengraph-image.png",
+      "robots.txt": "src/app/robots.txt",
+      "twitter-image.png": "src/app/opengraph-image.png"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-10T18:13:00.298Z",
+  "pagesChecked": 10,
+  "pagesOk": 10,
+  "failures": [],
+  "deadLinks": [],
+  "pages": [
+    {
+      "path": "html/index.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    },
+    {
+      "path": "html/authentication-login.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    },
+    {
+      "path": "html/authentication-register.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    },
+    {
+      "path": "html/icon-tabler.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    },
+    {
+      "path": "html/sample-page.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    },
+    {
+      "path": "html/ui-alerts.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    },
+    {
+      "path": "html/ui-buttons.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    },
+    {
+      "path": "html/ui-card.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    },
+    {
+      "path": "html/ui-forms.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    },
+    {
+      "path": "html/ui-typography.html",
+      "title": "Modernize Free Bootstrap Admin Template by Adminmart"
+    }
+  ]
+}

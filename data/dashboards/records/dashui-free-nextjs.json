@@ -1,0 +1,234 @@
+{
+  "record": {
+    "slug": "dashui-free-nextjs",
+    "title": "DashUI Next.js",
+    "description": "Bootstrap 5 admin on the Next.js 13 app router: dashboard, about 25 component pages, profile, settings, billing, pricing and auth.",
+    "repo": "codescandy/dashui-free-nextjs-admin-template",
+    "sha": "5a7fbfb0327ae075f18f201cea2ac651bd0e445d",
+    "license": {
+      "spdx": "MIT",
+      "path": "LICENSE",
+      "verifiedAt": "2026-11-10",
+      "url": "https://github.com/codescandy/dashui-free-nextjs-admin-template/blob/5a7fbfb0327ae075f18f201cea2ac651bd0e445d/LICENSE"
+    },
+    "author": "Codescandy",
+    "framework": "next",
+    "ui": "bootstrap",
+    "category": "Admin",
+    "tags": [
+      "bootstrap-5",
+      "react-bootstrap",
+      "app-router",
+      "apexcharts"
+    ],
+    "demoUrl": "https://dashui.codescandy.com/next-js-admin-dashboard-template.html",
+    "quality": 4,
+    "entry": "index.html",
+    "spa": false,
+    "pages": [
+      {
+        "path": "index.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "404.html",
+        "title": "404"
+      },
+      {
+        "path": "authentication/forget-password.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "authentication/sign-in.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "authentication/sign-up.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "changelog.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/accordions.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/alerts.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/badges.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/breadcrumbs.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/button-group.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/buttons.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/cards.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/carousels.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/close-button.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/collapse.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/dropdowns.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/list-group.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/modal.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/navbar.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/navs.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/offcanvas.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/overlays.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/pagination.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/popovers.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/progress.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/spinners.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/tables.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/toasts.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "components/tooltips.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "documentation.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "layout-vertical.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "pages/billing.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "pages/pricing.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "pages/profile.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      },
+      {
+        "path": "pages/settings.html",
+        "title": "Dash UI - Next.Js Admin Dashboard Template"
+      }
+    ],
+    "storedBytes": 6325998,
+    "thumb": null,
+    "check": null,
+    "importedAt": "2026-11-10T19:26:04.252Z"
+  },
+  "serve": {
+    "slug": "dashui-free-nextjs",
+    "kind": "build",
+    "entry": "index.html",
+    "spa": false,
+    "cdnBase": "https://cdn.jsdelivr.net/gh/codescandy/dashui-free-nextjs-admin-template@5a7fbfb0327ae075f18f201cea2ac651bd0e445d/",
+    "cdnRoot": null,
+    "cdnMap": {
+      "favicon.ico": "app/favicon.ico",
+      "fonts/feather-icons/feather.css": "public/fonts/feather-icons/feather.css",
+      "fonts/feather-icons/fonts/feather.ttf": "public/fonts/feather-icons/fonts/feather.ttf",
+      "fonts/feather-icons/fonts/feather.woff": "public/fonts/feather-icons/fonts/feather.woff",
+      "images/avatar/avatar-1.jpg": "public/images/avatar/avatar-1.jpg",
+      "images/avatar/avatar-10.jpg": "public/images/avatar/avatar-10.jpg",
+      "images/avatar/avatar-11.jpg": "public/images/avatar/avatar-11.jpg",
+      "images/avatar/avatar-12.jpg": "public/images/avatar/avatar-12.jpg",
+      "images/avatar/avatar-13.jpg": "public/images/avatar/avatar-13.jpg",
+      "images/avatar/avatar-14.jpg": "public/images/avatar/avatar-14.jpg",
+      "images/avatar/avatar-15.jpg": "public/images/avatar/avatar-15.jpg",
+      "images/avatar/avatar-16.jpg": "public/images/avatar/avatar-16.jpg",
+      "images/avatar/avatar-17.jpg": "public/images/avatar/avatar-17.jpg",
+      "images/avatar/avatar-18.jpg": "public/images/avatar/avatar-18.jpg",
+      "images/avatar/avatar-19.jpg": "public/images/avatar/avatar-19.jpg",
+      "images/avatar/avatar-2.jpg": "public/images/avatar/avatar-2.jpg",
+      "images/avatar/avatar-20.jpg": "public/images/avatar/avatar-20.jpg",
+      "images/avatar/avatar-21.jpg": "public/images/avatar/avatar-21.jpg",
+      "images/avatar/avatar-3.jpg": "public/images/avatar/avatar-3.jpg",
+      "images/avatar/avatar-4.jpg": "public/images/avatar/avatar-4.jpg",
+      "images/avatar/avatar-5.jpg": "public/images/avatar/avatar-5.jpg",
+      "images/avatar/avatar-6.jpg": "public/images/avatar/avatar-6.jpg",
+      "images/avatar/avatar-7.jpg": "public/images/avatar/avatar-7.jpg",
+      "images/avatar/avatar-8.jpg": "public/images/avatar/avatar-8.jpg",
+      "images/avatar/avatar-9.jpg": "public/images/avatar/avatar-9.jpg",
+      "images/avatar/avatar.jpg": "public/images/avatar/avatar.jpg",
+      "images/background/profile-cover.jpg": "public/images/background/profile-cover.jpg",
+      "images/background/slider-img-1.jpg": "public/images/background/slider-img-1.jpg",
+      "images/background/slider-img-2.jpg": "public/images/background/slider-img-2.jpg",
+      "images/background/slider-img-3.jpg": "public/images/background/slider-img-3.jpg",
+      "images/blog/blog-img-1.jpg": "public/images/blog/blog-img-1.jpg",
+      "images/brand/logo/brand-logo.png": "public/images/brand/logo/brand-logo.png",
+      "images/error/404-error-img.png": "public/images/error/404-error-img.png",
+      "images/favicon/favicon.ico": "app/favicon.ico",
+      "images/marketing/chrome.png": "public/images/marketing/chrome.png",
+      "images/marketing/edge.png": "public/images/marketing/edge.png",
+      "images/marketing/firefox.png": "public/images/marketing/firefox.png",
+      "images/marketing/hero-img.jpg": "public/images/marketing/hero-img.jpg",
+      "images/marketing/opera.png": "public/images/marketing/opera.png",
+      "images/marketing/safari.png": "public/images/marketing/safari.png",
+      "images/placeholder/4by3.jpg": "public/images/placeholder/4by3.jpg",
+      "images/placeholder/placeholder-img.jpg": "public/images/placeholder/placeholder-img.jpg",
+      "images/slide-img/slider-img-1.jpg": "public/images/background/slider-img-1.jpg",
+      "images/slide-img/slider-img-2.jpg": "public/images/background/slider-img-2.jpg",
+      "images/slide-img/slider-img-3.jpg": "public/images/background/slider-img-3.jpg"
+    }
+  }
+}

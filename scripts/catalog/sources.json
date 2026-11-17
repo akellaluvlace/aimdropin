@@ -1,0 +1,591 @@
+{
+  "_comment": "Approved catalog sources. A source is indexed ONLY if `license` holds an allowlisted SPDX id (see license.mjs), the URL of the LICENSE file that was read, and the date it was verified. Leave `license` null until someone has read the license; the indexer rejects it. Registry `url` is looked up from the shadcn directory when omitted. Tier 1 = landing pages and dashboards first, tier 2 = the component libraries. Set `excluded` (with the reason) for sources whose license was read and rejected, so they are not re-added without review. `licenseRepo` makes the indexer re-read that repo`s LICENSE text on every run.",
+  "sources": [
+    {
+      "name": "uiverse",
+      "kind": "html-collection",
+      "tier": 1,
+      "homepage": "https://uiverse.io",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/uiverse-io/galaxy/blob/main/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "hyperui",
+      "kind": "html-collection",
+      "tier": 1,
+      "homepage": "https://www.hyperui.dev",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/markmead/hyperui/blob/main/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "@shadcn",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "homepage": "https://ui.shadcn.com",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/{name}.json",
+      "indexUrl": "https://ui.shadcn.com/r/styles/new-york-v4/registry.json",
+      "bareInstall": true,
+      "includeUi": true,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "shadcn-ui/ui"
+    },
+    {
+      "name": "tailadmin-html",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "TailAdmin/tailadmin-free-tailwind-dashboard-template",
+      "purpose": "dashboard",
+      "title": "TailAdmin (HTML)",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/TailAdmin/tailadmin-free-tailwind-dashboard-template/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "tailadmin-next",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "TailAdmin/free-nextjs-admin-dashboard",
+      "purpose": "dashboard",
+      "title": "TailAdmin (Next.js)",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/TailAdmin/free-nextjs-admin-dashboard/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "tailadmin-react",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "TailAdmin/free-react-tailwind-admin-dashboard",
+      "purpose": "dashboard",
+      "title": "TailAdmin (React)",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/TailAdmin/free-react-tailwind-admin-dashboard/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "shadcn-admin",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "satnaing/shadcn-admin",
+      "purpose": "dashboard",
+      "title": "Shadcn Admin",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/satnaing/shadcn-admin/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "next-shadcn-dashboard-starter",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "Kiranism/next-shadcn-dashboard-starter",
+      "purpose": "dashboard",
+      "title": "Next Shadcn Dashboard Starter",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/Kiranism/next-shadcn-dashboard-starter/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "next-shadcn-admin-dashboard",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "arhamkhnz/next-shadcn-admin-dashboard",
+      "purpose": "dashboard",
+      "title": "Next Shadcn Admin Dashboard",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/arhamkhnz/next-shadcn-admin-dashboard/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "tremor-dashboard",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "tremorlabs/template-dashboard",
+      "purpose": "dashboard",
+      "title": "Tremor Dashboard",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/tremorlabs/template-dashboard/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "tremor-dashboard-oss",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "tremorlabs/template-dashboard-oss",
+      "purpose": "dashboard",
+      "title": "Tremor Dashboard OSS",
+      "license": {
+        "spdx": "Apache-2.0",
+        "url": "https://github.com/tremorlabs/template-dashboard-oss/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "flowbite-admin-dashboard",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "themesberg/flowbite-admin-dashboard",
+      "purpose": "dashboard",
+      "title": "Flowbite Admin Dashboard",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/themesberg/flowbite-admin-dashboard/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "horizon-ui",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "horizon-ui/horizon-tailwind-react",
+      "purpose": "dashboard",
+      "title": "Horizon UI",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/horizon-ui/horizon-tailwind-react/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "dashwind",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "robbins23/daisyui-admin-dashboard-template",
+      "purpose": "dashboard",
+      "title": "DashWind (daisyUI)",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/robbins23/daisyui-admin-dashboard-template/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "landwind",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "themesberg/landwind",
+      "purpose": "landing",
+      "title": "Landwind",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/themesberg/landwind/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "astrowind",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "arthelokyo/astrowind",
+      "purpose": "landing",
+      "title": "AstroWind",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/arthelokyo/astrowind/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "startup-nextjs",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "NextJSTemplates/startup-nextjs",
+      "purpose": "landing",
+      "title": "Startup (Next.js)",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/NextJSTemplates/startup-nextjs/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "play-nextjs",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "NextJSTemplates/play-nextjs",
+      "purpose": "landing",
+      "title": "Play (Next.js)",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/NextJSTemplates/play-nextjs/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "saas-starter",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "nextjs/saas-starter",
+      "purpose": "landing",
+      "title": "Next.js SaaS Starter",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/nextjs/saas-starter/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "nextjs-landing-starter",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "ixartz/Next-JS-Landing-Page-Starter-Template",
+      "purpose": "landing",
+      "title": "Next.js Landing Page Starter",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "nextly",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "web3templates/nextly-template",
+      "purpose": "landing",
+      "title": "Nextly",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/web3templates/nextly-template/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "notus-nextjs",
+      "kind": "github-template",
+      "tier": 1,
+      "repo": "creativetimofficial/notus-nextjs",
+      "purpose": "landing",
+      "title": "Notus (Next.js)",
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/creativetimofficial/notus-nextjs/blob/HEAD/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      }
+    },
+    {
+      "name": "@shadcn-space",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/shadcnspace/shadcnspace/blob/main/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": true
+      },
+      "licenseRepo": "shadcnspace/shadcnspace"
+    },
+    {
+      "name": "@uitripled",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/moumen-soliman/uitripled/blob/master/LICENSE.md",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "moumen-soliman/uitripled"
+    },
+    {
+      "name": "@saastro",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/saastro-io/saastro-ui/blob/main/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "saastro-io/saastro-ui"
+    },
+    {
+      "name": "@blockforge",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": null,
+      "excluded": "custom license forbids publishing blocks in another library or registry (https://blockforge.terravidhal.me/license)"
+    },
+    {
+      "name": "@intentui",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/intentui/intentui/blob/main/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "intentui/intentui"
+    },
+    {
+      "name": "@astryx",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/facebook/astryx/blob/main/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "facebook/astryx"
+    },
+    {
+      "name": "@soldevelo",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/SolDevelo/soldevelo-registry/blob/master/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "SolDevelo/soldevelo-registry"
+    },
+    {
+      "name": "@shadcn-dashboard",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": null,
+      "excluded": "site Free License forbids redistributing free assets as a block library; conflicts with repo MIT (https://shadcndashboard.dev/license)"
+    },
+    {
+      "name": "@tailark",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": null,
+      "excluded": "main registry is paid; free MIT blocks live in a separate @tailark-oss registry that was unreachable on 2026-10-29"
+    },
+    {
+      "name": "@efferd",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": null,
+      "excluded": "terms forbid redistributing a collection of blocks as a competing kit or marketplace (https://efferd.com/terms)"
+    },
+    {
+      "name": "@initium",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "style": "new-york",
+      "license": null,
+      "excluded": "commercial license forbids redistribution as a library or shadcn registry (https://initium.sh/legal/license-agreement)"
+    },
+    {
+      "name": "@beste-ui",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": null,
+      "excluded": "site license forbids redistribution on other UI libraries; conflicts with repo MIT (https://beste.dev/license)"
+    },
+    {
+      "name": "@shadcn-ui-blocks",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": null,
+      "excluded": "license forbids building a UI library or repository of its blocks (https://www.shadcn-ui-blocks.com/license)"
+    },
+    {
+      "name": "@shadcnblocks",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": null,
+      "excluded": "free blocks are MIT + Commons Clause (no redistribution of the components)"
+    },
+    {
+      "name": "@shadcnuikit",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": null,
+      "excluded": "site forbids collecting free items into a UI kit or library; conflicts with repo MIT (https://shadcnuikit.com/license)"
+    },
+    {
+      "name": "@uiable",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://uiable.com/legal/license",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": true
+      },
+      "licenseRepo": "codedthemes/uiable"
+    },
+    {
+      "name": "@shadcnstore",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://shadcnstore.com/license",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": true
+      },
+      "licenseRepo": "shadcnstore/shadcn-dashboard-landing-template"
+    },
+    {
+      "name": "@shadcncraft",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": null,
+      "excluded": "only explicitly marked items are MIT; license forbids competing UI libraries (https://shadcncraft.com/license)"
+    },
+    {
+      "name": "@shadcnui-blocks",
+      "kind": "shadcn-registry",
+      "tier": 1,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/akash3444/shadcn-ui-blocks/blob/main/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "akash3444/shadcn-ui-blocks"
+    },
+    {
+      "name": "@react-bits",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": null,
+      "excluded": "MIT + Commons Clause forbids redistributing the components (https://github.com/DavidHDev/react-bits/blob/main/LICENSE.md)"
+    },
+    {
+      "name": "@kokonutui",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/kokonut-labs/kokonutui/blob/main/LICENSE",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "kokonut-labs/kokonutui"
+    },
+    {
+      "name": "@cult-ui",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/nolly-studio/cult-ui/blob/main/LICENSE.md",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "nolly-studio/cult-ui"
+    },
+    {
+      "name": "@magicui",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/magicuidesign/magicui/blob/main/LICENSE.md",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "magicuidesign/magicui"
+    },
+    {
+      "name": "@aceternity",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": null,
+      "excluded": "no open-source license; terms reserve all rights and forbid redistribution (https://ui.aceternity.com/terms)"
+    },
+    {
+      "name": "@motion-primitives",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/ibelick/motion-primitives/blob/main/LICENCE.md",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "ibelick/motion-primitives"
+    },
+    {
+      "name": "@animate-ui",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": null,
+      "excluded": "MIT + Commons Clause forbids redistributing the components (https://github.com/imskyleen/animate-ui/blob/main/LICENSE.md)"
+    },
+    {
+      "name": "@skiper-ui",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": null,
+      "excluded": "terms grant personal use only and forbid republishing (https://skiper-ui.com/docs/terms-of-service)"
+    },
+    {
+      "name": "@eldoraui",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://github.com/karthikmudunuri/eldoraui/blob/main/LICENSE.md",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": false
+      },
+      "licenseRepo": "karthikmudunuri/eldoraui"
+    },
+    {
+      "name": "@hextaui",
+      "kind": "shadcn-registry",
+      "tier": 2,
+      "license": {
+        "spdx": "MIT",
+        "url": "https://hextaui.com/legal/license",
+        "verifiedAt": "2026-10-29",
+        "freeOnly": true
+      },
+      "licenseRepo": "preetsuthar17/hextaui"
+    }
+  ]
+}
